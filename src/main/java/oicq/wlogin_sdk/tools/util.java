@@ -1,40 +1,23 @@
 package oicq.wlogin_sdk.tools;
 
-import android.annotation.SuppressLint;
-import android.annotation.TargetApi;
 import android.content.Context;
-import android.content.SharedPreferences.Editor;
-import android.net.Proxy;
-import android.net.wifi.WifiInfo;
-import android.net.wifi.WifiManager;
-import android.os.Build.VERSION;
 import android.os.Bundle;
-import android.os.Environment;
-import android.os.Process;
-import android.text.TextUtils;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.security.Key;
 import java.security.KeyPair;
 import java.security.SecureRandom;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Random;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.util.zip.DeflaterOutputStream;
 import java.util.zip.InflaterInputStream;
 
 import javax.crypto.Cipher;
 
-import oicq.wlogin_sdk.request.t;
-
-@SuppressLint("WrongConstant")
 public class util {
     public static final int ASYN_CHECK_IMAGE = 2;
     public static final int ASYN_CHECK_SMS = 4;
@@ -99,7 +82,6 @@ public class util {
     public static final int MAX_CONTENT_SIZE = 25600;
     public static final int MAX_FILE_SIZE = 524288;
     public static int MAX_NAME_LEN = 128;
-    @SuppressLint({"NewApi"})
     private static int MODE_MULTI_PROCESS = 0;
     public static final String SDK_VERSION = "6.0.0.2342";
     public static final int SSO_VERSION = 5;
@@ -121,34 +103,12 @@ public class util {
     public static boolean loadEncryptSo = true;
     public static String logContent = "";
 
-    public static class a {
-        public static String a(Context context, String str) {
-            String str2 = "";
-            try {
-                Class loadClass = context.getClassLoader().loadClass("android.os.SystemProperties");
-                return (String) loadClass.getMethod("get", new Class[]{String.class}).invoke(loadClass, new Object[]{new String(str)});
-            } catch (IllegalArgumentException e) {
-                throw e;
-            } catch (Exception e2) {
-                return "";
-            }
-        }
-    }
-
-    static {
-        int i = 0;
-        if (VERSION.SDK_INT > 9) {
-            i = 4;
-        }
-        MODE_MULTI_PROCESS = i;
-    }
-
 //    public static byte[] get_os_type() {
 //        return XpConfig.DEFAULT_TERMINAL.getBytes();
 //    }
 
     public static byte[] get_os_version() {
-        return VERSION.RELEASE.getBytes();
+        throw new RuntimeException("Stub!");
     }
 
     public static void int8_to_buf(byte[] bArr, int i, int i2) {
@@ -238,7 +198,7 @@ public class util {
     }
 
     public static long get_server_cur_time() {
-        return t.g();
+        throw new RuntimeException("Stub!");
     }
 
     public static Boolean check_uin_account(String str) {
@@ -302,90 +262,33 @@ public class util {
     }
 
     public static byte[] string_to_buf(String str) {
-        int i = 0;
-        if (str == null) {
-            return new byte[0];
-        }
-        byte[] bArr = new byte[(str.length() / 2)];
-        while (i < str.length() / 2) {
-            bArr[i] = (byte) ((get_char((byte) str.charAt(i * 2)) << 4) + get_char((byte) str.charAt((i * 2) + 1)));
-            i++;
-        }
-        return bArr;
+        throw new RuntimeException("Stub!");
     }
 
     public static byte[] get_mac_addr(Context context) {
-        String macAddr = getMacAddr(context);
-        if (TextUtils.isEmpty(macAddr)) {
-            return new byte[0];
-        }
-        return macAddr.getBytes();
+        throw new RuntimeException("Stub!");
     }
 
     public static String getMacAddr(Context context) {
-        try {
-            WifiManager wifiManager = (WifiManager) context.getSystemService("wifi");
-            if (wifiManager != null) {
-                WifiInfo connectionInfo = wifiManager.getConnectionInfo();
-                if (connectionInfo != null) {
-                    String macAddress = connectionInfo.getMacAddress();
-                    if (!TextUtils.isEmpty(macAddress)) {
-                        return macAddress;
-                    }
-                }
-            }
-        } catch (Throwable th) {
-        }
         throw new RuntimeException("Stub!");
     }
 
     public static byte[] get_bssid_addr(Context context) {
-        try {
-            WifiManager wifiManager = (WifiManager) context.getSystemService("wifi");
-            if (wifiManager != null) {
-                WifiInfo connectionInfo = wifiManager.getConnectionInfo();
-                if (connectionInfo != null) {
-                    String bssid = connectionInfo.getBSSID();
-                    if (bssid != null) {
-                        return bssid.toLowerCase().getBytes();
-                    }
-                }
-            }
-        } catch (Throwable th) {
-        }
-        return new byte[0];
+        throw new RuntimeException("Stub!");
     }
 
     public static byte[] get_ssid_addr(Context context) {
-        try {
-            WifiManager wifiManager = (WifiManager) context.getSystemService("wifi");
-            if (wifiManager != null) {
-                WifiInfo connectionInfo = wifiManager.getConnectionInfo();
-                if (connectionInfo != null) {
-                    String ssid = connectionInfo.getSSID();
-                    if (ssid != null) {
-                        return ssid.getBytes();
-                    }
-                }
-            }
-        } catch (Throwable th) {
-        }
-        return new byte[0];
+        throw new RuntimeException("Stub!");
     }
 
     public static byte[] get_imei_id(Context context) {
-        String imei = getImei(context);
-        if (TextUtils.isEmpty(imei)) {
-            return new byte[0];
-        }
-        return imei.getBytes();
+        throw new RuntimeException("Stub!");
     }
 
     public static String getImei(Context context) {
         throw new RuntimeException("Stub!");
     }
 
-    @SuppressLint({"NewApi"})
     public static byte[] get_android_id(Context context) {
         throw new RuntimeException("Stub!");
     }
@@ -431,76 +334,39 @@ public class util {
     }
 
     public static void set_server_host2(Context context, byte[] bArr) {
-        if (context != null && bArr != null && bArr.length > 0) {
-            Editor edit = context.getSharedPreferences("WLOGIN_DEVICE_INFO", 0).edit();
-            edit.putString("host2", new String(bArr));
-            edit.commit();
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static byte[] get_server_host1(Context context) {
-        try {
-            return context.getSharedPreferences("WLOGIN_DEVICE_INFO", 0).getString("host1", "").getBytes();
-        } catch (Throwable th) {
-            return new byte[0];
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static byte[] get_server_host2(Context context) {
-        try {
-            return context.getSharedPreferences("WLOGIN_DEVICE_INFO", 0).getString("host2", "").getBytes();
-        } catch (Throwable th) {
-            return new byte[0];
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static void set_wap_server_host1(Context context, byte[] bArr) {
-        if (context != null && bArr != null && bArr.length > 0) {
-            Editor edit = context.getSharedPreferences("WLOGIN_DEVICE_INFO", 0).edit();
-            edit.putString("wap-host1", new String(bArr));
-            edit.commit();
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static void set_wap_server_host2(Context context, byte[] bArr) {
-        if (context != null && bArr != null && bArr.length > 0) {
-            Editor edit = context.getSharedPreferences("WLOGIN_DEVICE_INFO", 0).edit();
-            edit.putString("wap-host2", new String(bArr));
-            edit.commit();
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static byte[] get_wap_server_host1(Context context) {
-        try {
-            return context.getSharedPreferences("WLOGIN_DEVICE_INFO", 0).getString("wap-host1", "").getBytes();
-        } catch (Throwable th) {
-            return new byte[0];
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static byte[] get_wap_server_host2(Context context) {
-        try {
-            return context.getSharedPreferences("WLOGIN_DEVICE_INFO", 0).getString("wap-host2", "").getBytes();
-        } catch (Throwable th) {
-            return new byte[0];
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static void set_net_retry_type(Context context, int i) {
-        if (context != null) {
-            Editor edit = context.getSharedPreferences("WLOGIN_DEVICE_INFO", 0).edit();
-            edit.putInt("netretry_type", i);
-            edit.commit();
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static int get_net_retry_type(Context context) {
-        int i = 0;
-        try {
-            return context.getSharedPreferences("WLOGIN_DEVICE_INFO", 0).getInt("netretry_type", 0);
-        } catch (Throwable th) {
-            return i;
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static boolean is_wap_retry(Context context) {
@@ -526,82 +392,36 @@ public class util {
         }
     }
 
-    @SuppressLint({"NewApi"})
-    @TargetApi(4)
     public static String get_proxy_ip() {
-        if (VERSION.SDK_INT < HONEYCOMB) {
-            return Proxy.getDefaultHost();
-        }
-        return System.getProperty("http.proxyHost");
+        throw new RuntimeException("Stub!");
     }
 
-    @SuppressLint({"NewApi", "NewApi"})
-    @TargetApi(4)
     public static int get_proxy_port() {
-        if (VERSION.SDK_INT < HONEYCOMB) {
-            return Proxy.getDefaultPort();
-        }
-        try {
-            return Integer.parseInt(System.getProperty("http.proxyPort"));
-        } catch (NumberFormatException e) {
-            e.printStackTrace();
-            return -1;
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static void set_ksid(Context context, byte[] bArr) {
-        if (context != null && bArr != null && bArr.length > 0) {
-            byte[] bArr2 = get_ksid(context);
-            if (bArr2 == null || bArr2.length <= 0) {
-                Editor edit = context.getSharedPreferences("WLOGIN_DEVICE_INFO", 0).edit();
-                edit.putString("ksid", buf_to_string(bArr));
-                edit.commit();
-            }
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static byte[] get_ksid(Context context) {
-        byte[] bArr = new byte[0];
-        try {
-            return string_to_buf(context.getSharedPreferences("WLOGIN_DEVICE_INFO", 0).getString("ksid", new String("")));
-        } catch (Throwable th) {
-            return bArr;
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static void save_imei(Context context, byte[] bArr) {
-        if (context != null && bArr != null && bArr.length > 0) {
-            Editor edit = context.getSharedPreferences("WLOGIN_DEVICE_INFO", 0).edit();
-            edit.putString("imei", buf_to_string(bArr));
-            edit.commit();
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static byte[] get_saved_imei(Context context) {
-        byte[] bArr = new byte[0];
-        try {
-            return string_to_buf(context.getSharedPreferences("WLOGIN_DEVICE_INFO", 0).getString("imei", new String("")));
-        } catch (Throwable th) {
-            printThrowable(th, "");
-            return bArr;
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static void save_cur_flag(Context context, int i) {
-        if (context != null) {
-            Editor edit = context.getSharedPreferences("WLOGIN_DEVICE_INFO", 0).edit();
-            edit.putInt("last_flag", i);
-            edit.commit();
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static int get_last_flag(Context context) {
-        int i = 0;
-        try {
-            return context.getSharedPreferences("WLOGIN_DEVICE_INFO", 0).getInt("last_flag", 0);
-        } catch (Throwable th) {
-            return i;
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static void save_cur_mac(Context context, byte[] bArr) {
@@ -750,7 +570,7 @@ public class util {
     }
 
     public static String getCurrentPid() {
-        return "[" + Process.myPid() + "]";
+        throw new RuntimeException("Stub!");
     }
 
     public static String getSvnVersion() {
@@ -765,21 +585,11 @@ public class util {
     }
 
     public static boolean ExistSDCard() {
-        if (Environment.getExternalStorageState().equals("mounted")) {
-            return true;
-        }
-        return false;
+        throw new RuntimeException("Stub!");
     }
 
     public static String getCurrentDay() {
-        try {
-            if (DAYFORMAT == null) {
-                DAYFORMAT = new SimpleDateFormat("yyyyMMdd");
-            }
-            return DAYFORMAT.format(new Date());
-        } catch (Exception e) {
-            return null;
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static boolean isFileExist(String str) {
@@ -1016,90 +826,20 @@ public class util {
         throw new RuntimeException("Stub!");
     }
 
-    /* JADX WARNING: Removed duplicated region for block: B:28:0x008f A:{SYNTHETIC, Splitter:B:28:0x008f} */
-    /* JADX WARNING: Removed duplicated region for block: B:32:0x0095  */
-    /* JADX WARNING: Removed duplicated region for block: B:28:0x008f A:{SYNTHETIC, Splitter:B:28:0x008f} */
-    /* JADX WARNING: Removed duplicated region for block: B:32:0x0095  */
-    /* JADX WARNING: Removed duplicated region for block: B:28:0x008f A:{SYNTHETIC, Splitter:B:28:0x008f} */
-    /* JADX WARNING: Removed duplicated region for block: B:32:0x0095  */
-    /* JADX WARNING: Removed duplicated region for block: B:28:0x008f A:{SYNTHETIC, Splitter:B:28:0x008f} */
-    /* JADX WARNING: Removed duplicated region for block: B:32:0x0095  */
     public static boolean loadLibrary(String r6, Context r7) {
         throw new RuntimeException("Stub!");
     }
 
     public static Bundle packBundle(byte[][] bArr) {
-        Bundle bundle = new Bundle();
-        if (bArr != null && bArr.length > 0) {
-            bundle.putInt("len", bArr.length);
-            for (int i = 0; i < bArr.length; i++) {
-                bundle.putByteArray(String.valueOf(i), bArr[i]);
-            }
-        }
-        if (bundle.isEmpty()) {
-            return null;
-        }
-        return bundle;
+        throw new RuntimeException("Stub!");
     }
 
     public static byte[][] unpackBundle(Bundle bundle) {
-        int i = 0;
-        if (bundle == null) {
-            return (byte[][]) null;
-        }
-        int i2 = bundle.getInt("len");
-        byte[][] bArr = (byte[][]) Array.newInstance(Byte.TYPE, new int[]{i2, 0});
-        while (i < i2) {
-            bArr[i] = bundle.getByteArray(String.valueOf(i));
-            i++;
-        }
-        return bArr;
+        throw new RuntimeException("Stub!");
     }
 
     public static String getChannelId(Context context, String str) {
-        int i = 0;
-        if (str == null || str.length() == 0) {
-            str = context.getPackageName();
-        }
-        String str2 = "";
-        String str3 = "";
-        try {
-            str3 = context.getPackageManager().getPackageInfo(str, 0).applicationInfo.sourceDir;
-            LOGI("pkg " + str + " path " + (str3 == null ? "null" : str3), "");
-            if (!(str3 == null || str3.length() == 0)) {
-                long j;
-                byte[] bArr = new byte[]{(byte) 80, (byte) 75, (byte) 5, (byte) 6};
-                FileInputStream fileInputStream = new FileInputStream(str3);
-                long available = (long) fileInputStream.available();
-                byte[] bArr2 = new byte[((int) (available - fileInputStream.skip(available - 256)))];
-                fileInputStream.read(bArr2);
-                fileInputStream.close();
-                while (i < bArr2.length - 4) {
-                    if (bArr2[i] == bArr[0] && bArr2[i + 1] == bArr[1] && bArr2[i + 2] == bArr[2] && bArr2[i + 3] == bArr[3]) {
-                        j = (long) i;
-                        break;
-                    }
-                    i++;
-                }
-                j = -1;
-                if (j != -1) {
-                    i = ((int) j) + 20;
-                    i = (bArr2[i + 1] << 8) + bArr2[i];
-                    if (i != 0) {
-                        byte[] bArr3 = new byte[i];
-                        System.arraycopy(bArr2, (int) (j + 20), bArr3, 0, i);
-                        Matcher matcher = Pattern.compile("channelId=(\\S+)").matcher(new String(bArr3));
-                        if (matcher.find()) {
-                            str2 = matcher.group(1);
-                        }
-                        LOGI("found comment " + new String(bArr3) + " channelId:" + str2, "");
-                    }
-                }
-            }
-        } catch (Exception e) {
-            printException(e, "");
-        }
-        return str2;
+        throw new RuntimeException("Stub!");
     }
 
     public static boolean shouldKick(int i) {
@@ -1111,20 +851,11 @@ public class util {
     }
 
     public static byte[] getRequestInitTime() {
-        byte[] bArr = new byte[4];
-        int64_to_buf32(bArr, 0, (System.currentTimeMillis() / 1000) + t.ac);
-        return bArr;
+        throw new RuntimeException("Stub!");
     }
 
     public static String getLanguage(Context context) {
-        String country = context.getResources().getConfiguration().locale.getCountry();
-        if (country.equals("CN")) {
-            return "CN";
-        }
-        if (country.equals("TW")) {
-            return "TW";
-        }
-        return "EN";
+        throw new RuntimeException("Stub!");
     }
 
     public static String getMaskString(String str, int i, int i2) {

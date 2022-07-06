@@ -22,27 +22,23 @@ public class AppActivity extends Activity {
     }
 
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
         throw new RuntimeException("Stub!");
     }
 
     protected void onPostCreate(Bundle savedInstanceState) {
-        super.onPostCreate(savedInstanceState);
         throw new RuntimeException("Stub!");
     }
 
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
         throw new RuntimeException("Stub!");
     }
 
     protected void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
         throw new RuntimeException("Stub!");
     }
 
     protected void onDestroy() {
-        super.onDestroy();
+        throw new RuntimeException("Stub!");
     }
 
     public void realOnCreate() {
@@ -58,7 +54,6 @@ public class AppActivity extends Activity {
     }
 
     protected void onStart() {
-        super.onStart();
         throw new RuntimeException("Stub!");
     }
 
@@ -67,16 +62,14 @@ public class AppActivity extends Activity {
     }
 
     protected boolean doDispatchKeyEvent(KeyEvent event) {
-        return super.dispatchKeyEvent(event);
+        throw new RuntimeException("Stub!");
     }
 
     protected void onStop() {
-        super.onStop();
         throw new RuntimeException("Stub!");
     }
 
     protected void onResume() {
-        super.onResume();
         throw new RuntimeException("Stub!");
     }
 
@@ -101,7 +94,6 @@ public class AppActivity extends Activity {
     }
 
     protected void onPause() {
-        super.onPause();
         throw new RuntimeException("Stub!");
     }
 
@@ -112,7 +104,7 @@ public class AppActivity extends Activity {
     }
 
     protected void onLogout(Constants.LogoutReason reason) {
-        finish();
+        throw new RuntimeException("Stub!");
     }
 
     protected boolean doOnCreate(Bundle savedInstanceState) {
@@ -148,12 +140,11 @@ public class AppActivity extends Activity {
     }
 
     protected void doOnBackPressed() {
-        super.onBackPressed();
         throw new RuntimeException("Stub!");
     }
 
     protected boolean doOnKeyDown(int keyCode, KeyEvent event) {
-        return super.onKeyDown(keyCode, event);
+        throw new RuntimeException("Stub!");
     }
 
     protected void doOnUserLeaveHint() {
@@ -178,7 +169,7 @@ public class AppActivity extends Activity {
     }
 
     public void superFinish() {
-        super.finish();
+        throw new RuntimeException("Stub!");
     }
 
     public boolean showPreview() {

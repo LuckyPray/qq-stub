@@ -14,11 +14,7 @@ public class BaseActivity extends Activity {
     }
 
     protected void onCreate(Bundle savedInstanceState) {
-        onCreateNoRuntime(savedInstanceState);
-        if (!isLatecyWaitRuntime()) {
-            waitAppRuntime();
-        }
-        super.onCreate(savedInstanceState);
+        throw new RuntimeException("Stub!");
     }
 
     protected boolean isLatecyWaitRuntime() {
@@ -26,10 +22,6 @@ public class BaseActivity extends Activity {
     }
 
     protected void onCreateNoRuntime(Bundle savedInstanceState) {
-        this.mIsShadow = isShadow();
-        if (!this.mIsShadow) {
-            super.onCreate(savedInstanceState);
-        }
         throw new RuntimeException("Stub!");
     }
 
@@ -42,45 +34,22 @@ public class BaseActivity extends Activity {
     }
 
     protected void onStart() {
-        super.onStart();
         throw new RuntimeException("Stub!");
     }
 
     protected void onStop() {
-        if (!this.mIsShadow) {
-            super.onStop();
-        }
         throw new RuntimeException("Stub!");
     }
 
     protected void onResume() {
-        if (!this.mIsShadow) {
-            super.onResume();
-        }
-        int i = sResumeCount + 1;
-        sResumeCount = i;
-        if (i > 0 && this.app != null) {
-            this.app.isBackground_Pause = false;
-        }
-        this.isResume = true;
+        throw new RuntimeException("Stub!");
     }
 
     protected void onPause() {
-        if (!this.mIsShadow) {
-            super.onPause();
-        }
-        int i = sResumeCount - 1;
-        sResumeCount = i;
-        if (i <= 0 && this.app != null) {
-            this.app.isBackground_Pause = true;
-        }
-        this.isResume = false;
+        throw new RuntimeException("Stub!");
     }
 
     protected void onDestroy() {
-        if (!this.mIsShadow) {
-            super.onDestroy();
-        }
         throw new RuntimeException("Stub!");
     }
 
@@ -89,7 +58,6 @@ public class BaseActivity extends Activity {
     }
 
     protected void finalize() throws Throwable {
-        super.finalize();
         throw new RuntimeException("Stub!");
     }
 
@@ -100,11 +68,11 @@ public class BaseActivity extends Activity {
     }
 
     protected void onLogout(Constants.LogoutReason reason) {
-        finish();
+        throw new RuntimeException("Stub!");
     }
 
     public final void superFinish() {
-        super.finish();
+        throw new RuntimeException("Stub!");
     }
 
     public final boolean isResume() {

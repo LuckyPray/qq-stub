@@ -66,17 +66,11 @@ public class WFastLoginInfo implements Parcelable, Serializable {
     }
 
     public void writeToParcel(Parcel parcel, int i) {
-        parcel.writeByteArray(this._outA1);
-        parcel.writeString(this.iconUrl);
-        parcel.writeString(this.adUrl);
-        parcel.writeString(this.profileUrl);
+        throw new RuntimeException("Stub!");
     }
 
     public void readFromParcel(Parcel parcel) {
-        this._outA1 = parcel.createByteArray();
-        this.iconUrl = parcel.readString();
-        this.adUrl = parcel.readString();
-        this.profileUrl = parcel.readString();
+        throw new RuntimeException("Stub!");
     }
 
     private WFastLoginInfo(Parcel parcel) {

@@ -82,27 +82,7 @@ public class Ticket implements Parcelable {
     }
 
     private String __getPskey(String str, Map<String, byte[]> map, Map<String, Long> map2) {
-        util.LOGI("__getPskey get domain " + str + " pskey or pt4token", "");
-        if (map == null) {
-            return null;
-        }
-        byte[] bArr = (byte[]) map.get(str);
-        if (bArr == null) {
-            util.LOGI("__getPskey get domain " + str + " pskey or pt4token null", "");
-            return null;
-        }
-        if (map2 != null) {
-            Long l = (Long) map2.get(str);
-            if (l != null && l.longValue() <= t.f()) {
-                util.LOGI("__getPskey delete domain " + str + " expired pskey or pt4token expire time " + l, "");
-                map2.remove(str);
-                map.remove(str);
-                return null;
-            }
-        }
-        String str2 = new String(bArr);
-        util.LOGI("__getPskey get domain " + str + " pskey or pt4token len " + str2.length() + " " + str2.substring(0, 5) + "***" + str2.substring(str2.length() - 5, str2.length()), "");
-        return str2;
+        throw new RuntimeException("Stub!");
     }
 
     public String getPSkey(String str) {
@@ -145,57 +125,7 @@ public class Ticket implements Parcelable {
     }
 
     protected static void parsePsBuf(byte[] bArr, long j, Map<String, byte[]> map, Map<String, Long> map2, boolean z) {
-        util.LOGI("ps_buf " + (bArr == null ? "null" : Integer.valueOf(bArr.length)), "");
-        if (bArr != null && bArr.length > 2) {
-            long f = t.f();
-            int buf_to_int16 = util.buf_to_int16(bArr, 0);
-            int i = 2;
-            util.LOGI("domainCnt " + buf_to_int16, "");
-            int i2 = 0;
-            while (i2 < buf_to_int16 && bArr.length >= i + 2) {
-                int buf_to_int162 = util.buf_to_int16(bArr, i);
-                int i3 = i + 2;
-                if (bArr.length >= i3 + buf_to_int162) {
-                    String str = new String(bArr, i3, buf_to_int162);
-                    buf_to_int162 += i3;
-                    if (bArr.length >= buf_to_int162 + 2) {
-                        int buf_to_int163 = util.buf_to_int16(bArr, buf_to_int162);
-                        buf_to_int162 += 2;
-                        if (bArr.length >= buf_to_int162 + buf_to_int163) {
-                            long j2;
-                            byte[] bArr2 = new byte[buf_to_int163];
-                            System.arraycopy(bArr, buf_to_int162, bArr2, 0, buf_to_int163);
-                            i = buf_to_int162 + buf_to_int163;
-//                            if (bArr.length <= i + 2 || util.buf_to_int16(bArr, i) != 65535) {
-//                                j2 = TbsDownloadConfig.DEFAULT_RETRY_INTERVAL_SEC + j;
-//                            } else {
-//                                i += 2;
-//                                j2 = util.buf_to_int64(bArr, i);
-//                                i += 8;
-//                            }
-//                            if (j2 > f) {
-//                                map.put(str, bArr2);
-//                                map2.put(str, Long.valueOf(j2));
-//                            }
-                            StringBuilder stringBuilder = new StringBuilder();
-                            stringBuilder.append(str);
-                            if (z) {
-                                stringBuilder.append(" pskey:");
-                            } else {
-                                stringBuilder.append(" pt4Token:");
-                            }
-//                            stringBuilder.append(buf_to_int163).append(",expire: ").append(j2);
-                            util.LOGI(stringBuilder.toString(), "");
-                            i2++;
-                        } else {
-                            return;
-                        }
-                    }
-                    return;
-                }
-                return;
-            }
-        }
+        throw new RuntimeException("Stub!");
     }
 
     protected static byte[] packPsBuf(Map<String, byte[]> map, long j, Map<String, Long> map2) {
@@ -227,23 +157,11 @@ public class Ticket implements Parcelable {
     }
 
     public void writeToParcel(Parcel parcel, int i) {
-        parcel.writeInt(this._type);
-        parcel.writeByteArray(this._sig);
-        parcel.writeByteArray(this._sig_key);
-        parcel.writeLong(this._create_time);
-        parcel.writeLong(this._expire_time);
-        parcel.writeMap(this._pskey_map);
-        parcel.writeMap(this._pt4token_map);
+        throw new RuntimeException("Stub!");
     }
 
     public void readFromParcel(Parcel parcel) {
-        this._type = parcel.readInt();
-        this._sig = parcel.createByteArray();
-        this._sig_key = parcel.createByteArray();
-        this._create_time = parcel.readLong();
-        this._expire_time = parcel.readLong();
-        this._pskey_map = parcel.readHashMap(Map.class.getClassLoader());
-        this._pt4token_map = parcel.readHashMap(Map.class.getClassLoader());
+        throw new RuntimeException("Stub!");
     }
 
     private Ticket(Parcel parcel) {
@@ -255,24 +173,11 @@ public class Ticket implements Parcelable {
     }
 
     public static boolean isPskeyStorageExpired(long j) {
-        long f = t.f();
-        util.LOGI("isPskeyStorageExpired expireTime:" + j + "|current: " + f, "");
-//        if (f > TbsDownloadConfig.DEFAULT_RETRY_INTERVAL_SEC + j) {
-//            return true;
-//        }
-        return false;
+        throw new RuntimeException("Stub!");
     }
 
     public static boolean isTicketExpired(long j) {
-        long f = t.f();
-        if (f > j) {
-            return true;
-        }
-//        if (j <= TbsDownloadConfig.DEFAULT_RETRY_INTERVAL_SEC + f) {
-//            return false;
-//        }
-//        util.LOGI("time for system may be  modified manually expireTime " + j + " current " + f, "");
-        return true;
+        throw new RuntimeException("Stub!");
     }
 
     public static boolean isSkeyExpired(long j) {

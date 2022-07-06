@@ -1,6 +1,5 @@
 package com.tencent.mobileqq.app;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -18,7 +17,6 @@ public class BaseActivity extends AppActivity {
 
     public QQAppInterface app;
 
-    @SuppressLint({"SdCardPath"})
     public boolean doDispatchKeyEvent(KeyEvent keyEvent) {
         throw new RuntimeException("Stub!");
     }
@@ -64,7 +62,7 @@ public class BaseActivity extends AppActivity {
     }
 
     public static boolean isMoveTaskToBack(Context context, Intent intent) {
-        return intent.getComponent() == null || !intent.getComponent().getPackageName().equals(context.getPackageName());
+        throw new RuntimeException("Stub!");
     }
 
     @Deprecated

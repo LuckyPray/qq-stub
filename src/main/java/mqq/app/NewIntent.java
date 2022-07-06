@@ -30,7 +30,7 @@ public class NewIntent extends Intent {
     boolean withouLogin;
 
     public NewIntent(Context packageContext, Class<? extends Servlet> cls) {
-        super(packageContext, cls);
+        throw new RuntimeException("Stub!");
     }
 
     public BusinessObserver getObserver() {

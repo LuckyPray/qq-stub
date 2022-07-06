@@ -1,18 +1,10 @@
 package com.tencent.mobileqq.msf.sdk;
 
-import android.annotation.SuppressLint;
-import android.app.ActivityManager;
-import android.app.ActivityManager.RunningAppProcessInfo;
-import android.app.ActivityManager.RunningTaskInfo;
 import android.content.Context;
-import android.os.PowerManager;
-import android.os.Process;
-import android.text.TextUtils;
 
 import com.tencent.qphone.base.remote.FromServiceMsg;
 import com.tencent.qphone.base.remote.SimpleAccount;
 import com.tencent.qphone.base.remote.ToServiceMsg;
-import com.tencent.qphone.base.util.BaseApplication;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -23,11 +15,9 @@ import java.io.StringWriter;
 import java.net.UnknownHostException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
-@SuppressLint("WrongConstant")
 public class MsfSdkUtils {
     private static final String APP_FILE_PATH = "/data/data/com.tencent.mobileqq/files";
     public static final int MODE_ERR_MANU = -10003;
@@ -44,70 +34,19 @@ public class MsfSdkUtils {
     public static final SimpleDateFormat timeFormatter = new SimpleDateFormat("yy-MM-dd HH:mm:ss");
 
     public static boolean isTopActivity(Context context) {
-        if (context == null) {
-            return false;
-        }
-        try {
-            String packageName = context.getPackageName();
-            List runningTasks = ((ActivityManager) context.getSystemService("activity")).getRunningTasks(1);
-            if (runningTasks == null || runningTasks.size() <= 0 || !((RunningTaskInfo) runningTasks.get(0)).topActivity.getPackageName().equals(packageName)) {
-                return false;
-            }
-            return true;
-        } catch (Exception e) {
-            e.printStackTrace();
-            return false;
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static boolean isScreenOn(Context context) {
-        if (context == null) {
-            return false;
-        }
-        try {
-            PowerManager powerManager = (PowerManager) context.getSystemService("power");
-            return ((Boolean) powerManager.getClass().getMethod("isScreenOn", new Class[0]).invoke(powerManager, (Object[]) null)).booleanValue();
-        } catch (Throwable th) {
-//            QLog.d(tag, 1, "e = " + th.toString());
-            return true;
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static boolean isExistMsfProcess(Context context) {
-        if (context == null) {
-            return false;
-        }
-        ActivityManager activityManager = (ActivityManager) context.getSystemService("activity");
-        if (activityManager != null) {
-            List<RunningAppProcessInfo> runningAppProcesses = activityManager.getRunningAppProcesses();
-            if (runningAppProcesses != null) {
-                for (RunningAppProcessInfo runningAppProcessInfo : runningAppProcesses) {
-                    if (runningAppProcessInfo.processName.equals("com.tencent.mobileqq:MSF")) {
-                        return true;
-                    }
-                }
-            }
-        }
-        return false;
+        throw new RuntimeException("Stub!");
     }
 
     public static String getProcessName(Context context) {
-        if (context == null) {
-            return "unknown";
-        }
-        try {
-            List<RunningAppProcessInfo> runningAppProcesses = ((ActivityManager) context.getSystemService("activity")).getRunningAppProcesses();
-            if (runningAppProcesses != null) {
-                for (RunningAppProcessInfo runningAppProcessInfo : runningAppProcesses) {
-                    if (runningAppProcessInfo != null && runningAppProcessInfo.pid == Process.myPid()) {
-                        return runningAppProcessInfo.processName;
-                    }
-                }
-            }
-        } catch (Exception e) {
-//            QLog.d(tag, 1, "getProcessName error " + null, e);
-        }
-        return "unknown";
+        throw new RuntimeException("Stub!");
     }
 
     public static synchronized int getNextAppSeq() {
@@ -125,16 +64,7 @@ public class MsfSdkUtils {
     }
 
     public static boolean killProcess(Context context, String str) {
-        if (context == null || str == null) {
-            return false;
-        }
-        for (RunningAppProcessInfo runningAppProcessInfo : ((ActivityManager) context.getSystemService("activity")).getRunningAppProcesses()) {
-            if (runningAppProcessInfo.processName.equals(str)) {
-                Process.killProcess(runningAppProcessInfo.pid);
-                return true;
-            }
-        }
-        return false;
+        throw new RuntimeException("Stub!");
     }
 
     public static FromServiceMsg constructResponse(String str, String str2, int i, int i2, String str3, Object obj, int i3) {
@@ -153,50 +83,15 @@ public class MsfSdkUtils {
     }
 
     public static File getNewAppUinStoreFile() {
-        String absolutePath;
-        try {
-            absolutePath = BaseApplication.getContext().getFilesDir().getAbsolutePath();
-        } catch (Exception e) {
-            absolutePath = "/data/data/com.tencent.mobileqq/files";
-        }
-        try {
-            return new File(absolutePath + "/user/");
-        } catch (Exception e2) {
-//            if (QLog.isColorLevel()) {
-//                QLog.e(tag, 2, "get user file error " + absolutePath + " " + e2);
-//            }
-            return null;
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static File getAppUinStoreFile() {
-        String absolutePath;
-        try {
-            absolutePath = BaseApplication.getContext().getFilesDir().getAbsolutePath();
-        } catch (Exception e) {
-            absolutePath = "/data/data/com.tencent.mobileqq/files";
-        }
-        try {
-            return new File(absolutePath + "/simple.user");
-        } catch (Exception e2) {
-            e2.printStackTrace();
-            return null;
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static File getAppUinBackStoreFile() {
-        String absolutePath;
-        try {
-            absolutePath = BaseApplication.getContext().getFilesDir().getAbsolutePath();
-        } catch (Exception e) {
-            absolutePath = "/data/data/com.tencent.mobileqq/files";
-        }
-        try {
-            return new File(absolutePath + "/simpleback.user");
-        } catch (Exception e2) {
-            e2.printStackTrace();
-            return null;
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static File getServerConfigFile(String str, int i, String str2) {
@@ -446,15 +341,7 @@ public class MsfSdkUtils {
     }
 
     public static String getResolutionString(Context context) {
-        String str = "0X0";
-        int i = context.getResources().getDisplayMetrics().widthPixels;
-        int i2 = context.getResources().getDisplayMetrics().heightPixels;
-        if (context.getResources().getConfiguration().orientation != 2) {
-            int i3 = i2;
-            i2 = i;
-            i = i3;
-        }
-        return i2 + "X" + i;
+        throw new RuntimeException("Stub!");
     }
 
     public static String getTotalMemory() {
@@ -488,7 +375,7 @@ public class MsfSdkUtils {
     }
 
     public static String getShortUin(String str) {
-        return (TextUtils.isEmpty(str) || str.length() < 4) ? str : MsfConstants.ProcessNameAll + str.substring(str.length() - 4, str.length());
+        throw new RuntimeException("Stub!");
     }
 
     public static String getShortKey(byte[] bArr) {

@@ -1,7 +1,6 @@
 package mqq.app;
 
 import android.content.Intent;
-import android.os.Looper;
 
 import com.tencent.qphone.base.remote.FromServiceMsg;
 
@@ -31,33 +30,7 @@ public class ServletContainer {
     }
 
     public void forward(AppRuntime runtime, Intent intent) {
-        if (this.mService.isShutdown()) {
-//            QLog.e("mqq", 1, "ServletContainer has destoryed," + intent.getComponent().getClassName() + " can not be started.");
-            return;
-        }
-        final String className = intent.getComponent().getClassName();
-        final Intent form = intent;
-        Runnable r = new Runnable() {
-            public void run() {
-                try {
-                    Servlet servlet = ServletContainer.this.getServlet(className);
-                    if (servlet != null) {
-                        servlet.service(form);
-                    }
-                } catch (Exception e) {
-//                    QLog.e("mqq", 1, "", e);
-                }
-            }
-        };
-        boolean runNow = false;
-        if (intent instanceof NewIntent) {
-            runNow = ((NewIntent) intent).runNow;
-        }
-        if (runNow || Thread.currentThread() != Looper.getMainLooper().getThread()) {
-            r.run();
-        } else {
-            this.mService.execute(r);
-        }
+        throw new RuntimeException("Stub!");
     }
 
     Servlet getServlet(String className) {

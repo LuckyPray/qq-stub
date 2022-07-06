@@ -4,12 +4,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.text.TextUtils;
 import com.tencent.qphone.base.remote.SimpleAccount;
 import com.tencent.qphone.base.util.BaseApplication;
 
-import java.io.IOException;
-import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
@@ -150,15 +147,7 @@ public abstract class MobileQQ extends BaseApplication {
     }
 
     public long string2Long(String number) {
-        if (!TextUtils.isEmpty(number)) {
-            try {
-                return Long.parseLong(number);
-            } catch (Exception e) {
-                e.printStackTrace();
-                return 0;
-            }
-        }
-        return 0;
+        throw new RuntimeException("Stub!");
     }
 
     void createNewRuntime(SimpleAccount account, boolean forLogin, boolean needSaveLoginTime, int cnrType) {
@@ -182,38 +171,7 @@ public abstract class MobileQQ extends BaseApplication {
 //    }
 
     public void setProperty(String name, String value) {
-        this.properties.setProperty(name, value);
-        OutputStream os = null;
-        try {
-            os = openFileOutput(PROPERTY_NAME, 0);
-            this.properties.store(os, (String) null);
-            os.flush();
-            if (os != null) {
-                try {
-                    os.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        } catch (Exception e2) {
-            e2.printStackTrace();
-            if (os != null) {
-                try {
-                    os.close();
-                } catch (IOException e3) {
-                    e3.printStackTrace();
-                }
-            }
-        } catch (Throwable th) {
-            if (os != null) {
-                try {
-                    os.close();
-                } catch (IOException e4) {
-                    e4.printStackTrace();
-                }
-            }
-            throw th;
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public String getProperty(String name) {

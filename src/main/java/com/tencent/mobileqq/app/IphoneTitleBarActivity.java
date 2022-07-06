@@ -1,17 +1,14 @@
 package com.tencent.mobileqq.app;
 
 import android.content.Intent;
-import android.graphics.Paint;
 import android.view.View;
-
-import static android.view.Window.FEATURE_CUSTOM_TITLE;
 
 @Deprecated
 public class IphoneTitleBarActivity extends BaseActivity {
     public static final int LAYER_TYPE_SOFTWARE = 1;
 
     protected void requestWindowFeature(Intent intent) {
-        requestWindowFeature(FEATURE_CUSTOM_TITLE);
+        throw new RuntimeException("Stub!");
     }
 
     public void setContentView(int i) {
@@ -51,12 +48,7 @@ public class IphoneTitleBarActivity extends BaseActivity {
     }
 
     public static void setLayerType(View view) {
-        if (view != null) {
-            try {
-                view.getClass().getMethod("setLayerType", Integer.TYPE, Paint.class).invoke(view, 0, null);
-            } catch (Exception ignored) {
-            }
-        }
+        throw new RuntimeException("Stub!");
     }
 
     @Deprecated

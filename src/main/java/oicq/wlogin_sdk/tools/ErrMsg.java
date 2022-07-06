@@ -87,16 +87,10 @@ public class ErrMsg implements Parcelable, Cloneable {
     }
 
     public void writeToParcel(Parcel parcel, int i) {
-        parcel.writeInt(this.type);
-        parcel.writeString(this.title);
-        parcel.writeString(this.message);
-        parcel.writeString(this.otherinfo);
+        throw new RuntimeException("Stub!");
     }
 
     public void readFromParcel(Parcel parcel) {
-        this.type = parcel.readInt();
-        this.title = parcel.readString();
-        this.message = parcel.readString();
-        this.otherinfo = parcel.readString();
+        throw new RuntimeException("Stub!");
     }
 }

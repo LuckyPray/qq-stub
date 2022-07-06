@@ -39,10 +39,7 @@ public abstract class BusinessHandler extends BaseBusinessHandler {
     }
 
     public final void b(ToServiceMsg toServiceMsg) {
-        if (toServiceMsg != null) {
-            toServiceMsg.extraData.putBoolean("req_pb_protocol_flag", true);
-            this.a.sendToService(toServiceMsg);
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public static MessageMicro a(String str, byte[] bArr, Class cls) {
@@ -51,10 +48,7 @@ public abstract class BusinessHandler extends BaseBusinessHandler {
 
     /* renamed from: a */
     protected final boolean m233a(ToServiceMsg toServiceMsg) {
-        if (toServiceMsg != null) {
-            return toServiceMsg.extraData.getBoolean("req_pb_protocol_flag", false);
-        }
-        return false;
+        throw new RuntimeException("Stub!");
     }
 
     protected void c(FromServiceMsg fromServiceMsg) {

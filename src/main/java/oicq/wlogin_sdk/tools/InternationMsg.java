@@ -1,7 +1,6 @@
 package oicq.wlogin_sdk.tools;
 
 import mqq.app.Constants.Action;
-import oicq.wlogin_sdk.request.t;
 
 public class InternationMsg {
     static a[] a = new a[]{new a(2052, MSG_TYPE.MSG_0, "登录失败"), new a(Action.ACTION_UNREGIST_PROXY, MSG_TYPE.MSG_0, "登錄失敗"), new a(1033, MSG_TYPE.MSG_0, "Unable to login"), new a(2052, MSG_TYPE.MSG_1, "请你稍后重试。"), new a(Action.ACTION_UNREGIST_PROXY, MSG_TYPE.MSG_1, "請你稍後重試。"), new a(1033, MSG_TYPE.MSG_1, "Please try again later."), new a(2052, MSG_TYPE.MSG_2, "手机存储异常，请删除帐号重试。"), new a(Action.ACTION_UNREGIST_PROXY, MSG_TYPE.MSG_2, "手機存儲異常，請刪除帳號重試。"), new a(1033, MSG_TYPE.MSG_2, "Phone memory error, please delete the account and try again."), new a(2052, MSG_TYPE.MSG_3, "请求失败，请你稍后重试。"), new a(Action.ACTION_UNREGIST_PROXY, MSG_TYPE.MSG_3, "請求失敗，請你稍後重試。"), new a(1033, MSG_TYPE.MSG_3, "Request failed, please try again later."), new a(2052, MSG_TYPE.MSG_4, "网络超时，请你稍后重试。"), new a(Action.ACTION_UNREGIST_PROXY, MSG_TYPE.MSG_4, "網絡超時，請你稍後重試。"), new a(1033, MSG_TYPE.MSG_4, "Network timeout, please try again later."), new a(2052, MSG_TYPE.MSG_5, "登录设备保护"), new a(Action.ACTION_UNREGIST_PROXY, MSG_TYPE.MSG_5, "登錄設備保護"), new a(1033, MSG_TYPE.MSG_5, "Device Protection")};
@@ -28,13 +27,6 @@ public class InternationMsg {
     }
 
     public static String a(MSG_TYPE msg_type) {
-        int i = 0;
-        while (i < a.length) {
-            if (msg_type == a[i].b && t.u == a[i].a) {
-                return a[i].c;
-            }
-            i++;
-        }
-        return "";
+        throw new RuntimeException("Stub!");
     }
 }

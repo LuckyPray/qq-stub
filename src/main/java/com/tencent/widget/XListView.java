@@ -34,7 +34,6 @@ public class XListView extends ViewGroup {
         throw new RuntimeException("Stub!");
     }
 
-    @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
         throw new RuntimeException("Stub!");
     }

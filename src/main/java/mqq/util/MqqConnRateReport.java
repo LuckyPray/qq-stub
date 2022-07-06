@@ -1,7 +1,5 @@
 package mqq.util;
 
-import android.os.Environment;
-
 public class MqqConnRateReport {
     public static final int ERR_MSF_RECV_APPPROCESSMANAGER_APPPROCESSINFO_ISNULL = 8;
     public static final int ERR_MSF_RECV_APPPROCESSMANAGER_HALF_CLOSE = 10;
@@ -42,11 +40,7 @@ public class MqqConnRateReport {
     }
 
     public static MqqConnRateReport getInstance() {
-        if (g_Instance == null) {
-            g_Instance = new MqqConnRateReport();
-            msfReportLogPath = Environment.getExternalStorageDirectory().getPath() + "/tencent/audio/";
-        }
-        return g_Instance;
+        throw new RuntimeException("Stub!");
     }
 
     public void doReport(EventType r13, byte[] r14, int r15) {

@@ -1,6 +1,5 @@
 package com.tencent.widget;
 
-import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Rect;
@@ -42,31 +41,19 @@ public class ScrollView extends FrameLayout {
     }
 
     public void addView(View view) {
-        if (getChildCount() > 0) {
-            throw new IllegalStateException("ScrollView can host only one direct child");
-        }
-        super.addView(view);
+        throw new RuntimeException("Stub!");
     }
 
     public void addView(View view, int i2) {
-        if (getChildCount() > 0) {
-            throw new IllegalStateException("ScrollView can host only one direct child");
-        }
-        super.addView(view, i2);
+        throw new RuntimeException("Stub!");
     }
 
     public void addView(View view, ViewGroup.LayoutParams layoutParams) {
-        if (getChildCount() > 0) {
-            throw new IllegalStateException("ScrollView can host only one direct child");
-        }
-        super.addView(view, layoutParams);
+        throw new RuntimeException("Stub!");
     }
 
     public void addView(View view, int i2, ViewGroup.LayoutParams layoutParams) {
-        if (getChildCount() > 0) {
-            throw new IllegalStateException("ScrollView can host only one direct child");
-        }
-        super.addView(view, i2, layoutParams);
+        throw new RuntimeException("Stub!");
     }
 
     public void setFillViewport(boolean z) {
@@ -98,12 +85,10 @@ public class ScrollView extends FrameLayout {
         throw new RuntimeException("Stub!");
     }
 
-    @TargetApi(8)
     public boolean onTouchEvent(MotionEvent motionEvent) {
         throw new RuntimeException("Stub!");
     }
 
-    @TargetApi(12)
     public boolean onGenericMotionEvent(MotionEvent motionEvent) {
         throw new RuntimeException("Stub!");
     }
@@ -112,14 +97,11 @@ public class ScrollView extends FrameLayout {
         throw new RuntimeException("Stub!");
     }
 
-    @TargetApi(14)
     public void onInitializeAccessibilityNodeInfo(AccessibilityNodeInfo accessibilityNodeInfo) {
-        super.onInitializeAccessibilityNodeInfo(accessibilityNodeInfo);
         throw new RuntimeException("Stub!");
     }
 
     public void onInitializeAccessibilityEvent(AccessibilityEvent accessibilityEvent) {
-        super.onInitializeAccessibilityEvent(accessibilityEvent);
         throw new RuntimeException("Stub!");
     }
 
@@ -129,7 +111,7 @@ public class ScrollView extends FrameLayout {
     }
 
     protected int computeVerticalScrollOffset() {
-        return Math.max(0, super.computeVerticalScrollOffset());
+        throw new RuntimeException("Stub!");
     }
 
     protected void measureChild(View view, int i2, int i3) {
@@ -157,12 +139,10 @@ public class ScrollView extends FrameLayout {
     }
 
     public void requestLayout() {
-        super.requestLayout();
         throw new RuntimeException("Stub!");
     }
 
     protected void onDetachedFromWindow() {
-        super.onDetachedFromWindow();
         throw new RuntimeException("Stub!");
     }
 
@@ -192,7 +172,6 @@ public class ScrollView extends FrameLayout {
     }
 
     public void draw(Canvas canvas) {
-        super.draw(canvas);
         throw new RuntimeException("Stub!");
     }
 

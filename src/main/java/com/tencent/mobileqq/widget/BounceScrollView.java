@@ -9,8 +9,6 @@ public class BounceScrollView extends ScrollView {
 
     public BounceScrollView(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
-        setOverScrollMode(0);
-        setFadingEdgeLength(0);
         throw new RuntimeException("Stub!");
     }
 

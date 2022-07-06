@@ -1,8 +1,5 @@
 package com.tencent.mobileqq.msf.sdk;
 
-import android.os.SystemClock;
-
-import com.qq.taf.jce.JceOutputStream;
 import com.tencent.qphone.base.BaseConstants;
 import com.tencent.qphone.base.remote.ToServiceMsg;
 
@@ -41,16 +38,7 @@ public class MsfMsgUtil {
     }
 
     public static ToServiceMsg getRdmReportMsg(String str, RdmReq rdmReq) {
-        if (rdmReq.params != null) {
-            rdmReq.params.put("param_reportTime"/*j.E*/, String.valueOf(SystemClock.elapsedRealtime()));
-        }
-        ToServiceMsg toServiceMsg = new ToServiceMsg(str, "0", BaseConstants.CMD_REPORTRDM);
-        toServiceMsg.setMsfCommand(MsfCommand.reportRdm);
-        JceOutputStream jceOutputStream = new JceOutputStream();
-        rdmReq.writeTo(jceOutputStream);
-        toServiceMsg.addAttribute(toServiceMsg.getServiceCmd(), jceOutputStream.toByteArray());
-        toServiceMsg.setNeedCallback(false);
-        return toServiceMsg;
+        throw new RuntimeException("Stub!");
     }
 
     public static ToServiceMsg getConnOpenMsg(String str) {

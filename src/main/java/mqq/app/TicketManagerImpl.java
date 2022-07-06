@@ -117,20 +117,7 @@ public class TicketManagerImpl implements TicketManager {
     }
 
     public int sendRPCData(long seq, String uin, String serviceCmd, byte[] data, int timeout) {
-        try {
-            NewIntent intent = new NewIntent(this.mApp.getApplication(), BuiltInServlet.class);
-            intent.putExtra("uin", uin);
-            intent.putExtra("cmd", serviceCmd);
-            intent.putExtra("busBuf", data);
-//            intent.putExtra(PlatoAppJson.UPDATE_TIMEOUT, timeout);
-            intent.putExtra("wtsdkseq", seq);
-//            intent.putExtra("action", Action.ACTION_SEND_WTPKG);
-            this.mApp.getServletContainer().forward(this.mApp, intent);
-            return 0;
-        } catch (Exception e) {
-            e.printStackTrace();
-            return -1;
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public Ticket GetPskey(String userAccount, long appid, String[] domains, WtTicketPromise promise) {

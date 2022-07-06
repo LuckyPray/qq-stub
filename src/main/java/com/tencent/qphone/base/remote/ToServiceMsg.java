@@ -3,7 +3,6 @@ package com.tencent.qphone.base.remote;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.util.Log;
 
 import com.tencent.mobileqq.msf.sdk.MsfCommand;
 import com.tencent.mobileqq.msf.sdk.MsfSdkUtils;
@@ -43,26 +42,7 @@ public class ToServiceMsg implements Parcelable {
     private byte[] wupBuffer;
 
     public ToServiceMsg(String serviceName, String uin, String serviceCmd) {
-        this.sendTimeout = -1;
-        this.timeout = -1;
-        this.appSeq = -1;
-        this.wupBuffer = new byte[0];
-        this.needResp = true;
-        this.ssoSeq = -1;
-        this.attributes = new HashMap(32);
-        this.extraData = new Bundle();
-        this.toVersion = (byte) 1;
-        this.msfCommand = MsfCommand.unknown;
-        this.uinType = (byte) 0;
-        this.quickSendStrategy = -1;
-        this.serviceName = serviceName;
-        this.uin = uin;
-        this.serviceCmd = serviceCmd;
-        try {
-            this.extraData.putByte("version", this.toVersion);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public ToServiceMsg(Parcel parcel) {
@@ -173,72 +153,11 @@ public class ToServiceMsg implements Parcelable {
     }
 
     public void writeToParcel(Parcel parcel, int i) {
-        int i2 = 1;
-        try {
-            parcel.writeInt(this.appId);
-            parcel.writeInt(this.appSeq);
-            parcel.writeString(this.serviceName);
-            parcel.writeString(this.uin);
-            parcel.writeByte(this.uinType);
-            parcel.writeString(this.serviceCmd);
-            parcel.writeLong(this.timeout);
-            parcel.writeBundle(this.extraData);
-//            parcel.writeStrongInterface(this.actionListener);
-            if (this.toVersion > (byte) 0) {
-                parcel.writeSerializable(this.msfCommand);
-                parcel.writeLong(this.sendTimeout);
-                parcel.writeByte(this.needResp ? (byte) 1 : (byte) 0);
-                parcel.writeInt(this.wupBuffer.length);
-                parcel.writeByteArray(this.wupBuffer);
-                parcel.writeInt(this.ssoSeq);
-                parcel.writeMap(this.attributes);
-            }
-            if (!this.quickSendEnable) {
-                i2 = 0;
-            }
-            parcel.writeInt(i2);
-            parcel.writeInt(this.quickSendStrategy);
-        } catch (RuntimeException e) {
-            Log.d(tag, "writeToParcel RuntimeException", e);
-            throw e;
-        }
+        throw new RuntimeException("Stub!");
     }
 
     private void readFromParcel(Parcel parcel) {
-        try {
-            boolean z;
-            this.appId = parcel.readInt();
-            this.appSeq = parcel.readInt();
-            this.serviceName = parcel.readString();
-            this.uin = parcel.readString();
-            this.uinType = parcel.readByte();
-            this.serviceCmd = parcel.readString();
-            this.timeout = parcel.readLong();
-            this.extraData.clear();
-            this.extraData.putAll(parcel.readBundle(Thread.currentThread().getContextClassLoader()));
-//            this.actionListener = Stub.asInterface(parcel.readStrongBinder());
-            this.toVersion = this.extraData.getByte("version");
-            if (this.toVersion > (byte) 0) {
-                this.msfCommand = (MsfCommand) parcel.readSerializable();
-                this.sendTimeout = parcel.readLong();
-                this.needResp = parcel.readByte() != (byte) 0;
-                this.wupBuffer = new byte[parcel.readInt()];
-                parcel.readByteArray(this.wupBuffer);
-                this.ssoSeq = parcel.readInt();
-                this.attributes.clear();
-                parcel.readMap(this.attributes, ToServiceMsg.class.getClassLoader());
-            }
-            if (parcel.readInt() == 1) {
-                z = true;
-            } else {
-                z = false;
-            }
-            this.quickSendEnable = z;
-            this.quickSendStrategy = parcel.readInt();
-        } catch (RuntimeException e) {
-            Log.d(tag, "readFromParcel RuntimeException", e);
-            throw e;
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public byte[] getWupBuffer() {

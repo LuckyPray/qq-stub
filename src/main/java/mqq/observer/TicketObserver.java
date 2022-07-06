@@ -8,6 +8,6 @@ public abstract class TicketObserver implements BusinessObserver, Action {
     }
 
     public void onReceive(int type, boolean isSuccess, Bundle data) {
-        onChangeTicket(data.getString("uin"));
+        throw new RuntimeException("Stub!");
     }
 }

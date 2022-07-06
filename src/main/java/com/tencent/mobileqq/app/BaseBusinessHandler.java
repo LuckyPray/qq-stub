@@ -25,16 +25,7 @@ public abstract class BaseBusinessHandler {
     }
 
     protected void addBusinessObserver(ToServiceMsg arg9, BusinessObserver arg10, boolean arg11) {
-        if(arg10 != null) {
-            Map v0 = arg11 ? this.bgObserverMap : this.uiObserverMap;
-            synchronized(v0) {
-                v0.put(Long.valueOf(this.seq), arg10);
-                long v4 = this.seq;
-                this.seq = 1L + v4;
-                arg9.extraData.putLong(BaseBusinessHandler.SEQ_KEY, v4);
-                return;
-            }
-        }
+        throw new RuntimeException("Stub!");
     }
 
     public ToServiceMsg createToServiceMsg(String arg4) {
@@ -46,19 +37,7 @@ public abstract class BaseBusinessHandler {
     }
 
     ToServiceMsg createToServiceMsg(String arg9, BusinessObserver arg10, boolean arg11) {
-        ToServiceMsg v1 = this.createToServiceMsg(arg9);
-        if(arg10 != null) {
-            Map v0 = arg11 ? this.bgObserverMap : this.uiObserverMap;
-            synchronized(v0) {
-                v0.put(Long.valueOf(this.seq), arg10);
-                long v4 = this.seq;
-                this.seq = 1L + v4;
-                v1.extraData.putLong(BaseBusinessHandler.SEQ_KEY, v4);
-                return v1;
-            }
-        }
-
-        return v1;
+        throw new RuntimeException("Stub!");
     }
 
     public final Object decodePacket(byte[] arg3, String arg4, Object arg5) {
@@ -84,7 +63,7 @@ public abstract class BaseBusinessHandler {
     protected abstract Set getPushPBCommandList();
 
     protected final boolean isPbReq(ToServiceMsg arg4) {
-        return arg4 == null ? false : arg4.extraData.getBoolean("req_pb_protocol_flag", false);
+        throw new RuntimeException("Stub!");
     }
 
     public boolean msgCmdFilter(String arg3) {
@@ -102,10 +81,7 @@ public abstract class BaseBusinessHandler {
     }
 
     public void sendPbReq(ToServiceMsg arg4) {
-        if(arg4 != null) {
-            arg4.extraData.putBoolean("req_pb_protocol_flag", true);
-            this.appRuntime.sendToService(arg4);
-        }
+        throw new RuntimeException("Stub!");
     }
 }
 

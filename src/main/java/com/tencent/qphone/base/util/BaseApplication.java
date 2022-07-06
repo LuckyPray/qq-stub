@@ -16,8 +16,7 @@ public abstract class BaseApplication extends Application {
     public static int qqwifiicon = 0;
 
     public void onCreate() {
-        super.onCreate();
-        context = this;
+        throw new RuntimeException("Stub!");
     }
 
     public static Context getContext() {
