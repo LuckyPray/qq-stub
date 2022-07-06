@@ -6,6 +6,7 @@ import com.tencent.mobileqq.pb.PBInt32Field;
 import com.tencent.mobileqq.pb.PBStringField;
 import com.tencent.mobileqq.pb.PBUInt32Field;
 import com.tencent.mobileqq.pb.PBUInt64Field;
+import tencent.im.cs.group_file_common.group_file_common;
 
 @SuppressWarnings({"unused", "SameParameterValue"})
 public final class oidb_0x6d8 {
