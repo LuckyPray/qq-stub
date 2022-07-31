@@ -15,18 +15,18 @@ import java.util.*;
  */
 public final class JceInputStream {
 	private ByteBuffer bs;	// 缓冲区
-	
-	
+
+
 	/**
 	 * 头数据
 	 * @author meteorchen
 	 *
 	 */
 	public static class HeadData {
-		
+
 		public byte type;
 		public int tag;
-		
+
 		public void clear() {
 			type = 0 ;
 			tag = 0 ;
@@ -34,10 +34,10 @@ public final class JceInputStream {
 	}
 
 	public JceInputStream() {
-		
+
 	}
 
-	
+
 	public JceInputStream(ByteBuffer bs) {
 		this.bs = bs;
 	}
@@ -45,20 +45,21 @@ public final class JceInputStream {
 	public JceInputStream(byte[] bs) {
 		this.bs = ByteBuffer.wrap(bs);
 	}
-	
+
 	public JceInputStream(byte[] bs, int pos) {
 		this.bs = ByteBuffer.wrap(bs);
 		this.bs.position(pos);
 	}
-	
+
 	/**
 	 * 拼写错误
-	 * @deprecated use wrap instead 
+	 * @deprecated use wrap instead
 	 */
+    @Deprecated
 	public void warp(byte[] bs) {
 		wrap(bs);
 	}
-	
+
 	public void wrap(byte[] bs) {
 		this.bs = ByteBuffer.wrap(bs);
 	}
@@ -122,7 +123,7 @@ public final class JceInputStream {
 			skipField(hd.type);
 		} while (hd.type != JceStruct.STRUCT_END);
 	}
-	
+
 	// 跳过一个字段
 	private void skipField() {
 		HeadData hd = new HeadData();
@@ -371,7 +372,7 @@ public final class JceInputStream {
 		}
 		return s;
 	}
-	
+
 	public String read(String s , int tag, boolean isRequire) {
 		if (skipToTag(tag)) {
 			HeadData hd = new HeadData();
@@ -456,7 +457,7 @@ public final class JceInputStream {
 		}
 		return s;
 	}
-	
+
 	public String[] read(String[] s, int tag, boolean isRequire) {
 		return readArray(s, tag, isRequire);
 	}
@@ -497,7 +498,7 @@ public final class JceInputStream {
 			//throw new TafProxyDecodeException("unable to get type of key and value.");
 			return new HashMap();
 		}
-			
+
 
 		// 生成代码时已经往map里面添加了一个元素，纯粹用来作为类型识别，否则java无法识别到map里面放的是什么类型的数据
 		Iterator<Map.Entry<K, V>> it = m.entrySet().iterator();
@@ -613,7 +614,7 @@ public final class JceInputStream {
 		}
 		return lr;
 	}
-	
+
 	public boolean[] read(boolean[] l, int tag, boolean isRequire){
 		boolean[] lr = null;
 		if (skipToTag(tag)) {
@@ -637,7 +638,7 @@ public final class JceInputStream {
 		}
 		return lr;
 	}
-	
+
 	public byte[] read(byte[] l, int tag, boolean isRequire){
 		byte[] lr = null;
 		if (skipToTag(tag)) {
@@ -674,7 +675,7 @@ public final class JceInputStream {
 		}
 		return lr;
 	}
-	
+
 	public short[] read(short[] l, int tag, boolean isRequire){
 		short[] lr = null;
 		if (skipToTag(tag)) {
@@ -698,7 +699,7 @@ public final class JceInputStream {
 		}
 		return lr;
 	}
-	
+
 	public int[] read(int[] l, int tag, boolean isRequire){
 		int[] lr = null;
 		if (skipToTag(tag)) {
@@ -722,7 +723,7 @@ public final class JceInputStream {
 		}
 		return lr;
 	}
-	
+
 	public long[] read(long[] l, int tag, boolean isRequire){
 		long[] lr = null;
 		if (skipToTag(tag)) {
@@ -746,7 +747,7 @@ public final class JceInputStream {
 		}
 		return lr;
 	}
-	
+
 	public float[] read(float[] l, int tag, boolean isRequire){
 		float[] lr = null;
 		if (skipToTag(tag)) {
@@ -770,7 +771,7 @@ public final class JceInputStream {
 		}
 		return lr;
 	}
-	
+
 	public double[] read(double[] l, int tag, boolean isRequire){
 		double[] lr = null;
 		if (skipToTag(tag)) {
@@ -794,14 +795,14 @@ public final class JceInputStream {
 		}
 		return lr;
 	}
-	
+
 	public <T> T[] readArray(T[] l, int tag, boolean isRequire) {
 		// 生成代码时已经往List里面添加了一个元素，纯粹用来作为类型识别，否则java无法识别到List里面放的是什么类型的数据
 		if (l == null || l.length == 0)
 			throw new JceDecodeException("unable to get type of key and value.");
 		return readArrayImpl(l[0], tag, isRequire);
 	}
-	
+
 	public <T> List<T> readArray(List<T> l, int tag, boolean isRequire) {
 		// 生成代码时已经往List里面添加了一个元素，纯粹用来作为类型识别，否则java无法识别到List里面放的是什么类型的数据
 		if (l == null || l.isEmpty()) {
@@ -869,7 +870,7 @@ public final class JceInputStream {
 				}
 				break;
 			}
-			case JceStruct.SIMPLE_LIST: {								
+			case JceStruct.SIMPLE_LIST: {
 				HeadData hh = new HeadData();
 				readHead(hh);
 				if(hh.type != JceStruct.BYTE){
@@ -894,7 +895,7 @@ public final class JceInputStream {
 		return lr;
 	}
 */
-	
+
 	public JceStruct directRead(JceStruct o, int tag, boolean isRequire) {
 		//o必须有一个无参的构造函数
 		JceStruct ref = null;
@@ -902,9 +903,9 @@ public final class JceInputStream {
 			try{
 				ref = o.newInit();
 			}catch (Exception e){
-				throw new JceDecodeException(e.getMessage());			
-			}					
-			
+				throw new JceDecodeException(e.getMessage());
+			}
+
 			HeadData hd = new HeadData();
 			readHead(hd);
 			if (hd.type != JceStruct.STRUCT_BEGIN)
@@ -916,7 +917,7 @@ public final class JceInputStream {
 		}
 		return ref;
 	}
-	
+
 	public JceStruct read(JceStruct o, int tag, boolean isRequire) {
 		//o必须有一个无参的构造函数
 		JceStruct ref = null;
@@ -924,9 +925,9 @@ public final class JceInputStream {
 			try{
 				ref = o.getClass().newInstance();
 			}catch (Exception e){
-				throw new JceDecodeException(e.getMessage());			
-			}					
-			
+				throw new JceDecodeException(e.getMessage());
+			}
+
 			HeadData hd = new HeadData();
 			readHead(hd);
 			if (hd.type != JceStruct.STRUCT_BEGIN)
@@ -942,7 +943,7 @@ public final class JceInputStream {
 	public JceStruct[] read(JceStruct[] o, int tag, boolean isRequire) {
 		return readArray(o, tag, isRequire);
 	}
-	
+
 	@SuppressWarnings("unchecked")
 	public <T> Object read(T o, int tag, boolean isRequire) {
 		if (o instanceof Byte) {
@@ -997,7 +998,7 @@ public final class JceInputStream {
         return 0;
     }
 
-	
+
 	public static void main(String[] args) {
 
 	}
