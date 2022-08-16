@@ -1,5 +1,6 @@
 package com.tencent.widget;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Rect;
@@ -13,6 +14,7 @@ import android.view.accessibility.AccessibilityEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.FrameLayout;
 
+@SuppressLint("MissingSuperCall")
 public class ScrollView extends FrameLayout {
 
     public ScrollView(Context context) {

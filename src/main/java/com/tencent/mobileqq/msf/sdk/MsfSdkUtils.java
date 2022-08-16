@@ -1,5 +1,6 @@
 package com.tencent.mobileqq.msf.sdk;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 
 import com.tencent.qphone.base.remote.FromServiceMsg;
@@ -19,6 +20,8 @@ import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class MsfSdkUtils {
+
+    @SuppressLint("SdCardPath")
     private static final String APP_FILE_PATH = "/data/data/com.tencent.mobileqq/files";
     public static final int MODE_ERR_MANU = -10003;
     public static final int MODE_ERR_SERVICE = -10001;
@@ -31,6 +34,7 @@ public class MsfSdkUtils {
     public static final boolean isPublicVersion = false;
     private static final AtomicInteger seqFactory = new AtomicInteger(new Random().nextInt(100000));
     private static final String tag = "MsfSdkUtils";
+    @SuppressLint("SimpleDateFormat")
     public static final SimpleDateFormat timeFormatter = new SimpleDateFormat("yy-MM-dd HH:mm:ss");
 
     public static boolean isTopActivity(Context context) {

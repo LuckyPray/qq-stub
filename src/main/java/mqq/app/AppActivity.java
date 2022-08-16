@@ -1,13 +1,15 @@
 package mqq.app;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.KeyEvent;
 
-
+@SuppressLint("MissingSuperCall")
 public class AppActivity extends Activity {
+
     protected static int sResumeCount = 0;
 
     protected boolean mIsResume = false;
