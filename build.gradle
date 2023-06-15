@@ -8,4 +8,9 @@ android {
     lintOptions {
         abortOnError false
     }
+
+    dependencies {
+        // androidx nullability stubs
+        compileOnly("androidx.annotation:annotation:1.6.0")
+    }
 }

@@ -3,11 +3,10 @@ package mqq.app;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-
+import androidx.annotation.NonNull;
 import com.tencent.qphone.base.remote.SimpleAccount;
-
 import java.util.ArrayList;
-
+import mqq.app.api.impl.IRuntimeService;
 import mqq.manager.Manager;
 import mqq.observer.AccountObserver;
 import mqq.observer.BusinessObserver;
@@ -288,4 +287,10 @@ public abstract class AppRuntime {
     public void setDevLockIntent(Intent i) {
         throw new RuntimeException("Stub!");
     }
+
+    @NonNull
+    public <T extends IRuntimeService> T getRuntimeService(@NonNull Class<T> cls, String str) {
+        throw new RuntimeException("Stub!");
+    }
+
 }
