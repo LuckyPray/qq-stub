@@ -6,7 +6,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import com.tencent.qphone.base.remote.SimpleAccount;
 import java.util.ArrayList;
-import mqq.app.api.impl.IRuntimeService;
+import mqq.app.api.IRuntimeService;
 import mqq.manager.Manager;
 import mqq.observer.AccountObserver;
 import mqq.observer.BusinessObserver;
