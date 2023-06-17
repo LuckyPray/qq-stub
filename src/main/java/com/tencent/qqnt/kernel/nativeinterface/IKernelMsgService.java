@@ -5,18 +5,20 @@ import java.util.HashMap;
 
 public interface IKernelMsgService {
 
-    void sendMsg(long j2, Contact contact, ArrayList<MsgElement> arrayList, HashMap<Integer, MsgAttributeInfo> hashMap, IOperateCallback iOperateCallback);
+    void sendMsg(long msgId, Contact peer, ArrayList<MsgElement> msgElements, HashMap<Integer, MsgAttributeInfo> msgAttrs, IOperateCallback callback);
 
-    long getMsgUniqueId(long j2);
+    long getMsgUniqueId(long serverTimeMillis);
 
-    void getMsgsByMsgId(Contact contact, ArrayList<Long> arrayList, IMsgOperateCallback iMsgOperateCallback);
+    void getMsgsByMsgId(Contact peer, ArrayList<Long> msgIds, IMsgOperateCallback callback);
 
-    void getMsgsBySeqList(Contact contact, ArrayList<Long> arrayList, IMsgOperateCallback iMsgOperateCallback);
+    void getMsgsBySeqList(Contact peer, ArrayList<Long> seqList, IMsgOperateCallback callback);
 
-    void getMsgsBySeqRange(Contact contact, long j2, long j3, IMsgOperateCallback iMsgOperateCallback);
+    void getMsgsBySeqRange(Contact peer, long beginSeq, long endSeq, IMsgOperateCallback callback);
 
-    void getMsgs(Contact contact, long j2, int i2, boolean z, IMsgOperateCallback iMsgOperateCallback);
+    void getMsgs(Contact peer, long msgId, int cnt, boolean queryOrder, IMsgOperateCallback callback);
 
-    void addLocalJsonGrayTipMsg(Contact contact, JsonGrayElement jsonGrayElement, boolean z, boolean z2, IAddJsonGrayTipMsgCallback iAddJsonGrayTipMsgCallback);
+    void getSingleMsg(Contact peer, long msgSeq, IMsgOperateCallback callback);
+
+    void addLocalJsonGrayTipMsg(Contact peer, JsonGrayElement jsonGrayElement, boolean needStore, boolean needRecentContact, IAddJsonGrayTipMsgCallback callback);
 
 }
