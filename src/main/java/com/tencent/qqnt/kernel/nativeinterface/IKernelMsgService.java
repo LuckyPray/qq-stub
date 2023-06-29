@@ -19,6 +19,10 @@ public interface IKernelMsgService {
 
     void getSingleMsg(Contact peer, long msgSeq, IMsgOperateCallback callback);
 
+    void recallMsg(Contact contact, ArrayList<Long> arrayList, IOperateCallback iOperateCallback);
+
     void addLocalJsonGrayTipMsg(Contact peer, JsonGrayElement jsonGrayElement, boolean needStore, boolean needRecentContact, IAddJsonGrayTipMsgCallback callback);
+
+
 
 }
