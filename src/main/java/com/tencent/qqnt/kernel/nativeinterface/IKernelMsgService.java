@@ -23,6 +23,7 @@ public interface IKernelMsgService {
 
     void addLocalJsonGrayTipMsg(Contact peer, JsonGrayElement jsonGrayElement, boolean needStore, boolean needRecentContact, IAddJsonGrayTipMsgCallback callback);
 
+    void forwardMsg(ArrayList<Long> msgIds, Contact srcContact, ArrayList<Contact> dstContacts, HashMap<Integer, MsgAttributeInfo> hashMap, IForwardOperateCallback callback);
 
 
 }
