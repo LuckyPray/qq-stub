@@ -1,3 +1,5 @@
+package com.tencent.qqnt.kernel.nativeinterface;
+
 public final class ZPlanMsgElement {
     int actionFlag;
     byte[] extInfo;
