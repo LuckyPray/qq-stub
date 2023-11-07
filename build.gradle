@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 
 android {
+    namespace "me.teble.xposed.stub"
     compileSdkVersion 32
     defaultConfig {
         minSdkVersion 21
