@@ -27,9 +27,9 @@ import com.tencent.mobileqq.qfix.redirect.PatchRedirectCenter;
 
 /* loaded from: classes.dex */
 public final class VASMsgAvatarPendant {
-    Integer avatarId;
-    Integer pendantDiyInfoId;
-    Long pendantId;
+    public Integer avatarId;
+    public Integer pendantDiyInfoId;
+    public Long pendantId;
 
     public VASMsgAvatarPendant() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94989, (short) 1);

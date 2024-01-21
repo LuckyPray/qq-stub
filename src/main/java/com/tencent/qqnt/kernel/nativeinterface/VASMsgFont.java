@@ -28,11 +28,11 @@ import com.tencent.mobileqq.qfix.redirect.PatchRedirectCenter;
 /* compiled from: P */
 /* loaded from: classes.dex */
 public final class VASMsgFont {
-    Integer diyFontCfgUpdateTime;
-    Integer diyFontImageId;
-    Integer fontId;
-    Integer magicFontType;
-    Long subFontId;
+    public Integer diyFontCfgUpdateTime;
+    public Integer diyFontImageId;
+    public Integer fontId;
+    public Integer magicFontType;
+    public Long subFontId;
 
     public VASMsgFont() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95004, (short) 1);

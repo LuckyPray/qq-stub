@@ -28,10 +28,10 @@ import com.tencent.mobileqq.qfix.redirect.PatchRedirectCenter;
 /* compiled from: P */
 /* loaded from: classes.dex */
 public final class VASMsgBubble {
-    Integer bubbleDiyTextId;
-    Integer bubbleId;
-    Integer canConvertToText;
-    Integer subBubbleId;
+    public Integer bubbleDiyTextId;
+    public Integer bubbleId;
+    public Integer canConvertToText;
+    public Integer subBubbleId;
 
     public VASMsgBubble() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94994, (short) 1);
