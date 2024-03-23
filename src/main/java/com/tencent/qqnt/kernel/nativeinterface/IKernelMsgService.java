@@ -7,7 +7,12 @@ public interface IKernelMsgService {
 
     void sendMsg(long msgId, Contact peer, ArrayList<MsgElement> msgElements, HashMap<Integer, MsgAttributeInfo> msgAttrs, IOperateCallback callback);
 
+    /**
+     * Deleted since QQ 9.0.30
+     */
     long getMsgUniqueId(long serverTimeMillis);
+
+    long generateMsgUniqueId(int chatType, long serverTimeMillis);
 
     void getMsgsByMsgId(Contact peer, ArrayList<Long> msgIds, IMsgOperateCallback callback);
 
