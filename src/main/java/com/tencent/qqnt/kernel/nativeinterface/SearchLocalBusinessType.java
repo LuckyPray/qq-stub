@@ -1,0 +1,14 @@
+package com.tencent.qqnt.kernel.nativeinterface;
+
+/* compiled from: P */
+/* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchLocalBusinessType.class */
+public enum SearchLocalBusinessType {
+    KSEARCHLOCALBUSINESSTYPEUNKNOWN,
+    KSEARCHLOCALBUSINESSTYPEALL,
+    KSEARCHLOCALBUSINESSTYPECREATEGROUP,
+    KSEARCHLOCALBUSINESSTYPEFORWARD,
+    KSEARCHLOCALBUSINESSTYPEDESKTOPALL,
+    KSEARCHLOCALBUSINESSTYPEDESKTOPBUDDY,
+    KSEARCHLOCALBUSINESSTYPEDESKTOPGROUP,
+    KSEARCHLOCALBUSINESSTYPEMQQALL
+}

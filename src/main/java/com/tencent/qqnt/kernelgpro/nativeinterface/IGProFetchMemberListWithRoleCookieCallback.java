@@ -1,0 +1,8 @@
+package com.tencent.qqnt.kernelgpro.nativeinterface;
+
+import java.util.ArrayList;
+
+/* loaded from: classes.jar:com/tencent/qqnt/kernelgpro/nativeinterface/IGProFetchMemberListWithRoleCookieCallback.class */
+public interface IGProFetchMemberListWithRoleCookieCallback {
+    void onFetchMemberListWithRoleCookieCallback(int i, String str, boolean z, long j, long j2, boolean z2, int i2, ArrayList<GProRoleMemberList> arrayList, String str2);
+}

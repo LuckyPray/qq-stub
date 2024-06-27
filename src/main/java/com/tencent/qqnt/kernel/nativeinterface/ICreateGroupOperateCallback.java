@@ -1,0 +1,7 @@
+package com.tencent.qqnt.kernel.nativeinterface;
+
+/* compiled from: P */
+/* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/ICreateGroupOperateCallback.class */
+public interface ICreateGroupOperateCallback {
+    void onResult(int i, String str, long j);
+}
