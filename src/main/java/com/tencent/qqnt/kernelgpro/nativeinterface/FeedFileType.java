@@ -14,12 +14,6 @@ public final class FeedFileType {
     public static final FeedFileType KFEEDVIDEOCOVER;
 
     static {
-        IPatchRedirector redirector = PatchRedirectCenter.getRedirector(46307);
-        $redirector_ = redirector;
-        if (redirector != null && redirector.hasPatch((short) 2)) {
-            redirector.redirect((short) 2);
-            return;
-        }
         FeedFileType feedFileType = new FeedFileType("KFEEDIMAGE", 0);
         KFEEDIMAGE = feedFileType;
         FeedFileType feedFileType2 = new FeedFileType("KFEEDVIDEO", 1);
@@ -38,7 +32,7 @@ public final class FeedFileType {
     }
 
     public static FeedFileType valueOf(String str) {
-        return (FeedFileType) Enum.valueOf(FeedFileType.class, str);
+        throw new RuntimeException("Stub!");
     }
 
     public static FeedFileType[] values() {

@@ -14,12 +14,6 @@ public final class GProRelation {
     public static final GProRelation GTE;
 
     static {
-        IPatchRedirector redirector = PatchRedirectCenter.getRedirector(52086);
-        $redirector_ = redirector;
-        if (redirector != null && redirector.hasPatch((short) 2)) {
-            redirector.redirect((short) 2);
-            return;
-        }
         GProRelation gProRelation = new GProRelation("EQ", 0);
         f75EQ = gProRelation;
         GProRelation gProRelation2 = new GProRelation("GTE", 1);
@@ -36,7 +30,7 @@ public final class GProRelation {
     }
 
     public static GProRelation valueOf(String str) {
-        return (GProRelation) Enum.valueOf(GProRelation.class, str);
+        throw new RuntimeException("Stub!");
     }
 
     public static GProRelation[] values() {

@@ -248,7 +248,6 @@ public abstract class AppRuntime {
     }
 
     protected void finalize() throws Throwable {
-        super.finalize();
         throw new RuntimeException("Stub!");
     }
 

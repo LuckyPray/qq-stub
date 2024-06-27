@@ -22,12 +22,6 @@ public final class GroupGrayElementType {
     public static final GroupGrayElementType KUNKNOWN;
 
     static {
-        IPatchRedirector redirector = PatchRedirectCenter.getRedirector(46489);
-        $redirector_ = redirector;
-        if (redirector != null && redirector.hasPatch((short) 2)) {
-            redirector.redirect((short) 2);
-            return;
-        }
         GroupGrayElementType groupGrayElementType = new GroupGrayElementType("KUNKNOWN", 0);
         KUNKNOWN = groupGrayElementType;
         GroupGrayElementType groupGrayElementType2 = new GroupGrayElementType("KMEMBERADD", 1);
@@ -62,7 +56,7 @@ public final class GroupGrayElementType {
     }
 
     public static GroupGrayElementType valueOf(String str) {
-        return (GroupGrayElementType) Enum.valueOf(GroupGrayElementType.class, str);
+        throw new RuntimeException("Stub!");
     }
 
     public static GroupGrayElementType[] values() {

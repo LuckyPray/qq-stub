@@ -34,7 +34,6 @@ public interface IFreesiaStringResCallback {
 
         protected void finalize() {
             _djinni_private_destroy();
-            super.finalize();
         }
 
         @Override // com.tencent.qqnt.kernel.nativeinterface.IFreesiaStringResCallback

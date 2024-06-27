@@ -33,7 +33,6 @@ public interface IFreesiaWrapper {
 
         protected void finalize() {
             _djinni_private_destroy();
-            super.finalize();
         }
     }
 }

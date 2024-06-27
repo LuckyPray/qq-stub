@@ -14,30 +14,16 @@ public interface IKernelGuildService {
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernelgpro/nativeinterface/IKernelGuildService$CppProxy.class */
     public static final class CppProxy implements IKernelGuildService {
-        static final boolean $assertionsDisabled;
+        static final boolean $assertionsDisabled = false;
         static IPatchRedirector $redirector_;
-        private final AtomicBoolean destroyed;
-        private final long nativeRef;
+        private final AtomicBoolean destroyed = new AtomicBoolean();
+        private final long nativeRef = -1;
 
-        static {
-            IPatchRedirector redirector = PatchRedirectCenter.getRedirector(54285);
-            $redirector_ = redirector;
-            if (redirector == null || !redirector.hasPatch((short) 563)) {
-                $assertionsDisabled = true;
-            } else {
-                redirector.redirect((short) 563);
-            }
-        }
 
         CppProxy(long j) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
                 iPatchRedirector.redirect((short) 1, this, j);
-                return;
-            }
-            this.destroyed = new AtomicBoolean(false);
-            if (j != 0) {
-                this.nativeRef = j;
                 return;
             }
             throw new RuntimeException("nativeRef is zero");
@@ -3856,7 +3842,6 @@ public interface IKernelGuildService {
                 iPatchRedirector.redirect((short) 3, this);
             } else {
                 _djinni_private_destroy();
-                super.finalize();
             }
         }
 

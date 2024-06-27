@@ -31,12 +31,6 @@ public final class GProGuildMemberSearchSourceId {
     public static final GProGuildMemberSearchSourceId GUILD_SPEAK_RULE_UNRESTRICTED_MEMBER;
 
     static {
-        IPatchRedirector redirector = PatchRedirectCenter.getRedirector(50459);
-        $redirector_ = redirector;
-        if (redirector != null && redirector.hasPatch((short) 2)) {
-            redirector.redirect((short) 2);
-            return;
-        }
         GProGuildMemberSearchSourceId gProGuildMemberSearchSourceId = new GProGuildMemberSearchSourceId("DEFAULT", 0);
         DEFAULT = gProGuildMemberSearchSourceId;
         GProGuildMemberSearchSourceId gProGuildMemberSearchSourceId2 = new GProGuildMemberSearchSourceId("ALL_MEMBER", 1);
@@ -91,7 +85,7 @@ public final class GProGuildMemberSearchSourceId {
     }
 
     public static GProGuildMemberSearchSourceId valueOf(String str) {
-        return (GProGuildMemberSearchSourceId) Enum.valueOf(GProGuildMemberSearchSourceId.class, str);
+        throw new RuntimeException("Stub!");
     }
 
     public static GProGuildMemberSearchSourceId[] values() {

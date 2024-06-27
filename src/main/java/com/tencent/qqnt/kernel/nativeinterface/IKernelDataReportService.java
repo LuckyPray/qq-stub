@@ -40,7 +40,7 @@ public interface IKernelDataReportService {
 
         protected void finalize() {
             _djinni_private_destroy();
-            super.finalize();
+
         }
     }
 

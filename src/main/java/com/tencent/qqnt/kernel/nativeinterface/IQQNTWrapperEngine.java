@@ -64,7 +64,6 @@ public interface IQQNTWrapperEngine {
 
         protected void finalize() {
             _djinni_private_destroy();
-            super.finalize();
         }
 
         @Override // com.tencent.qqnt.kernel.nativeinterface.IQQNTWrapperEngine

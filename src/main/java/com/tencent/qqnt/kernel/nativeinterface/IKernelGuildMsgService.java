@@ -179,7 +179,6 @@ public interface IKernelGuildMsgService {
 
         protected void finalize() {
             _djinni_private_destroy();
-            super.finalize();
         }
 
         @Override // com.tencent.qqnt.kernel.nativeinterface.IKernelGuildMsgService

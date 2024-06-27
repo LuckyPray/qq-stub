@@ -120,7 +120,7 @@ public interface QQNTWrapperUtil {
 
         protected void finalize() {
             _djinni_private_destroy();
-            super.finalize();
+
         }
     }
 }

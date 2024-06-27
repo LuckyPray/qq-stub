@@ -14,12 +14,6 @@ public final class GroupGrayElementRole {
     public static final GroupGrayElementRole KOTHER;
 
     static {
-        IPatchRedirector redirector = PatchRedirectCenter.getRedirector(46473);
-        $redirector_ = redirector;
-        if (redirector != null && redirector.hasPatch((short) 2)) {
-            redirector.redirect((short) 2);
-            return;
-        }
         GroupGrayElementRole groupGrayElementRole = new GroupGrayElementRole("KOTHER", 0);
         KOTHER = groupGrayElementRole;
         GroupGrayElementRole groupGrayElementRole2 = new GroupGrayElementRole("KMEMBER", 1);
@@ -38,7 +32,7 @@ public final class GroupGrayElementRole {
     }
 
     public static GroupGrayElementRole valueOf(String str) {
-        return (GroupGrayElementRole) Enum.valueOf(GroupGrayElementRole.class, str);
+        throw new RuntimeException("Stub!");
     }
 
     public static GroupGrayElementRole[] values() {

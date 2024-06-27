@@ -12,30 +12,15 @@ public interface IKernelFeedServiceNew {
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernelgpro/nativeinterface/IKernelFeedServiceNew$CppProxy.class */
     public static final class CppProxy implements IKernelFeedServiceNew {
-        static final boolean $assertionsDisabled;
+        static final boolean $assertionsDisabled = false;
         static IPatchRedirector $redirector_;
-        private final AtomicBoolean destroyed;
-        private final long nativeRef;
-
-        static {
-            IPatchRedirector redirector = PatchRedirectCenter.getRedirector(54217);
-            $redirector_ = redirector;
-            if (redirector == null || !redirector.hasPatch((short) 40)) {
-                $assertionsDisabled = true;
-            } else {
-                redirector.redirect((short) 40);
-            }
-        }
+        private final AtomicBoolean destroyed = new AtomicBoolean();
+        private final long nativeRef = -1;
 
         CppProxy(long j) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
                 iPatchRedirector.redirect((short) 1, this, j);
-                return;
-            }
-            this.destroyed = new AtomicBoolean(false);
-            if (j != 0) {
-                this.nativeRef = j;
                 return;
             }
             throw new RuntimeException("nativeRef is zero");
@@ -286,7 +271,7 @@ public interface IKernelFeedServiceNew {
                 iPatchRedirector.redirect((short) 3, this);
             } else {
                 _djinni_private_destroy();
-                super.finalize();
+
             }
         }
 

@@ -16,12 +16,6 @@ public final class MemberRole {
     public static final MemberRole UNSPECIFIED;
 
     static {
-        IPatchRedirector redirector = PatchRedirectCenter.getRedirector(46592);
-        $redirector_ = redirector;
-        if (redirector != null && redirector.hasPatch((short) 2)) {
-            redirector.redirect((short) 2);
-            return;
-        }
         MemberRole memberRole = new MemberRole("UNSPECIFIED", 0);
         UNSPECIFIED = memberRole;
         MemberRole memberRole2 = new MemberRole("STRANGER", 1);
@@ -44,7 +38,7 @@ public final class MemberRole {
     }
 
     public static MemberRole valueOf(String str) {
-        return (MemberRole) Enum.valueOf(MemberRole.class, str);
+        throw new RuntimeException("Stub!");
     }
 
     public static MemberRole[] values() {
