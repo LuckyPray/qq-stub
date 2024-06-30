@@ -21,9 +21,9 @@ public final class GProAnchorInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.anchorName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.anchorIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.anchorName = "";
+        this.anchorIcon = "";
+        this.avatarMeta = "";
     }
 
     public String getAnchorIcon() {

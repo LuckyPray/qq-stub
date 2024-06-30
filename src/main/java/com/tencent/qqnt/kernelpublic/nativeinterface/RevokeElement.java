@@ -29,9 +29,9 @@ public final class RevokeElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.operatorUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.origMsgSenderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.wording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.operatorUid = "";
+        this.origMsgSenderUid = "";
+        this.wording = "";
     }
 
     public boolean getIsSelfOperate() {
@@ -109,9 +109,9 @@ public final class RevokeElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.operatorUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.origMsgSenderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.wording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.operatorUid = "";
+        this.origMsgSenderUid = "";
+        this.wording = "";
         this.operatorTinyId = j;
         this.operatorRole = j2;
         this.operatorUid = str;

@@ -7,7 +7,7 @@ public final class DeleteGroupSchoolNoticeReq {
     public String noticeId;
 
     public DeleteGroupSchoolNoticeReq() {
-        this.noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.noticeId = "";
     }
 
     public long getGroupCode() {
@@ -23,7 +23,7 @@ public final class DeleteGroupSchoolNoticeReq {
     }
 
     public DeleteGroupSchoolNoticeReq(String str, long j) {
-        this.noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.noticeId = "";
         this.noticeId = str;
         this.groupCode = j;
     }

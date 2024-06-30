@@ -13,7 +13,7 @@ public final class SearchGroupResult {
 
     public SearchGroupResult() {
         this.groupInfos = new ArrayList<>();
-        this.penetrate = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.penetrate = "";
     }
 
     public int getErrorode() {
@@ -42,7 +42,7 @@ public final class SearchGroupResult {
 
     public SearchGroupResult(int i, ArrayList<SearchRspGroupInfo> arrayList, String str, boolean z, int i2) {
         this.groupInfos = new ArrayList<>();
-        this.penetrate = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.penetrate = "";
         this.errorode = i;
         this.groupInfos = arrayList;
         this.penetrate = str;

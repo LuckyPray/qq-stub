@@ -6,10 +6,10 @@ public final class NTGetFeedByIdReq {
     public int seq;
     public RequestTimelineInfo requestTimeLine = new RequestTimelineInfo();
     public StCommonExt ext = new StCommonExt();
-    public String qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String albumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String batchId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String qunId = "";
+    public String feedId = "";
+    public String albumId = "";
+    public String batchId = "";
 
     public String getAlbumId() {
         return this.albumId;

@@ -21,7 +21,7 @@ public final class NewBuddyGrayElement implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.friendNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.friendNick = "";
         }
     }
 
@@ -65,7 +65,7 @@ public final class NewBuddyGrayElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.friendNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.friendNick = "";
         this.time = j;
         this.sourceId = i;
         this.subSourceId = i2;

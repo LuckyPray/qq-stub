@@ -18,7 +18,7 @@ public final class GProEntry implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.key = "";
         this.value = new byte[0];
     }
 
@@ -47,7 +47,7 @@ public final class GProEntry implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.key = "";
         this.value = new byte[0];
         this.key = str;
         this.value = bArr;

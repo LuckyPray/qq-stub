@@ -17,8 +17,8 @@ public final class GProArchiveArkData {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.icon = "";
         this.arkArgs = new GProArkArg();
     }
 
@@ -56,8 +56,8 @@ public final class GProArchiveArkData {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, str2, gProArkArg});
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.icon = "";
         this.arkArgs = new GProArkArg();
         this.clientId = i;
         this.name = str;

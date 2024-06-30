@@ -6,7 +6,7 @@ import java.util.ArrayList;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchEmotionList.class */
 public final class SearchEmotionList {
     public ArrayList<SearchPicture> pics = new ArrayList<>();
-    public String stringExtension = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String stringExtension = "";
 
     public ArrayList<SearchPicture> getPics() {
         return this.pics;

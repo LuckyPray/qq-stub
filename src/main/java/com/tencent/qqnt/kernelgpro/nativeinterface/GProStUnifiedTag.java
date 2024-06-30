@@ -14,8 +14,8 @@ public final class GProStUnifiedTag {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.unifiedType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.unifiedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.unifiedType = "";
+            this.unifiedId = "";
         }
     }
 

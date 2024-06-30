@@ -10,7 +10,7 @@ public final class DiyEmo {
     public String word;
 
     public DiyEmo() {
-        this.word = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.word = "";
     }
 
     public int getId() {
@@ -30,7 +30,7 @@ public final class DiyEmo {
     }
 
     public DiyEmo(int i, int i2, String str) {
-        this.word = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.word = "";
         this.f2id = i;
         this.type = i2;
         this.word = str;

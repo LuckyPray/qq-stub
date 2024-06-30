@@ -19,13 +19,13 @@ public final class DeviceInfo implements IKernelModel, Serializable {
 
     public DeviceInfo() {
         this.serialVersionUID = 1L;
-        this.guid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.buildVer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.devName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.devType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.vendorName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.osVer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.vendorOsName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guid = "";
+        this.buildVer = "";
+        this.devName = "";
+        this.devType = "";
+        this.vendorName = "";
+        this.osVer = "";
+        this.vendorOsName = "";
     }
 
     public String getBuildVer() {
@@ -114,13 +114,13 @@ public final class DeviceInfo implements IKernelModel, Serializable {
 
     public DeviceInfo(String str, String str2, int i, String str3, String str4, String str5, String str6, String str7, boolean z, int i2) {
         this.serialVersionUID = 1L;
-        this.guid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.buildVer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.devName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.devType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.vendorName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.osVer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.vendorOsName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guid = "";
+        this.buildVer = "";
+        this.devName = "";
+        this.devType = "";
+        this.vendorName = "";
+        this.osVer = "";
+        this.vendorOsName = "";
         this.guid = str;
         this.buildVer = str2;
         this.localId = i;

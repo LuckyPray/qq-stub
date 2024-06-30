@@ -8,7 +8,7 @@ public final class GetAIOBindGuildInfoRsp {
     public AIOBindGuildInfo bindGuild;
     public boolean isEnd;
     public ArrayList<AIOBindGuildInfo> optGuilds = new ArrayList<>();
-    public String cookies = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String cookies = "";
 
     public AIOBindGuildInfo getBindGuild() {
         return this.bindGuild;

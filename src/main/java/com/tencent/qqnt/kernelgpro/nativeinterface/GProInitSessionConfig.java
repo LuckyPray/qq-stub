@@ -24,11 +24,11 @@ public final class GProInitSessionConfig {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.selfUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientVer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.f60a2 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.f61d2 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.d2Key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.selfUid = "";
+        this.clientVer = "";
+        this.f60a2 = "";
+        this.f61d2 = "";
+        this.d2Key = "";
     }
 
     public String getA2() {
@@ -80,11 +80,11 @@ public final class GProInitSessionConfig {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, str3, str4, str5, str6});
             return;
         }
-        this.selfUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientVer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.f60a2 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.f61d2 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.d2Key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.selfUid = "";
+        this.clientVer = "";
+        this.f60a2 = "";
+        this.f61d2 = "";
+        this.d2Key = "";
         this.selfUin = j;
         this.selfUid = str;
         this.gproDBName = str2;

@@ -20,7 +20,7 @@ public final class GProGetRecommendV2Req implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.block = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.block = "";
         this.cookies = new byte[0];
         this.source = new GProBottomTabSourceInfo();
     }
@@ -96,7 +96,7 @@ public final class GProGetRecommendV2Req implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.block = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.block = "";
         this.cookies = new byte[0];
         this.source = new GProBottomTabSourceInfo();
         this.block = str;

@@ -16,16 +16,16 @@ public final class RobotBaseInfo {
     public int robotType;
     public long robotUin;
     public int status;
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String robotAvatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String welcomeMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String callName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String verify = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String fallback = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String extraInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String robotUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String ownerEntity = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String name = "";
+    public String desc = "";
+    public String robotAvatar = "";
+    public String welcomeMsg = "";
+    public String callName = "";
+    public String verify = "";
+    public String fallback = "";
+    public String extraInfo = "";
+    public String robotUid = "";
+    public String ownerEntity = "";
     public RobtoCreateInfo createInfo = new RobtoCreateInfo();
     public RobotStatus robotStatus = RobotStatus.values()[0];
 

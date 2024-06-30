@@ -19,8 +19,8 @@ public final class GProLiveStreamInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.flvUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.flvUrl = "";
     }
 
     public long getAnchorId() {

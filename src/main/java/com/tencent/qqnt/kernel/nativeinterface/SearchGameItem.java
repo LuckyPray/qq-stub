@@ -13,11 +13,11 @@ public final class SearchGameItem {
     public String url;
 
     public SearchGameItem() {
-        this.f35id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f35id = "";
+        this.name = "";
+        this.icon = "";
+        this.desc = "";
+        this.url = "";
     }
 
     public String getDesc() {
@@ -49,11 +49,11 @@ public final class SearchGameItem {
     }
 
     public SearchGameItem(String str, int i, String str2, String str3, String str4, String str5) {
-        this.f35id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f35id = "";
+        this.name = "";
+        this.icon = "";
+        this.desc = "";
+        this.url = "";
         this.f35id = str;
         this.type = i;
         this.name = str2;

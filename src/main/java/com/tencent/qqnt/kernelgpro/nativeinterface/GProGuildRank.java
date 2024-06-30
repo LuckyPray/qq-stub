@@ -14,8 +14,8 @@ public final class GProGuildRank {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.iconUrl = "";
+            this.text = "";
         }
     }
 
@@ -43,8 +43,8 @@ public final class GProGuildRank {
             iPatchRedirector.redirect((short) 2, this, str, str2);
             return;
         }
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
+        this.text = "";
         this.iconUrl = str;
         this.text = str2;
     }

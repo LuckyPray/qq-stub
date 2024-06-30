@@ -7,8 +7,8 @@ public final class UploadGroupFileParams {
     public String filePath;
 
     public UploadGroupFileParams() {
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileName = "";
+        this.filePath = "";
     }
 
     public long getFileModelId() {
@@ -28,8 +28,8 @@ public final class UploadGroupFileParams {
     }
 
     public UploadGroupFileParams(String str, String str2, long j) {
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileName = "";
+        this.filePath = "";
         this.fileName = str;
         this.filePath = str2;
         this.fileModelId = j;

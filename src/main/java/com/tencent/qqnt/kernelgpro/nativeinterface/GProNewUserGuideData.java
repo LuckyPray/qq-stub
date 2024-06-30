@@ -17,7 +17,7 @@ public final class GProNewUserGuideData implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.animationUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.animationUrl = "";
         }
     }
 
@@ -46,7 +46,7 @@ public final class GProNewUserGuideData implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.animationUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.animationUrl = "";
         this.animationUrl = str;
         this.tabExposeFlag = i;
     }

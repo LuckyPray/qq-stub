@@ -31,13 +31,13 @@ public final class GroupGrayElement implements Serializable {
         this.serialVersionUID = 1L;
         this.type = GroupGrayElementType.values()[0];
         this.role = GroupGrayElementRole.values()[0];
-        this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.memberUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.memberNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.memberRemark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.adminUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.adminNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.adminRemark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupName = "";
+        this.memberUid = "";
+        this.memberNick = "";
+        this.memberRemark = "";
+        this.adminUid = "";
+        this.adminNick = "";
+        this.adminRemark = "";
     }
 
     public String getAdminNick() {
@@ -117,13 +117,13 @@ public final class GroupGrayElement implements Serializable {
         this.serialVersionUID = 1L;
         this.type = GroupGrayElementType.values()[0];
         this.role = GroupGrayElementRole.values()[0];
-        this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.memberUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.memberNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.memberRemark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.adminUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.adminNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.adminRemark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupName = "";
+        this.memberUid = "";
+        this.memberNick = "";
+        this.memberRemark = "";
+        this.adminUid = "";
+        this.adminNick = "";
+        this.adminRemark = "";
         this.type = groupGrayElementType;
         this.role = groupGrayElementRole;
         this.groupName = str;

@@ -20,14 +20,14 @@ public final class TianshuAdItem {
     public String traceInfo;
 
     public TianshuAdItem() {
-        this.traceInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceInfo = "";
+        this.title = "";
+        this.desc = "";
+        this.jumpUrl = "";
+        this.iconUrl = "";
         this.lstPic = new ArrayList<>();
         this.argList = new HashMap<>();
-        this.extInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.extInfo = "";
     }
 
     public HashMap<String, String> getArgList() {
@@ -83,14 +83,14 @@ public final class TianshuAdItem {
     }
 
     public TianshuAdItem(int i, int i2, int i3, int i4, String str, String str2, String str3, String str4, String str5, ArrayList<String> arrayList, HashMap<String, String> hashMap, String str6) {
-        this.traceInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceInfo = "";
+        this.title = "";
+        this.desc = "";
+        this.jumpUrl = "";
+        this.iconUrl = "";
         this.lstPic = new ArrayList<>();
         this.argList = new HashMap<>();
-        this.extInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.extInfo = "";
         this.iAdId = i;
         this.iAdType = i2;
         this.taskId = i3;

@@ -5,7 +5,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class ResetRobotConversationRq {
     public int chatType;
     public boolean isRestHistory;
-    public String uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String uid = "";
 
     public int getChatType() {
         return this.chatType;

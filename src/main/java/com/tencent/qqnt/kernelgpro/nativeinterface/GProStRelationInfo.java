@@ -22,7 +22,7 @@ public final class GProStRelationInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.idd = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.idd = "";
             this.busiData = new byte[0];
         }
     }

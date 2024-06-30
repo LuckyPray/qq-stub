@@ -26,7 +26,7 @@ public final class GProMVPComment {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.f63id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f63id = "";
         this.poster = new GProMVPUser();
         this.content = new GProMVPRichText();
         this.images = new ArrayList<>();

@@ -7,7 +7,7 @@ public final class GProSubscribeGlobalRobotReq {
     public String subscriptionId;
 
     public GProSubscribeGlobalRobotReq() {
-        this.subscriptionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.subscriptionId = "";
     }
 
     public long getGuildId() {
@@ -27,7 +27,7 @@ public final class GProSubscribeGlobalRobotReq {
     }
 
     public GProSubscribeGlobalRobotReq(String str, long j, boolean z) {
-        this.subscriptionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.subscriptionId = "";
         this.subscriptionId = str;
         this.guildId = j;
         this.isSwitchOn = z;

@@ -35,18 +35,18 @@ public final class GProStComment {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.idd = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.idd = "";
         this.postUser = new GProStUser();
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.content = "";
         this.vecReplyList = new ArrayList<>();
         this.busiData = new byte[0];
         this.likeInfo = new GProStLike();
         this.atUinListList = new ArrayList<>();
         this.storeExtInfoList = new ArrayList<>();
-        this.thirdId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.thirdId = "";
         this.richContents = new GProStRichText();
         this.images = new ArrayList<>();
-        this.attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.attachInfo = "";
     }
 
     public ArrayList<String> getAtUinListList() {

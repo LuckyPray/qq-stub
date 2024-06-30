@@ -27,11 +27,11 @@ public final class GProStChannelInfo {
             return;
         }
         this.sign = new GProStChannelSign();
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.hotIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.memberCount = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.iconUrl = "";
+        this.guildName = "";
+        this.hotIcon = "";
+        this.memberCount = "";
         this.medals = new ArrayList<>();
         this.label = new GProStGuildLabel();
     }

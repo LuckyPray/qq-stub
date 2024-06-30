@@ -23,11 +23,11 @@ public final class GProRiskMemberListRsp {
             return;
         }
         this.groupList = new ArrayList<>();
-        this.cookie = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cookie = "";
+        this.traceId = "";
         this.buf = new byte[0];
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.subTitle = "";
     }
 
     public byte[] getBuf() {
@@ -85,11 +85,11 @@ public final class GProRiskMemberListRsp {
             return;
         }
         this.groupList = new ArrayList<>();
-        this.cookie = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cookie = "";
+        this.traceId = "";
         this.buf = new byte[0];
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.subTitle = "";
         this.groupList = arrayList;
         this.cookie = str;
         this.traceId = str2;

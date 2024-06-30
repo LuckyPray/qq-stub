@@ -22,10 +22,10 @@ public final class GProContentRecommendDocument implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildAvatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.docCover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.docTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildAvatar = "";
+        this.docCover = "";
+        this.docTitle = "";
     }
 
     public long getChannelId() {

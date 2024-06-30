@@ -14,8 +14,8 @@ public final class GProEncryptTextReq {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.originalText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.appId = "";
+            this.originalText = "";
         }
     }
 
@@ -61,8 +61,8 @@ public final class GProEncryptTextReq {
             iPatchRedirector.redirect((short) 2, this, str, str2);
             return;
         }
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.originalText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appId = "";
+        this.originalText = "";
         this.appId = str;
         this.originalText = str2;
     }

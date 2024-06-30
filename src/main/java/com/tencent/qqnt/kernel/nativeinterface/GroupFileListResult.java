@@ -15,8 +15,8 @@ public final class GroupFileListResult {
     public String retMsg;
 
     public GroupFileListResult() {
-        this.retMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientWording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.retMsg = "";
+        this.clientWording = "";
         this.item = new ArrayList<>();
     }
 
@@ -57,8 +57,8 @@ public final class GroupFileListResult {
     }
 
     public GroupFileListResult(int i, String str, String str2, boolean z, ArrayList<GroupItem> arrayList, int i2, int i3, int i4) {
-        this.retMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientWording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.retMsg = "";
+        this.clientWording = "";
         this.item = new ArrayList<>();
         this.retCode = i;
         this.retMsg = str;

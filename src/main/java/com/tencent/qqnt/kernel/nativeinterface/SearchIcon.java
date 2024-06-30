@@ -8,18 +8,18 @@ public final class SearchIcon {
     public long timestamp;
     public int uinType;
     public int width;
-    public String iconLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String iconLink = "";
     public SearchJump jumpLink = new SearchJump();
     public SearchText title = new SearchText();
     public SearchText subTitle = new SearchText();
     public SearchPictureDetail auth = new SearchPictureDetail();
     public SearchReportInfo reportInfo = new SearchReportInfo();
-    public String uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String iconToken = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String iconColorToken = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String iconBgColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String visibleRangeIconLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String visibleRangeTitleText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String uin = "";
+    public String iconToken = "";
+    public String iconColorToken = "";
+    public String iconBgColor = "";
+    public String visibleRangeIconLink = "";
+    public String visibleRangeTitleText = "";
 
     public SearchPictureDetail getAuth() {
         return this.auth;

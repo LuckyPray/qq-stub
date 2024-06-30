@@ -8,7 +8,7 @@ public final class SearchChatSummaryItem {
     public int chatType;
     public int msgCount;
     public long msgTime;
-    public String peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String peerUid = "";
     public SearchChatInfo chatInfo = new SearchChatInfo();
     public ArrayList<SearchBuddyChatInfo> buddyChatInfo = new ArrayList<>();
     public ArrayList<SearchDiscussChatInfo> discussChatInfo = new ArrayList<>();

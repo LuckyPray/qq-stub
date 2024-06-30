@@ -17,12 +17,12 @@ public final class NTGetQunCommentReq {
     public NTGetQunCommentReq() {
         this.requestTimeLine = new RequestTimelineInfo();
         this.ext = new StCommonExt();
-        this.qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.albumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.batchId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.lloc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qunId = "";
+        this.feedId = "";
+        this.attachInfo = "";
+        this.albumId = "";
+        this.batchId = "";
+        this.lloc = "";
     }
 
     public String getAlbumId() {
@@ -72,12 +72,12 @@ public final class NTGetQunCommentReq {
     public NTGetQunCommentReq(int i, RequestTimelineInfo requestTimelineInfo, StCommonExt stCommonExt, String str, String str2, int i2, String str3, String str4, String str5, String str6) {
         this.requestTimeLine = new RequestTimelineInfo();
         this.ext = new StCommonExt();
-        this.qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.albumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.batchId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.lloc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qunId = "";
+        this.feedId = "";
+        this.attachInfo = "";
+        this.albumId = "";
+        this.batchId = "";
+        this.lloc = "";
         this.seq = i;
         this.requestTimeLine = requestTimelineInfo;
         this.ext = stCommonExt;

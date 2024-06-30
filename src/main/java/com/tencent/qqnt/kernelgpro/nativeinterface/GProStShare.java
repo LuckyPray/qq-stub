@@ -28,14 +28,14 @@ public final class GProStShare {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.desc = "";
+        this.url = "";
         this.author = new GProStUser();
         this.poster = new GProStUser();
         this.videos = new ArrayList<>();
-        this.shorturl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.shareCardInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.shorturl = "";
+        this.shareCardInfo = "";
         this.shareQzoneInfo = new GProStShareQzoneInfo();
         this.images = new ArrayList<>();
         this.channelShareInfo = new GProStChannelShareInfo();

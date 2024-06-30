@@ -12,12 +12,12 @@ public final class TempChatPrepareInfo {
     public byte[] sig;
 
     public TempChatPrepareInfo() {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerNickname = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fromGroupCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.peerNickname = "";
+        this.fromGroupCode = "";
         this.sig = new byte[0];
-        this.selfUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.selfPhone = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.selfUid = "";
+        this.selfPhone = "";
     }
 
     public int getChatType() {
@@ -57,12 +57,12 @@ public final class TempChatPrepareInfo {
     }
 
     public TempChatPrepareInfo(int i, String str, String str2, String str3, byte[] bArr, String str4, String str5, TempChatGameSession tempChatGameSession) {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerNickname = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fromGroupCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.peerNickname = "";
+        this.fromGroupCode = "";
         this.sig = new byte[0];
-        this.selfUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.selfPhone = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.selfUid = "";
+        this.selfPhone = "";
         this.chatType = i;
         this.peerUid = str;
         this.peerNickname = str2;

@@ -17,8 +17,8 @@ public final class GProRiskMemberListReq {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.cookie = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cookie = "";
+        this.traceId = "";
         this.buf = new byte[0];
     }
 
@@ -92,8 +92,8 @@ public final class GProRiskMemberListReq {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, bArr});
             return;
         }
-        this.cookie = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cookie = "";
+        this.traceId = "";
         this.buf = new byte[0];
         this.guildId = j;
         this.cookie = str;

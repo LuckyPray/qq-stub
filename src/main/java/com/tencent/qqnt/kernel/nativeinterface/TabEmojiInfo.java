@@ -11,7 +11,7 @@ public final class TabEmojiInfo {
     public int wordingId;
 
     public TabEmojiInfo() {
-        this.tabName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tabName = "";
     }
 
     public int getEpId() {
@@ -43,7 +43,7 @@ public final class TabEmojiInfo {
     }
 
     public TabEmojiInfo(int i, int i2, int i3, int i4, int i5, String str) {
-        this.tabName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tabName = "";
         this.epId = i;
         this.expireTime = i2;
         this.flags = i3;

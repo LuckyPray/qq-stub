@@ -17,7 +17,7 @@ public final class GProRecommendFeedShareInfo implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.shareLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.shareLink = "";
         }
     }
 
@@ -46,7 +46,7 @@ public final class GProRecommendFeedShareInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.shareLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.shareLink = "";
         this.shareType = i;
         this.shareLink = str;
     }

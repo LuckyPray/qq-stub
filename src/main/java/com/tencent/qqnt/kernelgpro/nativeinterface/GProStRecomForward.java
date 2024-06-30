@@ -20,9 +20,9 @@ public final class GProStRecomForward {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.idd = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subtitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.idd = "";
+        this.title = "";
+        this.subtitle = "";
         this.poster = new GProStUser();
         this.busiData = new byte[0];
     }

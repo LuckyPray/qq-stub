@@ -25,17 +25,17 @@ public final class DownloadRelateEmojiResultInfo {
     public String word;
 
     public DownloadRelateEmojiResultInfo() {
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.path = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
+        this.path = "";
         this.recommentEmojiType = RecommentEmojiType.values()[0];
-        this.resId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.eId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.eIdName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.encryptKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.word = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.resId = "";
+        this.uin = "";
+        this.url = "";
+        this.eId = "";
+        this.eIdName = "";
+        this.encryptKey = "";
+        this.md5 = "";
+        this.word = "";
     }
 
     public int getClickNum() {
@@ -123,17 +123,17 @@ public final class DownloadRelateEmojiResultInfo {
     }
 
     public DownloadRelateEmojiResultInfo(int i, String str, String str2, RecommentEmojiType recommentEmojiType, int i2, String str3, String str4, String str5, boolean z, int i3, int i4, int i5, String str6, String str7, String str8, int i6, int i7, int i8, String str9, String str10) {
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.path = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
+        this.path = "";
         this.recommentEmojiType = RecommentEmojiType.values()[0];
-        this.resId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.eId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.eIdName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.encryptKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.word = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.resId = "";
+        this.uin = "";
+        this.url = "";
+        this.eId = "";
+        this.eIdName = "";
+        this.encryptKey = "";
+        this.md5 = "";
+        this.word = "";
         this.result = i;
         this.msg = str;
         this.path = str2;

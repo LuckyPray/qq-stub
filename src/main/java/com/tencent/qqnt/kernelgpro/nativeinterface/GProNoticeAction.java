@@ -15,8 +15,8 @@ public final class GProNoticeAction {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.actionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.title = "";
+            this.actionId = "";
         }
     }
 

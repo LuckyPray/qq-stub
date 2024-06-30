@@ -28,10 +28,10 @@ public final class GProVideo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.playUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.playUrl = "";
         this.cover = new GProImage();
         this.transVideos = new ArrayList<>();
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileId = "";
     }
 
     public GProImage getCover() {
@@ -104,10 +104,10 @@ public final class GProVideo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.playUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.playUrl = "";
         this.cover = new GProImage();
         this.transVideos = new ArrayList<>();
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileId = "";
         this.fileSize = i;
         this.duration = i2;
         this.width = i3;

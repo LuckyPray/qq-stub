@@ -24,9 +24,9 @@ public final class GProQuickJoinItem implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.onlineNumTag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.coverUrl = "";
+        this.onlineNumTag = "";
         this.membersAvatar = new ArrayList<>();
     }
 
@@ -80,9 +80,9 @@ public final class GProQuickJoinItem implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.onlineNumTag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.coverUrl = "";
+        this.onlineNumTag = "";
         this.membersAvatar = new ArrayList<>();
         this.name = str;
         this.voiceType = i;

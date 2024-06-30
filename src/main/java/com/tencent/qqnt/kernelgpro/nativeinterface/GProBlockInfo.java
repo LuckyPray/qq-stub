@@ -25,8 +25,8 @@ public final class GProBlockInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.blockId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.blockName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.blockId = "";
+        this.blockName = "";
         this.items = new ArrayList<>();
         this.categories = new ArrayList<>();
     }
@@ -86,8 +86,8 @@ public final class GProBlockInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.blockId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.blockName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.blockId = "";
+        this.blockName = "";
         this.items = new ArrayList<>();
         this.categories = new ArrayList<>();
         this.blockId = str;

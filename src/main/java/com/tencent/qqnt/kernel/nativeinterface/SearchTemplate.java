@@ -17,7 +17,7 @@ public final class SearchTemplate {
     public SearchTopicHeader topicHeader;
     public SearchVerticalDetail verticalDetail;
     public SearchVerticalList verticalList;
-    public String data = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String data = "";
     public SearchLayOut layOut = new SearchLayOut();
     public SearchReportInfo reportInfo = new SearchReportInfo();
     public SearchJump jumpLink = new SearchJump();

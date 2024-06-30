@@ -17,7 +17,7 @@ public final class GProMsgSearchReq {
     public GProMsgSearchReq() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.cookie = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.cookie = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -72,7 +72,7 @@ public final class GProMsgSearchReq {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, num, gProMsgSearchCond, str2, num2});
             return;
         }
-        this.cookie = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cookie = "";
         this.tinyId = j;
         this.guildId = j2;
         this.query = str;

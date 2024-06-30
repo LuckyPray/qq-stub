@@ -3,7 +3,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/QueryAIOBindGuildReq.class */
 public final class QueryAIOBindGuildReq {
-    public String queryTxt = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String queryTxt = "";
 
     public String getQueryTxt() {
         return this.queryTxt;

@@ -6,7 +6,7 @@ public final class SearchStVideo {
     public int duration;
     public int fileSize;
     public int height;
-    public String playUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String playUrl = "";
     public int width;
 
     public int getDuration() {

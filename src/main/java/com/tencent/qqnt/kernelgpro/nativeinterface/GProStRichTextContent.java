@@ -24,7 +24,7 @@ public final class GProStRichTextContent {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.patternId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.patternId = "";
         this.textContent = new GProStRichTextTextContent();
         this.atContent = new GProStRichTextAtContent();
         this.urlContent = new GProStRichTextURLContent();

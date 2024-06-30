@@ -3,8 +3,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchFloatButton.class */
 public final class SearchFloatButton {
-    public String title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String title = "";
+    public String jumpUrl = "";
     public SearchFloatButtonIcon icon = new SearchFloatButtonIcon();
     public SearchReportInfo reportInfo = new SearchReportInfo();
 

@@ -3,7 +3,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GetAIOBindGuildInfoReq.class */
 public final class GetAIOBindGuildInfoReq {
-    public String cookies = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String cookies = "";
     public long groupCode;
 
     public String getCookies() {

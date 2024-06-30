@@ -12,7 +12,7 @@ public final class GProRolePermissionCategory {
     public GProRolePermissionCategory() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.name = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -42,7 +42,7 @@ public final class GProRolePermissionCategory {
             iPatchRedirector.redirect((short) 2, this, str, i);
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.name = str;
         this.packCount = i;
     }

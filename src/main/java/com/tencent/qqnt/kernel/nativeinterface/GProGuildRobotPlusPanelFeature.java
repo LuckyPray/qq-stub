@@ -13,9 +13,9 @@ public final class GProGuildRobotPlusPanelFeature {
         this.botInfo = new GProGuildPlusPanelRobotInfo();
         this.serviceInfo = new GProGuildRobotPlusPanelFeatureInfo();
         this.commandInfo = new GProGuildRobotPlusPanelFeatureInfo();
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.serviceName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.elementId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.icon = "";
+        this.serviceName = "";
+        this.elementId = "";
     }
 
     public GProGuildPlusPanelRobotInfo getBotInfo() {
@@ -50,9 +50,9 @@ public final class GProGuildRobotPlusPanelFeature {
         this.botInfo = new GProGuildPlusPanelRobotInfo();
         this.serviceInfo = new GProGuildRobotPlusPanelFeatureInfo();
         this.commandInfo = new GProGuildRobotPlusPanelFeatureInfo();
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.serviceName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.elementId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.icon = "";
+        this.serviceName = "";
+        this.elementId = "";
         this.botInfo = gProGuildPlusPanelRobotInfo;
         this.serviceInfo = gProGuildRobotPlusPanelFeatureInfo;
         this.commandInfo = gProGuildRobotPlusPanelFeatureInfo2;

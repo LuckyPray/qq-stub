@@ -20,7 +20,7 @@ public final class GProIdentity implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.value = "";
         this.thirdPartyData = new byte[0];
     }
 
@@ -59,7 +59,7 @@ public final class GProIdentity implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.value = "";
         this.thirdPartyData = new byte[0];
         this.type = i;
         this.value = str;

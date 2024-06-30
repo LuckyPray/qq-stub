@@ -7,8 +7,8 @@ import java.util.ArrayList;
 public final class NTQueryQuoteToQunAlbumStatusRsp {
     public int result;
     public int seq;
-    public String errMs = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String errMs = "";
+    public String traceId = "";
     public RequestTimelineInfo requestTimeLine = new RequestTimelineInfo();
     public ArrayList<StatusUnit> statusUnits = new ArrayList<>();
 

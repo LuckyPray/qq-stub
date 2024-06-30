@@ -18,8 +18,8 @@ public final class GProDoLikeCommentForFeedReq {
             return;
         }
         this.extInfo = new GProFDLStCommonExt();
-        this.commentId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.commentId = "";
+        this.feedId = "";
     }
 
     public String getCommentId() {
@@ -93,8 +93,8 @@ public final class GProDoLikeCommentForFeedReq {
             return;
         }
         this.extInfo = new GProFDLStCommonExt();
-        this.commentId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.commentId = "";
+        this.feedId = "";
         this.extInfo = gProFDLStCommonExt;
         this.likeType = i;
         this.commentId = str;

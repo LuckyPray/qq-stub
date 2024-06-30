@@ -14,9 +14,9 @@ public final class LocalAVRecordElement {
     public int type;
 
     public LocalAVRecordElement() {
-        this.senderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avAbstract = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderUid = "";
+        this.text = "";
+        this.avAbstract = "";
     }
 
     public String getAvAbstract() {
@@ -60,9 +60,9 @@ public final class LocalAVRecordElement {
     }
 
     public LocalAVRecordElement(int i, long j, String str, int i2, String str2, String str3, boolean z, long j2, Integer num) {
-        this.senderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avAbstract = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderUid = "";
+        this.text = "";
+        this.avAbstract = "";
         this.type = i;
         this.time = j;
         this.senderUid = str;

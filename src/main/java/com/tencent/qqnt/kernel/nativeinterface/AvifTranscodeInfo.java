@@ -10,8 +10,8 @@ public final class AvifTranscodeInfo {
     public long picWidth;
 
     public AvifTranscodeInfo() {
-        this.avifPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.dstJpgPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.avifPath = "";
+        this.dstJpgPath = "";
     }
 
     public String getAioPath() {
@@ -39,8 +39,8 @@ public final class AvifTranscodeInfo {
     }
 
     public AvifTranscodeInfo(String str, String str2, String str3, long j, long j2) {
-        this.avifPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.dstJpgPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.avifPath = "";
+        this.dstJpgPath = "";
         this.avifPath = str;
         this.dstJpgPath = str2;
         this.aioPath = str3;

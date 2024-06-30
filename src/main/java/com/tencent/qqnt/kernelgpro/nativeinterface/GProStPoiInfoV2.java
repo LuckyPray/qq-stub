@@ -33,20 +33,20 @@ public final class GProStPoiInfoV2 {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.poiId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.typeName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.address = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.poiId = "";
+        this.name = "";
+        this.typeName = "";
+        this.address = "";
         this.gps = new GProStGPSV2();
-        this.phone = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.country = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.province = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.city = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.defaultName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.district = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.dianPingId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.distanceText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.displayName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.phone = "";
+        this.country = "";
+        this.province = "";
+        this.city = "";
+        this.defaultName = "";
+        this.district = "";
+        this.dianPingId = "";
+        this.distanceText = "";
+        this.displayName = "";
     }
 
     public String getAddress() {

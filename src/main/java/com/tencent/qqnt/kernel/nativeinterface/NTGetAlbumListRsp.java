@@ -9,11 +9,11 @@ public final class NTGetAlbumListRsp {
     public boolean isFromCache;
     public int result;
     public int seq;
-    public String errMs = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String errMs = "";
+    public String traceId = "";
     public RequestTimelineInfo requestTimeLine = new RequestTimelineInfo();
     public ArrayList<AlbumInfo> albumList = new ArrayList<>();
-    public String attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String attachInfo = "";
     public QunRight right = new QunRight();
     public StBanner banner = new StBanner();
 

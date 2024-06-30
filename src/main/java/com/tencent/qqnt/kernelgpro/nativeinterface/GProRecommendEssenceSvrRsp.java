@@ -15,7 +15,7 @@ public final class GProRecommendEssenceSvrRsp {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.content = "";
             this.recommendChannels = new ArrayList<>();
         }
     }
@@ -44,7 +44,7 @@ public final class GProRecommendEssenceSvrRsp {
             iPatchRedirector.redirect((short) 2, this, str, arrayList);
             return;
         }
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.content = "";
         this.recommendChannels = new ArrayList<>();
         this.content = str;
         this.recommendChannels = arrayList;

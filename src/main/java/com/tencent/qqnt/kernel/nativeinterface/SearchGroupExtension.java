@@ -5,9 +5,9 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class SearchGroupExtension {
     public long exactSearch;
     public int joinGroupFlag;
-    public String groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String groupCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String joinGroupAuth = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String groupName = "";
+    public String groupCode = "";
+    public String joinGroupAuth = "";
 
     public long getExactSearch() {
         return this.exactSearch;

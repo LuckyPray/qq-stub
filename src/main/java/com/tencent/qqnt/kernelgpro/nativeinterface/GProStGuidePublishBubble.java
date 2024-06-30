@@ -16,9 +16,9 @@ public final class GProStGuidePublishBubble {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.idd = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.idd = "";
         this.backgroundImage = new GProStImage();
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jumpUrl = "";
     }
 
     public GProStImage getBackgroundImage() {

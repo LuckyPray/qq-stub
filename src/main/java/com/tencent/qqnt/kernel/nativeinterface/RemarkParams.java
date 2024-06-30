@@ -7,8 +7,8 @@ public final class RemarkParams {
     public String uid;
 
     public RemarkParams() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.remark = "";
     }
 
     public String getRemark() {
@@ -28,8 +28,8 @@ public final class RemarkParams {
     }
 
     public RemarkParams(String str, String str2, RemarkSignExtInfo remarkSignExtInfo) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.remark = "";
         this.uid = str;
         this.remark = str2;
         this.signInfo = remarkSignExtInfo;

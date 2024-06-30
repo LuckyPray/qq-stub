@@ -16,7 +16,7 @@ public final class GProStProxyInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.appProtocol = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.appProtocol = "";
             this.reqBody = new byte[0];
         }
     }

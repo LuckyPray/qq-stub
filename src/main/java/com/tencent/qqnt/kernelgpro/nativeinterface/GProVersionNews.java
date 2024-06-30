@@ -18,10 +18,10 @@ public final class GProVersionNews {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subtitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.subtitle = "";
         this.newsUrlList = new ArrayList<>();
-        this.jumpFeedUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jumpFeedUrl = "";
     }
 
     public String getJumpFeedUrl() {
@@ -58,10 +58,10 @@ public final class GProVersionNews {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, arrayList, str3});
             return;
         }
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subtitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.subtitle = "";
         this.newsUrlList = new ArrayList<>();
-        this.jumpFeedUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jumpFeedUrl = "";
         this.title = str;
         this.subtitle = str2;
         this.newsUrlList = arrayList;

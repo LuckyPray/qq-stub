@@ -25,10 +25,10 @@ public final class GProMVPVideo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.playUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.playUrl = "";
         this.cover = new GProMVPImage();
         this.transVideos = new ArrayList<>();
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileId = "";
     }
 
     public GProMVPImage getCover() {

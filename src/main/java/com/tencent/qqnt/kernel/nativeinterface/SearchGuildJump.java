@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchGuildJump.class */
 public final class SearchGuildJump {
     public long guildId;
-    public String joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String joinGuildSig = "";
     public int joinStatus;
 
     public long getGuildId() {

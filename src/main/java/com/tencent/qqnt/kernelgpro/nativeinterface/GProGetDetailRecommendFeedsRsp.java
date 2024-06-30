@@ -20,7 +20,7 @@ public final class GProGetDetailRecommendFeedsRsp {
         }
         this.feeds = new ArrayList<>();
         this.attachInfo = new byte[0];
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceId = "";
     }
 
     public byte[] getAttachInfo() {

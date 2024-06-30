@@ -24,11 +24,11 @@ public final class GProRetentionChannelInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildProfile = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildCover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildIcon = "";
+        this.guildProfile = "";
+        this.guildCover = "";
+        this.joinSig = "";
         this.tagList = new ArrayList<>();
     }
 
@@ -82,11 +82,11 @@ public final class GProRetentionChannelInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildProfile = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildCover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildIcon = "";
+        this.guildProfile = "";
+        this.guildCover = "";
+        this.joinSig = "";
         this.tagList = new ArrayList<>();
         this.guildId = j;
         this.guildName = str;

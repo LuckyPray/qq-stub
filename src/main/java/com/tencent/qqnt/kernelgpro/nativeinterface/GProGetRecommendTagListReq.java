@@ -18,8 +18,8 @@ public final class GProGetRecommendTagListReq {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.groupId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.type = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupId = "";
+        this.type = "";
         this.source = new GProBottomTabSourceInfo();
         this.cookies = new byte[0];
     }
@@ -108,8 +108,8 @@ public final class GProGetRecommendTagListReq {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, str2, gProBottomTabSourceInfo, bArr});
             return;
         }
-        this.groupId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.type = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupId = "";
+        this.type = "";
         this.source = new GProBottomTabSourceInfo();
         this.cookies = new byte[0];
         this.businessType = i;

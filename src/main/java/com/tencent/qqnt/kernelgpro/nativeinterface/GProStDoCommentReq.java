@@ -28,7 +28,7 @@ public final class GProStDoCommentReq {
         this.feed = new GProStFeed();
         this.busiReqData = new byte[0];
         this.commentContent = new GProStRichText();
-        this.jsonComment = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jsonComment = "";
     }
 
     public byte[] getBusiReqData() {

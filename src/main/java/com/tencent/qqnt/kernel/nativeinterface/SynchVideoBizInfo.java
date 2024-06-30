@@ -3,9 +3,9 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SynchVideoBizInfo.class */
 public final class SynchVideoBizInfo {
-    public String cid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String tvUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String synchType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String cid = "";
+    public String tvUrl = "";
+    public String synchType = "";
 
     public String getCid() {
         return this.cid;

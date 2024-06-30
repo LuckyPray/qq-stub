@@ -21,7 +21,7 @@ public final class GProPAReportExecuteReq implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.ruleNameList = new ArrayList<>();
-        this.instrTraceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.instrTraceId = "";
     }
 
     public long getExecTime() {
@@ -82,7 +82,7 @@ public final class GProPAReportExecuteReq implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.ruleNameList = new ArrayList<>();
-        this.instrTraceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.instrTraceId = "";
         this.ruleNameList = arrayList;
         this.instrTraceId = str;
         this.execTime = j;

@@ -31,16 +31,16 @@ public final class GroupDetailInfo implements IKernelModel {
     public int privilegeFlag;
     public int shutUpAllTimestamp;
     public int shutUpMeTimestamp;
-    public String ownerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String fingerMemo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String groupQuestion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String richFingerMemo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String ownerUid = "";
+    public String groupName = "";
+    public String fingerMemo = "";
+    public String groupQuestion = "";
+    public String richFingerMemo = "";
     public ArrayList<GroupTagRecord> tagRecord = new ArrayList<>();
-    public String groupMemo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String groupMemo = "";
     public GroupMsgMask cmdUinMsgMask = GroupMsgMask.values()[0];
     public MemberRole cmdUinPrivilege = MemberRole.values()[0];
-    public String remarkName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String remarkName = "";
 
     public int getAppealDeadline() {
         return this.appealDeadline;

@@ -20,11 +20,11 @@ public final class GProIdentityInstruction {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.instructionText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.noteText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.textChannelPreviewImg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.memberListPreviewImg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sampleIdentityDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.instructionText = "";
+        this.noteText = "";
+        this.textChannelPreviewImg = "";
+        this.memberListPreviewImg = "";
+        this.sampleIdentityDesc = "";
         this.identityList = new ArrayList<>();
     }
 
@@ -72,11 +72,11 @@ public final class GProIdentityInstruction {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, str4, str5, arrayList});
             return;
         }
-        this.instructionText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.noteText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.textChannelPreviewImg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.memberListPreviewImg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sampleIdentityDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.instructionText = "";
+        this.noteText = "";
+        this.textChannelPreviewImg = "";
+        this.memberListPreviewImg = "";
+        this.sampleIdentityDesc = "";
         this.identityList = new ArrayList<>();
         this.instructionText = str;
         this.noteText = str2;

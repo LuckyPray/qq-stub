@@ -23,9 +23,9 @@ public final class GProGetBlockRecGuildsRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceId = "";
         this.recBlockInfo = new ArrayList<>();
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
         this.cookies = new byte[0];
         this.banner = new GProGetRecommendV2Rsp();
     }
@@ -75,9 +75,9 @@ public final class GProGetBlockRecGuildsRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceId = "";
         this.recBlockInfo = new ArrayList<>();
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
         this.cookies = new byte[0];
         this.banner = new GProGetRecommendV2Rsp();
         this.traceId = str;

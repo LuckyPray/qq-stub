@@ -27,13 +27,13 @@ public final class GProLiveSearchInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.streamUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.roomName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.streamUrl = "";
+        this.coverUrl = "";
+        this.tag = "";
+        this.joinGuildSig = "";
+        this.guildName = "";
+        this.guildIconUrl = "";
+        this.roomName = "";
         this.recallInfo = new GProRecallInfo();
     }
 

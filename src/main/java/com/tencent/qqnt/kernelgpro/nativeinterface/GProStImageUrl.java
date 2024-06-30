@@ -17,7 +17,7 @@ public final class GProStImageUrl {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.url = "";
             this.busiData = new byte[0];
         }
     }

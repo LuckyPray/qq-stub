@@ -12,7 +12,7 @@ public final class GProCommonInfo {
     public GProCommonInfo() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.str = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.str = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

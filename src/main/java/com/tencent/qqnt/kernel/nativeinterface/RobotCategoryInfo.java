@@ -4,8 +4,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/RobotCategoryInfo.class */
 public final class RobotCategoryInfo {
     public long listenerId;
-    public String categoryId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String categoryId = "";
+    public String name = "";
 
     public String getCategoryId() {
         return this.categoryId;

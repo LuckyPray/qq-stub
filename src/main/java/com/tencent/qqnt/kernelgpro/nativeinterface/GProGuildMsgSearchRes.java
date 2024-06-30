@@ -24,11 +24,11 @@ public final class GProGuildMsgSearchRes {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.msgTxt = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.pics = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.videos = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nickName = "";
+        this.avatar = "";
+        this.msgTxt = "";
+        this.pics = "";
+        this.videos = "";
     }
 
     public String getAvatar() {

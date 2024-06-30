@@ -9,7 +9,7 @@ public final class GroupLinkReq {
     public int srcId;
 
     public GroupLinkReq() {
-        this.additionalParam = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.additionalParam = "";
     }
 
     public String getAdditionalParam() {
@@ -33,7 +33,7 @@ public final class GroupLinkReq {
     }
 
     public GroupLinkReq(long j, int i, String str, boolean z) {
-        this.additionalParam = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.additionalParam = "";
         this.groupCode = j;
         this.srcId = i;
         this.additionalParam = str;

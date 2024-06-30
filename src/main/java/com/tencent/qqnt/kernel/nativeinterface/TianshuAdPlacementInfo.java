@@ -12,8 +12,8 @@ public final class TianshuAdPlacementInfo {
 
     public TianshuAdPlacementInfo() {
         this.adItem = new ArrayList<>();
-        this.extInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ctlInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.extInfo = "";
+        this.ctlInfo = "";
     }
 
     public ArrayList<TianshuAdItem> getAdItem() {
@@ -42,8 +42,8 @@ public final class TianshuAdPlacementInfo {
 
     public TianshuAdPlacementInfo(int i, ArrayList<TianshuAdItem> arrayList, int i2, String str, String str2) {
         this.adItem = new ArrayList<>();
-        this.extInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ctlInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.extInfo = "";
+        this.ctlInfo = "";
         this.type = i;
         this.adItem = arrayList;
         this.nextQueryTs = i2;

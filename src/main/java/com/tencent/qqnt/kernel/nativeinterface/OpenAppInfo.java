@@ -9,7 +9,7 @@ public final class OpenAppInfo {
 
     public OpenAppInfo() {
         this.appType = OpenAppType.values()[0];
-        this.comeFrom = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.comeFrom = "";
     }
 
     public OpenAppType getAppType() {
@@ -30,7 +30,7 @@ public final class OpenAppInfo {
 
     public OpenAppInfo(long j, OpenAppType openAppType, String str) {
         this.appType = OpenAppType.values()[0];
-        this.comeFrom = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.comeFrom = "";
         this.openAppid = j;
         this.appType = openAppType;
         this.comeFrom = str;

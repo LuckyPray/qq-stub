@@ -7,9 +7,9 @@ public final class GProGuildRobotInlineRenderData {
     public String title;
 
     public GProGuildRobotInlineRenderData() {
-        this.cover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cover = "";
+        this.title = "";
+        this.tips = "";
     }
 
     public String getCover() {
@@ -29,9 +29,9 @@ public final class GProGuildRobotInlineRenderData {
     }
 
     public GProGuildRobotInlineRenderData(String str, String str2, String str3) {
-        this.cover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cover = "";
+        this.title = "";
+        this.tips = "";
         this.cover = str;
         this.title = str2;
         this.tips = str3;

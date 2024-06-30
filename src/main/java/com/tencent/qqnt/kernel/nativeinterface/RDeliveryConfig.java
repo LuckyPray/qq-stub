@@ -20,16 +20,16 @@ public final class RDeliveryConfig implements IKernelModel {
     public String userId;
 
     public RDeliveryConfig() {
-        this.appKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.logicEnvironment = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.language = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sdkVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.userId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.appVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.osVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bundleId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.serverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appKey = "";
+        this.appId = "";
+        this.logicEnvironment = "";
+        this.language = "";
+        this.sdkVersion = "";
+        this.userId = "";
+        this.appVersion = "";
+        this.osVersion = "";
+        this.bundleId = "";
+        this.serverUrl = "";
         this.fixedAfterHitKeys = new ArrayList<>();
     }
 
@@ -142,16 +142,16 @@ public final class RDeliveryConfig implements IKernelModel {
     }
 
     public RDeliveryConfig(String str, int i, String str2, String str3, int i2, String str4, String str5, String str6, String str7, String str8, String str9, String str10, ArrayList<String> arrayList) {
-        this.appKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.logicEnvironment = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.language = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sdkVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.userId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.appVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.osVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bundleId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.serverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appKey = "";
+        this.appId = "";
+        this.logicEnvironment = "";
+        this.language = "";
+        this.sdkVersion = "";
+        this.userId = "";
+        this.appVersion = "";
+        this.osVersion = "";
+        this.bundleId = "";
+        this.serverUrl = "";
         this.fixedAfterHitKeys = new ArrayList<>();
         this.appKey = str;
         this.systemId = i;

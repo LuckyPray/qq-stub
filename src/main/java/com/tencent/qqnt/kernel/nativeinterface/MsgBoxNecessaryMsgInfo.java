@@ -8,7 +8,7 @@ public final class MsgBoxNecessaryMsgInfo {
     public long msgTime;
 
     public MsgBoxNecessaryMsgInfo() {
-        this.highlightDigest = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.highlightDigest = "";
     }
 
     public String getHighlightDigest() {
@@ -28,7 +28,7 @@ public final class MsgBoxNecessaryMsgInfo {
     }
 
     public MsgBoxNecessaryMsgInfo(long j, long j2, String str) {
-        this.highlightDigest = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.highlightDigest = "";
         this.msgSeq = j;
         this.msgTime = j2;
         this.highlightDigest = str;

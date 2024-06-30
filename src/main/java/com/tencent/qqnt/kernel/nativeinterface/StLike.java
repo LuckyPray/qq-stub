@@ -12,7 +12,7 @@ public final class StLike {
     public int status;
 
     public StLike() {
-        this.f46id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f46id = "";
         this.postUser = new StUser();
     }
 
@@ -57,7 +57,7 @@ public final class StLike {
     }
 
     public StLike(String str, int i, int i2, StUser stUser, int i3) {
-        this.f46id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f46id = "";
         this.postUser = new StUser();
         this.f46id = str;
         this.count = i;

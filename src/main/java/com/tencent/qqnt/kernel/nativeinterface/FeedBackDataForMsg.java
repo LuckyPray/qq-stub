@@ -8,7 +8,7 @@ public final class FeedBackDataForMsg {
     public String data;
 
     public FeedBackDataForMsg() {
-        this.data = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.data = "";
     }
 
     public int getButton() {
@@ -28,7 +28,7 @@ public final class FeedBackDataForMsg {
     }
 
     public FeedBackDataForMsg(int i, boolean z, String str) {
-        this.data = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.data = "";
         this.button = i;
         this.checked = z;
         this.data = str;

@@ -14,7 +14,7 @@ public final class GProCategoryAdminDisplayInfo {
     public GProCategoryAdminDisplayInfo() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.categoryName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.categoryName = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

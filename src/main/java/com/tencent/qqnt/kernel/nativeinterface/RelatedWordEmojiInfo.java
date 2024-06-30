@@ -12,7 +12,7 @@ public final class RelatedWordEmojiInfo {
     public String word;
 
     public RelatedWordEmojiInfo() {
-        this.word = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.word = "";
         this.emojiMd5s = new ArrayList<>();
         this.EmojiResultInfo = new HashMap<>();
     }
@@ -38,7 +38,7 @@ public final class RelatedWordEmojiInfo {
     }
 
     public RelatedWordEmojiInfo(String str, ArrayList<String> arrayList, boolean z, HashMap<String, DownloadRelateEmojiResultInfo> hashMap) {
-        this.word = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.word = "";
         this.emojiMd5s = new ArrayList<>();
         this.EmojiResultInfo = new HashMap<>();
         this.word = str;

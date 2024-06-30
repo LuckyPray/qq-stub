@@ -16,12 +16,12 @@ public final class GroupRobotProfile {
     public ArrayList<RobotPanelInfo> panels = new ArrayList<>();
     public ArrayList<RobotFeatureInfo> commands = new ArrayList<>();
     public ArrayList<ImageInfo> previewImages = new ArrayList<>();
-    public String jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String panelTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String previewImagesTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String jumpUrl = "";
+    public String panelTitle = "";
+    public String previewImagesTitle = "";
     public GroupTraceInfo traceInfo = new GroupTraceInfo();
-    public String c2cDayBackground = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String c2cNightBackground = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String c2cDayBackground = "";
+    public String c2cNightBackground = "";
     public byte[] promptMsg = new byte[0];
     public GroupRobotQzoneInfo qzoneInfo = new GroupRobotQzoneInfo();
     public RobotTTSList ttsList = new RobotTTSList();

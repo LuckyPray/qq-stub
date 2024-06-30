@@ -10,8 +10,8 @@ public final class RecentContactModuleShieldInfo {
     public String uin;
 
     public RecentContactModuleShieldInfo() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.uin = "";
     }
 
     public int getChatType() {
@@ -39,8 +39,8 @@ public final class RecentContactModuleShieldInfo {
     }
 
     public RecentContactModuleShieldInfo(String str, String str2, int i, boolean z, int i2) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.uin = "";
         this.uid = str;
         this.uin = str2;
         this.chatType = i;

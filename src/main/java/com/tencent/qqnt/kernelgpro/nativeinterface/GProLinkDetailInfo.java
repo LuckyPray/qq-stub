@@ -16,7 +16,7 @@ public final class GProLinkDetailInfo implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.longUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.longUrl = "";
         }
     }
 
@@ -40,7 +40,7 @@ public final class GProLinkDetailInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.longUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.longUrl = "";
         this.longUrl = str;
     }
 }

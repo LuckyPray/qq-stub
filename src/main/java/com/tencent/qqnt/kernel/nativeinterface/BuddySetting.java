@@ -13,8 +13,8 @@ public final class BuddySetting {
     public ArrayList<String> question;
 
     public BuddySetting() {
-        this.buddyUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.phoneNumber = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.buddyUid = "";
+        this.phoneNumber = "";
         this.question = new ArrayList<>();
     }
 
@@ -47,8 +47,8 @@ public final class BuddySetting {
     }
 
     public BuddySetting(String str, long j, String str2, int i, ArrayList<String> arrayList, boolean z) {
-        this.buddyUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.phoneNumber = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.buddyUid = "";
+        this.phoneNumber = "";
         this.question = new ArrayList<>();
         this.buddyUid = str;
         this.buddyUin = j;

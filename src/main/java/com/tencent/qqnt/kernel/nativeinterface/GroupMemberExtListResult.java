@@ -16,8 +16,8 @@ public final class GroupMemberExtListResult {
     public int userShowFlagNew;
     public ArrayList<MemberExtInfo> memberLevelInfo = new ArrayList<>();
     public ArrayList<MemberLevelName> msgLevelName = new ArrayList<>();
-    public String strOwnerName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String strAdminName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String strOwnerName = "";
+    public String strAdminName = "";
     public ArrayList<MemberLevelName> msgLevelNameNew = new ArrayList<>();
 
     public long getDataTime() {

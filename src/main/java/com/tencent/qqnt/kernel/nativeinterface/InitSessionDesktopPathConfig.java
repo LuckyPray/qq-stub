@@ -5,7 +5,7 @@ public final class InitSessionDesktopPathConfig {
     public String accountPath;
 
     public InitSessionDesktopPathConfig() {
-        this.accountPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.accountPath = "";
     }
 
     public String getAccountPath() {
@@ -17,7 +17,7 @@ public final class InitSessionDesktopPathConfig {
     }
 
     public InitSessionDesktopPathConfig(String str) {
-        this.accountPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.accountPath = "";
         this.accountPath = str;
     }
 }

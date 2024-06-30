@@ -17,7 +17,7 @@ public final class GProStVisitor {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.busiData = new byte[0];
-            this.viewDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.viewDesc = "";
         }
     }
 

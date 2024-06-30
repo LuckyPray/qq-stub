@@ -17,12 +17,12 @@ public final class CommonBotFeatureInfo {
     public String url;
 
     public CommonBotFeatureInfo() {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.availableRangeDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.schemaUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.desc = "";
+        this.url = "";
+        this.availableRangeDesc = "";
+        this.icon = "";
+        this.schemaUrl = "";
     }
 
     public String getAvailableRangeDesc() {
@@ -70,12 +70,12 @@ public final class CommonBotFeatureInfo {
     }
 
     public CommonBotFeatureInfo(int i, String str, String str2, int i2, String str3, int i3, String str4, long j, String str5, String str6) {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.availableRangeDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.schemaUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.desc = "";
+        this.url = "";
+        this.availableRangeDesc = "";
+        this.icon = "";
+        this.schemaUrl = "";
         this.f0id = i;
         this.name = str;
         this.desc = str2;

@@ -8,10 +8,10 @@ public final class ThirdPartyInfo {
     public String name;
 
     public ThirdPartyInfo() {
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appId = "";
+        this.iconUrl = "";
+        this.name = "";
+        this.jumpUrl = "";
     }
 
     public String getAppId() {
@@ -35,10 +35,10 @@ public final class ThirdPartyInfo {
     }
 
     public ThirdPartyInfo(String str, String str2, String str3, String str4) {
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appId = "";
+        this.iconUrl = "";
+        this.name = "";
+        this.jumpUrl = "";
         this.appId = str;
         this.iconUrl = str2;
         this.name = str3;

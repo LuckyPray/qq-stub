@@ -19,11 +19,11 @@ public final class GProRecommendPopUpItem {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.bannerUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.bannerUrl = "";
+        this.title = "";
         this.searchItem = new GProSearchItem();
         this.items = new ArrayList<>();
-        this.bannerLogo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.bannerLogo = "";
     }
 
     public String getBannerLogo() {
@@ -65,11 +65,11 @@ public final class GProRecommendPopUpItem {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, gProSearchItem, arrayList, str3});
             return;
         }
-        this.bannerUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.bannerUrl = "";
+        this.title = "";
         this.searchItem = new GProSearchItem();
         this.items = new ArrayList<>();
-        this.bannerLogo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.bannerLogo = "";
         this.bannerUrl = str;
         this.title = str2;
         this.searchItem = gProSearchItem;

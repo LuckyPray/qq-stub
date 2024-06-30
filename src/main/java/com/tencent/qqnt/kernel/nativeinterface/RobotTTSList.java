@@ -5,8 +5,8 @@ import java.util.ArrayList;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/RobotTTSList.class */
 public final class RobotTTSList {
-    public String defaultTtsId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String pickTtsId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String defaultTtsId = "";
+    public String pickTtsId = "";
     public byte[] vipVoiceInfo = new byte[0];
     public ArrayList<TtsInfo> ttsList = new ArrayList<>();
 

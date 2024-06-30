@@ -14,8 +14,8 @@ public final class GProUserGuideBubble {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.title = "";
+            this.iconUrl = "";
         }
     }
 
@@ -43,8 +43,8 @@ public final class GProUserGuideBubble {
             iPatchRedirector.redirect((short) 2, this, str, str2);
             return;
         }
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.iconUrl = "";
         this.title = str;
         this.iconUrl = str2;
     }

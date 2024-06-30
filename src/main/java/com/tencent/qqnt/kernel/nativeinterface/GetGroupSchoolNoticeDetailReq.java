@@ -8,7 +8,7 @@ public final class GetGroupSchoolNoticeDetailReq {
     public String noticeId;
 
     public GetGroupSchoolNoticeDetailReq() {
-        this.noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.noticeId = "";
     }
 
     public long getGroupCode() {
@@ -28,7 +28,7 @@ public final class GetGroupSchoolNoticeDetailReq {
     }
 
     public GetGroupSchoolNoticeDetailReq(String str, long j, boolean z) {
-        this.noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.noticeId = "";
         this.noticeId = str;
         this.groupCode = j;
         this.needRefresh = z;

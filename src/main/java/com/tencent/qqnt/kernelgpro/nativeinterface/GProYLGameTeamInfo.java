@@ -28,11 +28,11 @@ public final class GProYLGameTeamInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.gameAppid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.gamePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.gameExtraData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.gameEnvVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.icon = "";
+        this.gameAppid = "";
+        this.gamePath = "";
+        this.gameExtraData = "";
+        this.gameEnvVersion = "";
     }
 
     public long getChannelId() {
@@ -124,11 +124,11 @@ public final class GProYLGameTeamInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), Long.valueOf(j4), str, Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), str2, str3, str4, str5, Integer.valueOf(i5), Boolean.valueOf(z)});
             return;
         }
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.gameAppid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.gamePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.gameExtraData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.gameEnvVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.icon = "";
+        this.gameAppid = "";
+        this.gamePath = "";
+        this.gameExtraData = "";
+        this.gameEnvVersion = "";
         this.guildId = j;
         this.channelId = j2;
         this.teamId = j3;

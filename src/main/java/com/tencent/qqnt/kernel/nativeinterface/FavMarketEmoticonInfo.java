@@ -9,8 +9,8 @@ public final class FavMarketEmoticonInfo {
     public int width;
 
     public FavMarketEmoticonInfo() {
-        this.eId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.faceName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.eId = "";
+        this.faceName = "";
     }
 
     public String getEId() {
@@ -34,8 +34,8 @@ public final class FavMarketEmoticonInfo {
     }
 
     public FavMarketEmoticonInfo(String str, int i, int i2, String str2) {
-        this.eId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.faceName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.eId = "";
+        this.faceName = "";
         this.eId = str;
         this.width = i;
         this.height = i2;

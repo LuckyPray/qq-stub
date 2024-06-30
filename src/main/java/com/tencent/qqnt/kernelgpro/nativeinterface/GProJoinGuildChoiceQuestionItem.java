@@ -20,8 +20,8 @@ public final class GProJoinGuildChoiceQuestionItem implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.question = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.correctAnswer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.question = "";
+        this.correctAnswer = "";
         this.answers = new ArrayList<>();
     }
 
@@ -82,8 +82,8 @@ public final class GProJoinGuildChoiceQuestionItem implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.question = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.correctAnswer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.question = "";
+        this.correctAnswer = "";
         this.answers = new ArrayList<>();
         this.question = str;
         this.correctAnswer = str2;

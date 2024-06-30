@@ -20,8 +20,8 @@ public final class GProGlobalBanner {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bannerId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildId = "";
+        this.bannerId = "";
         this.bizId = new GProGuildBannerBizId();
         this.content = new byte[0];
         this.bannerGameDownloadeInfo = new GProGuildBannerGameDownloadInfo();

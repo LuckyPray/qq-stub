@@ -7,7 +7,7 @@ public final class Mean {
     public String words;
 
     public Mean() {
-        this.words = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.words = "";
     }
 
     public int getFlag() {
@@ -23,7 +23,7 @@ public final class Mean {
     }
 
     public Mean(String str, int i) {
-        this.words = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.words = "";
         this.words = str;
         this.flag = i;
     }

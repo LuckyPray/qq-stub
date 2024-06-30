@@ -5,9 +5,9 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class AIGCEmoji {
     public int refId;
     public int templateId;
-    public String packId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String packId = "";
+    public String md5 = "";
+    public String url = "";
 
     public String getMd5() {
         return this.md5;

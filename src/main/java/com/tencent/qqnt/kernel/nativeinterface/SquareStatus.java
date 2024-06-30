@@ -12,10 +12,10 @@ public final class SquareStatus {
     public String type;
 
     public SquareStatus() {
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.type = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bigIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.type = "";
+        this.icon = "";
+        this.bigIcon = "";
     }
 
     public String getBigIcon() {
@@ -43,10 +43,10 @@ public final class SquareStatus {
     }
 
     public SquareStatus(int i, String str, String str2, String str3, String str4) {
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.type = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bigIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.type = "";
+        this.icon = "";
+        this.bigIcon = "";
         this.f43id = i;
         this.title = str;
         this.type = str2;

@@ -3,9 +3,9 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchNetSugInfo.class */
 public final class SearchNetSugInfo {
-    public String sugWord = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String hitKeyWord = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String stringExtension = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String sugWord = "";
+    public String hitKeyWord = "";
+    public String stringExtension = "";
 
     public String getHitKeyWord() {
         return this.hitKeyWord;

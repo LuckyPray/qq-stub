@@ -33,16 +33,16 @@ public final class GProNotice {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.noticeId = "";
         this.title = new ArrayList<>();
         this.subTitle = new ArrayList<>();
         this.comment = new ArrayList<>();
         this.cover = new GProNoticeCover();
         this.actionList = new ArrayList<>();
-        this.joinSign = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.joinSign = "";
         this.jumpLink = new ArrayList<>();
-        this.handleResult = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.handlerNickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.handleResult = "";
+        this.handlerNickName = "";
     }
 
     public ArrayList<GProNoticeAction> getActionList() {

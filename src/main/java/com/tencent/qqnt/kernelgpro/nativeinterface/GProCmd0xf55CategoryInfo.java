@@ -25,9 +25,9 @@ public final class GProCmd0xf55CategoryInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.categoryName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categoryName = "";
         this.channelCategoryInfo = new GProChannelCategoryInfo();
-        this.categoryAlias = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categoryAlias = "";
         this.bytesCategoryCommonList = new ArrayList<>();
     }
 

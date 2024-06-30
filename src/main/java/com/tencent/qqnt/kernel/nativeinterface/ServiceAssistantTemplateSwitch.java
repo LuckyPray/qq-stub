@@ -6,8 +6,8 @@ import java.util.ArrayList;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/ServiceAssistantTemplateSwitch.class */
 public final class ServiceAssistantTemplateSwitch {
     public int switchValue;
-    public String templateId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String templateId = "";
+    public String title = "";
     public ArrayList<ServiceAssistantMessageTemplateItem> items = new ArrayList<>();
     public ArrayList<ServiceAssistantTemplateSwitch> subSwitch = new ArrayList<>();
 

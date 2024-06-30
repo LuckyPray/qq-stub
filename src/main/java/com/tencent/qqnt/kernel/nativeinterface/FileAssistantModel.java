@@ -25,15 +25,15 @@ public final class FileAssistantModel {
     public String thumbPath;
 
     public FileAssistantModel() {
-        this.f5id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f5id = "";
+        this.fileName = "";
         this.fileNameHits = new ArrayList<>();
         this.fileStatus = FileAssistantStatus.values()[0];
         this.source = FileAssistantSource.values()[0];
         this.session = new FileAssistantSession();
-        this.thumbPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.thumbPath = "";
+        this.filePath = "";
+        this.peerUid = "";
         this.fileType = FileAssistantFileType.values()[0];
     }
 
@@ -106,15 +106,15 @@ public final class FileAssistantModel {
     }
 
     public FileAssistantModel(String str, String str2, ArrayList<SearchHitInfo> arrayList, FileAssistantStatus fileAssistantStatus, long j, boolean z, FileAssistantSource fileAssistantSource, long j2, long j3, FileAssistantSession fileAssistantSession, String str3, String str4, long j4, int i, String str5, FileAssistantFileType fileAssistantFileType) {
-        this.f5id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f5id = "";
+        this.fileName = "";
         this.fileNameHits = new ArrayList<>();
         this.fileStatus = FileAssistantStatus.values()[0];
         this.source = FileAssistantSource.values()[0];
         this.session = new FileAssistantSession();
-        this.thumbPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.thumbPath = "";
+        this.filePath = "";
+        this.peerUid = "";
         this.fileType = FileAssistantFileType.values()[0];
         this.f5id = str;
         this.fileName = str2;

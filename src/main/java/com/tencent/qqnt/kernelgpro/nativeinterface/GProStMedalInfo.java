@@ -24,12 +24,12 @@ public final class GProStMedalInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.medalName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.medalID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.backgroundUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.describe = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.medalName = "";
+        this.medalID = "";
+        this.jumpUrl = "";
+        this.iconUrl = "";
+        this.backgroundUrl = "";
+        this.describe = "";
     }
 
     public String getBackgroundUrl() {

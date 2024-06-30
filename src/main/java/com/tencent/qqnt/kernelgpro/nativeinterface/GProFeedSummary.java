@@ -20,8 +20,8 @@ public final class GProFeedSummary implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
+        this.title = "";
         this.feedThumbnails = new ArrayList<>();
     }
 

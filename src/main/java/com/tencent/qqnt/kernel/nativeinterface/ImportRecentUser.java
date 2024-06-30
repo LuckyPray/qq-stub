@@ -7,7 +7,7 @@ public final class ImportRecentUser {
     public String uin;
 
     public ImportRecentUser() {
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uin = "";
     }
 
     public int getType() {
@@ -23,7 +23,7 @@ public final class ImportRecentUser {
     }
 
     public ImportRecentUser(String str, int i) {
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uin = "";
         this.uin = str;
         this.type = i;
     }

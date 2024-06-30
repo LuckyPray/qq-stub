@@ -21,10 +21,10 @@ public final class GProRecommendShareLive {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.anchorIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.anchorIcon = "";
         this.audienceIcons = new ArrayList<>();
-        this.roomName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.streamUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.roomName = "";
+        this.streamUrl = "";
     }
 
     public String getAnchorIcon() {
@@ -76,10 +76,10 @@ public final class GProRecommendShareLive {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, arrayList, Long.valueOf(j), Long.valueOf(j2), str2, Long.valueOf(j3), str3});
             return;
         }
-        this.anchorIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.anchorIcon = "";
         this.audienceIcons = new ArrayList<>();
-        this.roomName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.streamUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.roomName = "";
+        this.streamUrl = "";
         this.anchorIcon = str;
         this.audienceIcons = arrayList;
         this.anchorId = j;

@@ -18,8 +18,8 @@ public final class GProMVPThirdPlatform implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.icon = "";
+        this.name = "";
     }
 
     public String getIcon() {
@@ -47,8 +47,8 @@ public final class GProMVPThirdPlatform implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.icon = "";
+        this.name = "";
         this.icon = str;
         this.name = str2;
     }

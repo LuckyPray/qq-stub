@@ -8,13 +8,13 @@ public final class UinAttr {
     public int priv;
     public int status;
     public int total;
-    public String nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String shareAlbumid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String nick = "";
+    public String shareAlbumid = "";
 
     /* renamed from: qa */
-    public String f52qa = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String inviter = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String f52qa = "";
+    public String inviter = "";
+    public String uin = "";
 
     public long getAddTime() {
         return this.addTime;

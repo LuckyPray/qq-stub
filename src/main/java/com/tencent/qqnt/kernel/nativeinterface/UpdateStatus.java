@@ -14,7 +14,7 @@ public final class UpdateStatus {
     public String thumbPath;
 
     public UpdateStatus() {
-        this.f53id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f53id = "";
     }
 
     public String getFilePath() {
@@ -50,7 +50,7 @@ public final class UpdateStatus {
     }
 
     public UpdateStatus(String str, FileAssistantStatus fileAssistantStatus, Long l, Long l2, Integer num, String str2, String str3) {
-        this.f53id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f53id = "";
         this.f53id = str;
         this.fileStatus = fileAssistantStatus;
         this.fileProgress = l;

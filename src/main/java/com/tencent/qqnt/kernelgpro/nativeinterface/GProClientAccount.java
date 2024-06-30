@@ -22,12 +22,12 @@ public final class GProClientAccount {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.clientName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.accountSecret = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.accountName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.clientName = "";
+        this.accountSecret = "";
+        this.accountName = "";
         this.clientConfig = new GProClientShowCfg();
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.openUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.icon = "";
+        this.openUrl = "";
     }
 
     public String getAccountName() {

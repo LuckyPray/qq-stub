@@ -15,8 +15,8 @@ public final class GProGuildIdentity {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.orgID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.worldID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.orgID = "";
+            this.worldID = "";
         }
     }
 
@@ -49,8 +49,8 @@ public final class GProGuildIdentity {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2});
             return;
         }
-        this.orgID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.worldID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.orgID = "";
+        this.worldID = "";
         this.appid = j;
         this.orgID = str;
         this.worldID = str2;

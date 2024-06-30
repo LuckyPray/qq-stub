@@ -6,7 +6,7 @@ import java.util.ArrayList;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchCity.class */
 public final class SearchCity {
     public int cityId;
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String name = "";
     public ArrayList<String> districts = new ArrayList<>();
     public ArrayList<SearchDistrict> districtsNewList = new ArrayList<>();
 

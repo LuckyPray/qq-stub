@@ -14,7 +14,7 @@ public final class GProStSingleRecomReportInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.reportID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.reportID = "";
             this.reportData = new byte[0];
         }
     }

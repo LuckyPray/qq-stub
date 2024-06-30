@@ -13,7 +13,7 @@ public final class BatchBotGetReq {
     public ArrayList<Long> tinyids = new ArrayList<>();
     public CommonBotScene scene = CommonBotScene.values()[0];
     public CommonBotFilter filter = CommonBotFilter.values()[0];
-    public String bkn = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String bkn = "";
 
     public String getBkn() {
         return this.bkn;

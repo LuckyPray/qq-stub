@@ -14,7 +14,7 @@ public final class GProSearchTopicReq {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.keyWord = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.keyWord = "";
             this.cookie = new byte[0];
         }
     }

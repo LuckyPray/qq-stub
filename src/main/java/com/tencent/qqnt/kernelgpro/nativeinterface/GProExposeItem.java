@@ -16,7 +16,7 @@ public final class GProExposeItem {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.f58id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.f58id = "";
             this.callback = new GProItemCbData();
         }
     }
@@ -63,7 +63,7 @@ public final class GProExposeItem {
             iPatchRedirector.redirect((short) 2, this, str, gProItemCbData);
             return;
         }
-        this.f58id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f58id = "";
         this.callback = new GProItemCbData();
         this.f58id = str;
         this.callback = gProItemCbData;

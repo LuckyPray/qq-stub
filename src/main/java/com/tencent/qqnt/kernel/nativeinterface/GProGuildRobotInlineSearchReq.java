@@ -8,7 +8,7 @@ public final class GProGuildRobotInlineSearchReq {
     public String keyword;
 
     public GProGuildRobotInlineSearchReq() {
-        this.keyword = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.keyword = "";
     }
 
     public long getBotTinyid() {
@@ -32,7 +32,7 @@ public final class GProGuildRobotInlineSearchReq {
     }
 
     public GProGuildRobotInlineSearchReq(long j, long j2, long j3, String str) {
-        this.keyword = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.keyword = "";
         this.guildId = j;
         this.channelId = j2;
         this.botTinyid = j3;

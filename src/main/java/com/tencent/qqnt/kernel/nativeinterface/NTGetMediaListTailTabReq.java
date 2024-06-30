@@ -10,8 +10,8 @@ public final class NTGetMediaListTailTabReq {
 
     public NTGetMediaListTailTabReq() {
         this.requestTimeLine = new RequestTimelineInfo();
-        this.qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.currentAlbumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qunId = "";
+        this.currentAlbumId = "";
     }
 
     public String getCurrentAlbumId() {
@@ -36,8 +36,8 @@ public final class NTGetMediaListTailTabReq {
 
     public NTGetMediaListTailTabReq(int i, RequestTimelineInfo requestTimelineInfo, String str, String str2) {
         this.requestTimeLine = new RequestTimelineInfo();
-        this.qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.currentAlbumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qunId = "";
+        this.currentAlbumId = "";
         this.seq = i;
         this.requestTimeLine = requestTimelineInfo;
         this.qunId = str;

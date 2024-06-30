@@ -25,14 +25,14 @@ public final class CommonFileInfo {
     public String uuid;
 
     public CommonFileInfo() {
-        this.uuid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md510m = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sha = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sha3 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uuid = "";
+        this.subId = "";
+        this.fileName = "";
+        this.peerUid = "";
+        this.md5 = "";
+        this.md510m = "";
+        this.sha = "";
+        this.sha3 = "";
     }
 
     public Integer getBizType() {
@@ -112,14 +112,14 @@ public final class CommonFileInfo {
     }
 
     public CommonFileInfo(long j, long j2, long j3, String str, String str2, String str3, long j4, long j5, String str4, int i, String str5, String str6, String str7, String str8, String str9, String str10, Integer num, HashMap<Integer, String> hashMap) {
-        this.uuid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md510m = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sha = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sha3 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uuid = "";
+        this.subId = "";
+        this.fileName = "";
+        this.peerUid = "";
+        this.md5 = "";
+        this.md510m = "";
+        this.sha = "";
+        this.sha3 = "";
         this.fileModelId = j;
         this.msgId = j2;
         this.elemId = j3;

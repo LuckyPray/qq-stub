@@ -20,10 +20,10 @@ public final class GProTaskInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.f79id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.progressText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f79id = "";
+        this.icon = "";
+        this.name = "";
+        this.progressText = "";
     }
 
     public String getIcon() {
@@ -65,10 +65,10 @@ public final class GProTaskInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, Integer.valueOf(i), str3, str4});
             return;
         }
-        this.f79id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.progressText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f79id = "";
+        this.icon = "";
+        this.name = "";
+        this.progressText = "";
         this.f79id = str;
         this.icon = str2;
         this.status = i;

@@ -14,8 +14,8 @@ public final class GProJoinGuildAnswer {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.question = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.answer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.question = "";
+            this.answer = "";
         }
     }
 

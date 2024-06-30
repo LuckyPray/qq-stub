@@ -16,7 +16,7 @@ public final class BotsMenuRequest {
     public GProNTBotClientInfo clientInfo = new GProNTBotClientInfo();
     public ArrayList<Long> tinyids = new ArrayList<>();
     public CommonBotScene scene = CommonBotScene.values()[0];
-    public String bkn = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String bkn = "";
 
     public String getBkn() {
         return this.bkn;

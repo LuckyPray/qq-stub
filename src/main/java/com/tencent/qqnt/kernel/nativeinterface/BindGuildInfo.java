@@ -5,9 +5,9 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class BindGuildInfo {
     public long faceSeq;
     public long guildId;
-    public String guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String guildNumber = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String joinSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String guildName = "";
+    public String guildNumber = "";
+    public String joinSig = "";
 
     public long getFaceSeq() {
         return this.faceSeq;

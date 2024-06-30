@@ -26,7 +26,7 @@ public final class GProGiftInfo implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.giftName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.giftName = "";
         }
     }
 
@@ -100,7 +100,7 @@ public final class GProGiftInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.giftName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.giftName = "";
         this.giftType = i;
         this.giftId = i2;
         this.giftName = str;

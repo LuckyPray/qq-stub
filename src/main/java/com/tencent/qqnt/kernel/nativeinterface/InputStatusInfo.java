@@ -13,9 +13,9 @@ public final class InputStatusInfo {
     public String toUin;
 
     public InputStatusInfo() {
-        this.fromUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.toUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.statusText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fromUin = "";
+        this.toUin = "";
+        this.statusText = "";
     }
 
     public int getChatType() {
@@ -55,9 +55,9 @@ public final class InputStatusInfo {
     }
 
     public InputStatusInfo(int i, String str, String str2, long j, long j2, int i2, String str3, long j3) {
-        this.fromUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.toUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.statusText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fromUin = "";
+        this.toUin = "";
+        this.statusText = "";
         this.chatType = i;
         this.fromUin = str;
         this.toUin = str2;

@@ -20,8 +20,8 @@ public final class Contact implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.guildId = "";
     }
 
     public int getChatType() {
@@ -81,8 +81,8 @@ public final class Contact implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.guildId = "";
         this.chatType = i;
         this.peerUid = str;
         this.guildId = str2;

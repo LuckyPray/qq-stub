@@ -26,7 +26,7 @@ public final class GProExtra implements Serializable {
         this.reports = new ArrayList<>();
         this.bizDataList = new ArrayList<>();
         this.callback = new GProMVPItemCbData();
-        this.sessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sessionId = "";
     }
 
     public ArrayList<GProEntry> getBizDataList() {
@@ -118,7 +118,7 @@ public final class GProExtra implements Serializable {
         this.reports = new ArrayList<>();
         this.bizDataList = new ArrayList<>();
         this.callback = new GProMVPItemCbData();
-        this.sessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sessionId = "";
         this.tags = arrayList;
         this.reports = arrayList2;
         this.bizDataList = arrayList3;

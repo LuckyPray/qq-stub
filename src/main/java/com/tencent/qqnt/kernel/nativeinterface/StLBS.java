@@ -8,7 +8,7 @@ public final class StLBS {
 
     public StLBS() {
         this.gps = new StGPS();
-        this.location = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.location = "";
     }
 
     public StGPS getGps() {
@@ -29,7 +29,7 @@ public final class StLBS {
 
     public StLBS(StGPS stGPS, String str) {
         this.gps = new StGPS();
-        this.location = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.location = "";
         this.gps = stGPS;
         this.location = str;
     }

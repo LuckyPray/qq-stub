@@ -24,9 +24,9 @@ public final class GProPreventAddictionPushInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
         this.instructions = new ArrayList<>();
-        this.instrTraceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.instrTraceId = "";
     }
 
     public long getCloseMask() {
@@ -79,9 +79,9 @@ public final class GProPreventAddictionPushInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
         this.instructions = new ArrayList<>();
-        this.instrTraceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.instrTraceId = "";
         this.uin = j;
         this.ret = i;
         this.msg = str;

@@ -12,9 +12,9 @@ public final class MarketEmoticonAioImageReq {
     public int width;
 
     public MarketEmoticonAioImageReq() {
-        this.eId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.encryptKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.eId = "";
+        this.name = "";
+        this.encryptKey = "";
     }
 
     public String getEId() {
@@ -50,9 +50,9 @@ public final class MarketEmoticonAioImageReq {
     }
 
     public MarketEmoticonAioImageReq(int i, String str, String str2, String str3, int i2, int i3, int i4) {
-        this.eId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.encryptKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.eId = "";
+        this.name = "";
+        this.encryptKey = "";
         this.epId = i;
         this.eId = str;
         this.name = str2;

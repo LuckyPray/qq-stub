@@ -8,7 +8,7 @@ public final class GProGuildRobotFeature {
     public String name;
 
     public GProGuildRobotFeature() {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
     }
 
     public int getId() {
@@ -24,7 +24,7 @@ public final class GProGuildRobotFeature {
     }
 
     public GProGuildRobotFeature(int i, String str) {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.f8id = i;
         this.name = str;
     }

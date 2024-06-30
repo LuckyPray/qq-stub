@@ -9,7 +9,7 @@ public final class CoreInfo {
     public long uin;
 
     public CoreInfo() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
     }
 
     public String getNick() {
@@ -33,7 +33,7 @@ public final class CoreInfo {
     }
 
     public CoreInfo(String str, long j, String str2, String str3) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
         this.uid = str;
         this.uin = j;
         this.nick = str2;

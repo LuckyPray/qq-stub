@@ -9,9 +9,9 @@ public final class EmojiDescInfo {
     public String resId;
 
     public EmojiDescInfo() {
-        this.resId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.resId = "";
+        this.md5 = "";
+        this.desc = "";
     }
 
     public String getDesc() {
@@ -35,9 +35,9 @@ public final class EmojiDescInfo {
     }
 
     public EmojiDescInfo(int i, String str, String str2, String str3) {
-        this.resId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.resId = "";
+        this.md5 = "";
+        this.desc = "";
         this.emojiId = i;
         this.resId = str;
         this.md5 = str2;

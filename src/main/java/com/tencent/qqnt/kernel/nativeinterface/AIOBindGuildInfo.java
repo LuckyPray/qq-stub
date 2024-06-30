@@ -5,8 +5,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class AIOBindGuildInfo {
     public long faceSeq;
     public long guildId;
-    public String guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String guildNumber = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String guildName = "";
+    public String guildNumber = "";
     public boolean isOwner;
     public int status;
 

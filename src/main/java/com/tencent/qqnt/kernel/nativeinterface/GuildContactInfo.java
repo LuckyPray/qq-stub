@@ -20,11 +20,11 @@ public final class GuildContactInfo {
     public UnreadCntInfo unreadCntInfo;
 
     public GuildContactInfo() {
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildId = "";
+        this.channelId = "";
         this.unreadCntInfo = new UnreadCntInfo();
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.channelName = "";
     }
 
     public int getActivityType() {
@@ -92,11 +92,11 @@ public final class GuildContactInfo {
     }
 
     public GuildContactInfo(String str, String str2, UnreadCntInfo unreadCntInfo, String str3, String str4, int i, int i2, int i3, boolean z, long j, long j2, long j3, boolean z2, boolean z3, boolean z4) {
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildId = "";
+        this.channelId = "";
         this.unreadCntInfo = new UnreadCntInfo();
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.channelName = "";
         this.guildId = str;
         this.channelId = str2;
         this.unreadCntInfo = unreadCntInfo;

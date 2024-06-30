@@ -20,11 +20,11 @@ public final class GProAdInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.picUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.subTitle = "";
+        this.tag = "";
+        this.picUrl = "";
+        this.jumpUrl = "";
     }
 
     public int getAdId() {
@@ -76,11 +76,11 @@ public final class GProAdInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, str4, str5, Integer.valueOf(i), Integer.valueOf(i2)});
             return;
         }
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.picUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.subTitle = "";
+        this.tag = "";
+        this.picUrl = "";
+        this.jumpUrl = "";
         this.title = str;
         this.subTitle = str2;
         this.tag = str3;

@@ -14,11 +14,11 @@ public final class GProGuildRobotAuthGetInfo {
     public String title;
 
     public GProGuildRobotAuthGetInfo() {
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.className = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.method = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.desc = "";
+        this.className = "";
+        this.name = "";
+        this.method = "";
     }
 
     public String getClassName() {
@@ -58,11 +58,11 @@ public final class GProGuildRobotAuthGetInfo {
     }
 
     public GProGuildRobotAuthGetInfo(int i, String str, int i2, int i3, String str2, String str3, String str4, String str5) {
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.className = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.method = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.desc = "";
+        this.className = "";
+        this.name = "";
+        this.method = "";
         this.f6id = i;
         this.title = str;
         this.flag = i2;

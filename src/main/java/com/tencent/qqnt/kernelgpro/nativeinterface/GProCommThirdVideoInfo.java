@@ -12,7 +12,7 @@ public final class GProCommThirdVideoInfo {
     public GProCommThirdVideoInfo() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.cover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.cover = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

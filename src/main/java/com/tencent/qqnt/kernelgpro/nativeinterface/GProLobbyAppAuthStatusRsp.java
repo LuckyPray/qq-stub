@@ -15,8 +15,8 @@ public final class GProLobbyAppAuthStatusRsp {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.openId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.authCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.openId = "";
+            this.authCode = "";
         }
     }
 
@@ -49,8 +49,8 @@ public final class GProLobbyAppAuthStatusRsp {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, str2});
             return;
         }
-        this.openId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.authCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.openId = "";
+        this.authCode = "";
         this.authStatus = i;
         this.openId = str;
         this.authCode = str2;

@@ -14,8 +14,8 @@ public final class GroupSchoolNoticeContent {
     public ArrayList<GroupSchoolNoticeMediaContent> videos;
 
     public GroupSchoolNoticeContent() {
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.content = "";
         this.pics = new ArrayList<>();
         this.audios = new ArrayList<>();
         this.videos = new ArrayList<>();
@@ -55,8 +55,8 @@ public final class GroupSchoolNoticeContent {
     }
 
     public GroupSchoolNoticeContent(String str, String str2, ArrayList<GroupSchoolNoticeMediaContent> arrayList, ArrayList<GroupSchoolNoticeMediaContent> arrayList2, ArrayList<GroupSchoolNoticeMediaContent> arrayList3, ArrayList<GroupSchoolNoticeMediaContent> arrayList4, boolean z) {
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.content = "";
         this.pics = new ArrayList<>();
         this.audios = new ArrayList<>();
         this.videos = new ArrayList<>();

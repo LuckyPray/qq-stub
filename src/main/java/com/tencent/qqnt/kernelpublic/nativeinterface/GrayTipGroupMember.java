@@ -21,9 +21,9 @@ public final class GrayTipGroupMember implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.card = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.card = "";
+        this.name = "";
         this.role = MemberRole.values()[0];
     }
 
@@ -62,9 +62,9 @@ public final class GrayTipGroupMember implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.card = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.card = "";
+        this.name = "";
         this.role = MemberRole.values()[0];
         this.uid = str;
         this.card = str2;

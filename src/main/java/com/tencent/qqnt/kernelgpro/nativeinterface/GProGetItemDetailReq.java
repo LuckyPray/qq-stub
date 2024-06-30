@@ -19,7 +19,7 @@ public final class GProGetItemDetailReq {
         }
         this.source = new GProBottomTabSourceInfo();
         this.itemList = new ArrayList<>();
-        this.transBuffer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.transBuffer = "";
     }
 
     public ArrayList<GProItemIdInfo> getItemList() {
@@ -80,7 +80,7 @@ public final class GProGetItemDetailReq {
         }
         this.source = new GProBottomTabSourceInfo();
         this.itemList = new ArrayList<>();
-        this.transBuffer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.transBuffer = "";
         this.source = gProBottomTabSourceInfo;
         this.itemList = arrayList;
         this.transBuffer = str;

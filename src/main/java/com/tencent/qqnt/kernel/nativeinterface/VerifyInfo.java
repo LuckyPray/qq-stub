@@ -10,11 +10,11 @@ public final class VerifyInfo implements IKernelModel {
     public String smsCode;
 
     public VerifyInfo() {
-        this.countryOld = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.phoneOld = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.countryNew = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.phoneNew = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.smsCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.countryOld = "";
+        this.phoneOld = "";
+        this.countryNew = "";
+        this.phoneNew = "";
+        this.smsCode = "";
     }
 
     public String getCountryNew() {
@@ -62,11 +62,11 @@ public final class VerifyInfo implements IKernelModel {
     }
 
     public VerifyInfo(String str, String str2, String str3, String str4, String str5) {
-        this.countryOld = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.phoneOld = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.countryNew = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.phoneNew = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.smsCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.countryOld = "";
+        this.phoneOld = "";
+        this.countryNew = "";
+        this.phoneNew = "";
+        this.smsCode = "";
         this.countryOld = str;
         this.phoneOld = str2;
         this.countryNew = str3;

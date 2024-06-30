@@ -29,8 +29,8 @@ public final class GProScheduleInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.content = "";
         this.channelInfo = new GProScheduleChannelInfo();
         this.otherJumpAddress = new GProOtherJumpAddress();
         this.creator = new GProScheduleUser();
@@ -126,8 +126,8 @@ public final class GProScheduleInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, Long.valueOf(j2), Long.valueOf(j3), str2, Integer.valueOf(i), gProScheduleChannelInfo, Integer.valueOf(i2), Long.valueOf(j4), gProScheduleUser, Integer.valueOf(i3), Integer.valueOf(i4), arrayList, Boolean.valueOf(z)});
             return;
         }
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.content = "";
         this.channelInfo = new GProScheduleChannelInfo();
         this.otherJumpAddress = new GProOtherJumpAddress();
         this.creator = new GProScheduleUser();

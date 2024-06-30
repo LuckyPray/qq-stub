@@ -2,12 +2,12 @@ package com.tencent.qqnt.kernel.nativeinterface;
 
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/PanelItemInfo.class */
 public final class PanelItemInfo {
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String color = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String fontColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String borderColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String name = "";
+    public String icon = "";
+    public String url = "";
+    public String color = "";
+    public String fontColor = "";
+    public String borderColor = "";
 
     public String getBorderColor() {
         return this.borderColor;

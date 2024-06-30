@@ -15,8 +15,8 @@ public final class GProConfirmNode {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.buttonMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.confirmExt = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.buttonMsg = "";
+            this.confirmExt = "";
         }
     }
 

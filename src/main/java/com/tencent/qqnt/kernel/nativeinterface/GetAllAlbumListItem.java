@@ -9,11 +9,11 @@ public final class GetAllAlbumListItem {
     public boolean isTopped;
     public int mediaNum;
     public int unreadNum;
-    public String qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String qunName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String qunIconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String lastestPromptText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String lastestPromptUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String qunId = "";
+    public String qunName = "";
+    public String qunIconUrl = "";
+    public String lastestPromptText = "";
+    public String lastestPromptUin = "";
     public ArrayList<StMedia> mediaList = new ArrayList<>();
 
     public int getAlbumNum() {

@@ -12,7 +12,7 @@ public final class GProCommResult {
     public GProCommResult() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.msg = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

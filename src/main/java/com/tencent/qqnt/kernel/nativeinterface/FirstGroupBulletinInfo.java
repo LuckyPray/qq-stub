@@ -15,7 +15,7 @@ public final class FirstGroupBulletinInfo {
     public long msgUid;
     public long subType;
     public long toUin;
-    public String fromUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String fromUid = "";
     public ArrayList<FirstGroupBulletContent> firstContents = new ArrayList<>();
 
     public int getAppid() {

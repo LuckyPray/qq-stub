@@ -14,7 +14,7 @@ public final class GProTextMedalInfo {
     public GProTextMedalInfo() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.name = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -54,7 +54,7 @@ public final class GProTextMedalInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2)});
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.name = str;
         this.expireTime = j;
         this.colorText = i;

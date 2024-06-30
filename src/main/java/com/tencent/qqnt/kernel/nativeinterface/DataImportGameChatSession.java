@@ -17,12 +17,12 @@ public final class DataImportGameChatSession {
     public long windowFlag;
 
     public DataImportGameChatSession() {
-        this.friendUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fromRoleId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fromOpenId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.toRoleId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.toOpenId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.friendUin = "";
+        this.fromRoleId = "";
+        this.fromOpenId = "";
+        this.toRoleId = "";
+        this.toOpenId = "";
+        this.nickName = "";
     }
 
     public String getFriendUin() {
@@ -78,12 +78,12 @@ public final class DataImportGameChatSession {
     }
 
     public DataImportGameChatSession(String str, String str2, String str3, String str4, String str5, long j, long j2, long j3, long j4, String str6, int i, int i2) {
-        this.friendUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fromRoleId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fromOpenId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.toRoleId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.toOpenId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.friendUin = "";
+        this.fromRoleId = "";
+        this.fromOpenId = "";
+        this.toRoleId = "";
+        this.toOpenId = "";
+        this.nickName = "";
         this.friendUin = str;
         this.fromRoleId = str2;
         this.fromOpenId = str3;

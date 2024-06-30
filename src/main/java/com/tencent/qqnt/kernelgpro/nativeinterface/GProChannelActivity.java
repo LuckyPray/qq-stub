@@ -16,9 +16,9 @@ public final class GProChannelActivity {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.activityId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.imageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.activityId = "";
+        this.imageUrl = "";
+        this.jumpUrl = "";
     }
 
     public String getActivityId() {
@@ -50,9 +50,9 @@ public final class GProChannelActivity {
             iPatchRedirector.redirect((short) 2, this, str, str2, str3);
             return;
         }
-        this.activityId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.imageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.activityId = "";
+        this.imageUrl = "";
+        this.jumpUrl = "";
         this.activityId = str;
         this.imageUrl = str2;
         this.jumpUrl = str3;

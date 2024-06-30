@@ -18,9 +18,9 @@ public final class GproGetOpenShareInfoReq {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.queryStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.linkUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.queryStr = "";
+        this.linkUrl = "";
+        this.sessionId = "";
     }
 
     public String getLinkUrl() {
@@ -93,9 +93,9 @@ public final class GproGetOpenShareInfoReq {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, Integer.valueOf(i)});
             return;
         }
-        this.queryStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.linkUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.queryStr = "";
+        this.linkUrl = "";
+        this.sessionId = "";
         this.queryStr = str;
         this.linkUrl = str2;
         this.sessionId = str3;

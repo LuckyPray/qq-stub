@@ -12,8 +12,8 @@ public final class GProRobotCommonGuildInfo {
     public int status;
 
     public GProRobotCommonGuildInfo() {
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildFace = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildFace = "";
         this.robotsStatus = new ArrayList<>();
     }
 
@@ -46,8 +46,8 @@ public final class GProRobotCommonGuildInfo {
     }
 
     public GProRobotCommonGuildInfo(String str, long j, int i, String str2, long j2, ArrayList<GProGuildRobot> arrayList) {
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildFace = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildFace = "";
         this.robotsStatus = new ArrayList<>();
         this.guildName = str;
         this.guildId = j;

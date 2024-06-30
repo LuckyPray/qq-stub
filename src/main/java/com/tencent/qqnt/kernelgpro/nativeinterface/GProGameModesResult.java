@@ -18,9 +18,9 @@ public final class GProGameModesResult {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.f59id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.image = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f59id = "";
+        this.name = "";
+        this.image = "";
     }
 
     public String getId() {
@@ -52,9 +52,9 @@ public final class GProGameModesResult {
             iPatchRedirector.redirect((short) 2, this, str, str2, str3);
             return;
         }
-        this.f59id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.image = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f59id = "";
+        this.name = "";
+        this.image = "";
         this.f59id = str;
         this.name = str2;
         this.image = str3;

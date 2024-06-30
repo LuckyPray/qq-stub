@@ -4,15 +4,15 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class InitThirdPartySigConfig {
     public String bid;
     public int clientip;
-    public String commonPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String openidPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String clientVer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String guid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String platVer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String hostName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String commonPath = "";
+    public String openidPath = "";
+    public String clientVer = "";
+    public String guid = "";
+    public String platVer = "";
+    public String hostName = "";
     public LoginPlatform platform = LoginPlatform.values()[0];
-    public String deviceType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String qua = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String deviceType = "";
+    public String qua = "";
 
     public String getBid() {
         return this.bid;

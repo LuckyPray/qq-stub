@@ -14,8 +14,8 @@ public final class GProImgPair {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.imgNightMode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.imgDayMode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.imgNightMode = "";
+            this.imgDayMode = "";
         }
     }
 

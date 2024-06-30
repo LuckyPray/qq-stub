@@ -24,7 +24,7 @@ public final class GProGetBlockRecGuildsReq implements Serializable {
         this.cookies = new byte[0];
         this.source = new GProBottomTabSourceInfo();
         this.topRecommend = new GProTopRecommendInfo();
-        this.busiInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.busiInfo = "";
     }
 
     public String getBusiInfo() {
@@ -115,7 +115,7 @@ public final class GProGetBlockRecGuildsReq implements Serializable {
         this.cookies = new byte[0];
         this.source = new GProBottomTabSourceInfo();
         this.topRecommend = new GProTopRecommendInfo();
-        this.busiInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.busiInfo = "";
         this.businessType = i;
         this.cookies = bArr;
         this.source = gProBottomTabSourceInfo;

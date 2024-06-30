@@ -20,7 +20,7 @@ public final class GProMsgSummary implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.avatar = "";
         this.richText = new byte[0];
     }
 

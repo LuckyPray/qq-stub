@@ -14,7 +14,7 @@ public final class GProUpdateChannelThemeReq {
     public GProUpdateChannelThemeReq() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.authMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.authMeta = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -90,7 +90,7 @@ public final class GProUpdateChannelThemeReq {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, Integer.valueOf(i)});
             return;
         }
-        this.authMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.authMeta = "";
         this.uint64GuildId = j;
         this.uint64ChannelId = j2;
         this.authMeta = str;

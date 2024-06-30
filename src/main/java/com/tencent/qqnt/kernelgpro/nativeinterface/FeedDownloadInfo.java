@@ -25,14 +25,14 @@ public final class FeedDownloadInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.errorMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errorMsg = "";
+        this.feedId = "";
+        this.subId = "";
+        this.fileId = "";
         this.downloadType = FeedFileType.values()[0];
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.savePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileName = "";
+        this.url = "";
+        this.savePath = "";
     }
 
     public FeedFileType getDownloadType() {
@@ -104,14 +104,14 @@ public final class FeedDownloadInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, Long.valueOf(j), str2, str3, str4, feedFileType, str5, Integer.valueOf(i2), str6, str7});
             return;
         }
-        this.errorMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errorMsg = "";
+        this.feedId = "";
+        this.subId = "";
+        this.fileId = "";
         this.downloadType = FeedFileType.values()[0];
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.savePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileName = "";
+        this.url = "";
+        this.savePath = "";
         this.errorCode = i;
         this.errorMsg = str;
         this.progress = j;

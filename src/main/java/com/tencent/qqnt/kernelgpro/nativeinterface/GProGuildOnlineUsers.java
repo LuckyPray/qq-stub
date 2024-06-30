@@ -17,7 +17,7 @@ public final class GProGuildOnlineUsers {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.totalOnline = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.totalOnline = "";
             this.users = new ArrayList<>();
         }
     }

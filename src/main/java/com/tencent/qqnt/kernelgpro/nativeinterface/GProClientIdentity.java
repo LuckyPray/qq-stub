@@ -19,7 +19,7 @@ public final class GProClientIdentity implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.desc = "";
         this.identityBytes = new GProClientIdentityBytes();
     }
 
@@ -53,7 +53,7 @@ public final class GProClientIdentity implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.desc = "";
         this.identityBytes = new GProClientIdentityBytes();
         this.clientId = i;
         this.desc = str;

@@ -10,8 +10,8 @@ public final class DoubtBuddyReqListRsp {
     public String reqId;
 
     public DoubtBuddyReqListRsp() {
-        this.reqId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.cookie = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.reqId = "";
+        this.cookie = "";
         this.doubtList = new ArrayList<>();
     }
 
@@ -32,8 +32,8 @@ public final class DoubtBuddyReqListRsp {
     }
 
     public DoubtBuddyReqListRsp(String str, String str2, ArrayList<DoubtBuddyReqInfo> arrayList) {
-        this.reqId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.cookie = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.reqId = "";
+        this.cookie = "";
         this.doubtList = new ArrayList<>();
         this.reqId = str;
         this.cookie = str2;

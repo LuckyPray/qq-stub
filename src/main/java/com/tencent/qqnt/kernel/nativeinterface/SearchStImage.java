@@ -5,8 +5,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class SearchStImage {
     public int height;
     public int width;
-    public String picUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String layerPicUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String picUrl = "";
+    public String layerPicUrl = "";
 
     public int getHeight() {
         return this.height;

@@ -7,7 +7,7 @@ public final class ConfigContentItem {
     public int taskId;
 
     public ConfigContentItem() {
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.content = "";
     }
 
     public String getContent() {
@@ -23,7 +23,7 @@ public final class ConfigContentItem {
     }
 
     public ConfigContentItem(int i, String str) {
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.content = "";
         this.taskId = i;
         this.content = str;
     }

@@ -20,9 +20,9 @@ public final class GProGuildJoin {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.avatar = "";
+        this.joinSig = "";
     }
 
     public String getAvatar() {

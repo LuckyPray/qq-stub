@@ -17,8 +17,8 @@ public final class GProUnDoDelFeedReq {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.userId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.feedId = "";
+            this.userId = "";
         }
     }
 

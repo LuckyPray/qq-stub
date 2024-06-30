@@ -9,7 +9,7 @@ public final class GProRecallReqItem {
     public ArrayList<Long> msgIds;
 
     public GProRecallReqItem() {
-        this.channelId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.channelId = "";
         this.msgIds = new ArrayList<>();
     }
 
@@ -30,7 +30,7 @@ public final class GProRecallReqItem {
     }
 
     public GProRecallReqItem(String str, ArrayList<Long> arrayList, int i) {
-        this.channelId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.channelId = "";
         this.msgIds = new ArrayList<>();
         this.channelId = str;
         this.msgIds = arrayList;

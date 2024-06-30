@@ -28,13 +28,13 @@ public final class GProRoomInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.roomName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.roomName = "";
         this.ViewerExt = new GProViewerExt();
-        this.programId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.programId = "";
         this.roomIcons = new HashMap<>();
-        this.roomPv = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.roomPv = "";
         this.audienceInfos = new ArrayList<>();
-        this.screenShot = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.screenShot = "";
     }
 
     public ArrayList<GProAudienceInfo> getAudienceInfos() {

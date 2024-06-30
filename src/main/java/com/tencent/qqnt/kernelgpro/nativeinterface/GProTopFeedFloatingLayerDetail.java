@@ -16,7 +16,7 @@ public final class GProTopFeedFloatingLayerDetail {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.feedDetailTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedDetailTitle = "";
         this.topFeedLabel = new GProLabel();
         this.stfeed = new byte[0];
     }

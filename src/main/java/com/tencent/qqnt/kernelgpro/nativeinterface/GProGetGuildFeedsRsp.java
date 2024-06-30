@@ -21,8 +21,8 @@ public final class GProGetGuildFeedsRsp {
             return;
         }
         this.vecFeedList = new ArrayList<>();
-        this.feedAttchInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedAttchInfo = "";
+        this.traceId = "";
         this.topFeeds = new ArrayList<>();
         this.channels = new ArrayList<>();
     }

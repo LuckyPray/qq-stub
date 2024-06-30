@@ -18,7 +18,7 @@ public final class GProMVPSourceInfo implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.bid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.bid = "";
         }
     }
 
@@ -79,7 +79,7 @@ public final class GProMVPSourceInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.bid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.bid = "";
         this.sceneId = i;
         this.bid = str;
         this.bussiSource = i2;

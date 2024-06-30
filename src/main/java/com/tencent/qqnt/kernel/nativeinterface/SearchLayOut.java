@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchLayOut.class */
 public final class SearchLayOut {
     public float bottomCorner;
-    public String highlight = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String highlight = "";
     public float marginTop;
     public boolean showDivider;
     public float topCorner;

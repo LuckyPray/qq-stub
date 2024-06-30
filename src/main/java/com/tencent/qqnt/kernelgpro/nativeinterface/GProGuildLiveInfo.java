@@ -22,7 +22,7 @@ public final class GProGuildLiveInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
         this.anchorInfo = new GProAnchorInfo();
         this.roomInfo = new GProRoomInfo();
         this.streamInfo = new GProLiveStreamInfo();

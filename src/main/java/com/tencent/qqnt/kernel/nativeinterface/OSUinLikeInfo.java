@@ -10,7 +10,7 @@ public final class OSUinLikeInfo {
     public long uin;
 
     public OSUinLikeInfo() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
         this.likeItems = new ArrayList<>();
     }
 
@@ -31,7 +31,7 @@ public final class OSUinLikeInfo {
     }
 
     public OSUinLikeInfo(long j, String str, ArrayList<OSLikeItem> arrayList) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
         this.likeItems = new ArrayList<>();
         this.uin = j;
         this.uid = str;

@@ -19,9 +19,9 @@ public final class StMedia {
     public StMedia() {
         this.image = new StImage();
         this.video = new StVideo();
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.desc = "";
         this.lbs = new StLBS();
-        this.uploader = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uploader = "";
         this.like = new StMediaLike();
         this.comment = new StMediaComment();
         this.uploadUser = new StUser();
@@ -126,9 +126,9 @@ public final class StMedia {
     public StMedia(int i, StImage stImage, StVideo stVideo, String str, StLBS stLBS, String str2, long j, long j2, int i2, StMediaLike stMediaLike, StMediaComment stMediaComment, StUser stUser) {
         this.image = new StImage();
         this.video = new StVideo();
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.desc = "";
         this.lbs = new StLBS();
-        this.uploader = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uploader = "";
         this.like = new StMediaLike();
         this.comment = new StMediaComment();
         this.uploadUser = new StUser();

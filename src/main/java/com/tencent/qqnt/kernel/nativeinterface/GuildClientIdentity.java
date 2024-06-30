@@ -8,7 +8,7 @@ public final class GuildClientIdentity {
     public GuildClientIdentityBytes identityBytes;
 
     public GuildClientIdentity() {
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.desc = "";
         this.identityBytes = new GuildClientIdentityBytes();
     }
 
@@ -29,7 +29,7 @@ public final class GuildClientIdentity {
     }
 
     public GuildClientIdentity(int i, String str, GuildClientIdentityBytes guildClientIdentityBytes) {
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.desc = "";
         this.identityBytes = new GuildClientIdentityBytes();
         this.clientId = i;
         this.desc = str;

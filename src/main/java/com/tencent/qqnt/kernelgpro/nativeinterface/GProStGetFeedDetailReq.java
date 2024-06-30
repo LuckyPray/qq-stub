@@ -21,8 +21,8 @@ public final class GProStGetFeedDetailReq {
             return;
         }
         this.extInfo = new GProStCommonExt();
-        this.userId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.userId = "";
+        this.feedId = "";
         this.channelSign = new GProStChannelSign();
     }
 

@@ -20,7 +20,7 @@ public final class GProNavigationList implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.dataList = new ArrayList<>();
-        this.navigationVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.navigationVersion = "";
     }
 
     public ArrayList<GProNavigationData> getDataList() {

@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/CommandCbRsp.class */
 public final class CommandCbRsp {
     public int promptIcon;
-    public String promptText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String promptText = "";
     public int promptType;
     public int status;
 

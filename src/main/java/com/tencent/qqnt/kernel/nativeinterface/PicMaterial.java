@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class PicMaterial {
     public PicStyle picStyle = PicStyle.values()[0];
     public StyleInfo styleInfo = new StyleInfo();
-    public String url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String url = "";
 
     public PicStyle getPicStyle() {
         return this.picStyle;

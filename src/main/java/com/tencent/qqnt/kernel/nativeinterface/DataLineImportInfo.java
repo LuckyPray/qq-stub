@@ -8,7 +8,7 @@ public final class DataLineImportInfo {
     public String tableName;
 
     public DataLineImportInfo() {
-        this.tableName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tableName = "";
     }
 
     public long getMaxId() {
@@ -28,7 +28,7 @@ public final class DataLineImportInfo {
     }
 
     public DataLineImportInfo(String str, int i, long j) {
-        this.tableName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tableName = "";
         this.tableName = str;
         this.msgCount = i;
         this.maxId = j;

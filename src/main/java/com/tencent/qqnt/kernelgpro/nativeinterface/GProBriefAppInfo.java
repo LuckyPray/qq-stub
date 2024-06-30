@@ -16,9 +16,9 @@ public final class GProBriefAppInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.appName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.appAvatarUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appId = "";
+        this.appName = "";
+        this.appAvatarUrl = "";
     }
 
     public String getAppAvatarUrl() {

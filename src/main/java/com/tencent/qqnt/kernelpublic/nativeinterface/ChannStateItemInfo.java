@@ -20,7 +20,7 @@ public final class ChannStateItemInfo implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.channelStateStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.channelStateStr = "";
         }
     }
 
@@ -59,7 +59,7 @@ public final class ChannStateItemInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.channelStateStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.channelStateStr = "";
         this.channelState = i;
         this.priority = i2;
         this.updateTs = j;

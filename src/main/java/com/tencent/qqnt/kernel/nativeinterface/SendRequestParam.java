@@ -11,7 +11,7 @@ public final class SendRequestParam {
     public int sendTimeoutOnSlowNet;
 
     public SendRequestParam() {
-        this.account = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.account = "";
     }
 
     public String getAccount() {
@@ -47,7 +47,7 @@ public final class SendRequestParam {
     }
 
     public SendRequestParam(int i, int i2, int i3, int i4, int i5, String str, int i6) {
-        this.account = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.account = "";
         this.sendTimeout = i;
         this.sendTimeoutOnSlowNet = i2;
         this.resendNum = i3;

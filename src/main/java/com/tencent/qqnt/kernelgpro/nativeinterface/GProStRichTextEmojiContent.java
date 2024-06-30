@@ -17,10 +17,10 @@ public final class GProStRichTextEmojiContent {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.idd = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.type = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.idd = "";
+        this.type = "";
+        this.name = "";
+        this.url = "";
     }
 
     public String getIdd() {

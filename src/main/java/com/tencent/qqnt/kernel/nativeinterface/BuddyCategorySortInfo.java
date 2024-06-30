@@ -7,7 +7,7 @@ public final class BuddyCategorySortInfo {
     public String categroyName;
 
     public BuddyCategorySortInfo() {
-        this.categroyName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categroyName = "";
     }
 
     public int getCategoryId() {
@@ -23,7 +23,7 @@ public final class BuddyCategorySortInfo {
     }
 
     public BuddyCategorySortInfo(int i, String str) {
-        this.categroyName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categroyName = "";
         this.categoryId = i;
         this.categroyName = str;
     }

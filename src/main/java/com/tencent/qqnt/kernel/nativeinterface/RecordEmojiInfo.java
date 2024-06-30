@@ -13,9 +13,9 @@ public final class RecordEmojiInfo {
 
     public RecordEmojiInfo() {
         this.recommentEmojiType = RecommentEmojiType.values()[0];
-        this.eId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.keyword = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.eId = "";
+        this.keyword = "";
+        this.md5 = "";
     }
 
     public String getEId() {
@@ -52,9 +52,9 @@ public final class RecordEmojiInfo {
 
     public RecordEmojiInfo(RecommentEmojiType recommentEmojiType, int i, String str, String str2, String str3, int i2, int i3) {
         this.recommentEmojiType = RecommentEmojiType.values()[0];
-        this.eId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.keyword = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.eId = "";
+        this.keyword = "";
+        this.md5 = "";
         this.recommentEmojiType = recommentEmojiType;
         this.epId = i;
         this.eId = str;

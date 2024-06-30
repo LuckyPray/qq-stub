@@ -15,11 +15,11 @@ public final class NTGetAllAlbumListRsp {
     public String traceId;
 
     public NTGetAllAlbumListRsp() {
-        this.errMs = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMs = "";
+        this.traceId = "";
         this.requestTimeLine = new RequestTimelineInfo();
         this.qunList = new ArrayList<>();
-        this.attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.attachInfo = "";
     }
 
     public String getAttachInfo() {
@@ -59,11 +59,11 @@ public final class NTGetAllAlbumListRsp {
     }
 
     public NTGetAllAlbumListRsp(int i, int i2, String str, String str2, RequestTimelineInfo requestTimelineInfo, ArrayList<GetAllAlbumListItem> arrayList, String str3, boolean z) {
-        this.errMs = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMs = "";
+        this.traceId = "";
         this.requestTimeLine = new RequestTimelineInfo();
         this.qunList = new ArrayList<>();
-        this.attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.attachInfo = "";
         this.seq = i;
         this.result = i2;
         this.errMs = str;

@@ -10,8 +10,8 @@ public final class ServiceAssistantAppSwitch {
     public int switchValue;
 
     public ServiceAssistantAppSwitch() {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.logo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.logo = "";
     }
 
     public long getAppId() {
@@ -39,8 +39,8 @@ public final class ServiceAssistantAppSwitch {
     }
 
     public ServiceAssistantAppSwitch(long j, int i, int i2, String str, String str2) {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.logo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.logo = "";
         this.appId = j;
         this.appType = i;
         this.switchValue = i2;

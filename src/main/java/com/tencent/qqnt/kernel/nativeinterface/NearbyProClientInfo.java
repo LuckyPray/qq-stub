@@ -7,8 +7,8 @@ public final class NearbyProClientInfo {
     public String qqVer;
 
     public NearbyProClientInfo() {
-        this.qqVer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.device = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qqVer = "";
+        this.device = "";
     }
 
     public String getDevice() {
@@ -28,8 +28,8 @@ public final class NearbyProClientInfo {
     }
 
     public NearbyProClientInfo(String str, String str2, int i) {
-        this.qqVer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.device = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qqVer = "";
+        this.device = "";
         this.qqVer = str;
         this.device = str2;
         this.platform = i;

@@ -12,7 +12,7 @@ public final class GProProgrammeInfoReq {
     public GProProgrammeInfoReq() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.programmeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.programmeId = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -42,7 +42,7 @@ public final class GProProgrammeInfoReq {
             iPatchRedirector.redirect((short) 2, this, str, i);
             return;
         }
-        this.programmeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.programmeId = "";
         this.programmeId = str;
         this.tabType = i;
     }

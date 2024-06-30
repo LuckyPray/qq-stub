@@ -30,13 +30,13 @@ public final class GProScheduleSearchInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.content = "";
         this.creator = new GProSearchUser();
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildHeadUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildHeadUrl = "";
+        this.joinGuildSig = "";
+        this.channelName = "";
         this.tags = new ArrayList<>();
         this.recallInfo = new GProRecallInfo();
     }

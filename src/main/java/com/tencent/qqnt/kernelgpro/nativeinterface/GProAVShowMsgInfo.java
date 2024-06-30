@@ -21,7 +21,7 @@ public final class GProAVShowMsgInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.showMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.showMsg = "";
         this.buttonMsgs = new ArrayList<>();
     }
 
@@ -60,7 +60,7 @@ public final class GProAVShowMsgInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.showMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.showMsg = "";
         this.buttonMsgs = new ArrayList<>();
         this.showType = i;
         this.showMsg = str;

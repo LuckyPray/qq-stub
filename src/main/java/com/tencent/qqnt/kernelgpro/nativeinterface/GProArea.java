@@ -14,8 +14,8 @@ public final class GProArea {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.areaId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.areaId = "";
+            this.desc = "";
         }
     }
 

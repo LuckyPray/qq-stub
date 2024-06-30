@@ -19,8 +19,8 @@ public final class GProOtherJumpAddress implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.address = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedAbstract = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.address = "";
+        this.feedAbstract = "";
     }
 
     public String getAddress() {

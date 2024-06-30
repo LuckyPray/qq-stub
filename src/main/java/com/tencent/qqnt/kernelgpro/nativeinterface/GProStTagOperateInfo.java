@@ -26,14 +26,14 @@ public final class GProStTagOperateInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.createUser = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.coverURL = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.backgroundURL = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bannerURL = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bannerSkipLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.recommendReason = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.publishSchema = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.createUser = "";
+        this.coverURL = "";
+        this.desc = "";
+        this.backgroundURL = "";
+        this.bannerURL = "";
+        this.bannerSkipLink = "";
+        this.recommendReason = "";
+        this.publishSchema = "";
     }
 
     public long getActivityEndTime() {

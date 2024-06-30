@@ -6,8 +6,8 @@ public final class NearbyProEntry {
     public String value;
 
     public NearbyProEntry() {
-        this.key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.key = "";
+        this.value = "";
     }
 
     public String getKey() {
@@ -23,8 +23,8 @@ public final class NearbyProEntry {
     }
 
     public NearbyProEntry(String str, String str2) {
-        this.key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.key = "";
+        this.value = "";
         this.key = str;
         this.value = str2;
     }

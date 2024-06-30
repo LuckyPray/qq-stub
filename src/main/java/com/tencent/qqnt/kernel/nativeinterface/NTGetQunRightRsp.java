@@ -6,9 +6,9 @@ public final class NTGetQunRightRsp {
     public boolean normalUpload;
     public int result;
     public int seq;
-    public String errMs = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String errMs = "";
     public QunRight right = new QunRight();
-    public String traceid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String traceid = "";
     public RequestTimelineInfo requestTimeLine = new RequestTimelineInfo();
 
     public String getErrMs() {

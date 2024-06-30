@@ -17,7 +17,7 @@ public final class GProChannelPresenceMemberInfo implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.bytesAvatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.bytesAvatarMeta = "";
         }
     }
 
@@ -46,7 +46,7 @@ public final class GProChannelPresenceMemberInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.bytesAvatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.bytesAvatarMeta = "";
         this.tinyId = j;
         this.bytesAvatarMeta = str;
     }

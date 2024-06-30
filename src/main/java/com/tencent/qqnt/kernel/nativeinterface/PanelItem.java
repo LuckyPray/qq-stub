@@ -10,9 +10,9 @@ public final class PanelItem {
     public int version;
     public PanelItemInfo offInfo = new PanelItemInfo();
     public PanelItemInfo onInfo = new PanelItemInfo();
-    public String settingUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String availableRangeDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String settingUrl = "";
+    public String desc = "";
+    public String availableRangeDesc = "";
 
     public String getAvailableRangeDesc() {
         return this.availableRangeDesc;

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public final class Notice {
     public long createTime;
     public int noticeType;
-    public String noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String noticeId = "";
     public NoticePattonInfo noticePatton = new NoticePattonInfo();
     public StFeed feed = new StFeed();
     public ArrayList<Integer> opMask = new ArrayList<>();

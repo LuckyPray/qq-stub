@@ -30,10 +30,10 @@ public final class GProGuildFeedSearchRes {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
+        this.nickName = "";
+        this.title = "";
+        this.content = "";
         this.images = new ArrayList<>();
         this.videos = new ArrayList<>();
         this.oriContents = new byte[0];

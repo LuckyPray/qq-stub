@@ -19,9 +19,9 @@ public final class GProSignGuildInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.url = "";
+        this.desc = "";
     }
 
     public String getDesc() {

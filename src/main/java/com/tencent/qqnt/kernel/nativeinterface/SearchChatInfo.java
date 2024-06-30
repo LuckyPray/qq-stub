@@ -3,9 +3,9 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchChatInfo.class */
 public final class SearchChatInfo {
-    public String peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String peerUid = "";
+    public String name = "";
+    public String remark = "";
 
     public String getName() {
         return this.name;

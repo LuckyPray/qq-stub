@@ -17,9 +17,9 @@ public final class GProSecMsgIdPkg {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.messageId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.messageId = "";
         this.opaque = new byte[0];
-        this.scene = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.scene = "";
     }
 
     public boolean getDebugMode() {

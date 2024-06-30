@@ -35,13 +35,13 @@ public final class GProStVideo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileId = "";
+        this.playUrl = "";
         this.vecVideoUrlList = new ArrayList<>();
         this.busiData = new byte[0];
-        this.videoMD5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.videoMD5 = "";
         this.cover = new GProStImage();
-        this.patternId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.patternId = "";
     }
 
     public int getApprovalStatus() {

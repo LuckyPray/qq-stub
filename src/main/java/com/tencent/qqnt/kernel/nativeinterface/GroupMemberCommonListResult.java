@@ -9,7 +9,7 @@ public final class GroupMemberCommonListResult {
     public int identifyFlag;
     public long startUin;
     public ArrayList<MemberCommonInfo> memberList = new ArrayList<>();
-    public String strErrorInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String strErrorInfo = "";
 
     public long getGroupCode() {
         return this.groupCode;

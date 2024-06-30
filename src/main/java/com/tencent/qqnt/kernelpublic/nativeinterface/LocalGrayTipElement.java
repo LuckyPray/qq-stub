@@ -20,7 +20,7 @@ public final class LocalGrayTipElement implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.extraJson = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.extraJson = "";
         }
     }
 
@@ -59,7 +59,7 @@ public final class LocalGrayTipElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.extraJson = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.extraJson = "";
         this.type = i;
         this.robot = localGrayTipRobot;
         this.direct = localGrayTipDirect;

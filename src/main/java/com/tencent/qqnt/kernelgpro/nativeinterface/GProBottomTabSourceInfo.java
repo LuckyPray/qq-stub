@@ -13,7 +13,7 @@ public final class GProBottomTabSourceInfo {
     public GProBottomTabSourceInfo() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.bid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.bid = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -75,7 +75,7 @@ public final class GProBottomTabSourceInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, Integer.valueOf(i2)});
             return;
         }
-        this.bid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.bid = "";
         this.sceneId = i;
         this.bid = str;
         this.bussiSource = i2;

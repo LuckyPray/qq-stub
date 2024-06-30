@@ -8,7 +8,7 @@ public final class RobotRecommendCardsRsp {
     public boolean haveNextPage;
     public boolean isRefresh;
     public byte[] pagingCookie = new byte[0];
-    public String dataVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String dataVersion = "";
     public RobotTabInfo tabInfo = new RobotTabInfo();
     public ArrayList<RobotTabInfo> tabs = new ArrayList<>();
     public ArrayList<RobotRecommendCard> cards = new ArrayList<>();

@@ -3,9 +3,9 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/BulletinFeedsRichMediaDownloadReq.class */
 public final class BulletinFeedsRichMediaDownloadReq {
-    public String feedsId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String feedsId = "";
+    public String fileId = "";
+    public String url = "";
 
     public String getFeedsId() {
         return this.feedsId;

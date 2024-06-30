@@ -18,10 +18,10 @@ public final class GProScheduleGuildSurface {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.coverUrl = "";
+        this.iconUrl = "";
+        this.channelName = "";
     }
 
     public String getChannelName() {

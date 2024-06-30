@@ -7,7 +7,7 @@ public final class OSReadLikeListRsp {
     public String errMsg;
 
     public OSReadLikeListRsp() {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
     }
 
     public int getErrCode() {
@@ -23,7 +23,7 @@ public final class OSReadLikeListRsp {
     }
 
     public OSReadLikeListRsp(int i, String str) {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
         this.errCode = i;
         this.errMsg = str;
     }

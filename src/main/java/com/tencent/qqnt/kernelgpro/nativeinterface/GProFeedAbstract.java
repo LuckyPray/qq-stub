@@ -17,8 +17,8 @@ public final class GProFeedAbstract {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
+        this.title = "";
         this.thumbnailList = new ArrayList<>();
     }
 

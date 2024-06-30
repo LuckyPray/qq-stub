@@ -7,7 +7,7 @@ public final class ChatInfo {
     public String peerUid;
 
     public ChatInfo() {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
     }
 
     public int getChatType() {
@@ -23,7 +23,7 @@ public final class ChatInfo {
     }
 
     public ChatInfo(int i, String str) {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
         this.chatType = i;
         this.peerUid = str;
     }

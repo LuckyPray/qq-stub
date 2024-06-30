@@ -13,10 +13,10 @@ public final class AddFavEmojiReq {
     public int packageId;
 
     public AddFavEmojiReq() {
-        this.emojiId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.emojiPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.emojiId = "";
+        this.emojiPath = "";
+        this.fileName = "";
+        this.md5 = "";
     }
 
     public String getEmojiId() {
@@ -56,10 +56,10 @@ public final class AddFavEmojiReq {
     }
 
     public AddFavEmojiReq(String str, int i, String str2, long j, String str3, String str4, boolean z, boolean z2) {
-        this.emojiId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.emojiPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.emojiId = "";
+        this.emojiPath = "";
+        this.fileName = "";
+        this.md5 = "";
         this.emojiId = str;
         this.packageId = i;
         this.emojiPath = str2;

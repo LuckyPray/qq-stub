@@ -4,12 +4,12 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/MyBotInfo.class */
 public final class MyBotInfo {
     public long uin;
-    public String uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String botAvatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String botName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String botPrompt = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String botWelcomeMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String botDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String uid = "";
+    public String botAvatar = "";
+    public String botName = "";
+    public String botPrompt = "";
+    public String botWelcomeMsg = "";
+    public String botDesc = "";
 
     public String getBotAvatar() {
         return this.botAvatar;

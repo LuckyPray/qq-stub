@@ -18,7 +18,7 @@ public final class GProGuildMemberCountInfo {
     public GProGuildMemberCountInfo() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.errMsg = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

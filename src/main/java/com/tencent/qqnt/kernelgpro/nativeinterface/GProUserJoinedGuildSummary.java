@@ -15,7 +15,7 @@ public final class GProUserJoinedGuildSummary {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.joinedCountStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.joinedCountStr = "";
             this.guildList = new ArrayList<>();
         }
     }

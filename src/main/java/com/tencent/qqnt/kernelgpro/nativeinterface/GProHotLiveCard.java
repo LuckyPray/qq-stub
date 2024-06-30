@@ -27,11 +27,11 @@ public final class GProHotLiveCard implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.cover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.liveTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cover = "";
+        this.liveTitle = "";
+        this.icon = "";
         this.memberAvatarList = new ArrayList<>();
-        this.themeSessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.themeSessionId = "";
     }
 
     public long getChannelId() {

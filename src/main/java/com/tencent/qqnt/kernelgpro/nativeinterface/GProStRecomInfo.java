@@ -19,11 +19,11 @@ public final class GProStRecomInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.recomReason = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.recomReason = "";
         this.recomAttachInfo = new byte[0];
-        this.recomTrace = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.recomTrace = "";
         this.clientSealData = new byte[0];
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
     }
 
     public byte[] getClientSealData() {

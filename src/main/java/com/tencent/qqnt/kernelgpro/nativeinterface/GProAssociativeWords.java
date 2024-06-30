@@ -14,7 +14,7 @@ public final class GProAssociativeWords {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.term = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.term = "";
             this.recallInfo = new GProRecallInfo();
         }
     }

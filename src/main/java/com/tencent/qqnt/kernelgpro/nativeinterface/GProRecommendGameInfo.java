@@ -19,8 +19,8 @@ public final class GProRecommendGameInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.icon = "";
         this.modeInfo = new GProRecommendModeInfo();
     }
 
@@ -58,8 +58,8 @@ public final class GProRecommendGameInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, str2, gProRecommendModeInfo});
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.icon = "";
         this.modeInfo = new GProRecommendModeInfo();
         this.f74id = i;
         this.name = str;

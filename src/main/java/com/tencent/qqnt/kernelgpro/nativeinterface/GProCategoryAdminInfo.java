@@ -16,7 +16,7 @@ public final class GProCategoryAdminInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.categoryName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.categoryName = "";
             this.channelAdminList = new ArrayList<>();
         }
     }

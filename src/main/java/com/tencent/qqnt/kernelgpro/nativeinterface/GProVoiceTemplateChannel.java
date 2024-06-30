@@ -28,12 +28,12 @@ public final class GProVoiceTemplateChannel implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.cover = new GProRecommendCoverInfo();
-        this.statusDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.statusIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.statusDesc = "";
+        this.statusIcon = "";
         this.members = new ArrayList<>();
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.icon = "";
+        this.playDesc = "";
     }
 
     public GProRecommendCoverInfo getCover() {
@@ -102,12 +102,12 @@ public final class GProVoiceTemplateChannel implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.cover = new GProRecommendCoverInfo();
-        this.statusDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.statusIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.statusDesc = "";
+        this.statusIcon = "";
         this.members = new ArrayList<>();
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.icon = "";
+        this.playDesc = "";
         this.cover = gProRecommendCoverInfo;
         this.statusDesc = str;
         this.statusIcon = str2;

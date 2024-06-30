@@ -15,7 +15,7 @@ public final class UserSimpleInfo implements IKernelModel {
     public VasInfo vasInfo;
 
     public UserSimpleInfo() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
     }
 
     public BaseInfo getBaseInfo() {
@@ -103,7 +103,7 @@ public final class UserSimpleInfo implements IKernelModel {
     }
 
     public UserSimpleInfo(String str, long j, boolean z, CoreInfo coreInfo, BaseInfo baseInfo, StatusInfo statusInfo, VasInfo vasInfo, RelationFlag relationFlag, OtherFlag otherFlag, Intimate intimate) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
         this.uid = str;
         this.uin = j;
         this.isBuddy = z;

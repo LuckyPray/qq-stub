@@ -3,7 +3,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchRecommendGuide.class */
 public final class SearchRecommendGuide {
-    public String text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String text = "";
 
     public String getText() {
         return this.text;

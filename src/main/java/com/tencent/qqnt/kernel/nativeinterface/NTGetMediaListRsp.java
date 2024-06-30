@@ -10,14 +10,14 @@ public final class NTGetMediaListRsp {
     public boolean prevHasMore;
     public int result;
     public int seq;
-    public String errMs = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String errMs = "";
+    public String traceId = "";
     public RequestTimelineInfo requestTimeLine = new RequestTimelineInfo();
     public AlbumInfo album = new AlbumInfo();
     public ArrayList<BatchInfo> batchList = new ArrayList<>();
     public ArrayList<StMedia> mediaList = new ArrayList<>();
-    public String prevAttachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String nextAttachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String prevAttachInfo = "";
+    public String nextAttachInfo = "";
     public QunRight right = new QunRight();
 
     public AlbumInfo getAlbum() {

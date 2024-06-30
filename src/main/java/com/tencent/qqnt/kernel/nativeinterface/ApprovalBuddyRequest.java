@@ -9,7 +9,7 @@ public final class ApprovalBuddyRequest {
     public long reqTime;
 
     public ApprovalBuddyRequest() {
-        this.friendUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.friendUid = "";
     }
 
     public boolean getAccept() {
@@ -33,7 +33,7 @@ public final class ApprovalBuddyRequest {
     }
 
     public ApprovalBuddyRequest(String str, boolean z, String str2, long j) {
-        this.friendUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.friendUid = "";
         this.friendUid = str;
         this.accept = z;
         this.refuseMsg = str2;

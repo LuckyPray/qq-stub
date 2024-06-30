@@ -22,9 +22,9 @@ public final class GProPlusPanelBotFeature {
         this.botInfo = new GProBotInfo();
         this.serviceInfo = new GProBotFeatureInfo();
         this.commandInfo = new GProBotFeatureInfo();
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.serviceName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.elementId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.icon = "";
+        this.serviceName = "";
+        this.elementId = "";
     }
 
     public GProBotInfo getBotInfo() {
@@ -74,9 +74,9 @@ public final class GProPlusPanelBotFeature {
         this.botInfo = new GProBotInfo();
         this.serviceInfo = new GProBotFeatureInfo();
         this.commandInfo = new GProBotFeatureInfo();
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.serviceName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.elementId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.icon = "";
+        this.serviceName = "";
+        this.elementId = "";
         this.botInfo = gProBotInfo;
         this.serviceInfo = gProBotFeatureInfo;
         this.commandInfo = gProBotFeatureInfo2;

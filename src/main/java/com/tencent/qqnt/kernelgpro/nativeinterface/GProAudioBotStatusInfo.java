@@ -20,8 +20,8 @@ public final class GProAudioBotStatusInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.statusText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.detailUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.statusText = "";
+            this.detailUrl = "";
         }
     }
 
@@ -79,8 +79,8 @@ public final class GProAudioBotStatusInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), str, str2, Integer.valueOf(i2), Long.valueOf(j4)});
             return;
         }
-        this.statusText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.detailUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.statusText = "";
+        this.detailUrl = "";
         this.channelId = j;
         this.botId = j2;
         this.botUin = j3;

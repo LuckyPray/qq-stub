@@ -5,7 +5,7 @@ public final class GroupBulletinPicInfo {
     public int height;
 
     /* renamed from: id */
-    public String f20id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String f20id = "";
     public int width;
 
     public int getHeight() {

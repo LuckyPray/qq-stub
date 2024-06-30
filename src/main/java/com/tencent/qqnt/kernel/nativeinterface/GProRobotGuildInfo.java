@@ -10,7 +10,7 @@ public final class GProRobotGuildInfo {
     public GProRobotGuildInfo() {
         this.guildName = new byte[0];
         this.joinGuildSig = new byte[0];
-        this.prefixText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.prefixText = "";
     }
 
     public long getGuildId() {
@@ -36,7 +36,7 @@ public final class GProRobotGuildInfo {
     public GProRobotGuildInfo(long j, byte[] bArr, byte[] bArr2, String str) {
         this.guildName = new byte[0];
         this.joinGuildSig = new byte[0];
-        this.prefixText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.prefixText = "";
         this.guildId = j;
         this.guildName = bArr;
         this.joinGuildSig = bArr2;

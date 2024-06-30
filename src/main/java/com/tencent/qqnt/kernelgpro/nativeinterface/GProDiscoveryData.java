@@ -18,7 +18,7 @@ public final class GProDiscoveryData implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.animationUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.animationUrl = "";
         }
     }
 
@@ -52,7 +52,7 @@ public final class GProDiscoveryData implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.animationUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.animationUrl = "";
         this.useModel = i;
         this.playAnimationFlag = i2;
         this.animationUrl = str;

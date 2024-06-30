@@ -18,13 +18,13 @@ public final class EmojiNotifyInfo {
     public int result;
 
     public EmojiNotifyInfo() {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.resId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.path = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
+        this.md5 = "";
+        this.resId = "";
+        this.path = "";
         this.extraData = new HashMap<>();
-        this.emojiId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.emojiPackageId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.emojiId = "";
+        this.emojiPackageId = "";
         this.downloadType = EmojiDownloadType.values()[0];
     }
 
@@ -77,13 +77,13 @@ public final class EmojiNotifyInfo {
     }
 
     public EmojiNotifyInfo(int i, String str, int i2, String str2, String str3, String str4, HashMap<String, String> hashMap, String str5, String str6, EmojiDownloadType emojiDownloadType, String str7) {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.resId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.path = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
+        this.md5 = "";
+        this.resId = "";
+        this.path = "";
         this.extraData = new HashMap<>();
-        this.emojiId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.emojiPackageId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.emojiId = "";
+        this.emojiPackageId = "";
         this.downloadType = EmojiDownloadType.values()[0];
         this.result = i;
         this.errMsg = str;

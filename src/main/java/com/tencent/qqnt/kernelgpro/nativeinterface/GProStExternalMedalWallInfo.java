@@ -18,7 +18,7 @@ public final class GProStExternalMedalWallInfo {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.medalInfos = new ArrayList<>();
-            this.medalWallJumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.medalWallJumpUrl = "";
         }
     }
 

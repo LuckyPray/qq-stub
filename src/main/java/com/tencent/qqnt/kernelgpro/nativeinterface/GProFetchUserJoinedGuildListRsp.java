@@ -16,7 +16,7 @@ public final class GProFetchUserJoinedGuildListRsp {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.joinedGuildSummary = new GProUserJoinedGuildSummary();
-            this.cookie = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.cookie = "";
         }
     }
 

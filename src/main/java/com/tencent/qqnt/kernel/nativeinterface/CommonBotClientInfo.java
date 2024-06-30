@@ -8,7 +8,7 @@ public final class CommonBotClientInfo {
     public String version;
 
     public CommonBotClientInfo() {
-        this.version = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.version = "";
     }
 
     public int getBuildNum() {
@@ -28,7 +28,7 @@ public final class CommonBotClientInfo {
     }
 
     public CommonBotClientInfo(int i, String str, int i2) {
-        this.version = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.version = "";
         this.platform = i;
         this.version = str;
         this.buildNum = i2;

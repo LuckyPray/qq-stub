@@ -21,7 +21,7 @@ public final class GProUserDevState implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.currentRoomId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.currentRoomId = "";
         }
     }
 
@@ -124,7 +124,7 @@ public final class GProUserDevState implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.currentRoomId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.currentRoomId = "";
         this.micState = i;
         this.cameraState = i2;
         this.screenState = i3;

@@ -22,7 +22,7 @@ public final class GProStGetFeedCommentsRsp {
         }
         this.extInfo = new GProStCommonExt();
         this.vecCommentList = new ArrayList<>();
-        this.attchInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.attchInfo = "";
     }
 
     public String getAttchInfo() {

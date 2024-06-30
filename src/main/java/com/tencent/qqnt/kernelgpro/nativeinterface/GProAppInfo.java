@@ -20,9 +20,9 @@ public final class GProAppInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.appName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.appDescription = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
+        this.appName = "";
+        this.appDescription = "";
         this.preViewList = new ArrayList<>();
     }
 

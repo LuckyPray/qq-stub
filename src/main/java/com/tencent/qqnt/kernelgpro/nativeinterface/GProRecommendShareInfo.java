@@ -29,12 +29,12 @@ public final class GProRecommendShareInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.shareLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.shareLink = "";
+        this.guildName = "";
+        this.guildIcon = "";
         this.shareLive = new GProRecommendShareLive();
-        this.guildCoverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildCoverUrl = "";
+        this.joinGuildSig = "";
         this.bizData = new GProBusinessData();
     }
 
@@ -118,12 +118,12 @@ public final class GProRecommendShareInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.shareLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.shareLink = "";
+        this.guildName = "";
+        this.guildIcon = "";
         this.shareLive = new GProRecommendShareLive();
-        this.guildCoverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildCoverUrl = "";
+        this.joinGuildSig = "";
         this.bizData = new GProBusinessData();
         this.shareLink = str;
         this.guildName = str2;

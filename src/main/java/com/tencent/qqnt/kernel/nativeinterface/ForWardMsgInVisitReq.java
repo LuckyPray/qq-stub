@@ -20,9 +20,9 @@ public final class ForWardMsgInVisitReq {
     public int subMsgType;
 
     public ForWardMsgInVisitReq() {
-        this.senderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderUid = "";
+        this.peerUid = "";
+        this.guildId = "";
         this.elems = new ArrayList<>();
     }
 
@@ -83,9 +83,9 @@ public final class ForWardMsgInVisitReq {
     }
 
     public ForWardMsgInVisitReq(int i, int i2, int i3, int i4, long j, long j2, long j3, long j4, int i5, String str, String str2, String str3, ArrayList<MsgElement> arrayList) {
-        this.senderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderUid = "";
+        this.peerUid = "";
+        this.guildId = "";
         this.elems = new ArrayList<>();
         this.chatType = i;
         this.msgType = i2;

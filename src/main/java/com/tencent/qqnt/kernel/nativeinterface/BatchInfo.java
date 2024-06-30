@@ -7,8 +7,8 @@ import java.util.ArrayList;
 public final class BatchInfo {
     public long batchId;
     public long uploadNumber;
-    public String desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String showTime = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String desc = "";
+    public String showTime = "";
     public StUser user = new StUser();
     public StLBS lbs = new StLBS();
     public ArrayList<StMedia> medias = new ArrayList<>();

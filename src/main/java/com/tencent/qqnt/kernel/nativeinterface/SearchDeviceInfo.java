@@ -3,7 +3,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchDeviceInfo.class */
 public final class SearchDeviceInfo {
-    public String guid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String guid = "";
     public boolean nightModeStatus;
     public int platform;
     public boolean studyModeStatus;

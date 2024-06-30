@@ -13,11 +13,11 @@ public final class PrivilegeInfo {
     public int type;
 
     public PrivilegeInfo() {
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.deluxeIconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.deluxeIconPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jumpUrl = "";
+        this.iconUrl = "";
+        this.iconPath = "";
+        this.deluxeIconUrl = "";
+        this.deluxeIconPath = "";
     }
 
     public String getDeluxeIconPath() {
@@ -61,11 +61,11 @@ public final class PrivilegeInfo {
     }
 
     public PrivilegeInfo(String str, String str2, String str3, String str4, String str5, int i, int i2, int i3, int i4) {
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.deluxeIconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.deluxeIconPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jumpUrl = "";
+        this.iconUrl = "";
+        this.iconPath = "";
+        this.deluxeIconUrl = "";
+        this.deluxeIconPath = "";
         this.jumpUrl = str;
         this.iconUrl = str2;
         this.iconPath = str3;

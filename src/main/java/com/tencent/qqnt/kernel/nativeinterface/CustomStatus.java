@@ -8,7 +8,7 @@ public final class CustomStatus {
     public String wording;
 
     public CustomStatus() {
-        this.wording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.wording = "";
     }
 
     public long getFaceId() {
@@ -28,7 +28,7 @@ public final class CustomStatus {
     }
 
     public CustomStatus(long j, long j2, String str) {
-        this.wording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.wording = "";
         this.faceId = j;
         this.faceType = j2;
         this.wording = str;

@@ -5,8 +5,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class JoinGroupNotifyMsg {
     public int result;
     public JoinGroupVerifyInfo verifyInfo = new JoinGroupVerifyInfo();
-    public String joinPrompt = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String securityTransUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String joinPrompt = "";
+    public String securityTransUrl = "";
 
     public String getJoinPrompt() {
         return this.joinPrompt;

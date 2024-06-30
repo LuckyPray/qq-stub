@@ -14,7 +14,7 @@ public final class GProStReportInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.idd = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.idd = "";
             this.busiReport = new byte[0];
         }
     }

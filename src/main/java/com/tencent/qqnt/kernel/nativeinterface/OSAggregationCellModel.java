@@ -9,8 +9,8 @@ public final class OSAggregationCellModel {
     public long uin;
 
     public OSAggregationCellModel() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.nick = "";
     }
 
     public String getNick() {
@@ -34,8 +34,8 @@ public final class OSAggregationCellModel {
     }
 
     public OSAggregationCellModel(long j, String str, String str2, long j2) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.nick = "";
         this.uin = j;
         this.uid = str;
         this.nick = str2;

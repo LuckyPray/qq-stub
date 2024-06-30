@@ -14,7 +14,7 @@ public final class GProFetchUserJoinedGuildListReq {
     public GProFetchUserJoinedGuildListReq() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.cookie = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.cookie = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

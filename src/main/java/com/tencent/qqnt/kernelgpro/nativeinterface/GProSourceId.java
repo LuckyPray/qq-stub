@@ -24,14 +24,14 @@ public final class GProSourceId {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.sceneId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.openid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.flag1 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sourceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subSourceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.pginSourceName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.visitForm = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sceneId = "";
+        this.openid = "";
+        this.flag1 = "";
+        this.sourceId = "";
+        this.subSourceId = "";
+        this.pginSourceName = "";
+        this.visitForm = "";
+        this.sessionId = "";
     }
 
     public int getEntranceId() {
@@ -202,14 +202,14 @@ public final class GProSourceId {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, str3, str4, str5, Integer.valueOf(i), str6, str7, str8, Integer.valueOf(i2)});
             return;
         }
-        this.sceneId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.openid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.flag1 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sourceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subSourceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.pginSourceName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.visitForm = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sceneId = "";
+        this.openid = "";
+        this.flag1 = "";
+        this.sourceId = "";
+        this.subSourceId = "";
+        this.pginSourceName = "";
+        this.visitForm = "";
+        this.sessionId = "";
         this.sourceApp = j;
         this.sceneId = str;
         this.openid = str2;

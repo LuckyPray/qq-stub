@@ -20,7 +20,7 @@ public final class GProVoiceInfo implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.screenPic = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.screenPic = "";
         }
     }
 
@@ -64,7 +64,7 @@ public final class GProVoiceInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.screenPic = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.screenPic = "";
         this.voiceState = i;
         this.screenState = i2;
         this.screenPic = str;

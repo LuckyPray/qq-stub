@@ -17,11 +17,11 @@ public final class StComment {
     public StUser user;
 
     public StComment() {
-        this.f45id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f45id = "";
         this.user = new StUser();
         this.content = new ArrayList<>();
         this.replys = new ArrayList<>();
-        this.clientKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.clientKey = "";
         this.mediaItems = new ArrayList<>();
     }
 
@@ -90,11 +90,11 @@ public final class StComment {
     }
 
     public StComment(String str, StUser stUser, ArrayList<StRichMsg> arrayList, long j, ArrayList<StReply> arrayList2, long j2, String str2, ArrayList<StMedia> arrayList3) {
-        this.f45id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f45id = "";
         this.user = new StUser();
         this.content = new ArrayList<>();
         this.replys = new ArrayList<>();
-        this.clientKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.clientKey = "";
         this.mediaItems = new ArrayList<>();
         this.f45id = str;
         this.user = stUser;

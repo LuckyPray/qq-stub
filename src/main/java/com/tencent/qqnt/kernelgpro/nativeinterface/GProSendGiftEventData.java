@@ -22,7 +22,7 @@ public final class GProSendGiftEventData implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.eventId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.eventId = "";
         this.senderMember = new GProUser();
         this.receiverMember = new GProUser();
         this.giftInfo = new GProGiftInfo();
@@ -73,7 +73,7 @@ public final class GProSendGiftEventData implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.eventId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.eventId = "";
         this.senderMember = new GProUser();
         this.receiverMember = new GProUser();
         this.giftInfo = new GProGiftInfo();

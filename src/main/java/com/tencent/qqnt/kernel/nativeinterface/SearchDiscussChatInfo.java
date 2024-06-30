@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchDiscussChatInfo.class */
 public final class SearchDiscussChatInfo {
     public long discussCode;
-    public String discussName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String discussName = "";
 
     public long getDiscussCode() {
         return this.discussCode;

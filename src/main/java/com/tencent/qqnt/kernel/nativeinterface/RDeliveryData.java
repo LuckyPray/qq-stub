@@ -9,8 +9,8 @@ public final class RDeliveryData {
     public int valueType;
 
     public RDeliveryData() {
-        this.key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.key = "";
+        this.value = "";
     }
 
     public String getKey() {
@@ -34,8 +34,8 @@ public final class RDeliveryData {
     }
 
     public RDeliveryData(String str, int i, String str2, int i2) {
-        this.key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.key = "";
+        this.value = "";
         this.key = str;
         this.valueType = i;
         this.value = str2;

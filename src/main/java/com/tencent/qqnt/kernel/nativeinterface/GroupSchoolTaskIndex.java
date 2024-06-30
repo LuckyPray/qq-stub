@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GroupSchoolTaskIndex.class */
 public final class GroupSchoolTaskIndex {
     public long groupCode;
-    public String taskId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String taskId = "";
 
     public long getGroupCode() {
         return this.groupCode;

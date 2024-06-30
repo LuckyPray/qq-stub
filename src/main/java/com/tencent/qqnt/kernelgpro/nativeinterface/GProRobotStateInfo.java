@@ -19,7 +19,7 @@ public final class GProRobotStateInfo implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.playText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.playText = "";
         }
     }
 

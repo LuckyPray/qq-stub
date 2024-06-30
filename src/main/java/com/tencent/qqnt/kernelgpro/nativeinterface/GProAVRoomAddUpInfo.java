@@ -15,7 +15,7 @@ public final class GProAVRoomAddUpInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.roomId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.roomId = "";
             this.avDevOpt = new GProAVDevOptInfo();
         }
     }
@@ -49,7 +49,7 @@ public final class GProAVRoomAddUpInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, gProAVDevOptInfo, Integer.valueOf(i)});
             return;
         }
-        this.roomId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.roomId = "";
         this.avDevOpt = new GProAVDevOptInfo();
         this.roomId = str;
         this.avDevOpt = gProAVDevOptInfo;

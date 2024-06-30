@@ -17,9 +17,9 @@ public final class RichDownLoadReq {
     public Integer useHttps;
 
     public RichDownLoadReq() {
-        this.senderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderUid = "";
+        this.peerUid = "";
+        this.guildId = "";
         this.elem = new MsgElement();
     }
 
@@ -76,9 +76,9 @@ public final class RichDownLoadReq {
     }
 
     public RichDownLoadReq(int i, int i2, long j, long j2, long j3, long j4, int i3, String str, String str2, String str3, MsgElement msgElement, Integer num) {
-        this.senderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderUid = "";
+        this.peerUid = "";
+        this.guildId = "";
         this.elem = new MsgElement();
         this.downloadType = i;
         this.thumbSize = i2;

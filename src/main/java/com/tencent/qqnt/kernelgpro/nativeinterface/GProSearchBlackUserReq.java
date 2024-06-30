@@ -22,8 +22,8 @@ public final class GProSearchBlackUserReq {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.keyword = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.keyword = "";
+        this.traceId = "";
         this.buf = new byte[0];
     }
 
@@ -167,8 +167,8 @@ public final class GProSearchBlackUserReq {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, Integer.valueOf(i), Long.valueOf(j2), str2, bArr, Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4)});
             return;
         }
-        this.keyword = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.keyword = "";
+        this.traceId = "";
         this.buf = new byte[0];
         this.guildId = j;
         this.keyword = str;

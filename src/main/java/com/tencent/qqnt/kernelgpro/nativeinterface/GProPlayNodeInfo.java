@@ -33,17 +33,17 @@ public final class GProPlayNodeInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.playSourceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thirdSourceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playSourceShowName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playSourceName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.singerList = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playSourcePic = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thirdSourceIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playNodeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.playSourceId = "";
+        this.thirdSourceId = "";
+        this.playSourceShowName = "";
+        this.playSourceName = "";
+        this.singerList = "";
+        this.playSourcePic = "";
+        this.thirdSourceIcon = "";
+        this.playNodeId = "";
         this.backgroundColorList = new ArrayList<>();
-        this.addUserName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.addUserAvatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.addUserName = "";
+        this.addUserAvatarMeta = "";
     }
 
     public int getAccessFlag() {
@@ -141,17 +141,17 @@ public final class GProPlayNodeInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.playSourceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thirdSourceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playSourceShowName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playSourceName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.singerList = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playSourcePic = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thirdSourceIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playNodeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.playSourceId = "";
+        this.thirdSourceId = "";
+        this.playSourceShowName = "";
+        this.playSourceName = "";
+        this.singerList = "";
+        this.playSourcePic = "";
+        this.thirdSourceIcon = "";
+        this.playNodeId = "";
         this.backgroundColorList = new ArrayList<>();
-        this.addUserName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.addUserAvatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.addUserName = "";
+        this.addUserAvatarMeta = "";
         this.playSourceId = str;
         this.thirdSourceId = str2;
         this.playSourceShowName = str3;

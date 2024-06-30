@@ -13,7 +13,7 @@ public final class BuddyListCategory {
     public int onlineCount;
 
     public BuddyListCategory() {
-        this.categroyName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categroyName = "";
         this.buddyUids = new ArrayList<>();
     }
 
@@ -46,7 +46,7 @@ public final class BuddyListCategory {
     }
 
     public BuddyListCategory(int i, int i2, String str, int i3, int i4, ArrayList<String> arrayList) {
-        this.categroyName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categroyName = "";
         this.buddyUids = new ArrayList<>();
         this.categoryId = i;
         this.categorySortId = i2;

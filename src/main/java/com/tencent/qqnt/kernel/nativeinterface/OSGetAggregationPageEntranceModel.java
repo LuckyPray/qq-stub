@@ -8,7 +8,7 @@ public final class OSGetAggregationPageEntranceModel {
     public String text;
 
     public OSGetAggregationPageEntranceModel() {
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.text = "";
         this.listCells = new ArrayList<>();
     }
 
@@ -25,7 +25,7 @@ public final class OSGetAggregationPageEntranceModel {
     }
 
     public OSGetAggregationPageEntranceModel(String str, ArrayList<OSAggregationCellModel> arrayList) {
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.text = "";
         this.listCells = new ArrayList<>();
         this.text = str;
         this.listCells = arrayList;

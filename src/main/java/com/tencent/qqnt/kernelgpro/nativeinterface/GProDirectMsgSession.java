@@ -24,9 +24,9 @@ public final class GProDirectMsgSession {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.srcGuildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.srcMemberName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.srcNickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.srcGuildName = "";
+        this.srcMemberName = "";
+        this.srcNickName = "";
     }
 
     public long getChannelId() {
@@ -98,9 +98,9 @@ public final class GProDirectMsgSession {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Long.valueOf(j4), Long.valueOf(j5), str, str2, str3});
             return;
         }
-        this.srcGuildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.srcMemberName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.srcNickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.srcGuildName = "";
+        this.srcMemberName = "";
+        this.srcNickName = "";
         this.guildId = j;
         this.channelId = j2;
         this.msgTime = j3;

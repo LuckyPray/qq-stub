@@ -7,9 +7,9 @@ public final class GproEmojiDownloadParams {
     public String url;
 
     public GproEmojiDownloadParams() {
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.resId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.resId = "";
+        this.md5 = "";
     }
 
     public String getMd5() {
@@ -29,9 +29,9 @@ public final class GproEmojiDownloadParams {
     }
 
     public GproEmojiDownloadParams(String str, String str2, String str3) {
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.resId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.resId = "";
+        this.md5 = "";
         this.url = str;
         this.resId = str2;
         this.md5 = str3;

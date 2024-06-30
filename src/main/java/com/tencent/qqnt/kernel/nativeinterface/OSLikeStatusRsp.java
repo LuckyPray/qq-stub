@@ -7,7 +7,7 @@ public final class OSLikeStatusRsp {
     public String errMsg;
 
     public OSLikeStatusRsp() {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
     }
 
     public int getErrCode() {
@@ -23,7 +23,7 @@ public final class OSLikeStatusRsp {
     }
 
     public OSLikeStatusRsp(int i, String str) {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
         this.errCode = i;
         this.errMsg = str;
     }

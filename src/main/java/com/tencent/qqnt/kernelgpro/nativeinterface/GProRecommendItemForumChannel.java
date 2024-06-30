@@ -22,9 +22,9 @@ public final class GProRecommendItemForumChannel {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.hotValueTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.hotIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.inviteCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.hotValueTitle = "";
+        this.hotIcon = "";
+        this.inviteCode = "";
     }
 
     public int getEndColor() {
@@ -86,9 +86,9 @@ public final class GProRecommendItemForumChannel {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), str, Integer.valueOf(i4), Integer.valueOf(i5), Integer.valueOf(i6), str2, str3});
             return;
         }
-        this.hotValueTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.hotIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.inviteCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.hotValueTitle = "";
+        this.hotIcon = "";
+        this.inviteCode = "";
         this.hotFeedNum = i;
         this.index = i2;
         this.hotValue = i3;

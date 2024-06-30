@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SubGroupSimpleInfo.class */
 public final class SubGroupSimpleInfo {
     public long groupCode;
-    public String groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String groupName = "";
     public long memberMaxNum;
     public long memberNum;
 

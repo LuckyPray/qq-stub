@@ -3,14 +3,14 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchGameButton.class */
 public final class SearchGameButton {
-    public String appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String channelId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String pkgName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String appSize = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String businessChannel = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String appId = "";
+    public String channelId = "";
+    public String pkgName = "";
+    public String name = "";
+    public String icon = "";
+    public String url = "";
+    public String appSize = "";
+    public String businessChannel = "";
     public SearchReportInfo reportInfo = new SearchReportInfo();
 
     public String getAppId() {

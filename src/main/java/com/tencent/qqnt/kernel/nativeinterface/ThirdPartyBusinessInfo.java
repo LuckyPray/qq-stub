@@ -8,7 +8,7 @@ public final class ThirdPartyBusinessInfo {
 
     public ThirdPartyBusinessInfo() {
         this.type = LiteBusinessType.values()[0];
-        this.info = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.info = "";
     }
 
     public String getInfo() {
@@ -29,7 +29,7 @@ public final class ThirdPartyBusinessInfo {
 
     public ThirdPartyBusinessInfo(LiteBusinessType liteBusinessType, String str, boolean z) {
         this.type = LiteBusinessType.values()[0];
-        this.info = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.info = "";
         this.type = liteBusinessType;
         this.info = str;
         this.isPersistence = z;

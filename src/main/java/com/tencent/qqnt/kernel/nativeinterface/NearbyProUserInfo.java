@@ -7,8 +7,8 @@ public final class NearbyProUserInfo {
     public long tinyId;
 
     public NearbyProUserInfo() {
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nick = "";
+        this.avatarUrl = "";
     }
 
     public String getAvatarUrl() {
@@ -28,8 +28,8 @@ public final class NearbyProUserInfo {
     }
 
     public NearbyProUserInfo(long j, String str, String str2) {
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nick = "";
+        this.avatarUrl = "";
         this.tinyId = j;
         this.nick = str;
         this.avatarUrl = str2;

@@ -7,8 +7,8 @@ public final class AvatarView {
     public String url;
 
     public AvatarView() {
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.md5 = "";
     }
 
     public String getMd5() {
@@ -24,8 +24,8 @@ public final class AvatarView {
     }
 
     public AvatarView(String str, String str2) {
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.md5 = "";
         this.url = str;
         this.md5 = str2;
     }

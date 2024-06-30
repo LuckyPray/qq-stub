@@ -18,7 +18,7 @@ public final class GProStCommonExt {
             return;
         }
         this.mapInfoList = new ArrayList<>();
-        this.attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.attachInfo = "";
         this.mapBytesInfoList = new ArrayList<>();
     }
 

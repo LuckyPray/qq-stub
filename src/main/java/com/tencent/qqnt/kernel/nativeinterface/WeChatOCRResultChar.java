@@ -7,7 +7,7 @@ public final class WeChatOCRResultChar {
     public String charText;
 
     public WeChatOCRResultChar() {
-        this.charText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.charText = "";
         this.charBox = new WeChatOcrBox();
     }
 
@@ -24,7 +24,7 @@ public final class WeChatOCRResultChar {
     }
 
     public WeChatOCRResultChar(String str, WeChatOcrBox weChatOcrBox) {
-        this.charText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.charText = "";
         this.charBox = new WeChatOcrBox();
         this.charText = str;
         this.charBox = weChatOcrBox;

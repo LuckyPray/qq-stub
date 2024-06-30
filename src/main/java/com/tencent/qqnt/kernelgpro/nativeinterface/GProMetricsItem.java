@@ -13,7 +13,7 @@ public final class GProMetricsItem {
     public GProMetricsItem() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.name = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

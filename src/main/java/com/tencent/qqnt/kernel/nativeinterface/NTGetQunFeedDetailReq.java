@@ -7,12 +7,12 @@ public final class NTGetQunFeedDetailReq {
     public int seq;
     public RequestTimelineInfo requestTimeLine = new RequestTimelineInfo();
     public StCommonExt extInfo = new StCommonExt();
-    public String qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String albumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String batchId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String lloc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String qunId = "";
+    public String feedId = "";
+    public String attachInfo = "";
+    public String albumId = "";
+    public String batchId = "";
+    public String lloc = "";
 
     public String getAlbumId() {
         return this.albumId;

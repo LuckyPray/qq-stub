@@ -12,7 +12,7 @@ public final class OSCheckLikeRsp {
 
     public OSCheckLikeRsp() {
         this.likeInfo = new ArrayList<>();
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
     }
 
     public int getBusinessType() {
@@ -37,7 +37,7 @@ public final class OSCheckLikeRsp {
 
     public OSCheckLikeRsp(int i, ArrayList<OSUinLikeInfo> arrayList, int i2, String str) {
         this.likeInfo = new ArrayList<>();
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
         this.businessType = i;
         this.likeInfo = arrayList;
         this.errCode = i2;

@@ -14,7 +14,7 @@ public final class GProChannelAdminInfo {
     public GProChannelAdminInfo() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.channelName = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

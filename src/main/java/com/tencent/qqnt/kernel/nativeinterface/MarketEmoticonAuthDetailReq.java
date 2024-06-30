@@ -8,7 +8,7 @@ public final class MarketEmoticonAuthDetailReq {
     public MarketEmoticonAuthDetailScene scene;
 
     public MarketEmoticonAuthDetailReq() {
-        this.eId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.eId = "";
         this.scene = MarketEmoticonAuthDetailScene.values()[0];
     }
 
@@ -29,7 +29,7 @@ public final class MarketEmoticonAuthDetailReq {
     }
 
     public MarketEmoticonAuthDetailReq(int i, String str, MarketEmoticonAuthDetailScene marketEmoticonAuthDetailScene) {
-        this.eId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.eId = "";
         this.scene = MarketEmoticonAuthDetailScene.values()[0];
         this.epId = i;
         this.eId = str;

@@ -19,15 +19,15 @@ public final class StUser {
     public YellowInfo yellowInfo;
 
     public StUser() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.nick = "";
         this.yellowInfo = new YellowInfo();
         this.starInfo = new StarInfo();
-        this.customId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.polyId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.portrait = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.dittoUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.customId = "";
+        this.polyId = "";
+        this.portrait = "";
+        this.uin = "";
+        this.dittoUin = "";
     }
 
     public int getCanFollow() {
@@ -143,15 +143,15 @@ public final class StUser {
     }
 
     public StUser(String str, String str2, YellowInfo yellowInfo, StarInfo starInfo, boolean z, boolean z2, boolean z3, String str3, String str4, String str5, int i, int i2, String str6, String str7) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.nick = "";
         this.yellowInfo = new YellowInfo();
         this.starInfo = new StarInfo();
-        this.customId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.polyId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.portrait = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.dittoUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.customId = "";
+        this.polyId = "";
+        this.portrait = "";
+        this.uin = "";
+        this.dittoUin = "";
         this.uid = str;
         this.nick = str2;
         this.yellowInfo = yellowInfo;

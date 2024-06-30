@@ -4,9 +4,9 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchGeoInfo.class */
 public final class SearchGeoInfo {
     public int cityId;
-    public String province = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String city = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String district = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String province = "";
+    public String city = "";
+    public String district = "";
 
     public String getCity() {
         return this.city;

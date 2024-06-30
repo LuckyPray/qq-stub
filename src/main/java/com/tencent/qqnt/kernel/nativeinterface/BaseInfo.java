@@ -21,10 +21,10 @@ public final class BaseInfo implements Serializable {
 
     public BaseInfo() {
         this.serialVersionUID = 1L;
-        this.qid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.longNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.eMail = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.phoneNum = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qid = "";
+        this.longNick = "";
+        this.eMail = "";
+        this.phoneNum = "";
         this.richBuffer = new byte[0];
     }
 
@@ -82,10 +82,10 @@ public final class BaseInfo implements Serializable {
 
     public BaseInfo(String str, String str2, int i, int i2, int i3, int i4, int i5, String str3, String str4, int i6, int i7, byte[] bArr) {
         this.serialVersionUID = 1L;
-        this.qid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.longNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.eMail = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.phoneNum = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qid = "";
+        this.longNick = "";
+        this.eMail = "";
+        this.phoneNum = "";
         this.richBuffer = new byte[0];
         this.qid = str;
         this.longNick = str2;

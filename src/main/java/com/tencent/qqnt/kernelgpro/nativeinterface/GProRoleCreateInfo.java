@@ -16,7 +16,7 @@ public final class GProRoleCreateInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.name = "";
             this.rolePermissions = new GProRolePermission();
         }
     }
@@ -55,7 +55,7 @@ public final class GProRoleCreateInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, Long.valueOf(j), Boolean.valueOf(z), gProRolePermission});
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.rolePermissions = new GProRolePermission();
         this.name = str;
         this.color = j;

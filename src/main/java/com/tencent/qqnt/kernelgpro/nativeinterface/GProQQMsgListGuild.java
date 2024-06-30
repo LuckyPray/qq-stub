@@ -14,7 +14,7 @@ public final class GProQQMsgListGuild {
     public GProQQMsgListGuild() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.guildName = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -54,7 +54,7 @@ public final class GProQQMsgListGuild {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, Long.valueOf(j3)});
             return;
         }
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
         this.guildId = j;
         this.topTimestamp = j2;
         this.guildName = str;

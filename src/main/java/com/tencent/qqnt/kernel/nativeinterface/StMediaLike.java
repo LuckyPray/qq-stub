@@ -8,7 +8,7 @@ public final class StMediaLike {
     public int num;
 
     public StMediaLike() {
-        this.key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.key = "";
     }
 
     public String getKey() {
@@ -24,7 +24,7 @@ public final class StMediaLike {
     }
 
     public StMediaLike(String str, int i, boolean z) {
-        this.key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.key = "";
         this.key = str;
         this.num = i;
         this.liked = z;

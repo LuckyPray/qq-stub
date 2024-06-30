@@ -20,7 +20,7 @@ public final class GProAVUserStateChangeInfo {
             return;
         }
         this.userCtlInfo = new GProUserCtlInfo();
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
         this.showInfo = new GProAVShowMsgInfo();
     }
 
@@ -69,7 +69,7 @@ public final class GProAVUserStateChangeInfo {
             return;
         }
         this.userCtlInfo = new GProUserCtlInfo();
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
         this.showInfo = new GProAVShowMsgInfo();
         this.guildId = j;
         this.channelId = j2;

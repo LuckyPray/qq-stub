@@ -13,7 +13,7 @@ public final class GProGetRiskMemberRedPointRsp {
     public GProGetRiskMemberRedPointRsp() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.tips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.tips = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -48,7 +48,7 @@ public final class GProGetRiskMemberRedPointRsp {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str});
             return;
         }
-        this.tips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tips = "";
         this.seqNo = j;
         this.duration = j2;
         this.tips = str;

@@ -3,7 +3,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/FetchShareInfoRsp.class */
 public final class FetchShareInfoRsp {
-    public String ark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String ark = "";
 
     public String getArk() {
         return this.ark;

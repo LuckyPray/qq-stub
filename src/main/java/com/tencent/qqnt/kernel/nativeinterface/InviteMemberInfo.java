@@ -4,8 +4,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/InviteMemberInfo.class */
 public final class InviteMemberInfo {
     public long groupCode;
-    public String uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String uid = "";
+    public String nick = "";
 
     public long getGroupCode() {
         return this.groupCode;

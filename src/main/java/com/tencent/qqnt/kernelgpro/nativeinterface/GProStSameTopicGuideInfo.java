@@ -19,10 +19,10 @@ public final class GProStSameTopicGuideInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.hashTag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.words = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.reportExt = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.hashTag = "";
+        this.words = "";
+        this.jumpUrl = "";
+        this.reportExt = "";
     }
 
     public String getHashTag() {

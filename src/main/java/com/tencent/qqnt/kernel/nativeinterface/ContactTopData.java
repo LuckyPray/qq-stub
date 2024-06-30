@@ -9,7 +9,7 @@ public final class ContactTopData {
     public long uin;
 
     public ContactTopData() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
     }
 
     public int getChatType() {
@@ -49,7 +49,7 @@ public final class ContactTopData {
     }
 
     public ContactTopData(int i, long j, String str, long j2) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
         this.chatType = i;
         this.uin = j;
         this.uid = str;

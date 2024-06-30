@@ -12,9 +12,9 @@ public final class SearchGroupInfoItem {
     public int memberCount;
     public boolean noCodeFingerOpenFlag;
     public ArrayList<SearchHitInfo> groupCodeHits = new ArrayList<>();
-    public String groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String groupName = "";
     public ArrayList<SearchHitInfo> groupNameHits = new ArrayList<>();
-    public String remarkName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String remarkName = "";
     public ArrayList<SearchHitInfo> remarkNameHits = new ArrayList<>();
 
     public long getGroupCode() {

@@ -19,10 +19,10 @@ public final class GProGuildRobotInfoRsp {
         this.robotData = new GProGuildRobotData();
         this.panelDataList = new ArrayList<>();
         this.commands = new ArrayList<>();
-        this.platformSupportUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.serviceNote = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.panelTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.previewImagesTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.platformSupportUrl = "";
+        this.serviceNote = "";
+        this.panelTitle = "";
+        this.previewImagesTitle = "";
     }
 
     public ArrayList<GProGuildRobotFeatureInfo> getCommands() {
@@ -73,10 +73,10 @@ public final class GProGuildRobotInfoRsp {
         this.robotData = new GProGuildRobotData();
         this.panelDataList = new ArrayList<>();
         this.commands = new ArrayList<>();
-        this.platformSupportUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.serviceNote = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.panelTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.previewImagesTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.platformSupportUrl = "";
+        this.serviceNote = "";
+        this.panelTitle = "";
+        this.previewImagesTitle = "";
         this.robotData = gProGuildRobotData;
         this.panelDataList = arrayList;
         this.role = i;

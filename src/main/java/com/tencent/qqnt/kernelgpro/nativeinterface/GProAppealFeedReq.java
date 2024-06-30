@@ -11,7 +11,7 @@ public final class GProAppealFeedReq {
     public GProAppealFeedReq() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.feedId = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

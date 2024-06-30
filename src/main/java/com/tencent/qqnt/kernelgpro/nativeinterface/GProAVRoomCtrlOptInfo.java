@@ -23,9 +23,9 @@ public final class GProAVRoomCtrlOptInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.roomId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.roomId = "";
         this.devOpt = new GProAVDevOptInfo();
-        this.privateMapKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.privateMapKey = "";
     }
 
     public GProAVDevOptInfo getDevOpt() {
@@ -78,9 +78,9 @@ public final class GProAVRoomCtrlOptInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.roomId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.roomId = "";
         this.devOpt = new GProAVDevOptInfo();
-        this.privateMapKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.privateMapKey = "";
         this.roomId = str;
         this.numRoomId = i;
         this.devOpt = gProAVDevOptInfo;

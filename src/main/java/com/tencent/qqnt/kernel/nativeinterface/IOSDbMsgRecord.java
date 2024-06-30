@@ -73,20 +73,20 @@ public final class IOSDbMsgRecord {
     public int xiaowoLabel;
 
     public IOSDbMsgRecord() {
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.actionUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.adid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.strShareExtra = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.secretContent = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.secretFromUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.secretToUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tlvTag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tlvValue = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.picUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.content = "";
+        this.actionUrl = "";
+        this.adid = "";
+        this.strShareExtra = "";
+        this.secretContent = "";
+        this.secretFromUin = "";
+        this.secretToUin = "";
+        this.tlvTag = "";
+        this.tlvValue = "";
+        this.picUrl = "";
         this.exData = new byte[0];
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uniqueIdentifier = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.extended = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nickName = "";
+        this.uniqueIdentifier = "";
+        this.extended = "";
     }
 
     public int getActionType() {
@@ -366,20 +366,20 @@ public final class IOSDbMsgRecord {
     }
 
     public IOSDbMsgRecord(int i, long j, long j2, int i2, int i3, int i4, int i5, String str, int i6, int i7, int i8, String str2, String str3, int i9, int i10, int i11, int i12, int i13, int i14, int i15, int i16, int i17, int i18, int i19, int i20, int i21, String str4, int i22, int i23, int i24, int i25, int i26, String str5, int i27, int i28, int i29, String str6, String str7, long j3, long j4, int i30, String str8, String str9, long j5, String str10, int i31, int i32, int i33, int i34, int i35, byte[] bArr, int i36, String str11, int i37, int i38, int i39, int i40, long j6, String str12, int i41, int i42, String str13, int i43, int i44, int i45, int i46, int i47, int i48) {
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.actionUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.adid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.strShareExtra = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.secretContent = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.secretFromUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.secretToUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tlvTag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tlvValue = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.picUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.content = "";
+        this.actionUrl = "";
+        this.adid = "";
+        this.strShareExtra = "";
+        this.secretContent = "";
+        this.secretFromUin = "";
+        this.secretToUin = "";
+        this.tlvTag = "";
+        this.tlvValue = "";
+        this.picUrl = "";
         this.exData = new byte[0];
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uniqueIdentifier = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.extended = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nickName = "";
+        this.uniqueIdentifier = "";
+        this.extended = "";
         this.chatType = i;
         this.msgId = j;
         this.uin = j2;

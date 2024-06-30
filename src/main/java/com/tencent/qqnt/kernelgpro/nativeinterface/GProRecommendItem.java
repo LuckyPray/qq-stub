@@ -43,7 +43,7 @@ public final class GProRecommendItem implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.itemId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.itemId = "";
         this.channelInfo = new GProRecommendChannelInfo();
         this.recommendLiveChannel = new GProRecommendLiveChannel();
         this.voiceChannel = new GProRecommendVoiceChannel();
@@ -213,7 +213,7 @@ public final class GProRecommendItem implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.itemId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.itemId = "";
         this.channelInfo = new GProRecommendChannelInfo();
         this.recommendLiveChannel = new GProRecommendLiveChannel();
         this.voiceChannel = new GProRecommendVoiceChannel();

@@ -14,7 +14,7 @@ public final class SearchVerticalDetail {
     public ArrayList<SearchLabel> bottomLabelList = new ArrayList<>();
     public ArrayList<SearchLabel> labelBarList = new ArrayList<>();
     public SearchButton button = new SearchButton();
-    public String stringExtension = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String stringExtension = "";
 
     public ArrayList<SearchLabel> getBottomLabelList() {
         return this.bottomLabelList;

@@ -18,9 +18,9 @@ public final class GProGetNextPageRepliesReq {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.commentId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
+        this.commentId = "";
+        this.attachInfo = "";
         this.channelSign = new GProStChannelSign();
     }
 

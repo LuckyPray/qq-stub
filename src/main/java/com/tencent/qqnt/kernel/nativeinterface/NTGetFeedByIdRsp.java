@@ -5,8 +5,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class NTGetFeedByIdRsp {
     public int result;
     public int seq;
-    public String errMs = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String traceid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String errMs = "";
+    public String traceid = "";
     public RequestTimelineInfo requestTimeLine = new RequestTimelineInfo();
     public StCommonExt ext = new StCommonExt();
     public ClientFeed feed = new ClientFeed();

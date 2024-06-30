@@ -14,8 +14,8 @@ public final class GProUserLiveRoomInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.title = "";
+            this.coverUrl = "";
         }
     }
 
@@ -43,8 +43,8 @@ public final class GProUserLiveRoomInfo {
             iPatchRedirector.redirect((short) 2, this, str, str2);
             return;
         }
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.coverUrl = "";
         this.title = str;
         this.coverUrl = str2;
     }

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SysEmojiGroup.class */
 public final class SysEmojiGroup {
-    public String groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String groupName = "";
     public ArrayList<SysEmoji> SysEmojiList = new ArrayList<>();
 
     public String getGroupName() {

@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchDistrict.class */
 public final class SearchDistrict {
     public int cityId;
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String name = "";
 
     public int getCityId() {
         return this.cityId;

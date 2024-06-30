@@ -18,7 +18,7 @@ public final class GProMemberInfo implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.avatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.avatarMeta = "";
         }
     }
 
@@ -52,7 +52,7 @@ public final class GProMemberInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.avatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.avatarMeta = "";
         this.tinyId = j;
         this.gender = i;
         this.avatarMeta = str;

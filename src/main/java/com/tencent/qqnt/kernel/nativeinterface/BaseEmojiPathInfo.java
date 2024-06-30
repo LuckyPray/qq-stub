@@ -2,11 +2,11 @@ package com.tencent.qqnt.kernel.nativeinterface;
 
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/BaseEmojiPathInfo.class */
 public final class BaseEmojiPathInfo {
-    public String emojiId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String emojiId = "";
     public BaseEmojiType type = BaseEmojiType.values()[0];
-    public String apngDirPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String pngDirPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String lottiDirPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String apngDirPath = "";
+    public String pngDirPath = "";
+    public String lottiDirPath = "";
 
     public String getApngDirPath() {
         return this.apngDirPath;

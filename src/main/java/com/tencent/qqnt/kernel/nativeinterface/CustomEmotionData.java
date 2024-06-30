@@ -24,19 +24,19 @@ public final class CustomEmotionData {
     public String url;
 
     public CustomEmotionData() {
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.emoPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.resId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.emoOriginalPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thumbPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.RomaingType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.eId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.epId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ocrWord = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.modifyWord = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uin = "";
+        this.emoPath = "";
+        this.resId = "";
+        this.url = "";
+        this.md5 = "";
+        this.emoOriginalPath = "";
+        this.thumbPath = "";
+        this.RomaingType = "";
+        this.eId = "";
+        this.epId = "";
+        this.ocrWord = "";
+        this.modifyWord = "";
+        this.desc = "";
     }
 
     public int getClickNum() {
@@ -120,19 +120,19 @@ public final class CustomEmotionData {
     }
 
     public CustomEmotionData(String str, int i, String str2, boolean z, String str3, String str4, String str5, String str6, String str7, String str8, boolean z2, boolean z3, String str9, String str10, String str11, String str12, int i2, int i3, String str13) {
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.emoPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.resId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.emoOriginalPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thumbPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.RomaingType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.eId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.epId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ocrWord = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.modifyWord = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uin = "";
+        this.emoPath = "";
+        this.resId = "";
+        this.url = "";
+        this.md5 = "";
+        this.emoOriginalPath = "";
+        this.thumbPath = "";
+        this.RomaingType = "";
+        this.eId = "";
+        this.epId = "";
+        this.ocrWord = "";
+        this.modifyWord = "";
+        this.desc = "";
         this.uin = str;
         this.emoId = i;
         this.emoPath = str2;

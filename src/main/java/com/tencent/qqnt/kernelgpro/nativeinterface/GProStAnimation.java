@@ -16,7 +16,7 @@ public final class GProStAnimation {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.animationUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.animationUrl = "";
             this.busiData = new byte[0];
         }
     }

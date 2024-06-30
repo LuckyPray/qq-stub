@@ -15,7 +15,7 @@ public final class GProGlobalBannerRep {
     public GProGlobalBannerRep() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.bannerId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.bannerId = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -105,7 +105,7 @@ public final class GProGlobalBannerRep {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Long.valueOf(j3), str});
             return;
         }
-        this.bannerId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.bannerId = "";
         this.guildId = j;
         this.channelId = j2;
         this.bannerType = i;

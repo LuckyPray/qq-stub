@@ -7,7 +7,7 @@ public final class StPicUrl {
     public int width;
 
     public StPicUrl() {
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
     }
 
     public int getHeight() {
@@ -35,7 +35,7 @@ public final class StPicUrl {
     }
 
     public StPicUrl(String str, int i, int i2) {
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
         this.url = str;
         this.width = i;
         this.height = i2;

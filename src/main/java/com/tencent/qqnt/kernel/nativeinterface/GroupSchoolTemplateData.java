@@ -5,10 +5,10 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class GroupSchoolTemplateData {
 
     /* renamed from: id */
-    public String f21id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String course = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String f21id = "";
+    public String title = "";
+    public String content = "";
+    public String course = "";
 
     public String getContent() {
         return this.content;

@@ -8,8 +8,8 @@ public final class DelBuddyResult {
     public String resultMsg;
 
     public DelBuddyResult() {
-        this.friendUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.resultMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.friendUid = "";
+        this.resultMsg = "";
     }
 
     public String getFriendUid() {
@@ -29,8 +29,8 @@ public final class DelBuddyResult {
     }
 
     public DelBuddyResult(String str, long j, String str2) {
-        this.friendUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.resultMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.friendUid = "";
+        this.resultMsg = "";
         this.friendUid = str;
         this.resultCode = j;
         this.resultMsg = str2;

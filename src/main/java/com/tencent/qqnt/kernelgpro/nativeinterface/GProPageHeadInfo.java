@@ -21,11 +21,11 @@ public final class GProPageHeadInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.headText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.dayBannerUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.headText = "";
+        this.dayBannerUrl = "";
         this.bannerInfos = new ArrayList<>();
-        this.nightBannerUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.valueAddedBannerUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nightBannerUrl = "";
+        this.valueAddedBannerUrl = "";
     }
 
     public ArrayList<GProBannerInfo> getBannerInfos() {
@@ -77,11 +77,11 @@ public final class GProPageHeadInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, Boolean.valueOf(z), str2, arrayList, Long.valueOf(j), str3, str4});
             return;
         }
-        this.headText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.dayBannerUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.headText = "";
+        this.dayBannerUrl = "";
         this.bannerInfos = new ArrayList<>();
-        this.nightBannerUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.valueAddedBannerUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nightBannerUrl = "";
+        this.valueAddedBannerUrl = "";
         this.headText = str;
         this.hasSearch = z;
         this.dayBannerUrl = str2;

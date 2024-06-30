@@ -18,7 +18,7 @@ public final class GProGuildMemberSearchParams {
     public GProGuildMemberSearchParams() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.keyword = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.keyword = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -150,7 +150,7 @@ public final class GProGuildMemberSearchParams {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Long.valueOf(j), str, Integer.valueOf(i2), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Long.valueOf(j5)});
             return;
         }
-        this.keyword = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.keyword = "";
         this.sourceId = i;
         this.guildId = j;
         this.keyword = str;

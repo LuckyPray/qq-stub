@@ -25,12 +25,12 @@ public final class GProContentRecommendGuild implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildAvatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildAvatar = "";
         this.tagList = new ArrayList<>();
         this.medals = new ArrayList<>();
-        this.guildProfile = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.cover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildProfile = "";
+        this.cover = "";
         this.joinSig = new byte[0];
     }
 

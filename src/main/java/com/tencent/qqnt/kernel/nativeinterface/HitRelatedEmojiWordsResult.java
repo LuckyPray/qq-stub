@@ -9,8 +9,8 @@ public final class HitRelatedEmojiWordsResult {
     public String word;
 
     public HitRelatedEmojiWordsResult() {
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.word = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
+        this.word = "";
     }
 
     public boolean getIsHit() {
@@ -34,8 +34,8 @@ public final class HitRelatedEmojiWordsResult {
     }
 
     public HitRelatedEmojiWordsResult(int i, String str, boolean z, String str2) {
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.word = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
+        this.word = "";
         this.result = i;
         this.msg = str;
         this.isHit = z;

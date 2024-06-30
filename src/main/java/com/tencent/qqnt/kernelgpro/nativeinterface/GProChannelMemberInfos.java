@@ -28,9 +28,9 @@ public final class GProChannelMemberInfos implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildId = "";
+        this.channelId = "";
+        this.channelName = "";
         this.memberList = new ArrayList<>();
         this.channelStateList = new ArrayList<>();
         this.channelConfig = new GProAVChannelConfig();

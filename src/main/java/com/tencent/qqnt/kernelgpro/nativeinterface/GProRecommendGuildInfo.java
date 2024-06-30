@@ -29,14 +29,14 @@ public final class GProRecommendGuildInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.face = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.cover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.introduction = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.faceAnimationOnUpdate = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.faceAnimationOnIdle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.face = "";
+        this.cover = "";
+        this.subTitle = "";
+        this.introduction = "";
+        this.guildCode = "";
+        this.faceAnimationOnUpdate = "";
+        this.faceAnimationOnIdle = "";
         this.playFaceAnimationPolicy = new GProPlayFaceAnimationPolicy();
         this.navigationInfoList = new ArrayList<>();
         this.textMedalInfoList = new ArrayList<>();
@@ -131,14 +131,14 @@ public final class GProRecommendGuildInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, str3, Long.valueOf(j2), str4, str5, str6, Long.valueOf(j3), str7, str8, gProPlayFaceAnimationPolicy, arrayList, Integer.valueOf(i), arrayList2});
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.face = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.cover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.introduction = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.faceAnimationOnUpdate = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.faceAnimationOnIdle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.face = "";
+        this.cover = "";
+        this.subTitle = "";
+        this.introduction = "";
+        this.guildCode = "";
+        this.faceAnimationOnUpdate = "";
+        this.faceAnimationOnIdle = "";
         this.playFaceAnimationPolicy = new GProPlayFaceAnimationPolicy();
         this.navigationInfoList = new ArrayList<>();
         this.textMedalInfoList = new ArrayList<>();

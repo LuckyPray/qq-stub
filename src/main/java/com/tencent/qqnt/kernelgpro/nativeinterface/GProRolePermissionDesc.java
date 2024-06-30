@@ -16,8 +16,8 @@ public final class GProRolePermissionDesc {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.title = "";
+            this.desc = "";
         }
     }
 

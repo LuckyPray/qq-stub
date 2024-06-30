@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchGroupContentRankType.class */
 public final class SearchGroupContentRankType {
     public int rankTypeId;
-    public String rankTypeText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String rankTypeText = "";
 
     public int getRankTypeId() {
         return this.rankTypeId;

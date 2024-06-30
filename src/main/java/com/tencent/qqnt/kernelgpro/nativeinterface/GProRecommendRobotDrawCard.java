@@ -22,10 +22,10 @@ public final class GProRecommendRobotDrawCard implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.robotInfo = new GProRecommendRobotInfo();
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.imgUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.userMsgId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.botMsgId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.imgUrl = "";
+        this.userMsgId = "";
+        this.botMsgId = "";
     }
 
     public String getBotMsgId() {
@@ -69,10 +69,10 @@ public final class GProRecommendRobotDrawCard implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.robotInfo = new GProRecommendRobotInfo();
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.imgUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.userMsgId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.botMsgId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.imgUrl = "";
+        this.userMsgId = "";
+        this.botMsgId = "";
         this.robotInfo = gProRecommendRobotInfo;
         this.title = str;
         this.imgUrl = str2;

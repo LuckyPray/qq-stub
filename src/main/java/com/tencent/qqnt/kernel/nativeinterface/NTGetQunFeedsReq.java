@@ -8,8 +8,8 @@ public final class NTGetQunFeedsReq {
     public int seq;
     public RequestTimelineInfo requestTimeLine = new RequestTimelineInfo();
     public StCommonExt extInfo = new StCommonExt();
-    public String qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String qunId = "";
+    public String attachInfo = "";
 
     public String getAttachInfo() {
         return this.attachInfo;

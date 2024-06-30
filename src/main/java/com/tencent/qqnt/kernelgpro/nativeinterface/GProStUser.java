@@ -44,25 +44,25 @@ public final class GProStUser {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.idd = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.idd = "";
+        this.nick = "";
         this.icon = new GProStIconInfo();
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.school = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.location = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.desc = "";
+        this.school = "";
+        this.location = "";
         this.busiData = new byte[0];
         this.medal = new GProStTagMedalInfo();
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.locationCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thirdId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.company = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.certificationDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jumpUrl = "";
+        this.locationCode = "";
+        this.thirdId = "";
+        this.company = "";
+        this.certificationDesc = "";
         this.channelUserInfo = new GProChannelUserInfo();
-        this.loginId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.loginId = "";
         this.manageTag = new GProCustomManageTag();
         this.personalMedal = new GProPersonalMedal();
         this.userTagList = new ArrayList<>();
-        this.avatarPendant = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.avatarPendant = "";
     }
 
     public String getAvatarPendant() {

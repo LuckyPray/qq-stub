@@ -10,7 +10,7 @@ public final class GroupNotifyTargetMsg {
 
     public GroupNotifyTargetMsg() {
         this.type = GroupNotifyMsgType.values()[0];
-        this.postscript = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.postscript = "";
     }
 
     public long getGroupCode() {
@@ -35,7 +35,7 @@ public final class GroupNotifyTargetMsg {
 
     public GroupNotifyTargetMsg(long j, GroupNotifyMsgType groupNotifyMsgType, long j2, String str) {
         this.type = GroupNotifyMsgType.values()[0];
-        this.postscript = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.postscript = "";
         this.seq = j;
         this.type = groupNotifyMsgType;
         this.groupCode = j2;

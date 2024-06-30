@@ -12,7 +12,7 @@ public final class SearchNineBoxGrid {
     public SearchText text = new SearchText();
     public ArrayList<SearchNineBoxContent> contentList = new ArrayList<>();
     public SearchIcon describe = new SearchIcon();
-    public String stringExtension = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String stringExtension = "";
     public SearchRichText richText = new SearchRichText();
     public SearchIcon bizIcon = new SearchIcon();
 

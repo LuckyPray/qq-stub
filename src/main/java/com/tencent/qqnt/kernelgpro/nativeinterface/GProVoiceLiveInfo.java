@@ -23,8 +23,8 @@ public final class GProVoiceLiveInfo {
             return;
         }
         this.channelName = new byte[0];
-        this.mainSource = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subSource = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.mainSource = "";
+        this.subSource = "";
         this.joinGuildSig = new byte[0];
         this.channelStatusList = new ArrayList<>();
     }

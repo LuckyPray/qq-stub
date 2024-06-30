@@ -15,10 +15,10 @@ public final class StReply {
     public StUser user;
 
     public StReply() {
-        this.f47id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f47id = "";
         this.user = new StUser();
         this.content = new ArrayList<>();
-        this.clientKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.clientKey = "";
         this.targetUser = new StUser();
     }
 
@@ -71,10 +71,10 @@ public final class StReply {
     }
 
     public StReply(String str, StUser stUser, ArrayList<StRichMsg> arrayList, long j, String str2, StUser stUser2) {
-        this.f47id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f47id = "";
         this.user = new StUser();
         this.content = new ArrayList<>();
-        this.clientKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.clientKey = "";
         this.targetUser = new StUser();
         this.f47id = str;
         this.user = stUser;

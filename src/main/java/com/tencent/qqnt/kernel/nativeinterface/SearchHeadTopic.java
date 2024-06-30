@@ -5,16 +5,16 @@ import java.util.ArrayList;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchHeadTopic.class */
 public final class SearchHeadTopic {
-    public String background = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String background = "";
     public SearchText title = new SearchText();
     public SearchText subTitle = new SearchText();
     public SearchButton button = new SearchButton();
     public SearchGameButton appInfo = new SearchGameButton();
     public ArrayList<String> avatarGroupList = new ArrayList<>();
-    public String avatarText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String avatarText = "";
     public ArrayList<SearchIcon> iconList = new ArrayList<>();
     public SearchText text = new SearchText();
-    public String stringExtension = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String stringExtension = "";
     public SearchReportInfo reportInfo = new SearchReportInfo();
     public SearchIcon topIcon = new SearchIcon();
 

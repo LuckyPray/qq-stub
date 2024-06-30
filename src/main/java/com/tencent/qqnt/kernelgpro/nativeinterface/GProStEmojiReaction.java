@@ -15,7 +15,7 @@ public final class GProStEmojiReaction {
     public GProStEmojiReaction() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.emojiId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.emojiId = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

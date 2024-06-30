@@ -18,7 +18,7 @@ public final class GProForumBody {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.forumChannel = new ArrayList<>();
-            this.requestId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.requestId = "";
         }
     }
 
@@ -57,7 +57,7 @@ public final class GProForumBody {
             return;
         }
         this.forumChannel = new ArrayList<>();
-        this.requestId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.requestId = "";
         this.forumChannel = arrayList;
         this.updateTime = j;
         this.everyHours = i;

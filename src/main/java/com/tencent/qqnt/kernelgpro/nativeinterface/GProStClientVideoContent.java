@@ -17,10 +17,10 @@ public final class GProStClientVideoContent {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.taskId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.videoId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.videoUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.taskId = "";
+        this.videoId = "";
+        this.videoUrl = "";
+        this.coverUrl = "";
     }
 
     public String getCoverUrl() {

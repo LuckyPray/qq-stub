@@ -8,7 +8,7 @@ public final class SearchMsgWithKeywordsParams {
     public int searchFields;
 
     public SearchMsgWithKeywordsParams() {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
     }
 
     public int getChatType() {
@@ -32,7 +32,7 @@ public final class SearchMsgWithKeywordsParams {
     }
 
     public SearchMsgWithKeywordsParams(int i, String str, int i2, int i3) {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
         this.chatType = i;
         this.peerUid = str;
         this.searchFields = i2;

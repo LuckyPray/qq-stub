@@ -2,8 +2,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/MarkdownParseRsp.class */
 public final class MarkdownParseRsp {
-    public String errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String parseResult = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String errMsg = "";
+    public String parseResult = "";
     public int result;
 
     public String getErrMsg() {

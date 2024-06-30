@@ -27,14 +27,14 @@ public final class AlbumInfo {
     public long uploadNumber;
 
     public AlbumInfo() {
-        this.albumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.owner = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.albumId = "";
+        this.owner = "";
+        this.name = "";
+        this.desc = "";
         this.cover = new StMedia();
         this.creator = new StUser();
         this.permission = new AlbumAccessPermission();
-        this.bitmap = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.bitmap = "";
         this.shareAlbum = new ShareAlbumMeta();
         this.familyAlbum = new FamilyAlbumMeta();
         this.loverAlbum = new LoverAlbumMeta();
@@ -217,14 +217,14 @@ public final class AlbumInfo {
     }
 
     public AlbumInfo(String str, String str2, String str3, String str4, long j, long j2, long j3, long j4, StMedia stMedia, StUser stUser, long j5, int i, int i2, AlbumAccessPermission albumAccessPermission, boolean z, boolean z2, String str5, boolean z3, ShareAlbumMeta shareAlbumMeta, int i3, FamilyAlbumMeta familyAlbumMeta, LoverAlbumMeta loverAlbumMeta) {
-        this.albumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.owner = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.albumId = "";
+        this.owner = "";
+        this.name = "";
+        this.desc = "";
         this.cover = new StMedia();
         this.creator = new StUser();
         this.permission = new AlbumAccessPermission();
-        this.bitmap = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.bitmap = "";
         this.shareAlbum = new ShareAlbumMeta();
         this.familyAlbum = new FamilyAlbumMeta();
         this.loverAlbum = new LoverAlbumMeta();

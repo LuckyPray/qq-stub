@@ -27,13 +27,13 @@ public final class GroupFileInfo {
     public long uploaderUin;
 
     public GroupFileInfo() {
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sha = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sha3 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uploaderName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.localPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileId = "";
+        this.fileName = "";
+        this.sha = "";
+        this.sha3 = "";
+        this.md5 = "";
+        this.uploaderName = "";
+        this.localPath = "";
     }
 
     public int getBusId() {
@@ -129,13 +129,13 @@ public final class GroupFileInfo {
     }
 
     public GroupFileInfo(long j, String str, String str2, long j2, int i, long j3, int i2, int i3, int i4, int i5, String str3, String str4, String str5, String str6, String str7, long j4, String str8, String str9, int i6, int i7, long j5, boolean z) {
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sha = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sha3 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uploaderName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.localPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileId = "";
+        this.fileName = "";
+        this.sha = "";
+        this.sha3 = "";
+        this.md5 = "";
+        this.uploaderName = "";
+        this.localPath = "";
         this.fileModelId = j;
         this.fileId = str;
         this.fileName = str2;

@@ -25,10 +25,10 @@ public final class GroupSimpleInfo implements IKernelModel {
     public long personShutupExpireTime;
     public int privilegeFlag;
     public long toppedTimestamp;
-    public String groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String groupName = "";
     public GroupStatus groupStatus = GroupStatus.values()[0];
     public MemberRole memberRole = MemberRole.values()[0];
-    public String remarkName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String remarkName = "";
     public MemberID groupOwnerId = new MemberID();
 
     public int getAuthGroupType() {

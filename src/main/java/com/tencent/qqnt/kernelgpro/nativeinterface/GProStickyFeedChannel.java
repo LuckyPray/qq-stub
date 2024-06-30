@@ -21,9 +21,9 @@ public final class GProStickyFeedChannel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.feedCount = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedCount = "";
         this.feedSummaryList = new ArrayList<>();
-        this.activeMemberCount = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.activeMemberCount = "";
         this.activeMemberList = new ArrayList<>();
     }
 

@@ -22,8 +22,8 @@ public final class JsonGrayElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.jsonStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.recentAbstract = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jsonStr = "";
+        this.recentAbstract = "";
     }
 
     public long getBusiId() {
@@ -66,8 +66,8 @@ public final class JsonGrayElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.jsonStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.recentAbstract = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jsonStr = "";
+        this.recentAbstract = "";
         this.busiId = j;
         this.jsonStr = str;
         this.recentAbstract = str2;

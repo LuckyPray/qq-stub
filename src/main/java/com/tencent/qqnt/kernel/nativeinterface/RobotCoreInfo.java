@@ -14,18 +14,18 @@ public final class RobotCoreInfo {
     public int serialNumber;
     public int testStatus;
     public long tinyId;
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String robotAvatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String name = "";
+    public String robotAvatar = "";
+    public String desc = "";
     public ArrayList<RobotCoreFeature> features = new ArrayList<>();
     public ArrayList<String> tags = new ArrayList<>();
-    public String uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String creatorName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String creatorUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String bgDay = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String bgNight = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String uid = "";
+    public String creatorName = "";
+    public String creatorUid = "";
+    public String bgDay = "";
+    public String bgNight = "";
     public RobotBaseBizType bizType = RobotBaseBizType.values()[0];
-    public String robotTag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String robotTag = "";
     public ProfileSimpleInfo baseSimpleProfile = new ProfileSimpleInfo();
 
     public boolean getAllowAddGroup() {

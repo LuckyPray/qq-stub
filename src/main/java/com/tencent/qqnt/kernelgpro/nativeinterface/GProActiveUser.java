@@ -23,10 +23,10 @@ public final class GProActiveUser {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.cityName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.openid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nickName = "";
+        this.avatarMeta = "";
+        this.cityName = "";
+        this.openid = "";
     }
 
     public long getAge() {
@@ -93,10 +93,10 @@ public final class GProActiveUser {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, Integer.valueOf(i), str2, Long.valueOf(j2), Long.valueOf(j3), str3, Long.valueOf(j4), Boolean.valueOf(z), str4});
             return;
         }
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.cityName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.openid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nickName = "";
+        this.avatarMeta = "";
+        this.cityName = "";
+        this.openid = "";
         this.tinyid = j;
         this.nickName = str;
         this.gender = i;

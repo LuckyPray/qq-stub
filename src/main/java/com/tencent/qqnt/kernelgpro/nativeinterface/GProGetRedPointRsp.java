@@ -22,9 +22,9 @@ public final class GProGetRedPointRsp {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.transBuffer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.avatar = "";
+        this.iconUrl = "";
+        this.transBuffer = "";
     }
 
     public String getAvatar() {
@@ -86,9 +86,9 @@ public final class GProGetRedPointRsp {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Boolean.valueOf(z), Integer.valueOf(i), Long.valueOf(j), Long.valueOf(j2), str, Boolean.valueOf(z2), Integer.valueOf(i2), str2, str3});
             return;
         }
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.transBuffer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.avatar = "";
+        this.iconUrl = "";
+        this.transBuffer = "";
         this.hasRedPoint = z;
         this.businessType = i;
         this.guildId = j;

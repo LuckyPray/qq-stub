@@ -18,7 +18,7 @@ public final class GProClientArchive {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.archiveName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.archiveName = "";
         this.template1 = new GProSmobaArchiveTemplate();
         this.template2 = new GProArchiveTemplate2();
     }

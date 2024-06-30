@@ -37,18 +37,18 @@ public final class GProStTagInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.tagId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tagName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tagDec = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tagId = "";
+        this.tagName = "";
+        this.tagDec = "";
         this.userListList = new ArrayList<>();
         this.feedListList = new ArrayList<>();
-        this.tagWording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tagWording = "";
         this.shareInfo = new GProStShare();
         this.medal = new GProStTagMedalInfo();
         this.optInfo = new GProStTagOperateInfo();
-        this.operateIconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tagReport = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tagIconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.operateIconUrl = "";
+        this.tagReport = "";
+        this.tagIconUrl = "";
     }
 
     public ArrayList<GProStFeedAbstract> getFeedListList() {

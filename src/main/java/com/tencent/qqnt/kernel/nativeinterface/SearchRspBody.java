@@ -6,12 +6,12 @@ public final class SearchRspBody {
     public int isEnd;
     public boolean isExactSearch;
     public int resultCode;
-    public String errorMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String errorMsg = "";
     public SearchTabContentResult tabContentResult = new SearchTabContentResult();
     public byte[] sessionInfo = new byte[0];
     public byte[] busiSessionInfo = new byte[0];
-    public String clientTraceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String correctionQuery = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String clientTraceId = "";
+    public String correctionQuery = "";
     public byte[] bytesExtension = new byte[0];
 
     public byte[] getBusiSessionInfo() {

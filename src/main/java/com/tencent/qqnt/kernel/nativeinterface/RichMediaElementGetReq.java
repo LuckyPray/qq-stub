@@ -15,8 +15,8 @@ public final class RichMediaElementGetReq implements IKernelModel {
     public int triggerType;
 
     public RichMediaElementGetReq() {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.filePath = "";
     }
 
     public int getChatType() {
@@ -104,8 +104,8 @@ public final class RichMediaElementGetReq implements IKernelModel {
     }
 
     public RichMediaElementGetReq(long j, String str, int i, long j2, int i2, int i3, String str2, long j3, int i4, int i5) {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.filePath = "";
         this.msgId = j;
         this.peerUid = str;
         this.chatType = i;

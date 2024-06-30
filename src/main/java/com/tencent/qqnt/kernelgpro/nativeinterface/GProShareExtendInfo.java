@@ -11,7 +11,7 @@ public final class GProShareExtendInfo {
     public GProShareExtendInfo() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.shareCopywriting = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.shareCopywriting = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -35,7 +35,7 @@ public final class GProShareExtendInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
             iPatchRedirector.redirect((short) 2, this, str);
         } else {
-            this.shareCopywriting = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.shareCopywriting = "";
             this.shareCopywriting = str;
         }
     }

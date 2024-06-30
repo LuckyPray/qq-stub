@@ -11,7 +11,7 @@ public final class GProStSingleMaterial {
     public GProStSingleMaterial() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.materialId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.materialId = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

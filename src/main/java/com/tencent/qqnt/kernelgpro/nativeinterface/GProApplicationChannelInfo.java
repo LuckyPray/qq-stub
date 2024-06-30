@@ -24,10 +24,10 @@ public final class GProApplicationChannelInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.strAppChannelId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.strJumpSecret = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.appChannelIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.appChannelJumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.strAppChannelId = "";
+        this.strJumpSecret = "";
+        this.appChannelIcon = "";
+        this.appChannelJumpUrl = "";
     }
 
     public String getAppChannelIcon() {

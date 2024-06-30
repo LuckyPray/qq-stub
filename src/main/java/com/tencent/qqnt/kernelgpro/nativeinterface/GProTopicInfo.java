@@ -17,9 +17,9 @@ public final class GProTopicInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.topicContent = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.schema = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.hotText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.topicContent = "";
+        this.schema = "";
+        this.hotText = "";
     }
 
     public String getHotText() {

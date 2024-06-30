@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class SearchPicture {
     public int height;
     public int width;
-    public String picLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String picLink = "";
     public SearchJump jumpLink = new SearchJump();
     public SearchReportInfo reportInfo = new SearchReportInfo();
 

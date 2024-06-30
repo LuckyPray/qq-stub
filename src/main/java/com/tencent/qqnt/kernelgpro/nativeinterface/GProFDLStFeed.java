@@ -11,7 +11,7 @@ public final class GProFDLStFeed {
     public GProFDLStFeed() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.feedId = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -44,7 +44,7 @@ public final class GProFDLStFeed {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
             iPatchRedirector.redirect((short) 2, this, str);
         } else {
-            this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.feedId = "";
             this.feedId = str;
         }
     }

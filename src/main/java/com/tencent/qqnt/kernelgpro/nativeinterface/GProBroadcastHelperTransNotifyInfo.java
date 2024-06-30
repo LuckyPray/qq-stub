@@ -19,8 +19,8 @@ public final class GProBroadcastHelperTransNotifyInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.fileErrMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.fileErrMsg = "";
+            this.filePath = "";
         }
     }
 
@@ -73,8 +73,8 @@ public final class GProBroadcastHelperTransNotifyInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), str, str2, Long.valueOf(j4), Integer.valueOf(i)});
             return;
         }
-        this.fileErrMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileErrMsg = "";
+        this.filePath = "";
         this.fileProgress = j;
         this.fileSpeed = j2;
         this.fileErrCode = j3;

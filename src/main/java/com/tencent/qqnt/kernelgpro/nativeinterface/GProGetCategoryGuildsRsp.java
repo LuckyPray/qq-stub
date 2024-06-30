@@ -22,9 +22,9 @@ public final class GProGetCategoryGuildsRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceId = "";
         this.items = new ArrayList<>();
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
         this.cookies = new byte[0];
     }
 
@@ -68,9 +68,9 @@ public final class GProGetCategoryGuildsRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceId = "";
         this.items = new ArrayList<>();
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
         this.cookies = new byte[0];
         this.traceId = str;
         this.items = arrayList;

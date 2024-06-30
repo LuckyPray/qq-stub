@@ -9,8 +9,8 @@ public final class RecentContactJumpInfo {
     public String peerUid;
 
     public RecentContactJumpInfo() {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.guildId = "";
     }
 
     public int getChatType() {
@@ -34,8 +34,8 @@ public final class RecentContactJumpInfo {
     }
 
     public RecentContactJumpInfo(String str, String str2, int i, int i2) {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.guildId = "";
         this.peerUid = str;
         this.guildId = str2;
         this.chatType = i;

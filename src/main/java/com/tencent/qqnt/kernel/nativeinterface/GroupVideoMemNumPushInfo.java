@@ -13,7 +13,7 @@ public final class GroupVideoMemNumPushInfo {
 
     public GroupVideoMemNumPushInfo() {
         this.memberUins = new ArrayList<>();
-        this.groupVideoRoomId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupVideoRoomId = "";
     }
 
     public int getActionType() {
@@ -46,7 +46,7 @@ public final class GroupVideoMemNumPushInfo {
 
     public GroupVideoMemNumPushInfo(long j, int i, int i2, int i3, ArrayList<Long> arrayList, String str) {
         this.memberUins = new ArrayList<>();
-        this.groupVideoRoomId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupVideoRoomId = "";
         this.groupCode = j;
         this.onlineCount = i;
         this.actionType = i2;

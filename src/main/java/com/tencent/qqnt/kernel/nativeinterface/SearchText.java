@@ -3,10 +3,10 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchText.class */
 public final class SearchText {
-    public String text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String text = "";
     public SearchJump jumpLink = new SearchJump();
     public SearchReportInfo reportInfo = new SearchReportInfo();
-    public String color = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String color = "";
 
     public String getColor() {
         return this.color;

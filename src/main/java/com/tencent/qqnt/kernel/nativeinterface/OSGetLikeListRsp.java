@@ -14,7 +14,7 @@ public final class OSGetLikeListRsp {
 
     public OSGetLikeListRsp() {
         this.notifyItems = new ArrayList<>();
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
     }
 
     public int getErrCode() {
@@ -47,7 +47,7 @@ public final class OSGetLikeListRsp {
 
     public OSGetLikeListRsp(int i, ArrayList<OSLikeNotifyItem> arrayList, int i2, int i3, int i4, String str) {
         this.notifyItems = new ArrayList<>();
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
         this.unreadNum = i;
         this.notifyItems = arrayList;
         this.interval = i2;

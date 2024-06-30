@@ -11,7 +11,7 @@ public final class SearchCacheInfo {
     public String f34id;
 
     public SearchCacheInfo() {
-        this.f34id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f34id = "";
         this.fields = new ArrayList<>();
     }
 
@@ -28,7 +28,7 @@ public final class SearchCacheInfo {
     }
 
     public SearchCacheInfo(String str, ArrayList<String> arrayList) {
-        this.f34id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f34id = "";
         this.fields = new ArrayList<>();
         this.f34id = str;
         this.fields = arrayList;

@@ -18,7 +18,7 @@ public final class GProGetTopicFeedsReq {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.attachInfo = new byte[0];
-            this.topFeedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.topFeedId = "";
         }
     }
 

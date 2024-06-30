@@ -3,7 +3,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GroupSchoolUncheckInStudent.class */
 public final class GroupSchoolUncheckInStudent {
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String name = "";
     public long remindTime;
     public long uin;
 

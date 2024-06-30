@@ -26,8 +26,8 @@ public final class GProGetSubjectGuildsReq implements Serializable {
         this.serialVersionUID = 1L;
         this.cookies = new byte[0];
         this.source = new GProBottomTabSourceInfo();
-        this.blockId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.blockName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.blockId = "";
+        this.blockName = "";
     }
 
     public String getBlockId() {
@@ -159,8 +159,8 @@ public final class GProGetSubjectGuildsReq implements Serializable {
         this.serialVersionUID = 1L;
         this.cookies = new byte[0];
         this.source = new GProBottomTabSourceInfo();
-        this.blockId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.blockName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.blockId = "";
+        this.blockName = "";
         this.businessType = i;
         this.cookies = bArr;
         this.source = gProBottomTabSourceInfo;

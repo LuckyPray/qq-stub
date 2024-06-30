@@ -10,7 +10,7 @@ public final class UserDetailInfo implements IKernelModel {
     public long uin;
 
     public UserDetailInfo() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
     }
 
     public BaseExtendedInfo getCommonExt() {
@@ -58,7 +58,7 @@ public final class UserDetailInfo implements IKernelModel {
     }
 
     public UserDetailInfo(String str, long j, boolean z, UserSimpleInfo userSimpleInfo, BaseExtendedInfo baseExtendedInfo) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
         this.uid = str;
         this.uin = j;
         this.isBuddy = z;

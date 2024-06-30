@@ -20,9 +20,9 @@ public final class GProRole implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.roleId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.roleName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.roleDescribe = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.roleId = "";
+        this.roleName = "";
+        this.roleDescribe = "";
     }
 
     public boolean getIsBind() {

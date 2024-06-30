@@ -23,9 +23,9 @@ public final class GProTopFeedMsg {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.labelText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.summaryText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
+        this.labelText = "";
+        this.summaryText = "";
         this.roleIds = new ArrayList<>();
     }
 

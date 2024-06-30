@@ -20,9 +20,9 @@ public final class GProUserAVRspInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.tipMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tipMsg = "";
         this.secResult = new GProSecurityResult();
-        this.trtcKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.trtcKey = "";
         this.devOpt = new GProAVDevOptInfo();
         this.roomDevOpts = new ArrayList<>();
     }
@@ -71,9 +71,9 @@ public final class GProUserAVRspInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, gProSecurityResult, str2, Integer.valueOf(i), gProAVDevOptInfo, arrayList});
             return;
         }
-        this.tipMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tipMsg = "";
         this.secResult = new GProSecurityResult();
-        this.trtcKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.trtcKey = "";
         this.devOpt = new GProAVDevOptInfo();
         this.roomDevOpts = new ArrayList<>();
         this.tipMsg = str;

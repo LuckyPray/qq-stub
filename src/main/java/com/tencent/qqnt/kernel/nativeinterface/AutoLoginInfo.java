@@ -10,8 +10,8 @@ public final class AutoLoginInfo {
 
     public AutoLoginInfo() {
         this.autoLoginSwitchState = AutoLoginSwitchState.values()[0];
-        this.tipsTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tipsContent = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tipsTitle = "";
+        this.tipsContent = "";
     }
 
     public AutoLoginSwitchState getAutoLoginSwitchState() {
@@ -36,8 +36,8 @@ public final class AutoLoginInfo {
 
     public AutoLoginInfo(boolean z, AutoLoginSwitchState autoLoginSwitchState, String str, String str2) {
         this.autoLoginSwitchState = AutoLoginSwitchState.values()[0];
-        this.tipsTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tipsContent = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tipsTitle = "";
+        this.tipsContent = "";
         this.isShowAutoLoginSwitch = z;
         this.autoLoginSwitchState = autoLoginSwitchState;
         this.tipsTitle = str;

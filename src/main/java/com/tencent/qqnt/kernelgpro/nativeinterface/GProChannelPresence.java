@@ -23,7 +23,7 @@ public final class GProChannelPresence implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.currentMemberNum = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.currentMemberNum = "";
         this.memberInfos = new ArrayList<>();
         this.guildLiveInfo = new GProGuildLiveInfo();
         this.voicePresence = new GProVoicePresence0x11bc();
@@ -74,7 +74,7 @@ public final class GProChannelPresence implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.currentMemberNum = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.currentMemberNum = "";
         this.memberInfos = new ArrayList<>();
         this.guildLiveInfo = new GProGuildLiveInfo();
         this.voicePresence = new GProVoicePresence0x11bc();

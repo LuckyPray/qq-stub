@@ -8,7 +8,7 @@ public final class OpentelemetryTrace {
     public String f30id;
 
     public OpentelemetryTrace() {
-        this.f30id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f30id = "";
     }
 
     public String getId() {
@@ -20,7 +20,7 @@ public final class OpentelemetryTrace {
     }
 
     public OpentelemetryTrace(String str) {
-        this.f30id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f30id = "";
         this.f30id = str;
     }
 }

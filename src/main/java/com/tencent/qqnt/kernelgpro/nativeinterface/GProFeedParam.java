@@ -15,8 +15,8 @@ public final class GProFeedParam {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.userId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.userId = "";
+            this.feedId = "";
         }
     }
 

@@ -17,10 +17,10 @@ public final class GProDailyRecommendPush {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.subTitle = "";
+        this.jumpLink = "";
+        this.avatar = "";
     }
 
     public String getAvatar() {
@@ -57,10 +57,10 @@ public final class GProDailyRecommendPush {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, str4});
             return;
         }
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.subTitle = "";
+        this.jumpLink = "";
+        this.avatar = "";
         this.title = str;
         this.subTitle = str2;
         this.jumpLink = str3;

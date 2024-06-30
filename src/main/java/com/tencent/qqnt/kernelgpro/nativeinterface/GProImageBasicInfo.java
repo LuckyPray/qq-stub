@@ -18,7 +18,7 @@ public final class GProImageBasicInfo implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.picUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.picUrl = "";
         }
     }
 

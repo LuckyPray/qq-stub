@@ -9,8 +9,8 @@ public final class NTQuoteToQunAlbumReq {
     public int from;
     public int seq;
     public RequestTimelineInfo requestTimeLine = new RequestTimelineInfo();
-    public String qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String albumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String qunId = "";
+    public String albumId = "";
     public ArrayList<QuoteToQunAlbumUnit> units = new ArrayList<>();
     public StFeed feed = new StFeed();
 

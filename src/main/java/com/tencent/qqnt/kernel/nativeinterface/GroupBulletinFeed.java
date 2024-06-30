@@ -19,7 +19,7 @@ public final class GroupBulletinFeed {
 
     /* renamed from: vn */
     public int f19vn;
-    public String feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String feedId = "";
     public GroupBulletinFeedMsg msg = new GroupBulletinFeedMsg();
     public GroupBulletinFeedSetting settings = new GroupBulletinFeedSetting();
 

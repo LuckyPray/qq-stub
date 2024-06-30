@@ -23,10 +23,10 @@ public final class GProBotFeatureInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.availableRangeDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.desc = "";
+        this.url = "";
+        this.availableRangeDesc = "";
     }
 
     public String getAvailableRangeDesc() {
@@ -83,10 +83,10 @@ public final class GProBotFeatureInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, str2, Integer.valueOf(i2), str3, Integer.valueOf(i3), str4, Long.valueOf(j)});
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.availableRangeDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.desc = "";
+        this.url = "";
+        this.availableRangeDesc = "";
         this.f56id = i;
         this.name = str;
         this.desc = str2;

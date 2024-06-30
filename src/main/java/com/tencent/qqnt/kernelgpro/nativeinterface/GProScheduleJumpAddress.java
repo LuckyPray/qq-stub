@@ -15,8 +15,8 @@ public final class GProScheduleJumpAddress {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.address = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.feedAbstract = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.address = "";
+            this.feedAbstract = "";
         }
     }
 

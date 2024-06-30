@@ -23,10 +23,10 @@ public final class GProBindingGroup {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.signature = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.onlineMemberSize = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupName = "";
+        this.signature = "";
+        this.onlineMemberSize = "";
+        this.groupUrl = "";
     }
 
     public long getGroupCode() {

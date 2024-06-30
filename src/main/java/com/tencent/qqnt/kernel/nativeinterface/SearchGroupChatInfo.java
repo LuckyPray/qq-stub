@@ -7,8 +7,8 @@ public final class SearchGroupChatInfo {
     public boolean hasModifyConfGroupFace;
     public boolean hasModifyConfGroupName;
     public boolean isConf;
-    public String groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String groupName = "";
+    public String remark = "";
 
     public long getGroupCode() {
         return this.groupCode;

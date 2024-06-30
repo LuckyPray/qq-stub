@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/MemberLevelName.class */
 public final class MemberLevelName {
     public int level;
-    public String strName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String strName = "";
 
     public int getLevel() {
         return this.level;

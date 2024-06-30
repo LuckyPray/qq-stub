@@ -15,7 +15,7 @@ public final class GroupMemberListChangeInfo {
     public String sceneId;
 
     public GroupMemberListChangeInfo() {
-        this.sceneId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sceneId = "";
         this.ids = new ArrayList<>();
         this.infos = new HashMap<>();
     }
@@ -53,7 +53,7 @@ public final class GroupMemberListChangeInfo {
     }
 
     public GroupMemberListChangeInfo(String str, long j, ArrayList<GroupMemberInfoListId> arrayList, HashMap<String, MemberInfo> hashMap, boolean z, boolean z2) {
-        this.sceneId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sceneId = "";
         this.ids = new ArrayList<>();
         this.infos = new HashMap<>();
         this.sceneId = str;

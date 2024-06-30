@@ -12,8 +12,8 @@ public final class DataMigrationResourceInfo {
     public int msgType;
 
     public DataMigrationResourceInfo() {
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.extraData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.filePath = "";
+        this.extraData = "";
     }
 
     public String getExtraData() {
@@ -49,8 +49,8 @@ public final class DataMigrationResourceInfo {
     }
 
     public DataMigrationResourceInfo(long j, long j2, int i, int i2, String str, long j3, String str2) {
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.extraData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.filePath = "";
+        this.extraData = "";
         this.msgSeq = j;
         this.msgRandom = j2;
         this.msgType = i;

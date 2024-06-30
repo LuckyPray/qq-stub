@@ -7,8 +7,8 @@ public final class VideoPlayUrlInfo {
     public String url;
 
     public VideoPlayUrlInfo() {
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.httpsDomain = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.httpsDomain = "";
     }
 
     public String getHttpsDomain() {
@@ -28,8 +28,8 @@ public final class VideoPlayUrlInfo {
     }
 
     public VideoPlayUrlInfo(String str, boolean z, String str2) {
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.httpsDomain = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.httpsDomain = "";
         this.url = str;
         this.isHttps = z;
         this.httpsDomain = str2;

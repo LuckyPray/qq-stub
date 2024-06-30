@@ -13,7 +13,7 @@ public final class GuildChatCacheInfo {
     public String guildName;
 
     public GuildChatCacheInfo() {
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
         this.categoryList = new ArrayList<>();
     }
 
@@ -46,7 +46,7 @@ public final class GuildChatCacheInfo {
     }
 
     public GuildChatCacheInfo(long j, long j2, long j3, long j4, String str, ArrayList<GuildCategoryChatInfo> arrayList) {
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
         this.categoryList = new ArrayList<>();
         this.cacheSize = j;
         this.chatTime = j2;

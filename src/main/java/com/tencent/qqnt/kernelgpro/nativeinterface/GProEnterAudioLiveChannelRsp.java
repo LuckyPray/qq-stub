@@ -34,14 +34,14 @@ public final class GProEnterAudioLiveChannelRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.authMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.trtcUserSign = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.privateMapKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.authMeta = "";
+        this.trtcUserSign = "";
+        this.privateMapKey = "";
         this.streamInfoList = new ArrayList<>();
-        this.showTips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.showTips = "";
         this.avChannelConfig = new GProAVChannelConfig();
         this.userBarNodePermission = new ArrayList<>();
-        this.roomSessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.roomSessionId = "";
         this.permissionInfo = new GProEnterAVChannelPermissionInfo();
         this.liveChannelPermission = new GProEnterChannelPermission();
     }
@@ -146,14 +146,14 @@ public final class GProEnterAudioLiveChannelRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.authMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.trtcUserSign = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.privateMapKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.authMeta = "";
+        this.trtcUserSign = "";
+        this.privateMapKey = "";
         this.streamInfoList = new ArrayList<>();
-        this.showTips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.showTips = "";
         this.avChannelConfig = new GProAVChannelConfig();
         this.userBarNodePermission = new ArrayList<>();
-        this.roomSessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.roomSessionId = "";
         this.permissionInfo = new GProEnterAVChannelPermissionInfo();
         this.liveChannelPermission = new GProEnterChannelPermission();
         this.authMeta = str;

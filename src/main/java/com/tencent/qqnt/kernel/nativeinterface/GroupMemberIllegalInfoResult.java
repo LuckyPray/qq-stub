@@ -5,10 +5,10 @@ import java.util.ArrayList;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GroupMemberIllegalInfoResult.class */
 public final class GroupMemberIllegalInfoResult {
-    public String subGroupTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String subGroupTitle = "";
     public ArrayList<Long> uinList = new ArrayList<>();
-    public String msgBoxTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String msgBoxContent = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String msgBoxTitle = "";
+    public String msgBoxContent = "";
 
     public String getMsgBoxContent() {
         return this.msgBoxContent;

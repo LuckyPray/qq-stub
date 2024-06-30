@@ -9,8 +9,8 @@ public final class GroupFileInfoResult {
     public String retMsg;
 
     public GroupFileInfoResult() {
-        this.retMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientWording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.retMsg = "";
+        this.clientWording = "";
         this.fileInfo = new GroupFileInfo();
     }
 
@@ -35,8 +35,8 @@ public final class GroupFileInfoResult {
     }
 
     public GroupFileInfoResult(int i, String str, String str2, GroupFileInfo groupFileInfo) {
-        this.retMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientWording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.retMsg = "";
+        this.clientWording = "";
         this.fileInfo = new GroupFileInfo();
         this.retCode = i;
         this.retMsg = str;

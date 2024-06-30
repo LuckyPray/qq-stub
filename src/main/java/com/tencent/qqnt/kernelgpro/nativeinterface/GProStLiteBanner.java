@@ -21,10 +21,10 @@ public final class GProStLiteBanner {
             return;
         }
         this.icon = new GProStImage();
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.activityID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jsonStyle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.jumpUrl = "";
+        this.activityID = "";
+        this.jsonStyle = "";
         this.extInfoList = new ArrayList<>();
     }
 

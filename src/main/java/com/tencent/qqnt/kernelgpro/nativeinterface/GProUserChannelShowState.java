@@ -18,8 +18,8 @@ public final class GProUserChannelShowState implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.stateIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.stateInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.stateIcon = "";
+        this.stateInfo = "";
     }
 
     public String getStateIcon() {

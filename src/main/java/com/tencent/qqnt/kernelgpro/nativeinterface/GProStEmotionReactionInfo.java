@@ -16,7 +16,7 @@ public final class GProStEmotionReactionInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.idd = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.idd = "";
             this.emojiReactionList = new ArrayList<>();
         }
     }

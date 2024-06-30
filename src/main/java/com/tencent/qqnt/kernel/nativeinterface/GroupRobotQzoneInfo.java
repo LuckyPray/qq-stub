@@ -6,8 +6,8 @@ import java.util.ArrayList;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GroupRobotQzoneInfo.class */
 public final class GroupRobotQzoneInfo {
     public boolean hasOpenQQZone;
-    public String updateTipsString = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String updateTipsString = "";
+    public String jumpUrl = "";
     public ArrayList<GroupRobotQzoneData> imageList = new ArrayList<>();
 
     public boolean getHasOpenQQZone() {

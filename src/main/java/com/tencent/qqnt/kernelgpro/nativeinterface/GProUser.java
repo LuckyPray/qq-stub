@@ -46,17 +46,17 @@ public final class GProUser implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.memberName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.memberName = "";
+        this.nickName = "";
         this.cookie = new byte[0];
         this.clientIdentity = new GProClientIdentity();
         this.clientPresence = new GProClientPresence();
-        this.robotTestGuilds = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.robotTestGuilds = "";
+        this.avatarMeta = "";
         this.voiceInfo = new GProVoiceInfo();
         this.businessInfo = new GProBusinessInfo();
         this.myRoles = new ArrayList<>();
-        this.avatarPendant = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.avatarPendant = "";
         this.personalMedal = new GProMedal();
         this.roleManagementTag = new GProRoleManagementTag();
     }
@@ -482,17 +482,17 @@ public final class GProUser implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.memberName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.memberName = "";
+        this.nickName = "";
         this.cookie = new byte[0];
         this.clientIdentity = new GProClientIdentity();
         this.clientPresence = new GProClientPresence();
-        this.robotTestGuilds = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.robotTestGuilds = "";
+        this.avatarMeta = "";
         this.voiceInfo = new GProVoiceInfo();
         this.businessInfo = new GProBusinessInfo();
         this.myRoles = new ArrayList<>();
-        this.avatarPendant = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.avatarPendant = "";
         this.personalMedal = new GProMedal();
         this.roleManagementTag = new GProRoleManagementTag();
         this.tinyId = j;

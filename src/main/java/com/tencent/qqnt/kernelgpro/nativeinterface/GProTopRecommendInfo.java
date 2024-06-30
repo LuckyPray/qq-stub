@@ -19,7 +19,7 @@ public final class GProTopRecommendInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.categoryName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categoryName = "";
         this.recommendedGuildList = new ArrayList<>();
     }
 
@@ -66,7 +66,7 @@ public final class GProTopRecommendInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.categoryName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categoryName = "";
         this.recommendedGuildList = new ArrayList<>();
         this.categoryName = str;
         this.recommendedGuildList = arrayList;

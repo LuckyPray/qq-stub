@@ -11,7 +11,7 @@ public final class GProNavigationItemExt {
     public GProNavigationItemExt() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.gameOnlineCnt = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.gameOnlineCnt = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -35,7 +35,7 @@ public final class GProNavigationItemExt {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
             iPatchRedirector.redirect((short) 2, this, str);
         } else {
-            this.gameOnlineCnt = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.gameOnlineCnt = "";
             this.gameOnlineCnt = str;
         }
     }

@@ -15,7 +15,7 @@ public final class GProStBusiReportInfo {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.recomReport = new GProStRecomReportInfo();
-            this.traceID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.traceID = "";
         }
     }
 

@@ -9,7 +9,7 @@ public final class SplitWords {
     public ArrayList<String> splitWord;
 
     public SplitWords() {
-        this.keyWords = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.keyWords = "";
         this.splitWord = new ArrayList<>();
     }
 
@@ -26,7 +26,7 @@ public final class SplitWords {
     }
 
     public SplitWords(String str, ArrayList<String> arrayList) {
-        this.keyWords = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.keyWords = "";
         this.splitWord = new ArrayList<>();
         this.keyWords = str;
         this.splitWord = arrayList;

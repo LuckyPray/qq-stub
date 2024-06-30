@@ -3,8 +3,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/DownloadBaseEmojiInfo.class */
 public final class DownloadBaseEmojiInfo {
-    public String baseResDownloadUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String advancedResDownloadUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String baseResDownloadUrl = "";
+    public String advancedResDownloadUrl = "";
 
     public String getAdvancedResDownloadUrl() {
         return this.advancedResDownloadUrl;

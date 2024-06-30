@@ -6,10 +6,10 @@ public final class NTGetMediaListReq {
     public long batchId;
     public int seq;
     public RequestTimelineInfo requestTimeLine = new RequestTimelineInfo();
-    public String qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String albumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String lloc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String qunId = "";
+    public String albumId = "";
+    public String lloc = "";
+    public String attachInfo = "";
 
     public String getAlbumId() {
         return this.albumId;

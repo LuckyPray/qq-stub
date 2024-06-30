@@ -19,8 +19,8 @@ public final class GProSecurityResult implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.strPrompt = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.strDetail = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.strPrompt = "";
+        this.strDetail = "";
     }
 
     public long getAction() {
@@ -53,8 +53,8 @@ public final class GProSecurityResult implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.strPrompt = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.strDetail = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.strPrompt = "";
+        this.strDetail = "";
         this.action = j;
         this.strPrompt = str;
         this.strDetail = str2;

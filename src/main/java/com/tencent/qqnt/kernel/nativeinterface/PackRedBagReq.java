@@ -13,8 +13,8 @@ public final class PackRedBagReq {
     public String wishing;
 
     public PackRedBagReq() {
-        this.wishing = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.wishing = "";
+        this.name = "";
     }
 
     public int getBusType() {
@@ -58,8 +58,8 @@ public final class PackRedBagReq {
     }
 
     public PackRedBagReq(long j, long j2, long j3, int i, String str, int i2, int i3, String str2, int i4) {
-        this.wishing = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.wishing = "";
+        this.name = "";
         this.totalNum = j;
         this.totalAmount = j2;
         this.recvUin = j3;

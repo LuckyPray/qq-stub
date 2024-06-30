@@ -14,8 +14,8 @@ public final class NTQueryQuoteToQunAlbumStatusReq {
 
     public NTQueryQuoteToQunAlbumStatusReq() {
         this.requestTimeLine = new RequestTimelineInfo();
-        this.qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.albumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qunId = "";
+        this.albumId = "";
         this.units = new ArrayList<>();
     }
 
@@ -45,8 +45,8 @@ public final class NTQueryQuoteToQunAlbumStatusReq {
 
     public NTQueryQuoteToQunAlbumStatusReq(int i, RequestTimelineInfo requestTimelineInfo, String str, String str2, long j, ArrayList<QuoteToQunAlbumUnit> arrayList) {
         this.requestTimeLine = new RequestTimelineInfo();
-        this.qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.albumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qunId = "";
+        this.albumId = "";
         this.units = new ArrayList<>();
         this.seq = i;
         this.requestTimeLine = requestTimelineInfo;

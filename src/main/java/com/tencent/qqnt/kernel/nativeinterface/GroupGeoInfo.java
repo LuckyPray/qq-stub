@@ -8,8 +8,8 @@ public final class GroupGeoInfo implements IKernelModel {
     public long Longitude;
     public int SetTime;
     public long poiId;
-    public String ownerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String GeoContent = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String ownerUid = "";
+    public String GeoContent = "";
 
     public int getCityId() {
         return this.CityId;

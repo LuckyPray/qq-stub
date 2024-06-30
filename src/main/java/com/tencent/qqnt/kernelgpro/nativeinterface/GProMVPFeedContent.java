@@ -27,8 +27,8 @@ public final class GProMVPFeedContent {
         this.richText = new GProMVPRichText();
         this.images = new ArrayList<>();
         this.videos = new ArrayList<>();
-        this.summary = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.defaultBackgroundImg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.summary = "";
+        this.defaultBackgroundImg = "";
         this.cover = new GProMVPImage();
         this.businessCard = new GProMVPBusinessCard();
     }

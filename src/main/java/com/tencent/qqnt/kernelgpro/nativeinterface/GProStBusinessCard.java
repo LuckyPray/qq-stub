@@ -14,7 +14,7 @@ public final class GProStBusinessCard {
     public GProStBusinessCard() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.jumpSchemaUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.jumpSchemaUrl = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

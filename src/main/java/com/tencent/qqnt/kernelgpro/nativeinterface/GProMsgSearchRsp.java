@@ -19,7 +19,7 @@ public final class GProMsgSearchRsp {
             return;
         }
         this.results = new ArrayList<>();
-        this.cookie = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cookie = "";
         this.docHit = new GProDocHit();
     }
 

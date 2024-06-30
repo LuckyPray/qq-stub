@@ -10,8 +10,8 @@ public final class MediaListInfo {
     public boolean prevHasMore;
 
     public MediaListInfo() {
-        this.prevAttachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nextAttachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.prevAttachInfo = "";
+        this.nextAttachInfo = "";
     }
 
     public int getMediasIndex() {
@@ -35,8 +35,8 @@ public final class MediaListInfo {
     }
 
     public MediaListInfo(String str, String str2, boolean z, boolean z2, int i) {
-        this.prevAttachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nextAttachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.prevAttachInfo = "";
+        this.nextAttachInfo = "";
         this.prevAttachInfo = str;
         this.nextAttachInfo = str2;
         this.prevHasMore = z;

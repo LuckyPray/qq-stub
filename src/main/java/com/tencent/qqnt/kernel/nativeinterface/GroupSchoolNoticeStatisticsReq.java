@@ -10,7 +10,7 @@ public final class GroupSchoolNoticeStatisticsReq {
     public int type;
 
     public GroupSchoolNoticeStatisticsReq() {
-        this.noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.noticeId = "";
     }
 
     public long getGroupCode() {
@@ -38,7 +38,7 @@ public final class GroupSchoolNoticeStatisticsReq {
     }
 
     public GroupSchoolNoticeStatisticsReq(String str, long j, int i, int i2, int i3) {
-        this.noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.noticeId = "";
         this.noticeId = str;
         this.groupCode = j;
         this.type = i;

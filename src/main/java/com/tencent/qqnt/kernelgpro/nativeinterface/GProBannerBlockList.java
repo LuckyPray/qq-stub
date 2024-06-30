@@ -19,7 +19,7 @@ public final class GProBannerBlockList implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.blockName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.blockName = "";
         this.list = new ArrayList<>();
     }
 
@@ -48,7 +48,7 @@ public final class GProBannerBlockList implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.blockName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.blockName = "";
         this.list = new ArrayList<>();
         this.blockName = str;
         this.list = arrayList;

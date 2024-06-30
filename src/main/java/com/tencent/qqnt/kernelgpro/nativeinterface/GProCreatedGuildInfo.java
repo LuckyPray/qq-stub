@@ -18,8 +18,8 @@ public final class GProCreatedGuildInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.faceUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.guildName = "";
+            this.faceUrl = "";
         }
     }
 

@@ -8,8 +8,8 @@ public final class GroupFileCommonResult {
     public String retMsg;
 
     public GroupFileCommonResult() {
-        this.retMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientWording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.retMsg = "";
+        this.clientWording = "";
     }
 
     public String getClientWording() {
@@ -29,8 +29,8 @@ public final class GroupFileCommonResult {
     }
 
     public GroupFileCommonResult(int i, String str, String str2) {
-        this.retMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientWording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.retMsg = "";
+        this.clientWording = "";
         this.retCode = i;
         this.retMsg = str;
         this.clientWording = str2;

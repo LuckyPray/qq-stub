@@ -15,8 +15,8 @@ public final class GProGuildNavIconInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.iconName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.iconUrl = "";
+            this.iconName = "";
         }
     }
 
@@ -49,8 +49,8 @@ public final class GProGuildNavIconInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2});
             return;
         }
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
+        this.iconName = "";
         this.iconId = j;
         this.iconUrl = str;
         this.iconName = str2;

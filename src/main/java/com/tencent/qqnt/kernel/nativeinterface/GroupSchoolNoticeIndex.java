@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GroupSchoolNoticeIndex.class */
 public final class GroupSchoolNoticeIndex {
     public long groupCode;
-    public String noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String noticeId = "";
 
     public long getGroupCode() {
         return this.groupCode;

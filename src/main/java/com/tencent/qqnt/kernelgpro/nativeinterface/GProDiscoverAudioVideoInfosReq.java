@@ -15,7 +15,7 @@ public final class GProDiscoverAudioVideoInfosReq {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.source = new GProBottomTabSourceInfo();
-            this.cookies = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.cookies = "";
         }
     }
 
@@ -44,7 +44,7 @@ public final class GProDiscoverAudioVideoInfosReq {
             return;
         }
         this.source = new GProBottomTabSourceInfo();
-        this.cookies = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cookies = "";
         this.source = gProBottomTabSourceInfo;
         this.cookies = str;
     }

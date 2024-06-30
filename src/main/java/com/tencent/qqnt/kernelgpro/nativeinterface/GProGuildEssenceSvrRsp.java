@@ -21,7 +21,7 @@ public final class GProGuildEssenceSvrRsp implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.unifiedEssenceInfo = new GProUnifiedEssenceInfo();
-        this.tips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tips = "";
     }
 
     public int getCanModify() {
@@ -60,7 +60,7 @@ public final class GProGuildEssenceSvrRsp implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.unifiedEssenceInfo = new GProUnifiedEssenceInfo();
-        this.tips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tips = "";
         this.unifiedEssenceInfo = gProUnifiedEssenceInfo;
         this.visitorEdit = i;
         this.canModify = i2;

@@ -19,7 +19,7 @@ public final class GProGetFeedsByIndexRsp {
             return;
         }
         this.indexItems = new ArrayList<>();
-        this.totalStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.totalStr = "";
         this.cookie = new byte[0];
     }
 

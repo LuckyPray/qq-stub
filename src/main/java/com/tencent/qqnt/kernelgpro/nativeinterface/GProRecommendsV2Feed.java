@@ -43,22 +43,22 @@ public final class GProRecommendsV2Feed implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedCoverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedSubTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.titleColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.cardBottomColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelInfoColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedVideoCoverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.cardUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.inviteCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.contentId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bannerUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
+        this.feedTitle = "";
+        this.feedCoverUrl = "";
+        this.feedSubTitle = "";
+        this.titleColor = "";
+        this.cardBottomColor = "";
+        this.channelInfoColor = "";
+        this.feedVideoCoverUrl = "";
+        this.cardUrl = "";
+        this.inviteCode = "";
+        this.contentId = "";
+        this.bannerUrl = "";
         this.attributeTags = new ArrayList<>();
-        this.buttonDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.buttonColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.buttonDescColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.buttonDesc = "";
+        this.buttonColor = "";
+        this.buttonDescColor = "";
     }
 
     public ArrayList<String> getAttributeTags() {

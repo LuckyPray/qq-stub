@@ -14,7 +14,7 @@ public final class GProItemCbData {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.statData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.statData = "";
             this.cbExtData = new byte[0];
         }
     }
@@ -61,7 +61,7 @@ public final class GProItemCbData {
             iPatchRedirector.redirect((short) 2, this, str, bArr);
             return;
         }
-        this.statData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.statData = "";
         this.cbExtData = new byte[0];
         this.statData = str;
         this.cbExtData = bArr;

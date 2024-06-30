@@ -27,13 +27,13 @@ public final class GProTopFeed {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.userId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
+        this.userId = "";
         this.feedAbstract = new GProTopFeedAbstract();
         this.channelSign = new GProStChannelSign();
         this.label = new GProTopFeedLabel();
         this.feed = new byte[0];
-        this.feedDetailTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedDetailTitle = "";
         this.roleIds = new ArrayList<>();
     }
 

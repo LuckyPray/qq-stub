@@ -21,9 +21,9 @@ public final class GProStRichTextURLContent {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.displayText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.displayText = "";
+        this.playUrl = "";
         this.thirdPlatform = new GProThirdPlatform();
         this.thirdVideoInfo = new GProCommThirdVideoInfo();
         this.weixinOffcialAccountsContent = new GProStRichTextWeixinOfficialAccountsContent();

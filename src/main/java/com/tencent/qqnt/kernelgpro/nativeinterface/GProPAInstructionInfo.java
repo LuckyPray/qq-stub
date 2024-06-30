@@ -26,12 +26,12 @@ public final class GProPAInstructionInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.data = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ruleName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ruleFamily = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.msg = "";
+        this.url = "";
+        this.data = "";
+        this.ruleName = "";
+        this.ruleFamily = "";
     }
 
     public String getData() {
@@ -99,12 +99,12 @@ public final class GProPAInstructionInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.data = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ruleName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ruleFamily = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.msg = "";
+        this.url = "";
+        this.data = "";
+        this.ruleName = "";
+        this.ruleFamily = "";
         this.type = i;
         this.title = str;
         this.msg = str2;

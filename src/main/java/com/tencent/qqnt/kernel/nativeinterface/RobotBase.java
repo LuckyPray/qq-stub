@@ -7,9 +7,9 @@ import java.io.Serializable;
 public final class RobotBase implements Serializable {
     public long robotUin;
     long serialVersionUID = 1;
-    public String robotName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String robotAvatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String robotDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String robotName = "";
+    public String robotAvatar = "";
+    public String robotDesc = "";
 
     public String getRobotAvatar() {
         return this.robotAvatar;

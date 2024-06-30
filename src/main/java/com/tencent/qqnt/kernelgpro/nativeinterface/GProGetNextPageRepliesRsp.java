@@ -18,7 +18,7 @@ public final class GProGetNextPageRepliesRsp {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.replies = new ArrayList<>();
-            this.attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.attachInfo = "";
         }
     }
 

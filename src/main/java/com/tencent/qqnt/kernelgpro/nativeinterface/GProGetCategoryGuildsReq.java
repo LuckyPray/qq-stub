@@ -23,7 +23,7 @@ public final class GProGetCategoryGuildsReq implements Serializable {
         this.serialVersionUID = 1L;
         this.cookies = new byte[0];
         this.source = new GProBottomTabSourceInfo();
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
     }
 
     public int getBusinessType() {
@@ -113,7 +113,7 @@ public final class GProGetCategoryGuildsReq implements Serializable {
         this.serialVersionUID = 1L;
         this.cookies = new byte[0];
         this.source = new GProBottomTabSourceInfo();
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.businessType = i;
         this.cookies = bArr;
         this.source = gProBottomTabSourceInfo;

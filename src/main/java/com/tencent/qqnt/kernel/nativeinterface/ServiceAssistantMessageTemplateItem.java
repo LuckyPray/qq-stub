@@ -7,8 +7,8 @@ public final class ServiceAssistantMessageTemplateItem {
     public String value;
 
     public ServiceAssistantMessageTemplateItem() {
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.value = "";
     }
 
     public String getTitle() {
@@ -24,8 +24,8 @@ public final class ServiceAssistantMessageTemplateItem {
     }
 
     public ServiceAssistantMessageTemplateItem(String str, String str2) {
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.value = "";
         this.title = str;
         this.value = str2;
     }

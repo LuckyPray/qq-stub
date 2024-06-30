@@ -31,19 +31,19 @@ public final class InitSessionConfig {
     public String userPath;
 
     public InitSessionConfig() {
-        this.selfUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sysPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.userPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientVer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.f24a2 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.f25d2 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.d2Key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.machineId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.selfUid = "";
+        this.sysPath = "";
+        this.userPath = "";
+        this.clientVer = "";
+        this.f24a2 = "";
+        this.f25d2 = "";
+        this.d2Key = "";
+        this.machineId = "";
         this.platform = PlatformType.values()[0];
         this.deviceType = DeviceType.values()[0];
-        this.platVer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.platVer = "";
         this.rdeliveryConfig = new RDeliveryConfig();
-        this.defaultFileDownloadPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.defaultFileDownloadPath = "";
     }
 
     public String getA2() {
@@ -139,19 +139,19 @@ public final class InitSessionConfig {
     }
 
     public InitSessionConfig(long j, String str, String str2, String str3, String str4, String str5, String str6, String str7, String str8, String str9, PlatformType platformType, DeviceType deviceType, String str10, RDeliveryConfig rDeliveryConfig, String str11, String str12, InitSessionDesktopPathConfig initSessionDesktopPathConfig, InitSessionMobilePathConfig initSessionMobilePathConfig, String str13, DeviceInfo deviceInfo, String str14, boolean z) {
-        this.selfUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sysPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.userPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientVer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.f24a2 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.f25d2 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.d2Key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.machineId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.selfUid = "";
+        this.sysPath = "";
+        this.userPath = "";
+        this.clientVer = "";
+        this.f24a2 = "";
+        this.f25d2 = "";
+        this.d2Key = "";
+        this.machineId = "";
         this.platform = PlatformType.values()[0];
         this.deviceType = DeviceType.values()[0];
-        this.platVer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.platVer = "";
         this.rdeliveryConfig = new RDeliveryConfig();
-        this.defaultFileDownloadPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.defaultFileDownloadPath = "";
         this.selfUin = j;
         this.selfUid = str;
         this.sysPath = str2;

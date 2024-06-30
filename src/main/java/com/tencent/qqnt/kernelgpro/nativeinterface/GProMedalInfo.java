@@ -20,8 +20,8 @@ public final class GProMedalInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
+        this.name = "";
         this.officialMedalInfoExt = new GProOfficialMedalInfoExt();
     }
 
@@ -60,8 +60,8 @@ public final class GProMedalInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
+        this.name = "";
         this.officialMedalInfoExt = new GProOfficialMedalInfoExt();
         this.iconUrl = str;
         this.name = str2;

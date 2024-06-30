@@ -18,8 +18,8 @@ public final class GProRecommendTag implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.icon = "";
     }
 
     public String getIcon() {
@@ -47,8 +47,8 @@ public final class GProRecommendTag implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.icon = "";
         this.name = str;
         this.icon = str2;
     }

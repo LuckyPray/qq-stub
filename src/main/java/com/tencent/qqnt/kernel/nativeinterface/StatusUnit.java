@@ -5,8 +5,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class StatusUnit {
     public boolean isNeedContinueQuery;
     public int status;
-    public String mediaId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String mediaId = "";
+    public String errMsg = "";
 
     public String getErrMsg() {
         return this.errMsg;

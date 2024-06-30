@@ -5,7 +5,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class GuildIdentity {
     public int identityType;
     public int type;
-    public String value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String value = "";
     public byte[] thirdPartyData = new byte[0];
     public byte[] thirdPartyDataJson = new byte[0];
 

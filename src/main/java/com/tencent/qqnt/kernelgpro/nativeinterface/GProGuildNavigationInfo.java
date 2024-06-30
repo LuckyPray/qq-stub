@@ -22,10 +22,10 @@ public final class GProGuildNavigationInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.iconSelectorColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconSelectorColor = "";
         this.navigationList = new ArrayList<>();
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconSelectorUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.iconSelectorUrl = "";
     }
 
     public int getAuditStatus() {
@@ -82,10 +82,10 @@ public final class GProGuildNavigationInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, arrayList, Integer.valueOf(i), Long.valueOf(j2), Integer.valueOf(i2), str2, str3});
             return;
         }
-        this.iconSelectorColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconSelectorColor = "";
         this.navigationList = new ArrayList<>();
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconSelectorUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.iconSelectorUrl = "";
         this.guildId = j;
         this.iconSelectorColor = str;
         this.navigationList = arrayList;

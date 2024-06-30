@@ -5,9 +5,9 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class RobotFeatureInfo {
     public int cid;
     public int status;
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String availableRangeDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String name = "";
+    public String desc = "";
+    public String availableRangeDesc = "";
 
     public String getAvailableRangeDesc() {
         return this.availableRangeDesc;

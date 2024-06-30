@@ -10,7 +10,7 @@ public final class MsgsRsp {
     public int result;
 
     public MsgsRsp() {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
         this.msgList = new ArrayList<>();
     }
 
@@ -31,7 +31,7 @@ public final class MsgsRsp {
     }
 
     public MsgsRsp(int i, String str, ArrayList<MsgRecord> arrayList) {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
         this.msgList = new ArrayList<>();
         this.result = i;
         this.errMsg = str;

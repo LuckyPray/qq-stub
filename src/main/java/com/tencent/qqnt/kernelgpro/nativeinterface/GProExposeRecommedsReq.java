@@ -18,9 +18,9 @@ public final class GProExposeRecommedsReq {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.user = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.stage = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.user = "";
+        this.traceId = "";
+        this.stage = "";
         this.exposeItems = new ArrayList<>();
     }
 
@@ -94,9 +94,9 @@ public final class GProExposeRecommedsReq {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, arrayList});
             return;
         }
-        this.user = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.stage = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.user = "";
+        this.traceId = "";
+        this.stage = "";
         this.exposeItems = new ArrayList<>();
         this.user = str;
         this.traceId = str2;

@@ -5,13 +5,13 @@ import java.util.ArrayList;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchGroupMemberProfileItem.class */
 public final class SearchGroupMemberProfileItem {
     public long uin;
-    public String uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String uid = "";
     public ArrayList<SearchHitInfo> uinHits = new ArrayList<>();
-    public String nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String nick = "";
     public ArrayList<SearchHitInfo> nickHits = new ArrayList<>();
-    public String remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String remark = "";
     public ArrayList<SearchHitInfo> remarkHits = new ArrayList<>();
-    public String cardName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String cardName = "";
     public ArrayList<SearchHitInfo> cardNameHits = new ArrayList<>();
 
     public String getCardName() {

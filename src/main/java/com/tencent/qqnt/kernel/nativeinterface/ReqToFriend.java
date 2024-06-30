@@ -16,8 +16,8 @@ public final class ReqToFriend {
     public String verifyInfo;
 
     public ReqToFriend() {
-        this.buddyUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.phoneNumber = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.buddyUid = "";
+        this.phoneNumber = "";
     }
 
     public int getAddFriendSetting() {
@@ -113,8 +113,8 @@ public final class ReqToFriend {
     }
 
     public ReqToFriend(long j, String str, String str2, int i, String str3, String str4, Integer num, String str5, Verify verify, int i2, int i3) {
-        this.buddyUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.phoneNumber = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.buddyUid = "";
+        this.phoneNumber = "";
         this.buddyUin = j;
         this.buddyUid = str;
         this.phoneNumber = str2;

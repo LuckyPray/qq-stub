@@ -18,9 +18,9 @@ public final class GProGetRtmpPushUrlRsp {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.rmtpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.serverPart = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.streamParam = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.rmtpUrl = "";
+        this.serverPart = "";
+        this.streamParam = "";
     }
 
     public int getExpireTs() {

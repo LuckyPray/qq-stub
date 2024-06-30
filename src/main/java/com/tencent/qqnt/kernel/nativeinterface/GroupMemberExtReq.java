@@ -7,14 +7,14 @@ import java.util.ArrayList;
 public final class GroupMemberExtReq {
     public long groupCode;
     public int sourceType;
-    public String beginUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String dataTime = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String beginUin = "";
+    public String dataTime = "";
     public ArrayList<Long> uinList = new ArrayList<>();
     public MemberExtInfoFilter memberExtFilter = new MemberExtInfoFilter();
-    public String seq = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String uinNum = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String groupType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String richCardNameVer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String seq = "";
+    public String uinNum = "";
+    public String groupType = "";
+    public String richCardNameVer = "";
 
     public String getBeginUin() {
         return this.beginUin;

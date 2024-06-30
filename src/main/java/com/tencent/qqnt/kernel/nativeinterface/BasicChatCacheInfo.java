@@ -11,9 +11,9 @@ public final class BasicChatCacheInfo {
     public long uin;
 
     public BasicChatCacheInfo() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.remarkName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.remarkName = "";
+        this.nickName = "";
     }
 
     public long getChatSize() {
@@ -45,9 +45,9 @@ public final class BasicChatCacheInfo {
     }
 
     public BasicChatCacheInfo(long j, long j2, String str, long j3, String str2, String str3) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.remarkName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.remarkName = "";
+        this.nickName = "";
         this.chatSize = j;
         this.chatTime = j2;
         this.uid = str;

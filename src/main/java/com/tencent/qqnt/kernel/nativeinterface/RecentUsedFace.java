@@ -8,7 +8,7 @@ public final class RecentUsedFace {
     public boolean isEmojiFace;
 
     public RecentUsedFace() {
-        this.emojiStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.emojiStr = "";
     }
 
     public String getEmojiStr() {
@@ -28,7 +28,7 @@ public final class RecentUsedFace {
     }
 
     public RecentUsedFace(boolean z, int i, String str) {
-        this.emojiStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.emojiStr = "";
         this.isEmojiFace = z;
         this.faceIndex = i;
         this.emojiStr = str;

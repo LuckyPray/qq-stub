@@ -12,7 +12,7 @@ public final class GProStFollowUser {
     public GProStFollowUser() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.nick = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

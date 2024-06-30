@@ -15,8 +15,8 @@ public final class GProChannelPresenceItemInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.text = "";
+            this.jumpUrl = "";
         }
     }
 

@@ -27,10 +27,10 @@ public final class GuildInteractiveNotificationItem {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.highLightStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
+        this.avatarMeta = "";
+        this.guildId = "";
+        this.highLightStr = "";
         this.atTypes = new ArrayList<>();
     }
 
@@ -108,10 +108,10 @@ public final class GuildInteractiveNotificationItem {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Integer.valueOf(i2), Long.valueOf(j), Long.valueOf(j2), str, Long.valueOf(j3), str2, str3, str4, Integer.valueOf(i3)});
             return;
         }
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.highLightStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
+        this.avatarMeta = "";
+        this.guildId = "";
+        this.highLightStr = "";
         this.atTypes = new ArrayList<>();
         this.type = i;
         this.count = i2;

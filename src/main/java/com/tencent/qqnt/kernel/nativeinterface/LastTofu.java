@@ -8,7 +8,7 @@ public final class LastTofu {
     public DeleteStatus deleteFlag;
 
     public LastTofu() {
-        this.busiUUID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.busiUUID = "";
     }
 
     public long getBusiID() {
@@ -28,7 +28,7 @@ public final class LastTofu {
     }
 
     public LastTofu(long j, String str, DeleteStatus deleteStatus) {
-        this.busiUUID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.busiUUID = "";
         this.busiID = j;
         this.busiUUID = str;
         this.deleteFlag = deleteStatus;

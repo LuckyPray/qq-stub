@@ -12,7 +12,7 @@ public final class GProSetSearchSwitchReq {
     public GProSetSearchSwitchReq() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.guildId = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

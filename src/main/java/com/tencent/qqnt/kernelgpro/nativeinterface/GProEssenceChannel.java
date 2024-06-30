@@ -18,7 +18,7 @@ public final class GProEssenceChannel implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.recommend = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.recommend = "";
         }
     }
 
@@ -79,7 +79,7 @@ public final class GProEssenceChannel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.recommend = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.recommend = "";
         this.channelId = j;
         this.channelType = i;
         this.recommend = str;

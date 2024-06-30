@@ -11,8 +11,8 @@ public final class UnitedConfigData {
     public String resourcePath;
 
     public UnitedConfigData() {
-        this.group = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.group = "";
+        this.content = "";
     }
 
     public int getCode() {
@@ -44,8 +44,8 @@ public final class UnitedConfigData {
     }
 
     public UnitedConfigData(String str, String str2, boolean z, int i, Boolean bool, String str3) {
-        this.group = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.group = "";
+        this.content = "";
         this.group = str;
         this.content = str2;
         this.isSwitchOn = z;

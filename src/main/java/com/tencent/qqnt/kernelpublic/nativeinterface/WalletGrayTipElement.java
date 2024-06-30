@@ -45,7 +45,7 @@ public final class WalletGrayTipElement implements Serializable {
         this.broadcastRichContent = new byte[0];
         this.idiom = new byte[0];
         this.idiomAlpha = new byte[0];
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jumpUrl = "";
         this.poemRule = new byte[0];
     }
 
@@ -176,7 +176,7 @@ public final class WalletGrayTipElement implements Serializable {
         this.broadcastRichContent = new byte[0];
         this.idiom = new byte[0];
         this.idiomAlpha = new byte[0];
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jumpUrl = "";
         this.poemRule = new byte[0];
         this.showLastest = i;
         this.senderUin = j;

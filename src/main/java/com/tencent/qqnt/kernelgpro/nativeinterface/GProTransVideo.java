@@ -19,7 +19,7 @@ public final class GProTransVideo implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.playUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.playUrl = "";
         }
     }
 
@@ -58,7 +58,7 @@ public final class GProTransVideo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.playUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.playUrl = "";
         this.specification = i;
         this.playUrl = str;
         this.prior = i2;

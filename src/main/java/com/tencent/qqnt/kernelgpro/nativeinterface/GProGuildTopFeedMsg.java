@@ -19,7 +19,7 @@ public final class GProGuildTopFeedMsg {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.topFeedMsg = new GProTopFeedMsg();
-            this.recallFeedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.recallFeedId = "";
         }
     }
 

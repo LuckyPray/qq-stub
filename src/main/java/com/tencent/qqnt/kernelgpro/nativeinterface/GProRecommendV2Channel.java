@@ -31,13 +31,13 @@ public final class GProRecommendV2Channel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildProfile = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildProfile = "";
+        this.guildIcon = "";
         this.stateList = new ArrayList<>();
         this.tagList = new ArrayList<>();
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.coverUrl = "";
+        this.joinGuildSig = "";
         this.labelList = new ArrayList<>();
     }
 
@@ -126,13 +126,13 @@ public final class GProRecommendV2Channel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildProfile = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildProfile = "";
+        this.guildIcon = "";
         this.stateList = new ArrayList<>();
         this.tagList = new ArrayList<>();
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.coverUrl = "";
+        this.joinGuildSig = "";
         this.labelList = new ArrayList<>();
         this.guildId = j;
         this.guildName = str;

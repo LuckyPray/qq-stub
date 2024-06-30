@@ -12,10 +12,10 @@ public final class TianShuReportData {
     public String mSubItemId;
 
     public TianShuReportData() {
-        this.mAppId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.mPageId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.mItemId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.mSubItemId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.mAppId = "";
+        this.mPageId = "";
+        this.mItemId = "";
+        this.mSubItemId = "";
     }
 
     public int getMActionAttr() {
@@ -51,10 +51,10 @@ public final class TianShuReportData {
     }
 
     public TianShuReportData(String str, String str2, String str3, String str4, int i, int i2, int i3) {
-        this.mAppId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.mPageId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.mItemId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.mSubItemId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.mAppId = "";
+        this.mPageId = "";
+        this.mItemId = "";
+        this.mSubItemId = "";
         this.mAppId = str;
         this.mPageId = str2;
         this.mItemId = str3;

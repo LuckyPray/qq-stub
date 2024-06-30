@@ -19,7 +19,7 @@ public final class LocalGrayTipDirect implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.robotName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.robotName = "";
         }
     }
 
@@ -53,7 +53,7 @@ public final class LocalGrayTipDirect implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.robotName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.robotName = "";
         this.robotTid = j;
         this.robotUin = j2;
         this.robotName = str;

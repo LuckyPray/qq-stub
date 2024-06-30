@@ -2,7 +2,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GetBaseEmojiPathReq.class */
 public final class GetBaseEmojiPathReq {
-    public String emojiId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String emojiId = "";
     public BaseEmojiType type = BaseEmojiType.values()[0];
 
     public String getEmojiId() {

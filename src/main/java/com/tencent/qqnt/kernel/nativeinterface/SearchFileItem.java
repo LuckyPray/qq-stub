@@ -17,12 +17,12 @@ public final class SearchFileItem {
     public ArrayList<SearchGroupChatInfo> groupChatInfo = new ArrayList<>();
     public ArrayList<SearchDataLineChatInfo> dataLineChatInfo = new ArrayList<>();
     public ArrayList<TempChatGameSession> tmpChatInfo = new ArrayList<>();
-    public String senderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String senderNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String senderRemark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String senderCard = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String senderUid = "";
+    public String senderNick = "";
+    public String senderRemark = "";
+    public String senderCard = "";
+    public String filePath = "";
+    public String fileName = "";
     public ArrayList<SearchHitInfo> hits = new ArrayList<>();
 
     public ArrayList<SearchBuddyChatInfo> getBuddyChatInfo() {

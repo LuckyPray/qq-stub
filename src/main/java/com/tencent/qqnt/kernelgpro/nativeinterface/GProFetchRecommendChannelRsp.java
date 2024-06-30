@@ -20,11 +20,11 @@ public final class GProFetchRecommendChannelRsp {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildProfile = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildCoverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildProfile = "";
+        this.guildIcon = "";
+        this.guildCoverUrl = "";
+        this.channelName = "";
     }
 
     public long getChannelId() {
@@ -76,11 +76,11 @@ public final class GProFetchRecommendChannelRsp {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, str3, str4, Long.valueOf(j2), str5});
             return;
         }
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildProfile = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildCoverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildProfile = "";
+        this.guildIcon = "";
+        this.guildCoverUrl = "";
+        this.channelName = "";
         this.guildId = j;
         this.guildName = str;
         this.guildProfile = str2;

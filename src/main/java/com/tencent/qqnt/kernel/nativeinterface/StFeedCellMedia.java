@@ -9,8 +9,8 @@ public final class StFeedCellMedia {
     public long batchId;
     public int uploadNum;
     public ArrayList<StMedia> mediaItems = new ArrayList<>();
-    public String albumName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String albumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String albumName = "";
+    public String albumId = "";
     public StImage albumCover = new StImage();
 
     public StImage getAlbumCover() {

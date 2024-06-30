@@ -25,7 +25,7 @@ public final class GProGetContentRecommendRsp implements Serializable {
         this.recommendList = new ArrayList<>();
         this.extInfo = new GProMVPExtInfo();
         this.cookies = new byte[0];
-        this.sessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sessionId = "";
         this.navigation = new GProNavigationList();
     }
 
@@ -72,7 +72,7 @@ public final class GProGetContentRecommendRsp implements Serializable {
         this.recommendList = new ArrayList<>();
         this.extInfo = new GProMVPExtInfo();
         this.cookies = new byte[0];
-        this.sessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sessionId = "";
         this.navigation = new GProNavigationList();
         this.recommendList = arrayList;
         this.extInfo = gProMVPExtInfo;

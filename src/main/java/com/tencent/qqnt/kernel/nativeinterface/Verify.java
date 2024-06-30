@@ -9,9 +9,9 @@ public final class Verify implements IKernelModel {
     public int type;
 
     public Verify() {
-        this.ticket = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.randStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.token = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.ticket = "";
+        this.randStr = "";
+        this.token = "";
     }
 
     public String getRandStr() {
@@ -51,9 +51,9 @@ public final class Verify implements IKernelModel {
     }
 
     public Verify(int i, String str, String str2, String str3) {
-        this.ticket = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.randStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.token = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.ticket = "";
+        this.randStr = "";
+        this.token = "";
         this.type = i;
         this.ticket = str;
         this.randStr = str2;

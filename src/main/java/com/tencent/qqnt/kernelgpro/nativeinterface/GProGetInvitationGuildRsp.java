@@ -20,7 +20,7 @@ public final class GProGetInvitationGuildRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceId = "";
         this.cookies = new byte[0];
         this.item = new GProRecommendItem();
     }
@@ -60,7 +60,7 @@ public final class GProGetInvitationGuildRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceId = "";
         this.cookies = new byte[0];
         this.item = new GProRecommendItem();
         this.traceId = str;

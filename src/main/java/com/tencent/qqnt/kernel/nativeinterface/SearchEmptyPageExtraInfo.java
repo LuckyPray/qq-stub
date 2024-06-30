@@ -2,10 +2,10 @@ package com.tencent.qqnt.kernel.nativeinterface;
 
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchEmptyPageExtraInfo.class */
 public final class SearchEmptyPageExtraInfo {
-    public String text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String text = "";
+    public String jumpUrl = "";
     public SearchEmptyPageRichText richText = new SearchEmptyPageRichText();
-    public String title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String title = "";
 
     public String getJumpUrl() {
         return this.jumpUrl;

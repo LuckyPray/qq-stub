@@ -64,16 +64,16 @@ public final class RecentContactInfo implements IKernelModel {
     public VASPersonalElement vasPersonalInfo;
 
     public RecentContactInfo() {
-        this.f32id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sendRemarkName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sendMemberName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sendNickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f32id = "";
+        this.senderUid = "";
+        this.peerUid = "";
+        this.sendRemarkName = "";
+        this.sendMemberName = "";
+        this.sendNickName = "";
+        this.peerName = "";
+        this.remark = "";
+        this.avatarUrl = "";
+        this.avatarPath = "";
         this.abstractContent = new ArrayList<>();
         this.draft = new ArrayList<>();
         this.nestedSortedContactList = new ArrayList<>();
@@ -513,16 +513,16 @@ public final class RecentContactInfo implements IKernelModel {
     }
 
     public RecentContactInfo(String str, long j, long j2, int i, String str2, long j3, String str3, long j4, long j5, long j6, long j7, long j8, long j9, String str4, String str5, String str6, String str7, String str8, String str9, String str10, String str11, ArrayList<MsgAbstractElement> arrayList, int i2, byte b, long j10, byte b2, long j11, byte b3, int i3, long j12, int i4, ArrayList<MsgAbstractElement> arrayList2, int i5, int i6, boolean z, ArrayList<Long> arrayList3, ArrayList<RecentContactInfo> arrayList4, long j13, int i7, long j14, boolean z2, boolean z3, long j15, int i8, boolean z4, ArrayList<SpecificEventTypeInfoInMsgBox> arrayList5, GuildContactInfo guildContactInfo, VASPersonalElement vASPersonalElement, VASRecentContactMsgElement vASRecentContactMsgElement, Integer num, byte[] bArr, ArrayList<RecentContactExtAttr> arrayList6, HashMap<LiteBusinessType, String> hashMap) {
-        this.f32id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sendRemarkName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sendMemberName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sendNickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f32id = "";
+        this.senderUid = "";
+        this.peerUid = "";
+        this.sendRemarkName = "";
+        this.sendMemberName = "";
+        this.sendNickName = "";
+        this.peerName = "";
+        this.remark = "";
+        this.avatarUrl = "";
+        this.avatarPath = "";
         this.abstractContent = new ArrayList<>();
         this.draft = new ArrayList<>();
         this.nestedSortedContactList = new ArrayList<>();

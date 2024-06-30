@@ -27,7 +27,7 @@ public final class GProBusinessInfo implements Serializable {
         this.memberInfoInGame = new GProMemberInfoInGame();
         this.userAVInfo = new GProUserAVInfo();
         this.robotStateInfo = new GProRobotStateInfo();
-        this.tipsMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tipsMsg = "";
         this.userListGroupInfo = new GProUserListGroupInfo();
         this.userChannelState = new GProUserChannelShowState();
         this.lobbyMemberInfo = new GProLobbyMemberInfo();

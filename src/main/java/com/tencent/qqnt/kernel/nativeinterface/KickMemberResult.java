@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/KickMemberResult.class */
 public final class KickMemberResult {
     public int result;
-    public String uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String uid = "";
 
     public int getResult() {
         return this.result;

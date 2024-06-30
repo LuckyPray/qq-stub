@@ -22,7 +22,7 @@ public final class GProGuildBottomTabExpData implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.expIndex = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.expIndex = "";
         this.userGuideData = new GProNewUserGuideData();
         this.discoveryData = new GProDiscoveryData();
     }
@@ -72,7 +72,7 @@ public final class GProGuildBottomTabExpData implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.expIndex = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.expIndex = "";
         this.userGuideData = new GProNewUserGuideData();
         this.discoveryData = new GProDiscoveryData();
         this.isHit = z;

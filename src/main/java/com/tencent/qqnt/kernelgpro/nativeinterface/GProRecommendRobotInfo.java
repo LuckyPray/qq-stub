@@ -22,9 +22,9 @@ public final class GProRecommendRobotInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.desc = "";
+        this.avatar = "";
         this.introduceList = new ArrayList<>();
     }
 
@@ -68,9 +68,9 @@ public final class GProRecommendRobotInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.desc = "";
+        this.avatar = "";
         this.introduceList = new ArrayList<>();
         this.name = str;
         this.desc = str2;

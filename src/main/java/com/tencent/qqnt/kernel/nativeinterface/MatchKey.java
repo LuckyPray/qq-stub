@@ -9,8 +9,8 @@ public final class MatchKey {
     public String peerUid;
 
     public MatchKey() {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.guildId = "";
     }
 
     public int getChatType() {
@@ -34,8 +34,8 @@ public final class MatchKey {
     }
 
     public MatchKey(String str, int i, long j, String str2) {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.guildId = "";
         this.peerUid = str;
         this.chatType = i;
         this.msgSeq = j;

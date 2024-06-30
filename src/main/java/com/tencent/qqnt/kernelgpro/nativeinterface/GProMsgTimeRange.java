@@ -14,8 +14,8 @@ public final class GProMsgTimeRange {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.startDate = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.endDate = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.startDate = "";
+            this.endDate = "";
         }
     }
 
@@ -61,8 +61,8 @@ public final class GProMsgTimeRange {
             iPatchRedirector.redirect((short) 2, this, str, str2);
             return;
         }
-        this.startDate = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.endDate = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.startDate = "";
+        this.endDate = "";
         this.startDate = str;
         this.endDate = str2;
     }

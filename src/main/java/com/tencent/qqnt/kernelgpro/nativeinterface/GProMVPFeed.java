@@ -30,8 +30,8 @@ public final class GProMVPFeed {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.f66id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f66id = "";
+        this.title = "";
         this.poster = new GProMVPUser();
         this.content = new GProMVPFeedContent();
         this.hotComments = new GProMVPComments();

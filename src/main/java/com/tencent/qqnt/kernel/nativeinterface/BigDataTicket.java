@@ -7,8 +7,8 @@ public final class BigDataTicket {
     public String sessionSig;
 
     public BigDataTicket() {
-        this.sessionSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sessionKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sessionSig = "";
+        this.sessionKey = "";
     }
 
     public String getSessionKey() {
@@ -24,8 +24,8 @@ public final class BigDataTicket {
     }
 
     public BigDataTicket(String str, String str2) {
-        this.sessionSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sessionKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sessionSig = "";
+        this.sessionKey = "";
         this.sessionSig = str;
         this.sessionKey = str2;
     }

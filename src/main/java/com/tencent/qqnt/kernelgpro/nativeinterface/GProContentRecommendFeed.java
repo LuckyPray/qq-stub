@@ -37,8 +37,8 @@ public final class GProContentRecommendFeed implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.f57id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f57id = "";
+        this.title = "";
         this.image = new GProImage();
         this.videos = new ArrayList<>();
         this.feedStat = new GProFeedStat();
@@ -156,8 +156,8 @@ public final class GProContentRecommendFeed implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.f57id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f57id = "";
+        this.title = "";
         this.image = new GProImage();
         this.videos = new ArrayList<>();
         this.feedStat = new GProFeedStat();

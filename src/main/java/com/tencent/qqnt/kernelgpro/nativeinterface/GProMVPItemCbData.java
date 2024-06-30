@@ -18,7 +18,7 @@ public final class GProMVPItemCbData implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.statData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.statData = "";
         this.cbExtData = new byte[0];
     }
 
@@ -47,7 +47,7 @@ public final class GProMVPItemCbData implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.statData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.statData = "";
         this.cbExtData = new byte[0];
         this.statData = str;
         this.cbExtData = bArr;

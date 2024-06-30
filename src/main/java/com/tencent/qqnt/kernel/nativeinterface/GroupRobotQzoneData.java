@@ -5,9 +5,9 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class GroupRobotQzoneData {
     public boolean isOnlySelf;
     public long uploadTime;
-    public String imageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String thumbImageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String imageUrl = "";
+    public String thumbImageUrl = "";
+    public String text = "";
     public GroupRobotQzoneDataType dataType = GroupRobotQzoneDataType.values()[0];
 
     public GroupRobotQzoneDataType getDataType() {

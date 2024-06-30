@@ -17,10 +17,10 @@ public final class GProStRichTextWeixinOfficialAccountsContent {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.author = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.title = "";
+        this.icon = "";
+        this.author = "";
     }
 
     public String getAuthor() {

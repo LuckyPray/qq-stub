@@ -25,14 +25,14 @@ public final class SearchMsgItem {
     public long senderUin;
 
     public SearchMsgItem() {
-        this.senderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderUid = "";
+        this.senderNick = "";
         this.senderNickHits = new ArrayList<>();
-        this.senderRemark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderRemark = "";
         this.senderRemarkHits = new ArrayList<>();
-        this.senderCard = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderCard = "";
         this.senderCardHits = new ArrayList<>();
-        this.fieldText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fieldText = "";
         this.hitsInfo = new ArrayList<>();
         this.msgAbstract = new ArrayList<>();
     }
@@ -110,14 +110,14 @@ public final class SearchMsgItem {
     }
 
     public SearchMsgItem(long j, long j2, long j3, String str, long j4, String str2, ArrayList<SearchHitInfo> arrayList, String str3, ArrayList<SearchHitInfo> arrayList2, String str4, ArrayList<SearchHitInfo> arrayList3, int i, String str5, int i2, ArrayList<SearchHitInfo> arrayList4, ArrayList<MsgAbstract> arrayList5, MsgRecord msgRecord) {
-        this.senderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderUid = "";
+        this.senderNick = "";
         this.senderNickHits = new ArrayList<>();
-        this.senderRemark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderRemark = "";
         this.senderRemarkHits = new ArrayList<>();
-        this.senderCard = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderCard = "";
         this.senderCardHits = new ArrayList<>();
-        this.fieldText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fieldText = "";
         this.hitsInfo = new ArrayList<>();
         this.msgAbstract = new ArrayList<>();
         this.msgId = j;

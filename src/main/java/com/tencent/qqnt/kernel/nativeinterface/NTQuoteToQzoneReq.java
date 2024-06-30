@@ -17,11 +17,11 @@ public final class NTQuoteToQzoneReq {
 
     public NTQuoteToQzoneReq() {
         this.requestTimeLine = new RequestTimelineInfo();
-        this.qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.albumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qunId = "";
+        this.albumId = "";
         this.lloc = new ArrayList<>();
-        this.dstAlbumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.dstDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.dstAlbumId = "";
+        this.dstDesc = "";
     }
 
     public String getAlbumId() {
@@ -66,11 +66,11 @@ public final class NTQuoteToQzoneReq {
 
     public NTQuoteToQzoneReq(int i, RequestTimelineInfo requestTimelineInfo, String str, String str2, ArrayList<String> arrayList, String str3, String str4, long j, long j2) {
         this.requestTimeLine = new RequestTimelineInfo();
-        this.qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.albumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qunId = "";
+        this.albumId = "";
         this.lloc = new ArrayList<>();
-        this.dstAlbumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.dstDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.dstAlbumId = "";
+        this.dstDesc = "";
         this.seq = i;
         this.requestTimeLine = requestTimelineInfo;
         this.qunId = str;

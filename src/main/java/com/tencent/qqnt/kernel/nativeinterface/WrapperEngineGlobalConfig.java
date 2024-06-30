@@ -13,10 +13,10 @@ public final class WrapperEngineGlobalConfig implements IKernelModel {
     public boolean useXlog;
 
     public WrapperEngineGlobalConfig() {
-        this.appVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.osVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appVersion = "";
+        this.osVersion = "";
         this.globalPathConfig = new InitGlobalPathConfig();
-        this.qua = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qua = "";
     }
 
     public int getAppType() {
@@ -88,10 +88,10 @@ public final class WrapperEngineGlobalConfig implements IKernelModel {
     }
 
     public WrapperEngineGlobalConfig(int i, int i2, String str, String str2, InitGlobalPathConfig initGlobalPathConfig, ThumbConfig thumbConfig, boolean z, String str3) {
-        this.appVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.osVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appVersion = "";
+        this.osVersion = "";
         this.globalPathConfig = new InitGlobalPathConfig();
-        this.qua = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qua = "";
         this.platformType = i;
         this.appType = i2;
         this.appVersion = str;

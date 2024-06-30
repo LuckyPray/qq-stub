@@ -18,7 +18,7 @@ public final class GProRetentionChannelLabel implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.labelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.labelName = "";
         }
     }
 
@@ -52,7 +52,7 @@ public final class GProRetentionChannelLabel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.labelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.labelName = "";
         this.labelName = str;
         this.labelType = i;
         this.labelValue = i2;

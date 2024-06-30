@@ -9,11 +9,11 @@ public final class InitSessionMobilePathConfig {
     public String mobileQqVideoPath;
 
     public InitSessionMobilePathConfig() {
-        this.mobileQqPicPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.mobileQqVideoPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.mobileQqPttPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.mobileQqFilePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.mobileQqMarketPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.mobileQqPicPath = "";
+        this.mobileQqVideoPath = "";
+        this.mobileQqPttPath = "";
+        this.mobileQqFilePath = "";
+        this.mobileQqMarketPath = "";
     }
 
     public String getMobileQqFilePath() {
@@ -41,11 +41,11 @@ public final class InitSessionMobilePathConfig {
     }
 
     public InitSessionMobilePathConfig(String str, String str2, String str3, String str4, String str5) {
-        this.mobileQqPicPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.mobileQqVideoPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.mobileQqPttPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.mobileQqFilePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.mobileQqMarketPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.mobileQqPicPath = "";
+        this.mobileQqVideoPath = "";
+        this.mobileQqPttPath = "";
+        this.mobileQqFilePath = "";
+        this.mobileQqMarketPath = "";
         this.mobileQqPicPath = str;
         this.mobileQqVideoPath = str2;
         this.mobileQqPttPath = str3;

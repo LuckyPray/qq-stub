@@ -20,13 +20,13 @@ public final class GProArkArg {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.app = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.view = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ver = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.prompt = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.meta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.config = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.app = "";
+        this.view = "";
+        this.ver = "";
+        this.desc = "";
+        this.prompt = "";
+        this.meta = "";
+        this.config = "";
     }
 
     public String getApp() {
@@ -78,13 +78,13 @@ public final class GProArkArg {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, str4, str5, str6, str7});
             return;
         }
-        this.app = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.view = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ver = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.prompt = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.meta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.config = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.app = "";
+        this.view = "";
+        this.ver = "";
+        this.desc = "";
+        this.prompt = "";
+        this.meta = "";
+        this.config = "";
         this.app = str;
         this.view = str2;
         this.ver = str3;

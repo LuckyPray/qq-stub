@@ -7,10 +7,10 @@ public final class RobotTemplateInfo {
     /* renamed from: id */
     public long f33id;
     public int type;
-    public String title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String image = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String extInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String title = "";
+    public String desc = "";
+    public String image = "";
+    public String extInfo = "";
 
     public String getDesc() {
         return this.desc;

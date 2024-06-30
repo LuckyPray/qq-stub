@@ -4,10 +4,10 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/StQWebReq.class */
 public final class StQWebReq {
     public long Seq;
-    public String qua = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String deviceInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String qua = "";
+    public String deviceInfo = "";
     public byte[] busiBuff = new byte[0];
-    public String traceid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String traceid = "";
 
     public byte[] getBusiBuff() {
         return this.busiBuff;

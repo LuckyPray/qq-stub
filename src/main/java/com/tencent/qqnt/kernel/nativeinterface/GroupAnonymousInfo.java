@@ -14,9 +14,9 @@ public final class GroupAnonymousInfo {
 
     public GroupAnonymousInfo() {
         this.anonyId = new byte[0];
-        this.anonyNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.anonyNick = "";
         this.anonyStatus = new AnonyStatus();
-        this.rankColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.rankColor = "";
     }
 
     public byte[] getAnonyId() {
@@ -57,9 +57,9 @@ public final class GroupAnonymousInfo {
 
     public GroupAnonymousInfo(boolean z, byte[] bArr, String str, int i, int i2, int i3, AnonyStatus anonyStatus, String str2) {
         this.anonyId = new byte[0];
-        this.anonyNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.anonyNick = "";
         this.anonyStatus = new AnonyStatus();
-        this.rankColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.rankColor = "";
         this.isAnonymousChat = z;
         this.anonyId = bArr;
         this.anonyNick = str;

@@ -8,7 +8,7 @@ public final class GProGuildRobotInlineSearchRsp {
     public ArrayList<GProGuildRobotInlineLayout> layoutList;
 
     public GProGuildRobotInlineSearchRsp() {
-        this.keyword = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.keyword = "";
         this.layoutList = new ArrayList<>();
     }
 
@@ -25,7 +25,7 @@ public final class GProGuildRobotInlineSearchRsp {
     }
 
     public GProGuildRobotInlineSearchRsp(String str, ArrayList<GProGuildRobotInlineLayout> arrayList) {
-        this.keyword = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.keyword = "";
         this.layoutList = new ArrayList<>();
         this.keyword = str;
         this.layoutList = arrayList;

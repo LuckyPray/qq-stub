@@ -8,7 +8,7 @@ public final class InviteInfo {
     public long relationId;
 
     public InviteInfo() {
-        this.fromUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fromUid = "";
     }
 
     public String getFromUid() {
@@ -28,7 +28,7 @@ public final class InviteInfo {
     }
 
     public InviteInfo(long j, int i, String str) {
-        this.fromUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fromUid = "";
         this.relationId = j;
         this.inviteType = i;
         this.fromUid = str;

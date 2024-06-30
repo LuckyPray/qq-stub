@@ -23,9 +23,9 @@ public final class GProFeedGuildInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildIcon = "";
+        this.joinGuildSig = "";
         this.medals = new ArrayList<>();
     }
 
@@ -74,9 +74,9 @@ public final class GProFeedGuildInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildIcon = "";
+        this.joinGuildSig = "";
         this.medals = new ArrayList<>();
         this.guildId = j;
         this.guildName = str;

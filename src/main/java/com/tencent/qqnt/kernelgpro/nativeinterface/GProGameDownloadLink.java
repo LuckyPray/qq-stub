@@ -18,8 +18,8 @@ public final class GProGameDownloadLink implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.platform = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.platform = "";
+        this.url = "";
     }
 
     public String getPlatform() {

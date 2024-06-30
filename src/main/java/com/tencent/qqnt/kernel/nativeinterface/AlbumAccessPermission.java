@@ -5,8 +5,8 @@ import java.util.ArrayList;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/AlbumAccessPermission.class */
 public final class AlbumAccessPermission {
     public int permissionType;
-    public String question = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String answer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String question = "";
+    public String answer = "";
     public ArrayList<String> whiteList = new ArrayList<>();
 
     public String getAnswer() {

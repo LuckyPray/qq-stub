@@ -7,8 +7,8 @@ public final class RobotRecommendCardsReq {
     public int pageNum;
     public boolean queryTab;
     public byte[] pagingCookie = new byte[0];
-    public String dataVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String tabId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String dataVersion = "";
+    public String tabId = "";
 
     public String getDataVersion() {
         return this.dataVersion;

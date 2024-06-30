@@ -8,7 +8,7 @@ public final class PT4tokenInfo {
     public long nextrefreshTime;
     public long uin;
     public byte[] sig = new byte[0];
-    public String domain = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String domain = "";
 
     public int getAppid() {
         return this.appid;

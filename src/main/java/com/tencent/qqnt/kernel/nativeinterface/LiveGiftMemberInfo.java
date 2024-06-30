@@ -10,9 +10,9 @@ public final class LiveGiftMemberInfo {
     public String tinyId;
 
     public LiveGiftMemberInfo() {
-        this.tinyId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.roleName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tinyId = "";
+        this.nickName = "";
+        this.roleName = "";
     }
 
     public String getNickName() {
@@ -40,9 +40,9 @@ public final class LiveGiftMemberInfo {
     }
 
     public LiveGiftMemberInfo(String str, String str2, long j, String str3, int i) {
-        this.tinyId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.roleName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tinyId = "";
+        this.nickName = "";
+        this.roleName = "";
         this.tinyId = str;
         this.nickName = str2;
         this.roleId = j;

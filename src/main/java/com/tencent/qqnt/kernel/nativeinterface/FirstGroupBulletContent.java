@@ -3,8 +3,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/FirstGroupBulletContent.class */
 public final class FirstGroupBulletContent {
-    public String feedid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String fromUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String feedid = "";
+    public String fromUid = "";
     public int grouptime;
 
     public String getFeedid() {

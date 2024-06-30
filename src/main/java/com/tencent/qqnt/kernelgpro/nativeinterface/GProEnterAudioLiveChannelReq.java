@@ -16,7 +16,7 @@ public final class GProEnterAudioLiveChannelReq {
     public GProEnterAudioLiveChannelReq() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.joinSourceType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.joinSourceType = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -120,7 +120,7 @@ public final class GProEnterAudioLiveChannelReq {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), str, Integer.valueOf(i2)});
             return;
         }
-        this.joinSourceType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.joinSourceType = "";
         this.guildId = j;
         this.channelId = j2;
         this.sourceType = i;

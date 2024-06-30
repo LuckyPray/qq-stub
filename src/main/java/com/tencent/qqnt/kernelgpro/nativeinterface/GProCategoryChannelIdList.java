@@ -26,10 +26,10 @@ public final class GProCategoryChannelIdList implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.channelList = new ArrayList<>();
-        this.categoryAlias = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categoryAlias = "";
+        this.url = "";
     }
 
     public String getCategoryAlias() {
@@ -92,10 +92,10 @@ public final class GProCategoryChannelIdList implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.channelList = new ArrayList<>();
-        this.categoryAlias = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categoryAlias = "";
+        this.url = "";
         this.name = str;
         this.categoryId = j;
         this.channelList = arrayList;

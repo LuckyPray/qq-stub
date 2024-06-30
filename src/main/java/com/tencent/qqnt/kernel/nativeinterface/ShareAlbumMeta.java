@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/ShareAlbumMeta.class */
 public final class ShareAlbumMeta {
-    public String owner = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String owner = "";
     public ArrayList<ClientAttr> shareattrs = new ArrayList<>();
 
     public String getOwner() {

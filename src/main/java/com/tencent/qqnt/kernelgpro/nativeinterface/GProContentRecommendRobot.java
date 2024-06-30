@@ -27,13 +27,13 @@ public final class GProContentRecommendRobot implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.picInfo = new GProImageBasicInfo();
-        this.schema = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.buttonName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.schema = "";
+        this.uid = "";
+        this.nickName = "";
+        this.desc = "";
+        this.buttonName = "";
         this.extra = new byte[0];
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appId = "";
     }
 
     public String getAppId() {

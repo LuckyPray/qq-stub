@@ -30,7 +30,7 @@ public final class GProStDoReplyReq {
         this.feed = new GProStFeed();
         this.busiReqData = new byte[0];
         this.replyContent = new GProStRichText();
-        this.jsonReply = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jsonReply = "";
     }
 
     public byte[] getBusiReqData() {

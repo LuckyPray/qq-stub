@@ -14,9 +14,9 @@ public final class CleanFileDetail {
     public boolean wildFile;
 
     public CleanFileDetail() {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.fileName = "";
+        this.filePath = "";
     }
 
     public int getChatType() {
@@ -60,9 +60,9 @@ public final class CleanFileDetail {
     }
 
     public CleanFileDetail(long j, long j2, String str, int i, long j3, String str2, long j4, String str3, boolean z) {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.fileName = "";
+        this.filePath = "";
         this.msgId = j;
         this.forwardSubMsgId = j2;
         this.peerUid = str;

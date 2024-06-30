@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/StFeedCellLBS.class */
 public final class StFeedCellLBS {
     public StLBS lbs = new StLBS();
-    public String iconToken = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String iconToken = "";
 
     public String getIconToken() {
         return this.iconToken;

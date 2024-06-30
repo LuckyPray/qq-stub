@@ -12,7 +12,7 @@ public final class NTReportViewQunFeedReq {
 
     public NTReportViewQunFeedReq() {
         this.requestTimeLine = new RequestTimelineInfo();
-        this.qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qunId = "";
         this.feedsCommcountKey = new ArrayList<>();
     }
 
@@ -38,7 +38,7 @@ public final class NTReportViewQunFeedReq {
 
     public NTReportViewQunFeedReq(int i, RequestTimelineInfo requestTimelineInfo, String str, ArrayList<String> arrayList) {
         this.requestTimeLine = new RequestTimelineInfo();
-        this.qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qunId = "";
         this.feedsCommcountKey = new ArrayList<>();
         this.seq = i;
         this.requestTimeLine = requestTimelineInfo;

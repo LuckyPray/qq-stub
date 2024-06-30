@@ -19,8 +19,8 @@ public final class GProFeedRedTouchTransInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.author = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.feedId = "";
+            this.author = "";
         }
     }
 

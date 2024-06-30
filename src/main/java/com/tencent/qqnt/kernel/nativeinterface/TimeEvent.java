@@ -3,8 +3,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/TimeEvent.class */
 public final class TimeEvent {
-    public String content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String copywriter = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String content = "";
+    public String copywriter = "";
     public long time;
     public int type;
 

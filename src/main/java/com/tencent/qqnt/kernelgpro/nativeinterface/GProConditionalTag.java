@@ -14,7 +14,7 @@ public final class GProConditionalTag {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.name = "";
             this.buff = new byte[0];
         }
     }
@@ -61,7 +61,7 @@ public final class GProConditionalTag {
             iPatchRedirector.redirect((short) 2, this, str, bArr);
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.buff = new byte[0];
         this.name = str;
         this.buff = bArr;

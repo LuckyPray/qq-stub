@@ -25,10 +25,10 @@ public final class GProAppChnnPreInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jumpUrl = "";
+        this.text = "";
         this.chnnPreList = new ArrayList<>();
-        this.chnnPreSeq = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.chnnPreSeq = "";
         this.joinCondition = new GProJoinCondition();
     }
 

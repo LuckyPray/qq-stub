@@ -23,11 +23,11 @@ public final class GProSaveMsgReq implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.headImage = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.headImage = "";
+        this.title = "";
+        this.content = "";
+        this.jumpText = "";
+        this.jumpUrl = "";
     }
 
     public long getAdId() {
@@ -143,11 +143,11 @@ public final class GProSaveMsgReq implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.headImage = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.headImage = "";
+        this.title = "";
+        this.content = "";
+        this.jumpText = "";
+        this.jumpUrl = "";
         this.adId = j;
         this.headImage = str;
         this.title = str2;

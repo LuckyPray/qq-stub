@@ -11,7 +11,7 @@ public final class ImportMsgRecordFileInfo {
     public String fileUuid;
 
     public ImportMsgRecordFileInfo() {
-        this.fileUuid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileUuid = "";
         this.filePaths = new ArrayList<>();
     }
 
@@ -36,7 +36,7 @@ public final class ImportMsgRecordFileInfo {
     }
 
     public ImportMsgRecordFileInfo(int i, int i2, String str, ArrayList<ImportMsgFilePath> arrayList) {
-        this.fileUuid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileUuid = "";
         this.filePaths = new ArrayList<>();
         this.fileType = i;
         this.fileStatus = i2;

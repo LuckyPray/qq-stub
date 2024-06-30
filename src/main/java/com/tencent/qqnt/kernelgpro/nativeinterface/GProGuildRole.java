@@ -43,15 +43,15 @@ public final class GProGuildRole {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.approveSpeakChannels = new ArrayList<>();
         this.approveVisibleChannels = new ArrayList<>();
         this.rolePermissions = new GProRolePermission();
-        this.levelIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.levelDsc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.levelBigIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.levelSimpleDsc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.displayTagName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.levelIcon = "";
+        this.levelDsc = "";
+        this.levelBigIcon = "";
+        this.levelSimpleDsc = "";
+        this.displayTagName = "";
         this.manageCategoryIdList = new ArrayList<>();
     }
 
@@ -214,15 +214,15 @@ public final class GProGuildRole {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, Long.valueOf(j3), Boolean.valueOf(z), Integer.valueOf(i), Boolean.valueOf(z2), Integer.valueOf(i2), Integer.valueOf(i3), arrayList, arrayList2, Integer.valueOf(i4), Integer.valueOf(i5), gProRolePermission, Boolean.valueOf(z3), str2, str3, Integer.valueOf(i6), str4, Long.valueOf(j4), Long.valueOf(j5), Long.valueOf(j6), str5, Long.valueOf(j7), Long.valueOf(j8), Integer.valueOf(i7), Long.valueOf(j9), str6, arrayList3});
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.approveSpeakChannels = new ArrayList<>();
         this.approveVisibleChannels = new ArrayList<>();
         this.rolePermissions = new GProRolePermission();
-        this.levelIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.levelDsc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.levelBigIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.levelSimpleDsc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.displayTagName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.levelIcon = "";
+        this.levelDsc = "";
+        this.levelBigIcon = "";
+        this.levelSimpleDsc = "";
+        this.displayTagName = "";
         this.manageCategoryIdList = new ArrayList<>();
         this.guildId = j;
         this.roleId = j2;

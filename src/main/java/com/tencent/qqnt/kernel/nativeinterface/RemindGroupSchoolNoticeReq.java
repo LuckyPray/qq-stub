@@ -12,7 +12,7 @@ public final class RemindGroupSchoolNoticeReq {
     public int type;
 
     public RemindGroupSchoolNoticeReq() {
-        this.noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.noticeId = "";
         this.receivers = new ArrayList<>();
     }
 
@@ -41,7 +41,7 @@ public final class RemindGroupSchoolNoticeReq {
     }
 
     public RemindGroupSchoolNoticeReq(String str, long j, ArrayList<Long> arrayList, boolean z, int i) {
-        this.noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.noticeId = "";
         this.receivers = new ArrayList<>();
         this.noticeId = str;
         this.groupCode = j;

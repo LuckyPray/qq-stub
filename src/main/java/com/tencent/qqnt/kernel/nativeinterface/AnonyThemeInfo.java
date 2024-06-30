@@ -10,9 +10,9 @@ public final class AnonyThemeInfo {
     public String themeName;
 
     public AnonyThemeInfo() {
-        this.themeName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.themeDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.themeIconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.themeName = "";
+        this.themeDesc = "";
+        this.themeIconUrl = "";
     }
 
     public String getThemeDesc() {
@@ -40,9 +40,9 @@ public final class AnonyThemeInfo {
     }
 
     public AnonyThemeInfo(int i, String str, String str2, String str3, int i2) {
-        this.themeName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.themeDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.themeIconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.themeName = "";
+        this.themeDesc = "";
+        this.themeIconUrl = "";
         this.themeId = i;
         this.themeName = str;
         this.themeDesc = str2;

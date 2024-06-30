@@ -7,7 +7,7 @@ public final class ConfirmGroupSchoolNoticeReq {
     public String noticeId;
 
     public ConfirmGroupSchoolNoticeReq() {
-        this.noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.noticeId = "";
     }
 
     public long getGroupCode() {
@@ -23,7 +23,7 @@ public final class ConfirmGroupSchoolNoticeReq {
     }
 
     public ConfirmGroupSchoolNoticeReq(String str, long j) {
-        this.noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.noticeId = "";
         this.noticeId = str;
         this.groupCode = j;
     }

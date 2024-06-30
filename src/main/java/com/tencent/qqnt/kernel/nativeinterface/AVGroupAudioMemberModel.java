@@ -12,7 +12,7 @@ public final class AVGroupAudioMemberModel {
     public String uid;
 
     public AVGroupAudioMemberModel() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
     }
 
     public int getAVState() {
@@ -48,7 +48,7 @@ public final class AVGroupAudioMemberModel {
     }
 
     public AVGroupAudioMemberModel(boolean z, int i, String str, int i2, int i3, boolean z2, boolean z3) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
         this.isInvited = z;
         this.invitedTimestamp = i;
         this.uid = str;

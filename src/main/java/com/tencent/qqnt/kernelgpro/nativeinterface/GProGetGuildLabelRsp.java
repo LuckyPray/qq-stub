@@ -17,7 +17,7 @@ public final class GProGetGuildLabelRsp {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.welcomeContent = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.welcomeContent = "";
             this.labelInfos = new ArrayList<>();
         }
     }
@@ -56,7 +56,7 @@ public final class GProGetGuildLabelRsp {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, arrayList});
             return;
         }
-        this.welcomeContent = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.welcomeContent = "";
         this.labelInfos = new ArrayList<>();
         this.maxLabels = j;
         this.maxAvNums = j2;

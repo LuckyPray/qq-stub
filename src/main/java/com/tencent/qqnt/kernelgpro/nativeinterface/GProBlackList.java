@@ -16,7 +16,7 @@ public final class GProBlackList {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.listName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.listName = "";
             this.memberList = new ArrayList<>();
         }
     }
@@ -50,7 +50,7 @@ public final class GProBlackList {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, arrayList});
             return;
         }
-        this.listName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.listName = "";
         this.memberList = new ArrayList<>();
         this.listId = i;
         this.listName = str;

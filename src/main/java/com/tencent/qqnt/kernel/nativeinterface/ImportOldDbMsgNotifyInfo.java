@@ -10,8 +10,8 @@ public final class ImportOldDbMsgNotifyInfo {
     public String uid;
 
     public ImportOldDbMsgNotifyInfo() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.msg = "";
     }
 
     public int getChatType() {
@@ -39,8 +39,8 @@ public final class ImportOldDbMsgNotifyInfo {
     }
 
     public ImportOldDbMsgNotifyInfo(float f, int i, String str, int i2, String str2) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.msg = "";
         this.progress = f;
         this.chatType = i;
         this.uid = str;

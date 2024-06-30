@@ -28,17 +28,17 @@ public final class GProLabelInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.introduceImageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.introduceAvUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.detailsImageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.detailsAvUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.introduceImageUrl = "";
+        this.introduceAvUrl = "";
+        this.detailsImageUrl = "";
+        this.detailsAvUrl = "";
+        this.content = "";
         this.guildInfos = new ArrayList<>();
-        this.selectedCntTag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.labelTopWord = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.labelTopPicture = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.friendJoinNumTag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.selectedCntTag = "";
+        this.labelTopWord = "";
+        this.labelTopPicture = "";
+        this.friendJoinNumTag = "";
     }
 
     public String getContent() {
@@ -111,17 +111,17 @@ public final class GProLabelInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.introduceImageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.introduceAvUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.detailsImageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.detailsAvUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.introduceImageUrl = "";
+        this.introduceAvUrl = "";
+        this.detailsImageUrl = "";
+        this.detailsAvUrl = "";
+        this.content = "";
         this.guildInfos = new ArrayList<>();
-        this.selectedCntTag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.labelTopWord = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.labelTopPicture = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.friendJoinNumTag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.selectedCntTag = "";
+        this.labelTopWord = "";
+        this.labelTopPicture = "";
+        this.friendJoinNumTag = "";
         this.name = str;
         this.introduceImageUrl = str2;
         this.introduceAvUrl = str3;

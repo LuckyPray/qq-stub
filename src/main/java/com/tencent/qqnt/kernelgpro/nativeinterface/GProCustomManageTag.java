@@ -14,7 +14,7 @@ public final class GProCustomManageTag {
     public GProCustomManageTag() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.tagName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.tagName = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

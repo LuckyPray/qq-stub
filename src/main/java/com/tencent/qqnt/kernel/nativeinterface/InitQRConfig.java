@@ -10,10 +10,10 @@ public final class InitQRConfig {
     public String version;
 
     public InitQRConfig() {
-        this.appName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.version = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.deviceName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appName = "";
+        this.version = "";
+        this.deviceName = "";
+        this.guid = "";
     }
 
     public String getAppName() {
@@ -41,10 +41,10 @@ public final class InitQRConfig {
     }
 
     public InitQRConfig(int i, String str, String str2, String str3, String str4) {
-        this.appName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.version = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.deviceName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appName = "";
+        this.version = "";
+        this.deviceName = "";
+        this.guid = "";
         this.appid = i;
         this.appName = str;
         this.version = str2;

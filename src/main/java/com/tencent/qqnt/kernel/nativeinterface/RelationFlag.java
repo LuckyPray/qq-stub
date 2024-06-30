@@ -16,7 +16,7 @@ public final class RelationFlag {
     public long topTime;
 
     public RelationFlag() {
-        this.ringId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.ringId = "";
     }
 
     public boolean getIsBlock() {
@@ -68,7 +68,7 @@ public final class RelationFlag {
     }
 
     public RelationFlag(long j, boolean z, boolean z2, boolean z3, boolean z4, String str, boolean z5, int i, int i2, int i3, int i4) {
-        this.ringId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.ringId = "";
         this.topTime = j;
         this.isBlock = z;
         this.isMsgDisturb = z2;

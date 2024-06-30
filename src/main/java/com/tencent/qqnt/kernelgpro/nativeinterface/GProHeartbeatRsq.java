@@ -23,7 +23,7 @@ public final class GProHeartbeatRsq implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.showTips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.showTips = "";
         this.avChannelConfig = new GProAVChannelConfig();
     }
 
@@ -77,7 +77,7 @@ public final class GProHeartbeatRsq implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.showTips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.showTips = "";
         this.avChannelConfig = new GProAVChannelConfig();
         this.guildId = j;
         this.channelId = j2;

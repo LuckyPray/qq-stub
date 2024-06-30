@@ -11,7 +11,7 @@ public final class SearchGroup {
     public Integer version;
 
     public SearchGroup() {
-        this.penetrate = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.penetrate = "";
     }
 
     public boolean getExactSearch() {
@@ -43,7 +43,7 @@ public final class SearchGroup {
     }
 
     public SearchGroup(String str, Integer num, String str2, String str3, boolean z, int i) {
-        this.penetrate = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.penetrate = "";
         this.keyWords = str;
         this.version = num;
         this.platform = str2;

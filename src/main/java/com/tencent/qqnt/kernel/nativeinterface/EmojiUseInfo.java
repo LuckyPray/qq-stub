@@ -9,7 +9,7 @@ public final class EmojiUseInfo {
     public int usedCount;
 
     public EmojiUseInfo() {
-        this.emojiId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.emojiId = "";
     }
 
     public String getEmojiId() {
@@ -33,7 +33,7 @@ public final class EmojiUseInfo {
     }
 
     public EmojiUseInfo(long j, int i, int i2, String str) {
-        this.emojiId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.emojiId = "";
         this.updateTime = j;
         this.usedCount = i;
         this.emojiType = i2;

@@ -13,9 +13,9 @@ public final class DataMigrationMsgInfo {
     public int msgType;
 
     public DataMigrationMsgInfo() {
-        this.chatUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.chatUin = "";
         this.extensionData = new byte[0];
-        this.extraData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.extraData = "";
     }
 
     public int getChatType() {
@@ -55,9 +55,9 @@ public final class DataMigrationMsgInfo {
     }
 
     public DataMigrationMsgInfo(int i, String str, int i2, long j, long j2, long j3, byte[] bArr, String str2) {
-        this.chatUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.chatUin = "";
         this.extensionData = new byte[0];
-        this.extraData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.extraData = "";
         this.chatType = i;
         this.chatUin = str;
         this.msgType = i2;

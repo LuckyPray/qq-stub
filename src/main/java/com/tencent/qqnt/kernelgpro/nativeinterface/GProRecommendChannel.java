@@ -26,13 +26,13 @@ public final class GProRecommendChannel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.profile = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.profile = "";
+        this.icon = "";
         this.stateList = new ArrayList<>();
         this.tagList = new ArrayList<>();
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.coverUrl = "";
+        this.joinGuildSig = "";
     }
 
     public long getChannelId() {
@@ -95,13 +95,13 @@ public final class GProRecommendChannel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.profile = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.profile = "";
+        this.icon = "";
         this.stateList = new ArrayList<>();
         this.tagList = new ArrayList<>();
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.coverUrl = "";
+        this.joinGuildSig = "";
         this.channelId = j;
         this.name = str;
         this.profile = str2;

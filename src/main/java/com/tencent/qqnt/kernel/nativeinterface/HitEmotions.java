@@ -10,7 +10,7 @@ public final class HitEmotions {
     public String words;
 
     public HitEmotions() {
-        this.words = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.words = "";
         this.emotionsInfo = new ArrayList<>();
     }
 
@@ -31,7 +31,7 @@ public final class HitEmotions {
     }
 
     public HitEmotions(String str, boolean z, ArrayList<DownloadRelateEmojiResultInfo> arrayList) {
-        this.words = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.words = "";
         this.emotionsInfo = new ArrayList<>();
         this.words = str;
         this.isOver = z;

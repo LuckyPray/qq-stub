@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GroupSchoolNoticeReceiverInfo.class */
 public final class GroupSchoolNoticeReceiverInfo {
     public long confirmTime;
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String name = "";
     public long remindTime;
     public long uin;
 

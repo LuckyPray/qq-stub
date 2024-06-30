@@ -14,7 +14,7 @@ public final class GProBytesEntry {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.key = "";
             this.value = new byte[0];
         }
     }

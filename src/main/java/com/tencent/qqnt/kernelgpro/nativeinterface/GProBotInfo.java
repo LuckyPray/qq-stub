@@ -16,7 +16,7 @@ public final class GProBotInfo {
     public GProBotInfo() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.name = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -66,7 +66,7 @@ public final class GProBotInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, Integer.valueOf(i), Long.valueOf(j3), Long.valueOf(j4)});
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.tinyid = j;
         this.uin = j2;
         this.name = str;

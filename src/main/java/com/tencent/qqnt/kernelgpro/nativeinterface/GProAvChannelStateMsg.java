@@ -22,8 +22,8 @@ public final class GProAvChannelStateMsg {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.summary = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.summary = "";
+            this.msg = "";
         }
     }
 

@@ -19,11 +19,11 @@ public final class GProStRichTextTencentDocsContent {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.platformName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.permission = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.title = "";
+        this.icon = "";
+        this.platformName = "";
+        this.permission = "";
     }
 
     public int getDocType() {

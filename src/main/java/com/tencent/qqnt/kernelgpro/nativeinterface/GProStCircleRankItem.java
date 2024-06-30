@@ -17,8 +17,8 @@ public final class GProStCircleRankItem {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.circleName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.circleID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.circleName = "";
+            this.circleID = "";
         }
     }
 

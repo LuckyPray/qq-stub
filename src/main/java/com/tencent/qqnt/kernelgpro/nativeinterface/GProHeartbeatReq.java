@@ -26,7 +26,7 @@ public final class GProHeartbeatReq implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.authMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.authMeta = "";
         this.roomIdList = new ArrayList<>();
         this.userDevState = new GProUserDevState();
         this.kvInfoList = new ArrayList<>();
@@ -173,7 +173,7 @@ public final class GProHeartbeatReq implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.authMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.authMeta = "";
         this.roomIdList = new ArrayList<>();
         this.userDevState = new GProUserDevState();
         this.kvInfoList = new ArrayList<>();

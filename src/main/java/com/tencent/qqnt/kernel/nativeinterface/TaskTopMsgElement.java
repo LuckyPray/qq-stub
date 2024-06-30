@@ -9,9 +9,9 @@ public final class TaskTopMsgElement {
     public int topMsgType;
 
     public TaskTopMsgElement() {
-        this.msgTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.msgSummary = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msgTitle = "";
+        this.msgSummary = "";
+        this.iconUrl = "";
     }
 
     public String getIconUrl() {
@@ -35,9 +35,9 @@ public final class TaskTopMsgElement {
     }
 
     public TaskTopMsgElement(String str, String str2, String str3, int i) {
-        this.msgTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.msgSummary = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msgTitle = "";
+        this.msgSummary = "";
+        this.iconUrl = "";
         this.msgTitle = str;
         this.msgSummary = str2;
         this.iconUrl = str3;

@@ -8,8 +8,8 @@ public final class EmojiLikesUserInfo {
     public long tinyId;
 
     public EmojiLikesUserInfo() {
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.headUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nickName = "";
+        this.headUrl = "";
     }
 
     public String getHeadUrl() {
@@ -29,8 +29,8 @@ public final class EmojiLikesUserInfo {
     }
 
     public EmojiLikesUserInfo(long j, String str, String str2) {
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.headUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nickName = "";
+        this.headUrl = "";
         this.tinyId = j;
         this.nickName = str;
         this.headUrl = str2;

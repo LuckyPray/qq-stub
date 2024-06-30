@@ -18,9 +18,9 @@ public final class GProStRichTextGroupContent {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupAvatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupJoinAuth = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupName = "";
+        this.groupAvatar = "";
+        this.groupJoinAuth = "";
     }
 
     public String getGroupAvatar() {

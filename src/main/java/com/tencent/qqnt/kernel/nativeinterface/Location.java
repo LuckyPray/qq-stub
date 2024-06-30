@@ -9,10 +9,10 @@ public final class Location {
     public String zone;
 
     public Location() {
-        this.country = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.province = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.city = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.zone = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.country = "";
+        this.province = "";
+        this.city = "";
+        this.zone = "";
     }
 
     public String getCity() {
@@ -52,10 +52,10 @@ public final class Location {
     }
 
     public Location(String str, String str2, String str3, String str4) {
-        this.country = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.province = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.city = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.zone = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.country = "";
+        this.province = "";
+        this.city = "";
+        this.zone = "";
         this.country = str;
         this.province = str2;
         this.city = str3;

@@ -8,8 +8,8 @@ public final class DownloadGroupFileParams {
     public long fileSize;
 
     public DownloadGroupFileParams() {
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileId = "";
+        this.fileName = "";
     }
 
     public String getFileId() {
@@ -33,8 +33,8 @@ public final class DownloadGroupFileParams {
     }
 
     public DownloadGroupFileParams(String str, String str2, long j, long j2) {
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileId = "";
+        this.fileName = "";
         this.fileId = str;
         this.fileName = str2;
         this.fileSize = j;

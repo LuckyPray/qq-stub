@@ -5,9 +5,9 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class ClientAttr {
     public int action;
     public int gender;
-    public String uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String uin = "";
     public UinAttr attr = new UinAttr();
-    public String qqNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String qqNick = "";
 
     public int getAction() {
         return this.action;

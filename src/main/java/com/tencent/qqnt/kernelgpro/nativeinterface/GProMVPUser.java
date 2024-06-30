@@ -22,8 +22,8 @@ public final class GProMVPUser implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nick = "";
+        this.avatar = "";
         this.roleGroups = new ArrayList<>();
     }
 
@@ -67,8 +67,8 @@ public final class GProMVPUser implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nick = "";
+        this.avatar = "";
         this.roleGroups = new ArrayList<>();
         this.tinyid = j;
         this.nick = str;

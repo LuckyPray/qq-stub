@@ -39,7 +39,7 @@ public final class GProChannelCreateInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.specialTypeList = new ArrayList<>();
         this.privateMembers = new ArrayList<>();
         this.roleGroupIds = new ArrayList<>();
@@ -48,9 +48,9 @@ public final class GProChannelCreateInfo {
         this.authControlSwitchInfoList = new ArrayList<>();
         this.bindRoleGroupsList = new ArrayList<>();
         this.bindMembersList = new ArrayList<>();
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.operationTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.linkChannelUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
+        this.operationTitle = "";
+        this.linkChannelUrl = "";
     }
 
     public long getAppId() {
@@ -192,7 +192,7 @@ public final class GProChannelCreateInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), Integer.valueOf(i5), Long.valueOf(j), Integer.valueOf(i6), arrayList, arrayList2, arrayList3, Integer.valueOf(i7), Integer.valueOf(i8), Integer.valueOf(i9), Integer.valueOf(i10), arrayList4, arrayList5, arrayList6, arrayList7, arrayList8, Integer.valueOf(i11), Integer.valueOf(i12), str2, str3, str4});
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.specialTypeList = new ArrayList<>();
         this.privateMembers = new ArrayList<>();
         this.roleGroupIds = new ArrayList<>();
@@ -201,9 +201,9 @@ public final class GProChannelCreateInfo {
         this.authControlSwitchInfoList = new ArrayList<>();
         this.bindRoleGroupsList = new ArrayList<>();
         this.bindMembersList = new ArrayList<>();
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.operationTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.linkChannelUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
+        this.operationTitle = "";
+        this.linkChannelUrl = "";
         this.name = str;
         this.msgNotifyType = i;
         this.channelType = i2;

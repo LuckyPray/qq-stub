@@ -31,12 +31,12 @@ public final class GProLobbyAppInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.appName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.topImageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.h5Url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.perLoadingMaterialUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appId = "";
+        this.appName = "";
+        this.iconUrl = "";
+        this.topImageUrl = "";
+        this.h5Url = "";
+        this.perLoadingMaterialUrl = "";
     }
 
     public int getAntiAddiction() {
@@ -129,12 +129,12 @@ public final class GProLobbyAppInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.appName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.topImageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.h5Url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.perLoadingMaterialUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appId = "";
+        this.appName = "";
+        this.iconUrl = "";
+        this.topImageUrl = "";
+        this.h5Url = "";
+        this.perLoadingMaterialUrl = "";
         this.appId = str;
         this.appName = str2;
         this.iconUrl = str3;

@@ -20,7 +20,7 @@ public final class GProGetCategoryPageGuildsRsp {
         }
         this.categories = new ArrayList<>();
         this.items = new ArrayList<>();
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceId = "";
     }
 
     public ArrayList<GProRecommendCategory> getCategories() {
@@ -59,7 +59,7 @@ public final class GProGetCategoryPageGuildsRsp {
         }
         this.categories = new ArrayList<>();
         this.items = new ArrayList<>();
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceId = "";
         this.categories = arrayList;
         this.items = arrayList2;
         this.traceId = str;

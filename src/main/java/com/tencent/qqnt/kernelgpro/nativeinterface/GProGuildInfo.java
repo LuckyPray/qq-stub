@@ -59,10 +59,10 @@ public final class GProGuildInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.profile = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.profile = "";
         this.guildStatus = new GProGroupProStatus();
-        this.guildNumber = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildNumber = "";
         this.speakThreshold = new GProSpeakThreshold();
         this.directMsgThreshold = new GProDirectMsgThreshold();
         this.extendInfo = new GProExtendInfo();
@@ -302,10 +302,10 @@ public final class GProGuildInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.profile = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.profile = "";
         this.guildStatus = new GProGroupProStatus();
-        this.guildNumber = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildNumber = "";
         this.speakThreshold = new GProSpeakThreshold();
         this.directMsgThreshold = new GProDirectMsgThreshold();
         this.extendInfo = new GProExtendInfo();

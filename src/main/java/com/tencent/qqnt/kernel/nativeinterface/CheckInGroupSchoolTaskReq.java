@@ -11,7 +11,7 @@ public final class CheckInGroupSchoolTaskReq {
     public String taskId;
 
     public CheckInGroupSchoolTaskReq() {
-        this.taskId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.taskId = "";
         this.content = new GroupSchoolNoticeContent();
     }
 
@@ -44,7 +44,7 @@ public final class CheckInGroupSchoolTaskReq {
     }
 
     public CheckInGroupSchoolTaskReq(long j, String str, GroupSchoolNoticeContent groupSchoolNoticeContent, boolean z, long j2, long j3) {
-        this.taskId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.taskId = "";
         this.content = new GroupSchoolNoticeContent();
         this.groupCode = j;
         this.taskId = str;

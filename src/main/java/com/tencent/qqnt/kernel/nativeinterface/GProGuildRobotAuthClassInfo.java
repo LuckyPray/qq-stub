@@ -6,7 +6,7 @@ public final class GProGuildRobotAuthClassInfo {
     public int order;
 
     public GProGuildRobotAuthClassInfo() {
-        this.className = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.className = "";
     }
 
     public String getClassName() {
@@ -22,7 +22,7 @@ public final class GProGuildRobotAuthClassInfo {
     }
 
     public GProGuildRobotAuthClassInfo(String str, int i) {
-        this.className = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.className = "";
         this.className = str;
         this.order = i;
     }

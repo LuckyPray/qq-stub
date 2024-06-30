@@ -19,7 +19,7 @@ public final class GProStVideoUrl {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.playUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.playUrl = "";
             this.busiData = new byte[0];
         }
     }

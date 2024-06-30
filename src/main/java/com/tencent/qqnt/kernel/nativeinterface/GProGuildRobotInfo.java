@@ -16,9 +16,9 @@ public final class GProGuildRobotInfo {
     public ArrayList<String> tags;
 
     public GProGuildRobotInfo() {
-        this.robotName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.robotAvatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.robotDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.robotName = "";
+        this.robotAvatar = "";
+        this.robotDesc = "";
         this.robotFeatures = new ArrayList<>();
         this.tags = new ArrayList<>();
     }
@@ -68,9 +68,9 @@ public final class GProGuildRobotInfo {
     }
 
     public GProGuildRobotInfo(long j, String str, String str2, String str3, int i, ArrayList<GProGuildRobotFeature> arrayList, int i2, long j2, boolean z, ArrayList<String> arrayList2) {
-        this.robotName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.robotAvatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.robotDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.robotName = "";
+        this.robotAvatar = "";
+        this.robotDesc = "";
         this.robotFeatures = new ArrayList<>();
         this.tags = new ArrayList<>();
         this.robotUin = j;

@@ -8,8 +8,8 @@ public final class SecurityButton {
     public String wording;
 
     public SecurityButton() {
-        this.wording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.wording = "";
+        this.url = "";
         this.jumpType = JumpType.values()[0];
     }
 
@@ -30,8 +30,8 @@ public final class SecurityButton {
     }
 
     public SecurityButton(String str, String str2, JumpType jumpType) {
-        this.wording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.wording = "";
+        this.url = "";
         this.jumpType = JumpType.values()[0];
         this.wording = str;
         this.url = str2;

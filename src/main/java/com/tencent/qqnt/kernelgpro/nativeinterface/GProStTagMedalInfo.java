@@ -15,8 +15,8 @@ public final class GProStTagMedalInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.tagID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.tagName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.tagID = "";
+            this.tagName = "";
         }
     }
 

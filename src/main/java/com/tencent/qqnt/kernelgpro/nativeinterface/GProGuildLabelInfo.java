@@ -22,10 +22,10 @@ public final class GProGuildLabelInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.profile = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildCover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.profile = "";
+        this.guildCover = "";
+        this.guildIcon = "";
         this.labels = new ArrayList<>();
         this.medals = new ArrayList<>();
         this.stateList = new ArrayList<>();

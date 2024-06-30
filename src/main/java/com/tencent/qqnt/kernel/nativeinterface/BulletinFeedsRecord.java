@@ -9,8 +9,8 @@ public final class BulletinFeedsRecord {
     public long groupCode;
     public int modifyTime;
     public int setTop;
-    public String fromUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String feedsId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String fromUid = "";
+    public String feedsId = "";
     public BulletinFeedsMsg feedsMsg = new BulletinFeedsMsg();
 
     public int getCreateTime() {

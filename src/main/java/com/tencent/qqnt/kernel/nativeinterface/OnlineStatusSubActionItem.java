@@ -11,12 +11,12 @@ public final class OnlineStatusSubActionItem {
     public String tofuBackground;
 
     public OnlineStatusSubActionItem() {
-        this.normalBackground = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.normalBgColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tofuBackground = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.posterText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.posterStatusTextColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.selectColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.normalBackground = "";
+        this.normalBgColor = "";
+        this.tofuBackground = "";
+        this.posterText = "";
+        this.posterStatusTextColor = "";
+        this.selectColor = "";
     }
 
     public String getNormalBackground() {
@@ -48,12 +48,12 @@ public final class OnlineStatusSubActionItem {
     }
 
     public OnlineStatusSubActionItem(String str, String str2, String str3, String str4, String str5, String str6) {
-        this.normalBackground = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.normalBgColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tofuBackground = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.posterText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.posterStatusTextColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.selectColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.normalBackground = "";
+        this.normalBgColor = "";
+        this.tofuBackground = "";
+        this.posterText = "";
+        this.posterStatusTextColor = "";
+        this.selectColor = "";
         this.normalBackground = str;
         this.normalBgColor = str2;
         this.tofuBackground = str3;

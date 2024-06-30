@@ -13,7 +13,7 @@ public final class OSLikeNotifyItem {
     public long uin;
 
     public OSLikeNotifyItem() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
         this.likeItems = new ArrayList<>();
     }
 
@@ -46,7 +46,7 @@ public final class OSLikeNotifyItem {
     }
 
     public OSLikeNotifyItem(int i, long j, String str, long j2, ArrayList<OSLikeItem> arrayList, int i2) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
         this.likeItems = new ArrayList<>();
         this.businessType = i;
         this.uin = j;

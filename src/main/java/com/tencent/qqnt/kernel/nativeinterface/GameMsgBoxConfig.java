@@ -9,7 +9,7 @@ public final class GameMsgBoxConfig {
     public int notificationType;
 
     public GameMsgBoxConfig() {
-        this.appName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appName = "";
     }
 
     public long getAppId() {
@@ -33,7 +33,7 @@ public final class GameMsgBoxConfig {
     }
 
     public GameMsgBoxConfig(long j, String str, int i, int i2) {
-        this.appName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appName = "";
         this.appId = j;
         this.appName = str;
         this.notificationType = i;

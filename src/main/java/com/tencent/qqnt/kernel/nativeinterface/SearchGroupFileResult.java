@@ -15,7 +15,7 @@ public final class SearchGroupFileResult {
 
     public SearchGroupFileResult() {
         this.result = new GroupFileCommonResult();
-        this.syncCookie = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.syncCookie = "";
         this.item = new ArrayList<>();
     }
 
@@ -53,7 +53,7 @@ public final class SearchGroupFileResult {
 
     public SearchGroupFileResult(GroupFileCommonResult groupFileCommonResult, String str, int i, int i2, boolean z, int i3, ArrayList<SearchGroupFileItem> arrayList) {
         this.result = new GroupFileCommonResult();
-        this.syncCookie = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.syncCookie = "";
         this.item = new ArrayList<>();
         this.result = groupFileCommonResult;
         this.syncCookie = str;

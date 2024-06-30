@@ -14,8 +14,8 @@ public final class GProJoinGuildAnswerItem {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.question = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.answer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.question = "";
+            this.answer = "";
         }
     }
 
@@ -43,8 +43,8 @@ public final class GProJoinGuildAnswerItem {
             iPatchRedirector.redirect((short) 2, this, str, str2);
             return;
         }
-        this.question = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.answer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.question = "";
+        this.answer = "";
         this.question = str;
         this.answer = str2;
     }

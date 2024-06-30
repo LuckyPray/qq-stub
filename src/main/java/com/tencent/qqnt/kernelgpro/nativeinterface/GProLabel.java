@@ -20,7 +20,7 @@ public final class GProLabel implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.text = "";
         }
     }
 

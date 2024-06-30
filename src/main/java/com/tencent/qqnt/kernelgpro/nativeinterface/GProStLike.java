@@ -23,11 +23,11 @@ public final class GProStLike {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.idd = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.idd = "";
         this.vecUserList = new ArrayList<>();
         this.busiData = new byte[0];
         this.postUser = new GProStUser();
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jumpUrl = "";
     }
 
     public byte[] getBusiData() {

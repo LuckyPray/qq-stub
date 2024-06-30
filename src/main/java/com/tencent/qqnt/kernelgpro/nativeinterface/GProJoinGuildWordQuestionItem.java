@@ -18,8 +18,8 @@ public final class GProJoinGuildWordQuestionItem implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.question = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.correctAnswer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.question = "";
+        this.correctAnswer = "";
     }
 
     public String getCorrectAnswer() {
@@ -65,8 +65,8 @@ public final class GProJoinGuildWordQuestionItem implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.question = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.correctAnswer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.question = "";
+        this.correctAnswer = "";
         this.question = str;
         this.correctAnswer = str2;
     }

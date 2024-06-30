@@ -5,7 +5,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class AddRobotGroupInfo {
     public boolean canAdd;
     public long groupId;
-    public String groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String groupName = "";
     public boolean inGroup;
 
     public boolean getCanAdd() {

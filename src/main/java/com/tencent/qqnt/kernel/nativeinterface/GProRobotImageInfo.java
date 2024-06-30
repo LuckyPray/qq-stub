@@ -6,8 +6,8 @@ public final class GProRobotImageInfo {
     public String url;
 
     public GProRobotImageInfo() {
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.desc = "";
     }
 
     public String getDesc() {
@@ -23,8 +23,8 @@ public final class GProRobotImageInfo {
     }
 
     public GProRobotImageInfo(String str, String str2) {
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.desc = "";
         this.url = str;
         this.desc = str2;
     }

@@ -18,7 +18,7 @@ public final class GProForumChannelInfo implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.hotIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.hotIcon = "";
         }
     }
 

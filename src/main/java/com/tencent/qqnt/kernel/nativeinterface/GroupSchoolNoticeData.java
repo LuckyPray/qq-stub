@@ -13,7 +13,7 @@ public final class GroupSchoolNoticeData {
     public int total;
 
     public GroupSchoolNoticeData() {
-        this.noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.noticeId = "";
         this.content = new GroupSchoolNoticeContent();
     }
 
@@ -54,7 +54,7 @@ public final class GroupSchoolNoticeData {
     }
 
     public GroupSchoolNoticeData(String str, long j, GroupSchoolNoticeContent groupSchoolNoticeContent, int i, long j2, boolean z, int i2, int i3) {
-        this.noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.noticeId = "";
         this.content = new GroupSchoolNoticeContent();
         this.noticeId = str;
         this.authorUin = j;

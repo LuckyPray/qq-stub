@@ -20,10 +20,10 @@ public final class RecentContactData {
     public long unreadCnt;
 
     public RecentContactData() {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.peerName = "";
+        this.avatarUrl = "";
+        this.avatarPath = "";
         this.abstractContent = new ArrayList<>();
         this.extAttrs = new ArrayList<>();
     }
@@ -85,10 +85,10 @@ public final class RecentContactData {
     }
 
     public RecentContactData(String str, long j, String str2, int i, long j2, String str3, String str4, int i2, ArrayList<MsgAbstractElementData> arrayList, long j3, ArrayList<SpecificEventTypeInfoInMsgBox> arrayList2, byte[] bArr, ArrayList<RecentContactExtAttr> arrayList3) {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.peerName = "";
+        this.avatarUrl = "";
+        this.avatarPath = "";
         this.abstractContent = new ArrayList<>();
         this.extAttrs = new ArrayList<>();
         this.peerUid = str;

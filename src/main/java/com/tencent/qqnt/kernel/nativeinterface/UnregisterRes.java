@@ -7,7 +7,7 @@ public final class UnregisterRes {
     public int result;
 
     public UnregisterRes() {
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
     }
 
     public String getMsg() {
@@ -23,7 +23,7 @@ public final class UnregisterRes {
     }
 
     public UnregisterRes(int i, String str) {
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
         this.result = i;
         this.msg = str;
     }

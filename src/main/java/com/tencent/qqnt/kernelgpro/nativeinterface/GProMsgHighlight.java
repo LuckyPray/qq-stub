@@ -12,7 +12,7 @@ public final class GProMsgHighlight {
     public GProMsgHighlight() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.keyWord = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.keyWord = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

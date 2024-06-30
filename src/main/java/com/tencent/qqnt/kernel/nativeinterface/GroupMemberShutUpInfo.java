@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GroupMemberShutUpInfo.class */
 public final class GroupMemberShutUpInfo {
     public int timeStamp;
-    public String uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String uid = "";
 
     public int getTimeStamp() {
         return this.timeStamp;

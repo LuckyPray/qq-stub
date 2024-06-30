@@ -25,11 +25,11 @@ public final class GProGuildThemeInfo implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.oldThemeTypeList = new ArrayList<>();
-        this.themeName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.themeIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.themeName = "";
+        this.themeIcon = "";
         this.themeColor = new byte[0];
-        this.themeBgImg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.themeBgImg = "";
+        this.sessionId = "";
     }
 
     public ArrayList<Integer> getOldThemeTypeList() {
@@ -83,11 +83,11 @@ public final class GProGuildThemeInfo implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.oldThemeTypeList = new ArrayList<>();
-        this.themeName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.themeIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.themeName = "";
+        this.themeIcon = "";
         this.themeColor = new byte[0];
-        this.themeBgImg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.themeBgImg = "";
+        this.sessionId = "";
         this.themeType = i;
         this.oldThemeTypeList = arrayList;
         this.themeName = str;

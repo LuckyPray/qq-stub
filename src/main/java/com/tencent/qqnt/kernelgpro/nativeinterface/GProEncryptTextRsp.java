@@ -12,7 +12,7 @@ public final class GProEncryptTextRsp {
     public GProEncryptTextRsp() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.encryptedText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.encryptedText = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -42,7 +42,7 @@ public final class GProEncryptTextRsp {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Boolean.valueOf(z), str});
             return;
         }
-        this.encryptedText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.encryptedText = "";
         this.isPassed = z;
         this.encryptedText = str;
     }

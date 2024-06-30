@@ -19,7 +19,7 @@ public final class BlockGrayTipElement implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.peerUid = "";
         }
     }
 
@@ -53,7 +53,7 @@ public final class BlockGrayTipElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
         this.peerUid = str;
         this.block = z;
         this.isBuddy = z2;

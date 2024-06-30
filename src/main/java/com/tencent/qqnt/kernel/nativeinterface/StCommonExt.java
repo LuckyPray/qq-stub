@@ -6,7 +6,7 @@ import java.util.ArrayList;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/StCommonExt.class */
 public final class StCommonExt {
     public ArrayList<Entry> mapInfo = new ArrayList<>();
-    public String attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String attachInfo = "";
     public ArrayList<BytesEntry> mapBytesInfo = new ArrayList<>();
     public ArrayList<StUserAccountEntry> mapUserAccount = new ArrayList<>();
 

@@ -5,8 +5,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class GroupRobotStoreSearchReq {
     public long groupId;
     public int sceneId;
-    public String traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String keywords = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String traceId = "";
+    public String keywords = "";
     public byte[] sessionInfo = new byte[0];
 
     public long getGroupId() {

@@ -15,8 +15,8 @@ public final class GProSaveNavigationItem {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.title = "";
+            this.jumpUrl = "";
         }
     }
 
@@ -76,8 +76,8 @@ public final class GProSaveNavigationItem {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2});
             return;
         }
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.jumpUrl = "";
         this.iconId = j;
         this.title = str;
         this.jumpUrl = str2;

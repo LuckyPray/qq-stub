@@ -6,7 +6,7 @@ public final class ImportMsgFilePath {
     public int pathType;
 
     public ImportMsgFilePath() {
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.filePath = "";
     }
 
     public String getFilePath() {
@@ -22,7 +22,7 @@ public final class ImportMsgFilePath {
     }
 
     public ImportMsgFilePath(int i, String str) {
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.filePath = "";
         this.pathType = i;
         this.filePath = str;
     }

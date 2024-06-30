@@ -10,12 +10,12 @@ public final class NTGetQunFeedsRsp {
     public int result;
     public int seq;
     public int unreadFeedsNum;
-    public String errMs = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String errMs = "";
+    public String traceId = "";
     public RequestTimelineInfo requestTimeLine = new RequestTimelineInfo();
     public StCommonExt extInfo = new StCommonExt();
     public ArrayList<ClientFeed> feeds = new ArrayList<>();
-    public String attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String attachInfo = "";
     public StBanner banner = new StBanner();
 
     public String getAttachInfo() {

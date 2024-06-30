@@ -6,7 +6,7 @@ import java.util.ArrayList;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/AiGenTemplateInfo.class */
 public final class AiGenTemplateInfo {
     public long nextOffset;
-    public String title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String title = "";
     public ArrayList<TemplateGroup> templateGroupList = new ArrayList<>();
 
     public long getNextOffset() {

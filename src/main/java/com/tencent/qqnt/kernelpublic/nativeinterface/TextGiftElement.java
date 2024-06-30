@@ -34,12 +34,12 @@ public final class TextGiftElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.giftName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.receiverNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.orderId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bgImageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.paddingTop = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.giftName = "";
+        this.receiverNick = "";
+        this.senderNick = "";
+        this.orderId = "";
+        this.bgImageUrl = "";
+        this.paddingTop = "";
         this.spendCoins = new ArrayList<>();
     }
 
@@ -138,12 +138,12 @@ public final class TextGiftElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.giftName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.receiverNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.orderId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bgImageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.paddingTop = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.giftName = "";
+        this.receiverNick = "";
+        this.senderNick = "";
+        this.orderId = "";
+        this.bgImageUrl = "";
+        this.paddingTop = "";
         this.spendCoins = new ArrayList<>();
         this.giftId = j;
         this.giftName = str;

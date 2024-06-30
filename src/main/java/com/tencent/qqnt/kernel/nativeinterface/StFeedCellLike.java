@@ -8,7 +8,7 @@ public final class StFeedCellLike {
     public boolean liked;
     public int num;
     public ArrayList<StLikeMan> likeMans = new ArrayList<>();
-    public String text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String text = "";
 
     public ArrayList<StLikeMan> getLikeMans() {
         return this.likeMans;

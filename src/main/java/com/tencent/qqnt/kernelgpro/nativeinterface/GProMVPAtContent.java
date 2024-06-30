@@ -22,9 +22,9 @@ public final class GProMVPAtContent implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.user = new GProMVPUser();
-        this.atAllText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.atAllText = "";
         this.roleGroup = new GProMVPRoleGroup();
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.text = "";
     }
 
     public String getAtAllText() {
@@ -68,9 +68,9 @@ public final class GProMVPAtContent implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.user = new GProMVPUser();
-        this.atAllText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.atAllText = "";
         this.roleGroup = new GProMVPRoleGroup();
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.text = "";
         this.type = i;
         this.user = gProMVPUser;
         this.atAllText = str;

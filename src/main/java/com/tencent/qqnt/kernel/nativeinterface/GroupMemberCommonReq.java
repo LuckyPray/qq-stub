@@ -7,14 +7,14 @@ import java.util.ArrayList;
 public final class GroupMemberCommonReq {
     public long groupCode;
     public int sourceType;
-    public String startUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String identifyFlag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String startUin = "";
+    public String identifyFlag = "";
     public ArrayList<Long> uinList = new ArrayList<>();
     public MemberCommonInfoFilter memberCommonFilter = new MemberCommonInfoFilter();
-    public String memberNum = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String filterMethod = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String onlineFlag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String realSpecialTitleFlag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String memberNum = "";
+    public String filterMethod = "";
+    public String onlineFlag = "";
+    public String realSpecialTitleFlag = "";
 
     public String getFilterMethod() {
         return this.filterMethod;

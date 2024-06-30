@@ -7,7 +7,7 @@ public final class SearchChatAtMeMsgsParams {
     public String peerUid;
 
     public SearchChatAtMeMsgsParams() {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
     }
 
     public boolean getIncludeAtAll() {
@@ -27,7 +27,7 @@ public final class SearchChatAtMeMsgsParams {
     }
 
     public SearchChatAtMeMsgsParams(String str, boolean z, int i) {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
         this.peerUid = str;
         this.includeAtAll = z;
         this.pageLimit = i;

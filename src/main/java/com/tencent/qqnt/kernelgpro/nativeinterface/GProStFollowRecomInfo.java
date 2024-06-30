@@ -18,10 +18,10 @@ public final class GProStFollowRecomInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.followText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.followText = "";
         this.followUsers = new ArrayList<>();
-        this.commFriendText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.commGroupText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.commFriendText = "";
+        this.commGroupText = "";
     }
 
     public String getCommFriendText() {

@@ -10,7 +10,7 @@ public final class DelBuddyReq implements IKernelModel {
     public int reqType;
 
     public DelBuddyReq() {
-        this.friendUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.friendUid = "";
     }
 
     public String getFriendUid() {
@@ -58,7 +58,7 @@ public final class DelBuddyReq implements IKernelModel {
     }
 
     public DelBuddyReq(boolean z, boolean z2, String str, int i, long j) {
-        this.friendUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.friendUid = "";
         this.isDecide = z;
         this.isInitiator = z2;
         this.friendUid = str;

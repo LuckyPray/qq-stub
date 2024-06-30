@@ -9,7 +9,7 @@ public final class UserPermission {
     public Boolean qzoneNotWatched;
 
     public UserPermission() {
-        this.friendUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.friendUid = "";
     }
 
     public String getFriendUid() {
@@ -37,7 +37,7 @@ public final class UserPermission {
     }
 
     public UserPermission(long j, String str, Boolean bool, Boolean bool2, Boolean bool3) {
-        this.friendUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.friendUid = "";
         this.friendUin = j;
         this.friendUid = str;
         this.onlyChat = bool;

@@ -10,7 +10,7 @@ public final class GProGuildRobotInlineLayout {
     public int type;
 
     public GProGuildRobotInlineLayout() {
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
         this.layoutDataList = new ArrayList<>();
     }
 
@@ -35,7 +35,7 @@ public final class GProGuildRobotInlineLayout {
     }
 
     public GProGuildRobotInlineLayout(int i, int i2, String str, ArrayList<GProGuildRobotInlineLayoutData> arrayList) {
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
         this.layoutDataList = new ArrayList<>();
         this.type = i;
         this.action = i2;

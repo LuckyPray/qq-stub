@@ -5,10 +5,10 @@ import java.util.ArrayList;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/RobotRecommendCardInfo.class */
 public final class RobotRecommendCardInfo {
-    public String cardId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String cardId = "";
+    public String name = "";
+    public String desc = "";
+    public String jumpUrl = "";
     public ArrayList<RobotCoreInfo> robots = new ArrayList<>();
     public RobotRecommendCardInfoType type = RobotRecommendCardInfoType.values()[0];
 

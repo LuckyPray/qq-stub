@@ -22,8 +22,8 @@ public final class GProItemIdInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.itemIdStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.originId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.itemIdStr = "";
+        this.originId = "";
     }
 
     public long getChannelId() {
@@ -125,8 +125,8 @@ public final class GProItemIdInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.itemIdStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.originId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.itemIdStr = "";
+        this.originId = "";
         this.itemIdStr = str;
         this.itemIdI64 = j;
         this.guildId = j2;

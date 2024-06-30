@@ -3,7 +3,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GroupMemberCache.class */
 public final class GroupMemberCache {
-    public String specialTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String specialTitle = "";
     public int titleId;
 
     public String getSpecialTitle() {

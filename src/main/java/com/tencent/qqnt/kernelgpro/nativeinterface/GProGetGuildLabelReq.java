@@ -11,7 +11,7 @@ public final class GProGetGuildLabelReq {
     public GProGetGuildLabelReq() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.code = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.code = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -44,7 +44,7 @@ public final class GProGetGuildLabelReq {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
             iPatchRedirector.redirect((short) 2, this, str);
         } else {
-            this.code = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.code = "";
             this.code = str;
         }
     }

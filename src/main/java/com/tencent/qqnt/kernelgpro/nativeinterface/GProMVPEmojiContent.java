@@ -20,8 +20,8 @@ public final class GProMVPEmojiContent implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.f65id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.type = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f65id = "";
+        this.type = "";
     }
 
     public String getId() {
@@ -49,8 +49,8 @@ public final class GProMVPEmojiContent implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.f65id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.type = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f65id = "";
+        this.type = "";
         this.f65id = str;
         this.type = str2;
     }

@@ -22,9 +22,9 @@ public final class GProGetContentRecommendReq {
         }
         this.source = new GProMVPSourceInfo();
         this.cookies = new byte[0];
-        this.sessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.busiInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.navigationVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sessionId = "";
+        this.busiInfo = "";
+        this.navigationVersion = "";
     }
 
     public String getBusiInfo() {
@@ -141,9 +141,9 @@ public final class GProGetContentRecommendReq {
         }
         this.source = new GProMVPSourceInfo();
         this.cookies = new byte[0];
-        this.sessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.busiInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.navigationVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sessionId = "";
+        this.busiInfo = "";
+        this.navigationVersion = "";
         this.source = gProMVPSourceInfo;
         this.cookies = bArr;
         this.direction = i;

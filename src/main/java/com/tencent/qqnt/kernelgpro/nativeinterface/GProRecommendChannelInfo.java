@@ -40,19 +40,19 @@ public final class GProRecommendChannelInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildProfile = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildIcon = "";
+        this.guildProfile = "";
         this.stateList = new ArrayList<>();
-        this.shareLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.itemId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.shareLink = "";
+        this.coverUrl = "";
+        this.joinGuildSig = "";
+        this.channelName = "";
+        this.itemId = "";
         this.tagList = new ArrayList<>();
         this.seqInfo = new GProRecommendSeqInfo();
-        this.guildNumber = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.titleName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildNumber = "";
+        this.titleName = "";
         this.medalInfoList = new ArrayList<>();
     }
 
@@ -186,19 +186,19 @@ public final class GProRecommendChannelInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildProfile = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildIcon = "";
+        this.guildProfile = "";
         this.stateList = new ArrayList<>();
-        this.shareLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.itemId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.shareLink = "";
+        this.coverUrl = "";
+        this.joinGuildSig = "";
+        this.channelName = "";
+        this.itemId = "";
         this.tagList = new ArrayList<>();
         this.seqInfo = new GProRecommendSeqInfo();
-        this.guildNumber = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.titleName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildNumber = "";
+        this.titleName = "";
         this.medalInfoList = new ArrayList<>();
         this.guildId = j;
         this.guildName = str;

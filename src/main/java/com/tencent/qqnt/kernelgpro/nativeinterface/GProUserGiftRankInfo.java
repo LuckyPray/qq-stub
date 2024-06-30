@@ -23,8 +23,8 @@ public final class GProUserGiftRankInfo implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.userInfo = new GProUser();
-        this.rankInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.rankInfo = "";
+        this.jumpUrl = "";
     }
 
     public long getChannelId() {
@@ -73,8 +73,8 @@ public final class GProUserGiftRankInfo implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.userInfo = new GProUser();
-        this.rankInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.rankInfo = "";
+        this.jumpUrl = "";
         this.guildId = j;
         this.channelId = j2;
         this.userInfo = gProUser;

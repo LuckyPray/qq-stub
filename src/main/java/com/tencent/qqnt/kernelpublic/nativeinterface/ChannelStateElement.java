@@ -31,8 +31,8 @@ public final class ChannelStateElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.firstMemberDisplayName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.roomTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.firstMemberDisplayName = "";
+        this.roomTitle = "";
         this.channStateList = new ArrayList<>();
     }
 
@@ -116,8 +116,8 @@ public final class ChannelStateElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.firstMemberDisplayName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.roomTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.firstMemberDisplayName = "";
+        this.roomTitle = "";
         this.channStateList = new ArrayList<>();
         this.guildId = j;
         this.channelId = j2;

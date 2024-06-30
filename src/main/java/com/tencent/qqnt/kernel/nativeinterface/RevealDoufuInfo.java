@@ -8,8 +8,8 @@ public final class RevealDoufuInfo {
     public String uuid;
 
     public RevealDoufuInfo() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uuid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.uuid = "";
     }
 
     public long getBid() {
@@ -29,8 +29,8 @@ public final class RevealDoufuInfo {
     }
 
     public RevealDoufuInfo(String str, long j, String str2) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uuid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.uuid = "";
         this.uid = str;
         this.bid = j;
         this.uuid = str2;

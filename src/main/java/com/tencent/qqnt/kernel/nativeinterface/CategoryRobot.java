@@ -6,7 +6,7 @@ import java.util.ArrayList;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/CategoryRobot.class */
 public final class CategoryRobot {
     public int categoryId;
-    public String categoryName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String categoryName = "";
     public ArrayList<GroupRobot> robots = new ArrayList<>();
 
     public int getCategoryId() {

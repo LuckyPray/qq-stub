@@ -15,8 +15,8 @@ public final class GuildNotificationAbstractInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.abstractContent = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.guildId = "";
+            this.abstractContent = "";
         }
     }
 
@@ -44,8 +44,8 @@ public final class GuildNotificationAbstractInfo {
             iPatchRedirector.redirect((short) 2, this, str, str2);
             return;
         }
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.abstractContent = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildId = "";
+        this.abstractContent = "";
         this.guildId = str;
         this.abstractContent = str2;
     }

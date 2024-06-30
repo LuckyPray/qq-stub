@@ -11,7 +11,7 @@ public final class MultiTransInfo {
 
     public MultiTransInfo() {
         this.fromAnonId = new byte[0];
-        this.fromFaceUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fromFaceUrl = "";
     }
 
     public int getFriendFlag() {
@@ -40,7 +40,7 @@ public final class MultiTransInfo {
 
     public MultiTransInfo(int i, int i2, int i3, byte[] bArr, String str) {
         this.fromAnonId = new byte[0];
-        this.fromFaceUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fromFaceUrl = "";
         this.status = i;
         this.msgId = i2;
         this.friendFlag = i3;

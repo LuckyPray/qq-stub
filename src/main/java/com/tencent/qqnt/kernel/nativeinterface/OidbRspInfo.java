@@ -9,8 +9,8 @@ public final class OidbRspInfo {
     public String tips;
 
     public OidbRspInfo() {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
+        this.tips = "";
         this.respData = new byte[0];
     }
 
@@ -35,8 +35,8 @@ public final class OidbRspInfo {
     }
 
     public OidbRspInfo(int i, String str, String str2, byte[] bArr) {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
+        this.tips = "";
         this.respData = new byte[0];
         this.result = i;
         this.errMsg = str;

@@ -10,8 +10,8 @@ public final class RecentContactUnreadInfo {
     public int unreadFlag;
 
     public RecentContactUnreadInfo() {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.uin = "";
     }
 
     public int getChatType() {
@@ -39,8 +39,8 @@ public final class RecentContactUnreadInfo {
     }
 
     public RecentContactUnreadInfo(String str, String str2, int i, int i2, int i3) {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.uin = "";
         this.peerUid = str;
         this.uin = str2;
         this.chatType = i;

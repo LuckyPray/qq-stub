@@ -7,14 +7,14 @@ public final class SearchGroupFile {
     public int isInGroup;
 
     /* renamed from: id */
-    public String f36id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String fileSize = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String tag = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String fileLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String joinGroupAuth = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String f36id = "";
+    public String fileName = "";
+    public String iconUrl = "";
+    public String fileSize = "";
+    public String tag = "";
+    public String groupName = "";
+    public String fileLink = "";
+    public String joinGroupAuth = "";
 
     public String getFileLink() {
         return this.fileLink;

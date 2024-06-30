@@ -28,8 +28,8 @@ public final class GProCategoryInfo implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.msgChannelInfoList = new ArrayList<>();
-        this.categoryName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.categoryAlias = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categoryName = "";
+        this.categoryAlias = "";
         this.bytesCategoryCommonList = new ArrayList<>();
     }
 

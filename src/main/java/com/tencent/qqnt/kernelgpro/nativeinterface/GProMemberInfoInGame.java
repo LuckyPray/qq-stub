@@ -35,17 +35,17 @@ public final class GProMemberInfoInGame implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.heroName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.heroPic = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.record = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.schema = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nickName = "";
+        this.heroName = "";
+        this.heroPic = "";
+        this.record = "";
+        this.schema = "";
         this.goodHeroIconList = new ArrayList<>();
-        this.honorIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.honorDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.identityDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.backgroundPic = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.gradeLevelIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.honorIcon = "";
+        this.honorDesc = "";
+        this.identityDesc = "";
+        this.backgroundPic = "";
+        this.gradeLevelIcon = "";
     }
 
     public String getBackgroundPic() {

@@ -19,11 +19,11 @@ public final class GProStIconInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.iconUrl40 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl100 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl140 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl640 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl40 = "";
+        this.iconUrl100 = "";
+        this.iconUrl140 = "";
+        this.iconUrl640 = "";
+        this.iconUrl = "";
         this.avatarMeta = new byte[0];
     }
 

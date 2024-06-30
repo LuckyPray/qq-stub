@@ -14,9 +14,9 @@ public final class AndroidImportTableInfo {
     public int uinType;
 
     public AndroidImportTableInfo() {
-        this.tableName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tableName = "";
+        this.uin = "";
+        this.groupUin = "";
         this.tmpSessionSig = new byte[0];
     }
 
@@ -61,9 +61,9 @@ public final class AndroidImportTableInfo {
     }
 
     public AndroidImportTableInfo(String str, String str2, int i, int i2, int i3, long j, long j2, String str3, byte[] bArr) {
-        this.tableName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tableName = "";
+        this.uin = "";
+        this.groupUin = "";
         this.tmpSessionSig = new byte[0];
         this.tableName = str;
         this.uin = str2;

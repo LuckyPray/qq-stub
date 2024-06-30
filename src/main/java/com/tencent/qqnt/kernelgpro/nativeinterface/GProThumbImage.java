@@ -19,7 +19,7 @@ public final class GProThumbImage implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.url = "";
         }
     }
 
@@ -58,7 +58,7 @@ public final class GProThumbImage implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
         this.level = i;
         this.url = str;
         this.width = i2;

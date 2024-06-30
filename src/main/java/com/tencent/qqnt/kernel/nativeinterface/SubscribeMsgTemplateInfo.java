@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SubscribeMsgTemplateInfo.class */
 public final class SubscribeMsgTemplateInfo {
     public SubscribeMsgTemplateID templateId = new SubscribeMsgTemplateID();
-    public String templateTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String templateTitle = "";
 
     public SubscribeMsgTemplateID getTemplateId() {
         return this.templateId;

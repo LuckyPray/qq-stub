@@ -14,8 +14,8 @@ public final class GProThirdPlatform {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.icon = "";
+            this.name = "";
         }
     }
 

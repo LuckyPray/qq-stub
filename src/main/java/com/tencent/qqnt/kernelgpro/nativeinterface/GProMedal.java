@@ -20,8 +20,8 @@ public final class GProMedal implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.desc = "";
     }
 
     public String getDesc() {
@@ -59,8 +59,8 @@ public final class GProMedal implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.desc = "";
         this.startTime = j;
         this.endTime = j2;
         this.url = str;

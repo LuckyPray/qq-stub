@@ -15,7 +15,7 @@ public final class GProActiveChannelInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.guildId = "";
             this.channelIds = new ArrayList<>();
         }
     }

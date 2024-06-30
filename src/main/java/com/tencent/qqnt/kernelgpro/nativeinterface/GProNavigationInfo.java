@@ -22,10 +22,10 @@ public final class GProNavigationInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bubbleDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
+        this.title = "";
+        this.jumpUrl = "";
+        this.bubbleDesc = "";
     }
 
     public String getBubbleDesc() {

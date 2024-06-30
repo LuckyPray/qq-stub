@@ -18,8 +18,8 @@ public final class GproXWorldInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.guildUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.guildUrl = "";
+            this.guildName = "";
         }
     }
 
@@ -62,8 +62,8 @@ public final class GproXWorldInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Boolean.valueOf(z), Long.valueOf(j), str, Long.valueOf(j2), str2});
             return;
         }
-        this.guildUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildUrl = "";
+        this.guildName = "";
         this.allowDisplay = z;
         this.guildId = j;
         this.guildUrl = str;

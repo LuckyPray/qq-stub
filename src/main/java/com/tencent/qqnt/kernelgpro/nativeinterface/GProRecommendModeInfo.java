@@ -14,7 +14,7 @@ public final class GProRecommendModeInfo {
     public GProRecommendModeInfo() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.modeName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.modeName = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -54,7 +54,7 @@ public final class GProRecommendModeInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, Boolean.valueOf(z), Integer.valueOf(i2)});
             return;
         }
-        this.modeName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.modeName = "";
         this.modeId = i;
         this.modeName = str;
         this.isPK = z;

@@ -9,10 +9,10 @@ public final class AndroidImportTinyIdInfo {
     public String toTinyId;
 
     public AndroidImportTinyIdInfo() {
-        this.friendUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.selfTinyId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fromTinyId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.toTinyId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.friendUin = "";
+        this.selfTinyId = "";
+        this.fromTinyId = "";
+        this.toTinyId = "";
     }
 
     public String getFriendUin() {
@@ -36,10 +36,10 @@ public final class AndroidImportTinyIdInfo {
     }
 
     public AndroidImportTinyIdInfo(String str, String str2, String str3, String str4) {
-        this.friendUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.selfTinyId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fromTinyId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.toTinyId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.friendUin = "";
+        this.selfTinyId = "";
+        this.fromTinyId = "";
+        this.toTinyId = "";
         this.friendUin = str;
         this.selfTinyId = str2;
         this.fromTinyId = str3;

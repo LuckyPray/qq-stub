@@ -27,13 +27,13 @@ public final class GProStImage {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.picUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.picUrl = "";
         this.vecImageUrlList = new ArrayList<>();
-        this.picId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.picId = "";
         this.busiData = new byte[0];
-        this.imageMD5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.layerPicUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.patternId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.imageMD5 = "";
+        this.layerPicUrl = "";
+        this.patternId = "";
     }
 
     public byte[] getBusiData() {

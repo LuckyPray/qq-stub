@@ -5,7 +5,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class FetchShareInfoReq {
     public RobotShareScene scene = RobotShareScene.values()[0];
     public RobotShareTarget target = RobotShareTarget.values()[0];
-    public String uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String uid = "";
 
     public RobotShareScene getScene() {
         return this.scene;

@@ -7,7 +7,7 @@ public final class EmojiHotPicGetJumpInfoReqBody {
     public int srcType;
 
     public EmojiHotPicGetJumpInfoReqBody() {
-        this.emojiMd5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.emojiMd5 = "";
     }
 
     public String getEmojiMd5() {
@@ -27,7 +27,7 @@ public final class EmojiHotPicGetJumpInfoReqBody {
     }
 
     public EmojiHotPicGetJumpInfoReqBody(int i, String str, int i2) {
-        this.emojiMd5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.emojiMd5 = "";
         this.jumpId = i;
         this.emojiMd5 = str;
         this.srcType = i2;

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public final class SearchNetResultTabsRsp {
     public int resultCode;
     public int searchHistoryCount;
-    public String errorMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String errorMsg = "";
     public ArrayList<SearchTabInfo> tabs = new ArrayList<>();
     public SearchGroupSearchFilterCondition groupFilterCondition = new SearchGroupSearchFilterCondition();
 

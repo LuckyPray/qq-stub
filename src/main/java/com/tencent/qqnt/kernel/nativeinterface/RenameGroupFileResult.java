@@ -8,7 +8,7 @@ public final class RenameGroupFileResult {
 
     public RenameGroupFileResult() {
         this.result = new GroupFileCommonResult();
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileId = "";
     }
 
     public String getFileId() {
@@ -25,7 +25,7 @@ public final class RenameGroupFileResult {
 
     public RenameGroupFileResult(GroupFileCommonResult groupFileCommonResult, String str) {
         this.result = new GroupFileCommonResult();
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileId = "";
         this.result = groupFileCommonResult;
         this.fileId = str;
     }

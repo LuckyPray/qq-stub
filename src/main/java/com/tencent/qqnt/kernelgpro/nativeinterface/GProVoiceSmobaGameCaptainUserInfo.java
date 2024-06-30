@@ -18,8 +18,8 @@ public final class GProVoiceSmobaGameCaptainUserInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.avatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.avatarMeta = "";
+        this.nickName = "";
     }
 
     public String getAvatarMeta() {
@@ -47,8 +47,8 @@ public final class GProVoiceSmobaGameCaptainUserInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.avatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.avatarMeta = "";
+        this.nickName = "";
         this.avatarMeta = str;
         this.nickName = str2;
     }

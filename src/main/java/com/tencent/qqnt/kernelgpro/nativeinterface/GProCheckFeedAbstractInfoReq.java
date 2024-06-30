@@ -11,7 +11,7 @@ public final class GProCheckFeedAbstractInfoReq {
     public GProCheckFeedAbstractInfoReq() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.feedUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.feedUrl = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

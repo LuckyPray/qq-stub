@@ -11,9 +11,9 @@ public final class MemberExtInfo {
     public int point;
     public long specialTitleExpireTime;
     public long uin;
-    public String strName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String specialTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String strName = "";
+    public String nickName = "";
+    public String specialTitle = "";
     public byte[] msgNeedField = new byte[0];
     public ArrayList<MemberIcon> memberIconList = new ArrayList<>();
 

@@ -13,8 +13,8 @@ public final class NTGetMediaListTailTabRsp {
     public String traceId;
 
     public NTGetMediaListTailTabRsp() {
-        this.errMs = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMs = "";
+        this.traceId = "";
         this.requestTimeLine = new RequestTimelineInfo();
         this.albums = new ArrayList<>();
     }
@@ -48,8 +48,8 @@ public final class NTGetMediaListTailTabRsp {
     }
 
     public NTGetMediaListTailTabRsp(int i, int i2, String str, String str2, RequestTimelineInfo requestTimelineInfo, ArrayList<AlbumInfo> arrayList) {
-        this.errMs = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMs = "";
+        this.traceId = "";
         this.requestTimeLine = new RequestTimelineInfo();
         this.albums = new ArrayList<>();
         this.seq = i;

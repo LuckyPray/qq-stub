@@ -8,8 +8,8 @@ public final class FirstViewGroupGuildInfo {
     public String guildId;
 
     public FirstViewGroupGuildInfo() {
-        this.groupId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupId = "";
+        this.guildId = "";
     }
 
     public int getGroupGuildSwitch() {
@@ -29,8 +29,8 @@ public final class FirstViewGroupGuildInfo {
     }
 
     public FirstViewGroupGuildInfo(String str, String str2, int i) {
-        this.groupId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupId = "";
+        this.guildId = "";
         this.groupId = str;
         this.guildId = str2;
         this.groupGuildSwitch = i;

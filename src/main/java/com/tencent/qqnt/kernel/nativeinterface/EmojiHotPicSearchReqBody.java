@@ -17,7 +17,7 @@ public final class EmojiHotPicSearchReqBody {
     public String userText;
 
     public EmojiHotPicSearchReqBody() {
-        this.userText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.userText = "";
     }
 
     public int getAioType() {
@@ -77,7 +77,7 @@ public final class EmojiHotPicSearchReqBody {
     }
 
     public EmojiHotPicSearchReqBody(long j, String str, int i, int i2, byte[] bArr, int i3, int i4, String str2, long j2, long j3, long j4, boolean z) {
-        this.userText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.userText = "";
         this.srcUin = j;
         this.userText = str;
         this.pageSize = i;

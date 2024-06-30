@@ -7,7 +7,7 @@ public final class SubscribeMsgTemplateID {
     public int templateId;
 
     public SubscribeMsgTemplateID() {
-        this.customTemplateId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.customTemplateId = "";
     }
 
     public String getCustomTemplateId() {
@@ -23,7 +23,7 @@ public final class SubscribeMsgTemplateID {
     }
 
     public SubscribeMsgTemplateID(int i, String str) {
-        this.customTemplateId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.customTemplateId = "";
         this.templateId = i;
         this.customTemplateId = str;
     }

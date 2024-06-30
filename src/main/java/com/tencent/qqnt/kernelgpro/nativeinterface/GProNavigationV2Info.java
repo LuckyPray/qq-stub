@@ -30,15 +30,15 @@ public final class GProNavigationV2Info {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bubbleDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrlAuditDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.titleAuditDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uuid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
+        this.title = "";
+        this.jumpUrl = "";
+        this.bubbleDesc = "";
+        this.jumpUrlAuditDesc = "";
+        this.titleAuditDesc = "";
+        this.uuid = "";
         this.extInfo = new GProNavigationItemExt();
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appId = "";
     }
 
     public String getAppId() {
@@ -140,15 +140,15 @@ public final class GProNavigationV2Info {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, str3, Integer.valueOf(i), Boolean.valueOf(z), str4, Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i2), Integer.valueOf(i3), str5, Integer.valueOf(i4), str6, str7, gProNavigationItemExt, str8});
             return;
         }
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bubbleDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrlAuditDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.titleAuditDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uuid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
+        this.title = "";
+        this.jumpUrl = "";
+        this.bubbleDesc = "";
+        this.jumpUrlAuditDesc = "";
+        this.titleAuditDesc = "";
+        this.uuid = "";
         this.extInfo = new GProNavigationItemExt();
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appId = "";
         this.iconId = j;
         this.iconUrl = str;
         this.title = str2;

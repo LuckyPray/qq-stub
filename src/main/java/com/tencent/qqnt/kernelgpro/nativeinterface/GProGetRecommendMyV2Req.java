@@ -25,7 +25,7 @@ public final class GProGetRecommendMyV2Req {
         }
         this.source = new GProBottomTabSourceInfo();
         this.cookies = new byte[0];
-        this.busiInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.busiInfo = "";
         this.adReq = new byte[0];
         this.tags = new ArrayList<>();
     }
@@ -172,7 +172,7 @@ public final class GProGetRecommendMyV2Req {
         }
         this.source = new GProBottomTabSourceInfo();
         this.cookies = new byte[0];
-        this.busiInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.busiInfo = "";
         this.adReq = new byte[0];
         this.tags = new ArrayList<>();
         this.businessType = i;

@@ -23,15 +23,15 @@ public final class BaseExtendedInfo {
     public int shengXiao;
 
     public BaseExtendedInfo() {
-        this.homeTown = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.pos = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.college = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.country = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.province = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.city = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.postCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.address = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.interest = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.homeTown = "";
+        this.pos = "";
+        this.college = "";
+        this.country = "";
+        this.province = "";
+        this.city = "";
+        this.postCode = "";
+        this.address = "";
+        this.interest = "";
         this.labels = new ArrayList<>();
         this.qqLevel = new QQLevel();
     }
@@ -105,15 +105,15 @@ public final class BaseExtendedInfo {
     }
 
     public BaseExtendedInfo(int i, int i2, int i3, String str, int i4, String str2, String str3, String str4, String str5, String str6, String str7, String str8, int i5, String str9, ArrayList<String> arrayList, QQLevel qQLevel) {
-        this.homeTown = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.pos = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.college = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.country = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.province = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.city = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.postCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.address = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.interest = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.homeTown = "";
+        this.pos = "";
+        this.college = "";
+        this.country = "";
+        this.province = "";
+        this.city = "";
+        this.postCode = "";
+        this.address = "";
+        this.interest = "";
         this.labels = new ArrayList<>();
         this.qqLevel = new QQLevel();
         this.constellation = i;

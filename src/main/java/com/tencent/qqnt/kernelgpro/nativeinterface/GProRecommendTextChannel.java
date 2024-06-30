@@ -27,8 +27,8 @@ public final class GProRecommendTextChannel implements Serializable {
         this.serialVersionUID = 1L;
         this.msgAbstracts = new ArrayList<>();
         this.avatars = new ArrayList<>();
-        this.tagMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.msgSummary = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tagMsg = "";
+        this.msgSummary = "";
         this.memberAvatars = new ArrayList<>();
     }
 
@@ -84,8 +84,8 @@ public final class GProRecommendTextChannel implements Serializable {
         this.serialVersionUID = 1L;
         this.msgAbstracts = new ArrayList<>();
         this.avatars = new ArrayList<>();
-        this.tagMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.msgSummary = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tagMsg = "";
+        this.msgSummary = "";
         this.memberAvatars = new ArrayList<>();
         this.msgAbstracts = arrayList;
         this.avatars = arrayList2;

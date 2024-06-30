@@ -22,8 +22,8 @@ public final class GProSelectedGuildCard implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildAvatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildAvatar = "";
         this.tagList = new ArrayList<>();
         this.medals = new ArrayList<>();
     }

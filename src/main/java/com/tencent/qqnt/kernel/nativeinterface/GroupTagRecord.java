@@ -8,9 +8,9 @@ public final class GroupTagRecord {
     public long groupCode;
     public long setTime;
     public int tagLen;
-    public String fromUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String tagId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String tagValue = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String fromUid = "";
+    public String tagId = "";
+    public String tagValue = "";
 
     public int getBadNum() {
         return this.badNum;

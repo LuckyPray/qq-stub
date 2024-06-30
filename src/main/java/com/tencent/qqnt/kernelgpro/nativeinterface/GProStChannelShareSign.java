@@ -12,7 +12,7 @@ public final class GProStChannelShareSign {
     public GProStChannelShareSign() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.token = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.token = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

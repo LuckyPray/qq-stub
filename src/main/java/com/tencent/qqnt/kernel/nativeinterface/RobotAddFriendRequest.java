@@ -7,7 +7,7 @@ public final class RobotAddFriendRequest {
     public long robotUin;
 
     public RobotAddFriendRequest() {
-        this.robotUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.robotUid = "";
     }
 
     public String getRobotUid() {
@@ -23,7 +23,7 @@ public final class RobotAddFriendRequest {
     }
 
     public RobotAddFriendRequest(long j, String str) {
-        this.robotUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.robotUid = "";
         this.robotUin = j;
         this.robotUid = str;
     }

@@ -23,10 +23,10 @@ public final class GProGetTopicFeedsRsp {
         }
         this.feeds = new ArrayList<>();
         this.attachInfo = new byte[0];
-        this.pageView = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.totalFeedNum = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.topicName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.pageView = "";
+        this.totalFeedNum = "";
+        this.topicName = "";
+        this.traceId = "";
     }
 
     public byte[] getAttachInfo() {

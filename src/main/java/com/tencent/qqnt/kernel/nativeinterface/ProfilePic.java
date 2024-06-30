@@ -9,7 +9,7 @@ public final class ProfilePic {
     public HashMap<Integer, ProfilePicUrl> picUrlMap;
 
     public ProfilePic() {
-        this.picId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.picId = "";
         this.picUrlMap = new HashMap<>();
     }
 
@@ -30,7 +30,7 @@ public final class ProfilePic {
     }
 
     public ProfilePic(String str, int i, HashMap<Integer, ProfilePicUrl> hashMap) {
-        this.picId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.picId = "";
         this.picUrlMap = new HashMap<>();
         this.picId = str;
         this.picTime = i;

@@ -11,9 +11,9 @@ public final class TempChatInfo {
     public byte[] sig;
 
     public TempChatInfo() {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fromNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.groupCode = "";
+        this.fromNick = "";
         this.sig = new byte[0];
     }
 
@@ -46,9 +46,9 @@ public final class TempChatInfo {
     }
 
     public TempChatInfo(int i, int i2, String str, String str2, String str3, byte[] bArr) {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fromNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.groupCode = "";
+        this.fromNick = "";
         this.sig = new byte[0];
         this.sessionType = i;
         this.chatType = i2;

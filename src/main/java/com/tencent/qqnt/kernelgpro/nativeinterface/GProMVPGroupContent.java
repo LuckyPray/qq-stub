@@ -21,9 +21,9 @@ public final class GProMVPGroupContent implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupAvatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupJoinAuth = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupName = "";
+        this.groupAvatar = "";
+        this.groupJoinAuth = "";
     }
 
     public String getGroupAvatar() {

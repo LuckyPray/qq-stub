@@ -19,9 +19,9 @@ public final class GProQuickJoinCycleStatusTag implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.highlightedText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
+        this.text = "";
+        this.highlightedText = "";
     }
 
     public String getHighlightedText() {
@@ -54,9 +54,9 @@ public final class GProQuickJoinCycleStatusTag implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.highlightedText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
+        this.text = "";
+        this.highlightedText = "";
         this.iconUrl = str;
         this.text = str2;
         this.highlightedText = str3;

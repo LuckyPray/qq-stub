@@ -11,7 +11,7 @@ public final class GProGuildRobotCardRecommendRsp {
     public String text;
 
     public GProGuildRobotCardRecommendRsp() {
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.text = "";
         this.bots = new ArrayList<>();
     }
 
@@ -40,7 +40,7 @@ public final class GProGuildRobotCardRecommendRsp {
     }
 
     public GProGuildRobotCardRecommendRsp(String str, ArrayList<GProGuildRobotInfo> arrayList, int i, long j, int i2) {
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.text = "";
         this.bots = new ArrayList<>();
         this.text = str;
         this.bots = arrayList;

@@ -14,12 +14,12 @@ public final class FileAssistantSession {
     public String uid;
 
     public FileAssistantSession() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.memberCard = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupRemark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.nick = "";
+        this.remark = "";
+        this.memberCard = "";
+        this.groupName = "";
+        this.groupRemark = "";
     }
 
     public String getContext() {
@@ -63,12 +63,12 @@ public final class FileAssistantSession {
     }
 
     public FileAssistantSession(String str, String str2, String str3, String str4, String str5, long j, String str6, String str7, int i) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.memberCard = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupRemark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.nick = "";
+        this.remark = "";
+        this.memberCard = "";
+        this.groupName = "";
+        this.groupRemark = "";
         this.context = str;
         this.uid = str2;
         this.nick = str3;

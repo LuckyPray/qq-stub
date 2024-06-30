@@ -15,8 +15,8 @@ public final class GProBlackUserInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.avatarUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.nickName = "";
+            this.avatarUrl = "";
         }
     }
 
@@ -49,8 +49,8 @@ public final class GProBlackUserInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2});
             return;
         }
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nickName = "";
+        this.avatarUrl = "";
         this.tinyId = j;
         this.nickName = str;
         this.avatarUrl = str2;

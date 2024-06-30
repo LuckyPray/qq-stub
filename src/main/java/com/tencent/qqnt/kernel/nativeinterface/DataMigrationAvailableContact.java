@@ -10,10 +10,10 @@ public final class DataMigrationAvailableContact {
     public String remark;
 
     public DataMigrationAvailableContact() {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.peerName = "";
+        this.remark = "";
+        this.avatarPath = "";
     }
 
     public String getAvatarPath() {
@@ -41,10 +41,10 @@ public final class DataMigrationAvailableContact {
     }
 
     public DataMigrationAvailableContact(String str, int i, String str2, String str3, String str4) {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.peerName = "";
+        this.remark = "";
+        this.avatarPath = "";
         this.peerUid = str;
         this.chatType = i;
         this.peerName = str2;

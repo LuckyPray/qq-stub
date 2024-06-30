@@ -6,13 +6,13 @@ public final class SearchReqBody {
     public boolean disableCorrectionQuery;
     public boolean firstPage;
     public boolean usePbSerialization;
-    public String keyWord = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String version = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String keyWord = "";
+    public String version = "";
     public SearchTabInfo tabs = new SearchTabInfo();
     public byte[] sessionInfo = new byte[0];
     public SearchDeviceInfo deviceInfo = new SearchDeviceInfo();
     public SearchGroupConditonFilter groupConditionFilter = new SearchGroupConditonFilter();
-    public String lbs = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String lbs = "";
     public SearchChannelConditonFilter channelConditionFilter = new SearchChannelConditonFilter();
     public byte[] busiSessionInfo = new byte[0];
     public byte[] bytesExtension = new byte[0];

@@ -23,18 +23,18 @@ public final class OnlineStatus {
     public String type;
 
     public OnlineStatus() {
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.type = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bigIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.resUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.normalBackground = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.normalBgColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tofuBackground = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.posterText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.posterStatusTextColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.selectColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.type = "";
+        this.icon = "";
+        this.bigIcon = "";
+        this.resUrl = "";
+        this.md5 = "";
+        this.normalBackground = "";
+        this.normalBgColor = "";
+        this.tofuBackground = "";
+        this.posterText = "";
+        this.posterStatusTextColor = "";
+        this.selectColor = "";
         this.subActionItems = new ArrayList<>();
     }
 
@@ -99,18 +99,18 @@ public final class OnlineStatus {
     }
 
     public OnlineStatus(int i, String str, String str2, String str3, String str4, String str5, String str6, String str7, String str8, String str9, String str10, String str11, String str12, ArrayList<OnlineStatusSubActionItem> arrayList) {
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.type = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bigIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.resUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.normalBackground = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.normalBgColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tofuBackground = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.posterText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.posterStatusTextColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.selectColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.type = "";
+        this.icon = "";
+        this.bigIcon = "";
+        this.resUrl = "";
+        this.md5 = "";
+        this.normalBackground = "";
+        this.normalBgColor = "";
+        this.tofuBackground = "";
+        this.posterText = "";
+        this.posterStatusTextColor = "";
+        this.selectColor = "";
         this.subActionItems = new ArrayList<>();
         this.f29id = i;
         this.title = str;

@@ -15,7 +15,7 @@ public final class GProGetSelectChannelIDReq {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.code = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.code = "";
             this.selectChannels = new ArrayList<>();
         }
     }
@@ -62,7 +62,7 @@ public final class GProGetSelectChannelIDReq {
             iPatchRedirector.redirect((short) 2, this, str, arrayList);
             return;
         }
-        this.code = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.code = "";
         this.selectChannels = new ArrayList<>();
         this.code = str;
         this.selectChannels = arrayList;

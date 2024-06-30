@@ -16,7 +16,7 @@ public final class GProMVPExtInfo implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.traceId = "";
         }
     }
 
@@ -40,7 +40,7 @@ public final class GProMVPExtInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceId = "";
         this.traceId = str;
     }
 }

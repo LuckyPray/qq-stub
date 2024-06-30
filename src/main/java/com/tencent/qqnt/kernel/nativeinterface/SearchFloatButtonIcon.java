@@ -3,9 +3,9 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchFloatButtonIcon.class */
 public final class SearchFloatButtonIcon {
-    public String iconLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String iconToken = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String iconColorToken = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String iconLink = "";
+    public String iconToken = "";
+    public String iconColorToken = "";
 
     public String getIconColorToken() {
         return this.iconColorToken;

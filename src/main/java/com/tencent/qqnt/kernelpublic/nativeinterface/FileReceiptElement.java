@@ -17,7 +17,7 @@ public final class FileReceiptElement implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.fileName = "";
         }
     }
 
@@ -41,7 +41,7 @@ public final class FileReceiptElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileName = "";
         this.fileName = str;
     }
 }

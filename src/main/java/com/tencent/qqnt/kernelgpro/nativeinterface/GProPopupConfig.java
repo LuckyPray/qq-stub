@@ -16,9 +16,9 @@ public final class GProPopupConfig {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.wording1 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.wording2 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.picUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.wording1 = "";
+        this.wording2 = "";
+        this.picUrl = "";
     }
 
     public String getPicUrl() {

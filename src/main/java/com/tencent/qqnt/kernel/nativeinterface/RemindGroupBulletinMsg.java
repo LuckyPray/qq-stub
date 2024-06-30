@@ -12,8 +12,8 @@ public final class RemindGroupBulletinMsg {
     public long msgUid;
     public long subType;
     public long toUin;
-    public String fromUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String fromUid = "";
+    public String feedId = "";
 
     public int getAction() {
         return this.action;

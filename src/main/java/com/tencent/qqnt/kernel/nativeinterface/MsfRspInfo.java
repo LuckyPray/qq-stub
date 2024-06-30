@@ -13,7 +13,7 @@ public final class MsfRspInfo {
     public int trpcRetCode;
 
     public MsfRspInfo() {
-        this.errorMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errorMsg = "";
         this.pbBuffer = new byte[0];
         this.rpcMap = new HashMap<>();
     }
@@ -47,7 +47,7 @@ public final class MsfRspInfo {
     }
 
     public MsfRspInfo(int i, int i2, int i3, String str, byte[] bArr, HashMap<String, byte[]> hashMap) {
-        this.errorMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errorMsg = "";
         this.pbBuffer = new byte[0];
         this.rpcMap = new HashMap<>();
         this.ssoRetCode = i;

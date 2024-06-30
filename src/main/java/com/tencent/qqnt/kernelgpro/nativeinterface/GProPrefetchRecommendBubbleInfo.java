@@ -17,7 +17,7 @@ public final class GProPrefetchRecommendBubbleInfo implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.tips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.tips = "";
         }
     }
 
@@ -46,7 +46,7 @@ public final class GProPrefetchRecommendBubbleInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.tips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tips = "";
         this.isDisplay = z;
         this.tips = str;
     }

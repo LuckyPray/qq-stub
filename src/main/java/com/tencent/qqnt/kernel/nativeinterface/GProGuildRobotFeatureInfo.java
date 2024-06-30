@@ -11,9 +11,9 @@ public final class GProGuildRobotFeatureInfo {
     public int status;
 
     public GProGuildRobotFeatureInfo() {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.availableRangeDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.desc = "";
+        this.availableRangeDesc = "";
     }
 
     public String getAvailableRangeDesc() {
@@ -41,9 +41,9 @@ public final class GProGuildRobotFeatureInfo {
     }
 
     public GProGuildRobotFeatureInfo(int i, String str, String str2, int i2, String str3) {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.availableRangeDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.desc = "";
+        this.availableRangeDesc = "";
         this.f9id = i;
         this.name = str;
         this.desc = str2;

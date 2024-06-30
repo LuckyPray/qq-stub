@@ -5,7 +5,7 @@ public final class GroupBulletinPublishReq {
     public String oldFeedsId;
     public GroupBulletinPicInfo picInfo;
     public int pinned;
-    public String text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String text = "";
 
     public String getOldFeedsId() {
         return this.oldFeedsId;

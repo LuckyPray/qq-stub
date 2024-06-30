@@ -27,10 +27,10 @@ public final class FileTransNotifyInfo {
     public Long userUsedSpacePerDay;
 
     public FileTransNotifyInfo() {
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileErrMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileId = "";
+        this.fileErrMsg = "";
+        this.filePath = "";
+        this.clientMsg = "";
     }
 
     public int getBusinessId() {
@@ -126,10 +126,10 @@ public final class FileTransNotifyInfo {
     }
 
     public FileTransNotifyInfo(long j, long j2, long j3, String str, long j4, long j5, long j6, String str2, int i, int i2, String str3, long j7, int i3, int i4, CommonFileInfo commonFileInfo, long j8, String str4, int i5, Long l, Long l2, MsgRecord msgRecord, Integer num) {
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileErrMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileId = "";
+        this.fileErrMsg = "";
+        this.filePath = "";
+        this.clientMsg = "";
         this.fileModelId = j;
         this.msgElementId = j2;
         this.msgId = j3;

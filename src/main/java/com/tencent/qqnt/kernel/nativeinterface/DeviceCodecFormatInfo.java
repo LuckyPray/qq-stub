@@ -8,9 +8,9 @@ public final class DeviceCodecFormatInfo {
     public String platformChipInfo;
 
     public DeviceCodecFormatInfo() {
-        this.platformChipInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.osVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.deviceName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.platformChipInfo = "";
+        this.osVersion = "";
+        this.deviceName = "";
     }
 
     public String getDeviceName() {
@@ -30,9 +30,9 @@ public final class DeviceCodecFormatInfo {
     }
 
     public DeviceCodecFormatInfo(String str, String str2, String str3) {
-        this.platformChipInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.osVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.deviceName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.platformChipInfo = "";
+        this.osVersion = "";
+        this.deviceName = "";
         this.platformChipInfo = str;
         this.osVersion = str2;
         this.deviceName = str3;

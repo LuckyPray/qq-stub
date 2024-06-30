@@ -21,8 +21,8 @@ public final class GProRecommendMsg implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nickName = "";
+        this.avatar = "";
         this.richText = new byte[0];
     }
 
@@ -66,8 +66,8 @@ public final class GProRecommendMsg implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nickName = "";
+        this.avatar = "";
         this.richText = new byte[0];
         this.tinyid = j;
         this.nickName = str;

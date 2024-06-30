@@ -6,7 +6,7 @@ import java.util.ArrayList;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchNetSugWordsRsp.class */
 public final class SearchNetSugWordsRsp {
     public ArrayList<SearchNetSugInfo> netSugInfos = new ArrayList<>();
-    public String stringExtension = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String stringExtension = "";
 
     public ArrayList<SearchNetSugInfo> getNetSugInfos() {
         return this.netSugInfos;

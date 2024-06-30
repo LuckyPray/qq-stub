@@ -12,9 +12,9 @@ public final class GProGuildPlusPanelRobotInfo {
     public long uin;
 
     public GProGuildPlusPanelRobotInfo() {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.uid = "";
+        this.avatar = "";
     }
 
     public long getAppid() {
@@ -54,9 +54,9 @@ public final class GProGuildPlusPanelRobotInfo {
     }
 
     public GProGuildPlusPanelRobotInfo(long j, long j2, String str, int i, long j3, long j4, String str2, String str3) {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.uid = "";
+        this.avatar = "";
         this.tinyid = j;
         this.uin = j2;
         this.name = str;

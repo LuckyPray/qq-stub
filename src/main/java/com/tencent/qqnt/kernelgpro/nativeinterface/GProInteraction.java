@@ -13,7 +13,7 @@ public final class GProInteraction {
     public GProInteraction() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.interactiveUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.interactiveUid = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

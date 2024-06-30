@@ -16,7 +16,7 @@ public final class GProSearchItem {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.guildLogos = new ArrayList<>();
-            this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.desc = "";
         }
     }
 
@@ -45,7 +45,7 @@ public final class GProSearchItem {
             return;
         }
         this.guildLogos = new ArrayList<>();
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.desc = "";
         this.guildLogos = arrayList;
         this.desc = str;
     }

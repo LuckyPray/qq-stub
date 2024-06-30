@@ -28,12 +28,12 @@ public final class GProClientPresence implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.clientName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bigIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.state = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.details = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.role = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.smallIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.clientName = "";
+        this.bigIcon = "";
+        this.state = "";
+        this.details = "";
+        this.role = "";
+        this.smallIcon = "";
     }
 
     public String getBigIcon() {
@@ -111,12 +111,12 @@ public final class GProClientPresence implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.clientName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bigIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.state = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.details = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.role = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.smallIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.clientName = "";
+        this.bigIcon = "";
+        this.state = "";
+        this.details = "";
+        this.role = "";
+        this.smallIcon = "";
         this.clientId = i;
         this.clientName = str;
         this.bigIcon = str2;

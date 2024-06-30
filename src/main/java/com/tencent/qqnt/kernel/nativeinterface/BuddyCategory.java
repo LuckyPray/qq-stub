@@ -12,7 +12,7 @@ public final class BuddyCategory implements IKernelModel {
     public String categroyName;
 
     public BuddyCategory() {
-        this.categroyName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categroyName = "";
         this.buddyList = new ArrayList<>();
     }
 
@@ -61,7 +61,7 @@ public final class BuddyCategory implements IKernelModel {
     }
 
     public BuddyCategory(int i, int i2, String str, int i3, ArrayList<UserSimpleInfo> arrayList) {
-        this.categroyName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categroyName = "";
         this.buddyList = new ArrayList<>();
         this.categoryId = i;
         this.categorySortId = i2;

@@ -17,7 +17,7 @@ public final class GProRiskMemberGroupInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.groupName = "";
             this.rptMemberList = new ArrayList<>();
         }
     }
@@ -56,7 +56,7 @@ public final class GProRiskMemberGroupInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, arrayList, Integer.valueOf(i)});
             return;
         }
-        this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupName = "";
         this.rptMemberList = new ArrayList<>();
         this.groupId = j;
         this.groupName = str;

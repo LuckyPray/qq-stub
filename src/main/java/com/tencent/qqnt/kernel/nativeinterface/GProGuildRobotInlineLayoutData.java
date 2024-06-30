@@ -6,7 +6,7 @@ public final class GProGuildRobotInlineLayoutData {
     public GProGuildRobotInlineRenderData renderData;
 
     public GProGuildRobotInlineLayoutData() {
-        this.actionData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.actionData = "";
         this.renderData = new GProGuildRobotInlineRenderData();
     }
 
@@ -23,7 +23,7 @@ public final class GProGuildRobotInlineLayoutData {
     }
 
     public GProGuildRobotInlineLayoutData(String str, GProGuildRobotInlineRenderData gProGuildRobotInlineRenderData) {
-        this.actionData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.actionData = "";
         this.renderData = new GProGuildRobotInlineRenderData();
         this.actionData = str;
         this.renderData = gProGuildRobotInlineRenderData;

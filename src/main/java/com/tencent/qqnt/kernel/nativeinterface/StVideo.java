@@ -16,8 +16,8 @@ public final class StVideo {
     public int width;
 
     public StVideo() {
-        this.f48id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f48id = "";
+        this.url = "";
         this.cover = new StImage();
         this.videoUrl = new ArrayList<>();
     }
@@ -79,8 +79,8 @@ public final class StVideo {
     }
 
     public StVideo(String str, String str2, StImage stImage, int i, int i2, long j, ArrayList<StPicSpecUrlEntry> arrayList) {
-        this.f48id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f48id = "";
+        this.url = "";
         this.cover = new StImage();
         this.videoUrl = new ArrayList<>();
         this.f48id = str;

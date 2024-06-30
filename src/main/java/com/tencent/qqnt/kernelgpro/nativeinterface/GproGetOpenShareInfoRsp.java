@@ -20,9 +20,9 @@ public final class GproGetOpenShareInfoRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.sessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.queryStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sessionId = "";
+        this.fileId = "";
+        this.queryStr = "";
     }
 
     public String getFileId() {
@@ -55,9 +55,9 @@ public final class GproGetOpenShareInfoRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.sessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.queryStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sessionId = "";
+        this.fileId = "";
+        this.queryStr = "";
         this.sessionId = str;
         this.fileId = str2;
         this.queryStr = str3;

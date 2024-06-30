@@ -20,7 +20,7 @@ public final class GProRecommendGuildState implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.desc = "";
         this.iconUrls = new ArrayList<>();
     }
 
@@ -54,7 +54,7 @@ public final class GProRecommendGuildState implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.desc = "";
         this.iconUrls = new ArrayList<>();
         this.state = i;
         this.desc = str;

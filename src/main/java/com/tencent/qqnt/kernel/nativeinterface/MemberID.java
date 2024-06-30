@@ -3,7 +3,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/MemberID.class */
 public final class MemberID {
-    public String memberUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String memberUid = "";
     public long memberUin;
 
     public String getMemberUid() {

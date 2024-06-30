@@ -19,7 +19,7 @@ public final class GroupExt {
     public long msgEventSeq;
     public int starId;
     public int todoSeq;
-    public String luckyWord = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String luckyWord = "";
     public MemberID groupOwnerId = new MemberID();
 
     public long getBindGuildId() {

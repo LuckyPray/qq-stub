@@ -8,7 +8,7 @@ public final class AndroidImportQueryParam {
     public String tableName;
 
     public AndroidImportQueryParam() {
-        this.tableName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tableName = "";
     }
 
     public int getCount() {
@@ -32,7 +32,7 @@ public final class AndroidImportQueryParam {
     }
 
     public AndroidImportQueryParam(String str, long j, int i, boolean z) {
-        this.tableName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tableName = "";
         this.tableName = str;
         this.startIndex = j;
         this.count = i;

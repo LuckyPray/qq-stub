@@ -44,17 +44,17 @@ public final class GroupAllInfo {
     public int shutUpMeTimestamp;
 
     public GroupAllInfo() {
-        this.ownerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fingerMemo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupQuestion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupMemo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.ownerUid = "";
+        this.groupName = "";
+        this.fingerMemo = "";
+        this.groupQuestion = "";
+        this.groupMemo = "";
         this.cmdUinMsgMask = GroupMsgMask.values()[0];
         this.cmdUinPrivilege = MemberRole.values()[0];
-        this.remarkName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.richFingerMemo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupAnswer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGroupAuth = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.remarkName = "";
+        this.richFingerMemo = "";
+        this.groupAnswer = "";
+        this.joinGroupAuth = "";
     }
 
     public int getAppealDeadline() {
@@ -210,17 +210,17 @@ public final class GroupAllInfo {
     }
 
     public GroupAllInfo(long j, String str, int i, int i2, int i3, int i4, int i5, int i6, String str2, String str3, String str4, int i7, int i8, int i9, int i10, int i11, int i12, int i13, int i14, int i15, int i16, int i17, String str5, int i18, int i19, int i20, GroupMsgMask groupMsgMask, int i21, MemberRole memberRole, int i22, int i23, String str6, boolean z, String str7, String str8, String str9, int i24) {
-        this.ownerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fingerMemo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupQuestion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupMemo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.ownerUid = "";
+        this.groupName = "";
+        this.fingerMemo = "";
+        this.groupQuestion = "";
+        this.groupMemo = "";
         this.cmdUinMsgMask = GroupMsgMask.values()[0];
         this.cmdUinPrivilege = MemberRole.values()[0];
-        this.remarkName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.richFingerMemo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupAnswer = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGroupAuth = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.remarkName = "";
+        this.richFingerMemo = "";
+        this.groupAnswer = "";
+        this.joinGroupAuth = "";
         this.groupCode = j;
         this.ownerUid = str;
         this.groupFlag = i;

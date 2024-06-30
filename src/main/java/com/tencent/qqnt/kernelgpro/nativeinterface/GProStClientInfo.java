@@ -15,7 +15,7 @@ public final class GProStClientInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.feedclientkey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.feedclientkey = "";
             this.clientMapList = new ArrayList<>();
         }
     }

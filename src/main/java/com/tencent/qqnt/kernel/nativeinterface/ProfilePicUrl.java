@@ -6,8 +6,8 @@ public final class ProfilePicUrl {
     public String picUrl;
 
     public ProfilePicUrl() {
-        this.picUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.picPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.picUrl = "";
+        this.picPath = "";
     }
 
     public String getPicPath() {
@@ -23,8 +23,8 @@ public final class ProfilePicUrl {
     }
 
     public ProfilePicUrl(String str, String str2) {
-        this.picUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.picPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.picUrl = "";
+        this.picPath = "";
         this.picUrl = str;
         this.picPath = str2;
     }

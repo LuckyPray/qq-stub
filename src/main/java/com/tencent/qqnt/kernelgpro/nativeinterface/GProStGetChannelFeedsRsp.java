@@ -28,12 +28,12 @@ public final class GProStGetChannelFeedsRsp {
         this.extInfo = new GProStCommonExt();
         this.vecFeedList = new ArrayList<>();
         this.user = new GProStUser();
-        this.feedAttchInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedAttchInfo = "";
         this.refreshToast = new GProRefreshToast();
         this.headInfo = new GProStFeedListHeaderInfo();
         this.topFeeds = new ArrayList<>();
         this.capsule = new GProCapsule();
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceId = "";
         this.channels = new ArrayList<>();
     }
 

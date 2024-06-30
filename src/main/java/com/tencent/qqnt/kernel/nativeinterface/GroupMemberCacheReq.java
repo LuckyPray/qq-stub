@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GroupMemberCacheReq.class */
 public final class GroupMemberCacheReq {
     public long groupCode;
-    public String uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String uid = "";
     public GroupMemberCache memberCache = new GroupMemberCache();
     public GroupMemberCacheFilter memberCacheFilter = new GroupMemberCacheFilter();
 

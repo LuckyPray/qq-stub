@@ -15,7 +15,7 @@ public final class GProSelectChannel {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.labelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.labelName = "";
             this.guildIds = new ArrayList<>();
         }
     }
@@ -62,7 +62,7 @@ public final class GProSelectChannel {
             iPatchRedirector.redirect((short) 2, this, str, arrayList);
             return;
         }
-        this.labelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.labelName = "";
         this.guildIds = new ArrayList<>();
         this.labelName = str;
         this.guildIds = arrayList;

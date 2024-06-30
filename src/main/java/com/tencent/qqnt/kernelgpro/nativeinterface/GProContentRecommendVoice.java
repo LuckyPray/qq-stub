@@ -26,11 +26,11 @@ public final class GProContentRecommendVoice implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.cover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cover = "";
         this.memberAvatarList = new ArrayList<>();
-        this.voiceTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.voiceTitle = "";
         this.joinSig = new byte[0];
-        this.themeSessionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.themeSessionId = "";
     }
 
     public long getChannelId() {

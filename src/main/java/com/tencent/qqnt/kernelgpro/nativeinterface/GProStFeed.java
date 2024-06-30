@@ -56,7 +56,7 @@ public final class GProStFeed {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.idd = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.idd = "";
         this.title = new GProStRichText();
         this.subtitle = new GProStRichText();
         this.poster = new GProStUser();
@@ -73,7 +73,7 @@ public final class GProStFeed {
         this.opMaskList = new ArrayList<>();
         this.opinfo = new GProStOpinfo();
         this.extInfoList = new ArrayList<>();
-        this.patternInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.patternInfo = "";
         this.channelInfo = new GProStChannelInfo();
         this.summary = new GProStFeedSummary();
         this.recomInfo = new GProStRecomInfo();
@@ -83,7 +83,7 @@ public final class GProStFeed {
         this.totalLike = new GProTotalLike();
         this.latestInteraction = new GProInteraction();
         this.totalPrefer = new GProTotalPrefer();
-        this.defaultBackgroundImg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.defaultBackgroundImg = "";
         this.cover = new GProStImage();
         this.topicContents = new ArrayList<>();
         this.groupContentList = new ArrayList<>();

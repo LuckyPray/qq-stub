@@ -20,7 +20,7 @@ public final class GProMVPRoleGroup implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.name = "";
         }
     }
 
@@ -54,7 +54,7 @@ public final class GProMVPRoleGroup implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.f68id = j;
         this.name = str;
         this.color = i;

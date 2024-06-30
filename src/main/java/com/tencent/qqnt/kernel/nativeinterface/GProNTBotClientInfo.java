@@ -7,7 +7,7 @@ public final class GProNTBotClientInfo {
     public String version;
 
     public GProNTBotClientInfo() {
-        this.version = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.version = "";
     }
 
     public int getBuildNum() {
@@ -27,7 +27,7 @@ public final class GProNTBotClientInfo {
     }
 
     public GProNTBotClientInfo(int i, String str, int i2) {
-        this.version = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.version = "";
         this.platform = i;
         this.version = str;
         this.buildNum = i2;

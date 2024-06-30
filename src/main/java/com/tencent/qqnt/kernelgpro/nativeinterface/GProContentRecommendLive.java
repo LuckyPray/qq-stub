@@ -23,8 +23,8 @@ public final class GProContentRecommendLive implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.cover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.liveTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cover = "";
+        this.liveTitle = "";
         this.joinSig = new byte[0];
     }
 

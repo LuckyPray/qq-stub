@@ -6,7 +6,7 @@ public final class NearbyProBytesEntry {
     public byte[] value;
 
     public NearbyProBytesEntry() {
-        this.key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.key = "";
         this.value = new byte[0];
     }
 
@@ -23,7 +23,7 @@ public final class NearbyProBytesEntry {
     }
 
     public NearbyProBytesEntry(String str, byte[] bArr) {
-        this.key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.key = "";
         this.value = new byte[0];
         this.key = str;
         this.value = bArr;

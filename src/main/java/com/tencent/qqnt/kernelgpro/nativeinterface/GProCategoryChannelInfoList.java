@@ -23,10 +23,10 @@ public final class GProCategoryChannelInfoList {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.channelInfoList = new ArrayList<>();
-        this.categoryAlias = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categoryAlias = "";
+        this.url = "";
     }
 
     public String getCategoryAlias() {

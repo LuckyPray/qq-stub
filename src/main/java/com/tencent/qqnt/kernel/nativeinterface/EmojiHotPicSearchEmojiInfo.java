@@ -24,11 +24,11 @@ public final class EmojiHotPicSearchEmojiInfo {
     public int thumbnailWidth;
 
     public EmojiHotPicSearchEmojiInfo() {
-        this.resourceID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.imageMD5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.imageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thumbnailMD5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thumbnailUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.resourceID = "";
+        this.imageMD5 = "";
+        this.imageUrl = "";
+        this.thumbnailMD5 = "";
+        this.thumbnailUrl = "";
     }
 
     public int getEmojiType() {
@@ -116,11 +116,11 @@ public final class EmojiHotPicSearchEmojiInfo {
     }
 
     public EmojiHotPicSearchEmojiInfo(String str, String str2, int i, int i2, String str3, long j, String str4, int i3, int i4, String str5, long j2, String str6, String str7, String str8, String str9, String str10, String str11, int i5, EmojiHotPicSearchTextComposeInfo emojiHotPicSearchTextComposeInfo) {
-        this.resourceID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.imageMD5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.imageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thumbnailMD5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thumbnailUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.resourceID = "";
+        this.imageMD5 = "";
+        this.imageUrl = "";
+        this.thumbnailMD5 = "";
+        this.thumbnailUrl = "";
         this.resourceID = str;
         this.imageMD5 = str2;
         this.imageWidth = i;

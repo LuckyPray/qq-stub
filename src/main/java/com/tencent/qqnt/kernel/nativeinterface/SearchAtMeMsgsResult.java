@@ -11,7 +11,7 @@ public final class SearchAtMeMsgsResult {
     public String selfGroupCardName;
 
     public SearchAtMeMsgsResult() {
-        this.selfGroupCardName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.selfGroupCardName = "";
         this.resultItems = new ArrayList<>();
     }
 
@@ -36,7 +36,7 @@ public final class SearchAtMeMsgsResult {
     }
 
     public SearchAtMeMsgsResult(int i, boolean z, String str, ArrayList<SearchAtMeMsgsItem> arrayList) {
-        this.selfGroupCardName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.selfGroupCardName = "";
         this.resultItems = new ArrayList<>();
         this.searchId = i;
         this.hasMore = z;

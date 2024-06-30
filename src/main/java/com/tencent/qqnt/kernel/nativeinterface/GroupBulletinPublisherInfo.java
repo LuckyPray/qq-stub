@@ -3,8 +3,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GroupBulletinPublisherInfo.class */
 public final class GroupBulletinPublisherInfo {
     public long uin;
-    public String nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String nick = "";
+    public String avatar = "";
 
     public String getAvatar() {
         return this.avatar;

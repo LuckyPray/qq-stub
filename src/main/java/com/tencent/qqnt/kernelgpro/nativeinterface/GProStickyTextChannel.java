@@ -22,7 +22,7 @@ public final class GProStickyTextChannel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.activeMemberCount = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.activeMemberCount = "";
         this.msgList = new ArrayList<>();
         this.msgAbstracts = new ArrayList<>();
         this.activeMemberList = new ArrayList<>();

@@ -15,8 +15,8 @@ public final class CommandCbRequest {
     public long guildId;
 
     public CommandCbRequest() {
-        this.featureId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.callbackData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.featureId = "";
+        this.callbackData = "";
     }
 
     public long getBotAppId() {
@@ -64,8 +64,8 @@ public final class CommandCbRequest {
     }
 
     public CommandCbRequest(long j, long j2, long j3, long j4, String str, String str2, int i, long j5, long j6, int i2) {
-        this.featureId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.callbackData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.featureId = "";
+        this.callbackData = "";
         this.guildId = j;
         this.channelId = j2;
         this.botAppId = j3;

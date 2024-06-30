@@ -8,7 +8,7 @@ public final class DelBuddyInfo {
     public boolean tempBothDel;
 
     public DelBuddyInfo() {
-        this.friendUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.friendUid = "";
     }
 
     public String getFriendUid() {
@@ -28,7 +28,7 @@ public final class DelBuddyInfo {
     }
 
     public DelBuddyInfo(String str, boolean z, boolean z2) {
-        this.friendUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.friendUid = "";
         this.friendUid = str;
         this.tempBlock = z;
         this.tempBothDel = z2;

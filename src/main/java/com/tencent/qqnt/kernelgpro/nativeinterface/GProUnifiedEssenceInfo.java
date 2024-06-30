@@ -25,9 +25,9 @@ public final class GProUnifiedEssenceInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.content = "";
         this.channels = new ArrayList<>();
-        this.visitorMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.visitorMsg = "";
     }
 
     public ArrayList<GProEssenceChannel> getChannels() {
@@ -157,9 +157,9 @@ public final class GProUnifiedEssenceInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.content = "";
         this.channels = new ArrayList<>();
-        this.visitorMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.visitorMsg = "";
         this.type = num;
         this.title = str;
         this.content = str2;

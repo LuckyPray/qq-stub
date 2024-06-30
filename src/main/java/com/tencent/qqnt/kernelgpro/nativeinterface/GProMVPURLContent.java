@@ -23,8 +23,8 @@ public final class GProMVPURLContent implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.displayText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.displayText = "";
         this.thirdPlatform = new GProMVPThirdPlatform();
         this.thirdVideoInfo = new GProMVPThirdVideoInfo();
         this.weixinOffcialAccountsContent = new GProMVPWeixinOfficialAccountsContent();
@@ -81,8 +81,8 @@ public final class GProMVPURLContent implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.displayText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.displayText = "";
         this.thirdPlatform = new GProMVPThirdPlatform();
         this.thirdVideoInfo = new GProMVPThirdVideoInfo();
         this.weixinOffcialAccountsContent = new GProMVPWeixinOfficialAccountsContent();

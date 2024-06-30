@@ -4,10 +4,10 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchBuddyChatInfo.class */
 public final class SearchBuddyChatInfo {
     public long peerUin;
-    public String categoryName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String peerNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String categoryName = "";
+    public String peerUid = "";
+    public String peerNick = "";
+    public String remark = "";
 
     public String getCategoryName() {
         return this.categoryName;

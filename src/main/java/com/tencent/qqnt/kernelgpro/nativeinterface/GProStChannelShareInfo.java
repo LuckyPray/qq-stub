@@ -19,8 +19,8 @@ public final class GProStChannelShareInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.feedID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.posterID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedID = "";
+        this.posterID = "";
         this.channelSign = new GProStChannelSign();
         this.sign = new GProStChannelShareSign();
     }

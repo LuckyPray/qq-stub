@@ -15,7 +15,7 @@ public final class GProStMaterialDataNew {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.materialType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.materialType = "";
             this.materialListList = new ArrayList<>();
         }
     }

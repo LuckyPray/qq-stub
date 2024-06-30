@@ -11,7 +11,7 @@ public final class GProStRichTextTextContent {
     public GProStRichTextTextContent() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.text = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

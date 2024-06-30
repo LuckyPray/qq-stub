@@ -16,7 +16,7 @@ public final class GProScheduleChannelInfo {
     public GProScheduleChannelInfo() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.channelName = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -66,7 +66,7 @@ public final class GProScheduleChannelInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), Long.valueOf(j2), str, Boolean.valueOf(z), Boolean.valueOf(z2)});
             return;
         }
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.channelName = "";
         this.channelId = j;
         this.type = i;
         this.guildId = j2;

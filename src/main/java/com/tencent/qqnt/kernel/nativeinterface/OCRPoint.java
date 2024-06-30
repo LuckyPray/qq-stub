@@ -10,8 +10,8 @@ public final class OCRPoint {
     public String f28y;
 
     public OCRPoint() {
-        this.f27x = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.f28y = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f27x = "";
+        this.f28y = "";
     }
 
     public String getX() {
@@ -27,8 +27,8 @@ public final class OCRPoint {
     }
 
     public OCRPoint(String str, String str2) {
-        this.f27x = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.f28y = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f27x = "";
+        this.f28y = "";
         this.f27x = str;
         this.f28y = str2;
     }

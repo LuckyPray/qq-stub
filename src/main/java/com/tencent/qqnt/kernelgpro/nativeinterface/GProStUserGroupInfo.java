@@ -17,8 +17,8 @@ public final class GProStUserGroupInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.idd = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.idd = "";
+        this.name = "";
         this.userListList = new ArrayList<>();
     }
 

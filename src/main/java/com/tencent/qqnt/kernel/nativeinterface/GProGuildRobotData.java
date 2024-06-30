@@ -33,14 +33,14 @@ public final class GProGuildRobotData {
     public String verify;
 
     public GProGuildRobotData() {
-        this.robotName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.robotDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.callName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.verify = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.robotAvatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.extraInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.supportUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ownerEntity = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.robotName = "";
+        this.robotDesc = "";
+        this.callName = "";
+        this.verify = "";
+        this.robotAvatar = "";
+        this.extraInfo = "";
+        this.supportUrl = "";
+        this.ownerEntity = "";
         this.previewImages = new ArrayList<>();
         this.officialGuild = new GProRobotGuildInfo();
         this.tags = new ArrayList<>();
@@ -159,14 +159,14 @@ public final class GProGuildRobotData {
     }
 
     public GProGuildRobotData(long j, String str, int i, String str2, String str3, int i2, int i3, String str4, String str5, String str6, int i4, int i5, boolean z, int i6, int i7, String str7, long j2, boolean z2, boolean z3, boolean z4, int i8, long j3, String str8, ArrayList<GProRobotImageInfo> arrayList, GProRobotGuildInfo gProRobotGuildInfo, ArrayList<String> arrayList2) {
-        this.robotName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.robotDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.callName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.verify = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.robotAvatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.extraInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.supportUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ownerEntity = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.robotName = "";
+        this.robotDesc = "";
+        this.callName = "";
+        this.verify = "";
+        this.robotAvatar = "";
+        this.extraInfo = "";
+        this.supportUrl = "";
+        this.ownerEntity = "";
         this.previewImages = new ArrayList<>();
         this.officialGuild = new GProRobotGuildInfo();
         this.tags = new ArrayList<>();

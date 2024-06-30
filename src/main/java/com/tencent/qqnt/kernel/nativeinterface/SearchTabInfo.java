@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchTabInfo.class */
 public final class SearchTabInfo {
     public long tabMask;
-    public String tabName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String tabName = "";
 
     public long getTabMask() {
         return this.tabMask;

@@ -10,12 +10,12 @@ public final class GProGuildRobotPanelListItemInfo {
     public String url;
 
     public GProGuildRobotPanelListItemInfo() {
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.color = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fontColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.borderColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.icon = "";
+        this.url = "";
+        this.color = "";
+        this.fontColor = "";
+        this.borderColor = "";
     }
 
     public String getBorderColor() {
@@ -47,12 +47,12 @@ public final class GProGuildRobotPanelListItemInfo {
     }
 
     public GProGuildRobotPanelListItemInfo(String str, String str2, String str3, String str4, String str5, String str6) {
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.color = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fontColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.borderColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.icon = "";
+        this.url = "";
+        this.color = "";
+        this.fontColor = "";
+        this.borderColor = "";
         this.title = str;
         this.icon = str2;
         this.url = str3;

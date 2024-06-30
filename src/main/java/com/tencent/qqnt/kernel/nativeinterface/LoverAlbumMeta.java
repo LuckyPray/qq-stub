@@ -9,7 +9,7 @@ public final class LoverAlbumMeta {
     public int loveValue;
     public int month;
     public int year;
-    public String fallInLoveTime = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String fallInLoveTime = "";
     public ArrayList<TimeEventOp> loverEvents = new ArrayList<>();
 
     public int getDay() {

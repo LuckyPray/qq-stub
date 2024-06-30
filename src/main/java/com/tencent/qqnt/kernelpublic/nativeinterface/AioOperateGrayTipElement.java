@@ -20,8 +20,8 @@ public final class AioOperateGrayTipElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fromGrpCodeOfTmpChat = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.fromGrpCodeOfTmpChat = "";
     }
 
     public String getFromGrpCodeOfTmpChat() {
@@ -54,8 +54,8 @@ public final class AioOperateGrayTipElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fromGrpCodeOfTmpChat = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.fromGrpCodeOfTmpChat = "";
         this.operateType = i;
         this.peerUid = str;
         this.fromGrpCodeOfTmpChat = str2;

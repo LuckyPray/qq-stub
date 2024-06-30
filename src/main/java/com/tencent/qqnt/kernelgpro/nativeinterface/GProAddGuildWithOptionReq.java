@@ -20,8 +20,8 @@ public final class GProAddGuildWithOptionReq {
             return;
         }
         this.sourceId = new GProSourceId();
-        this.sig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.comment = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sig = "";
+        this.comment = "";
         this.answers = new ArrayList<>();
     }
 
@@ -65,8 +65,8 @@ public final class GProAddGuildWithOptionReq {
             return;
         }
         this.sourceId = new GProSourceId();
-        this.sig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.comment = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sig = "";
+        this.comment = "";
         this.answers = new ArrayList<>();
         this.guildId = j;
         this.sourceId = gProSourceId;

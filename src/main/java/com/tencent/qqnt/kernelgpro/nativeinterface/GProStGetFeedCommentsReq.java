@@ -26,12 +26,12 @@ public final class GProStGetFeedCommentsReq {
             return;
         }
         this.extInfo = new GProStCommonExt();
-        this.userId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.attchInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.entrySchema = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.needInsertCommentID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.needInsertReplyID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.userId = "";
+        this.feedId = "";
+        this.attchInfo = "";
+        this.entrySchema = "";
+        this.needInsertCommentID = "";
+        this.needInsertReplyID = "";
         this.channelSign = new GProStChannelSign();
     }
 

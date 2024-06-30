@@ -5,7 +5,7 @@ public final class PrologueMsgElement {
     public String text;
 
     public PrologueMsgElement() {
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.text = "";
     }
 
     public String getText() {
@@ -17,7 +17,7 @@ public final class PrologueMsgElement {
     }
 
     public PrologueMsgElement(String str) {
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.text = "";
         this.text = str;
     }
 }

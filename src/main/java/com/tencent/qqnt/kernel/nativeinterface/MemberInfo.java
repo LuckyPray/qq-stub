@@ -33,16 +33,16 @@ public final class MemberInfo implements IKernelModel, Serializable {
     public int userShowFlag;
     public int userShowFlagNew;
     long serialVersionUID = 1;
-    public String uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String qid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String cardName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String uid = "";
+    public String qid = "";
+    public String nick = "";
+    public String remark = "";
+    public String cardName = "";
     public MemberRole role = MemberRole.values()[0];
-    public String avatarPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String avatarPath = "";
     public byte[] groupHonor = new byte[0];
-    public String memberSpecialTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String autoRemark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String memberSpecialTitle = "";
+    public String autoRemark = "";
 
     public String getAutoRemark() {
         return this.autoRemark;

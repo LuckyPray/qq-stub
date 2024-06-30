@@ -24,13 +24,13 @@ public final class GProGuildBannerGameDownloadInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.gameId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.gameId = "";
+        this.title = "";
+        this.content = "";
         this.picUrl = new ArrayList<>();
         this.links = new ArrayList<>();
-        this.jumpText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tagText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jumpText = "";
+        this.tagText = "";
     }
 
     public String getContent() {

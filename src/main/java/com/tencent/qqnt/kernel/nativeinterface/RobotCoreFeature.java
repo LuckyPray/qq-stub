@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/RobotCoreFeature.class */
 public final class RobotCoreFeature {
     public int featureId;
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String name = "";
 
     public int getFeatureId() {
         return this.featureId;

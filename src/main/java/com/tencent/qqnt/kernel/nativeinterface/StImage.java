@@ -13,9 +13,9 @@ public final class StImage {
     public String sloc;
 
     public StImage() {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sloc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.lloc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.sloc = "";
+        this.lloc = "";
         this.photoUrl = new ArrayList<>();
         this.defaultUrl = new StPicUrl();
     }
@@ -69,9 +69,9 @@ public final class StImage {
     }
 
     public StImage(String str, String str2, String str3, ArrayList<StPicSpecUrlEntry> arrayList, StPicUrl stPicUrl, boolean z) {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sloc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.lloc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.sloc = "";
+        this.lloc = "";
         this.photoUrl = new ArrayList<>();
         this.defaultUrl = new StPicUrl();
         this.name = str;

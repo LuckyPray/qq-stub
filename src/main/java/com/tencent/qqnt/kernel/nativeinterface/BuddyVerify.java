@@ -8,8 +8,8 @@ public final class BuddyVerify {
     public String url;
 
     public BuddyVerify() {
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
+        this.url = "";
     }
 
     public String getMsg() {
@@ -29,8 +29,8 @@ public final class BuddyVerify {
     }
 
     public BuddyVerify(int i, String str, String str2) {
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
+        this.url = "";
         this.type = i;
         this.msg = str;
         this.url = str2;

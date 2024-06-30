@@ -34,16 +34,16 @@ public final class GProStReply {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.idd = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.idd = "";
         this.postUser = new GProStUser();
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.content = "";
         this.targetUser = new GProStUser();
         this.busiData = new byte[0];
         this.likeInfo = new GProStLike();
         this.atUinListList = new ArrayList<>();
         this.storeExtInfoList = new ArrayList<>();
-        this.thirdId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.targetReplyID = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.thirdId = "";
+        this.targetReplyID = "";
         this.richContents = new GProStRichText();
         this.images = new ArrayList<>();
     }

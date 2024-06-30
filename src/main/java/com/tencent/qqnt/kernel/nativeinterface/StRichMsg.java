@@ -15,11 +15,11 @@ public final class StRichMsg {
     public int who;
 
     public StRichMsg() {
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.content = "";
+        this.uid = "";
+        this.name = "";
+        this.url = "";
+        this.uin = "";
         this.mediaItems = new ArrayList<>();
     }
 
@@ -88,11 +88,11 @@ public final class StRichMsg {
     }
 
     public StRichMsg(int i, String str, String str2, String str3, int i2, String str4, String str5, ArrayList<StMedia> arrayList) {
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.content = "";
+        this.uid = "";
+        this.name = "";
+        this.url = "";
+        this.uin = "";
         this.mediaItems = new ArrayList<>();
         this.type = i;
         this.content = str;

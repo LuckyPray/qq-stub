@@ -26,14 +26,14 @@ public final class GroupRobotInfo {
     public String welcomeMsg;
 
     public GroupRobotInfo() {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.welcomeMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.callName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.verify = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.desc = "";
+        this.welcomeMsg = "";
+        this.callName = "";
+        this.verify = "";
         this.fallbackList = new ArrayList<>();
         this.miniappIds = new ArrayList<>();
-        this.extraInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.extraInfo = "";
     }
 
     public long getApiMark() {
@@ -193,14 +193,14 @@ public final class GroupRobotInfo {
     }
 
     public GroupRobotInfo(long j, String str, int i, String str2, int i2, String str3, String str4, int i3, int i4, String str5, ArrayList<String> arrayList, int i5, int i6, long j2, long j3, ArrayList<Long> arrayList2, int i7, String str6, int i8) {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.welcomeMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.callName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.verify = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.desc = "";
+        this.welcomeMsg = "";
+        this.callName = "";
+        this.verify = "";
         this.fallbackList = new ArrayList<>();
         this.miniappIds = new ArrayList<>();
-        this.extraInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.extraInfo = "";
         this.robotUin = j;
         this.name = str;
         this.status = i;

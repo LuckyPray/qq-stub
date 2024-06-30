@@ -13,12 +13,12 @@ public final class SearchResultItem {
     public String resultId;
 
     public SearchResultItem() {
-        this.resultId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.picUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jmpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.resultId = "";
+        this.name = "";
+        this.picUrl = "";
+        this.jmpUrl = "";
         this.means = new ArrayList<>();
-        this.extension = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.extension = "";
     }
 
     public String getExtension() {
@@ -50,12 +50,12 @@ public final class SearchResultItem {
     }
 
     public SearchResultItem(String str, String str2, String str3, String str4, ArrayList<Mean> arrayList, String str5) {
-        this.resultId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.picUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jmpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.resultId = "";
+        this.name = "";
+        this.picUrl = "";
+        this.jmpUrl = "";
         this.means = new ArrayList<>();
-        this.extension = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.extension = "";
         this.resultId = str;
         this.name = str2;
         this.picUrl = str3;

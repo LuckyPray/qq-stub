@@ -27,7 +27,7 @@ public final class GProUserFreeGiftInfoRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.checkContext = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.checkContext = "";
         this.needCheckThemeTypes = new ArrayList<>();
         this.freeGiftIds = new ArrayList<>();
     }
@@ -97,7 +97,7 @@ public final class GProUserFreeGiftInfoRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.checkContext = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.checkContext = "";
         this.needCheckThemeTypes = new ArrayList<>();
         this.freeGiftIds = new ArrayList<>();
         this.checkContext = str;

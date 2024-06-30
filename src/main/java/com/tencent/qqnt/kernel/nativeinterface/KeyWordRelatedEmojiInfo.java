@@ -9,7 +9,7 @@ public final class KeyWordRelatedEmojiInfo {
     public String word;
 
     public KeyWordRelatedEmojiInfo() {
-        this.word = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.word = "";
         this.keyWords = new ArrayList<>();
     }
 
@@ -26,7 +26,7 @@ public final class KeyWordRelatedEmojiInfo {
     }
 
     public KeyWordRelatedEmojiInfo(String str, ArrayList<String> arrayList) {
-        this.word = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.word = "";
         this.keyWords = new ArrayList<>();
         this.word = str;
         this.keyWords = arrayList;

@@ -23,8 +23,8 @@ public final class GProRecommendLabel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.labelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.labelName = "";
+        this.value = "";
         this.valueList = new ArrayList<>();
     }
 
@@ -73,8 +73,8 @@ public final class GProRecommendLabel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.labelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.labelName = "";
+        this.value = "";
         this.valueList = new ArrayList<>();
         this.labelName = str;
         this.labelType = i;

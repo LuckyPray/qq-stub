@@ -27,11 +27,11 @@ public final class GProForumChannel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.hotValueTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildFaceUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinSign = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.channelName = "";
+        this.hotValueTitle = "";
+        this.guildFaceUrl = "";
+        this.joinSign = "";
     }
 
     public long getChannelId() {
@@ -104,11 +104,11 @@ public final class GProForumChannel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.hotValueTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildFaceUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinSign = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.channelName = "";
+        this.hotValueTitle = "";
+        this.guildFaceUrl = "";
+        this.joinSign = "";
         this.index = i;
         this.guildId = j;
         this.guildName = str;

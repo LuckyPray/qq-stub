@@ -7,15 +7,15 @@ import java.util.ArrayList;
 public final class SearchBuddyItem {
     public int chatType;
     public long uin;
-    public String uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String qid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String uid = "";
+    public String qid = "";
     public ArrayList<SearchHitInfo> qidHits = new ArrayList<>();
     public ArrayList<SearchHitInfo> uinHits = new ArrayList<>();
-    public String nickname = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String nickname = "";
     public ArrayList<SearchHitInfo> nicknameHits = new ArrayList<>();
-    public String remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String remark = "";
     public ArrayList<SearchHitInfo> remarkHits = new ArrayList<>();
-    public String categoryName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String categoryName = "";
 
     public String getCategoryName() {
         return this.categoryName;

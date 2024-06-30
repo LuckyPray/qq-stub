@@ -18,10 +18,10 @@ public final class GProFeedbackReq {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.scene = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedbackType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.contentType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.scene = "";
+        this.feedbackType = "";
+        this.feedId = "";
+        this.contentType = "";
         this.callback = new GProItemCbData();
     }
 
@@ -109,10 +109,10 @@ public final class GProFeedbackReq {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, str4, gProItemCbData});
             return;
         }
-        this.scene = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedbackType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.contentType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.scene = "";
+        this.feedbackType = "";
+        this.feedId = "";
+        this.contentType = "";
         this.callback = new GProItemCbData();
         this.scene = str;
         this.feedbackType = str2;

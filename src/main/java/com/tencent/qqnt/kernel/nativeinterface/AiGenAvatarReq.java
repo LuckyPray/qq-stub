@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/AiGenAvatarReq.class */
 public final class AiGenAvatarReq {
     public int avatarNum;
-    public String avatarPrompt = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String avatarPrompt = "";
 
     public int getAvatarNum() {
         return this.avatarNum;

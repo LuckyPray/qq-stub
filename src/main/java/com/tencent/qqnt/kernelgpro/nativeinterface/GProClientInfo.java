@@ -15,7 +15,7 @@ public final class GProClientInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.clientName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.clientName = "";
             this.identityInstruction = new GProIdentityInstruction();
         }
     }
@@ -49,7 +49,7 @@ public final class GProClientInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, gProIdentityInstruction});
             return;
         }
-        this.clientName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.clientName = "";
         this.identityInstruction = new GProIdentityInstruction();
         this.clientId = i;
         this.clientName = str;

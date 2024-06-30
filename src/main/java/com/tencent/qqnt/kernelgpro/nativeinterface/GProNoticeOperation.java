@@ -12,7 +12,7 @@ public final class GProNoticeOperation {
     public GProNoticeOperation() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.schema = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.schema = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

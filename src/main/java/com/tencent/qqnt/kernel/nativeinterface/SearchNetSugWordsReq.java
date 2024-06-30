@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchNetSugWordsReq.class */
 public final class SearchNetSugWordsReq {
     public int sugWordScene;
-    public String keyWord = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String keyWord = "";
     public SearchTabInfo tab = new SearchTabInfo();
     public byte[] bytesExtension = new byte[0];
 

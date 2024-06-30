@@ -19,9 +19,9 @@ public final class GProGetDiscoverRecommendGuildsRsp {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.requestId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.requestId = "";
         this.items = new ArrayList<>();
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
         this.cookies = new byte[0];
     }
 
@@ -64,9 +64,9 @@ public final class GProGetDiscoverRecommendGuildsRsp {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, arrayList, str2, Boolean.valueOf(z), bArr});
             return;
         }
-        this.requestId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.requestId = "";
         this.items = new ArrayList<>();
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
         this.cookies = new byte[0];
         this.requestId = str;
         this.items = arrayList;

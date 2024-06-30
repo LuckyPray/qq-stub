@@ -9,7 +9,7 @@ public final class BdhUploadReq {
     public byte[] upKey;
     public Long uploadTimeout;
     public String uuid;
-    public String filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String filePath = "";
     public byte[] bizInfo = new byte[0];
 
     public byte[] getBizInfo() {

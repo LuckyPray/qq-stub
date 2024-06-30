@@ -16,7 +16,7 @@ public final class GProPreventAddictionCheckReq implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.context = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.context = "";
         }
     }
 
@@ -49,7 +49,7 @@ public final class GProPreventAddictionCheckReq implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.context = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.context = "";
         this.context = str;
     }
 }

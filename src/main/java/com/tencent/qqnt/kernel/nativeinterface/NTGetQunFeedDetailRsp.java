@@ -6,13 +6,13 @@ public final class NTGetQunFeedDetailRsp {
     public boolean hasmore;
     public int result;
     public int seq;
-    public String errMs = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String errMs = "";
+    public String traceId = "";
     public RequestTimelineInfo requestTimeLine = new RequestTimelineInfo();
     public StCommonExt extInfo = new StCommonExt();
     public ClientFeed feed = new ClientFeed();
-    public String attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String mediaAttach = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String attachInfo = "";
+    public String mediaAttach = "";
     public QunRight right = new QunRight();
 
     public String getAttachInfo() {

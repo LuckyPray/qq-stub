@@ -24,7 +24,7 @@ public final class GProStGetChannelFeedsReq {
         }
         this.extInfo = new GProStCommonExt();
         this.channelSign = new GProStChannelSign();
-        this.feedAttchInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedAttchInfo = "";
         this.groupTransDataList = new ArrayList<>();
     }
 

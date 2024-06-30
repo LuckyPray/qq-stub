@@ -15,10 +15,10 @@ public final class ScanQrRspInfo {
     public TipsCtrl tips;
 
     public ScanQrRspInfo() {
-        this.dstAppName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.loginCity = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.loginDevType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.loginDevName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.dstAppName = "";
+        this.loginCity = "";
+        this.loginDevType = "";
+        this.loginDevName = "";
         this.dstOpenAppInfo = new OpenAppInfo();
         this.secCheckResult = SecCheckResult.values()[0];
         this.tips = new TipsCtrl();
@@ -71,10 +71,10 @@ public final class ScanQrRspInfo {
     }
 
     public ScanQrRspInfo(String str, String str2, String str3, String str4, boolean z, OpenAppInfo openAppInfo, SecCheckResult secCheckResult, TipsCtrl tipsCtrl, AutoLoginInfo autoLoginInfo, LoginPlat loginPlat) {
-        this.dstAppName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.loginCity = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.loginDevType = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.loginDevName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.dstAppName = "";
+        this.loginCity = "";
+        this.loginDevType = "";
+        this.loginDevName = "";
         this.dstOpenAppInfo = new OpenAppInfo();
         this.secCheckResult = SecCheckResult.values()[0];
         this.tips = new TipsCtrl();

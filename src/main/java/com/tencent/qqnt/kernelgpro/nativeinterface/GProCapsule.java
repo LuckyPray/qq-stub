@@ -16,7 +16,7 @@ public final class GProCapsule {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.avatarMetaList = new ArrayList<>();
-            this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.text = "";
         }
     }
 

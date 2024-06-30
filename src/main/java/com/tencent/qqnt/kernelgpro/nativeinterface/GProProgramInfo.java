@@ -21,10 +21,10 @@ public final class GProProgramInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.programId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.liveTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.anchorName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thirdPartyLogo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.programId = "";
+        this.liveTitle = "";
+        this.anchorName = "";
+        this.thirdPartyLogo = "";
     }
 
     public String getAnchorName() {
@@ -67,10 +67,10 @@ public final class GProProgramInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.programId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.liveTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.anchorName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thirdPartyLogo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.programId = "";
+        this.liveTitle = "";
+        this.anchorName = "";
+        this.thirdPartyLogo = "";
         this.programId = str;
         this.liveTitle = str2;
         this.anchorName = str3;

@@ -5,11 +5,11 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class SearchJump {
     public int tabMask;
     public int type;
-    public String jumpLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String jumpIosLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String jumpAndLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String jumpLink = "";
+    public String jumpIosLink = "";
+    public String jumpAndLink = "";
     public SearchGuildJump guildJump = new SearchGuildJump();
-    public String stringExtension = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String stringExtension = "";
     public SearchReportInfo reportInfo = new SearchReportInfo();
 
     public SearchGuildJump getGuildJump() {

@@ -17,7 +17,7 @@ public final class GProFDLStDeleteFeed {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
         this.poster = new GProFDLStPoster();
         this.channelInfo = new GProFDLStChannelInfo();
     }
@@ -56,7 +56,7 @@ public final class GProFDLStDeleteFeed {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, gProFDLStPoster, Long.valueOf(j), gProFDLStChannelInfo});
             return;
         }
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
         this.poster = new GProFDLStPoster();
         this.channelInfo = new GProFDLStChannelInfo();
         this.feedId = str;

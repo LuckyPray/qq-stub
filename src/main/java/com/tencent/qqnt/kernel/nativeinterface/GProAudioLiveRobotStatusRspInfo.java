@@ -12,8 +12,8 @@ public final class GProAudioLiveRobotStatusRspInfo {
     public int statusType;
 
     public GProAudioLiveRobotStatusRspInfo() {
-        this.statusText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.detailUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.statusText = "";
+        this.detailUrl = "";
     }
 
     public long getBotId() {
@@ -53,8 +53,8 @@ public final class GProAudioLiveRobotStatusRspInfo {
     }
 
     public GProAudioLiveRobotStatusRspInfo(long j, long j2, long j3, int i, String str, String str2, int i2, long j4) {
-        this.statusText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.detailUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.statusText = "";
+        this.detailUrl = "";
         this.channelId = j;
         this.botId = j2;
         this.botUin = j3;

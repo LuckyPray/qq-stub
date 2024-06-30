@@ -25,8 +25,8 @@ public final class GProStickyChannel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildId = "";
+        this.channelId = "";
         this.textChannel = new GProStickyTextChannel();
         this.liveChannel = new GProLiveRoomInfo();
         this.voiceChannel = new GProChannelMemberInfos();

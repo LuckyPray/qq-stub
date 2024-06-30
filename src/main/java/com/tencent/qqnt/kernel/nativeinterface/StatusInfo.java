@@ -15,9 +15,9 @@ public final class StatusInfo implements IKernelModel {
     public int status;
     public int termType;
     public long uin;
-    public String uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String showName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String termDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String uid = "";
+    public String showName = "";
+    public String termDesc = "";
     public StatusMusicInfo musicInfo = new StatusMusicInfo();
     public StatusBusinessInfo extOnlineBusinessInfo = new StatusBusinessInfo();
     public StatusExtBuffer extBuffer = new StatusExtBuffer();

@@ -5,7 +5,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class ConfirmGroupSchoolNoticeRsp {
     public long confirmTime;
     public long groupCode;
-    public String noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String noticeId = "";
 
     public long getConfirmTime() {
         return this.confirmTime;

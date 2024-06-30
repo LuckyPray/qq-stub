@@ -10,8 +10,8 @@ public final class UploadFileWithoutMsgParams {
 
     public UploadFileWithoutMsgParams() {
         this.bizType = RMBizTypeEnum.values()[0];
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.filePath = "";
+        this.peerUid = "";
     }
 
     public RMBizTypeEnum getBizType() {
@@ -40,8 +40,8 @@ public final class UploadFileWithoutMsgParams {
 
     public UploadFileWithoutMsgParams(int i, RMBizTypeEnum rMBizTypeEnum, String str, String str2, boolean z) {
         this.bizType = RMBizTypeEnum.values()[0];
-        this.filePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.filePath = "";
+        this.peerUid = "";
         this.transferId = i;
         this.bizType = rMBizTypeEnum;
         this.filePath = str;

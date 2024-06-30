@@ -12,7 +12,7 @@ public final class GProBaseClientIdentity {
     public GProBaseClientIdentity() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.desc = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

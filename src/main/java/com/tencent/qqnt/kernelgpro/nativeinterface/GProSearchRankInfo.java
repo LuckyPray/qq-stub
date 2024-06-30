@@ -14,8 +14,8 @@ public final class GProSearchRankInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.iconUrl = "";
+            this.text = "";
         }
     }
 

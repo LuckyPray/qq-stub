@@ -18,7 +18,7 @@ public final class GProMVPChannelContent implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.channelName = "";
         }
     }
 
@@ -52,7 +52,7 @@ public final class GProMVPChannelContent implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.channelName = "";
         this.guildId = j;
         this.channelId = j2;
         this.channelName = str;

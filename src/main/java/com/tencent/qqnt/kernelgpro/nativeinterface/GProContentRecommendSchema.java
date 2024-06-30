@@ -18,8 +18,8 @@ public final class GProContentRecommendSchema implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.cover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cover = "";
+        this.jumpUrl = "";
     }
 
     public String getCover() {

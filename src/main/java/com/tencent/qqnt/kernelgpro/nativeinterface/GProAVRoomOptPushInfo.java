@@ -22,8 +22,8 @@ public final class GProAVRoomOptPushInfo {
         }
         this.showInfo = new GProAVShowMsgInfo();
         this.roomAddUpInfo = new GProAVRoomAddUpInfo();
-        this.delRoomId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.switchRoomId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.delRoomId = "";
+        this.switchRoomId = "";
     }
 
     public long getChannelId() {
@@ -77,8 +77,8 @@ public final class GProAVRoomOptPushInfo {
         }
         this.showInfo = new GProAVShowMsgInfo();
         this.roomAddUpInfo = new GProAVRoomAddUpInfo();
-        this.delRoomId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.switchRoomId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.delRoomId = "";
+        this.switchRoomId = "";
         this.optType = i;
         this.guildId = j;
         this.channelId = j2;

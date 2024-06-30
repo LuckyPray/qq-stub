@@ -28,7 +28,7 @@ public final class GProLobbyStateInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appId = "";
         this.extendDic = new ArrayList<>();
     }
 
@@ -102,7 +102,7 @@ public final class GProLobbyStateInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appId = "";
         this.extendDic = new ArrayList<>();
         this.lobbyId = j;
         this.appId = str;

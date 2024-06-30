@@ -24,7 +24,7 @@ public final class GProGuildLabel implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.labelName = new byte[0];
-        this.value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.value = "";
         this.valueList = new ArrayList<>();
     }
 

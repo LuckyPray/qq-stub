@@ -12,7 +12,7 @@ public final class SearchAtMeChatItem {
 
     public SearchAtMeChatItem() {
         this.groupChatInfo = new ArrayList<>();
-        this.selfGroupCardName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.selfGroupCardName = "";
     }
 
     public ArrayList<SearchGroupChatInfo> getGroupChatInfo() {
@@ -37,7 +37,7 @@ public final class SearchAtMeChatItem {
 
     public SearchAtMeChatItem(ArrayList<SearchGroupChatInfo> arrayList, int i, String str, MsgRecord msgRecord) {
         this.groupChatInfo = new ArrayList<>();
-        this.selfGroupCardName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.selfGroupCardName = "";
         this.groupChatInfo = arrayList;
         this.msgCount = i;
         this.selfGroupCardName = str;

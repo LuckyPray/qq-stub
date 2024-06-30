@@ -21,7 +21,7 @@ public final class GProGetSubjectGuildsRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceId = "";
         this.cookies = new byte[0];
         this.items = new ArrayList<>();
     }
@@ -61,7 +61,7 @@ public final class GProGetSubjectGuildsRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceId = "";
         this.cookies = new byte[0];
         this.items = new ArrayList<>();
         this.traceId = str;

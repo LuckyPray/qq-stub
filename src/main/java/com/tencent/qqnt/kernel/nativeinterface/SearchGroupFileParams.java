@@ -14,7 +14,7 @@ public final class SearchGroupFileParams {
         this.groupIds = new ArrayList<>();
         this.groupNames = new ArrayList<>();
         this.sortType = SearchGroupFileSortType.values()[0];
-        this.context = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.context = "";
     }
 
     public String getContext() {
@@ -45,7 +45,7 @@ public final class SearchGroupFileParams {
         this.groupIds = new ArrayList<>();
         this.groupNames = new ArrayList<>();
         this.sortType = SearchGroupFileSortType.values()[0];
-        this.context = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.context = "";
         this.groupIds = arrayList;
         this.groupNames = arrayList2;
         this.sortType = searchGroupFileSortType;

@@ -14,8 +14,8 @@ public final class GProProfileChannelState {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.pvNumStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.channelName = "";
+            this.pvNumStr = "";
         }
     }
 

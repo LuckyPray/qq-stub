@@ -17,7 +17,7 @@ public final class GProOfficialMedalInfoExt implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.iconUrl = "";
         }
     }
 
@@ -64,7 +64,7 @@ public final class GProOfficialMedalInfoExt implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
         this.isOffical = z;
         this.iconUrl = str;
     }

@@ -10,8 +10,8 @@ public final class NTGetAlbumInfoReq {
 
     public NTGetAlbumInfoReq() {
         this.requestTimeLine = new RequestTimelineInfo();
-        this.qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.albumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qunId = "";
+        this.albumId = "";
     }
 
     public String getAlbumId() {
@@ -36,8 +36,8 @@ public final class NTGetAlbumInfoReq {
 
     public NTGetAlbumInfoReq(int i, RequestTimelineInfo requestTimelineInfo, String str, String str2) {
         this.requestTimeLine = new RequestTimelineInfo();
-        this.qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.albumId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qunId = "";
+        this.albumId = "";
         this.seq = i;
         this.requestTimeLine = requestTimelineInfo;
         this.qunId = str;

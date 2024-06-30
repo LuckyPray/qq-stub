@@ -13,7 +13,7 @@ public final class RegisterRes {
     public int statusInterval;
 
     public RegisterRes() {
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
     }
 
     public int getBatteryInterval() {
@@ -53,7 +53,7 @@ public final class RegisterRes {
     }
 
     public RegisterRes(int i, String str, long j, int i2, int i3, int i4, int i5, int i6) {
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
         this.result = i;
         this.msg = str;
         this.serverTime = j;

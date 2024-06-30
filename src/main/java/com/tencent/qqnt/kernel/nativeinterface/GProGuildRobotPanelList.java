@@ -8,7 +8,7 @@ public final class GProGuildRobotPanelList {
     public String name;
 
     public GProGuildRobotPanelList() {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.items = new ArrayList<>();
     }
 
@@ -25,7 +25,7 @@ public final class GProGuildRobotPanelList {
     }
 
     public GProGuildRobotPanelList(String str, ArrayList<GProGuildRobotPanelListItem> arrayList) {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.items = new ArrayList<>();
         this.name = str;
         this.items = arrayList;

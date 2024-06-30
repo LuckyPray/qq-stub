@@ -5,8 +5,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class DownloadBaseEmojiByIdReq {
     public String groupName;
     public EmojiPanelCategory panelCategory;
-    public String emojiId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String qzoneCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String emojiId = "";
+    public String qzoneCode = "";
 
     public String getEmojiId() {
         return this.emojiId;

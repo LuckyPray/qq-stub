@@ -11,8 +11,8 @@ public final class UploadStatusParams {
     public int status;
 
     public UploadStatusParams() {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.path = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.path = "";
     }
 
     public int getChatType() {
@@ -48,8 +48,8 @@ public final class UploadStatusParams {
     }
 
     public UploadStatusParams(long j, long j2, long j3, String str, int i, int i2, String str2) {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.path = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.path = "";
         this.msgId = j;
         this.elemId = j2;
         this.modelId = j3;

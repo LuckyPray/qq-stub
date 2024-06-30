@@ -10,7 +10,7 @@ public final class GuildChannelChatInfo {
     public int textChannelSubtypeId;
 
     public GuildChannelChatInfo() {
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.channelName = "";
     }
 
     public long getCacheSize() {
@@ -38,7 +38,7 @@ public final class GuildChannelChatInfo {
     }
 
     public GuildChannelChatInfo(int i, int i2, long j, long j2, String str) {
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.channelName = "";
         this.channelType = i;
         this.textChannelSubtypeId = i2;
         this.channelId = j;

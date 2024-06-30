@@ -20,9 +20,9 @@ public final class GProRecommendCoverInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.imageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.streamUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.flvStreamUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.imageUrl = "";
+        this.streamUrl = "";
+        this.flvStreamUrl = "";
     }
 
     public String getFlvStreamUrl() {
@@ -60,9 +60,9 @@ public final class GProRecommendCoverInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.imageUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.streamUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.flvStreamUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.imageUrl = "";
+        this.streamUrl = "";
+        this.flvStreamUrl = "";
         this.type = i;
         this.imageUrl = str;
         this.streamUrl = str2;

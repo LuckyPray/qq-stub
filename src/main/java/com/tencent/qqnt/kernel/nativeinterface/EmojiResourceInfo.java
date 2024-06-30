@@ -9,8 +9,8 @@ public final class EmojiResourceInfo {
     public int type;
 
     public EmojiResourceInfo() {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.path = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
+        this.path = "";
     }
 
     public String getErrMsg() {
@@ -34,8 +34,8 @@ public final class EmojiResourceInfo {
     }
 
     public EmojiResourceInfo(int i, String str, int i2, String str2) {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.path = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
+        this.path = "";
         this.result = i;
         this.errMsg = str;
         this.type = i2;

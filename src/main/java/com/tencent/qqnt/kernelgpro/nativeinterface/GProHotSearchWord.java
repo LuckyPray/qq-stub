@@ -17,9 +17,9 @@ public final class GProHotSearchWord {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.word = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.link = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.word = "";
+        this.icon = "";
+        this.link = "";
     }
 
     public String getIcon() {
@@ -56,9 +56,9 @@ public final class GProHotSearchWord {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, str2, str3});
             return;
         }
-        this.word = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.link = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.word = "";
+        this.icon = "";
+        this.link = "";
         this.type = i;
         this.word = str;
         this.icon = str2;

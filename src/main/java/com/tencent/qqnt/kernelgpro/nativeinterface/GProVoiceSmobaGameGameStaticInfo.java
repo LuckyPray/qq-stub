@@ -23,10 +23,10 @@ public final class GProVoiceSmobaGameGameStaticInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.gameName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.gameMode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.gameName = "";
+        this.gameMode = "";
+        this.iconUrl = "";
+        this.coverUrl = "";
         this.gradeNames = new ArrayList<>();
     }
 
@@ -75,10 +75,10 @@ public final class GProVoiceSmobaGameGameStaticInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.gameName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.gameMode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.gameName = "";
+        this.gameMode = "";
+        this.iconUrl = "";
+        this.coverUrl = "";
         this.gradeNames = new ArrayList<>();
         this.gameName = str;
         this.gameMode = str2;

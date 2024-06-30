@@ -19,7 +19,7 @@ public final class GProRecommendV2TracksBlockList implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.blockName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.blockName = "";
         this.channelList = new ArrayList<>();
     }
 
@@ -48,7 +48,7 @@ public final class GProRecommendV2TracksBlockList implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.blockName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.blockName = "";
         this.channelList = new ArrayList<>();
         this.blockName = str;
         this.channelList = arrayList;

@@ -34,14 +34,14 @@ public final class GProGuildSearchInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.profile = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.headUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.profile = "";
+        this.coverUrl = "";
+        this.joinGuildSig = "";
+        this.headUrl = "";
         this.guildStates = new ArrayList<>();
         this.tags = new ArrayList<>();
-        this.guildNumber = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildNumber = "";
         this.recallInfo = new GProRecallInfo();
         this.medalInfoList = new ArrayList<>();
         this.labelList = new ArrayList<>();

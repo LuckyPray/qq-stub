@@ -14,7 +14,7 @@ public final class GProMVPThumbImage {
     public GProMVPThumbImage() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.url = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

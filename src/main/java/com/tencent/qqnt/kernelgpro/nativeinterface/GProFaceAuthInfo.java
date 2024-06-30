@@ -12,7 +12,7 @@ public final class GProFaceAuthInfo {
     public GProFaceAuthInfo() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.verifyUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.verifyUrl = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -42,7 +42,7 @@ public final class GProFaceAuthInfo {
             iPatchRedirector.redirect((short) 2, this, i, str);
             return;
         }
-        this.verifyUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.verifyUrl = "";
         this.faceAuthStatus = i;
         this.verifyUrl = str;
     }

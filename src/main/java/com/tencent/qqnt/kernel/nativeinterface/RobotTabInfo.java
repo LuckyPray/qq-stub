@@ -3,8 +3,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/RobotTabInfo.class */
 public final class RobotTabInfo {
-    public String tabId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String tabId = "";
+    public String name = "";
 
     public String getName() {
         return this.name;

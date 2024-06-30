@@ -8,7 +8,7 @@ public final class ChatCacheDeleteInfo {
     public String uid;
 
     public ChatCacheDeleteInfo() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
     }
 
     public long getChatSize() {
@@ -28,7 +28,7 @@ public final class ChatCacheDeleteInfo {
     }
 
     public ChatCacheDeleteInfo(int i, long j, String str) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
         this.chatType = i;
         this.chatSize = j;
         this.uid = str;

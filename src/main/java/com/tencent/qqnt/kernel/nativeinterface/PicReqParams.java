@@ -8,7 +8,7 @@ public final class PicReqParams {
     public int picSize;
 
     public PicReqParams() {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
     }
 
     public int getChatType() {
@@ -32,7 +32,7 @@ public final class PicReqParams {
     }
 
     public PicReqParams(int i, String str, int i2, boolean z) {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
         this.chatType = i;
         this.peerUid = str;
         this.picSize = i2;

@@ -20,8 +20,8 @@ public final class GProMVPTopicContent implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.topicName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.schema = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.topicName = "";
+        this.schema = "";
     }
 
     public String getSchema() {

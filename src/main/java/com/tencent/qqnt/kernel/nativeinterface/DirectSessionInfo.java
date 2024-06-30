@@ -21,12 +21,12 @@ public final class DirectSessionInfo {
     public long tinyId;
 
     public DirectSessionInfo() {
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildId = "";
+        this.channelId = "";
         this.msgAbstract = new MsgAbstract();
-        this.srcGuildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.memberName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.srcGuildName = "";
+        this.nickName = "";
+        this.memberName = "";
     }
 
     public String getChannelId() {
@@ -90,12 +90,12 @@ public final class DirectSessionInfo {
     }
 
     public DirectSessionInfo(String str, String str2, long j, long j2, int i, MsgAbstract msgAbstract, long j3, long j4, String str3, String str4, String str5, int i2, int i3, boolean z) {
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildId = "";
+        this.channelId = "";
         this.msgAbstract = new MsgAbstract();
-        this.srcGuildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.memberName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.srcGuildName = "";
+        this.nickName = "";
+        this.memberName = "";
         this.guildId = str;
         this.channelId = str2;
         this.msgTime = j;

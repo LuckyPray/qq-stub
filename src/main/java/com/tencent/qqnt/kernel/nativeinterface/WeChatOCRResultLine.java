@@ -14,13 +14,13 @@ public final class WeChatOCRResultLine {
     public String text;
 
     public WeChatOCRResultLine() {
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.text = "";
         this.pt1 = new OCRPoint();
         this.pt2 = new OCRPoint();
         this.pt3 = new OCRPoint();
         this.pt4 = new OCRPoint();
         this.charBox = new ArrayList<>();
-        this.score = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.score = "";
     }
 
     public ArrayList<WeChatOCRResultChar> getCharBox() {
@@ -56,13 +56,13 @@ public final class WeChatOCRResultLine {
     }
 
     public WeChatOCRResultLine(String str, OCRPoint oCRPoint, OCRPoint oCRPoint2, OCRPoint oCRPoint3, OCRPoint oCRPoint4, ArrayList<WeChatOCRResultChar> arrayList, String str2) {
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.text = "";
         this.pt1 = new OCRPoint();
         this.pt2 = new OCRPoint();
         this.pt3 = new OCRPoint();
         this.pt4 = new OCRPoint();
         this.charBox = new ArrayList<>();
-        this.score = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.score = "";
         this.text = str;
         this.pt1 = oCRPoint;
         this.pt2 = oCRPoint2;

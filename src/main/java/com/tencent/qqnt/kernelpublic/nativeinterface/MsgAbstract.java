@@ -28,9 +28,9 @@ public final class MsgAbstract implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.peer = new Contact();
-        this.senderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sendMemberName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sendNickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderUid = "";
+        this.sendMemberName = "";
+        this.sendNickName = "";
         this.elements = new ArrayList<>();
     }
 
@@ -95,9 +95,9 @@ public final class MsgAbstract implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.peer = new Contact();
-        this.senderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sendMemberName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sendNickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderUid = "";
+        this.sendMemberName = "";
+        this.sendNickName = "";
         this.elements = new ArrayList<>();
         this.peer = contact;
         this.senderUid = str;

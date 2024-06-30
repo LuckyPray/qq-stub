@@ -15,9 +15,9 @@ public final class GrabRedBagReq {
     public GrabRedBagReq() {
         this.pcBody = new byte[0];
         this.index = new byte[0];
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.wishing = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.wishing = "";
+        this.peerUid = "";
     }
 
     public byte[] getIndex() {
@@ -59,9 +59,9 @@ public final class GrabRedBagReq {
     public GrabRedBagReq(byte[] bArr, byte[] bArr2, String str, String str2, long j, String str3, int i, long j2) {
         this.pcBody = new byte[0];
         this.index = new byte[0];
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.wishing = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.wishing = "";
+        this.peerUid = "";
         this.pcBody = bArr;
         this.index = bArr2;
         this.name = str;

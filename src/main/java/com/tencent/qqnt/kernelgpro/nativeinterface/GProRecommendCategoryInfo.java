@@ -18,7 +18,7 @@ public final class GProRecommendCategoryInfo {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.channelInfoList = new ArrayList<>();
-            this.categoryName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.categoryName = "";
         }
     }
 

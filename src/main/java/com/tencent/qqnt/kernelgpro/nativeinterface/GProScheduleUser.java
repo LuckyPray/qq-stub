@@ -16,8 +16,8 @@ public final class GProScheduleUser {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.nick = "";
+            this.avatar = "";
         }
     }
 
@@ -55,8 +55,8 @@ public final class GProScheduleUser {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, Long.valueOf(j), str2, Integer.valueOf(i)});
             return;
         }
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nick = "";
+        this.avatar = "";
         this.nick = str;
         this.tinyId = j;
         this.avatar = str2;

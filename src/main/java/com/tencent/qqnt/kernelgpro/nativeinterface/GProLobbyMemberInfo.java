@@ -21,8 +21,8 @@ public final class GProLobbyMemberInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nickName = "";
+        this.avatar = "";
     }
 
     public String getAvatar() {

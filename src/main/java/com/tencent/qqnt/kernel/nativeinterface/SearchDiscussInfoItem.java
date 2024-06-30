@@ -6,7 +6,7 @@ import java.util.ArrayList;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchDiscussInfoItem.class */
 public final class SearchDiscussInfoItem {
     public long discussCode;
-    public String discussName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String discussName = "";
     public ArrayList<SearchHitInfo> discussNameHits = new ArrayList<>();
 
     public long getDiscussCode() {

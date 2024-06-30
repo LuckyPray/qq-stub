@@ -14,8 +14,8 @@ public final class GProPersonalSignatureTemplate {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.avatarUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.sampleText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.avatarUrl = "";
+            this.sampleText = "";
         }
     }
 
@@ -43,8 +43,8 @@ public final class GProPersonalSignatureTemplate {
             iPatchRedirector.redirect((short) 2, this, str, str2);
             return;
         }
-        this.avatarUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sampleText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.avatarUrl = "";
+        this.sampleText = "";
         this.avatarUrl = str;
         this.sampleText = str2;
     }

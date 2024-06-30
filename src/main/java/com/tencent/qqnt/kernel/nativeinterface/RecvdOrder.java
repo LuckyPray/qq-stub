@@ -10,7 +10,7 @@ public final class RecvdOrder {
     public String uid;
 
     public RecvdOrder() {
-        this.recvName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.recvName = "";
     }
 
     public long getAmount() {
@@ -38,7 +38,7 @@ public final class RecvdOrder {
     }
 
     public RecvdOrder(long j, String str, long j2, int i, String str2) {
-        this.recvName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.recvName = "";
         this.recvUin = j;
         this.recvName = str;
         this.amount = j2;

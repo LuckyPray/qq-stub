@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchNetResultTabsReq.class */
 public final class SearchNetResultTabsReq {
     public int geoInfoVersion;
-    public String version = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String version = "";
     public SearchDeviceInfo deviceInfo = new SearchDeviceInfo();
     public byte[] bytesExtension = new byte[0];
 

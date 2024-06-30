@@ -21,9 +21,9 @@ public final class GProSearchBlackUserRsp {
             return;
         }
         this.memberList = new ArrayList<>();
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceId = "";
         this.buf = new byte[0];
-        this.keyword = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.keyword = "";
     }
 
     public byte[] getBuf() {
@@ -71,9 +71,9 @@ public final class GProSearchBlackUserRsp {
             return;
         }
         this.memberList = new ArrayList<>();
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.traceId = "";
         this.buf = new byte[0];
-        this.keyword = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.keyword = "";
         this.guildId = j;
         this.memberList = arrayList;
         this.nextPos = j2;

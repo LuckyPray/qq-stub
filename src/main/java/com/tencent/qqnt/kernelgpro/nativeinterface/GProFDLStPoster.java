@@ -11,7 +11,7 @@ public final class GProFDLStPoster {
     public GProFDLStPoster() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.userId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.userId = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -35,7 +35,7 @@ public final class GProFDLStPoster {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
             iPatchRedirector.redirect((short) 2, this, str);
         } else {
-            this.userId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.userId = "";
             this.userId = str;
         }
     }

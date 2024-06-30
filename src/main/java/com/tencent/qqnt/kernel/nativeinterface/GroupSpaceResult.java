@@ -11,8 +11,8 @@ public final class GroupSpaceResult {
     public long usedSpace;
 
     public GroupSpaceResult() {
-        this.retMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientWording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.retMsg = "";
+        this.clientWording = "";
     }
 
     public boolean getAllUpload() {
@@ -44,8 +44,8 @@ public final class GroupSpaceResult {
     }
 
     public GroupSpaceResult(int i, String str, String str2, long j, long j2, boolean z) {
-        this.retMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientWording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.retMsg = "";
+        this.clientWording = "";
         this.retCode = i;
         this.retMsg = str;
         this.clientWording = str2;

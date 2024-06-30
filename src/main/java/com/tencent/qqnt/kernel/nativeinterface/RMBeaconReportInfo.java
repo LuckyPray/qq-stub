@@ -16,10 +16,10 @@ public final class RMBeaconReportInfo {
     public int transType;
 
     public RMBeaconReportInfo() {
-        this.eventCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.eventCode = "";
         this.bizType = RMBizTypeEnum.values()[0];
         this.reportInfos = new ArrayList<>();
-        this.md5HexStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.md5HexStr = "";
     }
 
     public RMBizTypeEnum getBizType() {
@@ -59,10 +59,10 @@ public final class RMBeaconReportInfo {
     }
 
     public RMBeaconReportInfo(String str, RMBizTypeEnum rMBizTypeEnum, boolean z, boolean z2, ArrayList<HashMap<String, String>> arrayList, int i, int i2, String str2) {
-        this.eventCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.eventCode = "";
         this.bizType = RMBizTypeEnum.values()[0];
         this.reportInfos = new ArrayList<>();
-        this.md5HexStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.md5HexStr = "";
         this.eventCode = str;
         this.bizType = rMBizTypeEnum;
         this.isSuc = z;

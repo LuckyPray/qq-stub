@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchButton.class */
 public final class SearchButton {
     public int buttonType;
-    public String title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String title = "";
     public SearchJump jumpLink = new SearchJump();
     public SearchReportInfo reportInfo = new SearchReportInfo();
 

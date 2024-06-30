@@ -20,9 +20,9 @@ public final class GProGuildRobotPanelListItem {
     public GProGuildRobotPanelListItem() {
         this.offInfo = new GProGuildRobotPanelListItemInfo();
         this.onInfo = new GProGuildRobotPanelListItemInfo();
-        this.settingUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.availableRangeDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.settingUrl = "";
+        this.desc = "";
+        this.availableRangeDesc = "";
     }
 
     public String getAvailableRangeDesc() {
@@ -80,9 +80,9 @@ public final class GProGuildRobotPanelListItem {
     public GProGuildRobotPanelListItem(GProGuildRobotPanelListItemInfo gProGuildRobotPanelListItemInfo, GProGuildRobotPanelListItemInfo gProGuildRobotPanelListItemInfo2, boolean z, int i, int i2, long j, String str, String str2, int i3, int i4, int i5, String str3) {
         this.offInfo = new GProGuildRobotPanelListItemInfo();
         this.onInfo = new GProGuildRobotPanelListItemInfo();
-        this.settingUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.availableRangeDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.settingUrl = "";
+        this.desc = "";
+        this.availableRangeDesc = "";
         this.offInfo = gProGuildRobotPanelListItemInfo;
         this.onInfo = gProGuildRobotPanelListItemInfo2;
         this.hot = z;

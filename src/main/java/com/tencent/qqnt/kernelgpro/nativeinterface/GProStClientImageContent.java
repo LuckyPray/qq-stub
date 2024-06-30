@@ -20,10 +20,10 @@ public final class GProStClientImageContent {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.taskId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.picId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.taskId = "";
+        this.picId = "";
+        this.url = "";
+        this.md5 = "";
     }
 
     public boolean getIsGif() {

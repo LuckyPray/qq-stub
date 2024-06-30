@@ -15,9 +15,9 @@ public final class SearchResultGroup {
 
     public SearchResultGroup() {
         this.resultItem = new ArrayList<>();
-        this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.moreUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.moreName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupName = "";
+        this.moreUrl = "";
+        this.moreName = "";
         this.highlightWords = new ArrayList<>();
     }
 
@@ -55,9 +55,9 @@ public final class SearchResultGroup {
 
     public SearchResultGroup(long j, ArrayList<SearchResultItem> arrayList, String str, int i, String str2, String str3, ArrayList<String> arrayList2) {
         this.resultItem = new ArrayList<>();
-        this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.moreUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.moreName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupName = "";
+        this.moreUrl = "";
+        this.moreName = "";
         this.highlightWords = new ArrayList<>();
         this.groupMask = j;
         this.resultItem = arrayList;

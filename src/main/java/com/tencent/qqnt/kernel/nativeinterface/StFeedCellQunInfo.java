@@ -6,7 +6,7 @@ public final class StFeedCellQunInfo {
     public String qunId;
 
     public StFeedCellQunInfo() {
-        this.qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qunId = "";
     }
 
     public String getQunId() {
@@ -14,7 +14,7 @@ public final class StFeedCellQunInfo {
     }
 
     public StFeedCellQunInfo(String str) {
-        this.qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.qunId = "";
         this.qunId = str;
     }
 }

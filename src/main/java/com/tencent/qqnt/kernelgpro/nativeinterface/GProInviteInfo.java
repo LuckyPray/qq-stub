@@ -20,11 +20,11 @@ public final class GProInviteInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.base64Avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.inviteUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
+        this.base64Avatar = "";
+        this.joinSig = "";
+        this.nickName = "";
+        this.inviteUrl = "";
     }
 
     public String getBase64Avatar() {

@@ -9,7 +9,7 @@ public final class SecurityInfo {
     public String wording;
 
     public SecurityInfo() {
-        this.wording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.wording = "";
         this.buttons = new ArrayList<>();
     }
 
@@ -26,7 +26,7 @@ public final class SecurityInfo {
     }
 
     public SecurityInfo(String str, ArrayList<SecurityButton> arrayList) {
-        this.wording = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.wording = "";
         this.buttons = new ArrayList<>();
         this.wording = str;
         this.buttons = arrayList;

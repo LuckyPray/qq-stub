@@ -9,7 +9,7 @@ public final class GroupSchoolTaskCheckInInfoReq {
     public String taskId;
 
     public GroupSchoolTaskCheckInInfoReq() {
-        this.taskId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.taskId = "";
     }
 
     public long getDate() {
@@ -33,7 +33,7 @@ public final class GroupSchoolTaskCheckInInfoReq {
     }
 
     public GroupSchoolTaskCheckInInfoReq(long j, String str, long j2, boolean z) {
-        this.taskId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.taskId = "";
         this.groupCode = j;
         this.taskId = str;
         this.date = j2;

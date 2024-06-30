@@ -6,7 +6,7 @@ public final class MarketEmoticonPath {
     public String path;
 
     public MarketEmoticonPath() {
-        this.path = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.path = "";
     }
 
     public boolean getIsExist() {
@@ -22,7 +22,7 @@ public final class MarketEmoticonPath {
     }
 
     public MarketEmoticonPath(boolean z, String str) {
-        this.path = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.path = "";
         this.isExist = z;
         this.path = str;
     }

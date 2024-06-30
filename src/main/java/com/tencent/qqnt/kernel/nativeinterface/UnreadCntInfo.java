@@ -23,7 +23,7 @@ public final class UnreadCntInfo {
         this.atmeUnreadCnt = new UnreadCnt();
         this.atallUnreadCnt = new UnreadCnt();
         this.peer = new Contact();
-        this.relatedToMeString = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.relatedToMeString = "";
         this.lastRelatedToFeedType = GuildGroupOptType.values()[0];
         this.headerUrl = new byte[0];
     }
@@ -82,7 +82,7 @@ public final class UnreadCntInfo {
         this.atmeUnreadCnt = new UnreadCnt();
         this.atallUnreadCnt = new UnreadCnt();
         this.peer = new Contact();
-        this.relatedToMeString = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.relatedToMeString = "";
         this.lastRelatedToFeedType = GuildGroupOptType.values()[0];
         this.headerUrl = new byte[0];
         this.showUnreadCnt = unreadCnt;

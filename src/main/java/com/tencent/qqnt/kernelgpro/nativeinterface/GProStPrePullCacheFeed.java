@@ -18,7 +18,7 @@ public final class GProStPrePullCacheFeed {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.idd = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.idd = "";
         this.poster = new GProStUser();
         this.busiTranparentList = new ArrayList<>();
     }

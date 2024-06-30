@@ -3,7 +3,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GetAIGCEmojiListReq.class */
 public final class GetAIGCEmojiListReq {
-    public String packId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String packId = "";
     public byte[] pageSession = new byte[0];
     public int pageSize;
     public int sortMode;

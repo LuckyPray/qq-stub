@@ -19,8 +19,8 @@ public final class GProUserGiftInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.showGiftPrice = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.giftTipsMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.showGiftPrice = "";
+        this.giftTipsMsg = "";
     }
 
     public long getGiftPrice() {

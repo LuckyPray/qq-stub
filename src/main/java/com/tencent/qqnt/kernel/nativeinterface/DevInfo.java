@@ -8,7 +8,7 @@ public final class DevInfo implements IKernelModel {
     public int instanceId;
 
     public DevInfo() {
-        this.devUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.devUid = "";
     }
 
     public int getClientType() {
@@ -40,7 +40,7 @@ public final class DevInfo implements IKernelModel {
     }
 
     public DevInfo(int i, int i2, String str) {
-        this.devUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.devUid = "";
         this.instanceId = i;
         this.clientType = i2;
         this.devUid = str;

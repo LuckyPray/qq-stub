@@ -7,7 +7,7 @@ public final class FamilyAlbumMeta {
     public int day;
     public int gender;
     public int month;
-    public String nickname = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String nickname = "";
     public int year;
 
     public int getBirthType() {

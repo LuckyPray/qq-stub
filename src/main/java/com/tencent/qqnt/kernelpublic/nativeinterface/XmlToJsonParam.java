@@ -27,7 +27,7 @@ public final class XmlToJsonParam implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.content = "";
         }
     }
 
@@ -101,7 +101,7 @@ public final class XmlToJsonParam implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.content = "";
         this.busiType = j;
         this.busiId = j2;
         this.c2cType = i;

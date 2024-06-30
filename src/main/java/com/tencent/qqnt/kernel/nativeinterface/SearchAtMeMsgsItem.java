@@ -11,10 +11,10 @@ public final class SearchAtMeMsgsItem {
     public long senderUin;
 
     public SearchAtMeMsgsItem() {
-        this.senderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderRemark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderCard = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderUid = "";
+        this.senderNick = "";
+        this.senderRemark = "";
+        this.senderCard = "";
         this.msgRecord = new MsgRecord();
     }
 
@@ -47,10 +47,10 @@ public final class SearchAtMeMsgsItem {
     }
 
     public SearchAtMeMsgsItem(String str, long j, String str2, String str3, String str4, MsgRecord msgRecord) {
-        this.senderUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderRemark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderCard = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.senderUid = "";
+        this.senderNick = "";
+        this.senderRemark = "";
+        this.senderCard = "";
         this.msgRecord = new MsgRecord();
         this.senderUid = str;
         this.senderUin = j;

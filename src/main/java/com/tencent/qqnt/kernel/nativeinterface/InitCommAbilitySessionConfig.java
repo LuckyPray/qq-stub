@@ -8,8 +8,8 @@ public final class InitCommAbilitySessionConfig {
     public String sysPath;
 
     public InitCommAbilitySessionConfig() {
-        this.selfUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sysPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.selfUid = "";
+        this.sysPath = "";
     }
 
     public String getSelfUid() {
@@ -29,8 +29,8 @@ public final class InitCommAbilitySessionConfig {
     }
 
     public InitCommAbilitySessionConfig(long j, String str, String str2) {
-        this.selfUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.sysPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.selfUid = "";
+        this.sysPath = "";
         this.selfUin = j;
         this.selfUid = str;
         this.sysPath = str2;

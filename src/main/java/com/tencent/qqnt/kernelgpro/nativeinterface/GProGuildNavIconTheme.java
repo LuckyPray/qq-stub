@@ -17,8 +17,8 @@ public final class GProGuildNavIconTheme {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.iconSelectorColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconSelectorUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconSelectorColor = "";
+        this.iconSelectorUrl = "";
         this.icons = new ArrayList<>();
     }
 
@@ -51,8 +51,8 @@ public final class GProGuildNavIconTheme {
             iPatchRedirector.redirect((short) 2, this, str, str2, arrayList);
             return;
         }
-        this.iconSelectorColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconSelectorUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconSelectorColor = "";
+        this.iconSelectorUrl = "";
         this.icons = new ArrayList<>();
         this.iconSelectorColor = str;
         this.iconSelectorUrl = str2;

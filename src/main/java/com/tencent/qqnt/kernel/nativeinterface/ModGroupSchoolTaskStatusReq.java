@@ -9,7 +9,7 @@ public final class ModGroupSchoolTaskStatusReq {
     public String taskId;
 
     public ModGroupSchoolTaskStatusReq() {
-        this.taskId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.taskId = "";
     }
 
     public int getDesStatus() {
@@ -33,7 +33,7 @@ public final class ModGroupSchoolTaskStatusReq {
     }
 
     public ModGroupSchoolTaskStatusReq(long j, String str, int i, int i2) {
-        this.taskId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.taskId = "";
         this.groupCode = j;
         this.taskId = str;
         this.desStatus = i;

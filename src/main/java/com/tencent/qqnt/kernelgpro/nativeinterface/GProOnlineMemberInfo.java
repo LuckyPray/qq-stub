@@ -17,9 +17,9 @@ public final class GProOnlineMemberInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.onlineMemberCnt = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.onlineMemberCnt = "";
         this.onlineMemberAvatars = new ArrayList<>();
-        this.hotIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.hotIcon = "";
     }
 
     public String getHotIcon() {

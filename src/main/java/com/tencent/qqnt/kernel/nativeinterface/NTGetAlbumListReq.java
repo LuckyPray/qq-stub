@@ -7,8 +7,8 @@ public final class NTGetAlbumListReq {
     public boolean enableCache;
     public int seq;
     public RequestTimelineInfo requestTimeLine = new RequestTimelineInfo();
-    public String qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String qunId = "";
+    public String attachInfo = "";
 
     public String getAttachInfo() {
         return this.attachInfo;

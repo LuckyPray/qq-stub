@@ -16,7 +16,7 @@ public final class GProChannelToolBar implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.toolbarListStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.toolbarListStr = "";
         }
     }
 
@@ -40,7 +40,7 @@ public final class GProChannelToolBar implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.toolbarListStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.toolbarListStr = "";
         this.toolbarListStr = str;
     }
 }

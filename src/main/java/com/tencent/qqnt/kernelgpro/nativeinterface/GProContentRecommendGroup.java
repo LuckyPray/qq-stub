@@ -25,12 +25,12 @@ public final class GProContentRecommendGroup implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.headUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupSummary = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinGroupAuth = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.groupMembers = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.headUrl = "";
+        this.groupName = "";
+        this.groupSummary = "";
+        this.joinText = "";
+        this.joinGroupAuth = "";
+        this.groupMembers = "";
         this.recommendReasons = new ArrayList<>();
     }
 

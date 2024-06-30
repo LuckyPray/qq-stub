@@ -18,9 +18,9 @@ public final class GProRecommendQuickJoinItem {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.mainSource = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subSource = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.mainSource = "";
+        this.subSource = "";
+        this.joinSig = "";
     }
 
     public long getChannelId() {
@@ -62,9 +62,9 @@ public final class GProRecommendQuickJoinItem {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, str2, str3});
             return;
         }
-        this.mainSource = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.subSource = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.mainSource = "";
+        this.subSource = "";
+        this.joinSig = "";
         this.guildId = j;
         this.channelId = j2;
         this.mainSource = str;

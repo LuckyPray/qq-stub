@@ -21,9 +21,9 @@ public final class GProFeedSquareData {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nick = "";
+        this.content = "";
+        this.feedId = "";
     }
 
     public long getChannelId() {

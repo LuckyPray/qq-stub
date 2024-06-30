@@ -19,8 +19,8 @@ public final class GProPrefetchRecommendGuildInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.category = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildIcon = "";
+        this.category = "";
     }
 
     public String getCategory() {
@@ -53,8 +53,8 @@ public final class GProPrefetchRecommendGuildInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.category = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildIcon = "";
+        this.category = "";
         this.guildId = j;
         this.guildIcon = str;
         this.category = str2;

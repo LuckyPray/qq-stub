@@ -20,7 +20,7 @@ public final class GProTagInfo implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.desc = "";
         }
     }
 

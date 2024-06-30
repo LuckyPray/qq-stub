@@ -26,12 +26,12 @@ public final class GProSimpleProfile {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.memberName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.displayName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nickName = "";
+        this.memberName = "";
+        this.displayName = "";
+        this.avatarMeta = "";
         this.clientIdentityBytes = new GProClientIdentity();
-        this.avatarPendant = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.avatarPendant = "";
         this.personalMedal = new GProMedal();
         this.categoryIds = new ArrayList<>();
     }
@@ -218,12 +218,12 @@ public final class GProSimpleProfile {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), str, str2, str3, str4, gProClientIdentity, str5, gProMedal, arrayList});
             return;
         }
-        this.nickName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.memberName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.displayName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nickName = "";
+        this.memberName = "";
+        this.displayName = "";
+        this.avatarMeta = "";
         this.clientIdentityBytes = new GProClientIdentity();
-        this.avatarPendant = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.avatarPendant = "";
         this.personalMedal = new GProMedal();
         this.categoryIds = new ArrayList<>();
         this.guildId = j;

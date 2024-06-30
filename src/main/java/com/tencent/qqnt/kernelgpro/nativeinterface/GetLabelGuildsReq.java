@@ -15,8 +15,8 @@ public final class GetLabelGuildsReq {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.code = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.labelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.code = "";
+            this.labelName = "";
         }
     }
 
@@ -62,8 +62,8 @@ public final class GetLabelGuildsReq {
             iPatchRedirector.redirect((short) 2, this, str, str2);
             return;
         }
-        this.code = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.labelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.code = "";
+        this.labelName = "";
         this.code = str;
         this.labelName = str2;
     }

@@ -23,10 +23,10 @@ public final class GProGuildInfoInLabel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildIcon = "";
         this.guildLabels = new ArrayList<>();
-        this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.joinGuildSig = "";
     }
 
     public String getGuildIcon() {
@@ -74,10 +74,10 @@ public final class GProGuildInfoInLabel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildIcon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.guildIcon = "";
         this.guildLabels = new ArrayList<>();
-        this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.joinGuildSig = "";
         this.guildId = j;
         this.guildName = str;
         this.guildIcon = str2;

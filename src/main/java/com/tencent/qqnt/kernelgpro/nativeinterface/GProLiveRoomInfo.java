@@ -28,13 +28,13 @@ public final class GProLiveRoomInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.channelId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.channelId = "";
+        this.channelName = "";
         this.anchorInfo = new GProAnchorInfo();
         this.roomInfo = new GProRoomInfo();
         this.streamInfo = new GProLiveStreamInfo();
         this.programInfo = new GProProgramInfo();
-        this.closeTips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.closeTips = "";
     }
 
     public GProAnchorInfo getAnchorInfo() {

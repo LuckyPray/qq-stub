@@ -17,8 +17,8 @@ public final class GProStFeedListHeaderInfo {
             return;
         }
         this.headPic = new GProStImage();
-        this.feedCountDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedCountDesc = "";
+        this.joinDesc = "";
     }
 
     public String getFeedCountDesc() {

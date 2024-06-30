@@ -13,9 +13,9 @@ public final class SysEmoji {
     public boolean isHide;
     public int qcid;
     public long startTime;
-    public String emojiId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String describe = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String qzoneCode = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String emojiId = "";
+    public String describe = "";
+    public String qzoneCode = "";
     public BaseEmojiType emojiType = BaseEmojiType.values()[0];
     public DownloadBaseEmojiInfo downloadInfo = new DownloadBaseEmojiInfo();
     public ArrayList<String> associateWords = new ArrayList<>();

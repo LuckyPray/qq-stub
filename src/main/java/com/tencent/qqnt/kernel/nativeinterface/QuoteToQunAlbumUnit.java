@@ -10,11 +10,11 @@ public final class QuoteToQunAlbumUnit {
     public int storeId;
     public long uin;
     public int width;
-    public String mediaId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String mediaMd5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String dittoUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String sha1 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String mediaName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String mediaId = "";
+    public String mediaMd5 = "";
+    public String dittoUin = "";
+    public String sha1 = "";
+    public String mediaName = "";
 
     public String getDittoUin() {
         return this.dittoUin;

@@ -21,7 +21,7 @@ public final class GProUserFreeGiftReq implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.checkContext = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.checkContext = "";
         this.themeTypes = new ArrayList<>();
     }
 
@@ -96,7 +96,7 @@ public final class GProUserFreeGiftReq implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.checkContext = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.checkContext = "";
         this.themeTypes = new ArrayList<>();
         this.guildId = j;
         this.channelId = j2;

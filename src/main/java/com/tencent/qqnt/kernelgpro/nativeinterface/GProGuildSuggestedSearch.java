@@ -15,7 +15,7 @@ public final class GProGuildSuggestedSearch {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.title = "";
             this.content = new ArrayList<>();
         }
     }
@@ -44,7 +44,7 @@ public final class GProGuildSuggestedSearch {
             iPatchRedirector.redirect((short) 2, this, str, arrayList);
             return;
         }
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
         this.content = new ArrayList<>();
         this.title = str;
         this.content = arrayList;

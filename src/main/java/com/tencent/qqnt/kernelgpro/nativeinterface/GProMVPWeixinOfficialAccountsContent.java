@@ -20,10 +20,10 @@ public final class GProMVPWeixinOfficialAccountsContent implements Serializable 
             return;
         }
         this.serialVersionUID = 1L;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.author = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.title = "";
+        this.icon = "";
+        this.author = "";
     }
 
     public String getAuthor() {

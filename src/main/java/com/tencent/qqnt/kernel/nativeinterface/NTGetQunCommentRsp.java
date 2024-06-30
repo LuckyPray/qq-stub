@@ -6,12 +6,12 @@ public final class NTGetQunCommentRsp {
     public boolean hasmore;
     public int result;
     public int seq;
-    public String errMs = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String errMs = "";
+    public String traceId = "";
     public RequestTimelineInfo requestTimeLine = new RequestTimelineInfo();
     public StCommonExt ext = new StCommonExt();
     public StFeedCellComment cellComment = new StFeedCellComment();
-    public String attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String attachInfo = "";
 
     public String getAttachInfo() {
         return this.attachInfo;

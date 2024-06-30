@@ -12,8 +12,8 @@ public final class KickedInfo implements IKernelModel {
     public String tipsTitle;
 
     public KickedInfo() {
-        this.tipsDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tipsTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tipsDesc = "";
+        this.tipsTitle = "";
         this.kickedType = KickedType.values()[0];
     }
 
@@ -78,8 +78,8 @@ public final class KickedInfo implements IKernelModel {
     }
 
     public KickedInfo(int i, int i2, boolean z, String str, String str2, KickedType kickedType, int i3) {
-        this.tipsDesc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tipsTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tipsDesc = "";
+        this.tipsTitle = "";
         this.kickedType = KickedType.values()[0];
         this.appId = i;
         this.instanceId = i2;

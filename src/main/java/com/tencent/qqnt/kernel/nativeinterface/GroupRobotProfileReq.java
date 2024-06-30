@@ -5,8 +5,8 @@ public final class GroupRobotProfileReq {
     public long groupId;
     public int robotBizType;
     public long robotUin;
-    public String bkn = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String robotUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String bkn = "";
+    public String robotUid = "";
     public RobotProfileFetchType fetchType = RobotProfileFetchType.values()[0];
 
     public String getBkn() {

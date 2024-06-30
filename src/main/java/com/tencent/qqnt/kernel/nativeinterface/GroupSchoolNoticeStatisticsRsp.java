@@ -8,7 +8,7 @@ public final class GroupSchoolNoticeStatisticsRsp {
     public int confirmedCount;
     public long groupCode;
     public boolean isEnd;
-    public String noticeId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String noticeId = "";
     public ArrayList<GroupSchoolNoticeReceiverInfo> receivers = new ArrayList<>();
     public int remindCount;
     public int total;

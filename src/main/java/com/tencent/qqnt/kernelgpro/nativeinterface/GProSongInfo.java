@@ -21,7 +21,7 @@ public final class GProSongInfo implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.playUrlList = new ArrayList<>();
-        this.lyrics = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.lyrics = "";
     }
 
     public boolean getIsEnable() {
@@ -55,7 +55,7 @@ public final class GProSongInfo implements Serializable {
         }
         this.serialVersionUID = 1L;
         this.playUrlList = new ArrayList<>();
-        this.lyrics = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.lyrics = "";
         this.playUrlList = arrayList;
         this.lyrics = str;
         this.isEnable = z;

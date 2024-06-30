@@ -11,9 +11,9 @@ public final class GProRecallRspItem {
     public ArrayList<Long> msgSeqs;
 
     public GProRecallRspItem() {
-        this.channelId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.channelId = "";
         this.msgSeqs = new ArrayList<>();
-        this.msgBytes = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msgBytes = "";
     }
 
     public long getChannelCode() {
@@ -41,9 +41,9 @@ public final class GProRecallRspItem {
     }
 
     public GProRecallRspItem(String str, ArrayList<Long> arrayList, int i, long j, String str2) {
-        this.channelId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.channelId = "";
         this.msgSeqs = new ArrayList<>();
-        this.msgBytes = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msgBytes = "";
         this.channelId = str;
         this.msgSeqs = arrayList;
         this.directMsgFlag = i;

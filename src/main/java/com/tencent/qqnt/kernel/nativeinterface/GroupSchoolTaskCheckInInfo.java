@@ -6,7 +6,7 @@ public final class GroupSchoolTaskCheckInInfo {
     public long checkInTime;
     public boolean isMakeUp;
     public long uin;
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String name = "";
     public GroupSchoolNoticeContent content = new GroupSchoolNoticeContent();
 
     public long getCheckInTime() {

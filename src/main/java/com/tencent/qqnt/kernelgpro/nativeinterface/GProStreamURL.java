@@ -18,8 +18,8 @@ public final class GProStreamURL implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.streamName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.streamName = "";
+        this.playUrl = "";
     }
 
     public String getPlayUrl() {
@@ -47,8 +47,8 @@ public final class GProStreamURL implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.streamName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.streamName = "";
+        this.playUrl = "";
         this.streamName = str;
         this.playUrl = str2;
     }

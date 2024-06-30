@@ -7,7 +7,7 @@ public final class IOperateResult {
     public String errMsg;
 
     public IOperateResult() {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
     }
 
     public int getCode() {
@@ -23,7 +23,7 @@ public final class IOperateResult {
     }
 
     public IOperateResult(int i, String str) {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
         this.code = i;
         this.errMsg = str;
     }

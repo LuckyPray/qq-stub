@@ -27,7 +27,7 @@ public final class GProStAlterFeedReq {
         this.feed = new GProStFeed();
         this.busiReqData = new byte[0];
         this.alterFeedExtInfoList = new ArrayList<>();
-        this.jsonFeed = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jsonFeed = "";
         this.clientContent = new GProStClientContent();
     }
 

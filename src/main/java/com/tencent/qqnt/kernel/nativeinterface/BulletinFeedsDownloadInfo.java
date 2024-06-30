@@ -6,13 +6,13 @@ public final class BulletinFeedsDownloadInfo {
     public int errorCode;
     public int levelType;
     public long progress;
-    public String errorMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String feedsId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String errorMsg = "";
+    public String feedsId = "";
+    public String fileId = "";
     public BulletinFeedsFileType downloadType = BulletinFeedsFileType.values()[0];
-    public String fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String savePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String fileName = "";
+    public String url = "";
+    public String savePath = "";
 
     public BulletinFeedsFileType getDownloadType() {
         return this.downloadType;

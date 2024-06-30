@@ -7,7 +7,7 @@ public final class DataLineImportQueryParam {
     public String tableName;
 
     public DataLineImportQueryParam() {
-        this.tableName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tableName = "";
     }
 
     public int getReadCount() {
@@ -27,7 +27,7 @@ public final class DataLineImportQueryParam {
     }
 
     public DataLineImportQueryParam(String str, long j, int i) {
-        this.tableName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tableName = "";
         this.tableName = str;
         this.startIndex = j;
         this.readCount = i;

@@ -10,7 +10,7 @@ public final class GroupSchoolTaskData {
     public int progress;
     public long publishTime;
     public int status;
-    public String taskId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String taskId = "";
     public GroupSchoolNoticeContent content = new GroupSchoolNoticeContent();
     public GroupSchoolTaskTimeSettings timeSettings = new GroupSchoolTaskTimeSettings();
     public ArrayList<GroupSchoolTaskPublishGroupInfo> groups = new ArrayList<>();

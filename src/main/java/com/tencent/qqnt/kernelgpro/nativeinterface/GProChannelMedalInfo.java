@@ -19,8 +19,8 @@ public final class GProChannelMedalInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
+        this.name = "";
     }
 
     public long getExpireTime() {

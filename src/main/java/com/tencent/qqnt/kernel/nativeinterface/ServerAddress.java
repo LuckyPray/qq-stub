@@ -9,7 +9,7 @@ public final class ServerAddress {
     public int port;
 
     public ServerAddress() {
-        this.f40ip = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f40ip = "";
     }
 
     public String getIp() {
@@ -25,7 +25,7 @@ public final class ServerAddress {
     }
 
     public ServerAddress(String str, int i) {
-        this.f40ip = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f40ip = "";
         this.f40ip = str;
         this.port = i;
     }

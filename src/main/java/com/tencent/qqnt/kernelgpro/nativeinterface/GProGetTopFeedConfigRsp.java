@@ -23,9 +23,9 @@ public final class GProGetTopFeedConfigRsp {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.notAllowReason = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.notAllowReason = "";
         this.canUseLabels = new ArrayList<>();
-        this.notAllowNotifyReason = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.notAllowNotifyReason = "";
     }
 
     public boolean getAllowNotifyAction() {

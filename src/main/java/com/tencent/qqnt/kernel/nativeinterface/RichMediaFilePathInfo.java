@@ -13,9 +13,9 @@ public final class RichMediaFilePathInfo {
     public int thumbSize;
 
     public RichMediaFilePathInfo() {
-        this.md5HexStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileUuid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.md5HexStr = "";
+        this.fileName = "";
+        this.fileUuid = "";
     }
 
     public int getDownloadType() {
@@ -59,9 +59,9 @@ public final class RichMediaFilePathInfo {
     }
 
     public RichMediaFilePathInfo(int i, int i2, String str, String str2, int i3, int i4, byte[] bArr, String str3, boolean z) {
-        this.md5HexStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileUuid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.md5HexStr = "";
+        this.fileName = "";
+        this.fileUuid = "";
         this.elementType = i;
         this.elementSubType = i2;
         this.md5HexStr = str;

@@ -22,7 +22,7 @@ public final class GProStGuildLabel {
             return;
         }
         this.labelName = new byte[0];
-        this.value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.value = "";
         this.valueList = new ArrayList<>();
         this.bussiData = new byte[0];
     }

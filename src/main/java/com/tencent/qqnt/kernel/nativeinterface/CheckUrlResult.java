@@ -9,8 +9,8 @@ public final class CheckUrlResult {
     public String url;
 
     public CheckUrlResult() {
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.jumpUrl = "";
     }
 
     public int getJumpResult() {
@@ -34,8 +34,8 @@ public final class CheckUrlResult {
     }
 
     public CheckUrlResult(String str, int i, int i2, String str2) {
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.jumpUrl = "";
         this.url = str;
         this.result = i;
         this.jumpResult = i2;

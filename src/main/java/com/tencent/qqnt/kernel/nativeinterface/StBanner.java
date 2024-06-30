@@ -7,11 +7,11 @@ public final class StBanner {
     public long intervalTime;
 
     /* renamed from: id */
-    public String f44id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String img = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String color = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String actionUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String f44id = "";
+    public String img = "";
+    public String color = "";
+    public String text = "";
+    public String actionUrl = "";
 
     public int getActionType() {
         return this.actionType;

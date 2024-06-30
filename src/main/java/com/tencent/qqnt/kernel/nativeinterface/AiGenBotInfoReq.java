@@ -5,7 +5,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 public final class AiGenBotInfoReq {
     public MyBotInfo myBotInfo = new MyBotInfo();
     public AiGenBotInfoOperationType genType = AiGenBotInfoOperationType.values()[0];
-    public String botTemplate = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String botTemplate = "";
 
     public String getBotTemplate() {
         return this.botTemplate;

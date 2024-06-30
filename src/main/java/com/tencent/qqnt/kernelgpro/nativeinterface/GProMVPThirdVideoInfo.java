@@ -19,8 +19,8 @@ public final class GProMVPThirdVideoInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.cover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cover = "";
+        this.playUrl = "";
     }
 
     public String getCover() {
@@ -53,8 +53,8 @@ public final class GProMVPThirdVideoInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.cover = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.playUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cover = "";
+        this.playUrl = "";
         this.cover = str;
         this.duration = j;
         this.playUrl = str2;

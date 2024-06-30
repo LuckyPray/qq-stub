@@ -26,20 +26,20 @@ public final class ArkInfo {
     public String whiteResUrls;
 
     public ArkInfo() {
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bizsrc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appId = "";
+        this.bizsrc = "";
         this.matchScene = new ArrayList<>();
-        this.param = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bizChinese = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.triggerScene = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.expireTime = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.owners = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.rtxOperator = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.testUins = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.whiteJumpUrls = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.whiteResUrls = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.createTime = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.updateTime = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.param = "";
+        this.bizChinese = "";
+        this.triggerScene = "";
+        this.expireTime = "";
+        this.owners = "";
+        this.rtxOperator = "";
+        this.testUins = "";
+        this.whiteJumpUrls = "";
+        this.whiteResUrls = "";
+        this.createTime = "";
+        this.updateTime = "";
     }
 
     public String getAppId() {
@@ -123,20 +123,20 @@ public final class ArkInfo {
     }
 
     public ArkInfo(String str, String str2, ArrayList<Integer> arrayList, String str3, String str4, String str5, String str6, int i, String str7, String str8, int i2, String str9, String str10, String str11, long j, long j2, long j3, String str12, String str13) {
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bizsrc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appId = "";
+        this.bizsrc = "";
         this.matchScene = new ArrayList<>();
-        this.param = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.bizChinese = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.triggerScene = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.expireTime = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.owners = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.rtxOperator = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.testUins = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.whiteJumpUrls = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.whiteResUrls = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.createTime = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.updateTime = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.param = "";
+        this.bizChinese = "";
+        this.triggerScene = "";
+        this.expireTime = "";
+        this.owners = "";
+        this.rtxOperator = "";
+        this.testUins = "";
+        this.whiteJumpUrls = "";
+        this.whiteResUrls = "";
+        this.createTime = "";
+        this.updateTime = "";
         this.appId = str;
         this.bizsrc = str2;
         this.matchScene = arrayList;

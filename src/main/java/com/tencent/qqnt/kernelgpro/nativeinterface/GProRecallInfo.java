@@ -19,9 +19,9 @@ public final class GProRecallInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.query = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.recallName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.query = "";
+        this.recallName = "";
+        this.traceId = "";
     }
 
     public float getQualityScore() {
@@ -68,9 +68,9 @@ public final class GProRecallInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, Float.valueOf(f), Float.valueOf(f2), Float.valueOf(f3), str3});
             return;
         }
-        this.query = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.recallName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.query = "";
+        this.recallName = "";
+        this.traceId = "";
         this.query = str;
         this.recallName = str2;
         this.relevanceScore = f;

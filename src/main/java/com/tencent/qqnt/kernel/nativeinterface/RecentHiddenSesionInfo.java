@@ -13,8 +13,8 @@ public final class RecentHiddenSesionInfo {
     public long version;
 
     public RecentHiddenSesionInfo() {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.peerUin = "";
     }
 
     public int getChatType() {
@@ -54,8 +54,8 @@ public final class RecentHiddenSesionInfo {
     }
 
     public RecentHiddenSesionInfo(String str, String str2, int i, boolean z, boolean z2, boolean z3, long j, long j2) {
-        this.peerUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerUin = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.peerUid = "";
+        this.peerUin = "";
         this.peerUid = str;
         this.peerUin = str2;
         this.chatType = i;

@@ -13,10 +13,10 @@ public final class InlineKeyboardClickInfo {
     public String peerId;
 
     public InlineKeyboardClickInfo() {
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.buttonId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.callbackData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildId = "";
+        this.peerId = "";
+        this.buttonId = "";
+        this.callbackData = "";
     }
 
     public long getBotAppid() {
@@ -56,10 +56,10 @@ public final class InlineKeyboardClickInfo {
     }
 
     public InlineKeyboardClickInfo(String str, String str2, long j, long j2, String str3, String str4, int i, int i2) {
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.peerId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.buttonId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.callbackData = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildId = "";
+        this.peerId = "";
+        this.buttonId = "";
+        this.callbackData = "";
         this.guildId = str;
         this.peerId = str2;
         this.botAppid = j;

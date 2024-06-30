@@ -18,7 +18,7 @@ public final class GProSendNoticeReq {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.authMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.authMeta = "";
             this.notifyMemberInfo = new GProAVChannelNoticeMemberInfo();
         }
     }

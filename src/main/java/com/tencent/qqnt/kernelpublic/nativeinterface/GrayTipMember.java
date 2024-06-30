@@ -19,8 +19,8 @@ public final class GrayTipMember implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.name = "";
     }
 
     public String getName() {
@@ -48,8 +48,8 @@ public final class GrayTipMember implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.name = "";
         this.uid = str;
         this.name = str2;
     }

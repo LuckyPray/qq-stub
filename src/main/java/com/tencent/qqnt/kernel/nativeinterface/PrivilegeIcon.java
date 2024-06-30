@@ -9,7 +9,7 @@ public final class PrivilegeIcon {
     public ArrayList<PrivilegeInfo> openIconList;
 
     public PrivilegeIcon() {
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jumpUrl = "";
         this.openIconList = new ArrayList<>();
         this.closeIconList = new ArrayList<>();
     }
@@ -31,7 +31,7 @@ public final class PrivilegeIcon {
     }
 
     public PrivilegeIcon(String str, ArrayList<PrivilegeInfo> arrayList, ArrayList<PrivilegeInfo> arrayList2) {
-        this.jumpUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.jumpUrl = "";
         this.openIconList = new ArrayList<>();
         this.closeIconList = new ArrayList<>();
         this.jumpUrl = str;

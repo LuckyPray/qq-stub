@@ -25,7 +25,7 @@ public final class GProImage implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
         this.thumbImages = new ArrayList<>();
     }
 
@@ -84,7 +84,7 @@ public final class GProImage implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
         this.thumbImages = new ArrayList<>();
         this.width = i;
         this.height = i2;

@@ -6,8 +6,8 @@ public final class GroupAtInfo {
     public int RemainAtAllCountForGroup;
     public int RemainAtAllCountForUin;
     public boolean canAtAll;
-    public String atTimesMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String canNotAtAllMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String atTimesMsg = "";
+    public String canNotAtAllMsg = "";
 
     public String getAtTimesMsg() {
         return this.atTimesMsg;

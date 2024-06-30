@@ -25,12 +25,12 @@ public final class GProStFeedAbstract {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.idd = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.idd = "";
+        this.title = "";
         this.poster = new GProStUser();
         this.pic = new GProStImage();
         this.video = new GProStVideo();
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.content = "";
         this.images = new ArrayList<>();
         this.countInfo = new GProStFeedCount();
     }

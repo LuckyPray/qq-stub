@@ -35,10 +35,10 @@ public final class FirstViewDirectMsgNotifyInfo {
         this.msgAbstract = new MsgAbstract();
         this.FeedsEventLastId = new byte[0];
         this.FeedAtTypes = new ArrayList<>();
-        this.FeedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.CmtId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ReplyId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.JumpSchema = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.FeedId = "";
+        this.CmtId = "";
+        this.ReplyId = "";
+        this.JumpSchema = "";
     }
 
     public String getCmtId() {
@@ -138,10 +138,10 @@ public final class FirstViewDirectMsgNotifyInfo {
         this.msgAbstract = new MsgAbstract();
         this.FeedsEventLastId = new byte[0];
         this.FeedAtTypes = new ArrayList<>();
-        this.FeedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.CmtId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ReplyId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.JumpSchema = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.FeedId = "";
+        this.CmtId = "";
+        this.ReplyId = "";
+        this.JumpSchema = "";
         this.DirectMsgSwitch = i;
         this.FeedsEventIsValid = j;
         this.FeedsEventNnreadNum = j2;

@@ -7,7 +7,7 @@ public final class GroupSchoolTaskDetailReq {
     public String taskId;
 
     public GroupSchoolTaskDetailReq() {
-        this.taskId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.taskId = "";
     }
 
     public long getGroupCode() {
@@ -23,7 +23,7 @@ public final class GroupSchoolTaskDetailReq {
     }
 
     public GroupSchoolTaskDetailReq(long j, String str) {
-        this.taskId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.taskId = "";
         this.groupCode = j;
         this.taskId = str;
     }

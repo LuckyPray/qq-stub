@@ -21,7 +21,7 @@ public final class GProRecommendV2Label implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.textColor = new GProRecommendV2Color();
         this.edgingColor = new GProRecommendV2Color();
     }
@@ -66,7 +66,7 @@ public final class GProRecommendV2Label implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.textColor = new GProRecommendV2Color();
         this.edgingColor = new GProRecommendV2Color();
         this.name = str;

@@ -9,7 +9,7 @@ public final class NTGetAllAlbumListReq {
 
     public NTGetAllAlbumListReq() {
         this.requestTimeLine = new RequestTimelineInfo();
-        this.attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.attachInfo = "";
     }
 
     public String getAttachInfo() {
@@ -30,7 +30,7 @@ public final class NTGetAllAlbumListReq {
 
     public NTGetAllAlbumListReq(int i, RequestTimelineInfo requestTimelineInfo, String str) {
         this.requestTimeLine = new RequestTimelineInfo();
-        this.attachInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.attachInfo = "";
         this.seq = i;
         this.requestTimeLine = requestTimelineInfo;
         this.attachInfo = str;

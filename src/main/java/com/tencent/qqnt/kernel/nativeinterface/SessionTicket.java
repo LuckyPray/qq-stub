@@ -12,9 +12,9 @@ public final class SessionTicket {
     public String d2Key;
 
     public SessionTicket() {
-        this.f41a2 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.f42d2 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.d2Key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f41a2 = "";
+        this.f42d2 = "";
+        this.d2Key = "";
     }
 
     public String getA2() {
@@ -34,9 +34,9 @@ public final class SessionTicket {
     }
 
     public SessionTicket(String str, String str2, String str3) {
-        this.f41a2 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.f42d2 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.d2Key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.f41a2 = "";
+        this.f42d2 = "";
+        this.d2Key = "";
         this.f41a2 = str;
         this.f42d2 = str2;
         this.d2Key = str3;

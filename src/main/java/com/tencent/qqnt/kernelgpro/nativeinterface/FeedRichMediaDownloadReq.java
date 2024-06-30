@@ -22,11 +22,11 @@ public final class FeedRichMediaDownloadReq {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
+        this.fileId = "";
         this.fileType = FeedFileType.values()[0];
-        this.savePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.savePath = "";
+        this.url = "";
     }
 
     public String getFeedId() {
@@ -83,11 +83,11 @@ public final class FeedRichMediaDownloadReq {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, feedFileType, num, str4, num2, str5});
             return;
         }
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
+        this.fileId = "";
         this.fileType = FeedFileType.values()[0];
-        this.savePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.savePath = "";
+        this.url = "";
         this.feedId = str;
         this.subId = str2;
         this.fileId = str3;

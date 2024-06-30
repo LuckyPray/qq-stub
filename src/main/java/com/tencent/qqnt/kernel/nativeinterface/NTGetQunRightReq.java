@@ -3,7 +3,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/NTGetQunRightReq.class */
 public final class NTGetQunRightReq {
-    public String qunId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String qunId = "";
     public RequestTimelineInfo requestTimeLine = new RequestTimelineInfo();
     public int seq;
 

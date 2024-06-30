@@ -19,7 +19,7 @@ public final class GProGetDiscoverAudioVideoRsp {
         }
         this.items = new ArrayList<>();
         this.extInfo = new GProRecommendExtInfo();
-        this.cookies = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cookies = "";
     }
 
     public String getCookies() {
@@ -53,7 +53,7 @@ public final class GProGetDiscoverAudioVideoRsp {
         }
         this.items = new ArrayList<>();
         this.extInfo = new GProRecommendExtInfo();
-        this.cookies = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.cookies = "";
         this.items = arrayList;
         this.extInfo = gProRecommendExtInfo;
         this.cookies = str;

@@ -16,7 +16,7 @@ public final class GProVoicePresence0x11bc implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.coverUrl = "";
         }
     }
 
@@ -40,7 +40,7 @@ public final class GProVoicePresence0x11bc implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.coverUrl = "";
         this.coverUrl = str;
     }
 }

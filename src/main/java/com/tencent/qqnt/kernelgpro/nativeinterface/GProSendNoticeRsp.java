@@ -12,7 +12,7 @@ public final class GProSendNoticeRsp {
     public GProSendNoticeRsp() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.notAllowReason = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.notAllowReason = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

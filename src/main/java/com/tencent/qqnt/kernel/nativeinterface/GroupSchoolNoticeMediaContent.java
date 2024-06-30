@@ -14,10 +14,10 @@ public final class GroupSchoolNoticeMediaContent {
     public int width;
 
     public GroupSchoolNoticeMediaContent() {
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.md5 = "";
+        this.name = "";
+        this.coverUrl = "";
     }
 
     public String getCoverUrl() {
@@ -61,10 +61,10 @@ public final class GroupSchoolNoticeMediaContent {
     }
 
     public GroupSchoolNoticeMediaContent(String str, String str2, String str3, long j, long j2, String str4, int i, int i2, int i3) {
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.md5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.coverUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.url = "";
+        this.md5 = "";
+        this.name = "";
+        this.coverUrl = "";
         this.url = str;
         this.md5 = str2;
         this.name = str3;

@@ -21,11 +21,11 @@ public final class GProGetPopupInfoRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.imgUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.gifUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.buttonText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.footText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.imgUrl = "";
+        this.gifUrl = "";
+        this.buttonText = "";
+        this.footText = "";
     }
 
     public String getButtonText() {
@@ -68,11 +68,11 @@ public final class GProGetPopupInfoRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.title = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.imgUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.gifUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.buttonText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.footText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title = "";
+        this.imgUrl = "";
+        this.gifUrl = "";
+        this.buttonText = "";
+        this.footText = "";
         this.title = str;
         this.imgUrl = str2;
         this.gifUrl = str3;

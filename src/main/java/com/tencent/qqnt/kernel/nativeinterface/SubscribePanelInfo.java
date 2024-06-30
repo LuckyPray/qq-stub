@@ -2,8 +2,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SubscribePanelInfo.class */
 public final class SubscribePanelInfo {
-    public String applyActionText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String sendActionText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String applyActionText = "";
+    public String sendActionText = "";
 
     public String getApplyActionText() {
         return this.applyActionText;

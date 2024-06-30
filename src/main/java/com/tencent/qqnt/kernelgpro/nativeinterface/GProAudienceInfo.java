@@ -19,8 +19,8 @@ public final class GProAudienceInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.icon = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.icon = "";
+        this.avatarMeta = "";
     }
 
     public String getAvatarMeta() {

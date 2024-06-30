@@ -10,7 +10,7 @@ public final class MarketEmoticonShowImageReq {
     public long wordingId;
 
     public MarketEmoticonShowImageReq() {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
     }
 
     public int getEpId() {
@@ -38,7 +38,7 @@ public final class MarketEmoticonShowImageReq {
     }
 
     public MarketEmoticonShowImageReq(int i, long j, int i2, String str, boolean z) {
-        this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.name = "";
         this.epId = i;
         this.wordingId = j;
         this.type = i2;

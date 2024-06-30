@@ -11,7 +11,7 @@ public final class GProRecommendExtInfo {
     public GProRecommendExtInfo() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.traceId = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -35,7 +35,7 @@ public final class GProRecommendExtInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
             iPatchRedirector.redirect((short) 2, this, str);
         } else {
-            this.traceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.traceId = "";
             this.traceId = str;
         }
     }

@@ -12,8 +12,8 @@ public final class TipsCtrl {
 
     public TipsCtrl() {
         this.color = TipsColor.values()[0];
-        this.tips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.secCheckTips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tips = "";
+        this.secCheckTips = "";
         this.secCheckTipsColor = TipsColor.values()[0];
     }
 
@@ -47,8 +47,8 @@ public final class TipsCtrl {
 
     public TipsCtrl(TipsColor tipsColor, String str, boolean z, String str2, TipsColor tipsColor2, int i) {
         this.color = TipsColor.values()[0];
-        this.tips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.secCheckTips = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tips = "";
+        this.secCheckTips = "";
         this.secCheckTipsColor = TipsColor.values()[0];
         this.color = tipsColor;
         this.tips = str;

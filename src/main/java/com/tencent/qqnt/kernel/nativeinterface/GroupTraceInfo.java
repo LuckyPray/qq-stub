@@ -3,7 +3,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GroupTraceInfo.class */
 public final class GroupTraceInfo {
-    public String addOperatorUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String addOperatorUid = "";
     public long addOperatorUin;
 
     public String getAddOperatorUid() {

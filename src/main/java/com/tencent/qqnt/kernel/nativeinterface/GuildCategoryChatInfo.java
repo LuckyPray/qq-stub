@@ -10,7 +10,7 @@ public final class GuildCategoryChatInfo {
     public ArrayList<GuildChannelChatInfo> channelList;
 
     public GuildCategoryChatInfo() {
-        this.categoryName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categoryName = "";
         this.channelList = new ArrayList<>();
     }
 
@@ -31,7 +31,7 @@ public final class GuildCategoryChatInfo {
     }
 
     public GuildCategoryChatInfo(long j, String str, ArrayList<GuildChannelChatInfo> arrayList) {
-        this.categoryName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.categoryName = "";
         this.channelList = new ArrayList<>();
         this.categoryId = j;
         this.categoryName = str;

@@ -22,8 +22,8 @@ public final class SendOrder {
     public String wishing;
 
     public SendOrder() {
-        this.sendName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.wishing = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sendName = "";
+        this.wishing = "";
     }
 
     public int getBusType() {
@@ -99,8 +99,8 @@ public final class SendOrder {
     }
 
     public SendOrder(long j, String str, String str2, long j2, long j3, int i, int i2, int i3, int i4, int i5, int i6, long j4, long j5, long j6, String str3, String str4, String str5) {
-        this.sendName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.wishing = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.sendName = "";
+        this.wishing = "";
         this.sendUin = j;
         this.sendName = str;
         this.wishing = str2;

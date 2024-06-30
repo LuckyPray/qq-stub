@@ -18,10 +18,10 @@ public final class GProBannerInfo {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.userName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.userAvatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.userName = "";
+        this.userAvatarMeta = "";
+        this.joinSig = "";
     }
 
     public long getGuildId() {
@@ -63,10 +63,10 @@ public final class GProBannerInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, str3, str4});
             return;
         }
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.userName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.userAvatarMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.joinSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.userName = "";
+        this.userAvatarMeta = "";
+        this.joinSig = "";
         this.guildId = j;
         this.guildName = str;
         this.userName = str2;

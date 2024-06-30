@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/RobotPanelInfo.class */
 public final class RobotPanelInfo {
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String name = "";
     public ArrayList<PanelItem> items = new ArrayList<>();
 
     public ArrayList<PanelItem> getItems() {

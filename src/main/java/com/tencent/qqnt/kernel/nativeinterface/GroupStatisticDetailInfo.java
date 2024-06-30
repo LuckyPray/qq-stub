@@ -4,7 +4,7 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GroupStatisticDetailInfo.class */
 public final class GroupStatisticDetailInfo {
     public int count;
-    public String desc = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String desc = "";
 
     public int getCount() {
         return this.count;

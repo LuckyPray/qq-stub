@@ -28,14 +28,14 @@ public final class GProQRCodeShareInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.OnlineMembersCount = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.membersCount = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildLabel = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelCopyWriter = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedLabel = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.streamLabel = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.voiceLabel = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.teamLabel = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.OnlineMembersCount = "";
+        this.membersCount = "";
+        this.guildLabel = "";
+        this.channelCopyWriter = "";
+        this.feedLabel = "";
+        this.streamLabel = "";
+        this.voiceLabel = "";
+        this.teamLabel = "";
     }
 
     public long getAvTime() {
@@ -113,14 +113,14 @@ public final class GProQRCodeShareInfo implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.OnlineMembersCount = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.membersCount = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildLabel = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelCopyWriter = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.feedLabel = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.streamLabel = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.voiceLabel = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.teamLabel = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.OnlineMembersCount = "";
+        this.membersCount = "";
+        this.guildLabel = "";
+        this.channelCopyWriter = "";
+        this.feedLabel = "";
+        this.streamLabel = "";
+        this.voiceLabel = "";
+        this.teamLabel = "";
         this.OnlineMembersCount = str;
         this.membersCount = str2;
         this.feedNum = j;

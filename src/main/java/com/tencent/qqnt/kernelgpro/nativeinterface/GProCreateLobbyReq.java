@@ -19,7 +19,7 @@ public final class GProCreateLobbyReq {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.appId = "";
             this.extendDic = new ArrayList<>();
         }
     }
@@ -122,7 +122,7 @@ public final class GProCreateLobbyReq {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), arrayList});
             return;
         }
-        this.appId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appId = "";
         this.extendDic = new ArrayList<>();
         this.appId = str;
         this.guildId = j;

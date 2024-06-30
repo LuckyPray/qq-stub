@@ -16,8 +16,8 @@ public final class GProStRichTextTopicContent {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.topicName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.schema = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.topicName = "";
+            this.schema = "";
         }
     }
 

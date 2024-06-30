@@ -18,9 +18,9 @@ public final class GProNoticeJump {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.url = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.text = "";
+        this.url = "";
+        this.iconUrl = "";
     }
 
     public String getIconUrl() {

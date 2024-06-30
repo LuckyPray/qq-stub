@@ -21,7 +21,7 @@ public final class GProMVPEmoji implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.f64id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.f64id = "";
         }
     }
 

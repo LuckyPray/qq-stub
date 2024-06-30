@@ -38,13 +38,13 @@ public final class ProfileSimpleInfo {
     public int zplanCoupleSceneId;
 
     public ProfileSimpleInfo() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.qid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.longNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ringId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.qid = "";
+        this.nick = "";
+        this.remark = "";
+        this.longNick = "";
+        this.avatarUrl = "";
+        this.ringId = "";
     }
 
     public String getAvatarUrl() {
@@ -188,13 +188,13 @@ public final class ProfileSimpleInfo {
     }
 
     public ProfileSimpleInfo(String str, String str2, long j, String str3, String str4, String str5, String str6, int i, int i2, int i3, int i4, long j2, boolean z, boolean z2, boolean z3, boolean z4, String str7, int i5, int i6, int i7, int i8, int i9, int i10, boolean z5, boolean z6, boolean z7, boolean z8, boolean z9, boolean z10, int i11, boolean z11, int i12, int i13, int i14) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.qid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.remark = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.longNick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatarUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.ringId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.qid = "";
+        this.nick = "";
+        this.remark = "";
+        this.longNick = "";
+        this.avatarUrl = "";
+        this.ringId = "";
         this.uid = str;
         this.qid = str2;
         this.uin = j;

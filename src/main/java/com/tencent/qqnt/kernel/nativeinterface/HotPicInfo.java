@@ -21,13 +21,13 @@ public final class HotPicInfo {
     public String thumbMd5;
 
     public HotPicInfo() {
-        this.picId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileMd5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.downloadUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thumbMd5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thumbDownloadUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.picId = "";
+        this.fileMd5 = "";
+        this.downloadUrl = "";
+        this.thumbMd5 = "";
+        this.thumbDownloadUrl = "";
         this.thirdPartyInfo = new ThirdPartyInfo();
-        this.path = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.path = "";
     }
 
     public String getDownloadUrl() {
@@ -103,13 +103,13 @@ public final class HotPicInfo {
     }
 
     public HotPicInfo(String str, String str2, int i, long j, int i2, int i3, String str3, String str4, long j2, int i4, int i5, String str5, int i6, int i7, ThirdPartyInfo thirdPartyInfo, String str6, boolean z) {
-        this.picId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileMd5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.downloadUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thumbMd5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.thumbDownloadUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.picId = "";
+        this.fileMd5 = "";
+        this.downloadUrl = "";
+        this.thumbMd5 = "";
+        this.thumbDownloadUrl = "";
         this.thirdPartyInfo = new ThirdPartyInfo();
-        this.path = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.path = "";
         this.picId = str;
         this.fileMd5 = str2;
         this.fileType = i;

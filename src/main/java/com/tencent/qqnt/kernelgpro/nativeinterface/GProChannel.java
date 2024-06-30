@@ -64,14 +64,14 @@ public final class GProChannel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.channelName = "";
         this.lastMsgSeq = new GProMsgSeq();
         this.lastCntMsgSeq = new GProMsgSeq();
         this.myReadMsgSeq = new GProMsgSeq();
         this.myReadCntSeq = new GProMsgSeq();
         this.voiceChannelInfo = new GProVoiceChannelInfo();
-        this.msgMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.readMsgMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msgMeta = "";
+        this.readMsgMeta = "";
         this.liveChannelInfo = new GProLiveChannelInfo();
         this.specialTypeList = new ArrayList<>();
         this.applicationInfo = new GProApplicationChannelInfo();
@@ -83,8 +83,8 @@ public final class GProChannel implements Serializable {
         this.myQqMsgListSetting = new GProQqMsgListSetting();
         this.authControlStatusList = new ArrayList<>();
         this.medalInfo = new GProChannelMedalInfo();
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.operationTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
+        this.operationTitle = "";
         this.categoryInfo = new GProCmd0xf55CategoryInfo();
     }
 
@@ -761,14 +761,14 @@ public final class GProChannel implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.channelName = "";
         this.lastMsgSeq = new GProMsgSeq();
         this.lastCntMsgSeq = new GProMsgSeq();
         this.myReadMsgSeq = new GProMsgSeq();
         this.myReadCntSeq = new GProMsgSeq();
         this.voiceChannelInfo = new GProVoiceChannelInfo();
-        this.msgMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.readMsgMeta = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msgMeta = "";
+        this.readMsgMeta = "";
         this.liveChannelInfo = new GProLiveChannelInfo();
         this.specialTypeList = new ArrayList<>();
         this.applicationInfo = new GProApplicationChannelInfo();
@@ -780,8 +780,8 @@ public final class GProChannel implements Serializable {
         this.myQqMsgListSetting = new GProQqMsgListSetting();
         this.authControlStatusList = new ArrayList<>();
         this.medalInfo = new GProChannelMedalInfo();
-        this.iconUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.operationTitle = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconUrl = "";
+        this.operationTitle = "";
         this.categoryInfo = new GProCmd0xf55CategoryInfo();
         this.channelId = j;
         this.channelName = str;

@@ -15,8 +15,8 @@ public final class GProVoiceSpeakModeRsp {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.confirmMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.confirmExt = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.confirmMsg = "";
+            this.confirmExt = "";
         }
     }
 

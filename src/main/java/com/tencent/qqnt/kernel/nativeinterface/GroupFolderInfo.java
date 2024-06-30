@@ -16,11 +16,11 @@ public final class GroupFolderInfo {
     public long usedSpace;
 
     public GroupFolderInfo() {
-        this.folderId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.parentFolderId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.folderName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.creatorName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.modifyName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.folderId = "";
+        this.parentFolderId = "";
+        this.folderName = "";
+        this.creatorName = "";
+        this.modifyName = "";
     }
 
     public int getCreateTime() {
@@ -72,11 +72,11 @@ public final class GroupFolderInfo {
     }
 
     public GroupFolderInfo(String str, String str2, String str3, int i, int i2, long j, String str4, int i3, long j2, String str5, long j3) {
-        this.folderId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.parentFolderId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.folderName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.creatorName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.modifyName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.folderId = "";
+        this.parentFolderId = "";
+        this.folderName = "";
+        this.creatorName = "";
+        this.modifyName = "";
         this.folderId = str;
         this.parentFolderId = str2;
         this.folderName = str3;

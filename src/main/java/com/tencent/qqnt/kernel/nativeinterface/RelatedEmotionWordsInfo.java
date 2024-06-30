@@ -11,9 +11,9 @@ public final class RelatedEmotionWordsInfo {
     public String word;
 
     public RelatedEmotionWordsInfo() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.word = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uiVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.word = "";
+        this.uiVersion = "";
     }
 
     public int getAge() {
@@ -45,9 +45,9 @@ public final class RelatedEmotionWordsInfo {
     }
 
     public RelatedEmotionWordsInfo(String str, String str2, String str3, int i, int i2, int i3) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.word = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uiVersion = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.word = "";
+        this.uiVersion = "";
         this.uid = str;
         this.word = str2;
         this.uiVersion = str3;

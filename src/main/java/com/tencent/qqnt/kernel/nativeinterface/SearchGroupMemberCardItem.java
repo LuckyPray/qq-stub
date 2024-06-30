@@ -5,8 +5,8 @@ import java.util.ArrayList;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/SearchGroupMemberCardItem.class */
 public final class SearchGroupMemberCardItem {
-    public String uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String cardName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String uid = "";
+    public String cardName = "";
     public ArrayList<SearchHitInfo> cardNameHits = new ArrayList<>();
 
     public String getCardName() {

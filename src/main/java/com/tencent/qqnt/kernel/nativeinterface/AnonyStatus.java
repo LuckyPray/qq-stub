@@ -7,7 +7,7 @@ public final class AnonyStatus {
     public String statusInfo;
 
     public AnonyStatus() {
-        this.statusInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.statusInfo = "";
     }
 
     public int getForbidTalking() {
@@ -23,7 +23,7 @@ public final class AnonyStatus {
     }
 
     public AnonyStatus(int i, String str) {
-        this.statusInfo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.statusInfo = "";
         this.forbidTalking = i;
         this.statusInfo = str;
     }

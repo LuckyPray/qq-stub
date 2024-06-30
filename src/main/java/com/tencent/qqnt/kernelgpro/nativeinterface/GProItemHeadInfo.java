@@ -15,7 +15,7 @@ public final class GProItemHeadInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.onlineNums = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.onlineNums = "";
             this.tags = new ArrayList<>();
         }
     }
@@ -44,7 +44,7 @@ public final class GProItemHeadInfo {
             iPatchRedirector.redirect((short) 2, this, str, arrayList);
             return;
         }
-        this.onlineNums = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.onlineNums = "";
         this.tags = new ArrayList<>();
         this.onlineNums = str;
         this.tags = arrayList;

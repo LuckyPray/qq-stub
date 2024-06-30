@@ -14,7 +14,7 @@ public final class GProLiveDataItem {
     public GProLiveDataItem() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.name = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

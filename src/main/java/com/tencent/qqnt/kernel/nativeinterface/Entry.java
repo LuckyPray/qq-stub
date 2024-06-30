@@ -7,8 +7,8 @@ import java.io.Serializable;
 public final class Entry implements Serializable {
     public int numberKey;
     long serialVersionUID = 1;
-    public String key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String key = "";
+    public String value = "";
 
     public String getKey() {
         return this.key;

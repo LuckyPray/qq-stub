@@ -22,9 +22,9 @@ public final class CalendarElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.summary = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.schema = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.summary = "";
+        this.msg = "";
+        this.schema = "";
     }
 
     public long getExpireTimeMs() {
@@ -67,9 +67,9 @@ public final class CalendarElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.summary = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.schema = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.summary = "";
+        this.msg = "";
+        this.schema = "";
         this.summary = str;
         this.msg = str2;
         this.expireTimeMs = j;

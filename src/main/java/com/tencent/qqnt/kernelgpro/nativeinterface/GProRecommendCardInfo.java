@@ -11,7 +11,7 @@ public final class GProRecommendCardInfo {
     public GProRecommendCardInfo() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.cardId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.cardId = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }

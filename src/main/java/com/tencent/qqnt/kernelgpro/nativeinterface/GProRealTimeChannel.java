@@ -18,8 +18,8 @@ public final class GProRealTimeChannel {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildId = "";
+        this.channelId = "";
         this.liveChannel = new GProRealTimeLiveChannel();
         this.voiceChannel = new GProRealTimeVoiceChannel();
     }
@@ -63,8 +63,8 @@ public final class GProRealTimeChannel {
             iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, Integer.valueOf(i), gProRealTimeLiveChannel, gProRealTimeVoiceChannel});
             return;
         }
-        this.guildId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildId = "";
+        this.channelId = "";
         this.liveChannel = new GProRealTimeLiveChannel();
         this.voiceChannel = new GProRealTimeVoiceChannel();
         this.guildId = str;

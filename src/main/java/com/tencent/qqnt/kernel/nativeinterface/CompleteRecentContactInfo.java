@@ -12,7 +12,7 @@ public final class CompleteRecentContactInfo {
     public ArrayList<Long> sortedContactList;
 
     public CompleteRecentContactInfo() {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
         this.sortedContactList = new ArrayList<>();
         this.changedList = new ArrayList<>();
     }
@@ -42,7 +42,7 @@ public final class CompleteRecentContactInfo {
     }
 
     public CompleteRecentContactInfo(int i, String str, ArrayList<Long> arrayList, ArrayList<RecentContactInfo> arrayList2, byte[] bArr) {
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
         this.sortedContactList = new ArrayList<>();
         this.changedList = new ArrayList<>();
         this.errCode = i;

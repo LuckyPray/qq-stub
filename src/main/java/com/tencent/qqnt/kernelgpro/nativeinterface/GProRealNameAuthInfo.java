@@ -15,8 +15,8 @@ public final class GProRealNameAuthInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.verifyUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.tipsContent = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.verifyUrl = "";
+            this.tipsContent = "";
         }
     }
 
@@ -49,8 +49,8 @@ public final class GProRealNameAuthInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, str2});
             return;
         }
-        this.verifyUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.tipsContent = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.verifyUrl = "";
+        this.tipsContent = "";
         this.result = i;
         this.verifyUrl = str;
         this.tipsContent = str2;

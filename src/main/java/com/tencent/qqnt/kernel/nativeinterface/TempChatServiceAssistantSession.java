@@ -8,7 +8,7 @@ public final class TempChatServiceAssistantSession {
     public String appTypeName;
 
     public TempChatServiceAssistantSession() {
-        this.appTypeName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appTypeName = "";
     }
 
     public long getAppId() {
@@ -28,7 +28,7 @@ public final class TempChatServiceAssistantSession {
     }
 
     public TempChatServiceAssistantSession(int i, long j, String str) {
-        this.appTypeName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.appTypeName = "";
         this.appType = i;
         this.appId = j;
         this.appTypeName = str;

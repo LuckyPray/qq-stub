@@ -14,8 +14,8 @@ public final class GProGuildOnlineReportExtInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.key = "";
+            this.value = "";
         }
     }
 
@@ -61,8 +61,8 @@ public final class GProGuildOnlineReportExtInfo {
             iPatchRedirector.redirect((short) 2, this, str, str2);
             return;
         }
-        this.key = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.value = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.key = "";
+        this.value = "";
         this.key = str;
         this.value = str2;
     }

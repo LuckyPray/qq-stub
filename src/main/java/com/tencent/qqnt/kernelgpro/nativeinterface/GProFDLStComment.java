@@ -14,7 +14,7 @@ public final class GProFDLStComment {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.commentId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.commentId = "";
             this.like = new GProFDLStLike();
         }
     }
@@ -61,7 +61,7 @@ public final class GProFDLStComment {
             iPatchRedirector.redirect((short) 2, this, str, gProFDLStLike);
             return;
         }
-        this.commentId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.commentId = "";
         this.like = new GProFDLStLike();
         this.commentId = str;
         this.like = gProFDLStLike;

@@ -15,9 +15,9 @@ public final class StFeedCellCommon {
     public long time;
 
     public StFeedCellCommon() {
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.curLikeKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
+        this.curLikeKey = "";
+        this.clientKey = "";
         this.extendInfo = new ArrayList<>();
     }
 
@@ -86,9 +86,9 @@ public final class StFeedCellCommon {
     }
 
     public StFeedCellCommon(int i, int i2, long j, String str, String str2, int i3, String str3, ArrayList<BytesEntry> arrayList) {
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.curLikeKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.clientKey = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
+        this.curLikeKey = "";
+        this.clientKey = "";
         this.extendInfo = new ArrayList<>();
         this.appId = i;
         this.subId = i2;

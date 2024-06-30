@@ -15,7 +15,7 @@ public final class GProUserPublishedFeedSummary {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.publishedCountStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.publishedCountStr = "";
             this.feedList = new ArrayList<>();
         }
     }

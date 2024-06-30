@@ -22,9 +22,9 @@ public final class GProPreventAddictionCheckRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.context = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.instrTraceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
+        this.context = "";
+        this.instrTraceId = "";
         this.instructions = new ArrayList<>();
     }
 
@@ -68,9 +68,9 @@ public final class GProPreventAddictionCheckRsp implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.context = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.instrTraceId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
+        this.context = "";
+        this.instrTraceId = "";
         this.instructions = new ArrayList<>();
         this.ret = i;
         this.msg = str;

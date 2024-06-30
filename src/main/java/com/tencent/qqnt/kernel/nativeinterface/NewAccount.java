@@ -7,8 +7,8 @@ public final class NewAccount implements IKernelModel {
     public String phone;
 
     public NewAccount() {
-        this.country = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.phone = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.country = "";
+        this.phone = "";
     }
 
     public String getCountry() {
@@ -32,8 +32,8 @@ public final class NewAccount implements IKernelModel {
     }
 
     public NewAccount(String str, String str2) {
-        this.country = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.phone = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.country = "";
+        this.phone = "";
         this.country = str;
         this.phone = str2;
     }

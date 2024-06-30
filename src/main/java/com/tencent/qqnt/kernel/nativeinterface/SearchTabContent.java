@@ -11,9 +11,9 @@ public final class SearchTabContent {
     public SearchTemplate templateItem;
 
     /* renamed from: id */
-    public String f39id = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String layoutContent = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String f39id = "";
+    public String name = "";
+    public String layoutContent = "";
     public byte[] bytesExtension = new byte[0];
     public byte[] pbLayoutContent = new byte[0];
 

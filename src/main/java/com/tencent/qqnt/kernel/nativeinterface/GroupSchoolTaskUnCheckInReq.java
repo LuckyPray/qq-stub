@@ -10,7 +10,7 @@ public final class GroupSchoolTaskUnCheckInReq {
     public String taskId;
 
     public GroupSchoolTaskUnCheckInReq() {
-        this.taskId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.taskId = "";
     }
 
     public long getDate() {
@@ -38,7 +38,7 @@ public final class GroupSchoolTaskUnCheckInReq {
     }
 
     public GroupSchoolTaskUnCheckInReq(long j, String str, long j2, int i, int i2) {
-        this.taskId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.taskId = "";
         this.groupCode = j;
         this.taskId = str;
         this.date = j2;

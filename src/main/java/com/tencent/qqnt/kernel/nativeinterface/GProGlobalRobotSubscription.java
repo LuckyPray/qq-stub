@@ -7,7 +7,7 @@ public final class GProGlobalRobotSubscription {
     public String subscriptionId;
 
     public GProGlobalRobotSubscription() {
-        this.subscriptionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.subscriptionId = "";
     }
 
     public long getGuildId() {
@@ -27,7 +27,7 @@ public final class GProGlobalRobotSubscription {
     }
 
     public GProGlobalRobotSubscription(String str, long j, long j2) {
-        this.subscriptionId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.subscriptionId = "";
         this.subscriptionId = str;
         this.guildId = j;
         this.subscribeTime = j2;

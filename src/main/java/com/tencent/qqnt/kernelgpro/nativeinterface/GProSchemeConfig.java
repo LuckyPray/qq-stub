@@ -18,8 +18,8 @@ public final class GProSchemeConfig implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.schema = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.schema = "";
+        this.text = "";
     }
 
     public String getSchema() {

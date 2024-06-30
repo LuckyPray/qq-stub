@@ -22,7 +22,7 @@ public final class GProGuild implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
         this.guildInfo = new GProGuildInfo();
         this.cmdUinInfo = new GProCmdUinInfo();
     }
@@ -126,7 +126,7 @@ public final class GProGuild implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.errMsg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.errMsg = "";
         this.guildInfo = new GProGuildInfo();
         this.cmdUinInfo = new GProCmdUinInfo();
         this.result = i;

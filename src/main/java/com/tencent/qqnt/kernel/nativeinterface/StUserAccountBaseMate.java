@@ -7,7 +7,7 @@ public final class StUserAccountBaseMate {
     public long uin;
 
     public StUserAccountBaseMate() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
     }
 
     public String getUid() {
@@ -19,7 +19,7 @@ public final class StUserAccountBaseMate {
     }
 
     public StUserAccountBaseMate(String str, long j) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
         this.uid = str;
         this.uin = j;
     }

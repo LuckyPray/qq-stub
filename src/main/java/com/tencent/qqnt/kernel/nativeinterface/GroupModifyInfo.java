@@ -6,10 +6,10 @@ import java.util.ArrayList;
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/GroupModifyInfo.class */
 public final class GroupModifyInfo {
     public int classExt;
-    public String groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String classText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String fingerMemo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String richFingerMemo = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String groupName = "";
+    public String classText = "";
+    public String fingerMemo = "";
+    public String richFingerMemo = "";
     public ArrayList<String> tagRecord = new ArrayList<>();
     public GroupGeoInfo groupGeoInfo = new GroupGeoInfo();
 

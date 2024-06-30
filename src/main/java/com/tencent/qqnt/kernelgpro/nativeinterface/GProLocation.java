@@ -21,10 +21,10 @@ public final class GProLocation {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.country = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.province = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.city = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.cityZone = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.country = "";
+        this.province = "";
+        this.city = "";
+        this.cityZone = "";
     }
 
     public String getCity() {
@@ -81,10 +81,10 @@ public final class GProLocation {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), str, str2, str3, str4});
             return;
         }
-        this.country = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.province = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.city = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.cityZone = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.country = "";
+        this.province = "";
+        this.city = "";
+        this.cityZone = "";
         this.countryId = i;
         this.provinceId = i2;
         this.cityId = i3;

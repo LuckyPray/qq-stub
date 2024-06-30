@@ -17,7 +17,7 @@ public final class GProJoinGuilds implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.joinGuildSig = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.joinGuildSig = "";
         }
     }
 

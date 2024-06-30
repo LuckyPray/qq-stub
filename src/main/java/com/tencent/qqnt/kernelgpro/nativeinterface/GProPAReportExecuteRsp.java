@@ -12,7 +12,7 @@ public final class GProPAReportExecuteRsp {
     public GProPAReportExecuteRsp() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.msg = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -42,7 +42,7 @@ public final class GProPAReportExecuteRsp {
             iPatchRedirector.redirect((short) 2, this, i, str);
             return;
         }
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.msg = "";
         this.ret = i;
         this.msg = str;
     }

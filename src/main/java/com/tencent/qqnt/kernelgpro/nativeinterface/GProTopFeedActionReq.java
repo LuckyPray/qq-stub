@@ -24,8 +24,8 @@ public final class GProTopFeedActionReq {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.feedId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.userId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.feedId = "";
+        this.userId = "";
         this.roleIds = new ArrayList<>();
     }
 

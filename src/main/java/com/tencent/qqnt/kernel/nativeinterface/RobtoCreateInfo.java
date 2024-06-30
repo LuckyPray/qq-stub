@@ -3,8 +3,8 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/RobtoCreateInfo.class */
 public final class RobtoCreateInfo {
-    public String createName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String createUid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String createName = "";
+    public String createUid = "";
 
     public String getCreateName() {
         return this.createName;

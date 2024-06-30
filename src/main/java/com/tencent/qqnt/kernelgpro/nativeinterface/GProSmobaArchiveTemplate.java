@@ -21,10 +21,10 @@ public final class GProSmobaArchiveTemplate {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.winNum = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.mvpNum = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.winRate = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.goodBranch = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.winNum = "";
+        this.mvpNum = "";
+        this.winRate = "";
+        this.goodBranch = "";
         this.goodHeroIconList = new ArrayList<>();
     }
 

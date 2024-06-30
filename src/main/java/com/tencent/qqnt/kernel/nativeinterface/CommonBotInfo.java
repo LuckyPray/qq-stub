@@ -8,9 +8,9 @@ public final class CommonBotInfo {
     public long mark;
     public long tinyid;
     public long uin;
-    public String name = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String name = "";
+    public String uid = "";
+    public String avatar = "";
 
     public long getAppid() {
         return this.appid;

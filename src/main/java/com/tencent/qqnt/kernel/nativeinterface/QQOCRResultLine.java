@@ -13,7 +13,7 @@ public final class QQOCRResultLine {
     public OCRPoint topRight;
 
     public QQOCRResultLine() {
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.text = "";
         this.botLeft = new OCRPoint();
         this.botRight = new OCRPoint();
         this.topLeft = new OCRPoint();
@@ -50,7 +50,7 @@ public final class QQOCRResultLine {
     }
 
     public QQOCRResultLine(String str, OCRPoint oCRPoint, OCRPoint oCRPoint2, OCRPoint oCRPoint3, OCRPoint oCRPoint4, ArrayList<QQOCRResult> arrayList) {
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.text = "";
         this.botLeft = new OCRPoint();
         this.botRight = new OCRPoint();
         this.topLeft = new OCRPoint();

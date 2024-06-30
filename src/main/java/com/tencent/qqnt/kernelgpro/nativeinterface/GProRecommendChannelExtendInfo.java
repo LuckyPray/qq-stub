@@ -18,8 +18,8 @@ public final class GProRecommendChannelExtendInfo {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.channelLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.guildFace = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.channelLink = "";
+            this.guildFace = "";
         }
     }
 
@@ -67,8 +67,8 @@ public final class GProRecommendChannelExtendInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3)});
             return;
         }
-        this.channelLink = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.guildFace = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.channelLink = "";
+        this.guildFace = "";
         this.channelId = j;
         this.channelLink = str;
         this.guildFace = str2;

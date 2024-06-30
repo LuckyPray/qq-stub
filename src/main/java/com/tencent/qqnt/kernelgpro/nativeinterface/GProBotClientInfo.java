@@ -13,7 +13,7 @@ public final class GProBotClientInfo {
     public GProBotClientInfo() {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 1)) {
-            this.version = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.version = "";
         } else {
             iPatchRedirector.redirect((short) 1, this);
         }
@@ -75,7 +75,7 @@ public final class GProBotClientInfo {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, Integer.valueOf(i2)});
             return;
         }
-        this.version = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.version = "";
         this.platform = i;
         this.version = str;
         this.buildNum = i2;

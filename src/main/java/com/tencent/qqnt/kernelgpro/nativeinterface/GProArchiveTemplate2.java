@@ -27,20 +27,20 @@ public final class GProArchiveTemplate2 {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.title1 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc1 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title2 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc2 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title3 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc3 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title4 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc4 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc5 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title6 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc6 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.title7 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.desc7 = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.title1 = "";
+        this.desc1 = "";
+        this.title2 = "";
+        this.desc2 = "";
+        this.title3 = "";
+        this.desc3 = "";
+        this.title4 = "";
+        this.desc4 = "";
+        this.title5 = "";
+        this.desc5 = "";
+        this.title6 = "";
+        this.desc6 = "";
+        this.title7 = "";
+        this.desc7 = "";
     }
 
     public String getDesc1() {

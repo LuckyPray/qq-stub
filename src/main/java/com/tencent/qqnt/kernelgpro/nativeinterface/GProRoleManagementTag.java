@@ -18,7 +18,7 @@ public final class GProRoleManagementTag implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.tagName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.tagName = "";
         }
     }
 
@@ -52,7 +52,7 @@ public final class GProRoleManagementTag implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.tagName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.tagName = "";
         this.roleId = j;
         this.tagName = str;
         this.color = j2;

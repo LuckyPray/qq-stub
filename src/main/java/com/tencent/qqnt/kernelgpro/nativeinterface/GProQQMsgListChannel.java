@@ -20,8 +20,8 @@ public final class GProQQMsgListChannel {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-            this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.guildName = "";
+            this.channelName = "";
         }
     }
 
@@ -79,8 +79,8 @@ public final class GProQQMsgListChannel {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), str, str2, Long.valueOf(j4), Integer.valueOf(i), Long.valueOf(j5)});
             return;
         }
-        this.guildName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.channelName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.guildName = "";
+        this.channelName = "";
         this.guildId = j;
         this.channelId = j2;
         this.topTimestamp = j3;

@@ -17,7 +17,7 @@ public final class GProSaveGuildNavigationReq {
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 1)) {
             iPatchRedirector.redirect((short) 1, this);
         } else {
-            this.iconSelectorColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.iconSelectorColor = "";
             this.items = new ArrayList<>();
         }
     }
@@ -92,7 +92,7 @@ public final class GProSaveGuildNavigationReq {
             iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, arrayList, Long.valueOf(j2)});
             return;
         }
-        this.iconSelectorColor = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.iconSelectorColor = "";
         this.items = new ArrayList<>();
         this.guildId = j;
         this.iconSelectorColor = str;

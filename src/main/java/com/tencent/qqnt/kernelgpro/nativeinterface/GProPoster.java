@@ -19,8 +19,8 @@ public final class GProPoster implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nick = "";
+        this.avatar = "";
     }
 
     public String getAvatar() {
@@ -53,8 +53,8 @@ public final class GProPoster implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.avatar = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.nick = "";
+        this.avatar = "";
         this.tinyId = j;
         this.nick = str;
         this.avatar = str2;

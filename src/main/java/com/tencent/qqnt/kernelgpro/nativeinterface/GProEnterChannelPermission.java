@@ -20,9 +20,9 @@ public final class GProEnterChannelPermission {
             iPatchRedirector.redirect((short) 1, this);
             return;
         }
-        this.disallowReason = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.disallowLiveReason = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.liveUrl = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.disallowReason = "";
+        this.disallowLiveReason = "";
+        this.liveUrl = "";
     }
 
     public boolean getAllowEnter() {

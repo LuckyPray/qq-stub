@@ -16,7 +16,7 @@ public final class GProMVPTextContent implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.text = "";
         }
     }
 
@@ -40,7 +40,7 @@ public final class GProMVPTextContent implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.text = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.text = "";
         this.text = str;
     }
 }

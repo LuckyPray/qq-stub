@@ -16,13 +16,13 @@ public final class FileCacheInfo {
     public String senderName;
 
     public FileCacheInfo() {
-        this.elementIdStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.elementIdStr = "";
         this.fileType = CacheFileType.values()[0];
-        this.path = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.previewPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.path = "";
+        this.fileName = "";
+        this.senderId = "";
+        this.previewPath = "";
+        this.senderName = "";
     }
 
     public long getElementId() {
@@ -74,13 +74,13 @@ public final class FileCacheInfo {
     }
 
     public FileCacheInfo(long j, long j2, long j3, long j4, String str, CacheFileType cacheFileType, String str2, String str3, String str4, String str5, String str6) {
-        this.elementIdStr = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.elementIdStr = "";
         this.fileType = CacheFileType.values()[0];
-        this.path = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.previewPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.senderName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.path = "";
+        this.fileName = "";
+        this.senderId = "";
+        this.previewPath = "";
+        this.senderName = "";
         this.fileSize = j;
         this.fileTime = j2;
         this.fileKey = j3;

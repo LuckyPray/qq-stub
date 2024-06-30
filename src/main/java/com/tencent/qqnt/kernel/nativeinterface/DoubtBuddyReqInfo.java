@@ -16,11 +16,11 @@ public final class DoubtBuddyReqInfo {
     public String uid;
 
     public DoubtBuddyReqInfo() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.source = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.reason = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.nick = "";
+        this.msg = "";
+        this.source = "";
+        this.reason = "";
     }
 
     public int getAge() {
@@ -72,11 +72,11 @@ public final class DoubtBuddyReqInfo {
     }
 
     public DoubtBuddyReqInfo(String str, String str2, int i, int i2, int i3, long j, String str3, String str4, String str5, Long l, String str6) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.nick = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.msg = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.source = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.reason = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
+        this.nick = "";
+        this.msg = "";
+        this.source = "";
+        this.reason = "";
         this.uid = str;
         this.nick = str2;
         this.age = i;

@@ -18,7 +18,7 @@ public final class FeedMsgElement implements Serializable {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
-            this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.content = "";
         }
     }
 
@@ -47,7 +47,7 @@ public final class FeedMsgElement implements Serializable {
             return;
         }
         this.serialVersionUID = 1L;
-        this.content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.content = "";
         this.tinyId = j;
         this.content = str;
     }

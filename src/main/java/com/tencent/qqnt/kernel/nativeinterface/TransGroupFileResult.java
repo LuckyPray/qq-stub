@@ -9,7 +9,7 @@ public final class TransGroupFileResult {
 
     public TransGroupFileResult() {
         this.result = new GroupFileCommonResult();
-        this.saveFilePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.saveFilePath = "";
     }
 
     public GroupFileCommonResult getResult() {
@@ -30,7 +30,7 @@ public final class TransGroupFileResult {
 
     public TransGroupFileResult(GroupFileCommonResult groupFileCommonResult, int i, String str) {
         this.result = new GroupFileCommonResult();
-        this.saveFilePath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.saveFilePath = "";
         this.result = groupFileCommonResult;
         this.saveBusId = i;
         this.saveFilePath = str;

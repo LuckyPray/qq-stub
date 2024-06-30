@@ -19,7 +19,7 @@ public final class GProReqGuildInfo {
             iPatchRedirector.redirect((short) 1, this);
         } else {
             this.channelIds = new ArrayList<>();
-            this.guildNum = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+            this.guildNum = "";
         }
     }
 

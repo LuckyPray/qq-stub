@@ -3,9 +3,9 @@ package com.tencent.qqnt.kernel.nativeinterface;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/InlineKetBoardModal.class */
 public final class InlineKetBoardModal {
-    public String content = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String confirmText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-    public String cancelText = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+    public String content = "";
+    public String confirmText = "";
+    public String cancelText = "";
 
     public String getCancelText() {
         return this.cancelText;

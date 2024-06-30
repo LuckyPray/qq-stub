@@ -7,7 +7,7 @@ public final class StUserAccountEntry {
     public String uid;
 
     public StUserAccountEntry() {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
         this.account = new StUserAccountBaseMate();
     }
 
@@ -20,7 +20,7 @@ public final class StUserAccountEntry {
     }
 
     public StUserAccountEntry(String str, StUserAccountBaseMate stUserAccountBaseMate) {
-        this.uid = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.uid = "";
         this.account = new StUserAccountBaseMate();
         this.uid = str;
         this.account = stUserAccountBaseMate;

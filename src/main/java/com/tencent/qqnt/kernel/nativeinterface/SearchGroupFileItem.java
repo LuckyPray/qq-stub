@@ -24,13 +24,13 @@ public final class SearchGroupFileItem {
     public long uploaderUin;
 
     public SearchGroupFileItem() {
-        this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uploaderName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupName = "";
+        this.uploaderName = "";
         this.matchWords = new ArrayList<>();
         this.fileNameHits = new ArrayList<>();
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.localPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileId = "";
+        this.fileName = "";
+        this.localPath = "";
     }
 
     public int getBusId() {
@@ -106,13 +106,13 @@ public final class SearchGroupFileItem {
     }
 
     public SearchGroupFileItem(long j, String str, long j2, String str2, long j3, ArrayList<String> arrayList, ArrayList<SearchHitInfo> arrayList2, long j4, String str3, String str4, long j5, int i, int i2, int i3, int i4, int i5, String str5) {
-        this.groupName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.uploaderName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.groupName = "";
+        this.uploaderName = "";
         this.matchWords = new ArrayList<>();
         this.fileNameHits = new ArrayList<>();
-        this.fileId = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.fileName = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
-        this.localPath = RDeliveryLogicEnvronment.KLOGICENVIRONMENTPRODUCT;
+        this.fileId = "";
+        this.fileName = "";
+        this.localPath = "";
         this.groupCode = j;
         this.groupName = str;
         this.uploaderUin = j2;
