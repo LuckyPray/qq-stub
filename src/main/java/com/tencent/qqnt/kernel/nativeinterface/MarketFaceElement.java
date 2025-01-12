@@ -32,7 +32,7 @@ public final class MarketFaceElement {
     ArrayList<MarketFaceSupportSize> apngSupportSize;
     String backColor;
     String dynamicFacePath;
-    String emojiId;
+    public String emojiId;
     int emojiPackageId;
     Integer emojiType;
     Integer endTime;
@@ -42,7 +42,7 @@ public final class MarketFaceElement {
     int imageHeight;
     int imageWidth;
     int itemType;
-    String key;
+    public String key;
     int mediaType;
     byte[] mobileParam;
     byte[] param;

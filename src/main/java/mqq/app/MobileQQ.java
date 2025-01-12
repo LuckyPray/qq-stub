@@ -57,6 +57,10 @@ public abstract class MobileQQ extends BaseApplication {
         return sMobileQQ;
     }
 
+    public String getQQProcessName() {
+        throw new RuntimeException("Stub!");
+    }
+
     void addActivity(BaseActivity act) {
         throw new RuntimeException("Stub!");
     }
@@ -161,6 +165,11 @@ public abstract class MobileQQ extends BaseApplication {
     public AppRuntime waitAppRuntime(BaseActivity c) {
         throw new RuntimeException("Stub!");
     }
+    public AppRuntime waitAppRuntime() {
+        throw new RuntimeException("Stub!");
+    }
+
+
 
     public AppRuntime getAppRuntime(String account) throws AccountNotMatchException {
         throw new RuntimeException("Stub!");
