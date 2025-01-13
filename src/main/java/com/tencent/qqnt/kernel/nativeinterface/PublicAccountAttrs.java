@@ -41,64 +41,64 @@ public final class PublicAccountAttrs {
     public PublicAccountAttrs() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93974, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public Integer getAck() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93974, (short) 8);
-        return redirector != null ? (Integer) redirector.redirect((short) 8, (Object) this) : this.ack;
+        return redirector != null ? (Integer) redirector.redirect((short) 8, this) : this.ack;
     }
 
     public Long getBitmap() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93974, (short) 9);
-        return redirector != null ? (Long) redirector.redirect((short) 9, (Object) this) : this.bitmap;
+        return redirector != null ? (Long) redirector.redirect((short) 9, this) : this.bitmap;
     }
 
     public byte[] getGdtCliData() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93974, (short) 11);
-        return redirector != null ? (byte[]) redirector.redirect((short) 11, (Object) this) : this.gdtCliData;
+        return redirector != null ? (byte[]) redirector.redirect((short) 11, this) : this.gdtCliData;
     }
 
     public byte[] getGdtImpData() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93974, (short) 10);
-        return redirector != null ? (byte[]) redirector.redirect((short) 10, (Object) this) : this.gdtImpData;
+        return redirector != null ? (byte[]) redirector.redirect((short) 10, this) : this.gdtImpData;
     }
 
     public Integer getOp() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93974, (short) 5);
-        return redirector != null ? (Integer) redirector.redirect((short) 5, (Object) this) : this.op;
+        return redirector != null ? (Integer) redirector.redirect((short) 5, this) : this.op;
     }
 
     public Long getPubMsgId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93974, (short) 3);
-        return redirector != null ? (Long) redirector.redirect((short) 3, (Object) this) : this.pubMsgId;
+        return redirector != null ? (Long) redirector.redirect((short) 3, this) : this.pubMsgId;
     }
 
     public Integer getReport() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93974, (short) 7);
-        return redirector != null ? (Integer) redirector.redirect((short) 7, (Object) this) : this.report;
+        return redirector != null ? (Integer) redirector.redirect((short) 7, this) : this.report;
     }
 
     public Integer getShowTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93974, (short) 6);
-        return redirector != null ? (Integer) redirector.redirect((short) 6, (Object) this) : this.showTime;
+        return redirector != null ? (Integer) redirector.redirect((short) 6, this) : this.showTime;
     }
 
     public Long getUniqueId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93974, (short) 4);
-        return redirector != null ? (Long) redirector.redirect((short) 4, (Object) this) : this.uniqueId;
+        return redirector != null ? (Long) redirector.redirect((short) 4, this) : this.uniqueId;
     }
 
     public byte[] getViewId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93974, (short) 12);
-        return redirector != null ? (byte[]) redirector.redirect((short) 12, (Object) this) : this.viewId;
+        return redirector != null ? (byte[]) redirector.redirect((short) 12, this) : this.viewId;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93974, (short) 13);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 13, (Object) this);
+            return (String) redirector.redirect((short) 13, this);
         }
         return "PublicAccountAttrs{pubMsgId=" + this.pubMsgId + ",uniqueId=" + this.uniqueId + ",op=" + this.op + ",showTime=" + this.showTime + ",report=" + this.report + ",ack=" + this.ack + ",bitmap=" + this.bitmap + ",gdtImpData=" + this.gdtImpData + ",gdtCliData=" + this.gdtCliData + ",viewId=" + this.viewId + ",}";
     }

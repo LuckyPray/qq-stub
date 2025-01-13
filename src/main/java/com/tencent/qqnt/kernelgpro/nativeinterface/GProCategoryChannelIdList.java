@@ -88,7 +88,7 @@ public final class GProCategoryChannelIdList implements Serializable {
     public GProCategoryChannelIdList(String str, long j, ArrayList<Long> arrayList, boolean z, int i, boolean z2, String str2, String str3, int i2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, Long.valueOf(j), arrayList, Boolean.valueOf(z), Integer.valueOf(i), Boolean.valueOf(z2), str2, str3, Integer.valueOf(i2)});
+            iPatchRedirector.redirect((short) 2, this, str, Long.valueOf(j), arrayList, Boolean.valueOf(z), Integer.valueOf(i), Boolean.valueOf(z2), str2, str3, Integer.valueOf(i2));
             return;
         }
         this.serialVersionUID = 1L;

@@ -71,7 +71,7 @@ public abstract class BaseBusinessHandler {
             this.allowCmdSet = this.getCommandList();
         }
 
-        return this.allowCmdSet == null ? false : !this.allowCmdSet.contains(arg3);
+        return this.allowCmdSet != null && !this.allowCmdSet.contains(arg3);
     }
 
     public abstract void onReceive(ToServiceMsg arg1, FromServiceMsg arg2, Object arg3);

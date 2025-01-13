@@ -74,7 +74,7 @@ public final class GProAVRoomCtrlOptInfo implements Serializable {
     public GProAVRoomCtrlOptInfo(String str, int i, GProAVDevOptInfo gProAVDevOptInfo, int i2, boolean z, int i3, String str2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, Integer.valueOf(i), gProAVDevOptInfo, Integer.valueOf(i2), Boolean.valueOf(z), Integer.valueOf(i3), str2});
+            iPatchRedirector.redirect((short) 2, this, str, Integer.valueOf(i), gProAVDevOptInfo, Integer.valueOf(i2), Boolean.valueOf(z), Integer.valueOf(i3), str2);
             return;
         }
         this.serialVersionUID = 1L;

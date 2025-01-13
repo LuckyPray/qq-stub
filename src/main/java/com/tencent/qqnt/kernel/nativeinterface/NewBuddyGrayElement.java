@@ -39,7 +39,7 @@ public final class NewBuddyGrayElement implements Serializable {
     public NewBuddyGrayElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93707, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -48,33 +48,33 @@ public final class NewBuddyGrayElement implements Serializable {
 
     public String getFriendNick() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93707, (short) 7);
-        return redirector != null ? (String) redirector.redirect((short) 7, (Object) this) : this.friendNick;
+        return redirector != null ? (String) redirector.redirect((short) 7, this) : this.friendNick;
     }
 
     public boolean getIsInitiator() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93707, (short) 6);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 6, (Object) this)).booleanValue() : this.isInitiator;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 6, this)).booleanValue() : this.isInitiator;
     }
 
     public int getSourceId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93707, (short) 4);
-        return redirector != null ? ((Integer) redirector.redirect((short) 4, (Object) this)).intValue() : this.sourceId;
+        return redirector != null ? ((Integer) redirector.redirect((short) 4, this)).intValue() : this.sourceId;
     }
 
     public int getSubSourceId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93707, (short) 5);
-        return redirector != null ? ((Integer) redirector.redirect((short) 5, (Object) this)).intValue() : this.subSourceId;
+        return redirector != null ? ((Integer) redirector.redirect((short) 5, this)).intValue() : this.subSourceId;
     }
 
     public long getTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93707, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.time;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.time;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93707, (short) 8);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 8, (Object) this);
+            return (String) redirector.redirect((short) 8, this);
         }
         return "NewBuddyGrayElement{time=" + this.time + ",sourceId=" + this.sourceId + ",subSourceId=" + this.subSourceId + ",isInitiator=" + this.isInitiator + ",friendNick=" + this.friendNick + ",}";
     }

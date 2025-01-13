@@ -37,7 +37,7 @@ public final class JsonGrayElement {
     public JsonGrayElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93212, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.jsonStr = "";
@@ -46,33 +46,33 @@ public final class JsonGrayElement {
 
     public long getBusiId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93212, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.busiId;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.busiId;
     }
 
     public boolean getIsServer() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93212, (short) 6);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 6, (Object) this)).booleanValue() : this.isServer;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 6, this)).booleanValue() : this.isServer;
     }
 
     public String getJsonStr() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93212, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.jsonStr;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.jsonStr;
     }
 
     public String getRecentAbstract() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93212, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.recentAbstract;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.recentAbstract;
     }
 
     public XmlToJsonParam getXmlToJsonParam() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93212, (short) 7);
-        return redirector != null ? (XmlToJsonParam) redirector.redirect((short) 7, (Object) this) : this.xmlToJsonParam;
+        return redirector != null ? (XmlToJsonParam) redirector.redirect((short) 7, this) : this.xmlToJsonParam;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93212, (short) 8);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 8, (Object) this);
+            return (String) redirector.redirect((short) 8, this);
         }
         return "JsonGrayElement{busiId=" + this.busiId + ",jsonStr=" + this.jsonStr + ",recentAbstract=" + this.recentAbstract + ",isServer=" + this.isServer + ",xmlToJsonParam=" + this.xmlToJsonParam + ",}";
     }

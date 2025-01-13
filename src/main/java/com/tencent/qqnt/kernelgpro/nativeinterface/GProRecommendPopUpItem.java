@@ -62,7 +62,7 @@ public final class GProRecommendPopUpItem {
     public GProRecommendPopUpItem(String str, String str2, GProSearchItem gProSearchItem, ArrayList<GProRecommendItem> arrayList, String str3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, gProSearchItem, arrayList, str3});
+            iPatchRedirector.redirect((short) 2, this, str, str2, gProSearchItem, arrayList, str3);
             return;
         }
         this.bannerUrl = "";

@@ -125,7 +125,7 @@ public final class GProLobbyAppInfo implements Serializable {
     public GProLobbyAppInfo(String str, String str2, String str3, String str4, String str5, int i, long j, long j2, int i2, int i3, int i4, String str6, int i5, int i6, int i7) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, str4, str5, Integer.valueOf(i), Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), str6, Integer.valueOf(i5), Integer.valueOf(i6), Integer.valueOf(i7)});
+            iPatchRedirector.redirect((short) 2, this, str, str2, str3, str4, str5, Integer.valueOf(i), Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), str6, Integer.valueOf(i5), Integer.valueOf(i6), Integer.valueOf(i7));
             return;
         }
         this.serialVersionUID = 1L;

@@ -108,7 +108,7 @@ public final class GProGetBlockRecGuildsReq implements Serializable {
     public GProGetBlockRecGuildsReq(int i, byte[] bArr, GProBottomTabSourceInfo gProBottomTabSourceInfo, GProTopRecommendInfo gProTopRecommendInfo, String str) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), bArr, gProBottomTabSourceInfo, gProTopRecommendInfo, str});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), bArr, gProBottomTabSourceInfo, gProTopRecommendInfo, str);
             return;
         }
         this.serialVersionUID = 1L;

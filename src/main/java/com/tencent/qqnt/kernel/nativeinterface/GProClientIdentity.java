@@ -36,7 +36,7 @@ public final class GProClientIdentity implements Serializable {
     public GProClientIdentity() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(85063, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -46,23 +46,23 @@ public final class GProClientIdentity implements Serializable {
 
     public int getClientId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(85063, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.clientId;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.clientId;
     }
 
     public String getDesc() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(85063, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.desc;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.desc;
     }
 
     public GProClientIdentityBytes getIdentityBytes() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(85063, (short) 5);
-        return redirector != null ? (GProClientIdentityBytes) redirector.redirect((short) 5, (Object) this) : this.identityBytes;
+        return redirector != null ? (GProClientIdentityBytes) redirector.redirect((short) 5, this) : this.identityBytes;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(85063, (short) 6);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 6, (Object) this);
+            return (String) redirector.redirect((short) 6, this);
         }
         return "GProClientIdentity{clientId=" + this.clientId + ",desc=" + this.desc + ",identityBytes=" + this.identityBytes + ",}";
     }

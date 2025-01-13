@@ -37,7 +37,7 @@ public final class BlockGrayTipElement implements Serializable {
     public BlockGrayTipElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79761, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -46,23 +46,23 @@ public final class BlockGrayTipElement implements Serializable {
 
     public boolean getBlock() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79761, (short) 4);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 4, (Object) this)).booleanValue() : this.block;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 4, this)).booleanValue() : this.block;
     }
 
     public boolean getIsBuddy() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79761, (short) 5);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 5, (Object) this)).booleanValue() : this.isBuddy;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 5, this)).booleanValue() : this.isBuddy;
     }
 
     public String getPeerUid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79761, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.peerUid;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.peerUid;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79761, (short) 6);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 6, (Object) this);
+            return (String) redirector.redirect((short) 6, this);
         }
         return "BlockGrayTipElement{peerUid=" + this.peerUid + ",block=" + this.block + ",isBuddy=" + this.isBuddy + ",}";
     }

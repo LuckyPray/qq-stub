@@ -83,7 +83,7 @@ public final class IntroductoryGuildInfo {
     public IntroductoryGuildInfo(long j, String str, String str2, String str3, String str4, ArrayList<GProMedalInfo> arrayList, ArrayList<GProRecommendLabel> arrayList2, String str5) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, str3, str4, arrayList, arrayList2, str5});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, str2, str3, str4, arrayList, arrayList2, str5);
             return;
         }
         this.guildName = "";

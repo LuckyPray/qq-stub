@@ -56,7 +56,7 @@ public final class GProAVShowMsgInfo implements Serializable {
     public GProAVShowMsgInfo(int i, String str, int i2, ArrayList<String> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, Integer.valueOf(i2), arrayList});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), str, Integer.valueOf(i2), arrayList);
             return;
         }
         this.serialVersionUID = 1L;

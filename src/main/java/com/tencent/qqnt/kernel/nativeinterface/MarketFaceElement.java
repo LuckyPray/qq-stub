@@ -60,149 +60,149 @@ public final class MarketFaceElement {
     public MarketFaceElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public ArrayList<MarketFaceSupportSize> getApngSupportSize() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 29);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 29, (Object) this) : this.apngSupportSize;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 29, this) : this.apngSupportSize;
     }
 
     public String getBackColor() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 24);
-        return redirector != null ? (String) redirector.redirect((short) 24, (Object) this) : this.backColor;
+        return redirector != null ? (String) redirector.redirect((short) 24, this) : this.backColor;
     }
 
     public String getDynamicFacePath() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 27);
-        return redirector != null ? (String) redirector.redirect((short) 27, (Object) this) : this.dynamicFacePath;
+        return redirector != null ? (String) redirector.redirect((short) 27, this) : this.dynamicFacePath;
     }
 
     public String getEmojiId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 11);
-        return redirector != null ? (String) redirector.redirect((short) 11, (Object) this) : this.emojiId;
+        return redirector != null ? (String) redirector.redirect((short) 11, this) : this.emojiId;
     }
 
     public int getEmojiPackageId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 5);
-        return redirector != null ? ((Integer) redirector.redirect((short) 5, (Object) this)).intValue() : this.emojiPackageId;
+        return redirector != null ? ((Integer) redirector.redirect((short) 5, this)).intValue() : this.emojiPackageId;
     }
 
     public Integer getEmojiType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 18);
-        return redirector != null ? (Integer) redirector.redirect((short) 18, (Object) this) : this.emojiType;
+        return redirector != null ? (Integer) redirector.redirect((short) 18, this) : this.emojiType;
     }
 
     public Integer getEndTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 17);
-        return redirector != null ? (Integer) redirector.redirect((short) 17, (Object) this) : this.endTime;
+        return redirector != null ? (Integer) redirector.redirect((short) 17, this) : this.endTime;
     }
 
     public int getFaceInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 4);
-        return redirector != null ? ((Integer) redirector.redirect((short) 4, (Object) this)).intValue() : this.faceInfo;
+        return redirector != null ? ((Integer) redirector.redirect((short) 4, this)).intValue() : this.faceInfo;
     }
 
     public String getFaceName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 10);
-        return redirector != null ? (String) redirector.redirect((short) 10, (Object) this) : this.faceName;
+        return redirector != null ? (String) redirector.redirect((short) 10, this) : this.faceName;
     }
 
     public Integer getHasIpProduct() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 19);
-        return redirector != null ? (Integer) redirector.redirect((short) 19, (Object) this) : this.hasIpProduct;
+        return redirector != null ? (Integer) redirector.redirect((short) 19, this) : this.hasIpProduct;
     }
 
     public int getImageHeight() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 9);
-        return redirector != null ? ((Integer) redirector.redirect((short) 9, (Object) this)).intValue() : this.imageHeight;
+        return redirector != null ? ((Integer) redirector.redirect((short) 9, this)).intValue() : this.imageHeight;
     }
 
     public int getImageWidth() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 8);
-        return redirector != null ? ((Integer) redirector.redirect((short) 8, (Object) this)).intValue() : this.imageWidth;
+        return redirector != null ? ((Integer) redirector.redirect((short) 8, this)).intValue() : this.imageWidth;
     }
 
     public int getItemType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.itemType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.itemType;
     }
 
     public String getKey() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 12);
-        return redirector != null ? (String) redirector.redirect((short) 12, (Object) this) : this.key;
+        return redirector != null ? (String) redirector.redirect((short) 12, this) : this.key;
     }
 
     public int getMediaType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 7);
-        return redirector != null ? ((Integer) redirector.redirect((short) 7, (Object) this)).intValue() : this.mediaType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 7, this)).intValue() : this.mediaType;
     }
 
     public byte[] getMobileParam() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 14);
-        return redirector != null ? (byte[]) redirector.redirect((short) 14, (Object) this) : this.mobileParam;
+        return redirector != null ? (byte[]) redirector.redirect((short) 14, this) : this.mobileParam;
     }
 
     public byte[] getParam() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 13);
-        return redirector != null ? (byte[]) redirector.redirect((short) 13, (Object) this) : this.param;
+        return redirector != null ? (byte[]) redirector.redirect((short) 13, this) : this.param;
     }
 
     public String getSourceJumpUrl() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 22);
-        return redirector != null ? (String) redirector.redirect((short) 22, (Object) this) : this.sourceJumpUrl;
+        return redirector != null ? (String) redirector.redirect((short) 22, this) : this.sourceJumpUrl;
     }
 
     public String getSourceName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 21);
-        return redirector != null ? (String) redirector.redirect((short) 21, (Object) this) : this.sourceName;
+        return redirector != null ? (String) redirector.redirect((short) 21, this) : this.sourceName;
     }
 
     public Integer getSourceType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 15);
-        return redirector != null ? (Integer) redirector.redirect((short) 15, (Object) this) : this.sourceType;
+        return redirector != null ? (Integer) redirector.redirect((short) 15, this) : this.sourceType;
     }
 
     public String getSourceTypeName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 23);
-        return redirector != null ? (String) redirector.redirect((short) 23, (Object) this) : this.sourceTypeName;
+        return redirector != null ? (String) redirector.redirect((short) 23, this) : this.sourceTypeName;
     }
 
     public Integer getStartTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 16);
-        return redirector != null ? (Integer) redirector.redirect((short) 16, (Object) this) : this.startTime;
+        return redirector != null ? (Integer) redirector.redirect((short) 16, this) : this.startTime;
     }
 
     public String getStaticFacePath() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 26);
-        return redirector != null ? (String) redirector.redirect((short) 26, (Object) this) : this.staticFacePath;
+        return redirector != null ? (String) redirector.redirect((short) 26, this) : this.staticFacePath;
     }
 
     public int getSubType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 6);
-        return redirector != null ? ((Integer) redirector.redirect((short) 6, (Object) this)).intValue() : this.subType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 6, this)).intValue() : this.subType;
     }
 
     public ArrayList<MarketFaceSupportSize> getSupportSize() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 28);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 28, (Object) this) : this.supportSize;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 28, this) : this.supportSize;
     }
 
     public ArrayList<Integer> getVoiceItemHeightArr() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 20);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 20, (Object) this) : this.voiceItemHeightArr;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 20, this) : this.voiceItemHeightArr;
     }
 
     public String getVolumeColor() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 25);
-        return redirector != null ? (String) redirector.redirect((short) 25, (Object) this) : this.volumeColor;
+        return redirector != null ? (String) redirector.redirect((short) 25, this) : this.volumeColor;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93414, (short) 30);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 30, (Object) this);
+            return (String) redirector.redirect((short) 30, this);
         }
         return "MarketFaceElement{itemType=" + this.itemType + ",faceInfo=" + this.faceInfo + ",emojiPackageId=" + this.emojiPackageId + ",subType=" + this.subType + ",mediaType=" + this.mediaType + ",imageWidth=" + this.imageWidth + ",imageHeight=" + this.imageHeight + ",faceName=" + this.faceName + ",emojiId=" + this.emojiId + ",key=" + this.key + ",param=" + this.param + ",mobileParam=" + this.mobileParam + ",sourceType=" + this.sourceType + ",startTime=" + this.startTime + ",endTime=" + this.endTime + ",emojiType=" + this.emojiType + ",hasIpProduct=" + this.hasIpProduct + ",voiceItemHeightArr=" + this.voiceItemHeightArr + ",sourceName=" + this.sourceName + ",sourceJumpUrl=" + this.sourceJumpUrl + ",sourceTypeName=" + this.sourceTypeName + ",backColor=" + this.backColor + ",volumeColor=" + this.volumeColor + ",staticFacePath=" + this.staticFacePath + ",dynamicFacePath=" + this.dynamicFacePath + ",supportSize=" + this.supportSize + ",apngSupportSize=" + this.apngSupportSize + ",}";
     }

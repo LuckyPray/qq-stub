@@ -10,7 +10,7 @@ public interface IKernelSettingService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelSettingService$CppProxy.class */
-    public static final class CppProxy implements IKernelSettingService {
+    final class CppProxy implements IKernelSettingService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

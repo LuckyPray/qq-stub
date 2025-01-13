@@ -92,7 +92,7 @@ public final class GProGetRecommendV2Req implements Serializable {
     public GProGetRecommendV2Req(String str, long j, byte[] bArr, GProBottomTabSourceInfo gProBottomTabSourceInfo) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, Long.valueOf(j), bArr, gProBottomTabSourceInfo});
+            iPatchRedirector.redirect((short) 2, this, str, Long.valueOf(j), bArr, gProBottomTabSourceInfo);
             return;
         }
         this.serialVersionUID = 1L;

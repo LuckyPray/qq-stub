@@ -53,7 +53,7 @@ public final class GProForumBody {
     public GProForumBody(ArrayList<GProForumChannel> arrayList, long j, int i, String str) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, arrayList, Long.valueOf(j), Integer.valueOf(i), str});
+            iPatchRedirector.redirect((short) 2, this, arrayList, Long.valueOf(j), Integer.valueOf(i), str);
             return;
         }
         this.forumChannel = new ArrayList<>();

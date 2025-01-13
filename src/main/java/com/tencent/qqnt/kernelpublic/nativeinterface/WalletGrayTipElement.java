@@ -165,7 +165,7 @@ public final class WalletGrayTipElement implements Serializable {
     public WalletGrayTipElement(int i, long j, long j2, byte[] bArr, byte[] bArr2, byte[] bArr3, int i2, int i3, int i4, byte[] bArr4, int i5, long j3, int i6, int i7, byte[] bArr5, byte[] bArr6, int i8, byte[] bArr7, String str, int i9, byte[] bArr8) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Long.valueOf(j), Long.valueOf(j2), bArr, bArr2, bArr3, Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), bArr4, Integer.valueOf(i5), Long.valueOf(j3), Integer.valueOf(i6), Integer.valueOf(i7), bArr5, bArr6, Integer.valueOf(i8), bArr7, str, Integer.valueOf(i9), bArr8});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Long.valueOf(j), Long.valueOf(j2), bArr, bArr2, bArr3, Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), bArr4, Integer.valueOf(i5), Long.valueOf(j3), Integer.valueOf(i6), Integer.valueOf(i7), bArr5, bArr6, Integer.valueOf(i8), bArr7, str, Integer.valueOf(i9), bArr8);
             return;
         }
         this.serialVersionUID = 1L;

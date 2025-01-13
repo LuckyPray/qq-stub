@@ -77,7 +77,7 @@ public final class GProPlayNodeExtInfo implements Serializable {
     public GProPlayNodeExtInfo(int i, long j, int i2, long j2, long j3, boolean z, int i3, GProPlayPushScene gProPlayPushScene) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Long.valueOf(j), Integer.valueOf(i2), Long.valueOf(j2), Long.valueOf(j3), Boolean.valueOf(z), Integer.valueOf(i3), gProPlayPushScene});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Long.valueOf(j), Integer.valueOf(i2), Long.valueOf(j2), Long.valueOf(j3), Boolean.valueOf(z), Integer.valueOf(i3), gProPlayPushScene);
             return;
         }
         this.serialVersionUID = 1L;

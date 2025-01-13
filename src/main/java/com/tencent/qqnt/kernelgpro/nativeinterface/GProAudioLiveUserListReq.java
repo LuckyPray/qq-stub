@@ -146,7 +146,7 @@ public final class GProAudioLiveUserListReq {
     public GProAudioLiveUserListReq(long j, long j2, int i, boolean z, boolean z2, boolean z3, int i2, byte[] bArr) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), Boolean.valueOf(z2), Boolean.valueOf(z3), Integer.valueOf(i2), bArr});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), Boolean.valueOf(z2), Boolean.valueOf(z3), Integer.valueOf(i2), bArr);
             return;
         }
         this.needDecodeData = new byte[0];

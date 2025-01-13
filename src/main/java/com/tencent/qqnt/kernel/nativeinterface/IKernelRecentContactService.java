@@ -11,7 +11,7 @@ public interface IKernelRecentContactService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelRecentContactService$CppProxy.class */
-    public static final class CppProxy implements IKernelRecentContactService {
+    final class CppProxy implements IKernelRecentContactService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

@@ -10,7 +10,7 @@ public interface IKernelAvatarService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelAvatarService$CppProxy.class */
-    public static final class CppProxy implements IKernelAvatarService {
+    final class CppProxy implements IKernelAvatarService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

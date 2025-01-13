@@ -36,7 +36,7 @@ public final class VASGiftSpendCoinItem implements Serializable {
     public VASGiftSpendCoinItem() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94987, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
         }
@@ -44,18 +44,18 @@ public final class VASGiftSpendCoinItem implements Serializable {
 
     public int getAmt() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94987, (short) 4);
-        return redirector != null ? ((Integer) redirector.redirect((short) 4, (Object) this)).intValue() : this.amt;
+        return redirector != null ? ((Integer) redirector.redirect((short) 4, this)).intValue() : this.amt;
     }
 
     public int getCoinType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94987, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.coinType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.coinType;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94987, (short) 5);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 5, (Object) this);
+            return (String) redirector.redirect((short) 5, this);
         }
         return "VASGiftSpendCoinItem{coinType=" + this.coinType + ",amt=" + this.amt + ",}";
     }

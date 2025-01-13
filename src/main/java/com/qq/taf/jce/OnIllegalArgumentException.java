@@ -17,5 +17,5 @@ import java.nio.ByteBuffer;
 public interface OnIllegalArgumentException
 {
 
-	public void onException(IllegalArgumentException e, ByteBuffer bs, int oldLen, int newLen);
+	void onException(IllegalArgumentException e, ByteBuffer bs, int oldLen, int newLen);
 }

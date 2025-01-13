@@ -65,7 +65,7 @@ public final class GProGetContentRecommendRsp implements Serializable {
     public GProGetContentRecommendRsp(ArrayList<GProRecommendContentItem> arrayList, GProMVPExtInfo gProMVPExtInfo, byte[] bArr, String str) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, arrayList, gProMVPExtInfo, bArr, str});
+            iPatchRedirector.redirect((short) 2, this, arrayList, gProMVPExtInfo, bArr, str);
             return;
         }
         this.serialVersionUID = 1L;

@@ -215,7 +215,7 @@ public final class GProSimpleProfile {
     public GProSimpleProfile(long j, long j2, long j3, long j4, String str, String str2, String str3, String str4, GProClientIdentity gProClientIdentity, String str5, GProMedal gProMedal, ArrayList<Long> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), str, str2, str3, str4, gProClientIdentity, str5, gProMedal, arrayList});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), str, str2, str3, str4, gProClientIdentity, str5, gProMedal, arrayList);
             return;
         }
         this.nickName = "";

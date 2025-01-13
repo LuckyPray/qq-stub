@@ -55,7 +55,7 @@ public final class GProBlockBaseInfo implements Serializable {
     public GProBlockBaseInfo(int i, GProRecommendsV2Feed gProRecommendsV2Feed, GProRecommendShareInfo gProRecommendShareInfo, GProRecommendV2Channel gProRecommendV2Channel) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), gProRecommendsV2Feed, gProRecommendShareInfo, gProRecommendV2Channel});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), gProRecommendsV2Feed, gProRecommendShareInfo, gProRecommendV2Channel);
             return;
         }
         this.serialVersionUID = 1L;

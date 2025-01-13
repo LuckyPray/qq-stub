@@ -128,7 +128,7 @@ public final class GProRecommendGuildInfo {
     public GProRecommendGuildInfo(long j, String str, String str2, String str3, long j2, String str4, String str5, String str6, long j3, String str7, String str8, GProPlayFaceAnimationPolicy gProPlayFaceAnimationPolicy, ArrayList<GProNavigationInfo> arrayList, int i, ArrayList<GProTextMedalInfo> arrayList2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, str3, Long.valueOf(j2), str4, str5, str6, Long.valueOf(j3), str7, str8, gProPlayFaceAnimationPolicy, arrayList, Integer.valueOf(i), arrayList2});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, str2, str3, Long.valueOf(j2), str4, str5, str6, Long.valueOf(j3), str7, str8, gProPlayFaceAnimationPolicy, arrayList, Integer.valueOf(i), arrayList2);
             return;
         }
         this.name = "";

@@ -37,7 +37,7 @@ public final class LocalGrayTipDirect implements Serializable {
     public LocalGrayTipDirect() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93297, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -46,23 +46,23 @@ public final class LocalGrayTipDirect implements Serializable {
 
     public String getRobotName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93297, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.robotName;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.robotName;
     }
 
     public long getRobotTid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93297, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.robotTid;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.robotTid;
     }
 
     public long getRobotUin() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93297, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.robotUin;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.robotUin;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93297, (short) 6);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 6, (Object) this);
+            return (String) redirector.redirect((short) 6, this);
         }
         return "LocalGrayTipDirect{robotTid=" + this.robotTid + ",robotUin=" + this.robotUin + ",robotName=" + this.robotName + ",}";
     }

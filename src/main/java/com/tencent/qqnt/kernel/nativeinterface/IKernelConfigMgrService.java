@@ -9,7 +9,7 @@ public interface IKernelConfigMgrService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelConfigMgrService$CppProxy.class */
-    public static final class CppProxy implements IKernelConfigMgrService {
+    final class CppProxy implements IKernelConfigMgrService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

@@ -78,7 +78,7 @@ public final class GProRecommendTextChannel implements Serializable {
     public GProRecommendTextChannel(ArrayList<MsgAbstract> arrayList, ArrayList<String> arrayList2, int i, boolean z, String str, String str2, ArrayList<String> arrayList3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, arrayList, arrayList2, Integer.valueOf(i), Boolean.valueOf(z), str, str2, arrayList3});
+            iPatchRedirector.redirect((short) 2, this, arrayList, arrayList2, Integer.valueOf(i), Boolean.valueOf(z), str, str2, arrayList3);
             return;
         }
         this.serialVersionUID = 1L;

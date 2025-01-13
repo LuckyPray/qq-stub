@@ -105,7 +105,7 @@ public final class GProGetRecommendTagListReq {
     public GProGetRecommendTagListReq(int i, String str, String str2, GProBottomTabSourceInfo gProBottomTabSourceInfo, byte[] bArr) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, str2, gProBottomTabSourceInfo, bArr});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), str, str2, gProBottomTabSourceInfo, bArr);
             return;
         }
         this.groupId = "";

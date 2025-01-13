@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public interface IKernelThirdPartySigService {
 
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelThirdPartySigService$CppProxy.class */
-    public static final class CppProxy implements IKernelThirdPartySigService {
+    final class CppProxy implements IKernelThirdPartySigService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

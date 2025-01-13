@@ -88,7 +88,7 @@ public final class GProConvertThirdIdReq {
     public GProConvertThirdIdReq(int i, ArrayList<String> arrayList, long j, ArrayList<String> arrayList2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), arrayList, Long.valueOf(j), arrayList2});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), arrayList, Long.valueOf(j), arrayList2);
             return;
         }
         this.ids = new ArrayList<>();

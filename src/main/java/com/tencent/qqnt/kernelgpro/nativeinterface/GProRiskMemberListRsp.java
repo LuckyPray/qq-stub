@@ -81,7 +81,7 @@ public final class GProRiskMemberListRsp {
     public GProRiskMemberListRsp(ArrayList<GProRiskMemberGroupInfo> arrayList, String str, String str2, byte[] bArr, boolean z, String str3, String str4, long j) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, arrayList, str, str2, bArr, Boolean.valueOf(z), str3, str4, Long.valueOf(j)});
+            iPatchRedirector.redirect((short) 2, this, arrayList, str, str2, bArr, Boolean.valueOf(z), str3, str4, Long.valueOf(j));
             return;
         }
         this.groupList = new ArrayList<>();

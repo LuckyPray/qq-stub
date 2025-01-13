@@ -90,12 +90,12 @@ public final class JceUtil {
 
 	public static <T extends Comparable<T>> int compareTo(List<T> l, List<T> r) {
 		Iterator<T> li = l.iterator(), ri = r.iterator();
-		for (; li.hasNext() && ri.hasNext();) {
-			int n = li.next().compareTo(ri.next());
-			if (n != 0)
-				return n;
-		}
-		return compareTo(li.hasNext(), ri.hasNext());
+        while (li.hasNext() && ri.hasNext()) {
+            int n = li.next().compareTo(ri.next());
+            if (n != 0)
+                return n;
+        }
+        return compareTo(li.hasNext(), ri.hasNext());
 	}
 
 	public static <T extends Comparable<T>> int compareTo(T[] l, T[] r) {
@@ -345,7 +345,7 @@ public final class JceUtil {
                 } else if (object instanceof JceStruct[]) {
                 	return hashCode((JceStruct[]) object);
                 } else {
-                	return hashCode((Object[]) object);
+                	return hashCode(object);
                 }
             } else if (object instanceof JceStruct) {
             	return object.hashCode();

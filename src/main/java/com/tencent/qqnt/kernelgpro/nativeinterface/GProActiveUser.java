@@ -90,7 +90,7 @@ public final class GProActiveUser {
     public GProActiveUser(long j, String str, int i, String str2, long j2, long j3, String str3, long j4, boolean z, String str4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, Integer.valueOf(i), str2, Long.valueOf(j2), Long.valueOf(j3), str3, Long.valueOf(j4), Boolean.valueOf(z), str4});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, Integer.valueOf(i), str2, Long.valueOf(j2), Long.valueOf(j3), str3, Long.valueOf(j4), Boolean.valueOf(z), str4);
             return;
         }
         this.nickName = "";

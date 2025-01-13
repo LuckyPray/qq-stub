@@ -33,19 +33,19 @@ public final class StructMsgElement {
     public StructMsgElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94699, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public String getXmlContent() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94699, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.xmlContent;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.xmlContent;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94699, (short) 4);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 4, (Object) this);
+            return (String) redirector.redirect((short) 4, this);
         }
         return "StructMsgElement{xmlContent=" + this.xmlContent + ",}";
     }
@@ -53,7 +53,7 @@ public final class StructMsgElement {
     public StructMsgElement(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94699, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, (Object) str);
+            redirector.redirect((short) 2, this, str);
         } else {
             this.xmlContent = str;
         }

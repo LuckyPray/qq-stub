@@ -71,7 +71,7 @@ public final class GroupGrayElementType {
     GroupGrayElementType(String str, int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88353, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this, (Object) str, i2);
+            redirector.redirect((short) 1, this, str, i2);
         }
     }
 
@@ -80,6 +80,6 @@ public final class GroupGrayElementType {
     }
 
     public static GroupGrayElementType[] values() {
-        return (GroupGrayElementType[]) $VALUES.clone();
+        return $VALUES.clone();
     }
 }

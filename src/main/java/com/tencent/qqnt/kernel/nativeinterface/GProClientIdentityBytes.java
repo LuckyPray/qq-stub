@@ -36,7 +36,7 @@ public final class GProClientIdentityBytes implements Serializable {
     public GProClientIdentityBytes() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(85082, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -45,18 +45,18 @@ public final class GProClientIdentityBytes implements Serializable {
 
     public int getClientId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(85082, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.clientId;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.clientId;
     }
 
     public ArrayList<GProIdentity> getIdentityList() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(85082, (short) 4);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 4, (Object) this) : this.identityList;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 4, this) : this.identityList;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(85082, (short) 5);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 5, (Object) this);
+            return (String) redirector.redirect((short) 5, this);
         }
         return "GProClientIdentityBytes{clientId=" + this.clientId + ",identityList=" + this.identityList + ",}";
     }
@@ -64,7 +64,7 @@ public final class GProClientIdentityBytes implements Serializable {
     public GProClientIdentityBytes(int i2, ArrayList<GProIdentity> arrayList) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(85082, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, i2, (Object) arrayList);
+            redirector.redirect((short) 2, this, i2, arrayList);
             return;
         }
         this.serialVersionUID = 1L;

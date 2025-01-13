@@ -218,7 +218,6 @@ public class MsfSdkUtils {
                 }
             }
         }
-        return;
     }
 
     public static synchronized void updateSimpleAccountNotCreate(String str, boolean z) {
@@ -323,7 +322,7 @@ public class MsfSdkUtils {
     }
 
     public static int convertBytes2Int(byte[] bArr, int i) {
-        return ((((bArr[i + 0] << 24) & -16777216) | ((bArr[i + 1] << 16) & 16711680)) | ((bArr[i + 2] << 8) & 65280)) | ((bArr[i + 3] << 0) & 255);
+        return ((((bArr[i] << 24) & -16777216) | ((bArr[i + 1] << 16) & 16711680)) | ((bArr[i + 2] << 8) & 65280)) | ((bArr[i + 3] << 0) & 255);
     }
 
     /* JADX WARNING: Removed duplicated region for block: B:12:0x001b  */
@@ -401,12 +400,11 @@ public class MsfSdkUtils {
         if (bArr == null || bArr.length < 4) {
             return MsfConstants.ProcessNameAll;
         }
-        StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append(Integer.toHexString(bArr[0]));
-        stringBuilder.append(Integer.toHexString(bArr[1]));
-        stringBuilder.append(Integer.toHexString(bArr[2]));
-        stringBuilder.append(Integer.toHexString(bArr[3]));
-        return stringBuilder.toString();
+        String stringBuilder = Integer.toHexString(bArr[0]) +
+                Integer.toHexString(bArr[1]) +
+                Integer.toHexString(bArr[2]) +
+                Integer.toHexString(bArr[3]);
+        return stringBuilder;
     }
 
     public static String insertMtype(String str, String str2) {

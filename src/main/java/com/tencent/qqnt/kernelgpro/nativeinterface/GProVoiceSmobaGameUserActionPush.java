@@ -57,7 +57,7 @@ public final class GProVoiceSmobaGameUserActionPush {
     public GProVoiceSmobaGameUserActionPush(long j, ArrayList<GProVoiceSmobaGameUserAction> arrayList, long j2, long j3, long j4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), arrayList, Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), arrayList, Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4));
             return;
         }
         this.userAction = new ArrayList<>();

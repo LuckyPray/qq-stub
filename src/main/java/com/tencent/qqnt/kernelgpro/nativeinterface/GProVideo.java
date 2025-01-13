@@ -100,7 +100,7 @@ public final class GProVideo implements Serializable {
     public GProVideo(int i, int i2, int i3, int i4, String str, int i5, int i6, GProImage gProImage, int i7, ArrayList<GProTransVideo> arrayList, String str2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), str, Integer.valueOf(i5), Integer.valueOf(i6), gProImage, Integer.valueOf(i7), arrayList, str2});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), str, Integer.valueOf(i5), Integer.valueOf(i6), gProImage, Integer.valueOf(i7), arrayList, str2);
             return;
         }
         this.serialVersionUID = 1L;

@@ -90,7 +90,7 @@ public final class MsgAbstract implements Serializable {
     public MsgAbstract(Contact contact, String str, String str2, String str3, int i, ArrayList<MsgAbstractElement> arrayList, long j, int i2, long j2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, contact, str, str2, str3, Integer.valueOf(i), arrayList, Long.valueOf(j), Integer.valueOf(i2), Long.valueOf(j2)});
+            iPatchRedirector.redirect((short) 2, this, contact, str, str2, str3, Integer.valueOf(i), arrayList, Long.valueOf(j), Integer.valueOf(i2), Long.valueOf(j2));
             return;
         }
         this.serialVersionUID = 1L;

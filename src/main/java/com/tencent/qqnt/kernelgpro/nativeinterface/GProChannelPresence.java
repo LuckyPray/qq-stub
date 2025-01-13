@@ -70,7 +70,7 @@ public final class GProChannelPresence implements Serializable {
     public GProChannelPresence(long j, String str, int i, ArrayList<GProChannelPresenceMemberInfo> arrayList, GProGuildLiveInfo gProGuildLiveInfo, GProVoicePresence0x11bc gProVoicePresence0x11bc) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, Integer.valueOf(i), arrayList, gProGuildLiveInfo, gProVoicePresence0x11bc});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, Integer.valueOf(i), arrayList, gProGuildLiveInfo, gProVoicePresence0x11bc);
             return;
         }
         this.serialVersionUID = 1L;

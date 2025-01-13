@@ -60,6 +60,6 @@ public final class GroupGrayElementType {
     }
 
     public static GroupGrayElementType[] values() {
-        return (GroupGrayElementType[]) $VALUES.clone();
+        return $VALUES.clone();
     }
 }

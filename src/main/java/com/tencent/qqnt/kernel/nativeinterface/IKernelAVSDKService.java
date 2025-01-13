@@ -8,7 +8,7 @@ public interface IKernelAVSDKService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelAVSDKService$CppProxy.class */
-    public static final class CppProxy implements IKernelAVSDKService {
+    final class CppProxy implements IKernelAVSDKService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

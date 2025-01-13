@@ -9,11 +9,11 @@ public final class UserIdentityType implements Serializable {
     public static final int _UserIdentityType_Merchant = 1;
     public static final int _UserIdentityType_Nomal = 0;
     public static final int _UserIdentityType_Official = 2;
-    private String __T;
-    private int __value;
+    private final String __T;
+    private final int __value;
 
     /* renamed from: e  reason: collision with root package name */
-    private static UserIdentityType[] f5194e = new UserIdentityType[3];
+    private static final UserIdentityType[] f5194e = new UserIdentityType[3];
     public static final UserIdentityType UserIdentityType_Nomal = new UserIdentityType(0, 0, "UserIdentityType_Nomal");
     public static final UserIdentityType UserIdentityType_Merchant = new UserIdentityType(1, 1, "UserIdentityType_Merchant");
     public static final UserIdentityType UserIdentityType_Official = new UserIdentityType(2, 2, "UserIdentityType_Official");

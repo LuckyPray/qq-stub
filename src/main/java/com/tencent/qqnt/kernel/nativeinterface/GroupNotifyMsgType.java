@@ -86,7 +86,7 @@ public final class GroupNotifyMsgType {
     GroupNotifyMsgType(String str, int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88489, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this, (Object) str, i2);
+            redirector.redirect((short) 1, this, str, i2);
         }
     }
 
@@ -95,6 +95,6 @@ public final class GroupNotifyMsgType {
     }
 
     public static GroupNotifyMsgType[] values() {
-        return (GroupNotifyMsgType[]) $VALUES.clone();
+        return $VALUES.clone();
     }
 }

@@ -61,7 +61,7 @@ public class WupHexUtil
             byte b = bytes[i];
             buf[2 * i + 1] = digits[b & 0xF];
             b = (byte) (b >>> 4);
-            buf[2 * i + 0] = digits[b & 0xF];
+            buf[2 * i] = digits[b & 0xF];
         }
         return new String(buf);
     }

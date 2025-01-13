@@ -73,7 +73,7 @@ public final class GProAdInfo {
     public GProAdInfo(String str, String str2, String str3, String str4, String str5, int i, int i2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, str4, str5, Integer.valueOf(i), Integer.valueOf(i2)});
+            iPatchRedirector.redirect((short) 2, this, str, str2, str3, str4, str5, Integer.valueOf(i), Integer.valueOf(i2));
             return;
         }
         this.title = "";

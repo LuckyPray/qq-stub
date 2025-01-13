@@ -37,7 +37,7 @@ public final class GProMedal implements Serializable {
     public GProMedal() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(86707, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -47,28 +47,28 @@ public final class GProMedal implements Serializable {
 
     public String getDesc() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(86707, (short) 6);
-        return redirector != null ? (String) redirector.redirect((short) 6, (Object) this) : this.desc;
+        return redirector != null ? (String) redirector.redirect((short) 6, this) : this.desc;
     }
 
     public long getEndTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(86707, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.endTime;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.endTime;
     }
 
     public long getStartTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(86707, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.startTime;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.startTime;
     }
 
     public String getUrl() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(86707, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.url;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.url;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(86707, (short) 7);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 7, (Object) this);
+            return (String) redirector.redirect((short) 7, this);
         }
         return "GProMedal{startTime=" + this.startTime + ",endTime=" + this.endTime + ",url=" + this.url + ",desc=" + this.desc + ",}";
     }

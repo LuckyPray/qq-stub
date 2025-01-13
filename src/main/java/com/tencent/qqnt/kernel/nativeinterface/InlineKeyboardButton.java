@@ -45,7 +45,7 @@ public final class InlineKeyboardButton {
     public InlineKeyboardButton() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93158, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.id = "";
@@ -59,68 +59,68 @@ public final class InlineKeyboardButton {
 
     public boolean getAtBotShowChannelList() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93158, (short) 11);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 11, (Object) this)).booleanValue() : this.atBotShowChannelList;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 11, this)).booleanValue() : this.atBotShowChannelList;
     }
 
     public int getClickLimit() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93158, (short) 8);
-        return redirector != null ? ((Integer) redirector.redirect((short) 8, (Object) this)).intValue() : this.clickLimit;
+        return redirector != null ? ((Integer) redirector.redirect((short) 8, this)).intValue() : this.clickLimit;
     }
 
     public String getData() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93158, (short) 10);
-        return redirector != null ? (String) redirector.redirect((short) 10, (Object) this) : this.data;
+        return redirector != null ? (String) redirector.redirect((short) 10, this) : this.data;
     }
 
     public String getId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93158, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.id;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.id;
     }
 
     public String getLabel() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93158, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.label;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.label;
     }
 
     public int getPermissionType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93158, (short) 12);
-        return redirector != null ? ((Integer) redirector.redirect((short) 12, (Object) this)).intValue() : this.permissionType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 12, this)).intValue() : this.permissionType;
     }
 
     public ArrayList<String> getSpecifyRoleIds() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93158, (short) 13);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 13, (Object) this) : this.specifyRoleIds;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 13, this) : this.specifyRoleIds;
     }
 
     public ArrayList<String> getSpecifyTinyids() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93158, (short) 14);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 14, (Object) this) : this.specifyTinyids;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 14, this) : this.specifyTinyids;
     }
 
     public int getStyle() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93158, (short) 6);
-        return redirector != null ? ((Integer) redirector.redirect((short) 6, (Object) this)).intValue() : this.style;
+        return redirector != null ? ((Integer) redirector.redirect((short) 6, this)).intValue() : this.style;
     }
 
     public int getType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93158, (short) 7);
-        return redirector != null ? ((Integer) redirector.redirect((short) 7, (Object) this)).intValue() : this.type;
+        return redirector != null ? ((Integer) redirector.redirect((short) 7, this)).intValue() : this.type;
     }
 
     public String getUnsupportTips() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93158, (short) 9);
-        return redirector != null ? (String) redirector.redirect((short) 9, (Object) this) : this.unsupportTips;
+        return redirector != null ? (String) redirector.redirect((short) 9, this) : this.unsupportTips;
     }
 
     public String getVisitedLabel() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93158, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.visitedLabel;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.visitedLabel;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93158, (short) 15);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 15, (Object) this);
+            return (String) redirector.redirect((short) 15, this);
         }
         return "InlineKeyboardButton{id=" + this.id + ",label=" + this.label + ",visitedLabel=" + this.visitedLabel + ",style=" + this.style + ",type=" + this.type + ",clickLimit=" + this.clickLimit + ",unsupportTips=" + this.unsupportTips + ",data=" + this.data + ",atBotShowChannelList=" + this.atBotShowChannelList + ",permissionType=" + this.permissionType + ",specifyRoleIds=" + this.specifyRoleIds + ",specifyTinyids=" + this.specifyTinyids + ",}";
     }

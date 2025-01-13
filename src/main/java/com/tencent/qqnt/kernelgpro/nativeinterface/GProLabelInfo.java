@@ -107,7 +107,7 @@ public final class GProLabelInfo implements Serializable {
     public GProLabelInfo(String str, String str2, String str3, String str4, String str5, String str6, ArrayList<GProGuildInfoInLabel> arrayList, String str7, String str8, String str9, String str10) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, str4, str5, str6, arrayList, str7, str8, str9, str10});
+            iPatchRedirector.redirect((short) 2, this, str, str2, str3, str4, str5, str6, arrayList, str7, str8, str9, str10);
             return;
         }
         this.serialVersionUID = 1L;

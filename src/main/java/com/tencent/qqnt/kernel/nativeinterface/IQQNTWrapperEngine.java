@@ -8,7 +8,7 @@ public interface IQQNTWrapperEngine {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IQQNTWrapperEngine$CppProxy.class */
-    public static final class CppProxy implements IQQNTWrapperEngine {
+    final class CppProxy implements IQQNTWrapperEngine {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

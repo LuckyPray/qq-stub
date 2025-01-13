@@ -54,7 +54,7 @@ public final class GProGuildData {
     public GProGuildData(GProRecommendGuildInfo gProRecommendGuildInfo, ArrayList<GProRecommendCategoryInfo> arrayList, ArrayList<GProRecommendChannelExtendInfo> arrayList2, ArrayList<GProPollingData> arrayList3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, gProRecommendGuildInfo, arrayList, arrayList2, arrayList3});
+            iPatchRedirector.redirect((short) 2, this, gProRecommendGuildInfo, arrayList, arrayList2, arrayList3);
             return;
         }
         this.guildInfo = new GProRecommendGuildInfo();

@@ -98,7 +98,7 @@ public final class XmlElement implements Serializable {
     public XmlElement(long j, long j2, int i, int i2, int i3, String str, Long l, Long l2, HashMap<String, String> hashMap, byte[] bArr, HashMap<String, String> hashMap2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), str, l, l2, hashMap, bArr, hashMap2});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), str, l, l2, hashMap, bArr, hashMap2);
             return;
         }
         this.serialVersionUID = 1L;

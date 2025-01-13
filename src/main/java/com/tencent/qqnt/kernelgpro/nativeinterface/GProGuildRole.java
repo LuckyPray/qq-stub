@@ -211,7 +211,7 @@ public final class GProGuildRole {
     public GProGuildRole(long j, long j2, String str, long j3, boolean z, int i, boolean z2, int i2, int i3, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, int i4, int i5, GProRolePermission gProRolePermission, boolean z3, String str2, String str3, int i6, String str4, long j4, long j5, long j6, String str5, long j7, long j8, int i7, long j9, String str6, ArrayList<Long> arrayList3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, Long.valueOf(j3), Boolean.valueOf(z), Integer.valueOf(i), Boolean.valueOf(z2), Integer.valueOf(i2), Integer.valueOf(i3), arrayList, arrayList2, Integer.valueOf(i4), Integer.valueOf(i5), gProRolePermission, Boolean.valueOf(z3), str2, str3, Integer.valueOf(i6), str4, Long.valueOf(j4), Long.valueOf(j5), Long.valueOf(j6), str5, Long.valueOf(j7), Long.valueOf(j8), Integer.valueOf(i7), Long.valueOf(j9), str6, arrayList3});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), str, Long.valueOf(j3), Boolean.valueOf(z), Integer.valueOf(i), Boolean.valueOf(z2), Integer.valueOf(i2), Integer.valueOf(i3), arrayList, arrayList2, Integer.valueOf(i4), Integer.valueOf(i5), gProRolePermission, Boolean.valueOf(z3), str2, str3, Integer.valueOf(i6), str4, Long.valueOf(j4), Long.valueOf(j5), Long.valueOf(j6), str5, Long.valueOf(j7), Long.valueOf(j8), Integer.valueOf(i7), Long.valueOf(j9), str6, arrayList3);
             return;
         }
         this.name = "";

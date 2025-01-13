@@ -89,7 +89,7 @@ public final class GProSaveGuildNavigationReq {
     public GProSaveGuildNavigationReq(long j, String str, ArrayList<GProSaveNavigationItem> arrayList, long j2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, arrayList, Long.valueOf(j2)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, arrayList, Long.valueOf(j2));
             return;
         }
         this.iconSelectorColor = "";

@@ -133,7 +133,7 @@ public class UniPacket extends UniAttribute {
             newCache__tempdata = new HashMap<String, byte[]>();
             newCache__tempdata.put("", new byte[0]);
         }
-        _newData = (HashMap<String, byte[]>) _is.readMap(newCache__tempdata, 0, false);
+        _newData = _is.readMap(newCache__tempdata, 0, false);
     }
 
 
@@ -168,7 +168,7 @@ public class UniPacket extends UniAttribute {
             h.put("", new byte[0]);
             cache__tempdata.put("", h);
         }
-        _data = (HashMap<String, HashMap<String, byte[]>>) _is.readMap(cache__tempdata, 0, false);
+        _data = _is.readMap(cache__tempdata, 0, false);
         cachedClassName = new HashMap<String, Object>();
     }
 

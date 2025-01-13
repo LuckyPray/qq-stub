@@ -7,10 +7,10 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 /* loaded from: classes.jar:com/tencent/qqnt/kernelgpro/nativeinterface/IKernelGProGuildMsgService.class */
 public interface IKernelGProGuildMsgService {
-    public static final IPatchRedirector $redirector_ = null;
+    IPatchRedirector $redirector_ = null;
 
     /* loaded from: classes.jar:com/tencent/qqnt/kernelgpro/nativeinterface/IKernelGProGuildMsgService$CppProxy.class */
-    public static final class CppProxy implements IKernelGProGuildMsgService {
+    final class CppProxy implements IKernelGProGuildMsgService {
         static final boolean $assertionsDisabled = false;
         static IPatchRedirector $redirector_;
         private final AtomicBoolean destroyed = new AtomicBoolean();
@@ -89,7 +89,7 @@ public interface IKernelGProGuildMsgService {
         public void clearFeedSquareRead(long j, long j2, int i, IGuildOperateCallback iGuildOperateCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 8)) {
-                iPatchRedirector.redirect((short) 8, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGuildOperateCallback});
+                iPatchRedirector.redirect((short) 8, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGuildOperateCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");

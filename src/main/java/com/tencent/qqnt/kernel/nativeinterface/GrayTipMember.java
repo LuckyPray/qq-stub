@@ -36,7 +36,7 @@ public final class GrayTipMember implements Serializable {
     public GrayTipMember() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88101, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -46,18 +46,18 @@ public final class GrayTipMember implements Serializable {
 
     public String getName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88101, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.name;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.name;
     }
 
     public String getUid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88101, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.uid;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.uid;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88101, (short) 5);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 5, (Object) this);
+            return (String) redirector.redirect((short) 5, this);
         }
         return "GrayTipMember{uid=" + this.uid + ",name=" + this.name + ",}";
     }
@@ -65,7 +65,7 @@ public final class GrayTipMember implements Serializable {
     public GrayTipMember(String str, String str2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88101, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, (Object) str, (Object) str2);
+            redirector.redirect((short) 2, this, str, str2);
             return;
         }
         this.serialVersionUID = 1L;

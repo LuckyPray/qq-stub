@@ -87,7 +87,7 @@ public final class GProGuildMainFrameHeaderInfo {
     public GProGuildMainFrameHeaderInfo(GProGuild gProGuild, GProGuildCreatorTaskInfo gProGuildCreatorTaskInfo, GProFaceAuthInfo gProFaceAuthInfo, GProRecommendEssenceSvrRsp gProRecommendEssenceSvrRsp, ArrayList<GProStickyChannel> arrayList, GProGlobalBanner gProGlobalBanner, GProGuildNavigationInfo gProGuildNavigationInfo, GProRecentVisitChannelList gProRecentVisitChannelList, GProFeedSquareData gProFeedSquareData, GProRealTimeChannels gProRealTimeChannels) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, gProGuild, gProGuildCreatorTaskInfo, gProFaceAuthInfo, gProRecommendEssenceSvrRsp, arrayList, gProGlobalBanner, gProGuildNavigationInfo, gProRecentVisitChannelList, gProFeedSquareData, gProRealTimeChannels});
+            iPatchRedirector.redirect((short) 2, this, gProGuild, gProGuildCreatorTaskInfo, gProFaceAuthInfo, gProRecommendEssenceSvrRsp, arrayList, gProGlobalBanner, gProGuildNavigationInfo, gProRecentVisitChannelList, gProFeedSquareData, gProRealTimeChannels);
             return;
         }
         this.stickyChannelInfos = new ArrayList<>();

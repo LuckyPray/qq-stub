@@ -74,7 +74,7 @@ public final class GProPageHeadInfo {
     public GProPageHeadInfo(String str, boolean z, String str2, ArrayList<GProBannerInfo> arrayList, long j, String str3, String str4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, Boolean.valueOf(z), str2, arrayList, Long.valueOf(j), str3, str4});
+            iPatchRedirector.redirect((short) 2, this, str, Boolean.valueOf(z), str2, arrayList, Long.valueOf(j), str3, str4);
             return;
         }
         this.headText = "";

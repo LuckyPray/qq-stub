@@ -52,7 +52,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public ReplyElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -61,93 +61,93 @@ public final class ReplyElement implements IKernelModel, Serializable {
 
     public String getAnonymousNickName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 18);
-        return redirector != null ? (String) redirector.redirect((short) 18, (Object) this) : this.anonymousNickName;
+        return redirector != null ? (String) redirector.redirect((short) 18, this) : this.anonymousNickName;
     }
 
     public Integer getOriginalMsgState() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 19);
-        return redirector != null ? (Integer) redirector.redirect((short) 19, (Object) this) : this.originalMsgState;
+        return redirector != null ? (Integer) redirector.redirect((short) 19, this) : this.originalMsgState;
     }
 
     public long getReplayMsgId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.replayMsgId;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.replayMsgId;
     }
 
     public Long getReplayMsgRootCommentCnt() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 7);
-        return redirector != null ? (Long) redirector.redirect((short) 7, (Object) this) : this.replayMsgRootCommentCnt;
+        return redirector != null ? (Long) redirector.redirect((short) 7, this) : this.replayMsgRootCommentCnt;
     }
 
     public Long getReplayMsgRootMsgId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 6);
-        return redirector != null ? (Long) redirector.redirect((short) 6, (Object) this) : this.replayMsgRootMsgId;
+        return redirector != null ? (Long) redirector.redirect((short) 6, this) : this.replayMsgRootMsgId;
     }
 
     public Long getReplayMsgRootSeq() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 5);
-        return redirector != null ? (Long) redirector.redirect((short) 5, (Object) this) : this.replayMsgRootSeq;
+        return redirector != null ? (Long) redirector.redirect((short) 5, this) : this.replayMsgRootSeq;
     }
 
     public Long getReplayMsgSeq() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 4);
-        return redirector != null ? (Long) redirector.redirect((short) 4, (Object) this) : this.replayMsgSeq;
+        return redirector != null ? (Long) redirector.redirect((short) 4, this) : this.replayMsgSeq;
     }
 
     public Long getReplyMsgClientSeq() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 13);
-        return redirector != null ? (Long) redirector.redirect((short) 13, (Object) this) : this.replyMsgClientSeq;
+        return redirector != null ? (Long) redirector.redirect((short) 13, this) : this.replyMsgClientSeq;
     }
 
     public int getReplyMsgRevokeType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 15);
-        return redirector != null ? ((Integer) redirector.redirect((short) 15, (Object) this)).intValue() : this.replyMsgRevokeType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 15, this)).intValue() : this.replyMsgRevokeType;
     }
 
     public Long getReplyMsgTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 14);
-        return redirector != null ? (Long) redirector.redirect((short) 14, (Object) this) : this.replyMsgTime;
+        return redirector != null ? (Long) redirector.redirect((short) 14, this) : this.replyMsgTime;
     }
 
     public Long getSenderUid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 11);
-        return redirector != null ? (Long) redirector.redirect((short) 11, (Object) this) : this.senderUid;
+        return redirector != null ? (Long) redirector.redirect((short) 11, this) : this.senderUid;
     }
 
     public String getSenderUidStr() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 12);
-        return redirector != null ? (String) redirector.redirect((short) 12, (Object) this) : this.senderUidStr;
+        return redirector != null ? (String) redirector.redirect((short) 12, this) : this.senderUidStr;
     }
 
     public boolean getSourceMsgExpired() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 17);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 17, (Object) this)).booleanValue() : this.sourceMsgExpired;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 17, this)).booleanValue() : this.sourceMsgExpired;
     }
 
     public Long getSourceMsgIdInRecords() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 8);
-        return redirector != null ? (Long) redirector.redirect((short) 8, (Object) this) : this.sourceMsgIdInRecords;
+        return redirector != null ? (Long) redirector.redirect((short) 8, this) : this.sourceMsgIdInRecords;
     }
 
     public boolean getSourceMsgIsIncPic() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 16);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 16, (Object) this)).booleanValue() : this.sourceMsgIsIncPic;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 16, this)).booleanValue() : this.sourceMsgIsIncPic;
     }
 
     public String getSourceMsgText() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 9);
-        return redirector != null ? (String) redirector.redirect((short) 9, (Object) this) : this.sourceMsgText;
+        return redirector != null ? (String) redirector.redirect((short) 9, this) : this.sourceMsgText;
     }
 
     public ArrayList<ReplyAbsElement> getSourceMsgTextElems() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 10);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 10, (Object) this) : this.sourceMsgTextElems;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 10, this) : this.sourceMsgTextElems;
     }
 
     public void setAnonymousNickName(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 35);
         if (redirector != null) {
-            redirector.redirect((short) 35, (Object) this, (Object) str);
+            redirector.redirect((short) 35, this, str);
         } else {
             this.anonymousNickName = str;
         }
@@ -156,7 +156,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setOriginalMsgState(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 36);
         if (redirector != null) {
-            redirector.redirect((short) 36, (Object) this, (Object) num);
+            redirector.redirect((short) 36, this, num);
         } else {
             this.originalMsgState = num;
         }
@@ -165,7 +165,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setReplayMsgId(long j2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 20);
         if (redirector != null) {
-            redirector.redirect((short) 20, (Object) this, j2);
+            redirector.redirect((short) 20, this, j2);
         } else {
             this.replayMsgId = j2;
         }
@@ -174,7 +174,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setReplayMsgRootCommentCnt(Long l2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 24);
         if (redirector != null) {
-            redirector.redirect((short) 24, (Object) this, (Object) l2);
+            redirector.redirect((short) 24, this, l2);
         } else {
             this.replayMsgRootCommentCnt = l2;
         }
@@ -183,7 +183,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setReplayMsgRootMsgId(Long l2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 23);
         if (redirector != null) {
-            redirector.redirect((short) 23, (Object) this, (Object) l2);
+            redirector.redirect((short) 23, this, l2);
         } else {
             this.replayMsgRootMsgId = l2;
         }
@@ -192,7 +192,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setReplayMsgRootSeq(Long l2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 22);
         if (redirector != null) {
-            redirector.redirect((short) 22, (Object) this, (Object) l2);
+            redirector.redirect((short) 22, this, l2);
         } else {
             this.replayMsgRootSeq = l2;
         }
@@ -201,7 +201,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setReplayMsgSeq(Long l2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 21);
         if (redirector != null) {
-            redirector.redirect((short) 21, (Object) this, (Object) l2);
+            redirector.redirect((short) 21, this, l2);
         } else {
             this.replayMsgSeq = l2;
         }
@@ -210,7 +210,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setReplyMsgClientSeq(Long l2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 30);
         if (redirector != null) {
-            redirector.redirect((short) 30, (Object) this, (Object) l2);
+            redirector.redirect((short) 30, this, l2);
         } else {
             this.replyMsgClientSeq = l2;
         }
@@ -219,7 +219,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setReplyMsgRevokeType(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 32);
         if (redirector != null) {
-            redirector.redirect((short) 32, (Object) this, i2);
+            redirector.redirect((short) 32, this, i2);
         } else {
             this.replyMsgRevokeType = i2;
         }
@@ -228,7 +228,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setReplyMsgTime(Long l2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 31);
         if (redirector != null) {
-            redirector.redirect((short) 31, (Object) this, (Object) l2);
+            redirector.redirect((short) 31, this, l2);
         } else {
             this.replyMsgTime = l2;
         }
@@ -237,7 +237,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setSenderUid(Long l2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 28);
         if (redirector != null) {
-            redirector.redirect((short) 28, (Object) this, (Object) l2);
+            redirector.redirect((short) 28, this, l2);
         } else {
             this.senderUid = l2;
         }
@@ -246,7 +246,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setSenderUidStr(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 29);
         if (redirector != null) {
-            redirector.redirect((short) 29, (Object) this, (Object) str);
+            redirector.redirect((short) 29, this, str);
         } else {
             this.senderUidStr = str;
         }
@@ -255,7 +255,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setSourceMsgExpired(boolean z) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 34);
         if (redirector != null) {
-            redirector.redirect((short) 34, (Object) this, z);
+            redirector.redirect((short) 34, this, z);
         } else {
             this.sourceMsgExpired = z;
         }
@@ -264,7 +264,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setSourceMsgIdInRecords(Long l2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 25);
         if (redirector != null) {
-            redirector.redirect((short) 25, (Object) this, (Object) l2);
+            redirector.redirect((short) 25, this, l2);
         } else {
             this.sourceMsgIdInRecords = l2;
         }
@@ -273,7 +273,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setSourceMsgIsIncPic(boolean z) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 33);
         if (redirector != null) {
-            redirector.redirect((short) 33, (Object) this, z);
+            redirector.redirect((short) 33, this, z);
         } else {
             this.sourceMsgIsIncPic = z;
         }
@@ -282,7 +282,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setSourceMsgText(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 26);
         if (redirector != null) {
-            redirector.redirect((short) 26, (Object) this, (Object) str);
+            redirector.redirect((short) 26, this, str);
         } else {
             this.sourceMsgText = str;
         }
@@ -291,7 +291,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public void setSourceMsgTextElems(ArrayList<ReplyAbsElement> arrayList) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 27);
         if (redirector != null) {
-            redirector.redirect((short) 27, (Object) this, (Object) arrayList);
+            redirector.redirect((short) 27, this, arrayList);
         } else {
             this.sourceMsgTextElems = arrayList;
         }
@@ -300,7 +300,7 @@ public final class ReplyElement implements IKernelModel, Serializable {
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94264, (short) 37);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 37, (Object) this);
+            return (String) redirector.redirect((short) 37, this);
         }
         return "ReplyElement{replayMsgId=" + this.replayMsgId + ",replayMsgSeq=" + this.replayMsgSeq + ",replayMsgRootSeq=" + this.replayMsgRootSeq + ",replayMsgRootMsgId=" + this.replayMsgRootMsgId + ",replayMsgRootCommentCnt=" + this.replayMsgRootCommentCnt + ",sourceMsgIdInRecords=" + this.sourceMsgIdInRecords + ",sourceMsgText=" + this.sourceMsgText + ",sourceMsgTextElems=" + this.sourceMsgTextElems + ",senderUid=" + this.senderUid + ",senderUidStr=" + this.senderUidStr + ",replyMsgClientSeq=" + this.replyMsgClientSeq + ",replyMsgTime=" + this.replyMsgTime + ",replyMsgRevokeType=" + this.replyMsgRevokeType + ",sourceMsgIsIncPic=" + this.sourceMsgIsIncPic + ",sourceMsgExpired=" + this.sourceMsgExpired + ",anonymousNickName=" + this.anonymousNickName + ",originalMsgState=" + this.originalMsgState + ",}";
     }

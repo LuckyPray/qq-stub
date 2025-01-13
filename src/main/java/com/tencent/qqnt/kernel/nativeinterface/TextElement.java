@@ -44,7 +44,7 @@ public final class TextElement implements IKernelModel {
     public TextElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.content = "";
         }
@@ -52,68 +52,68 @@ public final class TextElement implements IKernelModel {
 
     public Long getAtChannelId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 9);
-        return redirector != null ? (Long) redirector.redirect((short) 9, (Object) this) : this.atChannelId;
+        return redirector != null ? (Long) redirector.redirect((short) 9, this) : this.atChannelId;
     }
 
     public String getAtNtUid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 7);
-        return redirector != null ? (String) redirector.redirect((short) 7, (Object) this) : this.atNtUid;
+        return redirector != null ? (String) redirector.redirect((short) 7, this) : this.atNtUid;
     }
 
     public Integer getAtRoleColor() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 12);
-        return redirector != null ? (Integer) redirector.redirect((short) 12, (Object) this) : this.atRoleColor;
+        return redirector != null ? (Integer) redirector.redirect((short) 12, this) : this.atRoleColor;
     }
 
     public Long getAtRoleId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 11);
-        return redirector != null ? (Long) redirector.redirect((short) 11, (Object) this) : this.atRoleId;
+        return redirector != null ? (Long) redirector.redirect((short) 11, this) : this.atRoleId;
     }
 
     public String getAtRoleName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 13);
-        return redirector != null ? (String) redirector.redirect((short) 13, (Object) this) : this.atRoleName;
+        return redirector != null ? (String) redirector.redirect((short) 13, this) : this.atRoleName;
     }
 
     public long getAtTinyId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 6);
-        return redirector != null ? ((Long) redirector.redirect((short) 6, (Object) this)).longValue() : this.atTinyId;
+        return redirector != null ? ((Long) redirector.redirect((short) 6, this)).longValue() : this.atTinyId;
     }
 
     public int getAtType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 4);
-        return redirector != null ? ((Integer) redirector.redirect((short) 4, (Object) this)).intValue() : this.atType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 4, this)).intValue() : this.atType;
     }
 
     public long getAtUid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 5);
-        return redirector != null ? ((Long) redirector.redirect((short) 5, (Object) this)).longValue() : this.atUid;
+        return redirector != null ? ((Long) redirector.redirect((short) 5, this)).longValue() : this.atUid;
     }
 
     public String getContent() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.content;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.content;
     }
 
     public LinkInfo getLinkInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 10);
-        return redirector != null ? (LinkInfo) redirector.redirect((short) 10, (Object) this) : this.linkInfo;
+        return redirector != null ? (LinkInfo) redirector.redirect((short) 10, this) : this.linkInfo;
     }
 
     public Integer getNeedNotify() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 14);
-        return redirector != null ? (Integer) redirector.redirect((short) 14, (Object) this) : this.needNotify;
+        return redirector != null ? (Integer) redirector.redirect((short) 14, this) : this.needNotify;
     }
 
     public Integer getSubElementType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 8);
-        return redirector != null ? (Integer) redirector.redirect((short) 8, (Object) this) : this.subElementType;
+        return redirector != null ? (Integer) redirector.redirect((short) 8, this) : this.subElementType;
     }
 
     public void setAtChannelId(Long l2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 21);
         if (redirector != null) {
-            redirector.redirect((short) 21, (Object) this, (Object) l2);
+            redirector.redirect((short) 21, this, l2);
         } else {
             this.atChannelId = l2;
         }
@@ -122,7 +122,7 @@ public final class TextElement implements IKernelModel {
     public void setAtNtUid(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 19);
         if (redirector != null) {
-            redirector.redirect((short) 19, (Object) this, (Object) str);
+            redirector.redirect((short) 19, this, str);
         } else {
             this.atNtUid = str;
         }
@@ -131,7 +131,7 @@ public final class TextElement implements IKernelModel {
     public void setAtRoleColor(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 24);
         if (redirector != null) {
-            redirector.redirect((short) 24, (Object) this, (Object) num);
+            redirector.redirect((short) 24, this, num);
         } else {
             this.atRoleColor = num;
         }
@@ -140,7 +140,7 @@ public final class TextElement implements IKernelModel {
     public void setAtRoleId(Long l2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 23);
         if (redirector != null) {
-            redirector.redirect((short) 23, (Object) this, (Object) l2);
+            redirector.redirect((short) 23, this, l2);
         } else {
             this.atRoleId = l2;
         }
@@ -149,7 +149,7 @@ public final class TextElement implements IKernelModel {
     public void setAtRoleName(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 25);
         if (redirector != null) {
-            redirector.redirect((short) 25, (Object) this, (Object) str);
+            redirector.redirect((short) 25, this, str);
         } else {
             this.atRoleName = str;
         }
@@ -158,7 +158,7 @@ public final class TextElement implements IKernelModel {
     public void setAtTinyId(long j2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 18);
         if (redirector != null) {
-            redirector.redirect((short) 18, (Object) this, j2);
+            redirector.redirect((short) 18, this, j2);
         } else {
             this.atTinyId = j2;
         }
@@ -167,7 +167,7 @@ public final class TextElement implements IKernelModel {
     public void setAtType(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 16);
         if (redirector != null) {
-            redirector.redirect((short) 16, (Object) this, i2);
+            redirector.redirect((short) 16, this, i2);
         } else {
             this.atType = i2;
         }
@@ -176,7 +176,7 @@ public final class TextElement implements IKernelModel {
     public void setAtUid(long j2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 17);
         if (redirector != null) {
-            redirector.redirect((short) 17, (Object) this, j2);
+            redirector.redirect((short) 17, this, j2);
         } else {
             this.atUid = j2;
         }
@@ -185,7 +185,7 @@ public final class TextElement implements IKernelModel {
     public void setContent(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 15);
         if (redirector != null) {
-            redirector.redirect((short) 15, (Object) this, (Object) str);
+            redirector.redirect((short) 15, this, str);
         } else {
             this.content = str;
         }
@@ -194,7 +194,7 @@ public final class TextElement implements IKernelModel {
     public void setLinkInfo(LinkInfo linkInfo) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 22);
         if (redirector != null) {
-            redirector.redirect((short) 22, (Object) this, (Object) linkInfo);
+            redirector.redirect((short) 22, this, linkInfo);
         } else {
             this.linkInfo = linkInfo;
         }
@@ -203,7 +203,7 @@ public final class TextElement implements IKernelModel {
     public void setNeedNotify(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 26);
         if (redirector != null) {
-            redirector.redirect((short) 26, (Object) this, (Object) num);
+            redirector.redirect((short) 26, this, num);
         } else {
             this.needNotify = num;
         }
@@ -212,7 +212,7 @@ public final class TextElement implements IKernelModel {
     public void setSubElementType(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 20);
         if (redirector != null) {
-            redirector.redirect((short) 20, (Object) this, (Object) num);
+            redirector.redirect((short) 20, this, num);
         } else {
             this.subElementType = num;
         }
@@ -221,7 +221,7 @@ public final class TextElement implements IKernelModel {
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94741, (short) 27);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 27, (Object) this);
+            return (String) redirector.redirect((short) 27, this);
         }
         return "TextElement{content=" + this.content + ",atType=" + this.atType + ",atUid=" + this.atUid + ",atTinyId=" + this.atTinyId + ",atNtUid=" + this.atNtUid + ",subElementType=" + this.subElementType + ",atChannelId=" + this.atChannelId + ",linkInfo=" + this.linkInfo + ",atRoleId=" + this.atRoleId + ",atRoleColor=" + this.atRoleColor + ",atRoleName=" + this.atRoleName + ",needNotify=" + this.needNotify + ",}";
     }

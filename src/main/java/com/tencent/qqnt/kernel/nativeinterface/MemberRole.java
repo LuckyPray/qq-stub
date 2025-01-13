@@ -53,7 +53,7 @@ public final class MemberRole {
     MemberRole(String str, int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93460, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this, (Object) str, i2);
+            redirector.redirect((short) 1, this, str, i2);
         }
     }
 
@@ -62,6 +62,6 @@ public final class MemberRole {
     }
 
     public static MemberRole[] values() {
-        return (MemberRole[]) $VALUES.clone();
+        return $VALUES.clone();
     }
 }

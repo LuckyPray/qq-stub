@@ -37,7 +37,7 @@ public final class Contact implements IKernelModel, Serializable {
     public Contact() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(81894, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -47,23 +47,23 @@ public final class Contact implements IKernelModel, Serializable {
 
     public int getChatType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(81894, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.chatType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.chatType;
     }
 
     public String getGuildId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(81894, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.guildId;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.guildId;
     }
 
     public String getPeerUid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(81894, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.peerUid;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.peerUid;
     }
 
     public void setChatType(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(81894, (short) 6);
         if (redirector != null) {
-            redirector.redirect((short) 6, (Object) this, i2);
+            redirector.redirect((short) 6, this, i2);
         } else {
             this.chatType = i2;
         }
@@ -72,7 +72,7 @@ public final class Contact implements IKernelModel, Serializable {
     public void setGuildId(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(81894, (short) 8);
         if (redirector != null) {
-            redirector.redirect((short) 8, (Object) this, (Object) str);
+            redirector.redirect((short) 8, this, str);
         } else {
             this.guildId = str;
         }
@@ -81,7 +81,7 @@ public final class Contact implements IKernelModel, Serializable {
     public void setPeerUid(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(81894, (short) 7);
         if (redirector != null) {
-            redirector.redirect((short) 7, (Object) this, (Object) str);
+            redirector.redirect((short) 7, this, str);
         } else {
             this.peerUid = str;
         }
@@ -90,7 +90,7 @@ public final class Contact implements IKernelModel, Serializable {
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(81894, (short) 9);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 9, (Object) this);
+            return (String) redirector.redirect((short) 9, this);
         }
         return "Contact{chatType=" + this.chatType + ",peerUid=" + this.peerUid + ",guildId=" + this.guildId + ",}";
     }

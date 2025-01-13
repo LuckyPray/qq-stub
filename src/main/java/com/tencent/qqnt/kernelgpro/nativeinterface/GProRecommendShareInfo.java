@@ -114,7 +114,7 @@ public final class GProRecommendShareInfo implements Serializable {
     public GProRecommendShareInfo(String str, String str2, String str3, int i, GProRecommendShareLive gProRecommendShareLive, long j, String str4, int i2, String str5, long j2, GProBusinessData gProBusinessData, int i3, int i4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, Integer.valueOf(i), gProRecommendShareLive, Long.valueOf(j), str4, Integer.valueOf(i2), str5, Long.valueOf(j2), gProBusinessData, Integer.valueOf(i3), Integer.valueOf(i4)});
+            iPatchRedirector.redirect((short) 2, this, str, str2, str3, Integer.valueOf(i), gProRecommendShareLive, Long.valueOf(j), str4, Integer.valueOf(i2), str5, Long.valueOf(j2), gProBusinessData, Integer.valueOf(i3), Integer.valueOf(i4));
             return;
         }
         this.serialVersionUID = 1L;

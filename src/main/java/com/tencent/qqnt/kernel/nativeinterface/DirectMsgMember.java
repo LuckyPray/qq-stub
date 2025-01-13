@@ -39,7 +39,7 @@ public final class DirectMsgMember {
     public DirectMsgMember() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82628, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.srcGuildName = "";
@@ -49,43 +49,43 @@ public final class DirectMsgMember {
 
     public String getMemberName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82628, (short) 7);
-        return redirector != null ? (String) redirector.redirect((short) 7, (Object) this) : this.memberName;
+        return redirector != null ? (String) redirector.redirect((short) 7, this) : this.memberName;
     }
 
     public int getMemberType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82628, (short) 9);
-        return redirector != null ? ((Integer) redirector.redirect((short) 9, (Object) this)).intValue() : this.memberType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 9, this)).intValue() : this.memberType;
     }
 
     public int getMsgNotifyType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82628, (short) 8);
-        return redirector != null ? ((Integer) redirector.redirect((short) 8, (Object) this)).intValue() : this.msgNotifyType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 8, this)).intValue() : this.msgNotifyType;
     }
 
     public String getNickName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82628, (short) 6);
-        return redirector != null ? (String) redirector.redirect((short) 6, (Object) this) : this.nickName;
+        return redirector != null ? (String) redirector.redirect((short) 6, this) : this.nickName;
     }
 
     public long getSrcGuildId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82628, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.srcGuildId;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.srcGuildId;
     }
 
     public String getSrcGuildName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82628, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.srcGuildName;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.srcGuildName;
     }
 
     public long getTinyId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82628, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.tinyId;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.tinyId;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82628, (short) 10);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 10, (Object) this);
+            return (String) redirector.redirect((short) 10, this);
         }
         return "DirectMsgMember{tinyId=" + this.tinyId + ",srcGuildId=" + this.srcGuildId + ",srcGuildName=" + this.srcGuildName + ",nickName=" + this.nickName + ",memberName=" + this.memberName + ",msgNotifyType=" + this.msgNotifyType + ",memberType=" + this.memberType + ",}";
     }

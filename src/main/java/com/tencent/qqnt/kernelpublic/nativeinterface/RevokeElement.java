@@ -105,7 +105,7 @@ public final class RevokeElement implements Serializable {
     public RevokeElement(long j, long j2, String str, String str2, String str3, String str4, String str5, String str6, String str7, String str8, boolean z, String str9) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, str2, str3, str4, str5, str6, str7, str8, Boolean.valueOf(z), str9});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), str, str2, str3, str4, str5, str6, str7, str8, Boolean.valueOf(z), str9);
             return;
         }
         this.serialVersionUID = 1L;

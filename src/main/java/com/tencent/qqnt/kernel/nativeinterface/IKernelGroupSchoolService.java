@@ -8,7 +8,7 @@ public interface IKernelGroupSchoolService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelGroupSchoolService$CppProxy.class */
-    public static final class CppProxy implements IKernelGroupSchoolService {
+    final class CppProxy implements IKernelGroupSchoolService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

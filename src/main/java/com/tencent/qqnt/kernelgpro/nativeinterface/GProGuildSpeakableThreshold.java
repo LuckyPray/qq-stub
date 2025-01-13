@@ -64,7 +64,7 @@ public final class GProGuildSpeakableThreshold implements Serializable {
     public GProGuildSpeakableThreshold(boolean z, boolean z2, long j, boolean z3, boolean z4, long j2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Boolean.valueOf(z), Boolean.valueOf(z2), Long.valueOf(j), Boolean.valueOf(z3), Boolean.valueOf(z4), Long.valueOf(j2)});
+            iPatchRedirector.redirect((short) 2, this, Boolean.valueOf(z), Boolean.valueOf(z2), Long.valueOf(j), Boolean.valueOf(z3), Boolean.valueOf(z4), Long.valueOf(j2));
             return;
         }
         this.serialVersionUID = 1L;

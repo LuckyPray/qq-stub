@@ -54,124 +54,124 @@ public final class FaceElement implements IKernelModel {
     public FaceElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public Integer getDoubleHit() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 16);
-        return redirector != null ? (Integer) redirector.redirect((short) 16, (Object) this) : this.doubleHit;
+        return redirector != null ? (Integer) redirector.redirect((short) 16, this) : this.doubleHit;
     }
 
     public Integer getFaceBubbleCount() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 22);
-        return redirector != null ? (Integer) redirector.redirect((short) 22, (Object) this) : this.faceBubbleCount;
+        return redirector != null ? (Integer) redirector.redirect((short) 22, this) : this.faceBubbleCount;
     }
 
     public int getFaceIndex() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.faceIndex;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.faceIndex;
     }
 
     public String getFaceText() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.faceText;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.faceText;
     }
 
     public int getFaceType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 5);
-        return redirector != null ? ((Integer) redirector.redirect((short) 5, (Object) this)).intValue() : this.faceType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 5, this)).intValue() : this.faceType;
     }
 
     public Integer getImageType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 13);
-        return redirector != null ? (Integer) redirector.redirect((short) 13, (Object) this) : this.imageType;
+        return redirector != null ? (Integer) redirector.redirect((short) 13, this) : this.imageType;
     }
 
     public Integer getMsgType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 21);
-        return redirector != null ? (Integer) redirector.redirect((short) 21, (Object) this) : this.msgType;
+        return redirector != null ? (Integer) redirector.redirect((short) 21, this) : this.msgType;
     }
 
     public String getOldVersionStr() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 23);
-        return redirector != null ? (String) redirector.redirect((short) 23, (Object) this) : this.oldVersionStr;
+        return redirector != null ? (String) redirector.redirect((short) 23, this) : this.oldVersionStr;
     }
 
     public String getPackId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 6);
-        return redirector != null ? (String) redirector.redirect((short) 6, (Object) this) : this.packId;
+        return redirector != null ? (String) redirector.redirect((short) 6, this) : this.packId;
     }
 
     public Integer getPokeFlag() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 24);
-        return redirector != null ? (Integer) redirector.redirect((short) 24, (Object) this) : this.pokeFlag;
+        return redirector != null ? (Integer) redirector.redirect((short) 24, this) : this.pokeFlag;
     }
 
     public Integer getPokeStrength() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 20);
-        return redirector != null ? (Integer) redirector.redirect((short) 20, (Object) this) : this.pokeStrength;
+        return redirector != null ? (Integer) redirector.redirect((short) 20, this) : this.pokeStrength;
     }
 
     public Integer getPokeType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 14);
-        return redirector != null ? (Integer) redirector.redirect((short) 14, (Object) this) : this.pokeType;
+        return redirector != null ? (Integer) redirector.redirect((short) 14, this) : this.pokeType;
     }
 
     public Integer getRandomType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 12);
-        return redirector != null ? (Integer) redirector.redirect((short) 12, (Object) this) : this.randomType;
+        return redirector != null ? (Integer) redirector.redirect((short) 12, this) : this.randomType;
     }
 
     public String getResultId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 10);
-        return redirector != null ? (String) redirector.redirect((short) 10, (Object) this) : this.resultId;
+        return redirector != null ? (String) redirector.redirect((short) 10, this) : this.resultId;
     }
 
     public Integer getSourceType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 8);
-        return redirector != null ? (Integer) redirector.redirect((short) 8, (Object) this) : this.sourceType;
+        return redirector != null ? (Integer) redirector.redirect((short) 8, this) : this.sourceType;
     }
 
     public String getSpokeSummary() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 15);
-        return redirector != null ? (String) redirector.redirect((short) 15, (Object) this) : this.spokeSummary;
+        return redirector != null ? (String) redirector.redirect((short) 15, this) : this.spokeSummary;
     }
 
     public String getStickerId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 7);
-        return redirector != null ? (String) redirector.redirect((short) 7, (Object) this) : this.stickerId;
+        return redirector != null ? (String) redirector.redirect((short) 7, this) : this.stickerId;
     }
 
     public Integer getStickerType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 9);
-        return redirector != null ? (Integer) redirector.redirect((short) 9, (Object) this) : this.stickerType;
+        return redirector != null ? (Integer) redirector.redirect((short) 9, this) : this.stickerType;
     }
 
     public String getSurpriseId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 11);
-        return redirector != null ? (String) redirector.redirect((short) 11, (Object) this) : this.surpriseId;
+        return redirector != null ? (String) redirector.redirect((short) 11, this) : this.surpriseId;
     }
 
     public Integer getVaspokeId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 17);
-        return redirector != null ? (Integer) redirector.redirect((short) 17, (Object) this) : this.vaspokeId;
+        return redirector != null ? (Integer) redirector.redirect((short) 17, this) : this.vaspokeId;
     }
 
     public String getVaspokeMinver() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 19);
-        return redirector != null ? (String) redirector.redirect((short) 19, (Object) this) : this.vaspokeMinver;
+        return redirector != null ? (String) redirector.redirect((short) 19, this) : this.vaspokeMinver;
     }
 
     public String getVaspokeName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 18);
-        return redirector != null ? (String) redirector.redirect((short) 18, (Object) this) : this.vaspokeName;
+        return redirector != null ? (String) redirector.redirect((short) 18, this) : this.vaspokeName;
     }
 
     public void setDoubleHit(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 38);
         if (redirector != null) {
-            redirector.redirect((short) 38, (Object) this, (Object) num);
+            redirector.redirect((short) 38, this, num);
         } else {
             this.doubleHit = num;
         }
@@ -180,7 +180,7 @@ public final class FaceElement implements IKernelModel {
     public void setFaceBubbleCount(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 44);
         if (redirector != null) {
-            redirector.redirect((short) 44, (Object) this, (Object) num);
+            redirector.redirect((short) 44, this, num);
         } else {
             this.faceBubbleCount = num;
         }
@@ -189,7 +189,7 @@ public final class FaceElement implements IKernelModel {
     public void setFaceIndex(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 25);
         if (redirector != null) {
-            redirector.redirect((short) 25, (Object) this, i2);
+            redirector.redirect((short) 25, this, i2);
         } else {
             this.faceIndex = i2;
         }
@@ -198,7 +198,7 @@ public final class FaceElement implements IKernelModel {
     public void setFaceText(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 26);
         if (redirector != null) {
-            redirector.redirect((short) 26, (Object) this, (Object) str);
+            redirector.redirect((short) 26, this, str);
         } else {
             this.faceText = str;
         }
@@ -207,7 +207,7 @@ public final class FaceElement implements IKernelModel {
     public void setFaceType(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 27);
         if (redirector != null) {
-            redirector.redirect((short) 27, (Object) this, i2);
+            redirector.redirect((short) 27, this, i2);
         } else {
             this.faceType = i2;
         }
@@ -216,7 +216,7 @@ public final class FaceElement implements IKernelModel {
     public void setImageType(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 35);
         if (redirector != null) {
-            redirector.redirect((short) 35, (Object) this, (Object) num);
+            redirector.redirect((short) 35, this, num);
         } else {
             this.imageType = num;
         }
@@ -225,7 +225,7 @@ public final class FaceElement implements IKernelModel {
     public void setMsgType(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 43);
         if (redirector != null) {
-            redirector.redirect((short) 43, (Object) this, (Object) num);
+            redirector.redirect((short) 43, this, num);
         } else {
             this.msgType = num;
         }
@@ -234,7 +234,7 @@ public final class FaceElement implements IKernelModel {
     public void setOldVersionStr(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 45);
         if (redirector != null) {
-            redirector.redirect((short) 45, (Object) this, (Object) str);
+            redirector.redirect((short) 45, this, str);
         } else {
             this.oldVersionStr = str;
         }
@@ -243,7 +243,7 @@ public final class FaceElement implements IKernelModel {
     public void setPackId(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 28);
         if (redirector != null) {
-            redirector.redirect((short) 28, (Object) this, (Object) str);
+            redirector.redirect((short) 28, this, str);
         } else {
             this.packId = str;
         }
@@ -252,7 +252,7 @@ public final class FaceElement implements IKernelModel {
     public void setPokeFlag(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 46);
         if (redirector != null) {
-            redirector.redirect((short) 46, (Object) this, (Object) num);
+            redirector.redirect((short) 46, this, num);
         } else {
             this.pokeFlag = num;
         }
@@ -261,7 +261,7 @@ public final class FaceElement implements IKernelModel {
     public void setPokeStrength(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 42);
         if (redirector != null) {
-            redirector.redirect((short) 42, (Object) this, (Object) num);
+            redirector.redirect((short) 42, this, num);
         } else {
             this.pokeStrength = num;
         }
@@ -270,7 +270,7 @@ public final class FaceElement implements IKernelModel {
     public void setPokeType(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 36);
         if (redirector != null) {
-            redirector.redirect((short) 36, (Object) this, (Object) num);
+            redirector.redirect((short) 36, this, num);
         } else {
             this.pokeType = num;
         }
@@ -279,7 +279,7 @@ public final class FaceElement implements IKernelModel {
     public void setRandomType(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 34);
         if (redirector != null) {
-            redirector.redirect((short) 34, (Object) this, (Object) num);
+            redirector.redirect((short) 34, this, num);
         } else {
             this.randomType = num;
         }
@@ -288,7 +288,7 @@ public final class FaceElement implements IKernelModel {
     public void setResultId(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 32);
         if (redirector != null) {
-            redirector.redirect((short) 32, (Object) this, (Object) str);
+            redirector.redirect((short) 32, this, str);
         } else {
             this.resultId = str;
         }
@@ -297,7 +297,7 @@ public final class FaceElement implements IKernelModel {
     public void setSourceType(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 30);
         if (redirector != null) {
-            redirector.redirect((short) 30, (Object) this, (Object) num);
+            redirector.redirect((short) 30, this, num);
         } else {
             this.sourceType = num;
         }
@@ -306,7 +306,7 @@ public final class FaceElement implements IKernelModel {
     public void setSpokeSummary(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 37);
         if (redirector != null) {
-            redirector.redirect((short) 37, (Object) this, (Object) str);
+            redirector.redirect((short) 37, this, str);
         } else {
             this.spokeSummary = str;
         }
@@ -315,7 +315,7 @@ public final class FaceElement implements IKernelModel {
     public void setStickerId(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 29);
         if (redirector != null) {
-            redirector.redirect((short) 29, (Object) this, (Object) str);
+            redirector.redirect((short) 29, this, str);
         } else {
             this.stickerId = str;
         }
@@ -324,7 +324,7 @@ public final class FaceElement implements IKernelModel {
     public void setStickerType(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 31);
         if (redirector != null) {
-            redirector.redirect((short) 31, (Object) this, (Object) num);
+            redirector.redirect((short) 31, this, num);
         } else {
             this.stickerType = num;
         }
@@ -333,7 +333,7 @@ public final class FaceElement implements IKernelModel {
     public void setSurpriseId(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 33);
         if (redirector != null) {
-            redirector.redirect((short) 33, (Object) this, (Object) str);
+            redirector.redirect((short) 33, this, str);
         } else {
             this.surpriseId = str;
         }
@@ -342,7 +342,7 @@ public final class FaceElement implements IKernelModel {
     public void setVaspokeId(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 39);
         if (redirector != null) {
-            redirector.redirect((short) 39, (Object) this, (Object) num);
+            redirector.redirect((short) 39, this, num);
         } else {
             this.vaspokeId = num;
         }
@@ -351,7 +351,7 @@ public final class FaceElement implements IKernelModel {
     public void setVaspokeMinver(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 41);
         if (redirector != null) {
-            redirector.redirect((short) 41, (Object) this, (Object) str);
+            redirector.redirect((short) 41, this, str);
         } else {
             this.vaspokeMinver = str;
         }
@@ -360,7 +360,7 @@ public final class FaceElement implements IKernelModel {
     public void setVaspokeName(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 40);
         if (redirector != null) {
-            redirector.redirect((short) 40, (Object) this, (Object) str);
+            redirector.redirect((short) 40, this, str);
         } else {
             this.vaspokeName = str;
         }
@@ -369,7 +369,7 @@ public final class FaceElement implements IKernelModel {
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83187, (short) 47);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 47, (Object) this);
+            return (String) redirector.redirect((short) 47, this);
         }
         return "FaceElement{faceIndex=" + this.faceIndex + ",faceText=" + this.faceText + ",faceType=" + this.faceType + ",packId=" + this.packId + ",stickerId=" + this.stickerId + ",sourceType=" + this.sourceType + ",stickerType=" + this.stickerType + ",resultId=" + this.resultId + ",surpriseId=" + this.surpriseId + ",randomType=" + this.randomType + ",imageType=" + this.imageType + ",pokeType=" + this.pokeType + ",spokeSummary=" + this.spokeSummary + ",doubleHit=" + this.doubleHit + ",vaspokeId=" + this.vaspokeId + ",vaspokeName=" + this.vaspokeName + ",vaspokeMinver=" + this.vaspokeMinver + ",pokeStrength=" + this.pokeStrength + ",msgType=" + this.msgType + ",faceBubbleCount=" + this.faceBubbleCount + ",oldVersionStr=" + this.oldVersionStr + ",pokeFlag=" + this.pokeFlag + ",}";
     }

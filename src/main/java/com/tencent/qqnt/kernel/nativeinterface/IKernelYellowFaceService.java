@@ -8,7 +8,7 @@ public interface IKernelYellowFaceService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelYellowFaceService$CppProxy.class */
-    public static final class CppProxy implements IKernelYellowFaceService {
+    final class CppProxy implements IKernelYellowFaceService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

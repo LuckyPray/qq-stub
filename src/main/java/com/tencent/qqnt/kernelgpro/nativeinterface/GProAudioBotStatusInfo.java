@@ -76,7 +76,7 @@ public final class GProAudioBotStatusInfo {
     public GProAudioBotStatusInfo(long j, long j2, long j3, int i, String str, String str2, int i2, long j4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), str, str2, Integer.valueOf(i2), Long.valueOf(j4)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), str, str2, Integer.valueOf(i2), Long.valueOf(j4));
             return;
         }
         this.statusText = "";

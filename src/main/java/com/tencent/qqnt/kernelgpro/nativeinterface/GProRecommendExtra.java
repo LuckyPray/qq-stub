@@ -57,7 +57,7 @@ public final class GProRecommendExtra implements Serializable {
     public GProRecommendExtra(ArrayList<GProRecommendTag> arrayList, ArrayList<GProRecommendEntry> arrayList2, ArrayList<GProRecommendEntry> arrayList3, GProItemCbData gProItemCbData) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, arrayList, arrayList2, arrayList3, gProItemCbData});
+            iPatchRedirector.redirect((short) 2, this, arrayList, arrayList2, arrayList3, gProItemCbData);
             return;
         }
         this.serialVersionUID = 1L;

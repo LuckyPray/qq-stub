@@ -100,7 +100,7 @@ public final class GProForumChannel implements Serializable {
     public GProForumChannel(int i, long j, String str, long j2, String str2, String str3, int i2, String str4, long j3, long j4, String str5) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Long.valueOf(j), str, Long.valueOf(j2), str2, str3, Integer.valueOf(i2), str4, Long.valueOf(j3), Long.valueOf(j4), str5});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Long.valueOf(j), str, Long.valueOf(j2), str2, str3, Integer.valueOf(i2), str4, Long.valueOf(j3), Long.valueOf(j4), str5);
             return;
         }
         this.serialVersionUID = 1L;

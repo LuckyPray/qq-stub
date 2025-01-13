@@ -93,17 +93,17 @@ public final class RequestPacket extends com.qq.taf.jce.JceStruct
     public void readFrom(com.qq.taf.jce.JceInputStream _is)
     {
     	try {
-			iVersion = (short) _is.read(iVersion, 1, true);
-			cPacketType = (byte) _is.read(cPacketType, 2, true);
-			iMessageType = (int) _is.read(iMessageType, 3, true);
-			iRequestId = (int) _is.read(iRequestId, 4, true);
-			sServantName = (String) _is.readString( 5, true);
-			sFuncName = (String) _is.readString(6, true);
+			iVersion = _is.read(iVersion, 1, true);
+			cPacketType = _is.read(cPacketType, 2, true);
+			iMessageType = _is.read(iMessageType, 3, true);
+			iRequestId = _is.read(iRequestId, 4, true);
+			sServantName = _is.readString( 5, true);
+			sFuncName = _is.readString(6, true);
 			if ( null == cache_sBuffer  ) {
 				cache_sBuffer = new byte[]{0};
 			}
-			sBuffer = (byte[]) _is.read(cache_sBuffer, 7, true);
-			iTimeout = (int) _is.read(iTimeout, 8, true);
+			sBuffer = _is.read(cache_sBuffer, 7, true);
+			iTimeout = _is.read(iTimeout, 8, true);
 			if ( null == cache_context  ) {
 				cache_context = new java.util.HashMap<String, String>();
 				cache_context.put("", "");

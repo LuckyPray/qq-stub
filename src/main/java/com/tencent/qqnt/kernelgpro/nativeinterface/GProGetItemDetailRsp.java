@@ -67,7 +67,7 @@ public final class GProGetItemDetailRsp {
     public GProGetItemDetailRsp(String str, ArrayList<GProRecommendItem> arrayList, String str2, boolean z, byte[] bArr, int i) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, arrayList, str2, Boolean.valueOf(z), bArr, Integer.valueOf(i)});
+            iPatchRedirector.redirect((short) 2, this, str, arrayList, str2, Boolean.valueOf(z), bArr, Integer.valueOf(i));
             return;
         }
         this.requestId = "";

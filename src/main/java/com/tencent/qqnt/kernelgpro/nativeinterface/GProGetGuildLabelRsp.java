@@ -53,7 +53,7 @@ public final class GProGetGuildLabelRsp {
     public GProGetGuildLabelRsp(long j, long j2, String str, ArrayList<GProLabelInfo> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, arrayList});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), str, arrayList);
             return;
         }
         this.welcomeContent = "";

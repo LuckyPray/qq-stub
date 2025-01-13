@@ -14,7 +14,7 @@ public abstract class ProtoBufRequest {
     public ProtoBufRequest() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(7917, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 

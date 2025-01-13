@@ -9,7 +9,7 @@ public interface IKernelGroupTabService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelGroupTabService$CppProxy.class */
-    public static final class CppProxy implements IKernelGroupTabService {
+    final class CppProxy implements IKernelGroupTabService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

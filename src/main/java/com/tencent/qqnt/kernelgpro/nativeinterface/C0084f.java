@@ -109,7 +109,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 4)) {
             return;
         }
-        iPatchRedirector.redirect((short) 4, new Object[]{iKernelGuildListener, Integer.valueOf(i), str, Long.valueOf(j), Integer.valueOf(i2), hashMap, gProCategoryChannelIdList, arrayList});
+        iPatchRedirector.redirect((short) 4, iKernelGuildListener, Integer.valueOf(i), str, Long.valueOf(j), Integer.valueOf(i2), hashMap, gProCategoryChannelIdList, arrayList);
     }
 
     public static void $default$onChannelUserPermissionChange(IKernelGuildListener iKernelGuildListener, long j, ArrayList arrayList) {
@@ -181,7 +181,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 6)) {
             return;
         }
-        iPatchRedirector.redirect((short) 6, new Object[]{iKernelGuildListener, Integer.valueOf(i), str, gProGuild, Boolean.valueOf(z)});
+        iPatchRedirector.redirect((short) 6, iKernelGuildListener, Integer.valueOf(i), str, gProGuild, Boolean.valueOf(z));
     }
 
     public static void $default$onGuildListLoaded(IKernelGuildListener iKernelGuildListener) {
@@ -197,7 +197,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 2)) {
             return;
         }
-        iPatchRedirector.redirect((short) 2, new Object[]{iKernelGuildListener, Integer.valueOf(i), str, Boolean.valueOf(z), arrayList, arrayList2, gProGuildListSortInfo});
+        iPatchRedirector.redirect((short) 2, iKernelGuildListener, Integer.valueOf(i), str, Boolean.valueOf(z), arrayList, arrayList2, gProGuildListSortInfo);
     }
 
     public static void $default$onGuildUserAvatarMetasUpdated(IKernelGuildListener iKernelGuildListener, long j, ArrayList arrayList) {
@@ -357,7 +357,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 102)) {
             return;
         }
-        iPatchRedirector.redirect((short) 102, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), str, Integer.valueOf(i), str2});
+        iPatchRedirector.redirect((short) 102, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), str, Integer.valueOf(i), str2);
     }
 
     public static void $default$onPushAVHeartbeatRsp(IKernelGuildListener iKernelGuildListener, int i, String str, GProHeartbeatRsq gProHeartbeatRsq) {
@@ -397,7 +397,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 26)) {
             return;
         }
-        iPatchRedirector.redirect((short) 26, new Object[]{iKernelGuildListener, Long.valueOf(j), Boolean.valueOf(z), Long.valueOf(j2), Long.valueOf(j3)});
+        iPatchRedirector.redirect((short) 26, iKernelGuildListener, Long.valueOf(j), Boolean.valueOf(z), Long.valueOf(j2), Long.valueOf(j3));
     }
 
     public static void $default$onPushAllowScreenShareInGuild(IKernelGuildListener iKernelGuildListener, long j, long j2, boolean z, long j3) {
@@ -405,7 +405,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 37)) {
             return;
         }
-        iPatchRedirector.redirect((short) 37, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), Long.valueOf(j3)});
+        iPatchRedirector.redirect((short) 37, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), Long.valueOf(j3));
     }
 
     public static void $default$onPushAudioChannelUserEnter(IKernelGuildListener iKernelGuildListener, long j, long j2, GProUser gProUser, long j3) {
@@ -413,7 +413,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 31)) {
             return;
         }
-        iPatchRedirector.redirect((short) 31, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), gProUser, Long.valueOf(j3)});
+        iPatchRedirector.redirect((short) 31, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), gProUser, Long.valueOf(j3));
     }
 
     public static void $default$onPushAudioChannelUserExit(IKernelGuildListener iKernelGuildListener, long j, long j2, long j3, long j4) {
@@ -421,7 +421,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 32)) {
             return;
         }
-        iPatchRedirector.redirect((short) 32, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4)});
+        iPatchRedirector.redirect((short) 32, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4));
     }
 
     public static void $default$onPushAudioChannelUserPlatSwitch(IKernelGuildListener iKernelGuildListener, long j, long j2, long j3, int i, int i2, String str, long j4) {
@@ -429,7 +429,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 33)) {
             return;
         }
-        iPatchRedirector.redirect((short) 33, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), Integer.valueOf(i2), str, Long.valueOf(j4)});
+        iPatchRedirector.redirect((short) 33, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), Integer.valueOf(i2), str, Long.valueOf(j4));
     }
 
     public static void $default$onPushBannedStatusChanged(IKernelGuildListener iKernelGuildListener, long j, boolean z, boolean z2, boolean z3, long j2) {
@@ -437,7 +437,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 59)) {
             return;
         }
-        iPatchRedirector.redirect((short) 59, new Object[]{iKernelGuildListener, Long.valueOf(j), Boolean.valueOf(z), Boolean.valueOf(z2), Boolean.valueOf(z3), Long.valueOf(j2)});
+        iPatchRedirector.redirect((short) 59, iKernelGuildListener, Long.valueOf(j), Boolean.valueOf(z), Boolean.valueOf(z2), Boolean.valueOf(z3), Long.valueOf(j2));
     }
 
     public static void $default$onPushBatchJoinChannel(IKernelGuildListener iKernelGuildListener, long j, ArrayList arrayList) {
@@ -485,7 +485,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 63)) {
             return;
         }
-        iPatchRedirector.redirect((short) 63, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), arrayList});
+        iPatchRedirector.redirect((short) 63, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), arrayList);
     }
 
     public static void $default$onPushChannelCategoryChanged(IKernelGuildListener iKernelGuildListener, GProGuildInit gProGuildInit) {
@@ -525,7 +525,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 22)) {
             return;
         }
-        iPatchRedirector.redirect((short) 22, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), arrayList, arrayList2});
+        iPatchRedirector.redirect((short) 22, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), arrayList, arrayList2);
     }
 
     public static void $default$onPushChannelVisibleChanged(IKernelGuildListener iKernelGuildListener, long j, long j2, int i, int i2) {
@@ -533,7 +533,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 21)) {
             return;
         }
-        iPatchRedirector.redirect((short) 21, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2)});
+        iPatchRedirector.redirect((short) 21, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2));
     }
 
     public static void $default$onPushCreateGuild(IKernelGuildListener iKernelGuildListener, long j, GProGuild gProGuild, HashMap hashMap, GProCategoryChannelIdList gProCategoryChannelIdList, ArrayList arrayList) {
@@ -541,7 +541,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 9)) {
             return;
         }
-        iPatchRedirector.redirect((short) 9, new Object[]{iKernelGuildListener, Long.valueOf(j), gProGuild, hashMap, gProCategoryChannelIdList, arrayList});
+        iPatchRedirector.redirect((short) 9, iKernelGuildListener, Long.valueOf(j), gProGuild, hashMap, gProCategoryChannelIdList, arrayList);
     }
 
     public static void $default$onPushCreateRole(IKernelGuildListener iKernelGuildListener, long j, ArrayList arrayList) {
@@ -597,7 +597,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 84)) {
             return;
         }
-        iPatchRedirector.redirect((short) 84, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), str});
+        iPatchRedirector.redirect((short) 84, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), str);
     }
 
     public static void $default$onPushInviteMemberEvent(IKernelGuildListener iKernelGuildListener, long j, long j2, long j3, GProSchemeConfig gProSchemeConfig) {
@@ -605,7 +605,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 39)) {
             return;
         }
-        iPatchRedirector.redirect((short) 39, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), gProSchemeConfig});
+        iPatchRedirector.redirect((short) 39, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), gProSchemeConfig);
     }
 
     public static void $default$onPushInvitedToSpeak(IKernelGuildListener iKernelGuildListener, GProAVUserStateChangeInfo gProAVUserStateChangeInfo) {
@@ -629,7 +629,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 11)) {
             return;
         }
-        iPatchRedirector.redirect((short) 11, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), gProGuild, hashMap, gProCategoryChannelIdList, arrayList, Integer.valueOf(i2)});
+        iPatchRedirector.redirect((short) 11, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), gProGuild, hashMap, gProCategoryChannelIdList, arrayList, Integer.valueOf(i2));
     }
 
     public static void $default$onPushJoinGuildFail(IKernelGuildListener iKernelGuildListener, long j, long j2, int i, int i2, String str) {
@@ -637,7 +637,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 12)) {
             return;
         }
-        iPatchRedirector.redirect((short) 12, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), str});
+        iPatchRedirector.redirect((short) 12, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), str);
     }
 
     public static void $default$onPushKickOffGuild(IKernelGuildListener iKernelGuildListener, long j, long j2, long j3, int i) {
@@ -645,7 +645,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 13)) {
             return;
         }
-        iPatchRedirector.redirect((short) 13, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i)});
+        iPatchRedirector.redirect((short) 13, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i));
     }
 
     public static void $default$onPushKickOutAudioChannel(IKernelGuildListener iKernelGuildListener, long j, long j2, long j3, long j4, int i, String str, int i2, long j5) {
@@ -653,7 +653,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 34)) {
             return;
         }
-        iPatchRedirector.redirect((short) 34, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i), str, Integer.valueOf(i2), Long.valueOf(j5)});
+        iPatchRedirector.redirect((short) 34, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i), str, Integer.valueOf(i2), Long.valueOf(j5));
     }
 
     public static void $default$onPushLeaveChannel(IKernelGuildListener iKernelGuildListener, long j, long j2, ArrayList arrayList) {
@@ -677,7 +677,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 44)) {
             return;
         }
-        iPatchRedirector.redirect((short) 44, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), str, str2});
+        iPatchRedirector.redirect((short) 44, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), str, str2);
     }
 
     public static void $default$onPushLiveRoomStatusChangeMsg(IKernelGuildListener iKernelGuildListener, long j, long j2, long j3, String str, long j4, int i, int i2, GProProgramInfo gProProgramInfo, long j5, GProLiveRoomInfo gProLiveRoomInfo) {
@@ -685,7 +685,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 41)) {
             return;
         }
-        iPatchRedirector.redirect((short) 41, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), str, Long.valueOf(j4), Integer.valueOf(i), Integer.valueOf(i2), gProProgramInfo, Long.valueOf(j5), gProLiveRoomInfo});
+        iPatchRedirector.redirect((short) 41, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), str, Long.valueOf(j4), Integer.valueOf(i), Integer.valueOf(i2), gProProgramInfo, Long.valueOf(j5), gProLiveRoomInfo);
     }
 
     public static void $default$onPushMemberTopRoleChanged(IKernelGuildListener iKernelGuildListener, long j, long j2) {
@@ -709,7 +709,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 27)) {
             return;
         }
-        iPatchRedirector.redirect((short) 27, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i)});
+        iPatchRedirector.redirect((short) 27, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i));
     }
 
     public static void $default$onPushNotifySwitchUpdate(IKernelGuildListener iKernelGuildListener, long j, long j2, int i) {
@@ -725,7 +725,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 38)) {
             return;
         }
-        iPatchRedirector.redirect((short) 38, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), Long.valueOf(j3)});
+        iPatchRedirector.redirect((short) 38, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), Long.valueOf(j3));
     }
 
     public static void $default$onPushPreventAddictionInstructions(IKernelGuildListener iKernelGuildListener, GProPreventAddictionPushInfo gProPreventAddictionPushInfo) {
@@ -765,7 +765,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 43)) {
             return;
         }
-        iPatchRedirector.redirect((short) 43, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i)});
+        iPatchRedirector.redirect((short) 43, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i));
     }
 
     public static void $default$onPushSendGiftEventNotify(IKernelGuildListener iKernelGuildListener, GProSendGiftEventData gProSendGiftEventData) {
@@ -797,7 +797,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 42)) {
             return;
         }
-        iPatchRedirector.redirect((short) 42, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), arrayList, Integer.valueOf(i)});
+        iPatchRedirector.redirect((short) 42, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), arrayList, Integer.valueOf(i));
     }
 
     public static void $default$onPushUserChannelStateChange(IKernelGuildListener iKernelGuildListener, GProUserChannelState gProUserChannelState) {
@@ -829,7 +829,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 35)) {
             return;
         }
-        iPatchRedirector.redirect((short) 35, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), Long.valueOf(j3)});
+        iPatchRedirector.redirect((short) 35, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), Long.valueOf(j3));
     }
 
     public static void $default$onPushUserScreenShare(IKernelGuildListener iKernelGuildListener, long j, long j2, ArrayList arrayList, byte[] bArr) {
@@ -837,7 +837,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 36)) {
             return;
         }
-        iPatchRedirector.redirect((short) 36, new Object[]{iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), arrayList, bArr});
+        iPatchRedirector.redirect((short) 36, iKernelGuildListener, Long.valueOf(j), Long.valueOf(j2), arrayList, bArr);
     }
 
     public static void $default$onQQMsgListChannelDataReady(IKernelGuildListener iKernelGuildListener) {
@@ -925,7 +925,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 30)) {
             return;
         }
-        iPatchRedirector.redirect((short) 30, new Object[]{iKernelGuildListener, Integer.valueOf(i), str, Long.valueOf(j), Long.valueOf(j2), gProGuildUserProfile});
+        iPatchRedirector.redirect((short) 30, iKernelGuildListener, Integer.valueOf(i), str, Long.valueOf(j), Long.valueOf(j2), gProGuildUserProfile);
     }
 
     public static void $default$onReportSqliteError(IKernelGuildListener iKernelGuildListener, int i, String str) {
@@ -973,7 +973,7 @@ public final /* synthetic */ class C0084f {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 80)) {
             return;
         }
-        iPatchRedirector.redirect((short) 80, new Object[]{iKernelGuildListener, Long.valueOf(j), arrayList, arrayList2, arrayList3});
+        iPatchRedirector.redirect((short) 80, iKernelGuildListener, Long.valueOf(j), arrayList, arrayList2, arrayList3);
     }
 
     public static void $default$onTabRedPointPollingResult(IKernelGuildListener iKernelGuildListener, boolean z, String str) {

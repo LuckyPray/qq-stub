@@ -7,11 +7,11 @@ import java.util.concurrent.atomic.AtomicBoolean;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernelgpro/nativeinterface/IKernelFeedServiceNew.class */
 public interface IKernelFeedServiceNew {
-    public static final IPatchRedirector $redirector_ = null;
+    IPatchRedirector $redirector_ = null;
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernelgpro/nativeinterface/IKernelFeedServiceNew$CppProxy.class */
-    public static final class CppProxy implements IKernelFeedServiceNew {
+    final class CppProxy implements IKernelFeedServiceNew {
         static final boolean $assertionsDisabled = false;
         static IPatchRedirector $redirector_;
         private final AtomicBoolean destroyed = new AtomicBoolean();

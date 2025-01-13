@@ -54,7 +54,7 @@ public final class GProDailyRecommendPush {
     public GProDailyRecommendPush(String str, String str2, String str3, String str4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, str4});
+            iPatchRedirector.redirect((short) 2, this, str, str2, str3, str4);
             return;
         }
         this.title = "";

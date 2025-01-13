@@ -57,7 +57,7 @@ public final class PBRepeatMessageField<T extends MessageMicro<T>> extends PBFie
         if (size > 0) {
             for (i = 0; i < size; i++) {
                 try {
-                    list.add((MessageMicro) cls.newInstance());
+                    list.add(cls.newInstance());
                 } catch (InstantiationException e) {
                     e.printStackTrace();
                 } catch (IllegalAccessException e2) {
@@ -73,7 +73,7 @@ public final class PBRepeatMessageField<T extends MessageMicro<T>> extends PBFie
     }
 
     public T get(int i) {
-        return (T) this.value.get(i);
+        return this.value.get(i);
     }
 
     public List<T> get() {
@@ -93,7 +93,7 @@ public final class PBRepeatMessageField<T extends MessageMicro<T>> extends PBFie
 
     public void readFrom(CodedInputStreamMicro codedInputStreamMicro) throws IOException {
         try {
-            MessageMicro messageMicro = (MessageMicro) this.helper.newInstance();
+            MessageMicro messageMicro = this.helper.newInstance();
             codedInputStreamMicro.readMessage(messageMicro);
             add((T) messageMicro);
         } catch (InstantiationException e) {
@@ -129,7 +129,7 @@ public final class PBRepeatMessageField<T extends MessageMicro<T>> extends PBFie
 
     protected void writeToDirectly(CodedOutputStreamMicro codedOutputStreamMicro, int i, List<T> list) throws IOException {
         for (T t : list) {
-            t.writeToDirectly(codedOutputStreamMicro, i, (T) t);
+            t.writeToDirectly(codedOutputStreamMicro, i, t);
         }
     }
 }

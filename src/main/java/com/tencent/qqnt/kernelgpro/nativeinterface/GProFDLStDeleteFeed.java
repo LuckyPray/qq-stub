@@ -53,7 +53,7 @@ public final class GProFDLStDeleteFeed {
     public GProFDLStDeleteFeed(String str, GProFDLStPoster gProFDLStPoster, long j, GProFDLStChannelInfo gProFDLStChannelInfo) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, gProFDLStPoster, Long.valueOf(j), gProFDLStChannelInfo});
+            iPatchRedirector.redirect((short) 2, this, str, gProFDLStPoster, Long.valueOf(j), gProFDLStChannelInfo);
             return;
         }
         this.feedId = "";

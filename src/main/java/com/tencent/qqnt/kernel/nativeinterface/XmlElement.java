@@ -46,7 +46,7 @@ public final class XmlElement implements Serializable {
     public XmlElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95169, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -55,63 +55,63 @@ public final class XmlElement implements Serializable {
 
     public long getBusiId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95169, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.busiId;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.busiId;
     }
 
     public long getBusiType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95169, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.busiType;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.busiType;
     }
 
     public int getC2cType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95169, (short) 5);
-        return redirector != null ? ((Integer) redirector.redirect((short) 5, (Object) this)).intValue() : this.c2cType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 5, this)).intValue() : this.c2cType;
     }
 
     public String getContent() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95169, (short) 8);
-        return redirector != null ? (String) redirector.redirect((short) 8, (Object) this) : this.content;
+        return redirector != null ? (String) redirector.redirect((short) 8, this) : this.content;
     }
 
     public int getCtrlFlag() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95169, (short) 7);
-        return redirector != null ? ((Integer) redirector.redirect((short) 7, (Object) this)).intValue() : this.ctrlFlag;
+        return redirector != null ? ((Integer) redirector.redirect((short) 7, this)).intValue() : this.ctrlFlag;
     }
 
     public HashMap<String, String> getMembers() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95169, (short) 13);
-        return redirector != null ? (HashMap) redirector.redirect((short) 13, (Object) this) : this.members;
+        return redirector != null ? (HashMap) redirector.redirect((short) 13, this) : this.members;
     }
 
     public byte[] getPbReserv() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95169, (short) 12);
-        return redirector != null ? (byte[]) redirector.redirect((short) 12, (Object) this) : this.pbReserv;
+        return redirector != null ? (byte[]) redirector.redirect((short) 12, this) : this.pbReserv;
     }
 
     public Long getSeqId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95169, (short) 10);
-        return redirector != null ? (Long) redirector.redirect((short) 10, (Object) this) : this.seqId;
+        return redirector != null ? (Long) redirector.redirect((short) 10, this) : this.seqId;
     }
 
     public int getServiceType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95169, (short) 6);
-        return redirector != null ? ((Integer) redirector.redirect((short) 6, (Object) this)).intValue() : this.serviceType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 6, this)).intValue() : this.serviceType;
     }
 
     public Long getTemplId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95169, (short) 9);
-        return redirector != null ? (Long) redirector.redirect((short) 9, (Object) this) : this.templId;
+        return redirector != null ? (Long) redirector.redirect((short) 9, this) : this.templId;
     }
 
     public HashMap<String, String> getTemplParam() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95169, (short) 11);
-        return redirector != null ? (HashMap) redirector.redirect((short) 11, (Object) this) : this.templParam;
+        return redirector != null ? (HashMap) redirector.redirect((short) 11, this) : this.templParam;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95169, (short) 14);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 14, (Object) this);
+            return (String) redirector.redirect((short) 14, this);
         }
         return "XmlElement{busiType=" + this.busiType + ",busiId=" + this.busiId + ",c2cType=" + this.c2cType + ",serviceType=" + this.serviceType + ",ctrlFlag=" + this.ctrlFlag + ",content=" + this.content + ",templId=" + this.templId + ",seqId=" + this.seqId + ",templParam=" + this.templParam + ",pbReserv=" + this.pbReserv + ",members=" + this.members + ",}";
     }

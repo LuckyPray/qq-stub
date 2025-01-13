@@ -118,7 +118,7 @@ public final class GProMyChannelInfo {
     public GProMyChannelInfo(long j, long j2, GProMsgSeq gProMsgSeq, GProMsgSeq gProMsgSeq2, byte[] bArr, boolean z) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), gProMsgSeq, gProMsgSeq2, bArr, Boolean.valueOf(z)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), gProMsgSeq, gProMsgSeq2, bArr, Boolean.valueOf(z));
             return;
         }
         this.msgReadMsgSeq = new GProMsgSeq();

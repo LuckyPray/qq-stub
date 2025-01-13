@@ -9,7 +9,7 @@ public interface IKernelDirectSessionService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelDirectSessionService$CppProxy.class */
-    public static final class CppProxy implements IKernelDirectSessionService {
+    final class CppProxy implements IKernelDirectSessionService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

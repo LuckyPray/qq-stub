@@ -38,7 +38,7 @@ public final class GrayTipGroupMember implements Serializable {
     public GrayTipGroupMember() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88097, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -50,28 +50,28 @@ public final class GrayTipGroupMember implements Serializable {
 
     public String getCard() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88097, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.card;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.card;
     }
 
     public String getName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88097, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.name;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.name;
     }
 
     public MemberRole getRole() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88097, (short) 6);
-        return redirector != null ? (MemberRole) redirector.redirect((short) 6, (Object) this) : this.role;
+        return redirector != null ? (MemberRole) redirector.redirect((short) 6, this) : this.role;
     }
 
     public String getUid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88097, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.uid;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.uid;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88097, (short) 7);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 7, (Object) this);
+            return (String) redirector.redirect((short) 7, this);
         }
         return "GrayTipGroupMember{uid=" + this.uid + ",card=" + this.card + ",name=" + this.name + ",role=" + this.role + ",}";
     }

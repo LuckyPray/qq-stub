@@ -36,7 +36,7 @@ public final class GroupNotifyGroup implements Serializable {
     public GroupNotifyGroup() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88458, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -45,18 +45,18 @@ public final class GroupNotifyGroup implements Serializable {
 
     public long getGroupCode() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88458, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.groupCode;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.groupCode;
     }
 
     public String getGroupName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88458, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.groupName;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.groupName;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88458, (short) 5);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 5, (Object) this);
+            return (String) redirector.redirect((short) 5, this);
         }
         return "GroupNotifyGroup{groupCode=" + this.groupCode + ",groupName=" + this.groupName + ",}";
     }

@@ -63,7 +63,7 @@ public final class CalendarElement implements Serializable {
     public CalendarElement(String str, String str2, long j, int i, String str3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, Long.valueOf(j), Integer.valueOf(i), str3});
+            iPatchRedirector.redirect((short) 2, this, str, str2, Long.valueOf(j), Integer.valueOf(i), str3);
             return;
         }
         this.serialVersionUID = 1L;

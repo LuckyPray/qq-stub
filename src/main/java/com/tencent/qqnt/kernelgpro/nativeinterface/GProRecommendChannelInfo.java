@@ -182,7 +182,7 @@ public final class GProRecommendChannelInfo implements Serializable {
     public GProRecommendChannelInfo(long j, String str, String str2, String str3, ArrayList<GProRecommendGuildState> arrayList, String str4, int i, String str5, String str6, int i2, long j2, String str7, int i3, String str8, ArrayList<GProRecommendLabel> arrayList2, GProRecommendSeqInfo gProRecommendSeqInfo, String str9, int i4, String str10, int i5, int i6, long j3, ArrayList<GProMedalInfo> arrayList3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, str3, arrayList, str4, Integer.valueOf(i), str5, str6, Integer.valueOf(i2), Long.valueOf(j2), str7, Integer.valueOf(i3), str8, arrayList2, gProRecommendSeqInfo, str9, Integer.valueOf(i4), str10, Integer.valueOf(i5), Integer.valueOf(i6), Long.valueOf(j3), arrayList3});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, str2, str3, arrayList, str4, Integer.valueOf(i), str5, str6, Integer.valueOf(i2), Long.valueOf(j2), str7, Integer.valueOf(i3), str8, arrayList2, gProRecommendSeqInfo, str9, Integer.valueOf(i4), str10, Integer.valueOf(i5), Integer.valueOf(i6), Long.valueOf(j3), arrayList3);
             return;
         }
         this.serialVersionUID = 1L;

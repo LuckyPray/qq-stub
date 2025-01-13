@@ -136,7 +136,7 @@ public final class GProGetContentRecommendReq {
     public GProGetContentRecommendReq(GProMVPSourceInfo gProMVPSourceInfo, byte[] bArr, int i, int i2, String str, String str2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, gProMVPSourceInfo, bArr, Integer.valueOf(i), Integer.valueOf(i2), str, str2});
+            iPatchRedirector.redirect((short) 2, this, gProMVPSourceInfo, bArr, Integer.valueOf(i), Integer.valueOf(i2), str, str2);
             return;
         }
         this.source = new GProMVPSourceInfo();

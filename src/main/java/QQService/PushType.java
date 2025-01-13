@@ -8,11 +8,11 @@ public final class PushType implements Serializable {
     public static final int _PUSH_TYPE_NONE = -1;
     public static final int _PUSH_TYPE_VISITOR_INCR = 1;
     public static final int _PUSH_TYPE_VOTE_INCR = 0;
-    private String __T;
-    private int __value;
+    private final String __T;
+    private final int __value;
 
     /* renamed from: e  reason: collision with root package name */
-    private static PushType[] f5193e = new PushType[3];
+    private static final PushType[] f5193e = new PushType[3];
     public static final PushType PUSH_TYPE_NONE = new PushType(0, -1, "PUSH_TYPE_NONE");
     public static final PushType PUSH_TYPE_VOTE_INCR = new PushType(1, 0, "PUSH_TYPE_VOTE_INCR");
     public static final PushType PUSH_TYPE_VISITOR_INCR = new PushType(2, 1, "PUSH_TYPE_VISITOR_INCR");

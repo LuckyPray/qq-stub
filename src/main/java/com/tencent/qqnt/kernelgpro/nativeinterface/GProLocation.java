@@ -78,7 +78,7 @@ public final class GProLocation {
     public GProLocation(int i, int i2, int i3, int i4, String str, String str2, String str3, String str4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), str, str2, str3, str4});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), str, str2, str3, str4);
             return;
         }
         this.country = "";

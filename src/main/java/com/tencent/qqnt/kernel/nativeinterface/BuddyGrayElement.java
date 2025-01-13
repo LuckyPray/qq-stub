@@ -36,7 +36,7 @@ public final class BuddyGrayElement implements Serializable {
     public BuddyGrayElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79768, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
         }
@@ -44,18 +44,18 @@ public final class BuddyGrayElement implements Serializable {
 
     public NewBuddyGrayElement getElem() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79768, (short) 4);
-        return redirector != null ? (NewBuddyGrayElement) redirector.redirect((short) 4, (Object) this) : this.elem;
+        return redirector != null ? (NewBuddyGrayElement) redirector.redirect((short) 4, this) : this.elem;
     }
 
     public int getType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79768, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.type;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.type;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79768, (short) 5);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 5, (Object) this);
+            return (String) redirector.redirect((short) 5, this);
         }
         return "BuddyGrayElement{type=" + this.type + ",elem=" + this.elem + ",}";
     }
@@ -63,7 +63,7 @@ public final class BuddyGrayElement implements Serializable {
     public BuddyGrayElement(int i2, NewBuddyGrayElement newBuddyGrayElement) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79768, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, i2, (Object) newBuddyGrayElement);
+            redirector.redirect((short) 2, this, i2, newBuddyGrayElement);
             return;
         }
         this.serialVersionUID = 1L;

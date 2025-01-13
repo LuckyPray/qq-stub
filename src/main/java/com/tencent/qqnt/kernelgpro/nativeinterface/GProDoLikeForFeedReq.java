@@ -104,7 +104,7 @@ public final class GProDoLikeForFeedReq {
     public GProDoLikeForFeedReq(GProFDLStCommonExt gProFDLStCommonExt, int i, GProFDLStLike gProFDLStLike, GProFDLStFeed gProFDLStFeed, GProFDLStComment gProFDLStComment) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, gProFDLStCommonExt, Integer.valueOf(i), gProFDLStLike, gProFDLStFeed, gProFDLStComment});
+            iPatchRedirector.redirect((short) 2, this, gProFDLStCommonExt, Integer.valueOf(i), gProFDLStLike, gProFDLStFeed, gProFDLStComment);
             return;
         }
         this.extInfo = new GProFDLStCommonExt();

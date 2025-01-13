@@ -80,7 +80,7 @@ public final class GProImage implements Serializable {
     public GProImage(int i, int i2, String str, boolean z, int i3, int i4, int i5, ArrayList<GProThumbImage> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Integer.valueOf(i2), str, Boolean.valueOf(z), Integer.valueOf(i3), Integer.valueOf(i4), Integer.valueOf(i5), arrayList});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Integer.valueOf(i2), str, Boolean.valueOf(z), Integer.valueOf(i3), Integer.valueOf(i4), Integer.valueOf(i5), arrayList);
             return;
         }
         this.serialVersionUID = 1L;

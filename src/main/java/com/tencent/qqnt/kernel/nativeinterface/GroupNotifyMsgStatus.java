@@ -53,7 +53,7 @@ public final class GroupNotifyMsgStatus {
     GroupNotifyMsgStatus(String str, int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88478, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this, (Object) str, i2);
+            redirector.redirect((short) 1, this, str, i2);
         }
     }
 
@@ -62,6 +62,6 @@ public final class GroupNotifyMsgStatus {
     }
 
     public static GroupNotifyMsgStatus[] values() {
-        return (GroupNotifyMsgStatus[]) $VALUES.clone();
+        return $VALUES.clone();
     }
 }

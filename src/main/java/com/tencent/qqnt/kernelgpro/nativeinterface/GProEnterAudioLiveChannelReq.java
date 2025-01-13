@@ -117,7 +117,7 @@ public final class GProEnterAudioLiveChannelReq {
     public GProEnterAudioLiveChannelReq(long j, long j2, int i, boolean z, String str, int i2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), str, Integer.valueOf(i2)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), str, Integer.valueOf(i2));
             return;
         }
         this.joinSourceType = "";

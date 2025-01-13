@@ -65,7 +65,7 @@ public final class GProRecallInfo {
     public GProRecallInfo(String str, String str2, float f, float f2, float f3, String str3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, Float.valueOf(f), Float.valueOf(f2), Float.valueOf(f3), str3});
+            iPatchRedirector.redirect((short) 2, this, str, str2, Float.valueOf(f), Float.valueOf(f2), Float.valueOf(f3), str3);
             return;
         }
         this.query = "";

@@ -9,7 +9,7 @@ public interface IKernelAlbumService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelAlbumService$CppProxy.class */
-    public static final class CppProxy implements IKernelAlbumService {
+    final class CppProxy implements IKernelAlbumService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

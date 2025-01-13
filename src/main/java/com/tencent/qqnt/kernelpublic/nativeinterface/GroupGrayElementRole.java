@@ -36,6 +36,6 @@ public final class GroupGrayElementRole {
     }
 
     public static GroupGrayElementRole[] values() {
-        return (GroupGrayElementRole[]) $VALUES.clone();
+        return $VALUES.clone();
     }
 }

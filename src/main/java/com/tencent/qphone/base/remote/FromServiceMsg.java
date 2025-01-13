@@ -94,25 +94,24 @@ public class FromServiceMsg implements Parcelable, Cloneable {
             } else {
                 i = this.serviceCmd.length();
             }
-            StringBuilder stringBuilder = new StringBuilder((((((i + length) + 7) + 10) + 8) + 10) + 10);
-            stringBuilder.append(tag);
-            stringBuilder.append(" msName:");
-            stringBuilder.append(this.msfCommand);
-            stringBuilder.append(" ssoSeq:");
-            stringBuilder.append(getRequestSsoSeq());
-            stringBuilder.append(" failCode:");
-            stringBuilder.append(this.resultCode);
-            stringBuilder.append(" errorMsg:");
-            stringBuilder.append(this.errorMsg);
-            stringBuilder.append(" uin:");
-            stringBuilder.append(this.uin);
-            stringBuilder.append(" serviceCmd:");
-            stringBuilder.append(this.serviceCmd);
-            stringBuilder.append(" appId:");
-            stringBuilder.append(this.appId);
-            stringBuilder.append(" appSeq:");
-            stringBuilder.append(this.appSeq);
-            return stringBuilder.toString();
+            String stringBuilder = tag +
+                    " msName:" +
+                    this.msfCommand +
+                    " ssoSeq:" +
+                    getRequestSsoSeq() +
+                    " failCode:" +
+                    this.resultCode +
+                    " errorMsg:" +
+                    this.errorMsg +
+                    " uin:" +
+                    this.uin +
+                    " serviceCmd:" +
+                    this.serviceCmd +
+                    " appId:" +
+                    this.appId +
+                    " appSeq:" +
+                    this.appSeq;
+            return stringBuilder;
         } catch (Exception e) {
             e.printStackTrace();
             return "fsm toString error";
@@ -128,25 +127,24 @@ public class FromServiceMsg implements Parcelable, Cloneable {
             } else {
                 i = this.serviceCmd.length();
             }
-            StringBuilder stringBuilder = new StringBuilder((((((i + length) + 7) + 10) + 8) + 10) + 10);
-            stringBuilder.append(tag);
-            stringBuilder.append(" msName:");
-            stringBuilder.append(this.msfCommand);
-            stringBuilder.append(" ssoSeq:");
-            stringBuilder.append(getRequestSsoSeq());
-            stringBuilder.append(" failCode:");
-            stringBuilder.append(this.resultCode);
-            stringBuilder.append(" errorMsg:");
-            stringBuilder.append(this.errorMsg);
-            stringBuilder.append(" uin:");
-            stringBuilder.append(MsfSdkUtils.getShortUin(this.uin));
-            stringBuilder.append(" serviceCmd:");
-            stringBuilder.append(this.serviceCmd);
-            stringBuilder.append(" appId:");
-            stringBuilder.append(this.appId);
-            stringBuilder.append(" appSeq:");
-            stringBuilder.append(this.appSeq);
-            return stringBuilder.toString();
+            String stringBuilder = tag +
+                    " msName:" +
+                    this.msfCommand +
+                    " ssoSeq:" +
+                    getRequestSsoSeq() +
+                    " failCode:" +
+                    this.resultCode +
+                    " errorMsg:" +
+                    this.errorMsg +
+                    " uin:" +
+                    MsfSdkUtils.getShortUin(this.uin) +
+                    " serviceCmd:" +
+                    this.serviceCmd +
+                    " appId:" +
+                    this.appId +
+                    " appSeq:" +
+                    this.appSeq;
+            return stringBuilder;
         } catch (Exception e) {
             e.printStackTrace();
             return "fsm getString error";
@@ -162,19 +160,18 @@ public class FromServiceMsg implements Parcelable, Cloneable {
             } else {
                 i = this.serviceCmd.length();
             }
-            StringBuilder stringBuilder = new StringBuilder((((((i + length) + 7) + 10) + 8) + 10) + 10);
-            stringBuilder.append(tag);
-            stringBuilder.append(" msName:");
-            stringBuilder.append(this.msfCommand);
-            stringBuilder.append(" ssoSeq:");
-            stringBuilder.append(getRequestSsoSeq());
-            stringBuilder.append(" serviceCmd:");
-            stringBuilder.append(this.serviceCmd);
-            stringBuilder.append(" appSeq:");
-            stringBuilder.append(this.appSeq);
-            stringBuilder.append(" failCode:");
-            stringBuilder.append(this.resultCode);
-            return stringBuilder.toString();
+            String stringBuilder = tag +
+                    " msName:" +
+                    this.msfCommand +
+                    " ssoSeq:" +
+                    getRequestSsoSeq() +
+                    " serviceCmd:" +
+                    this.serviceCmd +
+                    " appSeq:" +
+                    this.appSeq +
+                    " failCode:" +
+                    this.resultCode;
+            return stringBuilder;
         } catch (Exception e) {
             e.printStackTrace();
             return "fsm getString error";

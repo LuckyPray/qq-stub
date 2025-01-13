@@ -52,7 +52,7 @@ public final class GProScheduleUser {
     public GProScheduleUser(String str, long j, String str2, int i) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, Long.valueOf(j), str2, Integer.valueOf(i)});
+            iPatchRedirector.redirect((short) 2, this, str, Long.valueOf(j), str2, Integer.valueOf(i));
             return;
         }
         this.nick = "";

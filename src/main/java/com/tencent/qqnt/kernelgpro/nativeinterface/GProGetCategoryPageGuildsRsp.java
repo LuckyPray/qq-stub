@@ -54,7 +54,7 @@ public final class GProGetCategoryPageGuildsRsp {
     public GProGetCategoryPageGuildsRsp(ArrayList<GProRecommendCategory> arrayList, ArrayList<GProRecommendItem> arrayList2, String str, boolean z) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, arrayList, arrayList2, str, Boolean.valueOf(z)});
+            iPatchRedirector.redirect((short) 2, this, arrayList, arrayList2, str, Boolean.valueOf(z));
             return;
         }
         this.categories = new ArrayList<>();

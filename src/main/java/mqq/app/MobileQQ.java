@@ -36,7 +36,7 @@ public abstract class MobileQQ extends BaseApplication {
     /* access modifiers changed from: private */
     public AppRuntime mAppRuntime;
     final Handler mHandler = null;
-    private volatile AtomicInteger mRuntimeState = new AtomicInteger(1);
+    private final AtomicInteger mRuntimeState = new AtomicInteger(1);
     /* access modifiers changed from: private */
     private final Properties properties = new Properties();
     /* access modifiers changed from: private */

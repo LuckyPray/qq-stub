@@ -69,7 +69,7 @@ public final class GProSendGiftEventData implements Serializable {
     public GProSendGiftEventData(long j, long j2, String str, GProUser gProUser, GProUser gProUser2, GProGiftInfo gProGiftInfo) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, gProUser, gProUser2, gProGiftInfo});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), str, gProUser, gProUser2, gProGiftInfo);
             return;
         }
         this.serialVersionUID = 1L;

@@ -7,7 +7,7 @@ import java.util.HashMap;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernelgpro/nativeinterface/IKernelGuildListener.class */
 public interface IKernelGuildListener {
-    public static final IPatchRedirector $redirector_ = null;
+    IPatchRedirector $redirector_ = null;
 
     void onAVChannelThemeUpdate(long j, long j2, GProAVChannelConfig gProAVChannelConfig);
 

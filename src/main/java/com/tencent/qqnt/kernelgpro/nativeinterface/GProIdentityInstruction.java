@@ -69,7 +69,7 @@ public final class GProIdentityInstruction {
     public GProIdentityInstruction(String str, String str2, String str3, String str4, String str5, ArrayList<GProIdentity> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, str4, str5, arrayList});
+            iPatchRedirector.redirect((short) 2, this, str, str2, str3, str4, str5, arrayList);
             return;
         }
         this.instructionText = "";

@@ -11,7 +11,7 @@ public interface QQNTWrapperUtil {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/QQNTWrapperUtil$CppProxy.class */
-    public static final class CppProxy implements QQNTWrapperUtil {
+    final class CppProxy implements QQNTWrapperUtil {
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;
 

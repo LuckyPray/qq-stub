@@ -107,7 +107,7 @@ public final class GProGetCategoryGuildsReq implements Serializable {
     public GProGetCategoryGuildsReq(int i, byte[] bArr, GProBottomTabSourceInfo gProBottomTabSourceInfo, String str, int i2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), bArr, gProBottomTabSourceInfo, str, Integer.valueOf(i2)});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), bArr, gProBottomTabSourceInfo, str, Integer.valueOf(i2));
             return;
         }
         this.serialVersionUID = 1L;

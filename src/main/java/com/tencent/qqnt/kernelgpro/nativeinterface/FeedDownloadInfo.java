@@ -101,7 +101,7 @@ public final class FeedDownloadInfo {
     public FeedDownloadInfo(int i, String str, long j, String str2, String str3, String str4, FeedFileType feedFileType, String str5, int i2, String str6, String str7) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, Long.valueOf(j), str2, str3, str4, feedFileType, str5, Integer.valueOf(i2), str6, str7});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), str, Long.valueOf(j), str2, str3, str4, feedFileType, str5, Integer.valueOf(i2), str6, str7);
             return;
         }
         this.errorMsg = "";

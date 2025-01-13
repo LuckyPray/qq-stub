@@ -167,7 +167,7 @@ public final class GProGetRecommendMyV2Req {
     public GProGetRecommendMyV2Req(int i, int i2, int i3, GProBottomTabSourceInfo gProBottomTabSourceInfo, byte[] bArr, boolean z, String str, byte[] bArr2, ArrayList<GProConditionalTag> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), gProBottomTabSourceInfo, bArr, Boolean.valueOf(z), str, bArr2, arrayList});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), gProBottomTabSourceInfo, bArr, Boolean.valueOf(z), str, bArr2, arrayList);
             return;
         }
         this.source = new GProBottomTabSourceInfo();

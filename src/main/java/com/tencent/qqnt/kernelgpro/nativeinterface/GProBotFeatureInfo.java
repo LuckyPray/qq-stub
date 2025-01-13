@@ -80,7 +80,7 @@ public final class GProBotFeatureInfo {
     public GProBotFeatureInfo(int i, String str, String str2, int i2, String str3, int i3, String str4, long j) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, str2, Integer.valueOf(i2), str3, Integer.valueOf(i3), str4, Long.valueOf(j)});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), str, str2, Integer.valueOf(i2), str3, Integer.valueOf(i3), str4, Long.valueOf(j));
             return;
         }
         this.name = "";

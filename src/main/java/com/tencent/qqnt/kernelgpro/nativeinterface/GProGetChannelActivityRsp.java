@@ -51,7 +51,7 @@ public final class GProGetChannelActivityRsp {
     public GProGetChannelActivityRsp(long j, ArrayList<GProChannelActivity> arrayList, boolean z, int i) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), arrayList, Boolean.valueOf(z), Integer.valueOf(i)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), arrayList, Boolean.valueOf(z), Integer.valueOf(i));
             return;
         }
         this.channelActivities = new ArrayList<>();

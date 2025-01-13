@@ -75,7 +75,7 @@ public final class GProPreventAddictionPushInfo implements Serializable {
     public GProPreventAddictionPushInfo(long j, int i, String str, ArrayList<GProPAInstructionInfo> arrayList, long j2, String str2, long j3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), str, arrayList, Long.valueOf(j2), str2, Long.valueOf(j3)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Integer.valueOf(i), str, arrayList, Long.valueOf(j2), str2, Long.valueOf(j3));
             return;
         }
         this.serialVersionUID = 1L;

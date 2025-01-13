@@ -55,7 +55,7 @@ public final class GProChannelUserChangeInfo implements Serializable {
     public GProChannelUserChangeInfo(long j, long j2, ArrayList<GProUser> arrayList, GProChannelUserNum gProChannelUserNum) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, gProChannelUserNum});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), arrayList, gProChannelUserNum);
             return;
         }
         this.serialVersionUID = 1L;

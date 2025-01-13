@@ -9,7 +9,7 @@ public interface IQQNTWrapperSession {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IQQNTWrapperSession$CppProxy.class */
-    public static final class CppProxy implements IQQNTWrapperSession {
+    final class CppProxy implements IQQNTWrapperSession {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

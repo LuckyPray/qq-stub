@@ -169,7 +169,7 @@ public final class GProHeartbeatReq implements Serializable {
     public GProHeartbeatReq(long j, long j2, String str, ArrayList<String> arrayList, int i, GProUserDevState gProUserDevState, ArrayList<GProKVNode> arrayList2, int i2, long j3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, arrayList, Integer.valueOf(i), gProUserDevState, arrayList2, Integer.valueOf(i2), Long.valueOf(j3)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), str, arrayList, Integer.valueOf(i), gProUserDevState, arrayList2, Integer.valueOf(i2), Long.valueOf(j3));
             return;
         }
         this.serialVersionUID = 1L;

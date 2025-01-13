@@ -51,7 +51,7 @@ public final class TextGiftElement implements Serializable {
     public TextGiftElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -66,88 +66,88 @@ public final class TextGiftElement implements Serializable {
 
     public String getBgImageUrl() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 11);
-        return redirector != null ? (String) redirector.redirect((short) 11, (Object) this) : this.bgImageUrl;
+        return redirector != null ? (String) redirector.redirect((short) 11, this) : this.bgImageUrl;
     }
 
     public int getCharmValue() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 18);
-        return redirector != null ? ((Integer) redirector.redirect((short) 18, (Object) this)).intValue() : this.charmValue;
+        return redirector != null ? ((Integer) redirector.redirect((short) 18, this)).intValue() : this.charmValue;
     }
 
     public long getGiftId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.giftId;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.giftId;
     }
 
     public String getGiftName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.giftName;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.giftName;
     }
 
     public int getLevel() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 13);
-        return redirector != null ? ((Integer) redirector.redirect((short) 13, (Object) this)).intValue() : this.level;
+        return redirector != null ? ((Integer) redirector.redirect((short) 13, this)).intValue() : this.level;
     }
 
     public boolean getNeedPlayAnimation() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 16);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 16, (Object) this)).booleanValue() : this.needPlayAnimation;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 16, this)).booleanValue() : this.needPlayAnimation;
     }
 
     public String getOrderId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 10);
-        return redirector != null ? (String) redirector.redirect((short) 10, (Object) this) : this.orderId;
+        return redirector != null ? (String) redirector.redirect((short) 10, this) : this.orderId;
     }
 
     public String getPaddingTop() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 14);
-        return redirector != null ? (String) redirector.redirect((short) 14, (Object) this) : this.paddingTop;
+        return redirector != null ? (String) redirector.redirect((short) 14, this) : this.paddingTop;
     }
 
     public long getPrice() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 9);
-        return redirector != null ? ((Long) redirector.redirect((short) 9, (Object) this)).longValue() : this.price;
+        return redirector != null ? ((Long) redirector.redirect((short) 9, this)).longValue() : this.price;
     }
 
     public String getReceiverNick() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 7);
-        return redirector != null ? (String) redirector.redirect((short) 7, (Object) this) : this.receiverNick;
+        return redirector != null ? (String) redirector.redirect((short) 7, this) : this.receiverNick;
     }
 
     public long getReceiverUin() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 5);
-        return redirector != null ? ((Long) redirector.redirect((short) 5, (Object) this)).longValue() : this.receiverUin;
+        return redirector != null ? ((Long) redirector.redirect((short) 5, this)).longValue() : this.receiverUin;
     }
 
     public int getSendType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 17);
-        return redirector != null ? ((Integer) redirector.redirect((short) 17, (Object) this)).intValue() : this.sendType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 17, this)).intValue() : this.sendType;
     }
 
     public String getSenderNick() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 8);
-        return redirector != null ? (String) redirector.redirect((short) 8, (Object) this) : this.senderNick;
+        return redirector != null ? (String) redirector.redirect((short) 8, this) : this.senderNick;
     }
 
     public long getSenderUin() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 6);
-        return redirector != null ? ((Long) redirector.redirect((short) 6, (Object) this)).longValue() : this.senderUin;
+        return redirector != null ? ((Long) redirector.redirect((short) 6, this)).longValue() : this.senderUin;
     }
 
     public ArrayList<VASGiftSpendCoinItem> getSpendCoins() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 15);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 15, (Object) this) : this.spendCoins;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 15, this) : this.spendCoins;
     }
 
     public long getTianquanId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 12);
-        return redirector != null ? ((Long) redirector.redirect((short) 12, (Object) this)).longValue() : this.tianquanId;
+        return redirector != null ? ((Long) redirector.redirect((short) 12, this)).longValue() : this.tianquanId;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94775, (short) 19);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 19, (Object) this);
+            return (String) redirector.redirect((short) 19, this);
         }
         return "TextGiftElement{giftId=" + this.giftId + ",giftName=" + this.giftName + ",receiverUin=" + this.receiverUin + ",senderUin=" + this.senderUin + ",receiverNick=" + this.receiverNick + ",senderNick=" + this.senderNick + ",price=" + this.price + ",orderId=" + this.orderId + ",bgImageUrl=" + this.bgImageUrl + ",tianquanId=" + this.tianquanId + ",level=" + this.level + ",paddingTop=" + this.paddingTop + ",spendCoins=" + this.spendCoins + ",needPlayAnimation=" + this.needPlayAnimation + ",sendType=" + this.sendType + ",charmValue=" + this.charmValue + ",}";
     }

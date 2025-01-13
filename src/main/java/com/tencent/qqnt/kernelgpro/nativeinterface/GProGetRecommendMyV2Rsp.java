@@ -54,7 +54,7 @@ public final class GProGetRecommendMyV2Rsp {
     public GProGetRecommendMyV2Rsp(ArrayList<GProRecommendItem> arrayList, GProRecommendExtInfo gProRecommendExtInfo, byte[] bArr, GProGetAtMeMsgRsp gProGetAtMeMsgRsp) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, arrayList, gProRecommendExtInfo, bArr, gProGetAtMeMsgRsp});
+            iPatchRedirector.redirect((short) 2, this, arrayList, gProRecommendExtInfo, bArr, gProGetAtMeMsgRsp);
             return;
         }
         this.recommendList = new ArrayList<>();

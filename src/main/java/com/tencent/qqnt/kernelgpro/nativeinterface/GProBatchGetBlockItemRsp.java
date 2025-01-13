@@ -64,7 +64,7 @@ public final class GProBatchGetBlockItemRsp implements Serializable {
     public GProBatchGetBlockItemRsp(String str, ArrayList<GProBlockInfo> arrayList, String str2, boolean z, byte[] bArr) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, arrayList, str2, Boolean.valueOf(z), bArr});
+            iPatchRedirector.redirect((short) 2, this, str, arrayList, str2, Boolean.valueOf(z), bArr);
             return;
         }
         this.serialVersionUID = 1L;

@@ -39,7 +39,7 @@ public final class EmojiReplyElement implements Serializable {
     public EmojiReplyElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82951, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
         }
@@ -47,33 +47,33 @@ public final class EmojiReplyElement implements Serializable {
 
     public int getEmojiId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82951, (short) 6);
-        return redirector != null ? ((Integer) redirector.redirect((short) 6, (Object) this)).intValue() : this.emojiId;
+        return redirector != null ? ((Integer) redirector.redirect((short) 6, this)).intValue() : this.emojiId;
     }
 
     public int getEmojiType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82951, (short) 7);
-        return redirector != null ? ((Integer) redirector.redirect((short) 7, (Object) this)).intValue() : this.emojiType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 7, this)).intValue() : this.emojiType;
     }
 
     public long getMsgId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82951, (short) 5);
-        return redirector != null ? ((Long) redirector.redirect((short) 5, (Object) this)).longValue() : this.msgId;
+        return redirector != null ? ((Long) redirector.redirect((short) 5, this)).longValue() : this.msgId;
     }
 
     public long getMsgSeq() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82951, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.msgSeq;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.msgSeq;
     }
 
     public long getTinyId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82951, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.tinyId;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.tinyId;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82951, (short) 8);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 8, (Object) this);
+            return (String) redirector.redirect((short) 8, this);
         }
         return "EmojiReplyElement{tinyId=" + this.tinyId + ",msgSeq=" + this.msgSeq + ",msgId=" + this.msgId + ",emojiId=" + this.emojiId + ",emojiType=" + this.emojiType + ",}";
     }

@@ -1,6 +1,7 @@
 package com.tencent.mobileqq.pb;
 
 import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 
 public final class ByteStringMicro {
     public static final ByteStringMicro EMPTY = new ByteStringMicro(new byte[0]);
@@ -26,11 +27,7 @@ public final class ByteStringMicro {
     }
 
     public static ByteStringMicro copyFromUtf8(String str) {
-        try {
-            return new ByteStringMicro(str.getBytes("UTF-8"));
-        } catch (UnsupportedEncodingException e) {
-            throw new RuntimeException("UTF-8 not supported?");
-        }
+        return new ByteStringMicro(str.getBytes(StandardCharsets.UTF_8));
     }
 
     public byte byteAt(int i) {
@@ -107,10 +104,6 @@ public final class ByteStringMicro {
     }
 
     public String toStringUtf8() {
-        try {
-            return new String(this.bytes, "UTF-8");
-        } catch (UnsupportedEncodingException e) {
-            throw new RuntimeException("UTF-8 not supported?");
-        }
+        return new String(this.bytes, StandardCharsets.UTF_8);
     }
 }

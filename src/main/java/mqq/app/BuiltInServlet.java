@@ -17,10 +17,7 @@ public class BuiltInServlet extends MSFServlet implements Action {
     static boolean isQQUin(String uin) {
         try {
             long uinNum = Long.parseLong(uin);
-            if (uinNum <= 9999 || uinNum >= 4000000000L) {
-                return false;
-            }
-            return true;
+            return uinNum > 9999 && uinNum < 4000000000L;
         } catch (Exception e) {
             return false;
         }

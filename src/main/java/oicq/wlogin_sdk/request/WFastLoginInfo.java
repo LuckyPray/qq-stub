@@ -42,7 +42,7 @@ public class WFastLoginInfo implements Parcelable, Serializable {
         this.profileUrl = "";
         this.userJson = "";
         if (bArr != null) {
-            this._outA1 = (byte[]) bArr.clone();
+            this._outA1 = bArr.clone();
         } else {
             this._outA1 = new byte[0];
         }
@@ -51,7 +51,7 @@ public class WFastLoginInfo implements Parcelable, Serializable {
     public void get_clone(WFastLoginInfo wFastLoginInfo) {
         if (wFastLoginInfo != null) {
             if (wFastLoginInfo._outA1 != null) {
-                this._outA1 = (byte[]) wFastLoginInfo._outA1.clone();
+                this._outA1 = wFastLoginInfo._outA1.clone();
             } else {
                 this._outA1 = new byte[0];
             }

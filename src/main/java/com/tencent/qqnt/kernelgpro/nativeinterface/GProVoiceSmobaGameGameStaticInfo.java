@@ -71,7 +71,7 @@ public final class GProVoiceSmobaGameGameStaticInfo implements Serializable {
     public GProVoiceSmobaGameGameStaticInfo(String str, String str2, String str3, String str4, long j, ArrayList<String> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, str4, Long.valueOf(j), arrayList});
+            iPatchRedirector.redirect((short) 2, this, str, str2, str3, str4, Long.valueOf(j), arrayList);
             return;
         }
         this.serialVersionUID = 1L;

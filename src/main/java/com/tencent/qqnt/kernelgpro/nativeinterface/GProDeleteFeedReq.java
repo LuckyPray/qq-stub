@@ -51,7 +51,7 @@ public final class GProDeleteFeedReq {
     public GProDeleteFeedReq(GProFDLStCommonExt gProFDLStCommonExt, GProFDLStDeleteFeed gProFDLStDeleteFeed, int i, int i2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, gProFDLStCommonExt, gProFDLStDeleteFeed, Integer.valueOf(i), Integer.valueOf(i2)});
+            iPatchRedirector.redirect((short) 2, this, gProFDLStCommonExt, gProFDLStDeleteFeed, Integer.valueOf(i), Integer.valueOf(i2));
             return;
         }
         this.extInfo = new GProFDLStCommonExt();

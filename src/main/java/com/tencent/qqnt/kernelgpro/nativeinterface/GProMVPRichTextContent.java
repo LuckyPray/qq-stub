@@ -83,7 +83,7 @@ public final class GProMVPRichTextContent implements Serializable {
     public GProMVPRichTextContent(int i, GProMVPTextContent gProMVPTextContent, GProMVPAtContent gProMVPAtContent, GProMVPURLContent gProMVPURLContent, GProMVPEmojiContent gProMVPEmojiContent, GProMVPChannelContent gProMVPChannelContent) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), gProMVPTextContent, gProMVPAtContent, gProMVPURLContent, gProMVPEmojiContent, gProMVPChannelContent});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), gProMVPTextContent, gProMVPAtContent, gProMVPURLContent, gProMVPEmojiContent, gProMVPChannelContent);
             return;
         }
         this.serialVersionUID = 1L;

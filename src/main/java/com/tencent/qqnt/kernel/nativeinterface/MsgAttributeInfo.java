@@ -42,64 +42,64 @@ public final class MsgAttributeInfo {
     public MsgAttributeInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93552, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public long getAttrId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93552, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.attrId;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.attrId;
     }
 
     public int getAttrType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93552, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.attrType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.attrType;
     }
 
     public TempChatGameSession getGameChatSession() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93552, (short) 11);
-        return redirector != null ? (TempChatGameSession) redirector.redirect((short) 11, (Object) this) : this.gameChatSession;
+        return redirector != null ? (TempChatGameSession) redirector.redirect((short) 11, this) : this.gameChatSession;
     }
 
     public GroupHonor getGroupHonor() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93552, (short) 7);
-        return redirector != null ? (GroupHonor) redirector.redirect((short) 7, (Object) this) : this.groupHonor;
+        return redirector != null ? (GroupHonor) redirector.redirect((short) 7, this) : this.groupHonor;
     }
 
     public KingHonor getKingHonor() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93552, (short) 8);
-        return redirector != null ? (KingHonor) redirector.redirect((short) 8, (Object) this) : this.kingHonor;
+        return redirector != null ? (KingHonor) redirector.redirect((short) 8, this) : this.kingHonor;
     }
 
     public PublicAccountAttrs getPublicAccountAttrs() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93552, (short) 9);
-        return redirector != null ? (PublicAccountAttrs) redirector.redirect((short) 9, (Object) this) : this.publicAccountAttrs;
+        return redirector != null ? (PublicAccountAttrs) redirector.redirect((short) 9, this) : this.publicAccountAttrs;
     }
 
     public SharedMsgInfo getSharedMsgInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93552, (short) 10);
-        return redirector != null ? (SharedMsgInfo) redirector.redirect((short) 10, (Object) this) : this.sharedMsgInfo;
+        return redirector != null ? (SharedMsgInfo) redirector.redirect((short) 10, this) : this.sharedMsgInfo;
     }
 
     public UinInfoAttr getUinInfoAttr() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93552, (short) 12);
-        return redirector != null ? (UinInfoAttr) redirector.redirect((short) 12, (Object) this) : this.uinInfoAttr;
+        return redirector != null ? (UinInfoAttr) redirector.redirect((short) 12, this) : this.uinInfoAttr;
     }
 
     public VASMsgElement getVasMsgInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93552, (short) 5);
-        return redirector != null ? (VASMsgElement) redirector.redirect((short) 5, (Object) this) : this.vasMsgInfo;
+        return redirector != null ? (VASMsgElement) redirector.redirect((short) 5, this) : this.vasMsgInfo;
     }
 
     public VASAIOPersonalElement getVasPersonalInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93552, (short) 6);
-        return redirector != null ? (VASAIOPersonalElement) redirector.redirect((short) 6, (Object) this) : this.vasPersonalInfo;
+        return redirector != null ? (VASAIOPersonalElement) redirector.redirect((short) 6, this) : this.vasPersonalInfo;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93552, (short) 13);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 13, (Object) this);
+            return (String) redirector.redirect((short) 13, this);
         }
         return "MsgAttributeInfo{attrType=" + this.attrType + ",attrId=" + this.attrId + ",vasMsgInfo=" + this.vasMsgInfo + ",vasPersonalInfo=" + this.vasPersonalInfo + ",groupHonor=" + this.groupHonor + ",kingHonor=" + this.kingHonor + ",publicAccountAttrs=" + this.publicAccountAttrs + ",sharedMsgInfo=" + this.sharedMsgInfo + ",gameChatSession=" + this.gameChatSession + ",uinInfoAttr=" + this.uinInfoAttr + ",}";
     }

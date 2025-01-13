@@ -8,7 +8,7 @@ public interface IKernelQRService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelQRService$CppProxy.class */
-    public static final class CppProxy implements IKernelQRService {
+    final class CppProxy implements IKernelQRService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

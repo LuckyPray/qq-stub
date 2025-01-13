@@ -69,7 +69,7 @@ public final class GProAVChannelConfig implements Serializable {
     public GProAVChannelConfig(GProGuildThemeInfo gProGuildThemeInfo, ArrayList<GProBusinessNode> arrayList, long j, GProChannelToolBar gProChannelToolBar, ArrayList<GProGuildThemeInfo> arrayList2, long j2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, gProGuildThemeInfo, arrayList, Long.valueOf(j), gProChannelToolBar, arrayList2, Long.valueOf(j2)});
+            iPatchRedirector.redirect((short) 2, this, gProGuildThemeInfo, arrayList, Long.valueOf(j), gProChannelToolBar, arrayList2, Long.valueOf(j2));
             return;
         }
         this.serialVersionUID = 1L;

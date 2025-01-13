@@ -63,7 +63,7 @@ public final class GProMVPAtContent implements Serializable {
     public GProMVPAtContent(int i, GProMVPUser gProMVPUser, String str, GProMVPRoleGroup gProMVPRoleGroup, String str2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), gProMVPUser, str, gProMVPRoleGroup, str2});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), gProMVPUser, str, gProMVPRoleGroup, str2);
             return;
         }
         this.serialVersionUID = 1L;

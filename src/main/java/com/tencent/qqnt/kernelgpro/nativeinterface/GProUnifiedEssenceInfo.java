@@ -153,7 +153,7 @@ public final class GProUnifiedEssenceInfo implements Serializable {
     public GProUnifiedEssenceInfo(Integer num, String str, String str2, Long l, ArrayList<GProEssenceChannel> arrayList, Integer num2, long j, String str3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, num, str, str2, l, arrayList, num2, Long.valueOf(j), str3});
+            iPatchRedirector.redirect((short) 2, this, num, str, str2, l, arrayList, num2, Long.valueOf(j), str3);
             return;
         }
         this.serialVersionUID = 1L;

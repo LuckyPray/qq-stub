@@ -229,7 +229,7 @@ public final class JceInputStream {
 				n = 0;
 				break;
 			case JceStruct.BYTE:
-				n = (short) bs.get();
+				n = bs.get();
 				break;
 			case JceStruct.SHORT:
 				n = bs.getShort();
@@ -812,8 +812,7 @@ public final class JceInputStream {
 		T[] tt = readArrayImpl(l.get(0), tag, isRequire);
 		if(tt==null) return null;
 		ArrayList<T> ll = new ArrayList<T>();
-		for(int i = 0; i < tt.length; ++i)
-			ll.add(tt[i]);
+        Collections.addAll(ll, tt);
 		return ll;
 	}
 
@@ -953,7 +952,7 @@ public final class JceInputStream {
 		} else if (o instanceof Short) {
 			return Short.valueOf(read((short) 0, tag, isRequire));
 		} else if (o instanceof Integer) {
-			int i = read((int) 0, tag, isRequire);
+			int i = read(0, tag, isRequire);
 			return Integer.valueOf(i);
 		} else if (o instanceof Long) {
 			return Long.valueOf(read((long) 0, tag, isRequire));
@@ -992,7 +991,7 @@ public final class JceInputStream {
 		}
 	}
 
-    protected String sServerEncoding = "GBK";
+    private String sServerEncoding = "GBK";
     public int setServerEncoding(String se){
         sServerEncoding = se;
         return 0;

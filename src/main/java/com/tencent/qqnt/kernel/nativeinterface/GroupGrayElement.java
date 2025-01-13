@@ -46,7 +46,7 @@ public final class GroupGrayElement implements Serializable {
     public GroupGrayElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88333, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -63,68 +63,68 @@ public final class GroupGrayElement implements Serializable {
 
     public String getAdminNick() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88333, (short) 10);
-        return redirector != null ? (String) redirector.redirect((short) 10, (Object) this) : this.adminNick;
+        return redirector != null ? (String) redirector.redirect((short) 10, this) : this.adminNick;
     }
 
     public String getAdminRemark() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88333, (short) 11);
-        return redirector != null ? (String) redirector.redirect((short) 11, (Object) this) : this.adminRemark;
+        return redirector != null ? (String) redirector.redirect((short) 11, this) : this.adminRemark;
     }
 
     public String getAdminUid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88333, (short) 9);
-        return redirector != null ? (String) redirector.redirect((short) 9, (Object) this) : this.adminUid;
+        return redirector != null ? (String) redirector.redirect((short) 9, this) : this.adminUid;
     }
 
     public CreateGroupGrayElement getCreateGroup() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88333, (short) 12);
-        return redirector != null ? (CreateGroupGrayElement) redirector.redirect((short) 12, (Object) this) : this.createGroup;
+        return redirector != null ? (CreateGroupGrayElement) redirector.redirect((short) 12, this) : this.createGroup;
     }
 
     public String getGroupName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88333, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.groupName;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.groupName;
     }
 
     public MemberAddGrayElement getMemberAdd() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88333, (short) 13);
-        return redirector != null ? (MemberAddGrayElement) redirector.redirect((short) 13, (Object) this) : this.memberAdd;
+        return redirector != null ? (MemberAddGrayElement) redirector.redirect((short) 13, this) : this.memberAdd;
     }
 
     public String getMemberNick() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88333, (short) 7);
-        return redirector != null ? (String) redirector.redirect((short) 7, (Object) this) : this.memberNick;
+        return redirector != null ? (String) redirector.redirect((short) 7, this) : this.memberNick;
     }
 
     public String getMemberRemark() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88333, (short) 8);
-        return redirector != null ? (String) redirector.redirect((short) 8, (Object) this) : this.memberRemark;
+        return redirector != null ? (String) redirector.redirect((short) 8, this) : this.memberRemark;
     }
 
     public String getMemberUid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88333, (short) 6);
-        return redirector != null ? (String) redirector.redirect((short) 6, (Object) this) : this.memberUid;
+        return redirector != null ? (String) redirector.redirect((short) 6, this) : this.memberUid;
     }
 
     public GroupGrayElementRole getRole() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88333, (short) 4);
-        return redirector != null ? (GroupGrayElementRole) redirector.redirect((short) 4, (Object) this) : this.role;
+        return redirector != null ? (GroupGrayElementRole) redirector.redirect((short) 4, this) : this.role;
     }
 
     public GroupShutUpGrayElement getShutUp() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88333, (short) 14);
-        return redirector != null ? (GroupShutUpGrayElement) redirector.redirect((short) 14, (Object) this) : this.shutUp;
+        return redirector != null ? (GroupShutUpGrayElement) redirector.redirect((short) 14, this) : this.shutUp;
     }
 
     public GroupGrayElementType getType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88333, (short) 3);
-        return redirector != null ? (GroupGrayElementType) redirector.redirect((short) 3, (Object) this) : this.type;
+        return redirector != null ? (GroupGrayElementType) redirector.redirect((short) 3, this) : this.type;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88333, (short) 15);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 15, (Object) this);
+            return (String) redirector.redirect((short) 15, this);
         }
         return "GroupGrayElement{type=" + this.type + ",role=" + this.role + ",groupName=" + this.groupName + ",memberUid=" + this.memberUid + ",memberNick=" + this.memberNick + ",memberRemark=" + this.memberRemark + ",adminUid=" + this.adminUid + ",adminNick=" + this.adminNick + ",adminRemark=" + this.adminRemark + ",createGroup=" + this.createGroup + ",memberAdd=" + this.memberAdd + ",shutUp=" + this.shutUp + ",}";
     }

@@ -55,7 +55,7 @@ public final class GProMedal implements Serializable {
     public GProMedal(long j, long j2, String str, String str2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, str2});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), str, str2);
             return;
         }
         this.serialVersionUID = 1L;

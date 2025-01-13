@@ -35,7 +35,7 @@ public final class FileReceiptElement implements Serializable {
     public FileReceiptElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83584, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -44,13 +44,13 @@ public final class FileReceiptElement implements Serializable {
 
     public String getFileName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83584, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.fileName;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.fileName;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83584, (short) 4);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 4, (Object) this);
+            return (String) redirector.redirect((short) 4, this);
         }
         return "FileReceiptElement{fileName=" + this.fileName + ",}";
     }
@@ -58,7 +58,7 @@ public final class FileReceiptElement implements Serializable {
     public FileReceiptElement(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83584, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, (Object) str);
+            redirector.redirect((short) 2, this, str);
             return;
         }
         this.serialVersionUID = 1L;

@@ -199,7 +199,7 @@ public final class GProSourceId {
     public GProSourceId(long j, String str, String str2, String str3, String str4, String str5, int i, String str6, String str7, String str8, int i2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, str3, str4, str5, Integer.valueOf(i), str6, str7, str8, Integer.valueOf(i2)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, str2, str3, str4, str5, Integer.valueOf(i), str6, str7, str8, Integer.valueOf(i2));
             return;
         }
         this.sceneId = "";

@@ -10,7 +10,7 @@ public interface IKernelRobotService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelRobotService$CppProxy.class */
-    public static final class CppProxy implements IKernelRobotService {
+    final class CppProxy implements IKernelRobotService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

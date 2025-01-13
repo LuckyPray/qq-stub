@@ -91,7 +91,7 @@ public final class GProExposeRecommedsReq {
     public GProExposeRecommedsReq(String str, String str2, String str3, ArrayList<GProExposeItem> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, arrayList});
+            iPatchRedirector.redirect((short) 2, this, str, str2, str3, arrayList);
             return;
         }
         this.user = "";

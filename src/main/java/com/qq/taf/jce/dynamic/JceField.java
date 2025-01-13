@@ -4,7 +4,7 @@ import com.qq.taf.jce.JceDecodeException;
 
 
 public class JceField {
-	private int	tag;
+	private final int	tag;
 	
 	JceField(int tag) {
 		this.tag = tag;
@@ -58,7 +58,7 @@ public class JceField {
 		return new StructField(data, tag);
 	}
 	
-	private static ZeroField[] zs;
+	private static final ZeroField[] zs;
 	
 	static {
 		zs = new ZeroField[256];

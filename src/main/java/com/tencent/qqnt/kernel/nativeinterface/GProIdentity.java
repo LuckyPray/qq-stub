@@ -35,7 +35,7 @@ public final class GProIdentity implements Serializable {
     public GProIdentity() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(86580, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -44,18 +44,18 @@ public final class GProIdentity implements Serializable {
 
     public int getType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(86580, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.type;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.type;
     }
 
     public String getValue() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(86580, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.value;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.value;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(86580, (short) 5);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 5, (Object) this);
+            return (String) redirector.redirect((short) 5, this);
         }
         return "GProIdentity{type=" + this.type + ",value=" + this.value + ",}";
     }
@@ -63,7 +63,7 @@ public final class GProIdentity implements Serializable {
     public GProIdentity(int i2, String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(86580, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, i2, (Object) str);
+            redirector.redirect((short) 2, this, i2, str);
             return;
         }
         this.serialVersionUID = 1L;

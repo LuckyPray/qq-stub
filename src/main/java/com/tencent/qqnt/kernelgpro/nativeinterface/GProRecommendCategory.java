@@ -122,7 +122,7 @@ public final class GProRecommendCategory implements Serializable {
     public GProRecommendCategory(String str, int i, String str2, boolean z, String str3, int i2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, Integer.valueOf(i), str2, Boolean.valueOf(z), str3, Integer.valueOf(i2)});
+            iPatchRedirector.redirect((short) 2, this, str, Integer.valueOf(i), str2, Boolean.valueOf(z), str3, Integer.valueOf(i2));
             return;
         }
         this.serialVersionUID = 1L;

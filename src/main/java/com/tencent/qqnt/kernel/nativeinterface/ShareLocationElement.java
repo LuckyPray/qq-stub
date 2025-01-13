@@ -34,24 +34,24 @@ public final class ShareLocationElement {
     public ShareLocationElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94605, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public String getExt() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94605, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.ext;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.ext;
     }
 
     public String getText() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94605, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.text;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.text;
     }
 
     public void setExt(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94605, (short) 6);
         if (redirector != null) {
-            redirector.redirect((short) 6, (Object) this, (Object) str);
+            redirector.redirect((short) 6, this, str);
         } else {
             this.ext = str;
         }
@@ -60,7 +60,7 @@ public final class ShareLocationElement {
     public void setText(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94605, (short) 5);
         if (redirector != null) {
-            redirector.redirect((short) 5, (Object) this, (Object) str);
+            redirector.redirect((short) 5, this, str);
         } else {
             this.text = str;
         }
@@ -69,7 +69,7 @@ public final class ShareLocationElement {
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94605, (short) 7);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 7, (Object) this);
+            return (String) redirector.redirect((short) 7, this);
         }
         return "ShareLocationElement{text=" + this.text + ",ext=" + this.ext + ",}";
     }
@@ -77,7 +77,7 @@ public final class ShareLocationElement {
     public ShareLocationElement(String str, String str2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94605, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, (Object) str, (Object) str2);
+            redirector.redirect((short) 2, this, str, str2);
             return;
         }
         this.text = str;

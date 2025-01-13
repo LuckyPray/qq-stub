@@ -83,7 +83,7 @@ public final class GProRecommendItemForumChannel {
     public GProRecommendItemForumChannel(int i, int i2, int i3, String str, int i4, int i5, int i6, String str2, String str3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), str, Integer.valueOf(i4), Integer.valueOf(i5), Integer.valueOf(i6), str2, str3});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), str, Integer.valueOf(i4), Integer.valueOf(i5), Integer.valueOf(i6), str2, str3);
             return;
         }
         this.hotValueTitle = "";

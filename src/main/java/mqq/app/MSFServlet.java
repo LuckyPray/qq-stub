@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public abstract class MSFServlet extends Servlet {
     public static final AtomicInteger appSeqFactory = new AtomicInteger();
     public static final String tag = "MSFServlet";
-    private Map<Integer, Intent> mIntents = new ConcurrentHashMap();
+    private final Map<Integer, Intent> mIntents = new ConcurrentHashMap();
 
     public abstract void onReceive(Intent intent, FromServiceMsg fromServiceMsg);
 
@@ -22,13 +22,13 @@ public abstract class MSFServlet extends Servlet {
 
     Intent onReceive(FromServiceMsg res) {
         FromServiceMsg response = res;
-        Intent intentReq = (Intent) this.mIntents.remove(Integer.valueOf(response.getAppSeq()));
+        Intent intentReq = this.mIntents.remove(Integer.valueOf(response.getAppSeq()));
         onReceive(intentReq, response);
         return intentReq;
     }
 
     Intent removeRequest(int appSeq) {
-        return (Intent) this.mIntents.remove(Integer.valueOf(appSeq));
+        return this.mIntents.remove(Integer.valueOf(appSeq));
     }
 
     protected void onCreate() {

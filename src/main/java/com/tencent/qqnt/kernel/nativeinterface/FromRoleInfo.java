@@ -35,7 +35,7 @@ public final class FromRoleInfo {
     public FromRoleInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83852, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.name = "";
         }
@@ -43,23 +43,23 @@ public final class FromRoleInfo {
 
     public int getColor() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83852, (short) 5);
-        return redirector != null ? ((Integer) redirector.redirect((short) 5, (Object) this)).intValue() : this.color;
+        return redirector != null ? ((Integer) redirector.redirect((short) 5, this)).intValue() : this.color;
     }
 
     public String getName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83852, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.name;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.name;
     }
 
     public long getRoleId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83852, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.roleId;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.roleId;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83852, (short) 6);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 6, (Object) this);
+            return (String) redirector.redirect((short) 6, this);
         }
         return "FromRoleInfo{roleId=" + this.roleId + ",name=" + this.name + ",color=" + this.color + ",}";
     }

@@ -53,7 +53,7 @@ public final class WalletGrayTipElement {
     public WalletGrayTipElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.senderRichContent = new byte[0];
@@ -69,113 +69,113 @@ public final class WalletGrayTipElement {
 
     public byte[] getAuthkey() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 8);
-        return redirector != null ? (byte[]) redirector.redirect((short) 8, (Object) this) : this.authkey;
+        return redirector != null ? (byte[]) redirector.redirect((short) 8, this) : this.authkey;
     }
 
     public byte[] getBroadcastRichContent() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 17);
-        return redirector != null ? (byte[]) redirector.redirect((short) 17, (Object) this) : this.broadcastRichContent;
+        return redirector != null ? (byte[]) redirector.redirect((short) 17, this) : this.broadcastRichContent;
     }
 
     public int getHideFlag() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 11);
-        return redirector != null ? ((Integer) redirector.redirect((short) 11, (Object) this)).intValue() : this.hideFlag;
+        return redirector != null ? ((Integer) redirector.redirect((short) 11, this)).intValue() : this.hideFlag;
     }
 
     public int getIcon() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 13);
-        return redirector != null ? ((Integer) redirector.redirect((short) 13, (Object) this)).intValue() : this.icon;
+        return redirector != null ? ((Integer) redirector.redirect((short) 13, this)).intValue() : this.icon;
     }
 
     public byte[] getIdiom() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 18);
-        return redirector != null ? (byte[]) redirector.redirect((short) 18, (Object) this) : this.idiom;
+        return redirector != null ? (byte[]) redirector.redirect((short) 18, this) : this.idiom;
     }
 
     public byte[] getIdiomAlpha() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 20);
-        return redirector != null ? (byte[]) redirector.redirect((short) 20, (Object) this) : this.idiomAlpha;
+        return redirector != null ? (byte[]) redirector.redirect((short) 20, this) : this.idiomAlpha;
     }
 
     public int getIdiomSeq() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 19);
-        return redirector != null ? ((Integer) redirector.redirect((short) 19, (Object) this)).intValue() : this.idiomSeq;
+        return redirector != null ? ((Integer) redirector.redirect((short) 19, this)).intValue() : this.idiomSeq;
     }
 
     public String getJumpUrl() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 21);
-        return redirector != null ? (String) redirector.redirect((short) 21, (Object) this) : this.jumpUrl;
+        return redirector != null ? (String) redirector.redirect((short) 21, this) : this.jumpUrl;
     }
 
     public int getLuckyFlag() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 10);
-        return redirector != null ? ((Integer) redirector.redirect((short) 10, (Object) this)).intValue() : this.luckyFlag;
+        return redirector != null ? ((Integer) redirector.redirect((short) 10, this)).intValue() : this.luckyFlag;
     }
 
     public long getLuckyUin() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 14);
-        return redirector != null ? ((Long) redirector.redirect((short) 14, (Object) this)).longValue() : this.luckyUin;
+        return redirector != null ? ((Long) redirector.redirect((short) 14, this)).longValue() : this.luckyUin;
     }
 
     public int getMsgType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 9);
-        return redirector != null ? ((Integer) redirector.redirect((short) 9, (Object) this)).intValue() : this.msgType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 9, this)).intValue() : this.msgType;
     }
 
     public byte[] getPcBody() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 12);
-        return redirector != null ? (byte[]) redirector.redirect((short) 12, (Object) this) : this.pcBody;
+        return redirector != null ? (byte[]) redirector.redirect((short) 12, this) : this.pcBody;
     }
 
     public byte[] getPoemRule() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 23);
-        return redirector != null ? (byte[]) redirector.redirect((short) 23, (Object) this) : this.poemRule;
+        return redirector != null ? (byte[]) redirector.redirect((short) 23, this) : this.poemRule;
     }
 
     public int getRandom() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 16);
-        return redirector != null ? ((Integer) redirector.redirect((short) 16, (Object) this)).intValue() : this.random;
+        return redirector != null ? ((Integer) redirector.redirect((short) 16, this)).intValue() : this.random;
     }
 
     public byte[] getReceiverRichContent() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 7);
-        return redirector != null ? (byte[]) redirector.redirect((short) 7, (Object) this) : this.receiverRichContent;
+        return redirector != null ? (byte[]) redirector.redirect((short) 7, this) : this.receiverRichContent;
     }
 
     public long getReceiverUin() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 5);
-        return redirector != null ? ((Long) redirector.redirect((short) 5, (Object) this)).longValue() : this.receiverUin;
+        return redirector != null ? ((Long) redirector.redirect((short) 5, this)).longValue() : this.receiverUin;
     }
 
     public byte[] getSenderRichContent() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 6);
-        return redirector != null ? (byte[]) redirector.redirect((short) 6, (Object) this) : this.senderRichContent;
+        return redirector != null ? (byte[]) redirector.redirect((short) 6, this) : this.senderRichContent;
     }
 
     public long getSenderUin() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.senderUin;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.senderUin;
     }
 
     public int getShowLastest() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.showLastest;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.showLastest;
     }
 
     public int getSubchannel() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 22);
-        return redirector != null ? ((Integer) redirector.redirect((short) 22, (Object) this)).intValue() : this.subchannel;
+        return redirector != null ? ((Integer) redirector.redirect((short) 22, this)).intValue() : this.subchannel;
     }
 
     public int getTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 15);
-        return redirector != null ? ((Integer) redirector.redirect((short) 15, (Object) this)).intValue() : this.time;
+        return redirector != null ? ((Integer) redirector.redirect((short) 15, this)).intValue() : this.time;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95130, (short) 24);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 24, (Object) this);
+            return (String) redirector.redirect((short) 24, this);
         }
         return "WalletGrayTipElement{showLastest=" + this.showLastest + ",senderUin=" + this.senderUin + ",receiverUin=" + this.receiverUin + ",senderRichContent=" + this.senderRichContent + ",receiverRichContent=" + this.receiverRichContent + ",authkey=" + this.authkey + ",msgType=" + this.msgType + ",luckyFlag=" + this.luckyFlag + ",hideFlag=" + this.hideFlag + ",pcBody=" + this.pcBody + ",icon=" + this.icon + ",luckyUin=" + this.luckyUin + ",time=" + this.time + ",random=" + this.random + ",broadcastRichContent=" + this.broadcastRichContent + ",idiom=" + this.idiom + ",idiomSeq=" + this.idiomSeq + ",idiomAlpha=" + this.idiomAlpha + ",jumpUrl=" + this.jumpUrl + ",subchannel=" + this.subchannel + ",poemRule=" + this.poemRule + ",}";
     }

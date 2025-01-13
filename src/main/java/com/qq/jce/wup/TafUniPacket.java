@@ -17,8 +17,8 @@ public class TafUniPacket extends UniPacket {
     public TafUniPacket() {
         _package.iVersion = Const.VERSION_WUP;
         _package.cPacketType = 0;
-        _package.iMessageType = (int) 0;
-        _package.iTimeout = (int) 0;
+        _package.iMessageType = 0;
+        _package.iTimeout = 0;
         _package.sBuffer = new byte[]{};
         _package.context = new HashMap<String, String>();
         _package.status = new HashMap<String, String>();

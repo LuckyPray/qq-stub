@@ -33,7 +33,7 @@ public final class MarkdownElement {
     public MarkdownElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93338, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.content = "";
         }
@@ -41,13 +41,13 @@ public final class MarkdownElement {
 
     public String getContent() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93338, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.content;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.content;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93338, (short) 4);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 4, (Object) this);
+            return (String) redirector.redirect((short) 4, this);
         }
         return "MarkdownElement{content=" + this.content + ",}";
     }
@@ -55,7 +55,7 @@ public final class MarkdownElement {
     public MarkdownElement(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93338, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, (Object) str);
+            redirector.redirect((short) 2, this, str);
             return;
         }
         this.content = "";

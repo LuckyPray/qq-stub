@@ -68,7 +68,7 @@ public final class GProUserAVRspInfo {
     public GProUserAVRspInfo(String str, GProSecurityResult gProSecurityResult, String str2, int i, GProAVDevOptInfo gProAVDevOptInfo, ArrayList<GProAVRoomCtrlOptInfo> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, gProSecurityResult, str2, Integer.valueOf(i), gProAVDevOptInfo, arrayList});
+            iPatchRedirector.redirect((short) 2, this, str, gProSecurityResult, str2, Integer.valueOf(i), gProAVDevOptInfo, arrayList);
             return;
         }
         this.tipMsg = "";

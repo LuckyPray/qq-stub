@@ -38,7 +38,7 @@ public final class GroupShutUpGrayElement implements Serializable {
     public GroupShutUpGrayElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88551, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -48,28 +48,28 @@ public final class GroupShutUpGrayElement implements Serializable {
 
     public GrayTipGroupMember getAdmin() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88551, (short) 5);
-        return redirector != null ? (GrayTipGroupMember) redirector.redirect((short) 5, (Object) this) : this.admin;
+        return redirector != null ? (GrayTipGroupMember) redirector.redirect((short) 5, this) : this.admin;
     }
 
     public long getCurTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88551, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.curTime;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.curTime;
     }
 
     public long getDuration() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88551, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.duration;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.duration;
     }
 
     public GrayTipGroupMember getMember() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88551, (short) 6);
-        return redirector != null ? (GrayTipGroupMember) redirector.redirect((short) 6, (Object) this) : this.member;
+        return redirector != null ? (GrayTipGroupMember) redirector.redirect((short) 6, this) : this.member;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88551, (short) 7);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 7, (Object) this);
+            return (String) redirector.redirect((short) 7, this);
         }
         return "GroupShutUpGrayElement{curTime=" + this.curTime + ",duration=" + this.duration + ",admin=" + this.admin + ",member=" + this.member + ",}";
     }

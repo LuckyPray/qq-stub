@@ -8,7 +8,7 @@ public interface IQQNTCommAbilitySession {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IQQNTCommAbilitySession$CppProxy.class */
-    public static final class CppProxy implements IQQNTCommAbilitySession {
+    final class CppProxy implements IQQNTCommAbilitySession {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

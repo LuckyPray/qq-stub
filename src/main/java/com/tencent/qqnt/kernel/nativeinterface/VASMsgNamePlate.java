@@ -43,7 +43,7 @@ public final class VASMsgNamePlate {
     public VASMsgNamePlate() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95010, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.carouselNamePlateIds = new ArrayList<>();
         }
@@ -51,63 +51,63 @@ public final class VASMsgNamePlate {
 
     public ArrayList<Integer> getCarouselNamePlateIds() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95010, (short) 11);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 11, (Object) this) : this.carouselNamePlateIds;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 11, this) : this.carouselNamePlateIds;
     }
 
     public Integer getExtendNamePlateId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95010, (short) 12);
-        return redirector != null ? (Integer) redirector.redirect((short) 12, (Object) this) : this.extendNamePlateId;
+        return redirector != null ? (Integer) redirector.redirect((short) 12, this) : this.extendNamePlateId;
     }
 
     public Integer getGameNamePlateId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95010, (short) 13);
-        return redirector != null ? (Integer) redirector.redirect((short) 13, (Object) this) : this.gameNamePlateId;
+        return redirector != null ? (Integer) redirector.redirect((short) 13, this) : this.gameNamePlateId;
     }
 
     public Integer getGrayNamePlate() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95010, (short) 7);
-        return redirector != null ? (Integer) redirector.redirect((short) 7, (Object) this) : this.grayNamePlate;
+        return redirector != null ? (Integer) redirector.redirect((short) 7, this) : this.grayNamePlate;
     }
 
     public Integer getMsgBigClubFlag() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95010, (short) 5);
-        return redirector != null ? (Integer) redirector.redirect((short) 5, (Object) this) : this.msgBigClubFlag;
+        return redirector != null ? (Integer) redirector.redirect((short) 5, this) : this.msgBigClubFlag;
     }
 
     public Integer getMsgBigClubLevel() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95010, (short) 6);
-        return redirector != null ? (Integer) redirector.redirect((short) 6, (Object) this) : this.msgBigClubLevel;
+        return redirector != null ? (Integer) redirector.redirect((short) 6, this) : this.msgBigClubLevel;
     }
 
     public Integer getMsgVipLevel() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95010, (short) 4);
-        return redirector != null ? (Integer) redirector.redirect((short) 4, (Object) this) : this.msgVipLevel;
+        return redirector != null ? (Integer) redirector.redirect((short) 4, this) : this.msgVipLevel;
     }
 
     public Integer getMsgVipType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95010, (short) 3);
-        return redirector != null ? (Integer) redirector.redirect((short) 3, (Object) this) : this.msgVipType;
+        return redirector != null ? (Integer) redirector.redirect((short) 3, this) : this.msgVipType;
     }
 
     public Integer getNamePlateId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95010, (short) 10);
-        return redirector != null ? (Integer) redirector.redirect((short) 10, (Object) this) : this.namePlateId;
+        return redirector != null ? (Integer) redirector.redirect((short) 10, this) : this.namePlateId;
     }
 
     public Integer getNamePlateType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95010, (short) 8);
-        return redirector != null ? (Integer) redirector.redirect((short) 8, (Object) this) : this.namePlateType;
+        return redirector != null ? (Integer) redirector.redirect((short) 8, this) : this.namePlateType;
     }
 
     public Integer getVipStarFlag() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95010, (short) 9);
-        return redirector != null ? (Integer) redirector.redirect((short) 9, (Object) this) : this.vipStarFlag;
+        return redirector != null ? (Integer) redirector.redirect((short) 9, this) : this.vipStarFlag;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95010, (short) 14);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 14, (Object) this);
+            return (String) redirector.redirect((short) 14, this);
         }
         return "VASMsgNamePlate{msgVipType=" + this.msgVipType + ",msgVipLevel=" + this.msgVipLevel + ",msgBigClubFlag=" + this.msgBigClubFlag + ",msgBigClubLevel=" + this.msgBigClubLevel + ",grayNamePlate=" + this.grayNamePlate + ",namePlateType=" + this.namePlateType + ",vipStarFlag=" + this.vipStarFlag + ",namePlateId=" + this.namePlateId + ",carouselNamePlateIds=" + this.carouselNamePlateIds + ",extendNamePlateId=" + this.extendNamePlateId + ",gameNamePlateId=" + this.gameNamePlateId + ",}";
     }

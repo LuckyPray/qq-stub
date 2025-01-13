@@ -69,7 +69,7 @@ public final class GProRecommendLabel implements Serializable {
     public GProRecommendLabel(String str, int i, int i2, String str2, ArrayList<String> arrayList, int i3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, Integer.valueOf(i), Integer.valueOf(i2), str2, arrayList, Integer.valueOf(i3)});
+            iPatchRedirector.redirect((short) 2, this, str, Integer.valueOf(i), Integer.valueOf(i2), str2, arrayList, Integer.valueOf(i3));
             return;
         }
         this.serialVersionUID = 1L;

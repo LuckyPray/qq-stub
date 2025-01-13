@@ -58,7 +58,7 @@ public final class GProRecommendH5Game {
     public GProRecommendH5Game(long j, int i, GProRecommendGameInfo gProRecommendGameInfo, ArrayList<GProRecommendMsg> arrayList, long j2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), gProRecommendGameInfo, arrayList, Long.valueOf(j2)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Integer.valueOf(i), gProRecommendGameInfo, arrayList, Long.valueOf(j2));
             return;
         }
         this.game = new GProRecommendGameInfo();

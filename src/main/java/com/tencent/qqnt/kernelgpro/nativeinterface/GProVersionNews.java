@@ -55,7 +55,7 @@ public final class GProVersionNews {
     public GProVersionNews(String str, String str2, ArrayList<String> arrayList, String str3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, arrayList, str3});
+            iPatchRedirector.redirect((short) 2, this, str, str2, arrayList, str3);
             return;
         }
         this.title = "";

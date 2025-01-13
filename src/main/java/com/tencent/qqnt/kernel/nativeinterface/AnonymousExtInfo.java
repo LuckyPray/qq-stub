@@ -39,7 +39,7 @@ public final class AnonymousExtInfo {
     public AnonymousExtInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79462, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.anonymousId = new byte[0];
@@ -49,43 +49,43 @@ public final class AnonymousExtInfo {
 
     public int getAnonymousFlag() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79462, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.anonymousFlag;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.anonymousFlag;
     }
 
     public byte[] getAnonymousId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79462, (short) 4);
-        return redirector != null ? (byte[]) redirector.redirect((short) 4, (Object) this) : this.anonymousId;
+        return redirector != null ? (byte[]) redirector.redirect((short) 4, this) : this.anonymousId;
     }
 
     public String getAnonymousNick() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79462, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.anonymousNick;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.anonymousNick;
     }
 
     public long getBubbleId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79462, (short) 8);
-        return redirector != null ? ((Long) redirector.redirect((short) 8, (Object) this)).longValue() : this.bubbleId;
+        return redirector != null ? ((Long) redirector.redirect((short) 8, this)).longValue() : this.bubbleId;
     }
 
     public long getExpireTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79462, (short) 7);
-        return redirector != null ? ((Long) redirector.redirect((short) 7, (Object) this)).longValue() : this.expireTime;
+        return redirector != null ? ((Long) redirector.redirect((short) 7, this)).longValue() : this.expireTime;
     }
 
     public long getHeadPicIndex() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79462, (short) 6);
-        return redirector != null ? ((Long) redirector.redirect((short) 6, (Object) this)).longValue() : this.headPicIndex;
+        return redirector != null ? ((Long) redirector.redirect((short) 6, this)).longValue() : this.headPicIndex;
     }
 
     public String getRankColor() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79462, (short) 9);
-        return redirector != null ? (String) redirector.redirect((short) 9, (Object) this) : this.rankColor;
+        return redirector != null ? (String) redirector.redirect((short) 9, this) : this.rankColor;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79462, (short) 10);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 10, (Object) this);
+            return (String) redirector.redirect((short) 10, this);
         }
         return "AnonymousExtInfo{anonymousFlag=" + this.anonymousFlag + ",anonymousId=" + this.anonymousId + ",anonymousNick=" + this.anonymousNick + ",headPicIndex=" + this.headPicIndex + ",expireTime=" + this.expireTime + ",bubbleId=" + this.bubbleId + ",rankColor=" + this.rankColor + ",}";
     }

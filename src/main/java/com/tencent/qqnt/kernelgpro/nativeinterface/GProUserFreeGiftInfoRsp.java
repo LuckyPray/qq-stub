@@ -93,7 +93,7 @@ public final class GProUserFreeGiftInfoRsp implements Serializable {
     public GProUserFreeGiftInfoRsp(String str, int i, int i2, int i3, int i4, long j, int i5, int i6, ArrayList<Integer> arrayList, ArrayList<Long> arrayList2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), Long.valueOf(j), Integer.valueOf(i5), Integer.valueOf(i6), arrayList, arrayList2});
+            iPatchRedirector.redirect((short) 2, this, str, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), Long.valueOf(j), Integer.valueOf(i5), Integer.valueOf(i6), arrayList, arrayList2);
             return;
         }
         this.serialVersionUID = 1L;

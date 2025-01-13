@@ -10,7 +10,7 @@ import NS_MINI_INTERFACE.INTERFACE$StGetProfileRsp;
 public class GetProfileRequest extends ProtoBufRequest {
     public static final String CMD_STRING = "LightAppSvc.mini_user_info.GetProfile";
     private static final String unikey = "GetProfile";
-    private INTERFACE$StGetProfileReq req;
+    private final INTERFACE$StGetProfileReq req;
 
     public GetProfileRequest(String str, boolean z, String str2) {
         throw new RuntimeException("stub");

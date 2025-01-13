@@ -54,7 +54,7 @@ public final class GProThumbImage implements Serializable {
     public GProThumbImage(int i, String str, int i2, int i3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, Integer.valueOf(i2), Integer.valueOf(i3)});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), str, Integer.valueOf(i2), Integer.valueOf(i3));
             return;
         }
         this.serialVersionUID = 1L;

@@ -121,7 +121,7 @@ public final class GProYLGameTeamInfo {
     public GProYLGameTeamInfo(long j, long j2, long j3, int i, long j4, String str, int i2, int i3, int i4, String str2, String str3, String str4, String str5, int i5, boolean z) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), Long.valueOf(j4), str, Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), str2, str3, str4, str5, Integer.valueOf(i5), Boolean.valueOf(z)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), Long.valueOf(j4), str, Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), str2, str3, str4, str5, Integer.valueOf(i5), Boolean.valueOf(z));
             return;
         }
         this.icon = "";

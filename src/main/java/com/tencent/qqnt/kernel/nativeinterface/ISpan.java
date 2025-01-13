@@ -8,7 +8,7 @@ public interface ISpan {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/ISpan$CppProxy.class */
-    public static final class CppProxy implements ISpan {
+    final class CppProxy implements ISpan {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

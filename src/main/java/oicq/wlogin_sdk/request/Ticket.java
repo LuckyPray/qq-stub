@@ -48,8 +48,8 @@ public class Ticket implements Parcelable {
         this._pt4token_map = new HashMap();
         this._pt4token_expire = new HashMap();
         this._type = i;
-        this._sig = bArr == null ? new byte[0] : (byte[]) bArr.clone();
-        this._sig_key = bArr2 == null ? new byte[0] : (byte[]) bArr2.clone();
+        this._sig = bArr == null ? new byte[0] : bArr.clone();
+        this._sig_key = bArr2 == null ? new byte[0] : bArr2.clone();
         this._create_time = j;
         this._expire_time = j2;
     }
@@ -60,8 +60,8 @@ public class Ticket implements Parcelable {
         this._pt4token_map = new HashMap();
         this._pt4token_expire = new HashMap();
         this._type = i;
-        this._sig = bArr == null ? new byte[0] : (byte[]) bArr.clone();
-        this._sig_key = bArr2 == null ? new byte[0] : (byte[]) bArr2.clone();
+        this._sig = bArr == null ? new byte[0] : bArr.clone();
+        this._sig_key = bArr2 == null ? new byte[0] : bArr2.clone();
         this._create_time = j;
 //        this._expire_time = TbsDownloadConfig.DEFAULT_RETRY_INTERVAL_SEC + j;
         parsePsBuf(bArr3, this._create_time, this._pskey_map, this._pskey_expire, true);
@@ -73,8 +73,8 @@ public class Ticket implements Parcelable {
         this._pt4token_map = new HashMap();
         this._pt4token_expire = new HashMap();
         this._type = i;
-        this._sig = bArr == null ? new byte[0] : (byte[]) bArr.clone();
-        this._sig_key = bArr2 == null ? new byte[0] : (byte[]) bArr2.clone();
+        this._sig = bArr == null ? new byte[0] : bArr.clone();
+        this._sig_key = bArr2 == null ? new byte[0] : bArr2.clone();
         this._create_time = j;
 //        this._expire_time = TbsDownloadConfig.DEFAULT_RETRY_INTERVAL_SEC + j;
         parsePsBuf(bArr3, this._create_time, this._pskey_map, this._pskey_expire, true);
@@ -135,11 +135,11 @@ public class Ticket implements Parcelable {
         for (String str : map.keySet()) {
             allocate.putShort((short) str.length());
             allocate.put(str.getBytes());
-            byte[] bArr = (byte[]) map.get(str);
+            byte[] bArr = map.get(str);
             allocate.putShort((short) bArr.length);
             allocate.put(bArr);
             allocate.putShort((short) -1);
-            Long l = (Long) map2.get(str);
+            Long l = map2.get(str);
             if (l != null) {
                 allocate.putLong(l.longValue());
             } else {

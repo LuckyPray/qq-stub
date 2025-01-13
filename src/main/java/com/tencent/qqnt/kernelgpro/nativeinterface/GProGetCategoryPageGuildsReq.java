@@ -89,7 +89,7 @@ public final class GProGetCategoryPageGuildsReq {
     public GProGetCategoryPageGuildsReq(GProRecommendCategory gProRecommendCategory, GProBottomTabSourceInfo gProBottomTabSourceInfo, int i, ArrayList<GProItemIdInfo> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, gProRecommendCategory, gProBottomTabSourceInfo, Integer.valueOf(i), arrayList});
+            iPatchRedirector.redirect((short) 2, this, gProRecommendCategory, gProBottomTabSourceInfo, Integer.valueOf(i), arrayList);
             return;
         }
         this.category = new GProRecommendCategory();

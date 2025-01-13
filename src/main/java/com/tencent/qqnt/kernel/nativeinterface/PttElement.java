@@ -54,7 +54,7 @@ public final class PttElement implements IKernelModel {
     public PttElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.fileName = "";
@@ -66,118 +66,118 @@ public final class PttElement implements IKernelModel {
 
     public int getAutoConvertText() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 10);
-        return redirector != null ? ((Integer) redirector.redirect((short) 10, (Object) this)).intValue() : this.autoConvertText;
+        return redirector != null ? ((Integer) redirector.redirect((short) 10, this)).intValue() : this.autoConvertText;
     }
 
     public boolean getCanConvert2Text() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 12);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 12, (Object) this)).booleanValue() : this.canConvert2Text;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 12, this)).booleanValue() : this.canConvert2Text;
     }
 
     public int getDuration() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 7);
-        return redirector != null ? ((Integer) redirector.redirect((short) 7, (Object) this)).intValue() : this.duration;
+        return redirector != null ? ((Integer) redirector.redirect((short) 7, this)).intValue() : this.duration;
     }
 
     public Integer getFileBizId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 23);
-        return redirector != null ? (Integer) redirector.redirect((short) 23, (Object) this) : this.fileBizId;
+        return redirector != null ? (Integer) redirector.redirect((short) 23, this) : this.fileBizId;
     }
 
     public Integer getFileId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 13);
-        return redirector != null ? (Integer) redirector.redirect((short) 13, (Object) this) : this.fileId;
+        return redirector != null ? (Integer) redirector.redirect((short) 13, this) : this.fileId;
     }
 
     public String getFileName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.fileName;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.fileName;
     }
 
     public String getFilePath() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.filePath;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.filePath;
     }
 
     public long getFileSize() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 6);
-        return redirector != null ? ((Long) redirector.redirect((short) 6, (Object) this)).longValue() : this.fileSize;
+        return redirector != null ? ((Long) redirector.redirect((short) 6, this)).longValue() : this.fileSize;
     }
 
     public String getFileSubId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 22);
-        return redirector != null ? (String) redirector.redirect((short) 22, (Object) this) : this.fileSubId;
+        return redirector != null ? (String) redirector.redirect((short) 22, this) : this.fileSubId;
     }
 
     public String getFileUuid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 14);
-        return redirector != null ? (String) redirector.redirect((short) 14, (Object) this) : this.fileUuid;
+        return redirector != null ? (String) redirector.redirect((short) 14, this) : this.fileUuid;
     }
 
     public int getFormatType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 8);
-        return redirector != null ? ((Integer) redirector.redirect((short) 8, (Object) this)).intValue() : this.formatType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 8, this)).intValue() : this.formatType;
     }
 
     public byte[] getImportRichMediaContext() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 24);
-        return redirector != null ? (byte[]) redirector.redirect((short) 24, (Object) this) : this.importRichMediaContext;
+        return redirector != null ? (byte[]) redirector.redirect((short) 24, this) : this.importRichMediaContext;
     }
 
     public Integer getInvalidState() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 21);
-        return redirector != null ? (Integer) redirector.redirect((short) 21, (Object) this) : this.invalidState;
+        return redirector != null ? (Integer) redirector.redirect((short) 21, this) : this.invalidState;
     }
 
     public String getMd5HexStr() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.md5HexStr;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.md5HexStr;
     }
 
     public Integer getPlayState() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 19);
-        return redirector != null ? (Integer) redirector.redirect((short) 19, (Object) this) : this.playState;
+        return redirector != null ? (Integer) redirector.redirect((short) 19, this) : this.playState;
     }
 
     public Integer getProgress() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 18);
-        return redirector != null ? (Integer) redirector.redirect((short) 18, (Object) this) : this.progress;
+        return redirector != null ? (Integer) redirector.redirect((short) 18, this) : this.progress;
     }
 
     public String getText() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 15);
-        return redirector != null ? (String) redirector.redirect((short) 15, (Object) this) : this.text;
+        return redirector != null ? (String) redirector.redirect((short) 15, this) : this.text;
     }
 
     public Integer getTransferStatus() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 17);
-        return redirector != null ? (Integer) redirector.redirect((short) 17, (Object) this) : this.transferStatus;
+        return redirector != null ? (Integer) redirector.redirect((short) 17, this) : this.transferStatus;
     }
 
     public Integer getTranslateStatus() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 16);
-        return redirector != null ? (Integer) redirector.redirect((short) 16, (Object) this) : this.translateStatus;
+        return redirector != null ? (Integer) redirector.redirect((short) 16, this) : this.translateStatus;
     }
 
     public int getVoiceChangeType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 11);
-        return redirector != null ? ((Integer) redirector.redirect((short) 11, (Object) this)).intValue() : this.voiceChangeType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 11, this)).intValue() : this.voiceChangeType;
     }
 
     public int getVoiceType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 9);
-        return redirector != null ? ((Integer) redirector.redirect((short) 9, (Object) this)).intValue() : this.voiceType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 9, this)).intValue() : this.voiceType;
     }
 
     public ArrayList<Byte> getWaveAmplitudes() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 20);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 20, (Object) this) : this.waveAmplitudes;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 20, this) : this.waveAmplitudes;
     }
 
     public void setAutoConvertText(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 32);
         if (redirector != null) {
-            redirector.redirect((short) 32, (Object) this, i2);
+            redirector.redirect((short) 32, this, i2);
         } else {
             this.autoConvertText = i2;
         }
@@ -186,7 +186,7 @@ public final class PttElement implements IKernelModel {
     public void setCanConvert2Text(boolean z) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 34);
         if (redirector != null) {
-            redirector.redirect((short) 34, (Object) this, z);
+            redirector.redirect((short) 34, this, z);
         } else {
             this.canConvert2Text = z;
         }
@@ -195,7 +195,7 @@ public final class PttElement implements IKernelModel {
     public void setDuration(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 29);
         if (redirector != null) {
-            redirector.redirect((short) 29, (Object) this, i2);
+            redirector.redirect((short) 29, this, i2);
         } else {
             this.duration = i2;
         }
@@ -204,7 +204,7 @@ public final class PttElement implements IKernelModel {
     public void setFileBizId(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 45);
         if (redirector != null) {
-            redirector.redirect((short) 45, (Object) this, (Object) num);
+            redirector.redirect((short) 45, this, num);
         } else {
             this.fileBizId = num;
         }
@@ -213,7 +213,7 @@ public final class PttElement implements IKernelModel {
     public void setFileId(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 35);
         if (redirector != null) {
-            redirector.redirect((short) 35, (Object) this, (Object) num);
+            redirector.redirect((short) 35, this, num);
         } else {
             this.fileId = num;
         }
@@ -222,7 +222,7 @@ public final class PttElement implements IKernelModel {
     public void setFileName(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 25);
         if (redirector != null) {
-            redirector.redirect((short) 25, (Object) this, (Object) str);
+            redirector.redirect((short) 25, this, str);
         } else {
             this.fileName = str;
         }
@@ -231,7 +231,7 @@ public final class PttElement implements IKernelModel {
     public void setFilePath(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 26);
         if (redirector != null) {
-            redirector.redirect((short) 26, (Object) this, (Object) str);
+            redirector.redirect((short) 26, this, str);
         } else {
             this.filePath = str;
         }
@@ -240,7 +240,7 @@ public final class PttElement implements IKernelModel {
     public void setFileSize(long j2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 28);
         if (redirector != null) {
-            redirector.redirect((short) 28, (Object) this, j2);
+            redirector.redirect((short) 28, this, j2);
         } else {
             this.fileSize = j2;
         }
@@ -249,7 +249,7 @@ public final class PttElement implements IKernelModel {
     public void setFileSubId(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 44);
         if (redirector != null) {
-            redirector.redirect((short) 44, (Object) this, (Object) str);
+            redirector.redirect((short) 44, this, str);
         } else {
             this.fileSubId = str;
         }
@@ -258,7 +258,7 @@ public final class PttElement implements IKernelModel {
     public void setFileUuid(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 36);
         if (redirector != null) {
-            redirector.redirect((short) 36, (Object) this, (Object) str);
+            redirector.redirect((short) 36, this, str);
         } else {
             this.fileUuid = str;
         }
@@ -267,7 +267,7 @@ public final class PttElement implements IKernelModel {
     public void setFormatType(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 30);
         if (redirector != null) {
-            redirector.redirect((short) 30, (Object) this, i2);
+            redirector.redirect((short) 30, this, i2);
         } else {
             this.formatType = i2;
         }
@@ -276,7 +276,7 @@ public final class PttElement implements IKernelModel {
     public void setImportRichMediaContext(byte[] bArr) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 46);
         if (redirector != null) {
-            redirector.redirect((short) 46, (Object) this, (Object) bArr);
+            redirector.redirect((short) 46, this, bArr);
         } else {
             this.importRichMediaContext = bArr;
         }
@@ -285,7 +285,7 @@ public final class PttElement implements IKernelModel {
     public void setInvalidState(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 43);
         if (redirector != null) {
-            redirector.redirect((short) 43, (Object) this, (Object) num);
+            redirector.redirect((short) 43, this, num);
         } else {
             this.invalidState = num;
         }
@@ -294,7 +294,7 @@ public final class PttElement implements IKernelModel {
     public void setMd5HexStr(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 27);
         if (redirector != null) {
-            redirector.redirect((short) 27, (Object) this, (Object) str);
+            redirector.redirect((short) 27, this, str);
         } else {
             this.md5HexStr = str;
         }
@@ -303,7 +303,7 @@ public final class PttElement implements IKernelModel {
     public void setPlayState(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 41);
         if (redirector != null) {
-            redirector.redirect((short) 41, (Object) this, (Object) num);
+            redirector.redirect((short) 41, this, num);
         } else {
             this.playState = num;
         }
@@ -312,7 +312,7 @@ public final class PttElement implements IKernelModel {
     public void setProgress(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 40);
         if (redirector != null) {
-            redirector.redirect((short) 40, (Object) this, (Object) num);
+            redirector.redirect((short) 40, this, num);
         } else {
             this.progress = num;
         }
@@ -321,7 +321,7 @@ public final class PttElement implements IKernelModel {
     public void setText(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 37);
         if (redirector != null) {
-            redirector.redirect((short) 37, (Object) this, (Object) str);
+            redirector.redirect((short) 37, this, str);
         } else {
             this.text = str;
         }
@@ -330,7 +330,7 @@ public final class PttElement implements IKernelModel {
     public void setTransferStatus(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 39);
         if (redirector != null) {
-            redirector.redirect((short) 39, (Object) this, (Object) num);
+            redirector.redirect((short) 39, this, num);
         } else {
             this.transferStatus = num;
         }
@@ -339,7 +339,7 @@ public final class PttElement implements IKernelModel {
     public void setTranslateStatus(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 38);
         if (redirector != null) {
-            redirector.redirect((short) 38, (Object) this, (Object) num);
+            redirector.redirect((short) 38, this, num);
         } else {
             this.translateStatus = num;
         }
@@ -348,7 +348,7 @@ public final class PttElement implements IKernelModel {
     public void setVoiceChangeType(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 33);
         if (redirector != null) {
-            redirector.redirect((short) 33, (Object) this, i2);
+            redirector.redirect((short) 33, this, i2);
         } else {
             this.voiceChangeType = i2;
         }
@@ -357,7 +357,7 @@ public final class PttElement implements IKernelModel {
     public void setVoiceType(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 31);
         if (redirector != null) {
-            redirector.redirect((short) 31, (Object) this, i2);
+            redirector.redirect((short) 31, this, i2);
         } else {
             this.voiceType = i2;
         }
@@ -366,7 +366,7 @@ public final class PttElement implements IKernelModel {
     public void setWaveAmplitudes(ArrayList<Byte> arrayList) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 42);
         if (redirector != null) {
-            redirector.redirect((short) 42, (Object) this, (Object) arrayList);
+            redirector.redirect((short) 42, this, arrayList);
         } else {
             this.waveAmplitudes = arrayList;
         }
@@ -375,7 +375,7 @@ public final class PttElement implements IKernelModel {
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93932, (short) 47);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 47, (Object) this);
+            return (String) redirector.redirect((short) 47, this);
         }
         return "PttElement{fileName=" + this.fileName + ",filePath=" + this.filePath + ",md5HexStr=" + this.md5HexStr + ",fileSize=" + this.fileSize + ",duration=" + this.duration + ",formatType=" + this.formatType + ",voiceType=" + this.voiceType + ",autoConvertText=" + this.autoConvertText + ",voiceChangeType=" + this.voiceChangeType + ",canConvert2Text=" + this.canConvert2Text + ",fileId=" + this.fileId + ",fileUuid=" + this.fileUuid + ",text=" + this.text + ",translateStatus=" + this.translateStatus + ",transferStatus=" + this.transferStatus + ",progress=" + this.progress + ",playState=" + this.playState + ",waveAmplitudes=" + this.waveAmplitudes + ",invalidState=" + this.invalidState + ",fileSubId=" + this.fileSubId + ",fileBizId=" + this.fileBizId + ",importRichMediaContext=" + this.importRichMediaContext + ",}";
     }

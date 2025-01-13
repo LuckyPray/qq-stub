@@ -119,7 +119,7 @@ public final class GProCreateLobbyReq {
     public GProCreateLobbyReq(String str, long j, long j2, int i, int i2, ArrayList<GProKVPair> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), arrayList});
+            iPatchRedirector.redirect((short) 2, this, str, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), arrayList);
             return;
         }
         this.appId = "";

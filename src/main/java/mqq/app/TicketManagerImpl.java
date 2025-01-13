@@ -17,9 +17,9 @@ public class TicketManagerImpl implements TicketManager {
     private static final int FAIL_TICKET_SIG_NULL = -3;
     private static final int FAIL_UIN_NONE = -1;
     private static final String TAG = "TicketManager";
-    private HashMap<String, String> mAlterTicketsMap = new HashMap();
+    private final HashMap<String, String> mAlterTicketsMap = new HashMap();
     private final AppRuntime mApp;
-    private ArrayList<TicketManagerListener> mTicketListeners = new ArrayList();
+    private final ArrayList<TicketManagerListener> mTicketListeners = new ArrayList();
 //    private WtloginHelper mWtLoginHelper;
 
     public TicketManagerImpl(AppRuntime app) {
@@ -68,12 +68,12 @@ public class TicketManagerImpl implements TicketManager {
     public void setAlterTicket(HashMap<String, String> map) {
         if (map != null && this.mApp != null) {
 //            QLog.d(TAG, 1, "set alter tickets for " + MsfSdkUtils.getShortUin(this.mApp.getAccount()));
-            String uin = (String) map.get("uin");
-            String A2 = (String) map.get("A2");
-            String vkey = (String) map.get("vkey");
-            String skey = (String) map.get("skey");
-            String stweb = (String) map.get("stweb");
-            String superkey = (String) map.get("superkey");
+            String uin = map.get("uin");
+            String A2 = map.get("A2");
+            String vkey = map.get("vkey");
+            String skey = map.get("skey");
+            String stweb = map.get("stweb");
+            String superkey = map.get("superkey");
             if (this.mApp != null && this.mApp.getAccount() != null && this.mApp.getAccount().equals(uin)) {
                 this.mAlterTicketsMap.put("A2", A2);
                 this.mAlterTicketsMap.put("vkey", vkey);
@@ -108,9 +108,7 @@ public class TicketManagerImpl implements TicketManager {
 
     public void unregistTicketManagerListener(TicketManagerListener listener) {
         try {
-            if (this.mTicketListeners.contains(listener)) {
-                this.mTicketListeners.remove(listener);
-            }
+            this.mTicketListeners.remove(listener);
         } catch (Throwable e) {
             e.printStackTrace();
         }

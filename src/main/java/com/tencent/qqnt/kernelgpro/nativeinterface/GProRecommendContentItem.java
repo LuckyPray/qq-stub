@@ -125,7 +125,7 @@ public final class GProRecommendContentItem implements Serializable {
     public GProRecommendContentItem(int i, GProContentRecommendFeed gProContentRecommendFeed, GProContentRecommendRobot gProContentRecommendRobot, GProContentRecommendGroup gProContentRecommendGroup, GProContentRecommendHotLive gProContentRecommendHotLive, GProContentRecommendSelectedGuild gProContentRecommendSelectedGuild, GProContentRecommendGuild gProContentRecommendGuild, GProContentRecommendLive gProContentRecommendLive, GProContentRecommendVoice gProContentRecommendVoice, GProContentRecommendSchema gProContentRecommendSchema, GProExtra gProExtra, byte[] bArr) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), gProContentRecommendFeed, gProContentRecommendRobot, gProContentRecommendGroup, gProContentRecommendHotLive, gProContentRecommendSelectedGuild, gProContentRecommendGuild, gProContentRecommendLive, gProContentRecommendVoice, gProContentRecommendSchema, gProExtra, bArr});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), gProContentRecommendFeed, gProContentRecommendRobot, gProContentRecommendGroup, gProContentRecommendHotLive, gProContentRecommendSelectedGuild, gProContentRecommendGuild, gProContentRecommendLive, gProContentRecommendVoice, gProContentRecommendSchema, gProExtra, bArr);
             return;
         }
         this.serialVersionUID = 1L;

@@ -17,7 +17,7 @@ public class UniAttribute extends OldUniAttribute {
     /**
      * 存储get后的数据 避免多次解析
      */
-    private HashMap<String, Object> cachedData = new HashMap<String, Object>();
+    private final HashMap<String, Object> cachedData = new HashMap<String, Object>();
 
 
     JceInputStream _is = new JceInputStream();
@@ -285,7 +285,7 @@ public class UniAttribute extends OldUniAttribute {
         if (null != _newData) {
             throw new RuntimeException("data is encoded by new version, please use getJceStruct(String name,T proxy)");
         } else {
-            return (T) super.getJceStruct(name);
+            return super.getJceStruct(name);
         }
     }
 
@@ -302,7 +302,7 @@ public class UniAttribute extends OldUniAttribute {
         if (null != _newData) {
             throw new RuntimeException("data is encoded by new version, please use getByClass(String name, T proxy)");
         } else {
-            return (T) super.get(name);
+            return super.get(name);
         }
     }
 
@@ -319,7 +319,7 @@ public class UniAttribute extends OldUniAttribute {
         if (null != _newData) {
             throw new RuntimeException("data is encoded by new version, please use get(String name, T proxy, Object defaultValue)");
         } else {
-            return (T) super.get(name, defaultValue);
+            return super.get(name, defaultValue);
         }
     }
 
@@ -341,7 +341,7 @@ public class UniAttribute extends OldUniAttribute {
                 return null;
             }
         } else {
-            return (T) super.remove(name);
+            return super.remove(name);
         }
 
     }
@@ -392,7 +392,7 @@ public class UniAttribute extends OldUniAttribute {
         _is.setServerEncoding(encodeName);
         HashMap<String, byte[]> _tempdata = new HashMap<String, byte[]>(1);
         _tempdata.put("", new byte[0]);
-        _newData = (HashMap<String, byte[]>) _is.readMap(_tempdata, 0, false);
+        _newData = _is.readMap(_tempdata, 0, false);
     }
 
     /**
@@ -411,13 +411,12 @@ public class UniAttribute extends OldUniAttribute {
     public void decode(byte[] buffer) {
         try {
             super.decode(buffer);
-            return;
         } catch (Exception e) {
             _is.wrap(buffer);
             _is.setServerEncoding(encodeName);
             HashMap<String, byte[]> _tempdata = new HashMap<String, byte[]>(1);
             _tempdata.put("", new byte[0]);
-            _newData = (HashMap<String, byte[]>) _is.readMap(_tempdata, 0, false);
+            _newData = _is.readMap(_tempdata, 0, false);
         }
     }
 

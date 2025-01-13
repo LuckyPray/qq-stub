@@ -9,7 +9,7 @@ public interface IKernelDataReportService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelDataReportService$CppProxy.class */
-    public static final class CppProxy implements IKernelDataReportService {
+    final class CppProxy implements IKernelDataReportService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

@@ -69,7 +69,7 @@ public final class GProGetRecommendV2Rsp implements Serializable {
     public GProGetRecommendV2Rsp(int i, GProBannerBlockList gProBannerBlockList, GProRecommendV2TracksBlockList gProRecommendV2TracksBlockList, GProRecommendExtInfo gProRecommendExtInfo, byte[] bArr, GProPopBlockList gProPopBlockList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), gProBannerBlockList, gProRecommendV2TracksBlockList, gProRecommendExtInfo, bArr, gProPopBlockList});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), gProBannerBlockList, gProRecommendV2TracksBlockList, gProRecommendExtInfo, bArr, gProPopBlockList);
             return;
         }
         this.serialVersionUID = 1L;

@@ -36,7 +36,7 @@ public final class YoloGameUserInfo {
     public YoloGameUserInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95203, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.uid = "";
@@ -45,28 +45,28 @@ public final class YoloGameUserInfo {
 
     public String getBizId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95203, (short) 6);
-        return redirector != null ? (String) redirector.redirect((short) 6, (Object) this) : this.bizId;
+        return redirector != null ? (String) redirector.redirect((short) 6, this) : this.bizId;
     }
 
     public int getRank() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95203, (short) 5);
-        return redirector != null ? ((Integer) redirector.redirect((short) 5, (Object) this)).intValue() : this.rank;
+        return redirector != null ? ((Integer) redirector.redirect((short) 5, this)).intValue() : this.rank;
     }
 
     public int getResult() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95203, (short) 4);
-        return redirector != null ? ((Integer) redirector.redirect((short) 4, (Object) this)).intValue() : this.result;
+        return redirector != null ? ((Integer) redirector.redirect((short) 4, this)).intValue() : this.result;
     }
 
     public String getUid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95203, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.uid;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.uid;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95203, (short) 7);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 7, (Object) this);
+            return (String) redirector.redirect((short) 7, this);
         }
         return "YoloGameUserInfo{uid=" + this.uid + ",result=" + this.result + ",rank=" + this.rank + ",bizId=" + this.bizId + ",}";
     }

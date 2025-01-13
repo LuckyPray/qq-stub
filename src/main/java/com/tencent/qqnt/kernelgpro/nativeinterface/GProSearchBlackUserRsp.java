@@ -67,7 +67,7 @@ public final class GProSearchBlackUserRsp {
     public GProSearchBlackUserRsp(long j, ArrayList<GProBlackUserInfo> arrayList, long j2, String str, byte[] bArr, String str2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), arrayList, Long.valueOf(j2), str, bArr, str2});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), arrayList, Long.valueOf(j2), str, bArr, str2);
             return;
         }
         this.memberList = new ArrayList<>();

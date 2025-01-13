@@ -51,7 +51,7 @@ public final class GProTextMedalInfo {
     public GProTextMedalInfo(String str, long j, int i, int i2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2)});
+            iPatchRedirector.redirect((short) 2, this, str, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2));
             return;
         }
         this.name = "";

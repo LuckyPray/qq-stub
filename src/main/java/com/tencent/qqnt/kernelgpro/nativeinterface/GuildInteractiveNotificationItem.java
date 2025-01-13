@@ -105,7 +105,7 @@ public final class GuildInteractiveNotificationItem {
     public GuildInteractiveNotificationItem(int i, int i2, long j, long j2, String str, long j3, String str2, String str3, String str4, int i3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Integer.valueOf(i2), Long.valueOf(j), Long.valueOf(j2), str, Long.valueOf(j3), str2, str3, str4, Integer.valueOf(i3)});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Integer.valueOf(i2), Long.valueOf(j), Long.valueOf(j2), str, Long.valueOf(j3), str2, str3, str4, Integer.valueOf(i3));
             return;
         }
         this.feedId = "";

@@ -63,7 +63,7 @@ public final class GProScheduleChannelInfo {
     public GProScheduleChannelInfo(long j, int i, long j2, String str, boolean z, boolean z2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), Long.valueOf(j2), str, Boolean.valueOf(z), Boolean.valueOf(z2)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Integer.valueOf(i), Long.valueOf(j2), str, Boolean.valueOf(z), Boolean.valueOf(z2));
             return;
         }
         this.channelName = "";

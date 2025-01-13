@@ -83,7 +83,7 @@ public final class GProGetRedPointRsp {
     public GProGetRedPointRsp(boolean z, int i, long j, long j2, String str, boolean z2, int i2, String str2, String str3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Boolean.valueOf(z), Integer.valueOf(i), Long.valueOf(j), Long.valueOf(j2), str, Boolean.valueOf(z2), Integer.valueOf(i2), str2, str3});
+            iPatchRedirector.redirect((short) 2, this, Boolean.valueOf(z), Integer.valueOf(i), Long.valueOf(j), Long.valueOf(j2), str, Boolean.valueOf(z2), Integer.valueOf(i2), str2, str3);
             return;
         }
         this.avatar = "";

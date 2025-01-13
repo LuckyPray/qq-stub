@@ -91,7 +91,7 @@ public final class GProRecommendChannel implements Serializable {
     public GProRecommendChannel(long j, String str, String str2, String str3, ArrayList<GProGuildChannelState> arrayList, ArrayList<String> arrayList2, int i, String str4, String str5) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, str3, arrayList, arrayList2, Integer.valueOf(i), str4, str5});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, str2, str3, arrayList, arrayList2, Integer.valueOf(i), str4, str5);
             return;
         }
         this.serialVersionUID = 1L;

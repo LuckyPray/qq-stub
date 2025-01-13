@@ -37,7 +37,7 @@ public final class VASMsgElement {
     public VASMsgElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94999, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.msgNamePlateInfo = new VASMsgNamePlate();
@@ -49,33 +49,33 @@ public final class VASMsgElement {
 
     public VASMsgAvatarPendant getAvatarPendantInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94999, (short) 5);
-        return redirector != null ? (VASMsgAvatarPendant) redirector.redirect((short) 5, (Object) this) : this.avatarPendantInfo;
+        return redirector != null ? (VASMsgAvatarPendant) redirector.redirect((short) 5, this) : this.avatarPendantInfo;
     }
 
     public VASMsgBubble getBubbleInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94999, (short) 4);
-        return redirector != null ? (VASMsgBubble) redirector.redirect((short) 4, (Object) this) : this.bubbleInfo;
+        return redirector != null ? (VASMsgBubble) redirector.redirect((short) 4, this) : this.bubbleInfo;
     }
 
     public VASMsgIceBreak getIceBreakInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94999, (short) 7);
-        return redirector != null ? (VASMsgIceBreak) redirector.redirect((short) 7, (Object) this) : this.iceBreakInfo;
+        return redirector != null ? (VASMsgIceBreak) redirector.redirect((short) 7, this) : this.iceBreakInfo;
     }
 
     public VASMsgNamePlate getMsgNamePlateInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94999, (short) 3);
-        return redirector != null ? (VASMsgNamePlate) redirector.redirect((short) 3, (Object) this) : this.msgNamePlateInfo;
+        return redirector != null ? (VASMsgNamePlate) redirector.redirect((short) 3, this) : this.msgNamePlateInfo;
     }
 
     public VASMsgFont getVasFont() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94999, (short) 6);
-        return redirector != null ? (VASMsgFont) redirector.redirect((short) 6, (Object) this) : this.vasFont;
+        return redirector != null ? (VASMsgFont) redirector.redirect((short) 6, this) : this.vasFont;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94999, (short) 8);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 8, (Object) this);
+            return (String) redirector.redirect((short) 8, this);
         }
         return "VASMsgElement{msgNamePlateInfo=" + this.msgNamePlateInfo + ",bubbleInfo=" + this.bubbleInfo + ",avatarPendantInfo=" + this.avatarPendantInfo + ",vasFont=" + this.vasFont + ",iceBreakInfo=" + this.iceBreakInfo + ",}";
     }

@@ -57,7 +57,7 @@ public final class FileElement implements IKernelModel {
     public FileElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.fileMd5 = "";
@@ -72,128 +72,128 @@ public final class FileElement implements IKernelModel {
 
     public Long getExpireTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 10);
-        return redirector != null ? (Long) redirector.redirect((short) 10, (Object) this) : this.expireTime;
+        return redirector != null ? (Long) redirector.redirect((short) 10, this) : this.expireTime;
     }
 
     public String getFile10MMd5() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 11);
-        return redirector != null ? (String) redirector.redirect((short) 11, (Object) this) : this.file10MMd5;
+        return redirector != null ? (String) redirector.redirect((short) 11, this) : this.file10MMd5;
     }
 
     public Integer getFileBizId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 21);
-        return redirector != null ? (Integer) redirector.redirect((short) 21, (Object) this) : this.fileBizId;
+        return redirector != null ? (Integer) redirector.redirect((short) 21, this) : this.fileBizId;
     }
 
     public Integer getFileGroupIndex() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 24);
-        return redirector != null ? (Integer) redirector.redirect((short) 24, (Object) this) : this.fileGroupIndex;
+        return redirector != null ? (Integer) redirector.redirect((short) 24, this) : this.fileGroupIndex;
     }
 
     public String getFileMd5() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.fileMd5;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.fileMd5;
     }
 
     public String getFileName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.fileName;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.fileName;
     }
 
     public String getFilePath() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.filePath;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.filePath;
     }
 
     public String getFileSha() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 12);
-        return redirector != null ? (String) redirector.redirect((short) 12, (Object) this) : this.fileSha;
+        return redirector != null ? (String) redirector.redirect((short) 12, this) : this.fileSha;
     }
 
     public String getFileSha3() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 13);
-        return redirector != null ? (String) redirector.redirect((short) 13, (Object) this) : this.fileSha3;
+        return redirector != null ? (String) redirector.redirect((short) 13, this) : this.fileSha3;
     }
 
     public long getFileSize() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 6);
-        return redirector != null ? ((Long) redirector.redirect((short) 6, (Object) this)).longValue() : this.fileSize;
+        return redirector != null ? ((Long) redirector.redirect((short) 6, this)).longValue() : this.fileSize;
     }
 
     public String getFileSubId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 19);
-        return redirector != null ? (String) redirector.redirect((short) 19, (Object) this) : this.fileSubId;
+        return redirector != null ? (String) redirector.redirect((short) 19, this) : this.fileSubId;
     }
 
     public Integer getFileTransType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 25);
-        return redirector != null ? (Integer) redirector.redirect((short) 25, (Object) this) : this.fileTransType;
+        return redirector != null ? (Integer) redirector.redirect((short) 25, this) : this.fileTransType;
     }
 
     public String getFileUuid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 18);
-        return redirector != null ? (String) redirector.redirect((short) 18, (Object) this) : this.fileUuid;
+        return redirector != null ? (String) redirector.redirect((short) 18, this) : this.fileUuid;
     }
 
     public String getFolderId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 23);
-        return redirector != null ? (String) redirector.redirect((short) 23, (Object) this) : this.folderId;
+        return redirector != null ? (String) redirector.redirect((short) 23, this) : this.folderId;
     }
 
     public Integer getInvalidState() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 17);
-        return redirector != null ? (Integer) redirector.redirect((short) 17, (Object) this) : this.invalidState;
+        return redirector != null ? (Integer) redirector.redirect((short) 17, this) : this.invalidState;
     }
 
     public Integer getPicHeight() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 7);
-        return redirector != null ? (Integer) redirector.redirect((short) 7, (Object) this) : this.picHeight;
+        return redirector != null ? (Integer) redirector.redirect((short) 7, this) : this.picHeight;
     }
 
     public HashMap<Integer, String> getPicThumbPath() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 9);
-        return redirector != null ? (HashMap) redirector.redirect((short) 9, (Object) this) : this.picThumbPath;
+        return redirector != null ? (HashMap) redirector.redirect((short) 9, this) : this.picThumbPath;
     }
 
     public Integer getPicWidth() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 8);
-        return redirector != null ? (Integer) redirector.redirect((short) 8, (Object) this) : this.picWidth;
+        return redirector != null ? (Integer) redirector.redirect((short) 8, this) : this.picWidth;
     }
 
     public Integer getProgress() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 16);
-        return redirector != null ? (Integer) redirector.redirect((short) 16, (Object) this) : this.progress;
+        return redirector != null ? (Integer) redirector.redirect((short) 16, this) : this.progress;
     }
 
     public Integer getSubElementType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 26);
-        return redirector != null ? (Integer) redirector.redirect((short) 26, (Object) this) : this.subElementType;
+        return redirector != null ? (Integer) redirector.redirect((short) 26, this) : this.subElementType;
     }
 
     public int getThumbFileSize() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 20);
-        return redirector != null ? ((Integer) redirector.redirect((short) 20, (Object) this)).intValue() : this.thumbFileSize;
+        return redirector != null ? ((Integer) redirector.redirect((short) 20, this)).intValue() : this.thumbFileSize;
     }
 
     public String getThumbMd5() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 22);
-        return redirector != null ? (String) redirector.redirect((short) 22, (Object) this) : this.thumbMd5;
+        return redirector != null ? (String) redirector.redirect((short) 22, this) : this.thumbMd5;
     }
 
     public Integer getTransferStatus() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 15);
-        return redirector != null ? (Integer) redirector.redirect((short) 15, (Object) this) : this.transferStatus;
+        return redirector != null ? (Integer) redirector.redirect((short) 15, this) : this.transferStatus;
     }
 
     public Integer getVideoDuration() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 14);
-        return redirector != null ? (Integer) redirector.redirect((short) 14, (Object) this) : this.videoDuration;
+        return redirector != null ? (Integer) redirector.redirect((short) 14, this) : this.videoDuration;
     }
 
     public void setExpireTime(Long l2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 34);
         if (redirector != null) {
-            redirector.redirect((short) 34, (Object) this, (Object) l2);
+            redirector.redirect((short) 34, this, l2);
         } else {
             this.expireTime = l2;
         }
@@ -202,7 +202,7 @@ public final class FileElement implements IKernelModel {
     public void setFile10MMd5(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 35);
         if (redirector != null) {
-            redirector.redirect((short) 35, (Object) this, (Object) str);
+            redirector.redirect((short) 35, this, str);
         } else {
             this.file10MMd5 = str;
         }
@@ -211,7 +211,7 @@ public final class FileElement implements IKernelModel {
     public void setFileBizId(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 45);
         if (redirector != null) {
-            redirector.redirect((short) 45, (Object) this, (Object) num);
+            redirector.redirect((short) 45, this, num);
         } else {
             this.fileBizId = num;
         }
@@ -220,7 +220,7 @@ public final class FileElement implements IKernelModel {
     public void setFileGroupIndex(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 48);
         if (redirector != null) {
-            redirector.redirect((short) 48, (Object) this, (Object) num);
+            redirector.redirect((short) 48, this, num);
         } else {
             this.fileGroupIndex = num;
         }
@@ -229,7 +229,7 @@ public final class FileElement implements IKernelModel {
     public void setFileMd5(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 27);
         if (redirector != null) {
-            redirector.redirect((short) 27, (Object) this, (Object) str);
+            redirector.redirect((short) 27, this, str);
         } else {
             this.fileMd5 = str;
         }
@@ -238,7 +238,7 @@ public final class FileElement implements IKernelModel {
     public void setFileName(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 28);
         if (redirector != null) {
-            redirector.redirect((short) 28, (Object) this, (Object) str);
+            redirector.redirect((short) 28, this, str);
         } else {
             this.fileName = str;
         }
@@ -247,7 +247,7 @@ public final class FileElement implements IKernelModel {
     public void setFilePath(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 29);
         if (redirector != null) {
-            redirector.redirect((short) 29, (Object) this, (Object) str);
+            redirector.redirect((short) 29, this, str);
         } else {
             this.filePath = str;
         }
@@ -256,7 +256,7 @@ public final class FileElement implements IKernelModel {
     public void setFileSha(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 36);
         if (redirector != null) {
-            redirector.redirect((short) 36, (Object) this, (Object) str);
+            redirector.redirect((short) 36, this, str);
         } else {
             this.fileSha = str;
         }
@@ -265,7 +265,7 @@ public final class FileElement implements IKernelModel {
     public void setFileSha3(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 37);
         if (redirector != null) {
-            redirector.redirect((short) 37, (Object) this, (Object) str);
+            redirector.redirect((short) 37, this, str);
         } else {
             this.fileSha3 = str;
         }
@@ -274,7 +274,7 @@ public final class FileElement implements IKernelModel {
     public void setFileSize(long j2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 30);
         if (redirector != null) {
-            redirector.redirect((short) 30, (Object) this, j2);
+            redirector.redirect((short) 30, this, j2);
         } else {
             this.fileSize = j2;
         }
@@ -283,7 +283,7 @@ public final class FileElement implements IKernelModel {
     public void setFileSubId(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 43);
         if (redirector != null) {
-            redirector.redirect((short) 43, (Object) this, (Object) str);
+            redirector.redirect((short) 43, this, str);
         } else {
             this.fileSubId = str;
         }
@@ -292,7 +292,7 @@ public final class FileElement implements IKernelModel {
     public void setFileTransType(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 49);
         if (redirector != null) {
-            redirector.redirect((short) 49, (Object) this, (Object) num);
+            redirector.redirect((short) 49, this, num);
         } else {
             this.fileTransType = num;
         }
@@ -301,7 +301,7 @@ public final class FileElement implements IKernelModel {
     public void setFileUuid(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 42);
         if (redirector != null) {
-            redirector.redirect((short) 42, (Object) this, (Object) str);
+            redirector.redirect((short) 42, this, str);
         } else {
             this.fileUuid = str;
         }
@@ -310,7 +310,7 @@ public final class FileElement implements IKernelModel {
     public void setFolderId(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 47);
         if (redirector != null) {
-            redirector.redirect((short) 47, (Object) this, (Object) str);
+            redirector.redirect((short) 47, this, str);
         } else {
             this.folderId = str;
         }
@@ -319,7 +319,7 @@ public final class FileElement implements IKernelModel {
     public void setInvalidState(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 41);
         if (redirector != null) {
-            redirector.redirect((short) 41, (Object) this, (Object) num);
+            redirector.redirect((short) 41, this, num);
         } else {
             this.invalidState = num;
         }
@@ -328,7 +328,7 @@ public final class FileElement implements IKernelModel {
     public void setPicHeight(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 31);
         if (redirector != null) {
-            redirector.redirect((short) 31, (Object) this, (Object) num);
+            redirector.redirect((short) 31, this, num);
         } else {
             this.picHeight = num;
         }
@@ -337,7 +337,7 @@ public final class FileElement implements IKernelModel {
     public void setPicThumbPath(HashMap<Integer, String> hashMap) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 33);
         if (redirector != null) {
-            redirector.redirect((short) 33, (Object) this, (Object) hashMap);
+            redirector.redirect((short) 33, this, hashMap);
         } else {
             this.picThumbPath = hashMap;
         }
@@ -346,7 +346,7 @@ public final class FileElement implements IKernelModel {
     public void setPicWidth(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 32);
         if (redirector != null) {
-            redirector.redirect((short) 32, (Object) this, (Object) num);
+            redirector.redirect((short) 32, this, num);
         } else {
             this.picWidth = num;
         }
@@ -355,7 +355,7 @@ public final class FileElement implements IKernelModel {
     public void setProgress(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 40);
         if (redirector != null) {
-            redirector.redirect((short) 40, (Object) this, (Object) num);
+            redirector.redirect((short) 40, this, num);
         } else {
             this.progress = num;
         }
@@ -364,7 +364,7 @@ public final class FileElement implements IKernelModel {
     public void setSubElementType(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 50);
         if (redirector != null) {
-            redirector.redirect((short) 50, (Object) this, (Object) num);
+            redirector.redirect((short) 50, this, num);
         } else {
             this.subElementType = num;
         }
@@ -373,7 +373,7 @@ public final class FileElement implements IKernelModel {
     public void setThumbFileSize(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 44);
         if (redirector != null) {
-            redirector.redirect((short) 44, (Object) this, i2);
+            redirector.redirect((short) 44, this, i2);
         } else {
             this.thumbFileSize = i2;
         }
@@ -382,7 +382,7 @@ public final class FileElement implements IKernelModel {
     public void setThumbMd5(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 46);
         if (redirector != null) {
-            redirector.redirect((short) 46, (Object) this, (Object) str);
+            redirector.redirect((short) 46, this, str);
         } else {
             this.thumbMd5 = str;
         }
@@ -391,7 +391,7 @@ public final class FileElement implements IKernelModel {
     public void setTransferStatus(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 39);
         if (redirector != null) {
-            redirector.redirect((short) 39, (Object) this, (Object) num);
+            redirector.redirect((short) 39, this, num);
         } else {
             this.transferStatus = num;
         }
@@ -400,7 +400,7 @@ public final class FileElement implements IKernelModel {
     public void setVideoDuration(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 38);
         if (redirector != null) {
-            redirector.redirect((short) 38, (Object) this, (Object) num);
+            redirector.redirect((short) 38, this, num);
         } else {
             this.videoDuration = num;
         }
@@ -409,7 +409,7 @@ public final class FileElement implements IKernelModel {
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83552, (short) 51);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 51, (Object) this);
+            return (String) redirector.redirect((short) 51, this);
         }
         return "FileElement{fileMd5=" + this.fileMd5 + ",fileName=" + this.fileName + ",filePath=" + this.filePath + ",fileSize=" + this.fileSize + ",picHeight=" + this.picHeight + ",picWidth=" + this.picWidth + ",picThumbPath=" + this.picThumbPath + ",expireTime=" + this.expireTime + ",file10MMd5=" + this.file10MMd5 + ",fileSha=" + this.fileSha + ",fileSha3=" + this.fileSha3 + ",videoDuration=" + this.videoDuration + ",transferStatus=" + this.transferStatus + ",progress=" + this.progress + ",invalidState=" + this.invalidState + ",fileUuid=" + this.fileUuid + ",fileSubId=" + this.fileSubId + ",thumbFileSize=" + this.thumbFileSize + ",fileBizId=" + this.fileBizId + ",thumbMd5=" + this.thumbMd5 + ",folderId=" + this.folderId + ",fileGroupIndex=" + this.fileGroupIndex + ",fileTransType=" + this.fileTransType + ",subElementType=" + this.subElementType + ",}";
     }

@@ -137,7 +137,7 @@ public final class GProPlayNodeInfo implements Serializable {
     public GProPlayNodeInfo(String str, String str2, String str3, String str4, String str5, int i, String str6, String str7, String str8, ArrayList<String> arrayList, int i2, long j, String str9, String str10, long j2, long j3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, str4, str5, Integer.valueOf(i), str6, str7, str8, arrayList, Integer.valueOf(i2), Long.valueOf(j), str9, str10, Long.valueOf(j2), Long.valueOf(j3)});
+            iPatchRedirector.redirect((short) 2, this, str, str2, str3, str4, str5, Integer.valueOf(i), str6, str7, str8, arrayList, Integer.valueOf(i2), Long.valueOf(j), str9, str10, Long.valueOf(j2), Long.valueOf(j3));
             return;
         }
         this.serialVersionUID = 1L;

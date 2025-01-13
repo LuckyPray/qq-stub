@@ -123,7 +123,7 @@ public final class GProScheduleInfo {
     public GProScheduleInfo(long j, String str, long j2, long j3, String str2, int i, GProScheduleChannelInfo gProScheduleChannelInfo, int i2, long j4, GProScheduleUser gProScheduleUser, int i3, int i4, ArrayList<GProScheduleUser> arrayList, boolean z) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, Long.valueOf(j2), Long.valueOf(j3), str2, Integer.valueOf(i), gProScheduleChannelInfo, Integer.valueOf(i2), Long.valueOf(j4), gProScheduleUser, Integer.valueOf(i3), Integer.valueOf(i4), arrayList, Boolean.valueOf(z)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, Long.valueOf(j2), Long.valueOf(j3), str2, Integer.valueOf(i), gProScheduleChannelInfo, Integer.valueOf(i2), Long.valueOf(j4), gProScheduleUser, Integer.valueOf(i3), Integer.valueOf(i4), arrayList, Boolean.valueOf(z));
             return;
         }
         this.title = "";

@@ -89,7 +89,7 @@ public final class GProDoLikeCommentForFeedReq {
     public GProDoLikeCommentForFeedReq(GProFDLStCommonExt gProFDLStCommonExt, int i, String str, String str2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, gProFDLStCommonExt, Integer.valueOf(i), str, str2});
+            iPatchRedirector.redirect((short) 2, this, gProFDLStCommonExt, Integer.valueOf(i), str, str2);
             return;
         }
         this.extInfo = new GProFDLStCommonExt();

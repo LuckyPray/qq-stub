@@ -142,7 +142,7 @@ public final class GProEnterAudioLiveChannelRsp implements Serializable {
     public GProEnterAudioLiveChannelRsp(String str, boolean z, int i, int i2, String str2, String str3, ArrayList<GProStreamInfo> arrayList, String str4, GProAVChannelConfig gProAVChannelConfig, ArrayList<GProUserBarNodePermission> arrayList2, String str5, int i3, GProEnterAVChannelPermissionInfo gProEnterAVChannelPermissionInfo, GProEnterChannelPermission gProEnterChannelPermission, long j, long j2, long j3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, Boolean.valueOf(z), Integer.valueOf(i), Integer.valueOf(i2), str2, str3, arrayList, str4, gProAVChannelConfig, arrayList2, str5, Integer.valueOf(i3), gProEnterAVChannelPermissionInfo, gProEnterChannelPermission, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3)});
+            iPatchRedirector.redirect((short) 2, this, str, Boolean.valueOf(z), Integer.valueOf(i), Integer.valueOf(i2), str2, str3, arrayList, str4, gProAVChannelConfig, arrayList2, str5, Integer.valueOf(i3), gProEnterAVChannelPermissionInfo, gProEnterChannelPermission, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3));
             return;
         }
         this.serialVersionUID = 1L;

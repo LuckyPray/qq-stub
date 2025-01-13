@@ -112,7 +112,7 @@ public final class GProPollingData {
     public GProPollingData(int i, long j, long j2, long j3, byte[] bArr, byte[] bArr2, GProChannelMemberInfos gProChannelMemberInfos, GProLiveResultItem gProLiveResultItem, ArrayList<GProStickyChannel> arrayList, boolean z, long j4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), bArr, bArr2, gProChannelMemberInfos, gProLiveResultItem, arrayList, Boolean.valueOf(z), Long.valueOf(j4)});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), bArr, bArr2, gProChannelMemberInfos, gProLiveResultItem, arrayList, Boolean.valueOf(z), Long.valueOf(j4));
             return;
         }
         this.cookie = new byte[0];

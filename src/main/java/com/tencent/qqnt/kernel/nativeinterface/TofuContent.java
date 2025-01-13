@@ -34,24 +34,24 @@ public final class TofuContent {
     public TofuContent() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94842, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public String getColor() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94842, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.color;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.color;
     }
 
     public String getTitle() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94842, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.title;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.title;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94842, (short) 5);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 5, (Object) this);
+            return (String) redirector.redirect((short) 5, this);
         }
         return "TofuContent{title=" + this.title + ",color=" + this.color + ",}";
     }
@@ -59,7 +59,7 @@ public final class TofuContent {
     public TofuContent(String str, String str2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94842, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, (Object) str, (Object) str2);
+            redirector.redirect((short) 2, this, str, str2);
             return;
         }
         this.title = str;

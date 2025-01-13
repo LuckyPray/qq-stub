@@ -56,7 +56,7 @@ public final class GProMedalInfo implements Serializable {
     public GProMedalInfo(String str, String str2, long j, GProOfficialMedalInfoExt gProOfficialMedalInfoExt) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, Long.valueOf(j), gProOfficialMedalInfoExt});
+            iPatchRedirector.redirect((short) 2, this, str, str2, Long.valueOf(j), gProOfficialMedalInfoExt);
             return;
         }
         this.serialVersionUID = 1L;

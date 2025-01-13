@@ -155,7 +155,7 @@ public final class MsgAbstractElement implements Serializable {
     public MsgAbstractElement(int i, Integer num, String str, String str2, Integer num2, Boolean bool, Boolean bool2, Integer num3, String str3, String str4, Long l, Long l2, Long l3, Integer num4, Integer num5, Integer num6, GrayTipElement grayTipElement, TextGiftElement textGiftElement, CalendarElement calendarElement, ChannelStateElement channelStateElement, Integer num7) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), num, str, str2, num2, bool, bool2, num3, str3, str4, l, l2, l3, num4, num5, num6, grayTipElement, textGiftElement, calendarElement, channelStateElement, num7});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), num, str, str2, num2, bool, bool2, num3, str3, str4, l, l2, l3, num4, num5, num6, grayTipElement, textGiftElement, calendarElement, channelStateElement, num7);
             return;
         }
         this.serialVersionUID = 1L;

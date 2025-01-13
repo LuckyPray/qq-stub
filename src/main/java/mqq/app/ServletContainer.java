@@ -17,8 +17,8 @@ import mqq.util.MqqConnRateReport.EventType;
 
 public class ServletContainer {
     private final ConcurrentHashMap<String, Set<String>> actionMap = new ConcurrentHashMap();
-    private AppRuntime app;
-    private ExecutorService mService = Executors.newSingleThreadExecutor(new ThreadFactory() {
+    private final AppRuntime app;
+    private final ExecutorService mService = Executors.newSingleThreadExecutor(new ThreadFactory() {
         public Thread newThread(Runnable r) {
             return new Thread(r, "ServletForward");
         }
@@ -34,10 +34,10 @@ public class ServletContainer {
     }
 
     Servlet getServlet(String className) {
-        Servlet servlet = (Servlet) this.managedServlet.get(className);
+        Servlet servlet = this.managedServlet.get(className);
         if (servlet == null) {
             synchronized (this.managedServlet) {
-                servlet = (Servlet) this.managedServlet.get(className);
+                servlet = this.managedServlet.get(className);
                 if (servlet == null) {
                     Class<?> cls;
                     try {
@@ -51,7 +51,7 @@ public class ServletContainer {
                             String[] actions = ((MSFServlet) servlet).getPreferSSOCommands();
                             if (actions != null) {
                                 for (String action : actions) {
-                                    Set<String> set = (Set) this.actionMap.get(action);
+                                    Set<String> set = this.actionMap.get(action);
                                     if (set == null) {
                                         set = new HashSet();
                                         this.actionMap.put(action, set);
@@ -78,7 +78,7 @@ public class ServletContainer {
                 sendServlet.onReceive(res);
             }
         }
-        Set<String> set = (Set) this.actionMap.get(res.getServiceCmd());
+        Set<String> set = this.actionMap.get(res.getServiceCmd());
         if (set != null) {
             for (String className : set) {
                 MSFServlet servlet = (MSFServlet) getServlet(className);
@@ -96,7 +96,7 @@ public class ServletContainer {
     public void destroy() {
         this.mService.shutdown();
         for (Entry<String, Servlet> entry : this.managedServlet.entrySet()) {
-            ((Servlet) entry.getValue()).onDestroy();
+            entry.getValue().onDestroy();
         }
         this.managedServlet.clear();
     }

@@ -48,7 +48,7 @@ public final class TofuRecordElement {
     public TofuRecordElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.busiuuid = "";
@@ -58,83 +58,83 @@ public final class TofuRecordElement {
 
     public String getBackground() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 9);
-        return redirector != null ? (String) redirector.redirect((short) 9, (Object) this) : this.background;
+        return redirector != null ? (String) redirector.redirect((short) 9, this) : this.background;
     }
 
     public int getBeancurstyle() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 6);
-        return redirector != null ? ((Integer) redirector.redirect((short) 6, (Object) this)).intValue() : this.beancurstyle;
+        return redirector != null ? ((Integer) redirector.redirect((short) 6, this)).intValue() : this.beancurstyle;
     }
 
     public String getBusiExtra() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 13);
-        return redirector != null ? (String) redirector.redirect((short) 13, (Object) this) : this.busiExtra;
+        return redirector != null ? (String) redirector.redirect((short) 13, this) : this.busiExtra;
     }
 
     public long getBusiid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.busiid;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.busiid;
     }
 
     public String getBusiuuid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.busiuuid;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.busiuuid;
     }
 
     public ArrayList<TofuContent> getContentlist() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 8);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 8, (Object) this) : this.contentlist;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 8, this) : this.contentlist;
     }
 
     public long getDependedmsgid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 15);
-        return redirector != null ? ((Long) redirector.redirect((short) 15, (Object) this)).longValue() : this.dependedmsgid;
+        return redirector != null ? ((Long) redirector.redirect((short) 15, this)).longValue() : this.dependedmsgid;
     }
 
     public TofuContent getDescriptionContent() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 7);
-        return redirector != null ? (TofuContent) redirector.redirect((short) 7, (Object) this) : this.descriptionContent;
+        return redirector != null ? (TofuContent) redirector.redirect((short) 7, this) : this.descriptionContent;
     }
 
     public String getIcon() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 10);
-        return redirector != null ? (String) redirector.redirect((short) 10, (Object) this) : this.icon;
+        return redirector != null ? (String) redirector.redirect((short) 10, this) : this.icon;
     }
 
     public long getMsgtime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 16);
-        return redirector != null ? ((Long) redirector.redirect((short) 16, (Object) this)).longValue() : this.msgtime;
+        return redirector != null ? ((Long) redirector.redirect((short) 16, this)).longValue() : this.msgtime;
     }
 
     public boolean getOnscreennotify() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 17);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 17, (Object) this)).booleanValue() : this.onscreennotify;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 17, this)).booleanValue() : this.onscreennotify;
     }
 
     public int getType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.type;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.type;
     }
 
     public ArrayList<String> getUidlist() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 12);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 12, (Object) this) : this.uidlist;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 12, this) : this.uidlist;
     }
 
     public ArrayList<Long> getUinlist() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 11);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 11, (Object) this) : this.uinlist;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 11, this) : this.uinlist;
     }
 
     public long getUpdateTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 14);
-        return redirector != null ? ((Long) redirector.redirect((short) 14, (Object) this)).longValue() : this.updateTime;
+        return redirector != null ? ((Long) redirector.redirect((short) 14, this)).longValue() : this.updateTime;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94847, (short) 18);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 18, (Object) this);
+            return (String) redirector.redirect((short) 18, this);
         }
         return "TofuRecordElement{type=" + this.type + ",busiid=" + this.busiid + ",busiuuid=" + this.busiuuid + ",beancurstyle=" + this.beancurstyle + ",descriptionContent=" + this.descriptionContent + ",contentlist=" + this.contentlist + ",background=" + this.background + ",icon=" + this.icon + ",uinlist=" + this.uinlist + ",uidlist=" + this.uidlist + ",busiExtra=" + this.busiExtra + ",updateTime=" + this.updateTime + ",dependedmsgid=" + this.dependedmsgid + ",msgtime=" + this.msgtime + ",onscreennotify=" + this.onscreennotify + ",}";
     }

@@ -87,7 +87,7 @@ public final class GProRecommendNewCardReq {
     public GProRecommendNewCardReq(int i, byte[] bArr, GProBottomTabSourceInfo gProBottomTabSourceInfo, int i2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), bArr, gProBottomTabSourceInfo, Integer.valueOf(i2)});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), bArr, gProBottomTabSourceInfo, Integer.valueOf(i2));
             return;
         }
         this.cookies = new byte[0];

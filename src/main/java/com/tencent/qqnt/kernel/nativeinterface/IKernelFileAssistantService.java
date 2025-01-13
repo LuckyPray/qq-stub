@@ -10,7 +10,7 @@ public interface IKernelFileAssistantService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelFileAssistantService$CppProxy.class */
-    public static final class CppProxy implements IKernelFileAssistantService {
+    final class CppProxy implements IKernelFileAssistantService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

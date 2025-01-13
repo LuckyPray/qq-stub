@@ -6,10 +6,10 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 /* loaded from: classes.jar:com/tencent/qqnt/kernelgpro/nativeinterface/IQQGProWrapperSession.class */
 public interface IQQGProWrapperSession {
-    public static final IPatchRedirector $redirector_ = null;
+    IPatchRedirector $redirector_ = null;
 
     /* loaded from: classes.jar:com/tencent/qqnt/kernelgpro/nativeinterface/IQQGProWrapperSession$CppProxy.class */
-    public static final class CppProxy implements IQQGProWrapperSession {
+    final class CppProxy implements IQQGProWrapperSession {
         static final boolean $assertionsDisabled;
         static IPatchRedirector $redirector_;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);

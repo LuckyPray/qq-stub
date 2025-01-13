@@ -78,7 +78,7 @@ public final class GProVoiceSmobaGameRoomStateInfo implements Serializable {
     public GProVoiceSmobaGameRoomStateInfo(long j, int i, GProVoiceSmobaGameGameStaticInfo gProVoiceSmobaGameGameStaticInfo, int i2, long j2, long j3, long j4, GProVoiceSmobaGameCaptainUserInfo gProVoiceSmobaGameCaptainUserInfo) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), gProVoiceSmobaGameGameStaticInfo, Integer.valueOf(i2), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), gProVoiceSmobaGameCaptainUserInfo});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Integer.valueOf(i), gProVoiceSmobaGameGameStaticInfo, Integer.valueOf(i2), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), gProVoiceSmobaGameCaptainUserInfo);
             return;
         }
         this.serialVersionUID = 1L;

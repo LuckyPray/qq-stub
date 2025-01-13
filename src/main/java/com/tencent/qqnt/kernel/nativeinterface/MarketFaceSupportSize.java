@@ -34,24 +34,24 @@ public final class MarketFaceSupportSize {
     public MarketFaceSupportSize() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93421, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public int getHeight() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93421, (short) 4);
-        return redirector != null ? ((Integer) redirector.redirect((short) 4, (Object) this)).intValue() : this.height;
+        return redirector != null ? ((Integer) redirector.redirect((short) 4, this)).intValue() : this.height;
     }
 
     public int getWidth() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93421, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.width;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.width;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93421, (short) 5);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 5, (Object) this);
+            return (String) redirector.redirect((short) 5, this);
         }
         return "MarketFaceSupportSize{width=" + this.width + ",height=" + this.height + ",}";
     }

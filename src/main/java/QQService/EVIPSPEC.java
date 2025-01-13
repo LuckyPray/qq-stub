@@ -12,11 +12,11 @@ public final class EVIPSPEC implements Serializable {
     public static final int _E_SP_QQVIP = 1;
     public static final int _E_SP_SUPERQQ = 2;
     public static final int _E_SP_SUPERVIP = 3;
-    private String __T;
-    private int __value;
+    private final String __T;
+    private final int __value;
 
     /* renamed from: e  reason: collision with root package name */
-    private static EVIPSPEC[] f5192e = new EVIPSPEC[7];
+    private static final EVIPSPEC[] f5192e = new EVIPSPEC[7];
     public static final EVIPSPEC E_SP_QQVIP = new EVIPSPEC(0, 1, "E_SP_QQVIP");
     public static final EVIPSPEC E_SP_SUPERQQ = new EVIPSPEC(1, 2, "E_SP_SUPERQQ");
     public static final EVIPSPEC E_SP_SUPERVIP = new EVIPSPEC(2, 3, "E_SP_SUPERVIP");

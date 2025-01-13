@@ -40,54 +40,54 @@ public final class FaceBubbleElement {
     public FaceBubbleElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public String getContent() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 7);
-        return redirector != null ? (String) redirector.redirect((short) 7, (Object) this) : this.content;
+        return redirector != null ? (String) redirector.redirect((short) 7, this) : this.content;
     }
 
     public Integer getFaceCount() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 4);
-        return redirector != null ? (Integer) redirector.redirect((short) 4, (Object) this) : this.faceCount;
+        return redirector != null ? (Integer) redirector.redirect((short) 4, this) : this.faceCount;
     }
 
     public Integer getFaceFlag() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 6);
-        return redirector != null ? (Integer) redirector.redirect((short) 6, (Object) this) : this.faceFlag;
+        return redirector != null ? (Integer) redirector.redirect((short) 6, this) : this.faceFlag;
     }
 
     public String getFaceSummary() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.faceSummary;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.faceSummary;
     }
 
     public int getFaceType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.faceType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.faceType;
     }
 
     public String getOldVersionStr() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 8);
-        return redirector != null ? (String) redirector.redirect((short) 8, (Object) this) : this.oldVersionStr;
+        return redirector != null ? (String) redirector.redirect((short) 8, this) : this.oldVersionStr;
     }
 
     public String getOthers() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 9);
-        return redirector != null ? (String) redirector.redirect((short) 9, (Object) this) : this.others;
+        return redirector != null ? (String) redirector.redirect((short) 9, this) : this.others;
     }
 
     public SmallYellowFaceInfo getYellowFaceInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 10);
-        return redirector != null ? (SmallYellowFaceInfo) redirector.redirect((short) 10, (Object) this) : this.yellowFaceInfo;
+        return redirector != null ? (SmallYellowFaceInfo) redirector.redirect((short) 10, this) : this.yellowFaceInfo;
     }
 
     public void setContent(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 15);
         if (redirector != null) {
-            redirector.redirect((short) 15, (Object) this, (Object) str);
+            redirector.redirect((short) 15, this, str);
         } else {
             this.content = str;
         }
@@ -96,7 +96,7 @@ public final class FaceBubbleElement {
     public void setFaceCount(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 12);
         if (redirector != null) {
-            redirector.redirect((short) 12, (Object) this, (Object) num);
+            redirector.redirect((short) 12, this, num);
         } else {
             this.faceCount = num;
         }
@@ -105,7 +105,7 @@ public final class FaceBubbleElement {
     public void setFaceFlag(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 14);
         if (redirector != null) {
-            redirector.redirect((short) 14, (Object) this, (Object) num);
+            redirector.redirect((short) 14, this, num);
         } else {
             this.faceFlag = num;
         }
@@ -114,7 +114,7 @@ public final class FaceBubbleElement {
     public void setFaceSummary(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 13);
         if (redirector != null) {
-            redirector.redirect((short) 13, (Object) this, (Object) str);
+            redirector.redirect((short) 13, this, str);
         } else {
             this.faceSummary = str;
         }
@@ -123,7 +123,7 @@ public final class FaceBubbleElement {
     public void setFaceType(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 11);
         if (redirector != null) {
-            redirector.redirect((short) 11, (Object) this, i2);
+            redirector.redirect((short) 11, this, i2);
         } else {
             this.faceType = i2;
         }
@@ -132,7 +132,7 @@ public final class FaceBubbleElement {
     public void setOldVersionStr(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 16);
         if (redirector != null) {
-            redirector.redirect((short) 16, (Object) this, (Object) str);
+            redirector.redirect((short) 16, this, str);
         } else {
             this.oldVersionStr = str;
         }
@@ -141,7 +141,7 @@ public final class FaceBubbleElement {
     public void setOthers(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 17);
         if (redirector != null) {
-            redirector.redirect((short) 17, (Object) this, (Object) str);
+            redirector.redirect((short) 17, this, str);
         } else {
             this.others = str;
         }
@@ -150,7 +150,7 @@ public final class FaceBubbleElement {
     public void setYellowFaceInfo(SmallYellowFaceInfo smallYellowFaceInfo) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 18);
         if (redirector != null) {
-            redirector.redirect((short) 18, (Object) this, (Object) smallYellowFaceInfo);
+            redirector.redirect((short) 18, this, smallYellowFaceInfo);
         } else {
             this.yellowFaceInfo = smallYellowFaceInfo;
         }
@@ -159,7 +159,7 @@ public final class FaceBubbleElement {
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83136, (short) 19);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 19, (Object) this);
+            return (String) redirector.redirect((short) 19, this);
         }
         return "FaceBubbleElement{faceType=" + this.faceType + ",faceCount=" + this.faceCount + ",faceSummary=" + this.faceSummary + ",faceFlag=" + this.faceFlag + ",content=" + this.content + ",oldVersionStr=" + this.oldVersionStr + ",others=" + this.others + ",yellowFaceInfo=" + this.yellowFaceInfo + ",}";
     }

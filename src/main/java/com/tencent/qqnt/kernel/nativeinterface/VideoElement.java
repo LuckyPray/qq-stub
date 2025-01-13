@@ -54,7 +54,7 @@ public final class VideoElement implements IKernelModel {
     public VideoElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.filePath = "";
@@ -68,113 +68,113 @@ public final class VideoElement implements IKernelModel {
 
     public int getBusiType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 13);
-        return redirector != null ? ((Integer) redirector.redirect((short) 13, (Object) this)).intValue() : this.busiType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 13, this)).intValue() : this.busiType;
     }
 
     public Integer getFileBizId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 21);
-        return redirector != null ? (Integer) redirector.redirect((short) 21, (Object) this) : this.fileBizId;
+        return redirector != null ? (Integer) redirector.redirect((short) 21, this) : this.fileBizId;
     }
 
     public int getFileFormat() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 9);
-        return redirector != null ? ((Integer) redirector.redirect((short) 9, (Object) this)).intValue() : this.fileFormat;
+        return redirector != null ? ((Integer) redirector.redirect((short) 9, this)).intValue() : this.fileFormat;
     }
 
     public String getFileName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.fileName;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.fileName;
     }
 
     public String getFilePath() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.filePath;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.filePath;
     }
 
     public long getFileSize() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 10);
-        return redirector != null ? ((Long) redirector.redirect((short) 10, (Object) this)).longValue() : this.fileSize;
+        return redirector != null ? ((Long) redirector.redirect((short) 10, this)).longValue() : this.fileSize;
     }
 
     public String getFileSubId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 20);
-        return redirector != null ? (String) redirector.redirect((short) 20, (Object) this) : this.fileSubId;
+        return redirector != null ? (String) redirector.redirect((short) 20, this) : this.fileSubId;
     }
 
     public int getFileTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 7);
-        return redirector != null ? ((Integer) redirector.redirect((short) 7, (Object) this)).intValue() : this.fileTime;
+        return redirector != null ? ((Integer) redirector.redirect((short) 7, this)).intValue() : this.fileTime;
     }
 
     public String getFileUuid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 19);
-        return redirector != null ? (String) redirector.redirect((short) 19, (Object) this) : this.fileUuid;
+        return redirector != null ? (String) redirector.redirect((short) 19, this) : this.fileUuid;
     }
 
     public byte[] getImportRichMediaContext() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 23);
-        return redirector != null ? (byte[]) redirector.redirect((short) 23, (Object) this) : this.importRichMediaContext;
+        return redirector != null ? (byte[]) redirector.redirect((short) 23, this) : this.importRichMediaContext;
     }
 
     public Integer getInvalidState() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 18);
-        return redirector != null ? (Integer) redirector.redirect((short) 18, (Object) this) : this.invalidState;
+        return redirector != null ? (Integer) redirector.redirect((short) 18, this) : this.invalidState;
     }
 
     public String getOriginVideoMd5() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 22);
-        return redirector != null ? (String) redirector.redirect((short) 22, (Object) this) : this.originVideoMd5;
+        return redirector != null ? (String) redirector.redirect((short) 22, this) : this.originVideoMd5;
     }
 
     public Integer getProgress() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 17);
-        return redirector != null ? (Integer) redirector.redirect((short) 17, (Object) this) : this.progress;
+        return redirector != null ? (Integer) redirector.redirect((short) 17, this) : this.progress;
     }
 
     public int getSubBusiType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 14);
-        return redirector != null ? ((Integer) redirector.redirect((short) 14, (Object) this)).intValue() : this.subBusiType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 14, this)).intValue() : this.subBusiType;
     }
 
     public int getThumbHeight() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 12);
-        return redirector != null ? ((Integer) redirector.redirect((short) 12, (Object) this)).intValue() : this.thumbHeight;
+        return redirector != null ? ((Integer) redirector.redirect((short) 12, this)).intValue() : this.thumbHeight;
     }
 
     public String getThumbMd5() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 6);
-        return redirector != null ? (String) redirector.redirect((short) 6, (Object) this) : this.thumbMd5;
+        return redirector != null ? (String) redirector.redirect((short) 6, this) : this.thumbMd5;
     }
 
     public HashMap<Integer, String> getThumbPath() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 15);
-        return redirector != null ? (HashMap) redirector.redirect((short) 15, (Object) this) : this.thumbPath;
+        return redirector != null ? (HashMap) redirector.redirect((short) 15, this) : this.thumbPath;
     }
 
     public int getThumbSize() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 8);
-        return redirector != null ? ((Integer) redirector.redirect((short) 8, (Object) this)).intValue() : this.thumbSize;
+        return redirector != null ? ((Integer) redirector.redirect((short) 8, this)).intValue() : this.thumbSize;
     }
 
     public int getThumbWidth() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 11);
-        return redirector != null ? ((Integer) redirector.redirect((short) 11, (Object) this)).intValue() : this.thumbWidth;
+        return redirector != null ? ((Integer) redirector.redirect((short) 11, this)).intValue() : this.thumbWidth;
     }
 
     public Integer getTransferStatus() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 16);
-        return redirector != null ? (Integer) redirector.redirect((short) 16, (Object) this) : this.transferStatus;
+        return redirector != null ? (Integer) redirector.redirect((short) 16, this) : this.transferStatus;
     }
 
     public String getVideoMd5() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.videoMd5;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.videoMd5;
     }
 
     public void setBusiType(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 34);
         if (redirector != null) {
-            redirector.redirect((short) 34, (Object) this, i2);
+            redirector.redirect((short) 34, this, i2);
         } else {
             this.busiType = i2;
         }
@@ -183,7 +183,7 @@ public final class VideoElement implements IKernelModel {
     public void setFileBizId(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 42);
         if (redirector != null) {
-            redirector.redirect((short) 42, (Object) this, (Object) num);
+            redirector.redirect((short) 42, this, num);
         } else {
             this.fileBizId = num;
         }
@@ -192,7 +192,7 @@ public final class VideoElement implements IKernelModel {
     public void setFileFormat(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 30);
         if (redirector != null) {
-            redirector.redirect((short) 30, (Object) this, i2);
+            redirector.redirect((short) 30, this, i2);
         } else {
             this.fileFormat = i2;
         }
@@ -201,7 +201,7 @@ public final class VideoElement implements IKernelModel {
     public void setFileName(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 25);
         if (redirector != null) {
-            redirector.redirect((short) 25, (Object) this, (Object) str);
+            redirector.redirect((short) 25, this, str);
         } else {
             this.fileName = str;
         }
@@ -210,7 +210,7 @@ public final class VideoElement implements IKernelModel {
     public void setFilePath(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 24);
         if (redirector != null) {
-            redirector.redirect((short) 24, (Object) this, (Object) str);
+            redirector.redirect((short) 24, this, str);
         } else {
             this.filePath = str;
         }
@@ -219,7 +219,7 @@ public final class VideoElement implements IKernelModel {
     public void setFileSize(long j2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 31);
         if (redirector != null) {
-            redirector.redirect((short) 31, (Object) this, j2);
+            redirector.redirect((short) 31, this, j2);
         } else {
             this.fileSize = j2;
         }
@@ -228,7 +228,7 @@ public final class VideoElement implements IKernelModel {
     public void setFileSubId(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 41);
         if (redirector != null) {
-            redirector.redirect((short) 41, (Object) this, (Object) str);
+            redirector.redirect((short) 41, this, str);
         } else {
             this.fileSubId = str;
         }
@@ -237,7 +237,7 @@ public final class VideoElement implements IKernelModel {
     public void setFileTime(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 28);
         if (redirector != null) {
-            redirector.redirect((short) 28, (Object) this, i2);
+            redirector.redirect((short) 28, this, i2);
         } else {
             this.fileTime = i2;
         }
@@ -246,7 +246,7 @@ public final class VideoElement implements IKernelModel {
     public void setFileUuid(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 40);
         if (redirector != null) {
-            redirector.redirect((short) 40, (Object) this, (Object) str);
+            redirector.redirect((short) 40, this, str);
         } else {
             this.fileUuid = str;
         }
@@ -255,7 +255,7 @@ public final class VideoElement implements IKernelModel {
     public void setImportRichMediaContext(byte[] bArr) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 44);
         if (redirector != null) {
-            redirector.redirect((short) 44, (Object) this, (Object) bArr);
+            redirector.redirect((short) 44, this, bArr);
         } else {
             this.importRichMediaContext = bArr;
         }
@@ -264,7 +264,7 @@ public final class VideoElement implements IKernelModel {
     public void setInvalidState(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 39);
         if (redirector != null) {
-            redirector.redirect((short) 39, (Object) this, (Object) num);
+            redirector.redirect((short) 39, this, num);
         } else {
             this.invalidState = num;
         }
@@ -273,7 +273,7 @@ public final class VideoElement implements IKernelModel {
     public void setOriginVideoMd5(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 43);
         if (redirector != null) {
-            redirector.redirect((short) 43, (Object) this, (Object) str);
+            redirector.redirect((short) 43, this, str);
         } else {
             this.originVideoMd5 = str;
         }
@@ -282,7 +282,7 @@ public final class VideoElement implements IKernelModel {
     public void setProgress(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 38);
         if (redirector != null) {
-            redirector.redirect((short) 38, (Object) this, (Object) num);
+            redirector.redirect((short) 38, this, num);
         } else {
             this.progress = num;
         }
@@ -291,7 +291,7 @@ public final class VideoElement implements IKernelModel {
     public void setSubBusiType(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 35);
         if (redirector != null) {
-            redirector.redirect((short) 35, (Object) this, i2);
+            redirector.redirect((short) 35, this, i2);
         } else {
             this.subBusiType = i2;
         }
@@ -300,7 +300,7 @@ public final class VideoElement implements IKernelModel {
     public void setThumbHeight(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 33);
         if (redirector != null) {
-            redirector.redirect((short) 33, (Object) this, i2);
+            redirector.redirect((short) 33, this, i2);
         } else {
             this.thumbHeight = i2;
         }
@@ -309,7 +309,7 @@ public final class VideoElement implements IKernelModel {
     public void setThumbMd5(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 27);
         if (redirector != null) {
-            redirector.redirect((short) 27, (Object) this, (Object) str);
+            redirector.redirect((short) 27, this, str);
         } else {
             this.thumbMd5 = str;
         }
@@ -318,7 +318,7 @@ public final class VideoElement implements IKernelModel {
     public void setThumbPath(HashMap<Integer, String> hashMap) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 36);
         if (redirector != null) {
-            redirector.redirect((short) 36, (Object) this, (Object) hashMap);
+            redirector.redirect((short) 36, this, hashMap);
         } else {
             this.thumbPath = hashMap;
         }
@@ -327,7 +327,7 @@ public final class VideoElement implements IKernelModel {
     public void setThumbSize(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 29);
         if (redirector != null) {
-            redirector.redirect((short) 29, (Object) this, i2);
+            redirector.redirect((short) 29, this, i2);
         } else {
             this.thumbSize = i2;
         }
@@ -336,7 +336,7 @@ public final class VideoElement implements IKernelModel {
     public void setThumbWidth(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 32);
         if (redirector != null) {
-            redirector.redirect((short) 32, (Object) this, i2);
+            redirector.redirect((short) 32, this, i2);
         } else {
             this.thumbWidth = i2;
         }
@@ -345,7 +345,7 @@ public final class VideoElement implements IKernelModel {
     public void setTransferStatus(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 37);
         if (redirector != null) {
-            redirector.redirect((short) 37, (Object) this, (Object) num);
+            redirector.redirect((short) 37, this, num);
         } else {
             this.transferStatus = num;
         }
@@ -354,7 +354,7 @@ public final class VideoElement implements IKernelModel {
     public void setVideoMd5(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 26);
         if (redirector != null) {
-            redirector.redirect((short) 26, (Object) this, (Object) str);
+            redirector.redirect((short) 26, this, str);
         } else {
             this.videoMd5 = str;
         }
@@ -363,7 +363,7 @@ public final class VideoElement implements IKernelModel {
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95099, (short) 45);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 45, (Object) this);
+            return (String) redirector.redirect((short) 45, this);
         }
         return "VideoElement{filePath=" + this.filePath + ",fileName=" + this.fileName + ",videoMd5=" + this.videoMd5 + ",thumbMd5=" + this.thumbMd5 + ",fileTime=" + this.fileTime + ",thumbSize=" + this.thumbSize + ",fileFormat=" + this.fileFormat + ",fileSize=" + this.fileSize + ",thumbWidth=" + this.thumbWidth + ",thumbHeight=" + this.thumbHeight + ",busiType=" + this.busiType + ",subBusiType=" + this.subBusiType + ",thumbPath=" + this.thumbPath + ",transferStatus=" + this.transferStatus + ",progress=" + this.progress + ",invalidState=" + this.invalidState + ",fileUuid=" + this.fileUuid + ",fileSubId=" + this.fileSubId + ",fileBizId=" + this.fileBizId + ",originVideoMd5=" + this.originVideoMd5 + ",importRichMediaContext=" + this.importRichMediaContext + ",}";
     }

@@ -36,7 +36,7 @@ public final class CreateGroupGrayElement implements Serializable {
     public CreateGroupGrayElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(81968, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -45,13 +45,13 @@ public final class CreateGroupGrayElement implements Serializable {
 
     public ArrayList<GrayTipMember> getMemberInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(81968, (short) 3);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 3, (Object) this) : this.memberInfo;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 3, this) : this.memberInfo;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(81968, (short) 4);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 4, (Object) this);
+            return (String) redirector.redirect((short) 4, this);
         }
         return "CreateGroupGrayElement{memberInfo=" + this.memberInfo + ",}";
     }
@@ -59,7 +59,7 @@ public final class CreateGroupGrayElement implements Serializable {
     public CreateGroupGrayElement(ArrayList<GrayTipMember> arrayList) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(81968, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, (Object) arrayList);
+            redirector.redirect((short) 2, this, arrayList);
             return;
         }
         this.serialVersionUID = 1L;

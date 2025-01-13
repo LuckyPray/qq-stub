@@ -72,7 +72,7 @@ public final class GProAVRoomOptPushInfo {
     public GProAVRoomOptPushInfo(int i, long j, long j2, GProAVShowMsgInfo gProAVShowMsgInfo, GProAVRoomAddUpInfo gProAVRoomAddUpInfo, String str, String str2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Long.valueOf(j), Long.valueOf(j2), gProAVShowMsgInfo, gProAVRoomAddUpInfo, str, str2});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Long.valueOf(j), Long.valueOf(j2), gProAVShowMsgInfo, gProAVRoomAddUpInfo, str, str2);
             return;
         }
         this.showInfo = new GProAVShowMsgInfo();

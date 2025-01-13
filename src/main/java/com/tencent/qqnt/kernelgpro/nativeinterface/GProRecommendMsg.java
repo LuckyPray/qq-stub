@@ -62,7 +62,7 @@ public final class GProRecommendMsg implements Serializable {
     public GProRecommendMsg(long j, String str, String str2, long j2, byte[] bArr) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, Long.valueOf(j2), bArr});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, str2, Long.valueOf(j2), bArr);
             return;
         }
         this.serialVersionUID = 1L;

@@ -51,7 +51,7 @@ public final class GProRecommendModeInfo {
     public GProRecommendModeInfo(int i, String str, boolean z, int i2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, Boolean.valueOf(z), Integer.valueOf(i2)});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), str, Boolean.valueOf(z), Integer.valueOf(i2));
             return;
         }
         this.modeName = "";

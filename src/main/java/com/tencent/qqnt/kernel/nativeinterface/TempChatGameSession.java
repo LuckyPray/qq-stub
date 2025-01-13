@@ -43,7 +43,7 @@ public final class TempChatGameSession {
     public TempChatGameSession() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94719, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.nickname = "";
@@ -55,63 +55,63 @@ public final class TempChatGameSession {
 
     public long getGameAppId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94719, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.gameAppId;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.gameAppId;
     }
 
     public String getNickname() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94719, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.nickname;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.nickname;
     }
 
     public String getPeerOpenId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94719, (short) 10);
-        return redirector != null ? (String) redirector.redirect((short) 10, (Object) this) : this.peerOpenId;
+        return redirector != null ? (String) redirector.redirect((short) 10, this) : this.peerOpenId;
     }
 
     public String getPeerRoleId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94719, (short) 9);
-        return redirector != null ? (String) redirector.redirect((short) 9, (Object) this) : this.peerRoleId;
+        return redirector != null ? (String) redirector.redirect((short) 9, this) : this.peerRoleId;
     }
 
     public long getPeerTinyId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94719, (short) 8);
-        return redirector != null ? ((Long) redirector.redirect((short) 8, (Object) this)).longValue() : this.peerTinyId;
+        return redirector != null ? ((Long) redirector.redirect((short) 8, this)).longValue() : this.peerTinyId;
     }
 
     public Integer getPushWindowFlag() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94719, (short) 11);
-        return redirector != null ? (Integer) redirector.redirect((short) 11, (Object) this) : this.pushWindowFlag;
+        return redirector != null ? (Integer) redirector.redirect((short) 11, this) : this.pushWindowFlag;
     }
 
     public Integer getRedPointSwitch() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94719, (short) 13);
-        return redirector != null ? (Integer) redirector.redirect((short) 13, (Object) this) : this.redPointSwitch;
+        return redirector != null ? (Integer) redirector.redirect((short) 13, this) : this.redPointSwitch;
     }
 
     public Integer getSayHiType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94719, (short) 12);
-        return redirector != null ? (Integer) redirector.redirect((short) 12, (Object) this) : this.sayHiType;
+        return redirector != null ? (Integer) redirector.redirect((short) 12, this) : this.sayHiType;
     }
 
     public String getSelfOpenId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94719, (short) 7);
-        return redirector != null ? (String) redirector.redirect((short) 7, (Object) this) : this.selfOpenId;
+        return redirector != null ? (String) redirector.redirect((short) 7, this) : this.selfOpenId;
     }
 
     public String getSelfRoleId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94719, (short) 6);
-        return redirector != null ? (String) redirector.redirect((short) 6, (Object) this) : this.selfRoleId;
+        return redirector != null ? (String) redirector.redirect((short) 6, this) : this.selfRoleId;
     }
 
     public long getSelfTinyId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94719, (short) 5);
-        return redirector != null ? ((Long) redirector.redirect((short) 5, (Object) this)).longValue() : this.selfTinyId;
+        return redirector != null ? ((Long) redirector.redirect((short) 5, this)).longValue() : this.selfTinyId;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94719, (short) 14);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 14, (Object) this);
+            return (String) redirector.redirect((short) 14, this);
         }
         return "TempChatGameSession{gameAppId=" + this.gameAppId + ",nickname=" + this.nickname + ",selfTinyId=" + this.selfTinyId + ",selfRoleId=" + this.selfRoleId + ",selfOpenId=" + this.selfOpenId + ",peerTinyId=" + this.peerTinyId + ",peerRoleId=" + this.peerRoleId + ",peerOpenId=" + this.peerOpenId + ",pushWindowFlag=" + this.pushWindowFlag + ",sayHiType=" + this.sayHiType + ",redPointSwitch=" + this.redPointSwitch + ",}";
     }

@@ -117,7 +117,7 @@ public final class GProRemoveRiskMembersReq {
     public GProRemoveRiskMembersReq(ArrayList<Long> arrayList, boolean z, long j, boolean z2, boolean z3, int i) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, arrayList, Boolean.valueOf(z), Long.valueOf(j), Boolean.valueOf(z2), Boolean.valueOf(z3), Integer.valueOf(i)});
+            iPatchRedirector.redirect((short) 2, this, arrayList, Boolean.valueOf(z), Long.valueOf(j), Boolean.valueOf(z2), Boolean.valueOf(z3), Integer.valueOf(i));
             return;
         }
         this.tinyidList = new ArrayList<>();

@@ -36,34 +36,34 @@ public final class VASMsgBubble {
     public VASMsgBubble() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94994, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public Integer getBubbleDiyTextId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94994, (short) 4);
-        return redirector != null ? (Integer) redirector.redirect((short) 4, (Object) this) : this.bubbleDiyTextId;
+        return redirector != null ? (Integer) redirector.redirect((short) 4, this) : this.bubbleDiyTextId;
     }
 
     public Integer getBubbleId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94994, (short) 3);
-        return redirector != null ? (Integer) redirector.redirect((short) 3, (Object) this) : this.bubbleId;
+        return redirector != null ? (Integer) redirector.redirect((short) 3, this) : this.bubbleId;
     }
 
     public Integer getCanConvertToText() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94994, (short) 6);
-        return redirector != null ? (Integer) redirector.redirect((short) 6, (Object) this) : this.canConvertToText;
+        return redirector != null ? (Integer) redirector.redirect((short) 6, this) : this.canConvertToText;
     }
 
     public Integer getSubBubbleId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94994, (short) 5);
-        return redirector != null ? (Integer) redirector.redirect((short) 5, (Object) this) : this.subBubbleId;
+        return redirector != null ? (Integer) redirector.redirect((short) 5, this) : this.subBubbleId;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94994, (short) 7);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 7, (Object) this);
+            return (String) redirector.redirect((short) 7, this);
         }
         return "VASMsgBubble{bubbleId=" + this.bubbleId + ",bubbleDiyTextId=" + this.bubbleDiyTextId + ",subBubbleId=" + this.subBubbleId + ",canConvertToText=" + this.canConvertToText + ",}";
     }

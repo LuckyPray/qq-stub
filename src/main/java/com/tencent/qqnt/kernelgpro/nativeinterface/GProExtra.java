@@ -110,7 +110,7 @@ public final class GProExtra implements Serializable {
     public GProExtra(ArrayList<GProTag> arrayList, ArrayList<GProEntry> arrayList2, ArrayList<GProEntry> arrayList3, GProMVPItemCbData gProMVPItemCbData, String str) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, arrayList, arrayList2, arrayList3, gProMVPItemCbData, str});
+            iPatchRedirector.redirect((short) 2, this, arrayList, arrayList2, arrayList3, gProMVPItemCbData, str);
             return;
         }
         this.serialVersionUID = 1L;

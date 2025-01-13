@@ -8,7 +8,7 @@ public interface IKernelTicketService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelTicketService$CppProxy.class */
-    public static final class CppProxy implements IKernelTicketService {
+    final class CppProxy implements IKernelTicketService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

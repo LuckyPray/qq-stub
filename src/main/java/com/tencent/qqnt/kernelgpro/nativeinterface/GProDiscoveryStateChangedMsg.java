@@ -55,7 +55,7 @@ public final class GProDiscoveryStateChangedMsg implements Serializable {
     public GProDiscoveryStateChangedMsg(int i, GProMyRecommendMsg gProMyRecommendMsg, GProGetPrefetchRecommendGuildsRsp gProGetPrefetchRecommendGuildsRsp, GProTopGuildRecommendMsg gProTopGuildRecommendMsg) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), gProMyRecommendMsg, gProGetPrefetchRecommendGuildsRsp, gProTopGuildRecommendMsg});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), gProMyRecommendMsg, gProGetPrefetchRecommendGuildsRsp, gProTopGuildRecommendMsg);
             return;
         }
         this.serialVersionUID = 1L;

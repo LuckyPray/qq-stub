@@ -139,7 +139,7 @@ public final class GProSaveMsgReq implements Serializable {
     public GProSaveMsgReq(long j, String str, String str2, String str3, String str4, String str5, long j2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, str3, str4, str5, Long.valueOf(j2)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, str2, str3, str4, str5, Long.valueOf(j2));
             return;
         }
         this.serialVersionUID = 1L;

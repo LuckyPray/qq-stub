@@ -68,7 +68,7 @@ public final class GProGuildBottomTabExpData implements Serializable {
     public GProGuildBottomTabExpData(boolean z, long j, String str, int i, GProNewUserGuideData gProNewUserGuideData, GProDiscoveryData gProDiscoveryData) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Boolean.valueOf(z), Long.valueOf(j), str, Integer.valueOf(i), gProNewUserGuideData, gProDiscoveryData});
+            iPatchRedirector.redirect((short) 2, this, Boolean.valueOf(z), Long.valueOf(j), str, Integer.valueOf(i), gProNewUserGuideData, gProDiscoveryData);
             return;
         }
         this.serialVersionUID = 1L;

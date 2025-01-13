@@ -18,7 +18,7 @@ import android.widget.FrameLayout;
 public class ScrollView extends FrameLayout {
 
     public ScrollView(Context context) {
-        this(context, (AttributeSet) null);
+        this(context, null);
     }
 
     public ScrollView(Context context, AttributeSet attributeSet) {

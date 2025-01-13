@@ -299,7 +299,7 @@ public final class GProCmdUinInfo implements Serializable {
     public GProCmdUinInfo(long j, int i, int i2, long j2, long j3, long j4, int i3, long j5, long j6, long j7, long j8, GProQQMsgSubscribe gProQQMsgSubscribe, int i4, int i5, int i6, int i7, long j9, int i8) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i3), Long.valueOf(j5), Long.valueOf(j6), Long.valueOf(j7), Long.valueOf(j8), gProQQMsgSubscribe, Integer.valueOf(i4), Integer.valueOf(i5), Integer.valueOf(i6), Integer.valueOf(i7), Long.valueOf(j9), Integer.valueOf(i8)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i3), Long.valueOf(j5), Long.valueOf(j6), Long.valueOf(j7), Long.valueOf(j8), gProQQMsgSubscribe, Integer.valueOf(i4), Integer.valueOf(i5), Integer.valueOf(i6), Integer.valueOf(i7), Long.valueOf(j9), Integer.valueOf(i8));
             return;
         }
         this.serialVersionUID = 1L;

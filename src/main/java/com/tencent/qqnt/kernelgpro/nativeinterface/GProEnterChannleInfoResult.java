@@ -63,7 +63,7 @@ public final class GProEnterChannleInfoResult {
     public GProEnterChannleInfoResult(byte[] bArr, byte[] bArr2, int i, boolean z, boolean z2, int i2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, bArr, bArr2, Integer.valueOf(i), Boolean.valueOf(z), Boolean.valueOf(z2), Integer.valueOf(i2)});
+            iPatchRedirector.redirect((short) 2, this, bArr, bArr2, Integer.valueOf(i), Boolean.valueOf(z), Boolean.valueOf(z2), Integer.valueOf(i2));
             return;
         }
         this.trtcSig = new byte[0];

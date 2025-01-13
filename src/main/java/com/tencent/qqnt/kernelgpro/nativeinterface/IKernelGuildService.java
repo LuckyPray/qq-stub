@@ -9,11 +9,11 @@ import java.util.concurrent.atomic.AtomicBoolean;
 /* compiled from: P */
 /* loaded from: classes.jar:com/tencent/qqnt/kernelgpro/nativeinterface/IKernelGuildService.class */
 public interface IKernelGuildService {
-    public static final IPatchRedirector $redirector_ = null;
+    IPatchRedirector $redirector_ = null;
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernelgpro/nativeinterface/IKernelGuildService$CppProxy.class */
-    public static final class CppProxy implements IKernelGuildService {
+    final class CppProxy implements IKernelGuildService {
         static final boolean $assertionsDisabled = false;
         static IPatchRedirector $redirector_;
         private final AtomicBoolean destroyed = new AtomicBoolean();
@@ -1191,7 +1191,7 @@ public interface IKernelGuildService {
         public void GetMemberInfoByOpenId(String str, long j, boolean z, boolean z2, IGProGetMemberInfoByOpenIdCallback iGProGetMemberInfoByOpenIdCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 59)) {
-                iPatchRedirector.redirect((short) 59, new Object[]{this, str, Long.valueOf(j), Boolean.valueOf(z), Boolean.valueOf(z2), iGProGetMemberInfoByOpenIdCallback});
+                iPatchRedirector.redirect((short) 59, this, str, Long.valueOf(j), Boolean.valueOf(z), Boolean.valueOf(z2), iGProGetMemberInfoByOpenIdCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -1255,7 +1255,7 @@ public interface IKernelGuildService {
         public void addGuild(long j, GProSourceId gProSourceId, String str, IGProJoinGuildCallback iGProJoinGuildCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 20)) {
-                iPatchRedirector.redirect((short) 20, new Object[]{this, Long.valueOf(j), gProSourceId, str, iGProJoinGuildCallback});
+                iPatchRedirector.redirect((short) 20, this, Long.valueOf(j), gProSourceId, str, iGProJoinGuildCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -1411,7 +1411,7 @@ public interface IKernelGuildService {
         public void batchFetchAudioChannelSimpleUserList(long j, ArrayList<Long> arrayList, boolean z, IGProFetchAudioChannelUserListCallback iGProFetchAudioChannelUserListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 81)) {
-                iPatchRedirector.redirect((short) 81, new Object[]{this, Long.valueOf(j), arrayList, Boolean.valueOf(z), iGProFetchAudioChannelUserListCallback});
+                iPatchRedirector.redirect((short) 81, this, Long.valueOf(j), arrayList, Boolean.valueOf(z), iGProFetchAudioChannelUserListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -1554,7 +1554,7 @@ public interface IKernelGuildService {
         public void bindAppRole(int i, String str, int i2, IGProBindAppRoleCallback iGProBindAppRoleCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 134)) {
-                iPatchRedirector.redirect((short) 134, new Object[]{this, Integer.valueOf(i), str, Integer.valueOf(i2), iGProBindAppRoleCallback});
+                iPatchRedirector.redirect((short) 134, this, Integer.valueOf(i), str, Integer.valueOf(i2), iGProBindAppRoleCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -1567,7 +1567,7 @@ public interface IKernelGuildService {
         public void cancelChannelTopMsg(long j, long j2, ArrayList<GProTopMsg> arrayList, IGProSimpleResultCallback iGProSimpleResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 227)) {
-                iPatchRedirector.redirect((short) 227, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, iGProSimpleResultCallback});
+                iPatchRedirector.redirect((short) 227, this, Long.valueOf(j), Long.valueOf(j2), arrayList, iGProSimpleResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -1606,7 +1606,7 @@ public interface IKernelGuildService {
         public void changeChannelCategoryNameWithId(long j, long j2, String str, IGProSetChannelCategoryInfoCallback iGProSetChannelCategoryInfoCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 93)) {
-                iPatchRedirector.redirect((short) 93, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, iGProSetChannelCategoryInfoCallback});
+                iPatchRedirector.redirect((short) 93, this, Long.valueOf(j), Long.valueOf(j2), str, iGProSetChannelCategoryInfoCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -1697,7 +1697,7 @@ public interface IKernelGuildService {
         public void checkLobbyAppAuthStatus(String str, long j, long j2, IGProCheckLobbyAppAuthStatusCallback iGProCheckLobbyAppAuthStatusCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 456)) {
-                iPatchRedirector.redirect((short) 456, new Object[]{this, str, Long.valueOf(j), Long.valueOf(j2), iGProCheckLobbyAppAuthStatusCallback});
+                iPatchRedirector.redirect((short) 456, this, str, Long.valueOf(j), Long.valueOf(j2), iGProCheckLobbyAppAuthStatusCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -1736,7 +1736,7 @@ public interface IKernelGuildService {
         public void checkUserBannedSpeakInChannel(long j, long j2, long j3, IGProCheckUserBannedSpeakInChannelCallback iGProCheckUserBannedSpeakInChannelCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 188)) {
-                iPatchRedirector.redirect((short) 188, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProCheckUserBannedSpeakInChannelCallback});
+                iPatchRedirector.redirect((short) 188, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProCheckUserBannedSpeakInChannelCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -1788,7 +1788,7 @@ public interface IKernelGuildService {
         public void closeAVLobbyApp(long j, long j2, long j3, IGProDeleteLobbyCallback iGProDeleteLobbyCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 454)) {
-                iPatchRedirector.redirect((short) 454, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProDeleteLobbyCallback});
+                iPatchRedirector.redirect((short) 454, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProDeleteLobbyCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -1892,7 +1892,7 @@ public interface IKernelGuildService {
         public void createChannelWithId(long j, GProChannelCreateInfo gProChannelCreateInfo, long j2, GProAssocCreateCategoryReq gProAssocCreateCategoryReq, GProCategoryChannelIdList gProCategoryChannelIdList, ArrayList<GProCategoryChannelIdList> arrayList, IGProCreateChannelCallback iGProCreateChannelCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 26)) {
-                iPatchRedirector.redirect((short) 26, new Object[]{this, Long.valueOf(j), gProChannelCreateInfo, Long.valueOf(j2), gProAssocCreateCategoryReq, gProCategoryChannelIdList, arrayList, iGProCreateChannelCallback});
+                iPatchRedirector.redirect((short) 26, this, Long.valueOf(j), gProChannelCreateInfo, Long.valueOf(j2), gProAssocCreateCategoryReq, gProCategoryChannelIdList, arrayList, iGProCreateChannelCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -1918,7 +1918,7 @@ public interface IKernelGuildService {
         public void createLinkChannelWithId(long j, GProChannelCreateInfo gProChannelCreateInfo, long j2, GProCategoryChannelIdList gProCategoryChannelIdList, ArrayList<GProCategoryChannelIdList> arrayList, IGProSimpleResultCallback iGProSimpleResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 414)) {
-                iPatchRedirector.redirect((short) 414, new Object[]{this, Long.valueOf(j), gProChannelCreateInfo, Long.valueOf(j2), gProCategoryChannelIdList, arrayList, iGProSimpleResultCallback});
+                iPatchRedirector.redirect((short) 414, this, Long.valueOf(j), gProChannelCreateInfo, Long.valueOf(j2), gProCategoryChannelIdList, arrayList, iGProSimpleResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -1931,7 +1931,7 @@ public interface IKernelGuildService {
         public void createRole(long j, GProRoleCreateInfo gProRoleCreateInfo, ArrayList<Long> arrayList, IGProCreateRoleCallback iGProCreateRoleCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 201)) {
-                iPatchRedirector.redirect((short) 201, new Object[]{this, Long.valueOf(j), gProRoleCreateInfo, arrayList, iGProCreateRoleCallback});
+                iPatchRedirector.redirect((short) 201, this, Long.valueOf(j), gProRoleCreateInfo, arrayList, iGProCreateRoleCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -1944,7 +1944,7 @@ public interface IKernelGuildService {
         public void createSchedule(long j, long j2, GProScheduleInfo gProScheduleInfo, IGProCreateScheduleCallback iGProCreateScheduleCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 268)) {
-                iPatchRedirector.redirect((short) 268, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), gProScheduleInfo, iGProCreateScheduleCallback});
+                iPatchRedirector.redirect((short) 268, this, Long.valueOf(j), Long.valueOf(j2), gProScheduleInfo, iGProCreateScheduleCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -1983,7 +1983,7 @@ public interface IKernelGuildService {
         public void customChannelMsgNotifyType(long j, long j2, int i, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 35)) {
-                iPatchRedirector.redirect((short) 35, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+                iPatchRedirector.redirect((short) 35, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2202,7 +2202,7 @@ public interface IKernelGuildService {
         public void editSchedule(long j, long j2, GProScheduleInfo gProScheduleInfo, int i, IGProEditScheduleCallback iGProEditScheduleCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 269)) {
-                iPatchRedirector.redirect((short) 269, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), gProScheduleInfo, Integer.valueOf(i), iGProEditScheduleCallback});
+                iPatchRedirector.redirect((short) 269, this, Long.valueOf(j), Long.valueOf(j2), gProScheduleInfo, Integer.valueOf(i), iGProEditScheduleCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2241,7 +2241,7 @@ public interface IKernelGuildService {
         public void enterAudioChannel(long j, long j2, int i, IGProEnterAudioChannelCallback iGProEnterAudioChannelCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 78)) {
-                iPatchRedirector.redirect((short) 78, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProEnterAudioChannelCallback});
+                iPatchRedirector.redirect((short) 78, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProEnterAudioChannelCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2280,7 +2280,7 @@ public interface IKernelGuildService {
         public void exitAudioLiveChannel(long j, long j2, int i, ArrayList<String> arrayList, IGProExitAudioLiveChannelCallback iGProExitAudioLiveChannelCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 393)) {
-                iPatchRedirector.redirect((short) 393, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), arrayList, iGProExitAudioLiveChannelCallback});
+                iPatchRedirector.redirect((short) 393, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), arrayList, iGProExitAudioLiveChannelCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2384,7 +2384,7 @@ public interface IKernelGuildService {
         public void fetchArchiveArkData(long j, long j2, byte[] bArr, int i, IGProFetchArchiveArkDataCallback iGProFetchArchiveArkDataCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 71)) {
-                iPatchRedirector.redirect((short) 71, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), bArr, Integer.valueOf(i), iGProFetchArchiveArkDataCallback});
+                iPatchRedirector.redirect((short) 71, this, Long.valueOf(j), Long.valueOf(j2), bArr, Integer.valueOf(i), iGProFetchArchiveArkDataCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2488,7 +2488,7 @@ public interface IKernelGuildService {
         public void fetchChannelAuthControlMemberList(long j, long j2, int i, byte[] bArr, int i2, IGProFetchChannelAbleMemberListCallback iGProFetchChannelAbleMemberListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 57)) {
-                iPatchRedirector.redirect((short) 57, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, Integer.valueOf(i2), iGProFetchChannelAbleMemberListCallback});
+                iPatchRedirector.redirect((short) 57, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, Integer.valueOf(i2), iGProFetchChannelAbleMemberListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2501,7 +2501,7 @@ public interface IKernelGuildService {
         public void fetchChannelAuthControlRoleList(long j, long j2, int i, IGProFetchChannelAbleRoleListCallback iGProFetchChannelAbleRoleListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 55)) {
-                iPatchRedirector.redirect((short) 55, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelAbleRoleListCallback});
+                iPatchRedirector.redirect((short) 55, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelAbleRoleListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2514,7 +2514,7 @@ public interface IKernelGuildService {
         public void fetchChannelAuthControlUnableMemberList(long j, long j2, int i, byte[] bArr, int i2, IGProFetchChannelUnableMemberListCallback iGProFetchChannelUnableMemberListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 58)) {
-                iPatchRedirector.redirect((short) 58, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, Integer.valueOf(i2), iGProFetchChannelUnableMemberListCallback});
+                iPatchRedirector.redirect((short) 58, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, Integer.valueOf(i2), iGProFetchChannelUnableMemberListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2527,7 +2527,7 @@ public interface IKernelGuildService {
         public void fetchChannelAuthControlUnableRoleList(long j, long j2, int i, IGProFetchChannelUnableRoleListCallback iGProFetchChannelUnableRoleListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 56)) {
-                iPatchRedirector.redirect((short) 56, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelUnableRoleListCallback});
+                iPatchRedirector.redirect((short) 56, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelUnableRoleListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2540,7 +2540,7 @@ public interface IKernelGuildService {
         public void fetchChannelInfo(long j, long j2, int i, IGProFetchChannelInfoCallback iGProFetchChannelInfoCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 13)) {
-                iPatchRedirector.redirect((short) 13, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelInfoCallback});
+                iPatchRedirector.redirect((short) 13, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelInfoCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2553,7 +2553,7 @@ public interface IKernelGuildService {
         public void fetchChannelInfoWithCategory(long j, long j2, int i, IGProFetchChannelInfoCallback iGProFetchChannelInfoCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 14)) {
-                iPatchRedirector.redirect((short) 14, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelInfoCallback});
+                iPatchRedirector.redirect((short) 14, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelInfoCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2579,7 +2579,7 @@ public interface IKernelGuildService {
         public void fetchChannelInvisibleMemberList(long j, long j2, int i, byte[] bArr, IGProFetchChannelInvisibleMemberListCallback iGProFetchChannelInvisibleMemberListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 45)) {
-                iPatchRedirector.redirect((short) 45, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelInvisibleMemberListCallback});
+                iPatchRedirector.redirect((short) 45, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelInvisibleMemberListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2644,7 +2644,7 @@ public interface IKernelGuildService {
         public void fetchChannelLiveableMemberList(long j, long j2, int i, byte[] bArr, IGProFetchChannelLiveableMemberListCallback iGProFetchChannelLiveableMemberListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 52)) {
-                iPatchRedirector.redirect((short) 52, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelLiveableMemberListCallback});
+                iPatchRedirector.redirect((short) 52, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelLiveableMemberListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2670,7 +2670,7 @@ public interface IKernelGuildService {
         public void fetchChannelSpeakableMemberList(long j, long j2, int i, byte[] bArr, IGProFetchChannelSpeakableMemberListCallback iGProFetchChannelSpeakableMemberListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 48)) {
-                iPatchRedirector.redirect((short) 48, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelSpeakableMemberListCallback});
+                iPatchRedirector.redirect((short) 48, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelSpeakableMemberListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2696,7 +2696,7 @@ public interface IKernelGuildService {
         public void fetchChannelUnlivableMemberList(long j, long j2, int i, byte[] bArr, IGProFetchChannelUnlivableMemberListCallback iGProFetchChannelUnlivableMemberListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 54)) {
-                iPatchRedirector.redirect((short) 54, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelUnlivableMemberListCallback});
+                iPatchRedirector.redirect((short) 54, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelUnlivableMemberListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2722,7 +2722,7 @@ public interface IKernelGuildService {
         public void fetchChannelUnspeakableMemberList(long j, long j2, int i, byte[] bArr, IGProFetchChannelUnspeakableMemberListCallback iGProFetchChannelUnspeakableMemberListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 50)) {
-                iPatchRedirector.redirect((short) 50, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelUnspeakableMemberListCallback});
+                iPatchRedirector.redirect((short) 50, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelUnspeakableMemberListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2748,7 +2748,7 @@ public interface IKernelGuildService {
         public void fetchChannelUserPermission(long j, long j2, int i, IGProChannelUserPermissionCallback iGProChannelUserPermissionCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 302)) {
-                iPatchRedirector.redirect((short) 302, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProChannelUserPermissionCallback});
+                iPatchRedirector.redirect((short) 302, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProChannelUserPermissionCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2761,7 +2761,7 @@ public interface IKernelGuildService {
         public void fetchChannelVisibleAllMemberList(long j, long j2, int i, byte[] bArr, IGProFetchChannelVisibleMemberListCallback iGProFetchChannelVisibleMemberListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 42)) {
-                iPatchRedirector.redirect((short) 42, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelVisibleMemberListCallback});
+                iPatchRedirector.redirect((short) 42, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelVisibleMemberListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2774,7 +2774,7 @@ public interface IKernelGuildService {
         public void fetchChannelVisibleMemberList(long j, long j2, int i, byte[] bArr, IGProFetchChannelVisibleMemberListCallback iGProFetchChannelVisibleMemberListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 43)) {
-                iPatchRedirector.redirect((short) 43, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelVisibleMemberListCallback});
+                iPatchRedirector.redirect((short) 43, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelVisibleMemberListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2813,7 +2813,7 @@ public interface IKernelGuildService {
         public void fetchComments(long j, long j2, long j3, long j4, long j5, long j6, IGProFetchCommentsCallback iGProFetchCommentsCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 252)) {
-                iPatchRedirector.redirect((short) 252, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Long.valueOf(j5), Long.valueOf(j6), iGProFetchCommentsCallback});
+                iPatchRedirector.redirect((short) 252, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Long.valueOf(j5), Long.valueOf(j6), iGProFetchCommentsCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2891,7 +2891,7 @@ public interface IKernelGuildService {
         public void fetchEnterChannelPermission(long j, long j2, String str, IGProFetchEnterChannelPermissionCallback iGProFetchEnterChannelPermissionCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 153)) {
-                iPatchRedirector.redirect((short) 153, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, iGProFetchEnterChannelPermissionCallback});
+                iPatchRedirector.redirect((short) 153, this, Long.valueOf(j), Long.valueOf(j2), str, iGProFetchEnterChannelPermissionCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2930,7 +2930,7 @@ public interface IKernelGuildService {
         public void fetchGuestGuild(long j, boolean z, int i, IGProFetchGuestGuildCallback iGProFetchGuestGuildCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 102)) {
-                iPatchRedirector.redirect((short) 102, new Object[]{this, Long.valueOf(j), Boolean.valueOf(z), Integer.valueOf(i), iGProFetchGuestGuildCallback});
+                iPatchRedirector.redirect((short) 102, this, Long.valueOf(j), Boolean.valueOf(z), Integer.valueOf(i), iGProFetchGuestGuildCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -2943,7 +2943,7 @@ public interface IKernelGuildService {
         public void fetchGuestGuildInfoWithChannelList(String str, String str2, int i, int i2, String str3, IGProFetchGuestGuildInfoWithChannelListCallback iGProFetchGuestGuildInfoWithChannelListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 106)) {
-                iPatchRedirector.redirect((short) 106, new Object[]{this, str, str2, Integer.valueOf(i), Integer.valueOf(i2), str3, iGProFetchGuestGuildInfoWithChannelListCallback});
+                iPatchRedirector.redirect((short) 106, this, str, str2, Integer.valueOf(i), Integer.valueOf(i2), str3, iGProFetchGuestGuildInfoWithChannelListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3034,7 +3034,7 @@ public interface IKernelGuildService {
         public void fetchGuildInfoByAppIdentity(GProGuildIdentity gProGuildIdentity, String str, String str2, IGProFetchGuildInfoByAppIdentityCallback iGProFetchGuildInfoByAppIdentityCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 76)) {
-                iPatchRedirector.redirect((short) 76, new Object[]{this, gProGuildIdentity, str, str2, iGProFetchGuildInfoByAppIdentityCallback});
+                iPatchRedirector.redirect((short) 76, this, gProGuildIdentity, str, str2, iGProFetchGuildInfoByAppIdentityCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3073,7 +3073,7 @@ public interface IKernelGuildService {
         public void fetchGuildSpeakableMemberList(long j, boolean z, int i, byte[] bArr, IGProFetchGuildSpeakableMemberListCallback iGProFetchGuildSpeakableMemberListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 329)) {
-                iPatchRedirector.redirect((short) 329, new Object[]{this, Long.valueOf(j), Boolean.valueOf(z), Integer.valueOf(i), bArr, iGProFetchGuildSpeakableMemberListCallback});
+                iPatchRedirector.redirect((short) 329, this, Long.valueOf(j), Boolean.valueOf(z), Integer.valueOf(i), bArr, iGProFetchGuildSpeakableMemberListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3151,7 +3151,7 @@ public interface IKernelGuildService {
         public void fetchInviteInfo0x10b4(String str, String str2, String str3, int i, IGProFetchInviteInfo0x10b4Callback iGProFetchInviteInfo0x10b4Callback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 66)) {
-                iPatchRedirector.redirect((short) 66, new Object[]{this, str, str2, str3, Integer.valueOf(i), iGProFetchInviteInfo0x10b4Callback});
+                iPatchRedirector.redirect((short) 66, this, str, str2, str3, Integer.valueOf(i), iGProFetchInviteInfo0x10b4Callback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3216,7 +3216,7 @@ public interface IKernelGuildService {
         public void fetchJubaoMsgResId(long j, long j2, long j3, IGProFetchJubaoMsgResIdCallback iGProFetchJubaoMsgResIdCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 308)) {
-                iPatchRedirector.redirect((short) 308, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProFetchJubaoMsgResIdCallback});
+                iPatchRedirector.redirect((short) 308, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProFetchJubaoMsgResIdCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3229,7 +3229,7 @@ public interface IKernelGuildService {
         public void fetchJubaoMsgsResId(long j, long j2, ArrayList<Long> arrayList, IGProFetchJubaoMsgsResIdCallback iGProFetchJubaoMsgsResIdCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 309)) {
-                iPatchRedirector.redirect((short) 309, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, iGProFetchJubaoMsgsResIdCallback});
+                iPatchRedirector.redirect((short) 309, this, Long.valueOf(j), Long.valueOf(j2), arrayList, iGProFetchJubaoMsgsResIdCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3255,7 +3255,7 @@ public interface IKernelGuildService {
         public void fetchLatestComments(long j, long j2, long j3, long j4, IGProFetchCommentsCallback iGProFetchCommentsCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 253)) {
-                iPatchRedirector.redirect((short) 253, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), iGProFetchCommentsCallback});
+                iPatchRedirector.redirect((short) 253, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), iGProFetchCommentsCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3294,7 +3294,7 @@ public interface IKernelGuildService {
         public void fetchLiveChannelBannedUserList(long j, long j2, long j3, IGProFetchBannedUserListCallback iGProFetchBannedUserListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 150)) {
-                iPatchRedirector.redirect((short) 150, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProFetchBannedUserListCallback});
+                iPatchRedirector.redirect((short) 150, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProFetchBannedUserListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3359,7 +3359,7 @@ public interface IKernelGuildService {
         public void fetchMemberListWithRole(long j, long j2, long j3, long j4, int i, int i2, IGProFetchMemberListWithRoleCallback iGProFetchMemberListWithRoleCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 218)) {
-                iPatchRedirector.redirect((short) 218, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchMemberListWithRoleCallback});
+                iPatchRedirector.redirect((short) 218, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchMemberListWithRoleCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3372,7 +3372,7 @@ public interface IKernelGuildService {
         public void fetchMemberListWithRoleCookie(long j, long j2, long j3, long j4, int i, String str, int i2, IGProFetchMemberListWithRoleCookieCallback iGProFetchMemberListWithRoleCookieCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 220)) {
-                iPatchRedirector.redirect((short) 220, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i), str, Integer.valueOf(i2), iGProFetchMemberListWithRoleCookieCallback});
+                iPatchRedirector.redirect((short) 220, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i), str, Integer.valueOf(i2), iGProFetchMemberListWithRoleCookieCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3385,7 +3385,7 @@ public interface IKernelGuildService {
         public void fetchMemberRoles(long j, long j2, long j3, int i, IGProFetchMemberRolesCallback iGProFetchMemberRolesCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 215)) {
-                iPatchRedirector.redirect((short) 215, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProFetchMemberRolesCallback});
+                iPatchRedirector.redirect((short) 215, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProFetchMemberRolesCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3424,7 +3424,7 @@ public interface IKernelGuildService {
         public void fetchNonRoleMembers(long j, long j2, long j3, long j4, long j5, int i, int i2, IGProFetchNonRoleMembersCallback iGProFetchNonRoleMembersCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 217)) {
-                iPatchRedirector.redirect((short) 217, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Long.valueOf(j5), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchNonRoleMembersCallback});
+                iPatchRedirector.redirect((short) 217, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Long.valueOf(j5), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchNonRoleMembersCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3450,7 +3450,7 @@ public interface IKernelGuildService {
         public void fetchOnlineUsers(long j, int i, int i2, ArrayList<Long> arrayList, IGProFetchOnlineUsersCallback iGProFetchOnlineUsersCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 352)) {
-                iPatchRedirector.redirect((short) 352, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), arrayList, iGProFetchOnlineUsersCallback});
+                iPatchRedirector.redirect((short) 352, this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), arrayList, iGProFetchOnlineUsersCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3463,7 +3463,7 @@ public interface IKernelGuildService {
         public void fetchOtherChannelUserPermission(long j, long j2, long j3, int i, int i2, IGProChannelUserPermissionCallback iGProChannelUserPermissionCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 303)) {
-                iPatchRedirector.redirect((short) 303, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), Integer.valueOf(i2), iGProChannelUserPermissionCallback});
+                iPatchRedirector.redirect((short) 303, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), Integer.valueOf(i2), iGProChannelUserPermissionCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3580,7 +3580,7 @@ public interface IKernelGuildService {
         public void fetchRetentionGuildList(int i, int i2, byte[] bArr, long j, IGProFetchRetentionGuildListCallback iGProFetchRetentionGuildListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 441)) {
-                iPatchRedirector.redirect((short) 441, new Object[]{this, Integer.valueOf(i), Integer.valueOf(i2), bArr, Long.valueOf(j), iGProFetchRetentionGuildListCallback});
+                iPatchRedirector.redirect((short) 441, this, Integer.valueOf(i), Integer.valueOf(i2), bArr, Long.valueOf(j), iGProFetchRetentionGuildListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3593,7 +3593,7 @@ public interface IKernelGuildService {
         public void fetchRole(long j, long j2, int i, boolean z, IGProFetchRoleCallback iGProFetchRoleCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 214)) {
-                iPatchRedirector.redirect((short) 214, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), iGProFetchRoleCallback});
+                iPatchRedirector.redirect((short) 214, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), iGProFetchRoleCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3606,7 +3606,7 @@ public interface IKernelGuildService {
         public void fetchRoleListWithFilter(long j, int i, int i2, IGProFetchRoleListCallback iGProFetchRoleListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 207)) {
-                iPatchRedirector.redirect((short) 207, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchRoleListCallback});
+                iPatchRedirector.redirect((short) 207, this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchRoleListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3632,7 +3632,7 @@ public interface IKernelGuildService {
         public void fetchRoleListWithoutLevelRoleWithFilter(long j, int i, int i2, IGProFetchRoleListWithoutLevelRoleCallback iGProFetchRoleListWithoutLevelRoleCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 208)) {
-                iPatchRedirector.redirect((short) 208, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchRoleListWithoutLevelRoleCallback});
+                iPatchRedirector.redirect((short) 208, this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchRoleListWithoutLevelRoleCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3645,7 +3645,7 @@ public interface IKernelGuildService {
         public void fetchRoleMembers(long j, long j2, long j3, long j4, long j5, int i, IGProFetchRoleMembersCallback iGProFetchRoleMembersCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 216)) {
-                iPatchRedirector.redirect((short) 216, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Long.valueOf(j5), Integer.valueOf(i), iGProFetchRoleMembersCallback});
+                iPatchRedirector.redirect((short) 216, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Long.valueOf(j5), Integer.valueOf(i), iGProFetchRoleMembersCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3658,7 +3658,7 @@ public interface IKernelGuildService {
         public void fetchRoleWithPermission(long j, long j2, int i, IGProFetchRolePermissionCallback iGProFetchRolePermissionCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 212)) {
-                iPatchRedirector.redirect((short) 212, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchRolePermissionCallback});
+                iPatchRedirector.redirect((short) 212, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchRolePermissionCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3684,7 +3684,7 @@ public interface IKernelGuildService {
         public void fetchShareInfo0x10c3(long j, long j2, GProFetchShareInfo0x10c3Req gProFetchShareInfo0x10c3Req, IGProFetchShareInfo0x10c3Callback iGProFetchShareInfo0x10c3Callback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 65)) {
-                iPatchRedirector.redirect((short) 65, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), gProFetchShareInfo0x10c3Req, iGProFetchShareInfo0x10c3Callback});
+                iPatchRedirector.redirect((short) 65, this, Long.valueOf(j), Long.valueOf(j2), gProFetchShareInfo0x10c3Req, iGProFetchShareInfo0x10c3Callback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3697,7 +3697,7 @@ public interface IKernelGuildService {
         public void fetchShareUrlReq(long j, long j2, long j3, String str, IGProCommonCallback iGProCommonCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 516)) {
-                iPatchRedirector.redirect((short) 516, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), str, iGProCommonCallback});
+                iPatchRedirector.redirect((short) 516, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), str, iGProCommonCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3723,7 +3723,7 @@ public interface IKernelGuildService {
         public void fetchSpecifiedTypeChannelsOpenState(long j, ArrayList<Integer> arrayList, int i, IGProFetchSpecifiedTypeChannelsOpenStateCallback iGProFetchSpecifiedTypeChannelsOpenStateCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 163)) {
-                iPatchRedirector.redirect((short) 163, new Object[]{this, Long.valueOf(j), arrayList, Integer.valueOf(i), iGProFetchSpecifiedTypeChannelsOpenStateCallback});
+                iPatchRedirector.redirect((short) 163, this, Long.valueOf(j), arrayList, Integer.valueOf(i), iGProFetchSpecifiedTypeChannelsOpenStateCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3749,7 +3749,7 @@ public interface IKernelGuildService {
         public void fetchUserInfo(long j, long j2, ArrayList<Long> arrayList, int i, IGProGetUserInfoCallback iGProGetUserInfoCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 19)) {
-                iPatchRedirector.redirect((short) 19, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, Integer.valueOf(i), iGProGetUserInfoCallback});
+                iPatchRedirector.redirect((short) 19, this, Long.valueOf(j), Long.valueOf(j2), arrayList, Integer.valueOf(i), iGProGetUserInfoCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3762,7 +3762,7 @@ public interface IKernelGuildService {
         public void fetchUserJoinedGuildList(long j, long j2, String str, IGProFetchUserJoinedGuildListCallback iGProFetchUserJoinedGuildListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 502)) {
-                iPatchRedirector.redirect((short) 502, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, iGProFetchUserJoinedGuildListCallback});
+                iPatchRedirector.redirect((short) 502, this, Long.valueOf(j), Long.valueOf(j2), str, iGProFetchUserJoinedGuildListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3788,7 +3788,7 @@ public interface IKernelGuildService {
         public void fetchUserList(long j, long j2, int i, IGProGetUserListCallback iGProGetUserListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 16)) {
-                iPatchRedirector.redirect((short) 16, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProGetUserListCallback});
+                iPatchRedirector.redirect((short) 16, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProGetUserListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3814,7 +3814,7 @@ public interface IKernelGuildService {
         public void fetchVisibleMemberListByTinyId(long j, long j2, ArrayList<Long> arrayList, int i, IGProFetchVisibleMemberListByTinyIdCallback iGProFetchVisibleMemberListByTinyIdCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 46)) {
-                iPatchRedirector.redirect((short) 46, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, Integer.valueOf(i), iGProFetchVisibleMemberListByTinyIdCallback});
+                iPatchRedirector.redirect((short) 46, this, Long.valueOf(j), Long.valueOf(j2), arrayList, Integer.valueOf(i), iGProFetchVisibleMemberListByTinyIdCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3935,7 +3935,7 @@ public interface IKernelGuildService {
         public void getAppRoleList(int i, String str, byte[] bArr, IGProGetAppRoleListCallback iGProGetAppRoleListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 133)) {
-                iPatchRedirector.redirect((short) 133, new Object[]{this, Integer.valueOf(i), str, bArr, iGProGetAppRoleListCallback});
+                iPatchRedirector.redirect((short) 133, this, Integer.valueOf(i), str, bArr, iGProGetAppRoleListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -3987,7 +3987,7 @@ public interface IKernelGuildService {
         public void getBindClientService(int i, int i2, byte[] bArr, IGProGetClientAccountCallback iGProGetClientAccountCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 222)) {
-                iPatchRedirector.redirect((short) 222, new Object[]{this, Integer.valueOf(i), Integer.valueOf(i2), bArr, iGProGetClientAccountCallback});
+                iPatchRedirector.redirect((short) 222, this, Integer.valueOf(i), Integer.valueOf(i2), bArr, iGProGetClientAccountCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -4164,7 +4164,7 @@ public interface IKernelGuildService {
         public void getChannelTopMsgFlashState(long j, long j2, long j3, IGProGetChannelTopMsgFlashStateCallback iGProGetChannelTopMsgFlashStateCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 230)) {
-                iPatchRedirector.redirect((short) 230, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProGetChannelTopMsgFlashStateCallback});
+                iPatchRedirector.redirect((short) 230, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProGetChannelTopMsgFlashStateCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -4936,7 +4936,7 @@ public interface IKernelGuildService {
         public void getMoreNoticeList(int i, long j, int i2, IGProGetMoreNoticeListCallback iGProGetMoreNoticeListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 128)) {
-                iPatchRedirector.redirect((short) 128, new Object[]{this, Integer.valueOf(i), Long.valueOf(j), Integer.valueOf(i2), iGProGetMoreNoticeListCallback});
+                iPatchRedirector.redirect((short) 128, this, Integer.valueOf(i), Long.valueOf(j), Integer.valueOf(i2), iGProGetMoreNoticeListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -5316,7 +5316,7 @@ public interface IKernelGuildService {
         public void getScheduleDetail(long j, long j2, long j3, IGProGetScheduleDetailCallback iGProGetScheduleDetailCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 270)) {
-                iPatchRedirector.redirect((short) 270, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProGetScheduleDetailCallback});
+                iPatchRedirector.redirect((short) 270, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProGetScheduleDetailCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -5329,7 +5329,7 @@ public interface IKernelGuildService {
         public void getScheduleList(long j, long j2, long j3, IGProGetScheduleListCallback iGProGetScheduleListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 271)) {
-                iPatchRedirector.redirect((short) 271, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProGetScheduleListCallback});
+                iPatchRedirector.redirect((short) 271, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProGetScheduleListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -5342,7 +5342,7 @@ public interface IKernelGuildService {
         public void getScheduleListNew(long j, long j2, int i, long j3, String str, IGProGetScheduleListNewCallback iGProGetScheduleListNewCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 272)) {
-                iPatchRedirector.redirect((short) 272, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Long.valueOf(j3), str, iGProGetScheduleListNewCallback});
+                iPatchRedirector.redirect((short) 272, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Long.valueOf(j3), str, iGProGetScheduleListNewCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -5355,7 +5355,7 @@ public interface IKernelGuildService {
         public void getScheduleUsers(long j, long j2, long j3, int i, byte[] bArr, IGProGetScheduleUsersCallback iGProGetScheduleUsersCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 275)) {
-                iPatchRedirector.redirect((short) 275, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), bArr, iGProGetScheduleUsersCallback});
+                iPatchRedirector.redirect((short) 275, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), bArr, iGProGetScheduleUsersCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -5368,7 +5368,7 @@ public interface IKernelGuildService {
         public void getSchedulesStatus(long j, long j2, long j3, long j4, IGProGetSchedulesStatusCallback iGProGetSchedulesStatusCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 273)) {
-                iPatchRedirector.redirect((short) 273, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), iGProGetSchedulesStatusCallback});
+                iPatchRedirector.redirect((short) 273, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), iGProGetSchedulesStatusCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -5530,7 +5530,7 @@ public interface IKernelGuildService {
         public void getUserList(long j, long j2, boolean z, int i, IGProGetUserListCallback iGProGetUserListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 17)) {
-                iPatchRedirector.redirect((short) 17, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), Integer.valueOf(i), iGProGetUserListCallback});
+                iPatchRedirector.redirect((short) 17, this, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), Integer.valueOf(i), iGProGetUserListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -5594,7 +5594,7 @@ public interface IKernelGuildService {
         public void initGetNoticeList(int i, long j, boolean z, IGProInitGetNoticeListCallback iGProInitGetNoticeListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 127)) {
-                iPatchRedirector.redirect((short) 127, new Object[]{this, Integer.valueOf(i), Long.valueOf(j), Boolean.valueOf(z), iGProInitGetNoticeListCallback});
+                iPatchRedirector.redirect((short) 127, this, Integer.valueOf(i), Long.valueOf(j), Boolean.valueOf(z), iGProInitGetNoticeListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -5706,7 +5706,7 @@ public interface IKernelGuildService {
         public void kickAudioChannelUsers(long j, long j2, ArrayList<Long> arrayList, IGProKickChannelMemberCallback iGProKickChannelMemberCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 82)) {
-                iPatchRedirector.redirect((short) 82, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, iGProKickChannelMemberCallback});
+                iPatchRedirector.redirect((short) 82, this, Long.valueOf(j), Long.valueOf(j2), arrayList, iGProKickChannelMemberCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -5719,7 +5719,7 @@ public interface IKernelGuildService {
         public void kickGuildUser(long j, ArrayList<Long> arrayList, boolean z, GProRevokeOptions gProRevokeOptions, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 25)) {
-                iPatchRedirector.redirect((short) 25, new Object[]{this, Long.valueOf(j), arrayList, Boolean.valueOf(z), gProRevokeOptions, iGProResultCallback});
+                iPatchRedirector.redirect((short) 25, this, Long.valueOf(j), arrayList, Boolean.valueOf(z), gProRevokeOptions, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -5758,7 +5758,7 @@ public interface IKernelGuildService {
         public void loadMemberListByIndex(long j, long j2, long j3, IGProLoadMemberListByIndexCallback iGProLoadMemberListByIndexCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 196)) {
-                iPatchRedirector.redirect((short) 196, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProLoadMemberListByIndexCallback});
+                iPatchRedirector.redirect((short) 196, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProLoadMemberListByIndexCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -5784,7 +5784,7 @@ public interface IKernelGuildService {
         public void loadNextPageMemberList(long j, long j2, boolean z, byte[] bArr, int i, IGProLoadNextPageMemberListCallback iGProLoadNextPageMemberListCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 195)) {
-                iPatchRedirector.redirect((short) 195, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), bArr, Integer.valueOf(i), iGProLoadNextPageMemberListCallback});
+                iPatchRedirector.redirect((short) 195, this, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), bArr, Integer.valueOf(i), iGProLoadNextPageMemberListCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -5849,7 +5849,7 @@ public interface IKernelGuildService {
         public void modifyScheduleInviteStatus(long j, long j2, long j3, int i, IGProModifyScheduleInviteStatusCallback iGProModifyScheduleInviteStatusCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 274)) {
-                iPatchRedirector.redirect((short) 274, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProModifyScheduleInviteStatusCallback});
+                iPatchRedirector.redirect((short) 274, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProModifyScheduleInviteStatusCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6017,7 +6017,7 @@ public interface IKernelGuildService {
         public void refreshChannelInfo(long j, long j2, int i, boolean z) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 10)) {
-                iPatchRedirector.redirect((short) 10, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z)});
+                iPatchRedirector.redirect((short) 10, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z));
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6121,7 +6121,7 @@ public interface IKernelGuildService {
         public void removeChannelCategoryWithId(long j, long j2, boolean z, IGProSetChannelCategoryInfoCallback iGProSetChannelCategoryInfoCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 92)) {
-                iPatchRedirector.redirect((short) 92, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProSetChannelCategoryInfoCallback});
+                iPatchRedirector.redirect((short) 92, this, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProSetChannelCategoryInfoCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6250,7 +6250,7 @@ public interface IKernelGuildService {
         public void reportFeedShareData(long j, long j2, int i, GProFeedReportData gProFeedReportData, int i2, IGProReportFeedShareDataCallback iGProReportFeedShareDataCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 255)) {
-                iPatchRedirector.redirect((short) 255, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), gProFeedReportData, Integer.valueOf(i2), iGProReportFeedShareDataCallback});
+                iPatchRedirector.redirect((short) 255, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), gProFeedReportData, Integer.valueOf(i2), iGProReportFeedShareDataCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6302,7 +6302,7 @@ public interface IKernelGuildService {
         public void reportShareInfo(long j, long j2, int i, String str, int i2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 190)) {
-                iPatchRedirector.redirect((short) 190, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), str, Integer.valueOf(i2), iGProResultCallback});
+                iPatchRedirector.redirect((short) 190, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), str, Integer.valueOf(i2), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6315,7 +6315,7 @@ public interface IKernelGuildService {
         public void reportUserViewGuild(ArrayList<String> arrayList, String str, String str2, int i, IGProSimpleResultCallback iGProSimpleResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 287)) {
-                iPatchRedirector.redirect((short) 287, new Object[]{this, arrayList, str, str2, Integer.valueOf(i), iGProSimpleResultCallback});
+                iPatchRedirector.redirect((short) 287, this, arrayList, str, str2, Integer.valueOf(i), iGProSimpleResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6328,7 +6328,7 @@ public interface IKernelGuildService {
         public void requestBeginBroadcast(long j, long j2, long j3, int i, GProProgrammeInfoReq gProProgrammeInfoReq, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 155)) {
-                iPatchRedirector.redirect((short) 155, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), gProProgrammeInfoReq, iGProResultCallback});
+                iPatchRedirector.redirect((short) 155, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), gProProgrammeInfoReq, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6393,7 +6393,7 @@ public interface IKernelGuildService {
         public void searchChannelContent(long j, long j2, String str, byte[] bArr, GProSearchType gProSearchType, GProSearchCond gProSearchCond, IGProSearchChannelContentCallback iGProSearchChannelContentCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 285)) {
-                iPatchRedirector.redirect((short) 285, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, bArr, gProSearchType, gProSearchCond, iGProSearchChannelContentCallback});
+                iPatchRedirector.redirect((short) 285, this, Long.valueOf(j), Long.valueOf(j2), str, bArr, gProSearchType, gProSearchCond, iGProSearchChannelContentCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6406,7 +6406,7 @@ public interface IKernelGuildService {
         public void searchGuild(String str, byte[] bArr, int i, int i2, int i3, IGProSearchGuildInfoCallback iGProSearchGuildInfoCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 282)) {
-                iPatchRedirector.redirect((short) 282, new Object[]{this, str, bArr, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), iGProSearchGuildInfoCallback});
+                iPatchRedirector.redirect((short) 282, this, str, bArr, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), iGProSearchGuildInfoCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6445,7 +6445,7 @@ public interface IKernelGuildService {
         public void searchUnion(String str, byte[] bArr, int i, int i2, int i3, int i4, int i5, IGProSearchUnionCallback iGProSearchUnionCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 284)) {
-                iPatchRedirector.redirect((short) 284, new Object[]{this, str, bArr, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), Integer.valueOf(i5), iGProSearchUnionCallback});
+                iPatchRedirector.redirect((short) 284, this, str, bArr, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), Integer.valueOf(i5), iGProSearchUnionCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6510,7 +6510,7 @@ public interface IKernelGuildService {
         public void sendScheduleArkMessage(ArrayList<Long> arrayList, ArrayList<Long> arrayList2, ArrayList<GProScheduleSendArkGuildInfo> arrayList3, GProScheduleSendArkGuildInfo gProScheduleSendArkGuildInfo, long j, int i, String str, String str2, String str3, IGProSendScheduleArkMessageCallback iGProSendScheduleArkMessageCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 276)) {
-                iPatchRedirector.redirect((short) 276, new Object[]{this, arrayList, arrayList2, arrayList3, gProScheduleSendArkGuildInfo, Long.valueOf(j), Integer.valueOf(i), str, str2, str3, iGProSendScheduleArkMessageCallback});
+                iPatchRedirector.redirect((short) 276, this, arrayList, arrayList2, arrayList3, gProScheduleSendArkGuildInfo, Long.valueOf(j), Integer.valueOf(i), str, str2, str3, iGProSendScheduleArkMessageCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6523,7 +6523,7 @@ public interface IKernelGuildService {
         public void setAVChannelInviteSpeakSwitch(long j, long j2, GProInviteSpeakCfg gProInviteSpeakCfg, IGProSimpleResultCallback iGProSimpleResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 421)) {
-                iPatchRedirector.redirect((short) 421, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), gProInviteSpeakCfg, iGProSimpleResultCallback});
+                iPatchRedirector.redirect((short) 421, this, Long.valueOf(j), Long.valueOf(j2), gProInviteSpeakCfg, iGProSimpleResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6536,7 +6536,7 @@ public interface IKernelGuildService {
         public void setAVChannelSpeakMode(long j, long j2, String str, GProVoiceSpeakModeCfg gProVoiceSpeakModeCfg, IGProSetSpeakModeCallback iGProSetSpeakModeCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 419)) {
-                iPatchRedirector.redirect((short) 419, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, gProVoiceSpeakModeCfg, iGProSetSpeakModeCallback});
+                iPatchRedirector.redirect((short) 419, this, Long.valueOf(j), Long.valueOf(j2), str, gProVoiceSpeakModeCfg, iGProSetSpeakModeCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6549,7 +6549,7 @@ public interface IKernelGuildService {
         public void setAVChannelSpeakOrder(long j, long j2, GProVoiceQueueCfg gProVoiceQueueCfg, IGProSimpleResultCallback iGProSimpleResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 420)) {
-                iPatchRedirector.redirect((short) 420, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), gProVoiceQueueCfg, iGProSimpleResultCallback});
+                iPatchRedirector.redirect((short) 420, this, Long.valueOf(j), Long.valueOf(j2), gProVoiceQueueCfg, iGProSimpleResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6562,7 +6562,7 @@ public interface IKernelGuildService {
         public void setAddGuildOption(long j, int i, String str, String str2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 119)) {
-                iPatchRedirector.redirect((short) 119, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), str, str2, iGProResultCallback});
+                iPatchRedirector.redirect((short) 119, this, Long.valueOf(j), Integer.valueOf(i), str, str2, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6588,7 +6588,7 @@ public interface IKernelGuildService {
         public void setCategoryFolded(long j, long j2, boolean z, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 97)) {
-                iPatchRedirector.redirect((short) 97, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProResultCallback});
+                iPatchRedirector.redirect((short) 97, this, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6601,7 +6601,7 @@ public interface IKernelGuildService {
         public void setChannelAuthControl(long j, long j2, int i, int i2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 301)) {
-                iPatchRedirector.redirect((short) 301, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), iGProResultCallback});
+                iPatchRedirector.redirect((short) 301, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6614,7 +6614,7 @@ public interface IKernelGuildService {
         public void setChannelAuthControlMemberList(long j, long j2, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, int i, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 299)) {
-                iPatchRedirector.redirect((short) 299, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, Integer.valueOf(i), iGProResultCallback});
+                iPatchRedirector.redirect((short) 299, this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, Integer.valueOf(i), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6627,7 +6627,7 @@ public interface IKernelGuildService {
         public void setChannelAuthControlRoleList(long j, long j2, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, int i, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 300)) {
-                iPatchRedirector.redirect((short) 300, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, Integer.valueOf(i), iGProResultCallback});
+                iPatchRedirector.redirect((short) 300, this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, Integer.valueOf(i), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6640,7 +6640,7 @@ public interface IKernelGuildService {
         public void setChannelBannedSpeak(long j, long j2, int i, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 39)) {
-                iPatchRedirector.redirect((short) 39, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+                iPatchRedirector.redirect((short) 39, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6653,7 +6653,7 @@ public interface IKernelGuildService {
         public void setChannelCategoryInfoWithId(long j, GProCategoryChannelIdList gProCategoryChannelIdList, ArrayList<GProCategoryChannelIdList> arrayList, IGProSetChannelCategoryInfoCallback iGProSetChannelCategoryInfoCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 96)) {
-                iPatchRedirector.redirect((short) 96, new Object[]{this, Long.valueOf(j), gProCategoryChannelIdList, arrayList, iGProSetChannelCategoryInfoCallback});
+                iPatchRedirector.redirect((short) 96, this, Long.valueOf(j), gProCategoryChannelIdList, arrayList, iGProSetChannelCategoryInfoCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6692,7 +6692,7 @@ public interface IKernelGuildService {
         public void setChannelCategoryWithId(long j, long j2, long j3, IGProSetChannelCategoryInfoCallback iGProSetChannelCategoryInfoCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 89)) {
-                iPatchRedirector.redirect((short) 89, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProSetChannelCategoryInfoCallback});
+                iPatchRedirector.redirect((short) 89, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProSetChannelCategoryInfoCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6718,7 +6718,7 @@ public interface IKernelGuildService {
         public void setChannelLiveable(long j, long j2, int i, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 296)) {
-                iPatchRedirector.redirect((short) 296, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+                iPatchRedirector.redirect((short) 296, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6731,7 +6731,7 @@ public interface IKernelGuildService {
         public void setChannelLiveableMemberList(long j, long j2, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 297)) {
-                iPatchRedirector.redirect((short) 297, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+                iPatchRedirector.redirect((short) 297, this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6744,7 +6744,7 @@ public interface IKernelGuildService {
         public void setChannelLiveableRoleList(long j, long j2, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 298)) {
-                iPatchRedirector.redirect((short) 298, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+                iPatchRedirector.redirect((short) 298, this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6757,7 +6757,7 @@ public interface IKernelGuildService {
         public void setChannelMsgNotifyType(long j, long j2, int i, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 34)) {
-                iPatchRedirector.redirect((short) 34, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+                iPatchRedirector.redirect((short) 34, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6770,7 +6770,7 @@ public interface IKernelGuildService {
         public void setChannelName(long j, long j2, String str, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 33)) {
-                iPatchRedirector.redirect((short) 33, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, iGProResultCallback});
+                iPatchRedirector.redirect((short) 33, this, Long.valueOf(j), Long.valueOf(j2), str, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6783,7 +6783,7 @@ public interface IKernelGuildService {
         public void setChannelSlowMode(long j, long j2, int i, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 225)) {
-                iPatchRedirector.redirect((short) 225, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+                iPatchRedirector.redirect((short) 225, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6796,7 +6796,7 @@ public interface IKernelGuildService {
         public void setChannelSpeakable(long j, long j2, int i, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 293)) {
-                iPatchRedirector.redirect((short) 293, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+                iPatchRedirector.redirect((short) 293, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6809,7 +6809,7 @@ public interface IKernelGuildService {
         public void setChannelSpeakableMemberList(long j, long j2, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 294)) {
-                iPatchRedirector.redirect((short) 294, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+                iPatchRedirector.redirect((short) 294, this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6822,7 +6822,7 @@ public interface IKernelGuildService {
         public void setChannelSpeakableRoleList(long j, long j2, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 295)) {
-                iPatchRedirector.redirect((short) 295, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+                iPatchRedirector.redirect((short) 295, this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6835,7 +6835,7 @@ public interface IKernelGuildService {
         public void setChannelSpeakerPerm(long j, long j2, int i, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 38)) {
-                iPatchRedirector.redirect((short) 38, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+                iPatchRedirector.redirect((short) 38, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6848,7 +6848,7 @@ public interface IKernelGuildService {
         public void setChannelTopMsg(long j, long j2, long j3, int i, IGProSetChannelTopMsgCallback iGProSetChannelTopMsgCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 226)) {
-                iPatchRedirector.redirect((short) 226, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProSetChannelTopMsgCallback});
+                iPatchRedirector.redirect((short) 226, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProSetChannelTopMsgCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6861,7 +6861,7 @@ public interface IKernelGuildService {
         public void setChannelUserNumLimit(long j, long j2, int i, boolean z, int i2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 430)) {
-                iPatchRedirector.redirect((short) 430, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), Integer.valueOf(i2), iGProResultCallback});
+                iPatchRedirector.redirect((short) 430, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), Integer.valueOf(i2), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6874,7 +6874,7 @@ public interface IKernelGuildService {
         public void setChannelVisible(long j, long j2, int i, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 288)) {
-                iPatchRedirector.redirect((short) 288, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+                iPatchRedirector.redirect((short) 288, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6887,7 +6887,7 @@ public interface IKernelGuildService {
         public void setChannelVisibleMemberList(long j, long j2, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 291)) {
-                iPatchRedirector.redirect((short) 291, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+                iPatchRedirector.redirect((short) 291, this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6900,7 +6900,7 @@ public interface IKernelGuildService {
         public void setChannelVisibleMembers(long j, long j2, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 40)) {
-                iPatchRedirector.redirect((short) 40, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+                iPatchRedirector.redirect((short) 40, this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6913,7 +6913,7 @@ public interface IKernelGuildService {
         public void setChannelVisibleRoleList(long j, long j2, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 292)) {
-                iPatchRedirector.redirect((short) 292, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+                iPatchRedirector.redirect((short) 292, this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -6926,7 +6926,7 @@ public interface IKernelGuildService {
         public void setClientShowConfig(int i, int i2, int i3, IGProSetClientShowConfigCallback iGProSetClientShowConfigCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 224)) {
-                iPatchRedirector.redirect((short) 224, new Object[]{this, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), iGProSetClientShowConfigCallback});
+                iPatchRedirector.redirect((short) 224, this, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), iGProSetClientShowConfigCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7043,7 +7043,7 @@ public interface IKernelGuildService {
         public void setGuildAdmin(long j, long j2, boolean z, IGProSetGuildAdminResultCallback iGProSetGuildAdminResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 30)) {
-                iPatchRedirector.redirect((short) 30, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProSetGuildAdminResultCallback});
+                iPatchRedirector.redirect((short) 30, this, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProSetGuildAdminResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7082,7 +7082,7 @@ public interface IKernelGuildService {
         public void setGuildCommonUnNotifyFlag(long j, int i, int i2, IGProSetGuildNotifyDisplayCallback iGProSetGuildNotifyDisplayCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 146)) {
-                iPatchRedirector.redirect((short) 146, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSetGuildNotifyDisplayCallback});
+                iPatchRedirector.redirect((short) 146, this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSetGuildNotifyDisplayCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7160,7 +7160,7 @@ public interface IKernelGuildService {
         public void setGuildListTop(long j, int i, int i2, IGProSetGuildListTopCallback iGProSetGuildListTopCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 143)) {
-                iPatchRedirector.redirect((short) 143, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSetGuildListTopCallback});
+                iPatchRedirector.redirect((short) 143, this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSetGuildListTopCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7277,7 +7277,7 @@ public interface IKernelGuildService {
         public void setGuildSpeakableMemberList(long j, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 332)) {
-                iPatchRedirector.redirect((short) 332, new Object[]{this, Long.valueOf(j), arrayList, arrayList2, iGProResultCallback});
+                iPatchRedirector.redirect((short) 332, this, Long.valueOf(j), arrayList, arrayList2, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7290,7 +7290,7 @@ public interface IKernelGuildService {
         public void setGuildSpeakableRoleList(long j, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 331)) {
-                iPatchRedirector.redirect((short) 331, new Object[]{this, Long.valueOf(j), arrayList, arrayList2, iGProResultCallback});
+                iPatchRedirector.redirect((short) 331, this, Long.valueOf(j), arrayList, arrayList2, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7459,7 +7459,7 @@ public interface IKernelGuildService {
         public void setListenTogetherPlayOpt(long j, long j2, int i, IGProListenTogetherPlayListOptCallback iGProListenTogetherPlayListOptCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 427)) {
-                iPatchRedirector.redirect((short) 427, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProListenTogetherPlayListOptCallback});
+                iPatchRedirector.redirect((short) 427, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProListenTogetherPlayListOptCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7472,7 +7472,7 @@ public interface IKernelGuildService {
         public void setListenTogetherPlayVolumeByAdmin(long j, long j2, int i, IGProListenTogetherPlayListOptCallback iGProListenTogetherPlayListOptCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 428)) {
-                iPatchRedirector.redirect((short) 428, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProListenTogetherPlayListOptCallback});
+                iPatchRedirector.redirect((short) 428, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProListenTogetherPlayListOptCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7485,7 +7485,7 @@ public interface IKernelGuildService {
         public void setLiveChannelAnchorList(long j, long j2, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 147)) {
-                iPatchRedirector.redirect((short) 147, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+                iPatchRedirector.redirect((short) 147, this, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7498,7 +7498,7 @@ public interface IKernelGuildService {
         public void setLiveChannelBannedUser(long j, long j2, long j3, long j4, int i, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 151)) {
-                iPatchRedirector.redirect((short) 151, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i), iGProResultCallback});
+                iPatchRedirector.redirect((short) 151, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7524,7 +7524,7 @@ public interface IKernelGuildService {
         public void setMemberRoles(long j, long j2, long j3, long j4, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 206)) {
-                iPatchRedirector.redirect((short) 206, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), arrayList, arrayList2, iGProResultCallback});
+                iPatchRedirector.redirect((short) 206, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), arrayList, arrayList2, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7537,7 +7537,7 @@ public interface IKernelGuildService {
         public void setMemberShutUp(long j, long j2, long j3, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 262)) {
-                iPatchRedirector.redirect((short) 262, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProResultCallback});
+                iPatchRedirector.redirect((short) 262, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7550,7 +7550,7 @@ public interface IKernelGuildService {
         public void setMyBirthday(short s, short s2, short s3, IGProSimpleResultCallback iGProSimpleResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 369)) {
-                iPatchRedirector.redirect((short) 369, new Object[]{this, Short.valueOf(s), Short.valueOf(s2), Short.valueOf(s3), iGProSimpleResultCallback});
+                iPatchRedirector.redirect((short) 369, this, Short.valueOf(s), Short.valueOf(s2), Short.valueOf(s3), iGProSimpleResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7576,7 +7576,7 @@ public interface IKernelGuildService {
         public void setMyProfileShowTypeSwitch(long j, int i, int i2, IGProSimpleResultCallback iGProSimpleResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 372)) {
-                iPatchRedirector.redirect((short) 372, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSimpleResultCallback});
+                iPatchRedirector.redirect((short) 372, this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSimpleResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7641,7 +7641,7 @@ public interface IKernelGuildService {
         public void setNoSpeakGotoChannel(long j, long j2, long j3, int i, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 440)) {
-                iPatchRedirector.redirect((short) 440, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProResultCallback});
+                iPatchRedirector.redirect((short) 440, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7680,7 +7680,7 @@ public interface IKernelGuildService {
         public void setQQMsgListChannel(long j, long j2, int i, IGProSetQQMsgListChannelCallback iGProSetQQMsgListChannelCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 344)) {
-                iPatchRedirector.redirect((short) 344, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProSetQQMsgListChannelCallback});
+                iPatchRedirector.redirect((short) 344, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProSetQQMsgListChannelCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7693,7 +7693,7 @@ public interface IKernelGuildService {
         public void setQQMsgListGuild(long j, int i, int i2, IGProSetQQMsgListGuildCallback iGProSetQQMsgListGuildCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 340)) {
-                iPatchRedirector.redirect((short) 340, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSetQQMsgListGuildCallback});
+                iPatchRedirector.redirect((short) 340, this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSetQQMsgListGuildCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7706,7 +7706,7 @@ public interface IKernelGuildService {
         public void setRoleChannels(long j, long j2, int i, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, IGProSetRoleChannelsCallback iGProSetRoleChannelsCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 306)) {
-                iPatchRedirector.redirect((short) 306, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), arrayList, arrayList2, iGProSetRoleChannelsCallback});
+                iPatchRedirector.redirect((short) 306, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), arrayList, arrayList2, iGProSetRoleChannelsCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7719,7 +7719,7 @@ public interface IKernelGuildService {
         public void setRoleInfo(long j, long j2, GProRoleCreateInfo gProRoleCreateInfo, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 203)) {
-                iPatchRedirector.redirect((short) 203, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), gProRoleCreateInfo, iGProResultCallback});
+                iPatchRedirector.redirect((short) 203, this, Long.valueOf(j), Long.valueOf(j2), gProRoleCreateInfo, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7732,7 +7732,7 @@ public interface IKernelGuildService {
         public void setRoleMembers(long j, long j2, long j3, long j4, ArrayList<Long> arrayList, ArrayList<Long> arrayList2, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 205)) {
-                iPatchRedirector.redirect((short) 205, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), arrayList, arrayList2, iGProResultCallback});
+                iPatchRedirector.redirect((short) 205, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), arrayList, arrayList2, iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7758,7 +7758,7 @@ public interface IKernelGuildService {
         public void setScreenSharedInGuild(long j, long j2, boolean z, IGProScreenShareCallback iGProScreenShareCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 87)) {
-                iPatchRedirector.redirect((short) 87, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProScreenShareCallback});
+                iPatchRedirector.redirect((short) 87, this, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProScreenShareCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7849,7 +7849,7 @@ public interface IKernelGuildService {
         public void setUserLiveInfo(int i, String str, String str2, int i2, IGProSetUserLiveInfoCallback iGProSetUserLiveInfoCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 159)) {
-                iPatchRedirector.redirect((short) 159, new Object[]{this, Integer.valueOf(i), str, str2, Integer.valueOf(i2), iGProSetUserLiveInfoCallback});
+                iPatchRedirector.redirect((short) 159, this, Integer.valueOf(i), str, str2, Integer.valueOf(i2), iGProSetUserLiveInfoCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7862,7 +7862,7 @@ public interface IKernelGuildService {
         public void setUserMuteSeatInGuild(long j, long j2, long j3, boolean z, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 83)) {
-                iPatchRedirector.redirect((short) 83, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Boolean.valueOf(z), iGProResultCallback});
+                iPatchRedirector.redirect((short) 83, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Boolean.valueOf(z), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7875,7 +7875,7 @@ public interface IKernelGuildService {
         public void setUserPermissionInGuild(long j, long j2, long j3, boolean z, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 86)) {
-                iPatchRedirector.redirect((short) 86, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Boolean.valueOf(z), iGProResultCallback});
+                iPatchRedirector.redirect((short) 86, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Boolean.valueOf(z), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7888,7 +7888,7 @@ public interface IKernelGuildService {
         public void setUserScreenSharedInGuild(long j, long j2, long j3, boolean z, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 85)) {
-                iPatchRedirector.redirect((short) 85, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Boolean.valueOf(z), iGProResultCallback});
+                iPatchRedirector.redirect((short) 85, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Boolean.valueOf(z), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -7953,7 +7953,7 @@ public interface IKernelGuildService {
         public void startAnchorBroadcast(long j, long j2, String str, String str2, int i, IGProSimpleResultCallback iGProSimpleResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 177)) {
-                iPatchRedirector.redirect((short) 177, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, str2, Integer.valueOf(i), iGProSimpleResultCallback});
+                iPatchRedirector.redirect((short) 177, this, Long.valueOf(j), Long.valueOf(j2), str, str2, Integer.valueOf(i), iGProSimpleResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -8083,7 +8083,7 @@ public interface IKernelGuildService {
         public void terminateLiveStream(long j, long j2, int i, int i2, IGProTerminateLiveStreamCallback iGProTerminateLiveStreamCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 154)) {
-                iPatchRedirector.redirect((short) 154, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), iGProTerminateLiveStreamCallback});
+                iPatchRedirector.redirect((short) 154, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), iGProTerminateLiveStreamCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -8122,7 +8122,7 @@ public interface IKernelGuildService {
         public void tryUnmuteMicrophone(long j, long j2, boolean z, IGProSimpleResultCallback iGProSimpleResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 263)) {
-                iPatchRedirector.redirect((short) 263, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProSimpleResultCallback});
+                iPatchRedirector.redirect((short) 263, this, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProSimpleResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -8187,7 +8187,7 @@ public interface IKernelGuildService {
         public void updateForumChannelSortMode(long j, long j2, int i, IGProResultCallback iGProResultCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 254)) {
-                iPatchRedirector.redirect((short) 254, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+                iPatchRedirector.redirect((short) 254, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -8291,7 +8291,7 @@ public interface IKernelGuildService {
         public void voiceChannelAuth0x10b6(long j, long j2, int i, boolean z, int i2, IGProVoiceChannelAuthCallback iGProVoiceChannelAuthCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 264)) {
-                iPatchRedirector.redirect((short) 264, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), Integer.valueOf(i2), iGProVoiceChannelAuthCallback});
+                iPatchRedirector.redirect((short) 264, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), Integer.valueOf(i2), iGProVoiceChannelAuthCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");
@@ -8330,7 +8330,7 @@ public interface IKernelGuildService {
         public void voiceSmobaGameEnterRoom(long j, int i, long j2, long j3, IGProVoiceSmobaGameEnterRoomCallback iGProVoiceSmobaGameEnterRoomCallback) {
             IPatchRedirector iPatchRedirector = $redirector_;
             if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 398)) {
-                iPatchRedirector.redirect((short) 398, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), Long.valueOf(j2), Long.valueOf(j3), iGProVoiceSmobaGameEnterRoomCallback});
+                iPatchRedirector.redirect((short) 398, this, Long.valueOf(j), Integer.valueOf(i), Long.valueOf(j2), Long.valueOf(j3), iGProVoiceSmobaGameEnterRoomCallback);
             } else {
                 if (!$assertionsDisabled && this.destroyed.get()) {
                     throw new AssertionError("trying to use a destroyed object");

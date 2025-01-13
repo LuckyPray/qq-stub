@@ -10,7 +10,7 @@ public interface IKernelBaseEmojiService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelBaseEmojiService$CppProxy.class */
-    public static final class CppProxy implements IKernelBaseEmojiService {
+    final class CppProxy implements IKernelBaseEmojiService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

@@ -37,7 +37,7 @@ public final class EmojiZPlan {
     public EmojiZPlan() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83015, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.actionName = "";
@@ -46,38 +46,38 @@ public final class EmojiZPlan {
 
     public int getActionId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83015, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.actionId;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.actionId;
     }
 
     public String getActionName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83015, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.actionName;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.actionName;
     }
 
     public int getActionType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83015, (short) 5);
-        return redirector != null ? ((Integer) redirector.redirect((short) 5, (Object) this)).intValue() : this.actionType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 5, this)).intValue() : this.actionType;
     }
 
     public String getBytesReserveInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83015, (short) 8);
-        return redirector != null ? (String) redirector.redirect((short) 8, (Object) this) : this.bytesReserveInfo;
+        return redirector != null ? (String) redirector.redirect((short) 8, this) : this.bytesReserveInfo;
     }
 
     public long getPeerUid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83015, (short) 7);
-        return redirector != null ? ((Long) redirector.redirect((short) 7, (Object) this)).longValue() : this.peerUid;
+        return redirector != null ? ((Long) redirector.redirect((short) 7, this)).longValue() : this.peerUid;
     }
 
     public int getPlayerNumber() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83015, (short) 6);
-        return redirector != null ? ((Integer) redirector.redirect((short) 6, (Object) this)).intValue() : this.playerNumber;
+        return redirector != null ? ((Integer) redirector.redirect((short) 6, this)).intValue() : this.playerNumber;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83015, (short) 9);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 9, (Object) this);
+            return (String) redirector.redirect((short) 9, this);
         }
         return "EmojiZPlan{actionId=" + this.actionId + ",actionName=" + this.actionName + ",actionType=" + this.actionType + ",playerNumber=" + this.playerNumber + ",peerUid=" + this.peerUid + ",bytesReserveInfo=" + this.bytesReserveInfo + ",}";
     }

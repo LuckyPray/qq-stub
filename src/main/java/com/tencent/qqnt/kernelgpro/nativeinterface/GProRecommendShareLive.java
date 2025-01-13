@@ -73,7 +73,7 @@ public final class GProRecommendShareLive {
     public GProRecommendShareLive(String str, ArrayList<String> arrayList, long j, long j2, String str2, long j3, String str3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, arrayList, Long.valueOf(j), Long.valueOf(j2), str2, Long.valueOf(j3), str3});
+            iPatchRedirector.redirect((short) 2, this, str, arrayList, Long.valueOf(j), Long.valueOf(j2), str2, Long.valueOf(j3), str3);
             return;
         }
         this.anchorIcon = "";

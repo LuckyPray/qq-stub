@@ -90,7 +90,7 @@ public final class GproGetOpenShareInfoReq {
     public GproGetOpenShareInfoReq(String str, String str2, String str3, int i) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, Integer.valueOf(i)});
+            iPatchRedirector.redirect((short) 2, this, str, str2, str3, Integer.valueOf(i));
             return;
         }
         this.queryStr = "";

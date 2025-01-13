@@ -73,7 +73,7 @@ public final class GProHeartbeatRsq implements Serializable {
     public GProHeartbeatRsq(long j, long j2, long j3, int i, String str, GProAVChannelConfig gProAVChannelConfig, long j4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), str, gProAVChannelConfig, Long.valueOf(j4)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), str, gProAVChannelConfig, Long.valueOf(j4));
             return;
         }
         this.serialVersionUID = 1L;

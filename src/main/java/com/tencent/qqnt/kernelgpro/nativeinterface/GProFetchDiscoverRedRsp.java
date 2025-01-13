@@ -63,7 +63,7 @@ public final class GProFetchDiscoverRedRsp {
     public GProFetchDiscoverRedRsp(int i, long j, int i2, GProDiscoverStatus gProDiscoverStatus, byte[] bArr, int i3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Long.valueOf(j), Integer.valueOf(i2), gProDiscoverStatus, bArr, Integer.valueOf(i3)});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Long.valueOf(j), Integer.valueOf(i2), gProDiscoverStatus, bArr, Integer.valueOf(i3));
             return;
         }
         this.discoverStatus = new GProDiscoverStatus();

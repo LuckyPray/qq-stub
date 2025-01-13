@@ -77,7 +77,7 @@ public final class GProDirectMsgCreateInfo {
     public GProDirectMsgCreateInfo(long j, long j2, String str, String str2, String str3, long j3, int i, int i2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, str2, str3, Long.valueOf(j3), Integer.valueOf(i), Integer.valueOf(i2)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), str, str2, str3, Long.valueOf(j3), Integer.valueOf(i), Integer.valueOf(i2));
             return;
         }
         this.srcGuildName = "";

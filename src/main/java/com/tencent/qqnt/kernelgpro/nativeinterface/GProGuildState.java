@@ -52,7 +52,7 @@ public final class GProGuildState {
     public GProGuildState(long j, ArrayList<GProChannelState> arrayList, long j2, GProUserChannelState gProUserChannelState) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), arrayList, Long.valueOf(j2), gProUserChannelState});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), arrayList, Long.valueOf(j2), gProUserChannelState);
             return;
         }
         this.channelStateList = new ArrayList<>();

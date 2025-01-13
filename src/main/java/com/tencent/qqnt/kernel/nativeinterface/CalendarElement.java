@@ -41,7 +41,7 @@ public final class CalendarElement implements Serializable {
     public CalendarElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(80311, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -52,33 +52,33 @@ public final class CalendarElement implements Serializable {
 
     public long getExpireTimeMs() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(80311, (short) 5);
-        return redirector != null ? ((Long) redirector.redirect((short) 5, (Object) this)).longValue() : this.expireTimeMs;
+        return redirector != null ? ((Long) redirector.redirect((short) 5, this)).longValue() : this.expireTimeMs;
     }
 
     public String getMsg() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(80311, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.msg;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.msg;
     }
 
     public String getSchema() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(80311, (short) 7);
-        return redirector != null ? (String) redirector.redirect((short) 7, (Object) this) : this.schema;
+        return redirector != null ? (String) redirector.redirect((short) 7, this) : this.schema;
     }
 
     public int getSchemaType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(80311, (short) 6);
-        return redirector != null ? ((Integer) redirector.redirect((short) 6, (Object) this)).intValue() : this.schemaType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 6, this)).intValue() : this.schemaType;
     }
 
     public String getSummary() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(80311, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.summary;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.summary;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(80311, (short) 8);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 8, (Object) this);
+            return (String) redirector.redirect((short) 8, this);
         }
         return "CalendarElement{summary=" + this.summary + ",msg=" + this.msg + ",expireTimeMs=" + this.expireTimeMs + ",schemaType=" + this.schemaType + ",schema=" + this.schema + ",}";
     }

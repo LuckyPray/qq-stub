@@ -33,19 +33,19 @@ public final class SharedMsgInfo {
     public SharedMsgInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94609, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public boolean getIsSharedMsg() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94609, (short) 3);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 3, (Object) this)).booleanValue() : this.isSharedMsg;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 3, this)).booleanValue() : this.isSharedMsg;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94609, (short) 4);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 4, (Object) this);
+            return (String) redirector.redirect((short) 4, this);
         }
         return "SharedMsgInfo{isSharedMsg=" + this.isSharedMsg + ",}";
     }
@@ -53,7 +53,7 @@ public final class SharedMsgInfo {
     public SharedMsgInfo(boolean z) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94609, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, z);
+            redirector.redirect((short) 2, this, z);
         } else {
             this.isSharedMsg = z;
         }

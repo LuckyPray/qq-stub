@@ -109,7 +109,7 @@ public final class GProQRCodeShareInfo implements Serializable {
     public GProQRCodeShareInfo(String str, String str2, long j, long j2, long j3, long j4, String str3, String str4, String str5, String str6, String str7, String str8) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), str3, str4, str5, str6, str7, str8});
+            iPatchRedirector.redirect((short) 2, this, str, str2, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), str3, str4, str5, str6, str7, str8);
             return;
         }
         this.serialVersionUID = 1L;

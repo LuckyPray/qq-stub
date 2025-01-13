@@ -10,7 +10,7 @@ public class Packet {
     private String account = "0";
     private HashMap<String, Object> attributes = new HashMap();
     public boolean autoResend;
-    private UniPacket client = new UniPacket(true);
+    private final UniPacket client = new UniPacket(true);
     private boolean noResponse;
     public boolean quickSendEnable;
     public int quickSendStrategy = 0;

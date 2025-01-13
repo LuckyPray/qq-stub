@@ -68,7 +68,7 @@ public final class GProAudioLiveUserListRsp implements Serializable {
     public GProAudioLiveUserListRsp(GProChannelMemberInfos gProChannelMemberInfos, GProChannelMemberInfos gProChannelMemberInfos2, long j, boolean z, GProChannelMemberInfos gProChannelMemberInfos3, GProChannelUserNum gProChannelUserNum) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, gProChannelMemberInfos, gProChannelMemberInfos2, Long.valueOf(j), Boolean.valueOf(z), gProChannelMemberInfos3, gProChannelUserNum});
+            iPatchRedirector.redirect((short) 2, this, gProChannelMemberInfos, gProChannelMemberInfos2, Long.valueOf(j), Boolean.valueOf(z), gProChannelMemberInfos3, gProChannelUserNum);
             return;
         }
         this.serialVersionUID = 1L;

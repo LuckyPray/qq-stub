@@ -152,7 +152,7 @@ public final class GProContentRecommendFeed implements Serializable {
     public GProContentRecommendFeed(String str, String str2, GProImage gProImage, ArrayList<GProVideo> arrayList, GProFeedStat gProFeedStat, GProFeedGuildInfo gProFeedGuildInfo, int i, int i2, GProPoster gProPoster, long j, GProMVPRichText gProMVPRichText, long j2, int i3, GProImage gProImage2, boolean z) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, gProImage, arrayList, gProFeedStat, gProFeedGuildInfo, Integer.valueOf(i), Integer.valueOf(i2), gProPoster, Long.valueOf(j), gProMVPRichText, Long.valueOf(j2), Integer.valueOf(i3), gProImage2, Boolean.valueOf(z)});
+            iPatchRedirector.redirect((short) 2, this, str, str2, gProImage, arrayList, gProFeedStat, gProFeedGuildInfo, Integer.valueOf(i), Integer.valueOf(i2), gProPoster, Long.valueOf(j), gProMVPRichText, Long.valueOf(j2), Integer.valueOf(i3), gProImage2, Boolean.valueOf(z));
             return;
         }
         this.serialVersionUID = 1L;

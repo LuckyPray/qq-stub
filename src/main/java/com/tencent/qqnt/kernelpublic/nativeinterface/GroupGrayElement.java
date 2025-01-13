@@ -111,7 +111,7 @@ public final class GroupGrayElement implements Serializable {
     public GroupGrayElement(GroupGrayElementType groupGrayElementType, GroupGrayElementRole groupGrayElementRole, String str, String str2, String str3, String str4, String str5, String str6, String str7, CreateGroupGrayElement createGroupGrayElement, MemberAddGrayElement memberAddGrayElement, GroupShutUpGrayElement groupShutUpGrayElement) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, groupGrayElementType, groupGrayElementRole, str, str2, str3, str4, str5, str6, str7, createGroupGrayElement, memberAddGrayElement, groupShutUpGrayElement});
+            iPatchRedirector.redirect((short) 2, this, groupGrayElementType, groupGrayElementRole, str, str2, str3, str4, str5, str6, str7, createGroupGrayElement, memberAddGrayElement, groupShutUpGrayElement);
             return;
         }
         this.serialVersionUID = 1L;

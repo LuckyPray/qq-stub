@@ -47,7 +47,7 @@ public final class GroupNotifyMsg implements IKernelModel, Serializable {
     public GroupNotifyMsg() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -65,68 +65,68 @@ public final class GroupNotifyMsg implements IKernelModel, Serializable {
 
     public long getActionTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 10);
-        return redirector != null ? ((Long) redirector.redirect((short) 10, (Object) this)).longValue() : this.actionTime;
+        return redirector != null ? ((Long) redirector.redirect((short) 10, this)).longValue() : this.actionTime;
     }
 
     public GroupNotifyUser getActionUser() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 9);
-        return redirector != null ? (GroupNotifyUser) redirector.redirect((short) 9, (Object) this) : this.actionUser;
+        return redirector != null ? (GroupNotifyUser) redirector.redirect((short) 9, this) : this.actionUser;
     }
 
     public GroupNotifyGroup getGroup() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 6);
-        return redirector != null ? (GroupNotifyGroup) redirector.redirect((short) 6, (Object) this) : this.group;
+        return redirector != null ? (GroupNotifyGroup) redirector.redirect((short) 6, this) : this.group;
     }
 
     public GroupInviteExt getInvitationExt() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 11);
-        return redirector != null ? (GroupInviteExt) redirector.redirect((short) 11, (Object) this) : this.invitationExt;
+        return redirector != null ? (GroupInviteExt) redirector.redirect((short) 11, this) : this.invitationExt;
     }
 
     public String getPostscript() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 12);
-        return redirector != null ? (String) redirector.redirect((short) 12, (Object) this) : this.postscript;
+        return redirector != null ? (String) redirector.redirect((short) 12, this) : this.postscript;
     }
 
     public ArrayList<Long> getRepeatSeqs() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 13);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 13, (Object) this) : this.repeatSeqs;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 13, this) : this.repeatSeqs;
     }
 
     public long getSeq() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.seq;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.seq;
     }
 
     public GroupNotifyMsgStatus getStatus() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 5);
-        return redirector != null ? (GroupNotifyMsgStatus) redirector.redirect((short) 5, (Object) this) : this.status;
+        return redirector != null ? (GroupNotifyMsgStatus) redirector.redirect((short) 5, this) : this.status;
     }
 
     public GroupNotifyMsgType getType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 4);
-        return redirector != null ? (GroupNotifyMsgType) redirector.redirect((short) 4, (Object) this) : this.type;
+        return redirector != null ? (GroupNotifyMsgType) redirector.redirect((short) 4, this) : this.type;
     }
 
     public GroupNotifyUser getUser1() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 7);
-        return redirector != null ? (GroupNotifyUser) redirector.redirect((short) 7, (Object) this) : this.user1;
+        return redirector != null ? (GroupNotifyUser) redirector.redirect((short) 7, this) : this.user1;
     }
 
     public GroupNotifyUser getUser2() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 8);
-        return redirector != null ? (GroupNotifyUser) redirector.redirect((short) 8, (Object) this) : this.user2;
+        return redirector != null ? (GroupNotifyUser) redirector.redirect((short) 8, this) : this.user2;
     }
 
     public String getWarningTips() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 14);
-        return redirector != null ? (String) redirector.redirect((short) 14, (Object) this) : this.warningTips;
+        return redirector != null ? (String) redirector.redirect((short) 14, this) : this.warningTips;
     }
 
     public void setActionTime(long j2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 22);
         if (redirector != null) {
-            redirector.redirect((short) 22, (Object) this, j2);
+            redirector.redirect((short) 22, this, j2);
         } else {
             this.actionTime = j2;
         }
@@ -135,7 +135,7 @@ public final class GroupNotifyMsg implements IKernelModel, Serializable {
     public void setActionUser(GroupNotifyUser groupNotifyUser) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 21);
         if (redirector != null) {
-            redirector.redirect((short) 21, (Object) this, (Object) groupNotifyUser);
+            redirector.redirect((short) 21, this, groupNotifyUser);
         } else {
             this.actionUser = groupNotifyUser;
         }
@@ -144,7 +144,7 @@ public final class GroupNotifyMsg implements IKernelModel, Serializable {
     public void setGroup(GroupNotifyGroup groupNotifyGroup) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 18);
         if (redirector != null) {
-            redirector.redirect((short) 18, (Object) this, (Object) groupNotifyGroup);
+            redirector.redirect((short) 18, this, groupNotifyGroup);
         } else {
             this.group = groupNotifyGroup;
         }
@@ -153,7 +153,7 @@ public final class GroupNotifyMsg implements IKernelModel, Serializable {
     public void setInvitationExt(GroupInviteExt groupInviteExt) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 23);
         if (redirector != null) {
-            redirector.redirect((short) 23, (Object) this, (Object) groupInviteExt);
+            redirector.redirect((short) 23, this, groupInviteExt);
         } else {
             this.invitationExt = groupInviteExt;
         }
@@ -162,7 +162,7 @@ public final class GroupNotifyMsg implements IKernelModel, Serializable {
     public void setPostscript(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 24);
         if (redirector != null) {
-            redirector.redirect((short) 24, (Object) this, (Object) str);
+            redirector.redirect((short) 24, this, str);
         } else {
             this.postscript = str;
         }
@@ -171,7 +171,7 @@ public final class GroupNotifyMsg implements IKernelModel, Serializable {
     public void setRepeatSeqs(ArrayList<Long> arrayList) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 25);
         if (redirector != null) {
-            redirector.redirect((short) 25, (Object) this, (Object) arrayList);
+            redirector.redirect((short) 25, this, arrayList);
         } else {
             this.repeatSeqs = arrayList;
         }
@@ -180,7 +180,7 @@ public final class GroupNotifyMsg implements IKernelModel, Serializable {
     public void setSeq(long j2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 15);
         if (redirector != null) {
-            redirector.redirect((short) 15, (Object) this, j2);
+            redirector.redirect((short) 15, this, j2);
         } else {
             this.seq = j2;
         }
@@ -189,7 +189,7 @@ public final class GroupNotifyMsg implements IKernelModel, Serializable {
     public void setStatus(GroupNotifyMsgStatus groupNotifyMsgStatus) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 17);
         if (redirector != null) {
-            redirector.redirect((short) 17, (Object) this, (Object) groupNotifyMsgStatus);
+            redirector.redirect((short) 17, this, groupNotifyMsgStatus);
         } else {
             this.status = groupNotifyMsgStatus;
         }
@@ -198,7 +198,7 @@ public final class GroupNotifyMsg implements IKernelModel, Serializable {
     public void setType(GroupNotifyMsgType groupNotifyMsgType) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 16);
         if (redirector != null) {
-            redirector.redirect((short) 16, (Object) this, (Object) groupNotifyMsgType);
+            redirector.redirect((short) 16, this, groupNotifyMsgType);
         } else {
             this.type = groupNotifyMsgType;
         }
@@ -207,7 +207,7 @@ public final class GroupNotifyMsg implements IKernelModel, Serializable {
     public void setUser1(GroupNotifyUser groupNotifyUser) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 19);
         if (redirector != null) {
-            redirector.redirect((short) 19, (Object) this, (Object) groupNotifyUser);
+            redirector.redirect((short) 19, this, groupNotifyUser);
         } else {
             this.user1 = groupNotifyUser;
         }
@@ -216,7 +216,7 @@ public final class GroupNotifyMsg implements IKernelModel, Serializable {
     public void setUser2(GroupNotifyUser groupNotifyUser) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 20);
         if (redirector != null) {
-            redirector.redirect((short) 20, (Object) this, (Object) groupNotifyUser);
+            redirector.redirect((short) 20, this, groupNotifyUser);
         } else {
             this.user2 = groupNotifyUser;
         }
@@ -225,7 +225,7 @@ public final class GroupNotifyMsg implements IKernelModel, Serializable {
     public void setWarningTips(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 26);
         if (redirector != null) {
-            redirector.redirect((short) 26, (Object) this, (Object) str);
+            redirector.redirect((short) 26, this, str);
         } else {
             this.warningTips = str;
         }
@@ -234,7 +234,7 @@ public final class GroupNotifyMsg implements IKernelModel, Serializable {
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88469, (short) 27);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 27, (Object) this);
+            return (String) redirector.redirect((short) 27, this);
         }
         return "GroupNotifyMsg{seq=" + this.seq + ",type=" + this.type + ",status=" + this.status + ",group=" + this.group + ",user1=" + this.user1 + ",user2=" + this.user2 + ",actionUser=" + this.actionUser + ",actionTime=" + this.actionTime + ",invitationExt=" + this.invitationExt + ",postscript=" + this.postscript + ",repeatSeqs=" + this.repeatSeqs + ",warningTips=" + this.warningTips + ",}";
     }

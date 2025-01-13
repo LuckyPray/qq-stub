@@ -36,6 +36,6 @@ public final class FeedFileType {
     }
 
     public static FeedFileType[] values() {
-        return (FeedFileType[]) $VALUES.clone();
+        return $VALUES.clone();
     }
 }

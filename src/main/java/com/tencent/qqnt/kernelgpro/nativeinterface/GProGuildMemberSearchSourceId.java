@@ -89,6 +89,6 @@ public final class GProGuildMemberSearchSourceId {
     }
 
     public static GProGuildMemberSearchSourceId[] values() {
-        return (GProGuildMemberSearchSourceId[]) $VALUES.clone();
+        return $VALUES.clone();
     }
 }

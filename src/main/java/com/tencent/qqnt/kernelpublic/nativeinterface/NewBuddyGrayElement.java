@@ -61,7 +61,7 @@ public final class NewBuddyGrayElement implements Serializable {
     public NewBuddyGrayElement(long j, int i, int i2, boolean z, String str) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), Boolean.valueOf(z), str});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), Boolean.valueOf(z), str);
             return;
         }
         this.serialVersionUID = 1L;

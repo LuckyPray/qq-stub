@@ -60,7 +60,7 @@ public final class GProRealTimeChannel {
     public GProRealTimeChannel(String str, String str2, int i, GProRealTimeLiveChannel gProRealTimeLiveChannel, GProRealTimeVoiceChannel gProRealTimeVoiceChannel) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, Integer.valueOf(i), gProRealTimeLiveChannel, gProRealTimeVoiceChannel});
+            iPatchRedirector.redirect((short) 2, this, str, str2, Integer.valueOf(i), gProRealTimeLiveChannel, gProRealTimeVoiceChannel);
             return;
         }
         this.guildId = "";

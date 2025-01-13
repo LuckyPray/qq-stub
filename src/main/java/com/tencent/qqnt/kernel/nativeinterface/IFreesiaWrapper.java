@@ -8,7 +8,7 @@ public interface IFreesiaWrapper {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IFreesiaWrapper$CppProxy.class */
-    public static final class CppProxy implements IFreesiaWrapper {
+    final class CppProxy implements IFreesiaWrapper {
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;
 

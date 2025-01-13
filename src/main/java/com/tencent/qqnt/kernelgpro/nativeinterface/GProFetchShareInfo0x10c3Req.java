@@ -104,7 +104,7 @@ public final class GProFetchShareInfo0x10c3Req {
     public GProFetchShareInfo0x10c3Req(int i, byte[] bArr, boolean z, ArrayList<GProURLParam> arrayList, GProCmd0x10c3Filter gProCmd0x10c3Filter) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), bArr, Boolean.valueOf(z), arrayList, gProCmd0x10c3Filter});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), bArr, Boolean.valueOf(z), arrayList, gProCmd0x10c3Filter);
             return;
         }
         this.businessParam = new byte[0];

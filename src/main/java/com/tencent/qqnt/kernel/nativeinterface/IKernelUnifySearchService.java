@@ -8,7 +8,7 @@ public interface IKernelUnifySearchService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelUnifySearchService$CppProxy.class */
-    public static final class CppProxy implements IKernelUnifySearchService {
+    final class CppProxy implements IKernelUnifySearchService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

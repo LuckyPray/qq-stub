@@ -57,7 +57,7 @@ public final class GProGetSubjectGuildsRsp implements Serializable {
     public GProGetSubjectGuildsRsp(String str, byte[] bArr, ArrayList<GProRecommendItem> arrayList, int i) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, bArr, arrayList, Integer.valueOf(i)});
+            iPatchRedirector.redirect((short) 2, this, str, bArr, arrayList, Integer.valueOf(i));
             return;
         }
         this.serialVersionUID = 1L;

@@ -9,7 +9,7 @@ public interface IKernelRDeliveryService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelRDeliveryService$CppProxy.class */
-    public static final class CppProxy implements IKernelRDeliveryService {
+    final class CppProxy implements IKernelRDeliveryService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

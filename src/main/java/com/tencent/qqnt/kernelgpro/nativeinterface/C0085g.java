@@ -30,7 +30,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 55)) {
             return;
         }
-        iPatchRedirector.redirect((short) 55, new Object[]{iKernelGuildService, str, Long.valueOf(j), Boolean.valueOf(z), Boolean.valueOf(z2), iGProGetMemberInfoByOpenIdCallback});
+        iPatchRedirector.redirect((short) 55, iKernelGuildService, str, Long.valueOf(j), Boolean.valueOf(z), Boolean.valueOf(z2), iGProGetMemberInfoByOpenIdCallback);
     }
 
     public static void $default$InstallBroadcastHelper(IKernelGuildService iKernelGuildService, IGProSimpleResultCallback iGProSimpleResultCallback) {
@@ -62,7 +62,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 17)) {
             return;
         }
-        iPatchRedirector.redirect((short) 17, new Object[]{iKernelGuildService, Long.valueOf(j), gProSourceId, str, iGProJoinGuildCallback});
+        iPatchRedirector.redirect((short) 17, iKernelGuildService, Long.valueOf(j), gProSourceId, str, iGProJoinGuildCallback);
     }
 
     public static void $default$addGuildWithOption(IKernelGuildService iKernelGuildService, GProAddGuildWithOptionReq gProAddGuildWithOptionReq, IGProJoinGuildCallback iGProJoinGuildCallback) {
@@ -158,7 +158,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 77)) {
             return;
         }
-        iPatchRedirector.redirect((short) 77, new Object[]{iKernelGuildService, Long.valueOf(j), arrayList, Boolean.valueOf(z), iGProFetchAudioChannelUserListCallback});
+        iPatchRedirector.redirect((short) 77, iKernelGuildService, Long.valueOf(j), arrayList, Boolean.valueOf(z), iGProFetchAudioChannelUserListCallback);
     }
 
     public static void $default$batchGetAudioBotStatus(IKernelGuildService iKernelGuildService, GProGetAudioBotStatusReq gProGetAudioBotStatusReq, IGProBatchGetAudioBotStatusCallback iGProBatchGetAudioBotStatusCallback) {
@@ -246,7 +246,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 128)) {
             return;
         }
-        iPatchRedirector.redirect((short) 128, new Object[]{iKernelGuildService, Integer.valueOf(i), str, Integer.valueOf(i2), iGProBindAppRoleCallback});
+        iPatchRedirector.redirect((short) 128, iKernelGuildService, Integer.valueOf(i), str, Integer.valueOf(i2), iGProBindAppRoleCallback);
     }
 
     public static void $default$cancelChannelTopMsg(IKernelGuildService iKernelGuildService, long j, long j2, ArrayList arrayList, IGProSimpleResultCallback iGProSimpleResultCallback) {
@@ -254,7 +254,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 215)) {
             return;
         }
-        iPatchRedirector.redirect((short) 215, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, iGProSimpleResultCallback});
+        iPatchRedirector.redirect((short) 215, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, iGProSimpleResultCallback);
     }
 
     public static void $default$cancelSpeakOrderByAdmin(IKernelGuildService iKernelGuildService, GProAdminAVReqInfo gProAdminAVReqInfo, IGProAdminDealResultCallback iGProAdminDealResultCallback) {
@@ -278,7 +278,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 89)) {
             return;
         }
-        iPatchRedirector.redirect((short) 89, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), str, iGProSetChannelCategoryInfoCallback});
+        iPatchRedirector.redirect((short) 89, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), str, iGProSetChannelCategoryInfoCallback);
     }
 
     public static void $default$changeGuildAllowSearch(IKernelGuildService iKernelGuildService, long j, boolean z, IGProResultCallback iGProResultCallback) {
@@ -334,7 +334,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 419)) {
             return;
         }
-        iPatchRedirector.redirect((short) 419, new Object[]{iKernelGuildService, str, Long.valueOf(j), Long.valueOf(j2), iGProCheckLobbyAppAuthStatusCallback});
+        iPatchRedirector.redirect((short) 419, iKernelGuildService, str, Long.valueOf(j), Long.valueOf(j2), iGProCheckLobbyAppAuthStatusCallback);
     }
 
     public static void $default$checkPreventAddiction(IKernelGuildService iKernelGuildService, GProPreventAddictionCheckReq gProPreventAddictionCheckReq, IGProPreventAddictionCheckCallback iGProPreventAddictionCheckCallback) {
@@ -358,7 +358,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 182)) {
             return;
         }
-        iPatchRedirector.redirect((short) 182, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProCheckUserBannedSpeakInChannelCallback});
+        iPatchRedirector.redirect((short) 182, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProCheckUserBannedSpeakInChannelCallback);
     }
 
     public static void $default$checkUserFreeGiftInfo(IKernelGuildService iKernelGuildService, GProUserFreeGiftReq gProUserFreeGiftReq, IGProCheckUserFreeGiftCallback iGProCheckUserFreeGiftCallback) {
@@ -390,7 +390,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 417)) {
             return;
         }
-        iPatchRedirector.redirect((short) 417, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProDeleteLobbyCallback});
+        iPatchRedirector.redirect((short) 417, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProDeleteLobbyCallback);
     }
 
     public static void $default$closeChannelActivitySwitch(IKernelGuildService iKernelGuildService, long j, IGProSimpleResultCallback iGProSimpleResultCallback) {
@@ -454,7 +454,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 23)) {
             return;
         }
-        iPatchRedirector.redirect((short) 23, new Object[]{iKernelGuildService, Long.valueOf(j), gProChannelCreateInfo, Long.valueOf(j2), gProAssocCreateCategoryReq, gProCategoryChannelIdList, arrayList, iGProCreateChannelCallback});
+        iPatchRedirector.redirect((short) 23, iKernelGuildService, Long.valueOf(j), gProChannelCreateInfo, Long.valueOf(j2), gProAssocCreateCategoryReq, gProCategoryChannelIdList, arrayList, iGProCreateChannelCallback);
     }
 
     public static void $default$createDirectMsgSession(IKernelGuildService iKernelGuildService, GProDirectMsgCreateInfo gProDirectMsgCreateInfo, IGProCreateDirectMsgSessionCallback iGProCreateDirectMsgSessionCallback) {
@@ -470,7 +470,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 378)) {
             return;
         }
-        iPatchRedirector.redirect((short) 378, new Object[]{iKernelGuildService, Long.valueOf(j), gProChannelCreateInfo, Long.valueOf(j2), gProCategoryChannelIdList, arrayList, iGProSimpleResultCallback});
+        iPatchRedirector.redirect((short) 378, iKernelGuildService, Long.valueOf(j), gProChannelCreateInfo, Long.valueOf(j2), gProCategoryChannelIdList, arrayList, iGProSimpleResultCallback);
     }
 
     public static void $default$createRole(IKernelGuildService iKernelGuildService, long j, GProRoleCreateInfo gProRoleCreateInfo, ArrayList arrayList, IGProCreateRoleCallback iGProCreateRoleCallback) {
@@ -478,7 +478,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 191)) {
             return;
         }
-        iPatchRedirector.redirect((short) 191, new Object[]{iKernelGuildService, Long.valueOf(j), gProRoleCreateInfo, arrayList, iGProCreateRoleCallback});
+        iPatchRedirector.redirect((short) 191, iKernelGuildService, Long.valueOf(j), gProRoleCreateInfo, arrayList, iGProCreateRoleCallback);
     }
 
     public static void $default$createSchedule(IKernelGuildService iKernelGuildService, long j, long j2, GProScheduleInfo gProScheduleInfo, IGProCreateScheduleCallback iGProCreateScheduleCallback) {
@@ -486,7 +486,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 251)) {
             return;
         }
-        iPatchRedirector.redirect((short) 251, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), gProScheduleInfo, iGProCreateScheduleCallback});
+        iPatchRedirector.redirect((short) 251, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), gProScheduleInfo, iGProCreateScheduleCallback);
     }
 
     public static void $default$createScheduleLimitQuery(IKernelGuildService iKernelGuildService, long j, IGProCreateScheduleLimitQueryCallback iGProCreateScheduleLimitQueryCallback) {
@@ -510,7 +510,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 31)) {
             return;
         }
-        iPatchRedirector.redirect((short) 31, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+        iPatchRedirector.redirect((short) 31, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
     }
 
     public static void $default$dealHandUpRequestForAdmin(IKernelGuildService iKernelGuildService, GProAdminAVReqInfo gProAdminAVReqInfo, boolean z, IGProAdminDealResultCallback iGProAdminDealResultCallback) {
@@ -630,7 +630,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 252)) {
             return;
         }
-        iPatchRedirector.redirect((short) 252, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), gProScheduleInfo, Integer.valueOf(i), iGProEditScheduleCallback});
+        iPatchRedirector.redirect((short) 252, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), gProScheduleInfo, Integer.valueOf(i), iGProEditScheduleCallback);
     }
 
     public static void $default$editScheduleV2(IKernelGuildService iKernelGuildService, GProEditScheduleReq gProEditScheduleReq, IGProEditScheduleCallback iGProEditScheduleCallback) {
@@ -654,7 +654,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 74)) {
             return;
         }
-        iPatchRedirector.redirect((short) 74, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProEnterAudioChannelCallback});
+        iPatchRedirector.redirect((short) 74, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProEnterAudioChannelCallback);
     }
 
     public static void $default$enterAudioLiveChannel(IKernelGuildService iKernelGuildService, GProEnterAudioLiveChannelReq gProEnterAudioLiveChannelReq, IGProEnterAudioLiveChannelCallback iGProEnterAudioLiveChannelCallback) {
@@ -678,7 +678,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 359)) {
             return;
         }
-        iPatchRedirector.redirect((short) 359, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), arrayList, iGProExitAudioLiveChannelCallback});
+        iPatchRedirector.redirect((short) 359, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), arrayList, iGProExitAudioLiveChannelCallback);
     }
 
     public static void $default$exitRecommendGuild(IKernelGuildService iKernelGuildService, long j, IGProSimpleResultCallback iGProSimpleResultCallback) {
@@ -742,7 +742,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 67)) {
             return;
         }
-        iPatchRedirector.redirect((short) 67, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), bArr, Integer.valueOf(i), iGProFetchArchiveArkDataCallback});
+        iPatchRedirector.redirect((short) 67, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), bArr, Integer.valueOf(i), iGProFetchArchiveArkDataCallback);
     }
 
     public static void $default$fetchAudioChannelUserList(IKernelGuildService iKernelGuildService, long j, long j2, IGProFetchAudioChannelUserListCallback iGProFetchAudioChannelUserListCallback) {
@@ -806,7 +806,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 53)) {
             return;
         }
-        iPatchRedirector.redirect((short) 53, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, Integer.valueOf(i2), iGProFetchChannelAbleMemberListCallback});
+        iPatchRedirector.redirect((short) 53, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, Integer.valueOf(i2), iGProFetchChannelAbleMemberListCallback);
     }
 
     public static void $default$fetchChannelAuthControlRoleList(IKernelGuildService iKernelGuildService, long j, long j2, int i, IGProFetchChannelAbleRoleListCallback iGProFetchChannelAbleRoleListCallback) {
@@ -814,7 +814,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 51)) {
             return;
         }
-        iPatchRedirector.redirect((short) 51, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelAbleRoleListCallback});
+        iPatchRedirector.redirect((short) 51, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelAbleRoleListCallback);
     }
 
     public static void $default$fetchChannelAuthControlUnableMemberList(IKernelGuildService iKernelGuildService, long j, long j2, int i, byte[] bArr, int i2, IGProFetchChannelUnableMemberListCallback iGProFetchChannelUnableMemberListCallback) {
@@ -822,7 +822,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 54)) {
             return;
         }
-        iPatchRedirector.redirect((short) 54, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, Integer.valueOf(i2), iGProFetchChannelUnableMemberListCallback});
+        iPatchRedirector.redirect((short) 54, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, Integer.valueOf(i2), iGProFetchChannelUnableMemberListCallback);
     }
 
     public static void $default$fetchChannelAuthControlUnableRoleList(IKernelGuildService iKernelGuildService, long j, long j2, int i, IGProFetchChannelUnableRoleListCallback iGProFetchChannelUnableRoleListCallback) {
@@ -830,7 +830,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 52)) {
             return;
         }
-        iPatchRedirector.redirect((short) 52, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelUnableRoleListCallback});
+        iPatchRedirector.redirect((short) 52, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelUnableRoleListCallback);
     }
 
     public static void $default$fetchChannelInfo(IKernelGuildService iKernelGuildService, long j, long j2, int i, IGProFetchChannelInfoCallback iGProFetchChannelInfoCallback) {
@@ -838,7 +838,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 10)) {
             return;
         }
-        iPatchRedirector.redirect((short) 10, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelInfoCallback});
+        iPatchRedirector.redirect((short) 10, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelInfoCallback);
     }
 
     public static void $default$fetchChannelInfoWithCategory(IKernelGuildService iKernelGuildService, long j, long j2, int i, IGProFetchChannelInfoCallback iGProFetchChannelInfoCallback) {
@@ -846,7 +846,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 11)) {
             return;
         }
-        iPatchRedirector.redirect((short) 11, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelInfoCallback});
+        iPatchRedirector.redirect((short) 11, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchChannelInfoCallback);
     }
 
     public static void $default$fetchChannelInfoWithUnreadStatus(IKernelGuildService iKernelGuildService, long j, boolean z) {
@@ -862,7 +862,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 41)) {
             return;
         }
-        iPatchRedirector.redirect((short) 41, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelInvisibleMemberListCallback});
+        iPatchRedirector.redirect((short) 41, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelInvisibleMemberListCallback);
     }
 
     public static void $default$fetchChannelInvisibleRoleList(IKernelGuildService iKernelGuildService, long j, long j2, IGProFetchChannelInvisibleRoleListCallback iGProFetchChannelInvisibleRoleListCallback) {
@@ -902,7 +902,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 48)) {
             return;
         }
-        iPatchRedirector.redirect((short) 48, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelLiveableMemberListCallback});
+        iPatchRedirector.redirect((short) 48, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelLiveableMemberListCallback);
     }
 
     public static void $default$fetchChannelLiveableRoleList(IKernelGuildService iKernelGuildService, long j, long j2, IGProFetchChannelLiveableRoleListCallback iGProFetchChannelLiveableRoleListCallback) {
@@ -918,7 +918,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 44)) {
             return;
         }
-        iPatchRedirector.redirect((short) 44, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelSpeakableMemberListCallback});
+        iPatchRedirector.redirect((short) 44, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelSpeakableMemberListCallback);
     }
 
     public static void $default$fetchChannelSpeakableRoleList(IKernelGuildService iKernelGuildService, long j, long j2, IGProFetchChannelSpeakableRoleListCallback iGProFetchChannelSpeakableRoleListCallback) {
@@ -934,7 +934,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 50)) {
             return;
         }
-        iPatchRedirector.redirect((short) 50, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelUnlivableMemberListCallback});
+        iPatchRedirector.redirect((short) 50, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelUnlivableMemberListCallback);
     }
 
     public static void $default$fetchChannelUnlivableRoleList(IKernelGuildService iKernelGuildService, long j, long j2, IGProFetchChannelUnlivableRoleListCallback iGProFetchChannelUnlivableRoleListCallback) {
@@ -950,7 +950,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 46)) {
             return;
         }
-        iPatchRedirector.redirect((short) 46, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelUnspeakableMemberListCallback});
+        iPatchRedirector.redirect((short) 46, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelUnspeakableMemberListCallback);
     }
 
     public static void $default$fetchChannelUnspeakableRoleList(IKernelGuildService iKernelGuildService, long j, long j2, IGProFetchChannelUnspeakableRoleListCallback iGProFetchChannelUnspeakableRoleListCallback) {
@@ -966,7 +966,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 284)) {
             return;
         }
-        iPatchRedirector.redirect((short) 284, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProChannelUserPermissionCallback});
+        iPatchRedirector.redirect((short) 284, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProChannelUserPermissionCallback);
     }
 
     public static void $default$fetchChannelVisibleAllMemberList(IKernelGuildService iKernelGuildService, long j, long j2, int i, byte[] bArr, IGProFetchChannelVisibleMemberListCallback iGProFetchChannelVisibleMemberListCallback) {
@@ -974,7 +974,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 38)) {
             return;
         }
-        iPatchRedirector.redirect((short) 38, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelVisibleMemberListCallback});
+        iPatchRedirector.redirect((short) 38, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelVisibleMemberListCallback);
     }
 
     public static void $default$fetchChannelVisibleMemberList(IKernelGuildService iKernelGuildService, long j, long j2, int i, byte[] bArr, IGProFetchChannelVisibleMemberListCallback iGProFetchChannelVisibleMemberListCallback) {
@@ -982,7 +982,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 39)) {
             return;
         }
-        iPatchRedirector.redirect((short) 39, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelVisibleMemberListCallback});
+        iPatchRedirector.redirect((short) 39, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), bArr, iGProFetchChannelVisibleMemberListCallback);
     }
 
     public static void $default$fetchChannelVisibleRoleList(IKernelGuildService iKernelGuildService, long j, long j2, IGProFetchChannelVisibleRoleListCallback iGProFetchChannelVisibleRoleListCallback) {
@@ -1006,7 +1006,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 235)) {
             return;
         }
-        iPatchRedirector.redirect((short) 235, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Long.valueOf(j5), Long.valueOf(j6), iGProFetchCommentsCallback});
+        iPatchRedirector.redirect((short) 235, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Long.valueOf(j5), Long.valueOf(j6), iGProFetchCommentsCallback);
     }
 
     public static void $default$fetchCurrentLiveRoomInfo(IKernelGuildService iKernelGuildService, long j, IGProFetchCurrentLiveRoomInfoCallback iGProFetchCurrentLiveRoomInfoCallback) {
@@ -1054,7 +1054,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 147)) {
             return;
         }
-        iPatchRedirector.redirect((short) 147, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), str, iGProFetchEnterChannelPermissionCallback});
+        iPatchRedirector.redirect((short) 147, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), str, iGProFetchEnterChannelPermissionCallback);
     }
 
     public static void $default$fetchFeedCommentsNotifySwitch(IKernelGuildService iKernelGuildService, IGProGetFeedCommentsNotifySwitchCallback iGProGetFeedCommentsNotifySwitchCallback) {
@@ -1078,7 +1078,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 97)) {
             return;
         }
-        iPatchRedirector.redirect((short) 97, new Object[]{iKernelGuildService, Long.valueOf(j), Boolean.valueOf(z), Integer.valueOf(i), iGProFetchGuestGuildCallback});
+        iPatchRedirector.redirect((short) 97, iKernelGuildService, Long.valueOf(j), Boolean.valueOf(z), Integer.valueOf(i), iGProFetchGuestGuildCallback);
     }
 
     public static void $default$fetchGuestGuildInfoWithChannelList(IKernelGuildService iKernelGuildService, String str, String str2, int i, int i2, String str3, IGProFetchGuestGuildInfoWithChannelListCallback iGProFetchGuestGuildInfoWithChannelListCallback) {
@@ -1086,7 +1086,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 101)) {
             return;
         }
-        iPatchRedirector.redirect((short) 101, new Object[]{iKernelGuildService, str, str2, Integer.valueOf(i), Integer.valueOf(i2), str3, iGProFetchGuestGuildInfoWithChannelListCallback});
+        iPatchRedirector.redirect((short) 101, iKernelGuildService, str, str2, Integer.valueOf(i), Integer.valueOf(i2), str3, iGProFetchGuestGuildInfoWithChannelListCallback);
     }
 
     public static void $default$fetchGuildActiveValue(IKernelGuildService iKernelGuildService, long j, IGProGuildActiveValueCallback iGProGuildActiveValueCallback) {
@@ -1142,7 +1142,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 72)) {
             return;
         }
-        iPatchRedirector.redirect((short) 72, new Object[]{iKernelGuildService, gProGuildIdentity, str, str2, iGProFetchGuildInfoByAppIdentityCallback});
+        iPatchRedirector.redirect((short) 72, iKernelGuildService, gProGuildIdentity, str, str2, iGProFetchGuildInfoByAppIdentityCallback);
     }
 
     public static void $default$fetchGuildSearchRecommend(IKernelGuildService iKernelGuildService, byte[] bArr, IGProSearchRecommendCallback iGProSearchRecommendCallback) {
@@ -1166,7 +1166,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 311)) {
             return;
         }
-        iPatchRedirector.redirect((short) 311, new Object[]{iKernelGuildService, Long.valueOf(j), Boolean.valueOf(z), Integer.valueOf(i), bArr, iGProFetchGuildSpeakableMemberListCallback});
+        iPatchRedirector.redirect((short) 311, iKernelGuildService, Long.valueOf(j), Boolean.valueOf(z), Integer.valueOf(i), bArr, iGProFetchGuildSpeakableMemberListCallback);
     }
 
     public static void $default$fetchGuildSpeakableRoleList(IKernelGuildService iKernelGuildService, long j, boolean z, IGProFetchGuildSpeakableRoleListCallback iGProFetchGuildSpeakableRoleListCallback) {
@@ -1214,7 +1214,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 62)) {
             return;
         }
-        iPatchRedirector.redirect((short) 62, new Object[]{iKernelGuildService, str, str2, str3, Integer.valueOf(i), iGProFetchInviteInfo0x10b4Callback});
+        iPatchRedirector.redirect((short) 62, iKernelGuildService, str, str2, str3, Integer.valueOf(i), iGProFetchInviteInfo0x10b4Callback);
     }
 
     public static void $default$fetchIsLiveChannelOpen(IKernelGuildService iKernelGuildService, long j, IGProFetchIsLiveChannelOpenCallback iGProFetchIsLiveChannelOpenCallback) {
@@ -1254,7 +1254,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 290)) {
             return;
         }
-        iPatchRedirector.redirect((short) 290, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProFetchJubaoMsgResIdCallback});
+        iPatchRedirector.redirect((short) 290, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProFetchJubaoMsgResIdCallback);
     }
 
     public static void $default$fetchJubaoMsgsResId(IKernelGuildService iKernelGuildService, long j, long j2, ArrayList arrayList, IGProFetchJubaoMsgsResIdCallback iGProFetchJubaoMsgsResIdCallback) {
@@ -1262,7 +1262,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 291)) {
             return;
         }
-        iPatchRedirector.redirect((short) 291, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, iGProFetchJubaoMsgsResIdCallback});
+        iPatchRedirector.redirect((short) 291, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, iGProFetchJubaoMsgsResIdCallback);
     }
 
     public static void $default$fetchJumpInfo(IKernelGuildService iKernelGuildService, long j, IGProFetchJumpInfoCallback iGProFetchJumpInfoCallback) {
@@ -1278,7 +1278,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 236)) {
             return;
         }
-        iPatchRedirector.redirect((short) 236, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), iGProFetchCommentsCallback});
+        iPatchRedirector.redirect((short) 236, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), iGProFetchCommentsCallback);
     }
 
     public static void $default$fetchLevelRolePermissions(IKernelGuildService iKernelGuildService, long j, int i, IGProFetchLevelRoleListCallback iGProFetchLevelRoleListCallback) {
@@ -1302,7 +1302,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 144)) {
             return;
         }
-        iPatchRedirector.redirect((short) 144, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProFetchBannedUserListCallback});
+        iPatchRedirector.redirect((short) 144, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProFetchBannedUserListCallback);
     }
 
     public static void $default$fetchLiveRoomInfo(IKernelGuildService iKernelGuildService, GProLiveRoomInfoReq gProLiveRoomInfoReq, IGProFetchLiveChannelInfoListCallback iGProFetchLiveChannelInfoListCallback) {
@@ -1342,7 +1342,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 206)) {
             return;
         }
-        iPatchRedirector.redirect((short) 206, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchMemberListWithRoleCallback});
+        iPatchRedirector.redirect((short) 206, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchMemberListWithRoleCallback);
     }
 
     public static void $default$fetchMemberListWithRoleCookie(IKernelGuildService iKernelGuildService, long j, long j2, long j3, long j4, int i, String str, int i2, IGProFetchMemberListWithRoleCookieCallback iGProFetchMemberListWithRoleCookieCallback) {
@@ -1350,7 +1350,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 208)) {
             return;
         }
-        iPatchRedirector.redirect((short) 208, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i), str, Integer.valueOf(i2), iGProFetchMemberListWithRoleCookieCallback});
+        iPatchRedirector.redirect((short) 208, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i), str, Integer.valueOf(i2), iGProFetchMemberListWithRoleCookieCallback);
     }
 
     public static void $default$fetchMemberRoles(IKernelGuildService iKernelGuildService, long j, long j2, long j3, int i, IGProFetchMemberRolesCallback iGProFetchMemberRolesCallback) {
@@ -1358,7 +1358,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 203)) {
             return;
         }
-        iPatchRedirector.redirect((short) 203, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProFetchMemberRolesCallback});
+        iPatchRedirector.redirect((short) 203, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProFetchMemberRolesCallback);
     }
 
     public static void $default$fetchMyCreateGuilds(IKernelGuildService iKernelGuildService, IGProFetchMyCreateGuildsCallback iGProFetchMyCreateGuildsCallback) {
@@ -1382,7 +1382,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 205)) {
             return;
         }
-        iPatchRedirector.redirect((short) 205, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Long.valueOf(j5), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchNonRoleMembersCallback});
+        iPatchRedirector.redirect((short) 205, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Long.valueOf(j5), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchNonRoleMembersCallback);
     }
 
     public static void $default$fetchNoticeRedPoint(IKernelGuildService iKernelGuildService, ArrayList arrayList, IGProFetchNoticeRedPointCallback iGProFetchNoticeRedPointCallback) {
@@ -1398,7 +1398,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 324)) {
             return;
         }
-        iPatchRedirector.redirect((short) 324, new Object[]{iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), arrayList, iGProFetchOnlineUsersCallback});
+        iPatchRedirector.redirect((short) 324, iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), arrayList, iGProFetchOnlineUsersCallback);
     }
 
     public static void $default$fetchOtherChannelUserPermission(IKernelGuildService iKernelGuildService, long j, long j2, long j3, int i, int i2, IGProChannelUserPermissionCallback iGProChannelUserPermissionCallback) {
@@ -1406,7 +1406,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 285)) {
             return;
         }
-        iPatchRedirector.redirect((short) 285, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), Integer.valueOf(i2), iGProChannelUserPermissionCallback});
+        iPatchRedirector.redirect((short) 285, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), Integer.valueOf(i2), iGProChannelUserPermissionCallback);
     }
 
     public static void $default$fetchPlusPanelBot(IKernelGuildService iKernelGuildService, GProPlusPanelBotRequest gProPlusPanelBotRequest, IGProFetchPlusPanelBotCallback iGProFetchPlusPanelBotCallback) {
@@ -1478,7 +1478,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 404)) {
             return;
         }
-        iPatchRedirector.redirect((short) 404, new Object[]{iKernelGuildService, Integer.valueOf(i), Integer.valueOf(i2), bArr, Long.valueOf(j), iGProFetchRetentionGuildListCallback});
+        iPatchRedirector.redirect((short) 404, iKernelGuildService, Integer.valueOf(i), Integer.valueOf(i2), bArr, Long.valueOf(j), iGProFetchRetentionGuildListCallback);
     }
 
     public static void $default$fetchRole(IKernelGuildService iKernelGuildService, long j, long j2, int i, boolean z, IGProFetchRoleCallback iGProFetchRoleCallback) {
@@ -1486,7 +1486,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 202)) {
             return;
         }
-        iPatchRedirector.redirect((short) 202, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), iGProFetchRoleCallback});
+        iPatchRedirector.redirect((short) 202, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), iGProFetchRoleCallback);
     }
 
     public static void $default$fetchRoleListWithFilter(IKernelGuildService iKernelGuildService, long j, int i, int i2, IGProFetchRoleListCallback iGProFetchRoleListCallback) {
@@ -1494,7 +1494,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 197)) {
             return;
         }
-        iPatchRedirector.redirect((short) 197, new Object[]{iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchRoleListCallback});
+        iPatchRedirector.redirect((short) 197, iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchRoleListCallback);
     }
 
     public static void $default$fetchRoleListWithPermission(IKernelGuildService iKernelGuildService, long j, int i, IGProFetchRoleListPermissionCallback iGProFetchRoleListPermissionCallback) {
@@ -1510,7 +1510,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 198)) {
             return;
         }
-        iPatchRedirector.redirect((short) 198, new Object[]{iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchRoleListWithoutLevelRoleCallback});
+        iPatchRedirector.redirect((short) 198, iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProFetchRoleListWithoutLevelRoleCallback);
     }
 
     public static void $default$fetchRoleMembers(IKernelGuildService iKernelGuildService, long j, long j2, long j3, long j4, long j5, int i, IGProFetchRoleMembersCallback iGProFetchRoleMembersCallback) {
@@ -1518,7 +1518,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 204)) {
             return;
         }
-        iPatchRedirector.redirect((short) 204, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Long.valueOf(j5), Integer.valueOf(i), iGProFetchRoleMembersCallback});
+        iPatchRedirector.redirect((short) 204, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Long.valueOf(j5), Integer.valueOf(i), iGProFetchRoleMembersCallback);
     }
 
     public static void $default$fetchRoleWithPermission(IKernelGuildService iKernelGuildService, long j, long j2, int i, IGProFetchRolePermissionCallback iGProFetchRolePermissionCallback) {
@@ -1526,7 +1526,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 200)) {
             return;
         }
-        iPatchRedirector.redirect((short) 200, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchRolePermissionCallback});
+        iPatchRedirector.redirect((short) 200, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProFetchRolePermissionCallback);
     }
 
     public static void $default$fetchShareButtonReq(IKernelGuildService iKernelGuildService, ArrayList arrayList, boolean z, IGProCommonCallback iGProCommonCallback) {
@@ -1542,7 +1542,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 61)) {
             return;
         }
-        iPatchRedirector.redirect((short) 61, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), gProFetchShareInfo0x10c3Req, iGProFetchShareInfo0x10c3Callback});
+        iPatchRedirector.redirect((short) 61, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), gProFetchShareInfo0x10c3Req, iGProFetchShareInfo0x10c3Callback);
     }
 
     public static void $default$fetchShareUrlReq(IKernelGuildService iKernelGuildService, long j, long j2, long j3, String str, IGProCommonCallback iGProCommonCallback) {
@@ -1550,7 +1550,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 456)) {
             return;
         }
-        iPatchRedirector.redirect((short) 456, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), str, iGProCommonCallback});
+        iPatchRedirector.redirect((short) 456, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), str, iGProCommonCallback);
     }
 
     public static void $default$fetchSpecifiedTypeChannelOpenState(IKernelGuildService iKernelGuildService, long j, long j2, IGProFetchSpecifiedTypeChannelOpenStateCallback iGProFetchSpecifiedTypeChannelOpenStateCallback) {
@@ -1566,7 +1566,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 157)) {
             return;
         }
-        iPatchRedirector.redirect((short) 157, new Object[]{iKernelGuildService, Long.valueOf(j), arrayList, Integer.valueOf(i), iGProFetchSpecifiedTypeChannelsOpenStateCallback});
+        iPatchRedirector.redirect((short) 157, iKernelGuildService, Long.valueOf(j), arrayList, Integer.valueOf(i), iGProFetchSpecifiedTypeChannelsOpenStateCallback);
     }
 
     public static void $default$fetchSubscribeUserGuide(IKernelGuildService iKernelGuildService, IGProFetchSubscribeUserGuideCallback iGProFetchSubscribeUserGuideCallback) {
@@ -1582,7 +1582,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 16)) {
             return;
         }
-        iPatchRedirector.redirect((short) 16, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, Integer.valueOf(i), iGProGetUserInfoCallback});
+        iPatchRedirector.redirect((short) 16, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, Integer.valueOf(i), iGProGetUserInfoCallback);
     }
 
     public static void $default$fetchUserJoinedGuildList(IKernelGuildService iKernelGuildService, long j, long j2, String str, IGProFetchUserJoinedGuildListCallback iGProFetchUserJoinedGuildListCallback) {
@@ -1590,7 +1590,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 443)) {
             return;
         }
-        iPatchRedirector.redirect((short) 443, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), str, iGProFetchUserJoinedGuildListCallback});
+        iPatchRedirector.redirect((short) 443, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), str, iGProFetchUserJoinedGuildListCallback);
     }
 
     public static void $default$fetchUserJoinedGuildListV2(IKernelGuildService iKernelGuildService, GProFetchUserJoinedGuildListReq gProFetchUserJoinedGuildListReq, IGProFetchUserJoinedGuildListCallbackV2 iGProFetchUserJoinedGuildListCallbackV2) {
@@ -1606,7 +1606,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 13)) {
             return;
         }
-        iPatchRedirector.redirect((short) 13, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProGetUserListCallback});
+        iPatchRedirector.redirect((short) 13, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProGetUserListCallback);
     }
 
     public static void $default$fetchVersionNews(IKernelGuildService iKernelGuildService, IGProFetchVersionNewsCallback iGProFetchVersionNewsCallback) {
@@ -1622,7 +1622,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 42)) {
             return;
         }
-        iPatchRedirector.redirect((short) 42, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, Integer.valueOf(i), iGProFetchVisibleMemberListByTinyIdCallback});
+        iPatchRedirector.redirect((short) 42, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, Integer.valueOf(i), iGProFetchVisibleMemberListByTinyIdCallback);
     }
 
     public static void $default$fetchXWordInfo(IKernelGuildService iKernelGuildService, long j, IGproXWorldInfoCallback iGproXWorldInfoCallback) {
@@ -1654,7 +1654,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 127)) {
             return;
         }
-        iPatchRedirector.redirect((short) 127, new Object[]{iKernelGuildService, Integer.valueOf(i), str, bArr, iGProGetAppRoleListCallback});
+        iPatchRedirector.redirect((short) 127, iKernelGuildService, Integer.valueOf(i), str, bArr, iGProGetAppRoleListCallback);
     }
 
     public static void $default$getAssociativeWords(IKernelGuildService iKernelGuildService, String str, IGProAssociativeWordsCallback iGProAssociativeWordsCallback) {
@@ -1686,7 +1686,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 210)) {
             return;
         }
-        iPatchRedirector.redirect((short) 210, new Object[]{iKernelGuildService, Integer.valueOf(i), Integer.valueOf(i2), bArr, iGProGetClientAccountCallback});
+        iPatchRedirector.redirect((short) 210, iKernelGuildService, Integer.valueOf(i), Integer.valueOf(i2), bArr, iGProGetClientAccountCallback);
     }
 
     public static void $default$getBindingGroupInfos(IKernelGuildService iKernelGuildService, ArrayList arrayList, IGProGetBindingGroupInfosCallback iGProGetBindingGroupInfosCallback) {
@@ -1758,7 +1758,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 218)) {
             return;
         }
-        iPatchRedirector.redirect((short) 218, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProGetChannelTopMsgFlashStateCallback});
+        iPatchRedirector.redirect((short) 218, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProGetChannelTopMsgFlashStateCallback);
     }
 
     public static void $default$getChannelTopMsgState(IKernelGuildService iKernelGuildService, long j, long j2, IGProGetChannelTopMsgStateCallback iGProGetChannelTopMsgStateCallback) {
@@ -1982,7 +1982,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 122)) {
             return;
         }
-        iPatchRedirector.redirect((short) 122, new Object[]{iKernelGuildService, Integer.valueOf(i), Long.valueOf(j), Integer.valueOf(i2), iGProGetMoreNoticeListCallback});
+        iPatchRedirector.redirect((short) 122, iKernelGuildService, Integer.valueOf(i), Long.valueOf(j), Integer.valueOf(i2), iGProGetMoreNoticeListCallback);
     }
 
     public static void $default$getMsgNotifyMap(IKernelGuildService iKernelGuildService, long j, IGProGetMsgNotifyTypeCallback iGProGetMsgNotifyTypeCallback) {
@@ -2142,7 +2142,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 253)) {
             return;
         }
-        iPatchRedirector.redirect((short) 253, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProGetScheduleDetailCallback});
+        iPatchRedirector.redirect((short) 253, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProGetScheduleDetailCallback);
     }
 
     public static void $default$getScheduleList(IKernelGuildService iKernelGuildService, long j, long j2, long j3, IGProGetScheduleListCallback iGProGetScheduleListCallback) {
@@ -2150,7 +2150,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 254)) {
             return;
         }
-        iPatchRedirector.redirect((short) 254, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProGetScheduleListCallback});
+        iPatchRedirector.redirect((short) 254, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProGetScheduleListCallback);
     }
 
     public static void $default$getScheduleListNew(IKernelGuildService iKernelGuildService, long j, long j2, int i, long j3, String str, IGProGetScheduleListNewCallback iGProGetScheduleListNewCallback) {
@@ -2158,7 +2158,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 255)) {
             return;
         }
-        iPatchRedirector.redirect((short) 255, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Long.valueOf(j3), str, iGProGetScheduleListNewCallback});
+        iPatchRedirector.redirect((short) 255, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Long.valueOf(j3), str, iGProGetScheduleListNewCallback);
     }
 
     public static void $default$getScheduleUsers(IKernelGuildService iKernelGuildService, long j, long j2, long j3, int i, byte[] bArr, IGProGetScheduleUsersCallback iGProGetScheduleUsersCallback) {
@@ -2166,7 +2166,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 258)) {
             return;
         }
-        iPatchRedirector.redirect((short) 258, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), bArr, iGProGetScheduleUsersCallback});
+        iPatchRedirector.redirect((short) 258, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), bArr, iGProGetScheduleUsersCallback);
     }
 
     public static void $default$getSchedulesStatus(IKernelGuildService iKernelGuildService, long j, long j2, long j3, long j4, IGProGetSchedulesStatusCallback iGProGetSchedulesStatusCallback) {
@@ -2174,7 +2174,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 256)) {
             return;
         }
-        iPatchRedirector.redirect((short) 256, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), iGProGetSchedulesStatusCallback});
+        iPatchRedirector.redirect((short) 256, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), iGProGetSchedulesStatusCallback);
     }
 
     public static void $default$getSelectChannelIDs(IKernelGuildService iKernelGuildService, GProGetSelectChannelIDReq gProGetSelectChannelIDReq, IGProGetSelectChannelIDsCallback iGProGetSelectChannelIDsCallback) {
@@ -2222,7 +2222,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 14)) {
             return;
         }
-        iPatchRedirector.redirect((short) 14, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), Integer.valueOf(i), iGProGetUserListCallback});
+        iPatchRedirector.redirect((short) 14, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), Integer.valueOf(i), iGProGetUserListCallback);
     }
 
     public static void $default$getUserLiveInfo(IKernelGuildService iKernelGuildService, int i, IGProGetUserLiveInfoCallback iGProGetUserLiveInfoCallback) {
@@ -2254,7 +2254,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 121)) {
             return;
         }
-        iPatchRedirector.redirect((short) 121, new Object[]{iKernelGuildService, Integer.valueOf(i), Long.valueOf(j), Boolean.valueOf(z), iGProInitGetNoticeListCallback});
+        iPatchRedirector.redirect((short) 121, iKernelGuildService, Integer.valueOf(i), Long.valueOf(j), Boolean.valueOf(z), iGProInitGetNoticeListCallback);
     }
 
     public static void $default$inviteUserHandUpForAdmin(IKernelGuildService iKernelGuildService, GProAdminAVReqInfo gProAdminAVReqInfo, IGProAdminDealResultCallback iGProAdminDealResultCallback) {
@@ -2286,7 +2286,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 78)) {
             return;
         }
-        iPatchRedirector.redirect((short) 78, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, iGProKickChannelMemberCallback});
+        iPatchRedirector.redirect((short) 78, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, iGProKickChannelMemberCallback);
     }
 
     public static void $default$kickGuildUser(IKernelGuildService iKernelGuildService, long j, ArrayList arrayList, boolean z, GProRevokeOptions gProRevokeOptions, IGProResultCallback iGProResultCallback) {
@@ -2294,7 +2294,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 22)) {
             return;
         }
-        iPatchRedirector.redirect((short) 22, new Object[]{iKernelGuildService, Long.valueOf(j), arrayList, Boolean.valueOf(z), gProRevokeOptions, iGProResultCallback});
+        iPatchRedirector.redirect((short) 22, iKernelGuildService, Long.valueOf(j), arrayList, Boolean.valueOf(z), gProRevokeOptions, iGProResultCallback);
     }
 
     public static void $default$loadAllMemberList(IKernelGuildService iKernelGuildService, long j, long j2, IGProLoadAllMemberListCallback iGProLoadAllMemberListCallback) {
@@ -2318,7 +2318,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 190)) {
             return;
         }
-        iPatchRedirector.redirect((short) 190, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProLoadMemberListByIndexCallback});
+        iPatchRedirector.redirect((short) 190, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProLoadMemberListByIndexCallback);
     }
 
     public static void $default$loadMemberRoles(IKernelGuildService iKernelGuildService, long j, long j2, IGProLoadMemberRolesCallback iGProLoadMemberRolesCallback) {
@@ -2334,7 +2334,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 189)) {
             return;
         }
-        iPatchRedirector.redirect((short) 189, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), bArr, Integer.valueOf(i), iGProLoadNextPageMemberListCallback});
+        iPatchRedirector.redirect((short) 189, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), bArr, Integer.valueOf(i), iGProLoadNextPageMemberListCallback);
     }
 
     public static void $default$loadPartRoleMemberList(IKernelGuildService iKernelGuildService, long j, IGProGetUserInfoCallback iGProGetUserInfoCallback) {
@@ -2374,7 +2374,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 257)) {
             return;
         }
-        iPatchRedirector.redirect((short) 257, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProModifyScheduleInviteStatusCallback});
+        iPatchRedirector.redirect((short) 257, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProModifyScheduleInviteStatusCallback);
     }
 
     public static void $default$modifyScheduleInviteStatusV2(IKernelGuildService iKernelGuildService, GProModifyScheduleInviteReq gProModifyScheduleInviteReq, IGProModifyScheduleInviteStatusCallback iGProModifyScheduleInviteStatusCallback) {
@@ -2470,7 +2470,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 7)) {
             return;
         }
-        iPatchRedirector.redirect((short) 7, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z)});
+        iPatchRedirector.redirect((short) 7, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z));
     }
 
     public static void $default$refreshGuildInfo(IKernelGuildService iKernelGuildService, long j, boolean z, int i) {
@@ -2534,7 +2534,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 88)) {
             return;
         }
-        iPatchRedirector.redirect((short) 88, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProSetChannelCategoryInfoCallback});
+        iPatchRedirector.redirect((short) 88, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProSetChannelCategoryInfoCallback);
     }
 
     public static void $default$removeGuild(IKernelGuildService iKernelGuildService, long j, IGProResultCallback iGProResultCallback) {
@@ -2606,7 +2606,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 238)) {
             return;
         }
-        iPatchRedirector.redirect((short) 238, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), gProFeedReportData, Integer.valueOf(i2), iGProReportFeedShareDataCallback});
+        iPatchRedirector.redirect((short) 238, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), gProFeedReportData, Integer.valueOf(i2), iGProReportFeedShareDataCallback);
     }
 
     public static void $default$reportFeedback(IKernelGuildService iKernelGuildService, GProFeedbackReq gProFeedbackReq, IGProSimpleResultCallback iGProSimpleResultCallback) {
@@ -2638,7 +2638,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 184)) {
             return;
         }
-        iPatchRedirector.redirect((short) 184, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), str, Integer.valueOf(i2), iGProResultCallback});
+        iPatchRedirector.redirect((short) 184, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), str, Integer.valueOf(i2), iGProResultCallback);
     }
 
     public static void $default$reportUserViewGuild(IKernelGuildService iKernelGuildService, ArrayList arrayList, String str, String str2, int i, IGProSimpleResultCallback iGProSimpleResultCallback) {
@@ -2646,7 +2646,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 269)) {
             return;
         }
-        iPatchRedirector.redirect((short) 269, new Object[]{iKernelGuildService, arrayList, str, str2, Integer.valueOf(i), iGProSimpleResultCallback});
+        iPatchRedirector.redirect((short) 269, iKernelGuildService, arrayList, str, str2, Integer.valueOf(i), iGProSimpleResultCallback);
     }
 
     public static void $default$requestBeginBroadcast(IKernelGuildService iKernelGuildService, long j, long j2, long j3, int i, GProProgrammeInfoReq gProProgrammeInfoReq, IGProResultCallback iGProResultCallback) {
@@ -2654,7 +2654,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 149)) {
             return;
         }
-        iPatchRedirector.redirect((short) 149, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), gProProgrammeInfoReq, iGProResultCallback});
+        iPatchRedirector.redirect((short) 149, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), gProProgrammeInfoReq, iGProResultCallback);
     }
 
     public static void $default$requestPubAccountMsgCount(IKernelGuildService iKernelGuildService, IGProRequestPubAccountMsgCountCallback iGProRequestPubAccountMsgCountCallback) {
@@ -2694,7 +2694,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 267)) {
             return;
         }
-        iPatchRedirector.redirect((short) 267, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), str, bArr, gProSearchType, gProSearchCond, iGProSearchChannelContentCallback});
+        iPatchRedirector.redirect((short) 267, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), str, bArr, gProSearchType, gProSearchCond, iGProSearchChannelContentCallback);
     }
 
     public static void $default$searchGuild(IKernelGuildService iKernelGuildService, String str, byte[] bArr, int i, int i2, int i3, IGProSearchGuildInfoCallback iGProSearchGuildInfoCallback) {
@@ -2702,7 +2702,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 264)) {
             return;
         }
-        iPatchRedirector.redirect((short) 264, new Object[]{iKernelGuildService, str, bArr, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), iGProSearchGuildInfoCallback});
+        iPatchRedirector.redirect((short) 264, iKernelGuildService, str, bArr, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), iGProSearchGuildInfoCallback);
     }
 
     public static void $default$searchGuildMembersBySourceId(IKernelGuildService iKernelGuildService, GProGuildMemberSearchParams gProGuildMemberSearchParams, IGProSearchGuildMembersBySourceIdCallback iGProSearchGuildMembersBySourceIdCallback) {
@@ -2726,7 +2726,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 266)) {
             return;
         }
-        iPatchRedirector.redirect((short) 266, new Object[]{iKernelGuildService, str, bArr, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), Integer.valueOf(i5), iGProSearchUnionCallback});
+        iPatchRedirector.redirect((short) 266, iKernelGuildService, str, bArr, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), Integer.valueOf(i5), iGProSearchUnionCallback);
     }
 
     public static void $default$sendAudioOrLiveNotice(IKernelGuildService iKernelGuildService, GProSendNoticeReq gProSendNoticeReq, IGProSendAudioOrLiveNoticeCallback iGProSendAudioOrLiveNoticeCallback) {
@@ -2766,7 +2766,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 259)) {
             return;
         }
-        iPatchRedirector.redirect((short) 259, new Object[]{iKernelGuildService, arrayList, arrayList2, arrayList3, gProScheduleSendArkGuildInfo, Long.valueOf(j), Integer.valueOf(i), str, str2, str3, iGProSendScheduleArkMessageCallback});
+        iPatchRedirector.redirect((short) 259, iKernelGuildService, arrayList, arrayList2, arrayList3, gProScheduleSendArkGuildInfo, Long.valueOf(j), Integer.valueOf(i), str, str2, str3, iGProSendScheduleArkMessageCallback);
     }
 
     public static void $default$setAVChannelInviteSpeakSwitch(IKernelGuildService iKernelGuildService, long j, long j2, GProInviteSpeakCfg gProInviteSpeakCfg, IGProSimpleResultCallback iGProSimpleResultCallback) {
@@ -2774,7 +2774,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 384)) {
             return;
         }
-        iPatchRedirector.redirect((short) 384, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), gProInviteSpeakCfg, iGProSimpleResultCallback});
+        iPatchRedirector.redirect((short) 384, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), gProInviteSpeakCfg, iGProSimpleResultCallback);
     }
 
     public static void $default$setAVChannelSpeakMode(IKernelGuildService iKernelGuildService, long j, long j2, String str, GProVoiceSpeakModeCfg gProVoiceSpeakModeCfg, IGProSetSpeakModeCallback iGProSetSpeakModeCallback) {
@@ -2782,7 +2782,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 382)) {
             return;
         }
-        iPatchRedirector.redirect((short) 382, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), str, gProVoiceSpeakModeCfg, iGProSetSpeakModeCallback});
+        iPatchRedirector.redirect((short) 382, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), str, gProVoiceSpeakModeCfg, iGProSetSpeakModeCallback);
     }
 
     public static void $default$setAVChannelSpeakOrder(IKernelGuildService iKernelGuildService, long j, long j2, GProVoiceQueueCfg gProVoiceQueueCfg, IGProSimpleResultCallback iGProSimpleResultCallback) {
@@ -2790,7 +2790,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 383)) {
             return;
         }
-        iPatchRedirector.redirect((short) 383, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), gProVoiceQueueCfg, iGProSimpleResultCallback});
+        iPatchRedirector.redirect((short) 383, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), gProVoiceQueueCfg, iGProSimpleResultCallback);
     }
 
     public static void $default$setAddGuildOption(IKernelGuildService iKernelGuildService, long j, int i, String str, String str2, IGProResultCallback iGProResultCallback) {
@@ -2798,7 +2798,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 114)) {
             return;
         }
-        iPatchRedirector.redirect((short) 114, new Object[]{iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), str, str2, iGProResultCallback});
+        iPatchRedirector.redirect((short) 114, iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), str, str2, iGProResultCallback);
     }
 
     public static void $default$setAnchorRoomInfo(IKernelGuildService iKernelGuildService, GProAnchorSetRoomInfoReq gProAnchorSetRoomInfoReq, IGProSimpleResultCallback iGProSimpleResultCallback) {
@@ -2814,7 +2814,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 93)) {
             return;
         }
-        iPatchRedirector.redirect((short) 93, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProResultCallback});
+        iPatchRedirector.redirect((short) 93, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProResultCallback);
     }
 
     public static void $default$setChannelAuthControl(IKernelGuildService iKernelGuildService, long j, long j2, int i, int i2, IGProResultCallback iGProResultCallback) {
@@ -2822,7 +2822,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 283)) {
             return;
         }
-        iPatchRedirector.redirect((short) 283, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), iGProResultCallback});
+        iPatchRedirector.redirect((short) 283, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), iGProResultCallback);
     }
 
     public static void $default$setChannelAuthControlMemberList(IKernelGuildService iKernelGuildService, long j, long j2, ArrayList arrayList, ArrayList arrayList2, int i, IGProResultCallback iGProResultCallback) {
@@ -2830,7 +2830,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 281)) {
             return;
         }
-        iPatchRedirector.redirect((short) 281, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, Integer.valueOf(i), iGProResultCallback});
+        iPatchRedirector.redirect((short) 281, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, Integer.valueOf(i), iGProResultCallback);
     }
 
     public static void $default$setChannelAuthControlRoleList(IKernelGuildService iKernelGuildService, long j, long j2, ArrayList arrayList, ArrayList arrayList2, int i, IGProResultCallback iGProResultCallback) {
@@ -2838,7 +2838,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 282)) {
             return;
         }
-        iPatchRedirector.redirect((short) 282, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, Integer.valueOf(i), iGProResultCallback});
+        iPatchRedirector.redirect((short) 282, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, Integer.valueOf(i), iGProResultCallback);
     }
 
     public static void $default$setChannelBannedSpeak(IKernelGuildService iKernelGuildService, long j, long j2, int i, IGProResultCallback iGProResultCallback) {
@@ -2846,7 +2846,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 35)) {
             return;
         }
-        iPatchRedirector.redirect((short) 35, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+        iPatchRedirector.redirect((short) 35, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
     }
 
     public static void $default$setChannelCategoryInfoWithId(IKernelGuildService iKernelGuildService, long j, GProCategoryChannelIdList gProCategoryChannelIdList, ArrayList arrayList, IGProSetChannelCategoryInfoCallback iGProSetChannelCategoryInfoCallback) {
@@ -2854,7 +2854,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 92)) {
             return;
         }
-        iPatchRedirector.redirect((short) 92, new Object[]{iKernelGuildService, Long.valueOf(j), gProCategoryChannelIdList, arrayList, iGProSetChannelCategoryInfoCallback});
+        iPatchRedirector.redirect((short) 92, iKernelGuildService, Long.valueOf(j), gProCategoryChannelIdList, arrayList, iGProSetChannelCategoryInfoCallback);
     }
 
     public static void $default$setChannelCategoryOrder(IKernelGuildService iKernelGuildService, GProSetCategoryOrderReq gProSetCategoryOrderReq, IGProSetCategoryOrderCallback iGProSetCategoryOrderCallback) {
@@ -2878,7 +2878,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 85)) {
             return;
         }
-        iPatchRedirector.redirect((short) 85, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProSetChannelCategoryInfoCallback});
+        iPatchRedirector.redirect((short) 85, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProSetChannelCategoryInfoCallback);
     }
 
     public static void $default$setChannelHeartbeat(IKernelGuildService iKernelGuildService, GProHeartbeatReq gProHeartbeatReq) {
@@ -2894,7 +2894,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 278)) {
             return;
         }
-        iPatchRedirector.redirect((short) 278, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+        iPatchRedirector.redirect((short) 278, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
     }
 
     public static void $default$setChannelLiveableMemberList(IKernelGuildService iKernelGuildService, long j, long j2, ArrayList arrayList, ArrayList arrayList2, IGProResultCallback iGProResultCallback) {
@@ -2902,7 +2902,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 279)) {
             return;
         }
-        iPatchRedirector.redirect((short) 279, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+        iPatchRedirector.redirect((short) 279, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
     }
 
     public static void $default$setChannelLiveableRoleList(IKernelGuildService iKernelGuildService, long j, long j2, ArrayList arrayList, ArrayList arrayList2, IGProResultCallback iGProResultCallback) {
@@ -2910,7 +2910,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 280)) {
             return;
         }
-        iPatchRedirector.redirect((short) 280, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+        iPatchRedirector.redirect((short) 280, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
     }
 
     public static void $default$setChannelMsgNotifyType(IKernelGuildService iKernelGuildService, long j, long j2, int i, IGProResultCallback iGProResultCallback) {
@@ -2918,7 +2918,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 30)) {
             return;
         }
-        iPatchRedirector.redirect((short) 30, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+        iPatchRedirector.redirect((short) 30, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
     }
 
     public static void $default$setChannelName(IKernelGuildService iKernelGuildService, long j, long j2, String str, IGProResultCallback iGProResultCallback) {
@@ -2926,7 +2926,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 29)) {
             return;
         }
-        iPatchRedirector.redirect((short) 29, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), str, iGProResultCallback});
+        iPatchRedirector.redirect((short) 29, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), str, iGProResultCallback);
     }
 
     public static void $default$setChannelSlowMode(IKernelGuildService iKernelGuildService, long j, long j2, int i, IGProResultCallback iGProResultCallback) {
@@ -2934,7 +2934,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 213)) {
             return;
         }
-        iPatchRedirector.redirect((short) 213, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+        iPatchRedirector.redirect((short) 213, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
     }
 
     public static void $default$setChannelSpeakable(IKernelGuildService iKernelGuildService, long j, long j2, int i, IGProResultCallback iGProResultCallback) {
@@ -2942,7 +2942,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 275)) {
             return;
         }
-        iPatchRedirector.redirect((short) 275, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+        iPatchRedirector.redirect((short) 275, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
     }
 
     public static void $default$setChannelSpeakableMemberList(IKernelGuildService iKernelGuildService, long j, long j2, ArrayList arrayList, ArrayList arrayList2, IGProResultCallback iGProResultCallback) {
@@ -2950,7 +2950,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 276)) {
             return;
         }
-        iPatchRedirector.redirect((short) 276, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+        iPatchRedirector.redirect((short) 276, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
     }
 
     public static void $default$setChannelSpeakableRoleList(IKernelGuildService iKernelGuildService, long j, long j2, ArrayList arrayList, ArrayList arrayList2, IGProResultCallback iGProResultCallback) {
@@ -2958,7 +2958,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 277)) {
             return;
         }
-        iPatchRedirector.redirect((short) 277, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+        iPatchRedirector.redirect((short) 277, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
     }
 
     public static void $default$setChannelSpeakerPerm(IKernelGuildService iKernelGuildService, long j, long j2, int i, IGProResultCallback iGProResultCallback) {
@@ -2966,7 +2966,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 34)) {
             return;
         }
-        iPatchRedirector.redirect((short) 34, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+        iPatchRedirector.redirect((short) 34, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
     }
 
     public static void $default$setChannelTopMsg(IKernelGuildService iKernelGuildService, long j, long j2, long j3, int i, IGProSetChannelTopMsgCallback iGProSetChannelTopMsgCallback) {
@@ -2974,7 +2974,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 214)) {
             return;
         }
-        iPatchRedirector.redirect((short) 214, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProSetChannelTopMsgCallback});
+        iPatchRedirector.redirect((short) 214, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProSetChannelTopMsgCallback);
     }
 
     public static void $default$setChannelUserNumLimit(IKernelGuildService iKernelGuildService, long j, long j2, int i, boolean z, int i2, IGProResultCallback iGProResultCallback) {
@@ -2982,7 +2982,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 393)) {
             return;
         }
-        iPatchRedirector.redirect((short) 393, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), Integer.valueOf(i2), iGProResultCallback});
+        iPatchRedirector.redirect((short) 393, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), Integer.valueOf(i2), iGProResultCallback);
     }
 
     public static void $default$setChannelVisible(IKernelGuildService iKernelGuildService, long j, long j2, int i, IGProResultCallback iGProResultCallback) {
@@ -2990,7 +2990,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 270)) {
             return;
         }
-        iPatchRedirector.redirect((short) 270, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+        iPatchRedirector.redirect((short) 270, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
     }
 
     public static void $default$setChannelVisibleMemberList(IKernelGuildService iKernelGuildService, long j, long j2, ArrayList arrayList, ArrayList arrayList2, IGProResultCallback iGProResultCallback) {
@@ -2998,7 +2998,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 273)) {
             return;
         }
-        iPatchRedirector.redirect((short) 273, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+        iPatchRedirector.redirect((short) 273, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
     }
 
     public static void $default$setChannelVisibleMembers(IKernelGuildService iKernelGuildService, long j, long j2, ArrayList arrayList, ArrayList arrayList2, IGProResultCallback iGProResultCallback) {
@@ -3006,7 +3006,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 36)) {
             return;
         }
-        iPatchRedirector.redirect((short) 36, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+        iPatchRedirector.redirect((short) 36, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
     }
 
     public static void $default$setChannelVisibleRoleList(IKernelGuildService iKernelGuildService, long j, long j2, ArrayList arrayList, ArrayList arrayList2, IGProResultCallback iGProResultCallback) {
@@ -3014,7 +3014,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 274)) {
             return;
         }
-        iPatchRedirector.redirect((short) 274, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+        iPatchRedirector.redirect((short) 274, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
     }
 
     public static void $default$setClientShowConfig(IKernelGuildService iKernelGuildService, int i, int i2, int i3, IGProSetClientShowConfigCallback iGProSetClientShowConfigCallback) {
@@ -3022,7 +3022,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 212)) {
             return;
         }
-        iPatchRedirector.redirect((short) 212, new Object[]{iKernelGuildService, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), iGProSetClientShowConfigCallback});
+        iPatchRedirector.redirect((short) 212, iKernelGuildService, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), iGProSetClientShowConfigCallback);
     }
 
     public static void $default$setDirectMsgBlack(IKernelGuildService iKernelGuildService, long j, boolean z, IGProResultCallback iGProResultCallback) {
@@ -3094,7 +3094,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 26)) {
             return;
         }
-        iPatchRedirector.redirect((short) 26, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProSetGuildAdminResultCallback});
+        iPatchRedirector.redirect((short) 26, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProSetGuildAdminResultCallback);
     }
 
     public static void $default$setGuildBoundGroups(IKernelGuildService iKernelGuildService, GProSortAndWriteBindGroupsReq gProSortAndWriteBindGroupsReq, IGProSetGuildBoundGroupsCallback iGProSetGuildBoundGroupsCallback) {
@@ -3118,7 +3118,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 140)) {
             return;
         }
-        iPatchRedirector.redirect((short) 140, new Object[]{iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSetGuildNotifyDisplayCallback});
+        iPatchRedirector.redirect((short) 140, iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSetGuildNotifyDisplayCallback);
     }
 
     public static void $default$setGuildCoverFontColorId(IKernelGuildService iKernelGuildService, long j, int i, IGProSetGuildCoverFontColorIdCallback iGProSetGuildCoverFontColorIdCallback) {
@@ -3166,7 +3166,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 137)) {
             return;
         }
-        iPatchRedirector.redirect((short) 137, new Object[]{iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSetGuildListTopCallback});
+        iPatchRedirector.redirect((short) 137, iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSetGuildListTopCallback);
     }
 
     public static void $default$setGuildMemberName(IKernelGuildService iKernelGuildService, long j, String str, IGProResultCallback iGProResultCallback) {
@@ -3238,7 +3238,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 314)) {
             return;
         }
-        iPatchRedirector.redirect((short) 314, new Object[]{iKernelGuildService, Long.valueOf(j), arrayList, arrayList2, iGProResultCallback});
+        iPatchRedirector.redirect((short) 314, iKernelGuildService, Long.valueOf(j), arrayList, arrayList2, iGProResultCallback);
     }
 
     public static void $default$setGuildSpeakableRoleList(IKernelGuildService iKernelGuildService, long j, ArrayList arrayList, ArrayList arrayList2, IGProResultCallback iGProResultCallback) {
@@ -3246,7 +3246,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 313)) {
             return;
         }
-        iPatchRedirector.redirect((short) 313, new Object[]{iKernelGuildService, Long.valueOf(j), arrayList, arrayList2, iGProResultCallback});
+        iPatchRedirector.redirect((short) 313, iKernelGuildService, Long.valueOf(j), arrayList, arrayList2, iGProResultCallback);
     }
 
     public static void $default$setGuildSpeakableRule(IKernelGuildService iKernelGuildService, long j, GproGuildSpeakableRule gproGuildSpeakableRule, IGProResultCallback iGProResultCallback) {
@@ -3350,7 +3350,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 390)) {
             return;
         }
-        iPatchRedirector.redirect((short) 390, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProListenTogetherPlayListOptCallback});
+        iPatchRedirector.redirect((short) 390, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProListenTogetherPlayListOptCallback);
     }
 
     public static void $default$setListenTogetherPlayVolumeByAdmin(IKernelGuildService iKernelGuildService, long j, long j2, int i, IGProListenTogetherPlayListOptCallback iGProListenTogetherPlayListOptCallback) {
@@ -3358,7 +3358,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 391)) {
             return;
         }
-        iPatchRedirector.redirect((short) 391, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProListenTogetherPlayListOptCallback});
+        iPatchRedirector.redirect((short) 391, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProListenTogetherPlayListOptCallback);
     }
 
     public static void $default$setLiveChannelAnchorList(IKernelGuildService iKernelGuildService, long j, long j2, ArrayList arrayList, ArrayList arrayList2, IGProResultCallback iGProResultCallback) {
@@ -3366,7 +3366,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 141)) {
             return;
         }
-        iPatchRedirector.redirect((short) 141, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback});
+        iPatchRedirector.redirect((short) 141, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), arrayList, arrayList2, iGProResultCallback);
     }
 
     public static void $default$setLiveChannelBannedUser(IKernelGuildService iKernelGuildService, long j, long j2, long j3, long j4, int i, IGProResultCallback iGProResultCallback) {
@@ -3374,7 +3374,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 145)) {
             return;
         }
-        iPatchRedirector.redirect((short) 145, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i), iGProResultCallback});
+        iPatchRedirector.redirect((short) 145, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), Integer.valueOf(i), iGProResultCallback);
     }
 
     public static void $default$setLocation(IKernelGuildService iKernelGuildService, GProLocation gProLocation, IGProSimpleResultCallback iGProSimpleResultCallback) {
@@ -3390,7 +3390,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 196)) {
             return;
         }
-        iPatchRedirector.redirect((short) 196, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), arrayList, arrayList2, iGProResultCallback});
+        iPatchRedirector.redirect((short) 196, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), arrayList, arrayList2, iGProResultCallback);
     }
 
     public static void $default$setMemberShutUp(IKernelGuildService iKernelGuildService, long j, long j2, long j3, IGProResultCallback iGProResultCallback) {
@@ -3398,7 +3398,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 245)) {
             return;
         }
-        iPatchRedirector.redirect((short) 245, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProResultCallback});
+        iPatchRedirector.redirect((short) 245, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), iGProResultCallback);
     }
 
     public static void $default$setMyBirthday(IKernelGuildService iKernelGuildService, short s, short s2, short s3, IGProSimpleResultCallback iGProSimpleResultCallback) {
@@ -3406,7 +3406,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 336)) {
             return;
         }
-        iPatchRedirector.redirect((short) 336, new Object[]{iKernelGuildService, Short.valueOf(s), Short.valueOf(s2), Short.valueOf(s3), iGProSimpleResultCallback});
+        iPatchRedirector.redirect((short) 336, iKernelGuildService, Short.valueOf(s), Short.valueOf(s2), Short.valueOf(s3), iGProSimpleResultCallback);
     }
 
     public static void $default$setMyPersonalSignature(IKernelGuildService iKernelGuildService, String str, IGProSimpleResultCallback iGProSimpleResultCallback) {
@@ -3422,7 +3422,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 339)) {
             return;
         }
-        iPatchRedirector.redirect((short) 339, new Object[]{iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSimpleResultCallback});
+        iPatchRedirector.redirect((short) 339, iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSimpleResultCallback);
     }
 
     public static void $default$setMyVoiceNetworkQuality(IKernelGuildService iKernelGuildService, long j, long j2, int i) {
@@ -3462,7 +3462,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 403)) {
             return;
         }
-        iPatchRedirector.redirect((short) 403, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProResultCallback});
+        iPatchRedirector.redirect((short) 403, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i), iGProResultCallback);
     }
 
     public static void $default$setOnLogin(IKernelGuildService iKernelGuildService) {
@@ -3486,7 +3486,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 319)) {
             return;
         }
-        iPatchRedirector.redirect((short) 319, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProSetQQMsgListChannelCallback});
+        iPatchRedirector.redirect((short) 319, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProSetQQMsgListChannelCallback);
     }
 
     public static void $default$setQQMsgListGuild(IKernelGuildService iKernelGuildService, long j, int i, int i2, IGProSetQQMsgListGuildCallback iGProSetQQMsgListGuildCallback) {
@@ -3494,7 +3494,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 318)) {
             return;
         }
-        iPatchRedirector.redirect((short) 318, new Object[]{iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSetQQMsgListGuildCallback});
+        iPatchRedirector.redirect((short) 318, iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Integer.valueOf(i2), iGProSetQQMsgListGuildCallback);
     }
 
     public static void $default$setRoleChannels(IKernelGuildService iKernelGuildService, long j, long j2, int i, ArrayList arrayList, ArrayList arrayList2, IGProSetRoleChannelsCallback iGProSetRoleChannelsCallback) {
@@ -3502,7 +3502,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 288)) {
             return;
         }
-        iPatchRedirector.redirect((short) 288, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), arrayList, arrayList2, iGProSetRoleChannelsCallback});
+        iPatchRedirector.redirect((short) 288, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), arrayList, arrayList2, iGProSetRoleChannelsCallback);
     }
 
     public static void $default$setRoleInfo(IKernelGuildService iKernelGuildService, long j, long j2, GProRoleCreateInfo gProRoleCreateInfo, IGProResultCallback iGProResultCallback) {
@@ -3510,7 +3510,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 193)) {
             return;
         }
-        iPatchRedirector.redirect((short) 193, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), gProRoleCreateInfo, iGProResultCallback});
+        iPatchRedirector.redirect((short) 193, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), gProRoleCreateInfo, iGProResultCallback);
     }
 
     public static void $default$setRoleMembers(IKernelGuildService iKernelGuildService, long j, long j2, long j3, long j4, ArrayList arrayList, ArrayList arrayList2, IGProResultCallback iGProResultCallback) {
@@ -3518,7 +3518,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 195)) {
             return;
         }
-        iPatchRedirector.redirect((short) 195, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), arrayList, arrayList2, iGProResultCallback});
+        iPatchRedirector.redirect((short) 195, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Long.valueOf(j4), arrayList, arrayList2, iGProResultCallback);
     }
 
     public static void $default$setRoleOrder(IKernelGuildService iKernelGuildService, long j, ArrayList arrayList, IGProResultCallback iGProResultCallback) {
@@ -3534,7 +3534,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 83)) {
             return;
         }
-        iPatchRedirector.redirect((short) 83, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProScreenShareCallback});
+        iPatchRedirector.redirect((short) 83, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProScreenShareCallback);
     }
 
     public static void $default$setSearchSwitch(IKernelGuildService iKernelGuildService, GProSetSearchSwitchReq gProSetSearchSwitchReq, IGProSetSearchSwitchCallback iGProSetSearchSwitchCallback) {
@@ -3590,7 +3590,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 153)) {
             return;
         }
-        iPatchRedirector.redirect((short) 153, new Object[]{iKernelGuildService, Integer.valueOf(i), str, str2, Integer.valueOf(i2), iGProSetUserLiveInfoCallback});
+        iPatchRedirector.redirect((short) 153, iKernelGuildService, Integer.valueOf(i), str, str2, Integer.valueOf(i2), iGProSetUserLiveInfoCallback);
     }
 
     public static void $default$setUserMuteSeatInGuild(IKernelGuildService iKernelGuildService, long j, long j2, long j3, boolean z, IGProResultCallback iGProResultCallback) {
@@ -3598,7 +3598,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 79)) {
             return;
         }
-        iPatchRedirector.redirect((short) 79, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Boolean.valueOf(z), iGProResultCallback});
+        iPatchRedirector.redirect((short) 79, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Boolean.valueOf(z), iGProResultCallback);
     }
 
     public static void $default$setUserPermissionInGuild(IKernelGuildService iKernelGuildService, long j, long j2, long j3, boolean z, IGProResultCallback iGProResultCallback) {
@@ -3606,7 +3606,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 82)) {
             return;
         }
-        iPatchRedirector.redirect((short) 82, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Boolean.valueOf(z), iGProResultCallback});
+        iPatchRedirector.redirect((short) 82, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Boolean.valueOf(z), iGProResultCallback);
     }
 
     public static void $default$setUserScreenSharedInGuild(IKernelGuildService iKernelGuildService, long j, long j2, long j3, boolean z, IGProResultCallback iGProResultCallback) {
@@ -3614,7 +3614,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 81)) {
             return;
         }
-        iPatchRedirector.redirect((short) 81, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Boolean.valueOf(z), iGProResultCallback});
+        iPatchRedirector.redirect((short) 81, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), Boolean.valueOf(z), iGProResultCallback);
     }
 
     public static void $default$setUserType(IKernelGuildService iKernelGuildService, String str, IGProUserTypeSetCallback iGProUserTypeSetCallback) {
@@ -3654,7 +3654,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 171)) {
             return;
         }
-        iPatchRedirector.redirect((short) 171, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), str, str2, Integer.valueOf(i), iGProSimpleResultCallback});
+        iPatchRedirector.redirect((short) 171, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), str, str2, Integer.valueOf(i), iGProSimpleResultCallback);
     }
 
     public static void $default$startHeartbeat(IKernelGuildService iKernelGuildService, long j, long j2) {
@@ -3734,7 +3734,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 148)) {
             return;
         }
-        iPatchRedirector.redirect((short) 148, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), iGProTerminateLiveStreamCallback});
+        iPatchRedirector.redirect((short) 148, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), iGProTerminateLiveStreamCallback);
     }
 
     public static void $default$topSpeakOrderByAdmin(IKernelGuildService iKernelGuildService, GProAdminAVReqInfo gProAdminAVReqInfo, IGProAdminDealResultCallback iGProAdminDealResultCallback) {
@@ -3758,7 +3758,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 246)) {
             return;
         }
-        iPatchRedirector.redirect((short) 246, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProSimpleResultCallback});
+        iPatchRedirector.redirect((short) 246, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Boolean.valueOf(z), iGProSimpleResultCallback);
     }
 
     public static void $default$ubSubscribePollingChannels(IKernelGuildService iKernelGuildService, ArrayList arrayList) {
@@ -3798,7 +3798,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 237)) {
             return;
         }
-        iPatchRedirector.redirect((short) 237, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback});
+        iPatchRedirector.redirect((short) 237, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGProResultCallback);
     }
 
     public static void $default$updateGuildEssence(IKernelGuildService iKernelGuildService, GProGuildEssenceSvrReq gProGuildEssenceSvrReq, IGProGuildEssenceCallBack iGProGuildEssenceCallBack) {
@@ -3862,7 +3862,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 247)) {
             return;
         }
-        iPatchRedirector.redirect((short) 247, new Object[]{iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), Integer.valueOf(i2), iGProVoiceChannelAuthCallback});
+        iPatchRedirector.redirect((short) 247, iKernelGuildService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Boolean.valueOf(z), Integer.valueOf(i2), iGProVoiceChannelAuthCallback);
     }
 
     public static void $default$voiceSmobaGameCreateRoom(IKernelGuildService iKernelGuildService, GProVoiceSmobaGameBaseRoomParams gProVoiceSmobaGameBaseRoomParams, GProVoiceSmobaGameSmobaRoomParams gProVoiceSmobaGameSmobaRoomParams, IGProVoiceSmobaGameCreateRoomCallback iGProVoiceSmobaGameCreateRoomCallback) {
@@ -3886,7 +3886,7 @@ public final /* synthetic */ class C0085g {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 364)) {
             return;
         }
-        iPatchRedirector.redirect((short) 364, new Object[]{iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Long.valueOf(j2), Long.valueOf(j3), iGProVoiceSmobaGameEnterRoomCallback});
+        iPatchRedirector.redirect((short) 364, iKernelGuildService, Long.valueOf(j), Integer.valueOf(i), Long.valueOf(j2), Long.valueOf(j3), iGProVoiceSmobaGameEnterRoomCallback);
     }
 
     public static void $default$voiceSmobaGameKickOutRoom(IKernelGuildService iKernelGuildService, GProVoiceSmobaGameKickOutRoomReq gProVoiceSmobaGameKickOutRoomReq, IGProVoiceSmobaKickOutRoomCallback iGProVoiceSmobaKickOutRoomCallback) {

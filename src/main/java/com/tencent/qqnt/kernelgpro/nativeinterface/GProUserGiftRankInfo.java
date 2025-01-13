@@ -68,7 +68,7 @@ public final class GProUserGiftRankInfo implements Serializable {
     public GProUserGiftRankInfo(long j, long j2, GProUser gProUser, String str, int i, String str2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), gProUser, str, Integer.valueOf(i), str2});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), gProUser, str, Integer.valueOf(i), str2);
             return;
         }
         this.serialVersionUID = 1L;

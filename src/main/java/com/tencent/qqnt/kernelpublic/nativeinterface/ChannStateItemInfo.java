@@ -55,7 +55,7 @@ public final class ChannStateItemInfo implements Serializable {
     public ChannStateItemInfo(int i, int i2, long j, String str) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Integer.valueOf(i2), Long.valueOf(j), str});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Integer.valueOf(i2), Long.valueOf(j), str);
             return;
         }
         this.serialVersionUID = 1L;

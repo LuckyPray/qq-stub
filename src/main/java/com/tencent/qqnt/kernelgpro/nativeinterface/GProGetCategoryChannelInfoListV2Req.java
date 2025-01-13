@@ -100,7 +100,7 @@ public final class GProGetCategoryChannelInfoListV2Req {
     public GProGetCategoryChannelInfoListV2Req(long j, boolean z, boolean z2, boolean z3, boolean z4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Boolean.valueOf(z), Boolean.valueOf(z2), Boolean.valueOf(z3), Boolean.valueOf(z4)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Boolean.valueOf(z), Boolean.valueOf(z2), Boolean.valueOf(z3), Boolean.valueOf(z4));
             return;
         }
         this.guildId = j;

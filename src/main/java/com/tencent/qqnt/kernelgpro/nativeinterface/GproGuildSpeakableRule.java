@@ -57,7 +57,7 @@ public final class GproGuildSpeakableRule {
     public GproGuildSpeakableRule(Boolean bool, Boolean bool2, Boolean bool3, Boolean bool4, ArrayList<String> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, bool, bool2, bool3, bool4, arrayList});
+            iPatchRedirector.redirect((short) 2, this, bool, bool2, bool3, bool4, arrayList);
             return;
         }
         this.isProhibiteRedEnvelope = bool;

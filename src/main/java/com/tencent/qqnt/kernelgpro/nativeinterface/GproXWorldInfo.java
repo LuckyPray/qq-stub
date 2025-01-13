@@ -59,7 +59,7 @@ public final class GproXWorldInfo {
     public GproXWorldInfo(boolean z, long j, String str, long j2, String str2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Boolean.valueOf(z), Long.valueOf(j), str, Long.valueOf(j2), str2});
+            iPatchRedirector.redirect((short) 2, this, Boolean.valueOf(z), Long.valueOf(j), str, Long.valueOf(j2), str2);
             return;
         }
         this.guildUrl = "";

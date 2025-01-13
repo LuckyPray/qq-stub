@@ -34,7 +34,7 @@ public final class EmojiAD {
     public EmojiAD() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82809, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.url = "";
@@ -43,18 +43,18 @@ public final class EmojiAD {
 
     public String getDesc() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82809, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.desc;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.desc;
     }
 
     public String getUrl() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82809, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.url;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.url;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82809, (short) 5);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 5, (Object) this);
+            return (String) redirector.redirect((short) 5, this);
         }
         return "EmojiAD{url=" + this.url + ",desc=" + this.desc + ",}";
     }
@@ -62,7 +62,7 @@ public final class EmojiAD {
     public EmojiAD(String str, String str2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82809, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, (Object) str, (Object) str2);
+            redirector.redirect((short) 2, this, str, str2);
             return;
         }
         this.url = "";

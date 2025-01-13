@@ -112,7 +112,7 @@ public final class ChannelStateElement implements Serializable {
     public ChannelStateElement(long j, long j2, int i, int i2, long j3, String str, int i3, int i4, long j4, long j5, long j6, String str2, ArrayList<ChannStateItemInfo> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), Long.valueOf(j3), str, Integer.valueOf(i3), Integer.valueOf(i4), Long.valueOf(j4), Long.valueOf(j5), Long.valueOf(j6), str2, arrayList});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), Long.valueOf(j3), str, Integer.valueOf(i3), Integer.valueOf(i4), Long.valueOf(j4), Long.valueOf(j5), Long.valueOf(j6), str2, arrayList);
             return;
         }
         this.serialVersionUID = 1L;

@@ -77,7 +77,7 @@ public final class GProMVPURLContent implements Serializable {
     public GProMVPURLContent(String str, String str2, int i, GProMVPThirdPlatform gProMVPThirdPlatform, GProMVPThirdVideoInfo gProMVPThirdVideoInfo, GProMVPWeixinOfficialAccountsContent gProMVPWeixinOfficialAccountsContent, GProMVPTencentDocsContent gProMVPTencentDocsContent) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, Integer.valueOf(i), gProMVPThirdPlatform, gProMVPThirdVideoInfo, gProMVPWeixinOfficialAccountsContent, gProMVPTencentDocsContent});
+            iPatchRedirector.redirect((short) 2, this, str, str2, Integer.valueOf(i), gProMVPThirdPlatform, gProMVPThirdVideoInfo, gProMVPWeixinOfficialAccountsContent, gProMVPTencentDocsContent);
             return;
         }
         this.serialVersionUID = 1L;

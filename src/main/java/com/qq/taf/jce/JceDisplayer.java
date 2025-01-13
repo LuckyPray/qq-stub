@@ -12,7 +12,7 @@ import java.util.Map;
  */
 public final class JceDisplayer
 {
-	private StringBuilder	sb;
+	private final StringBuilder	sb;
 	private int				_level = 0;
 	
 	private void ps(String fieldName)
@@ -737,8 +737,6 @@ public final class JceDisplayer
 
 	public static void main(String[] args)
 	{
-		StringBuilder sb = new StringBuilder();
-		sb.append(1.2);
-		System.out.println(sb.toString());
+        System.out.println("1.2");
 	}
 }

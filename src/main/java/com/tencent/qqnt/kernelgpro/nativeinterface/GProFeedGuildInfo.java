@@ -70,7 +70,7 @@ public final class GProFeedGuildInfo implements Serializable {
     public GProFeedGuildInfo(long j, String str, String str2, String str3, long j2, ArrayList<GProMedalInfo> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, str3, Long.valueOf(j2), arrayList});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, str2, str3, Long.valueOf(j2), arrayList);
             return;
         }
         this.serialVersionUID = 1L;

@@ -2,9 +2,9 @@ package com.qq.taf.jce.dynamic;
 
 public final class MapField extends JceField {
 	
-	private JceField[] keys;
+	private final JceField[] keys;
 	
-	private JceField[] values;
+	private final JceField[] values;
 
 	MapField(JceField[] keys, JceField[] values, int tag) {
 		super(tag);

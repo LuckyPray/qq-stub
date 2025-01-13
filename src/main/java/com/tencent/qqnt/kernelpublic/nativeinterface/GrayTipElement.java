@@ -119,7 +119,7 @@ public final class GrayTipElement implements Serializable {
     public GrayTipElement(int i, RevokeElement revokeElement, ProclamationElement proclamationElement, EmojiReplyElement emojiReplyElement, GroupGrayElement groupGrayElement, BuddyGrayElement buddyGrayElement, FeedMsgElement feedMsgElement, EssenceElement essenceElement, XmlElement xmlElement, FileReceiptElement fileReceiptElement, LocalGrayTipElement localGrayTipElement, BlockGrayTipElement blockGrayTipElement, AioOperateGrayTipElement aioOperateGrayTipElement, JsonGrayElement jsonGrayElement, WalletGrayTipElement walletGrayTipElement) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), revokeElement, proclamationElement, emojiReplyElement, groupGrayElement, buddyGrayElement, feedMsgElement, essenceElement, xmlElement, fileReceiptElement, localGrayTipElement, blockGrayTipElement, aioOperateGrayTipElement, jsonGrayElement, walletGrayTipElement});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), revokeElement, proclamationElement, emojiReplyElement, groupGrayElement, buddyGrayElement, feedMsgElement, essenceElement, xmlElement, fileReceiptElement, localGrayTipElement, blockGrayTipElement, aioOperateGrayTipElement, jsonGrayElement, walletGrayTipElement);
             return;
         }
         this.serialVersionUID = 1L;

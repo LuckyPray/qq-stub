@@ -2,6 +2,7 @@ package com.tencent.mobileqq.pb;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 
 public final class CodedInputStreamMicro {
@@ -381,9 +382,9 @@ public final class CodedInputStreamMicro {
     public String readString() throws IOException {
         int readRawVarint32 = readRawVarint32();
         if (readRawVarint32 > this.bufferSize - this.bufferPos || readRawVarint32 <= 0) {
-            return new String(readRawBytes(readRawVarint32), "UTF-8");
+            return new String(readRawBytes(readRawVarint32), StandardCharsets.UTF_8);
         }
-        String str = new String(this.buffer, this.bufferPos, readRawVarint32, "UTF-8");
+        String str = new String(this.buffer, this.bufferPos, readRawVarint32, StandardCharsets.UTF_8);
         this.bufferPos = readRawVarint32 + this.bufferPos;
         return str;
     }
@@ -480,7 +481,7 @@ public final class CodedInputStreamMicro {
             this.bufferSize = 0;
             int i3 = i2;
             while (i3 < i) {
-                i2 = this.input == null ? -1 : (int) this.input.skip((long) (i - i3));
+                i2 = this.input == null ? -1 : (int) this.input.skip(i - i3);
                 if (i2 <= 0) {
                     throw InvalidProtocolBufferMicroException.truncatedMessage();
                 }

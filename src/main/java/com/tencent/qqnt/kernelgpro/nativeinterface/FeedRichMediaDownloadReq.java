@@ -80,7 +80,7 @@ public final class FeedRichMediaDownloadReq {
     public FeedRichMediaDownloadReq(String str, String str2, String str3, FeedFileType feedFileType, Integer num, String str4, Integer num2, String str5) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, feedFileType, num, str4, num2, str5});
+            iPatchRedirector.redirect((short) 2, this, str, str2, str3, feedFileType, num, str4, num2, str5);
             return;
         }
         this.feedId = "";

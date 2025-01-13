@@ -33,19 +33,19 @@ public final class LongMsgAttr {
     public LongMsgAttr() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93072, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public Integer getFetchLongMsgErrCode() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93072, (short) 3);
-        return redirector != null ? (Integer) redirector.redirect((short) 3, (Object) this) : this.fetchLongMsgErrCode;
+        return redirector != null ? (Integer) redirector.redirect((short) 3, this) : this.fetchLongMsgErrCode;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93072, (short) 4);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 4, (Object) this);
+            return (String) redirector.redirect((short) 4, this);
         }
         return "LongMsgAttr{fetchLongMsgErrCode=" + this.fetchLongMsgErrCode + ",}";
     }
@@ -53,7 +53,7 @@ public final class LongMsgAttr {
     public LongMsgAttr(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93072, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, (Object) num);
+            redirector.redirect((short) 2, this, num);
         } else {
             this.fetchLongMsgErrCode = num;
         }

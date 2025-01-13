@@ -87,7 +87,7 @@ public final class GProUpdateChannelThemeReq {
     public GProUpdateChannelThemeReq(long j, long j2, String str, int i) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, Integer.valueOf(i)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), str, Integer.valueOf(i));
             return;
         }
         this.authMeta = "";

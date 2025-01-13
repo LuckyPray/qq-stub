@@ -189,7 +189,7 @@ public final class GProChannelCreateInfo {
     public GProChannelCreateInfo(String str, int i, int i2, int i3, int i4, int i5, long j, int i6, ArrayList<Integer> arrayList, ArrayList<Long> arrayList2, ArrayList<Long> arrayList3, int i7, int i8, int i9, int i10, ArrayList<Long> arrayList4, ArrayList<Long> arrayList5, ArrayList<GProAuthControlSwitchInfo> arrayList6, ArrayList<GProBindRoleGroups> arrayList7, ArrayList<GProBindMembers> arrayList8, int i11, int i12, String str2, String str3, String str4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), Integer.valueOf(i5), Long.valueOf(j), Integer.valueOf(i6), arrayList, arrayList2, arrayList3, Integer.valueOf(i7), Integer.valueOf(i8), Integer.valueOf(i9), Integer.valueOf(i10), arrayList4, arrayList5, arrayList6, arrayList7, arrayList8, Integer.valueOf(i11), Integer.valueOf(i12), str2, str3, str4});
+            iPatchRedirector.redirect((short) 2, this, str, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), Integer.valueOf(i5), Long.valueOf(j), Integer.valueOf(i6), arrayList, arrayList2, arrayList3, Integer.valueOf(i7), Integer.valueOf(i8), Integer.valueOf(i9), Integer.valueOf(i10), arrayList4, arrayList5, arrayList6, arrayList7, arrayList8, Integer.valueOf(i11), Integer.valueOf(i12), str2, str3, str4);
             return;
         }
         this.name = "";

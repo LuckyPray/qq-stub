@@ -10,7 +10,7 @@ import android.widget.ListAdapter;
 public class XListView extends ViewGroup {
 
     public XListView(Context context) {
-        this(context, (AttributeSet) null);
+        this(context, null);
     }
 
     public XListView(Context context, AttributeSet attributeSet) {

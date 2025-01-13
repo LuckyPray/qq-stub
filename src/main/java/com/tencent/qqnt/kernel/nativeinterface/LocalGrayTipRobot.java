@@ -36,7 +36,7 @@ public final class LocalGrayTipRobot implements Serializable {
     public LocalGrayTipRobot() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93319, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
         }
@@ -44,18 +44,18 @@ public final class LocalGrayTipRobot implements Serializable {
 
     public boolean getIsBlackRobot() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93319, (short) 4);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 4, (Object) this)).booleanValue() : this.isBlackRobot;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 4, this)).booleanValue() : this.isBlackRobot;
     }
 
     public long getRobotTid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93319, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.robotTid;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.robotTid;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93319, (short) 5);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 5, (Object) this);
+            return (String) redirector.redirect((short) 5, this);
         }
         return "LocalGrayTipRobot{robotTid=" + this.robotTid + ",isBlackRobot=" + this.isBlackRobot + ",}";
     }

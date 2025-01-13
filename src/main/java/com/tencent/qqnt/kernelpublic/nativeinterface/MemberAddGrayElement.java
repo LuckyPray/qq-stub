@@ -77,7 +77,7 @@ public final class MemberAddGrayElement implements Serializable {
     public MemberAddGrayElement(int i, GrayTipMember grayTipMember, InviterAndInvited inviterAndInvited, GrayTipMember grayTipMember2, GrayTipMember grayTipMember3, InviterAndInvited inviterAndInvited2, GrayTipMember grayTipMember4, GrayTipMember grayTipMember5) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), grayTipMember, inviterAndInvited, grayTipMember2, grayTipMember3, inviterAndInvited2, grayTipMember4, grayTipMember5});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), grayTipMember, inviterAndInvited, grayTipMember2, grayTipMember3, inviterAndInvited2, grayTipMember4, grayTipMember5);
             return;
         }
         this.serialVersionUID = 1L;

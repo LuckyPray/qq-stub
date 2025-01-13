@@ -87,7 +87,7 @@ public final class GProBusinessNode implements Serializable {
     public GProBusinessNode(int i, int i2, byte[] bArr, long j, long j2, GProVoiceSmobaGameRoomStateInfo gProVoiceSmobaGameRoomStateInfo, GProVoiceInfo gProVoiceInfo, GProPlayInfo gProPlayInfo, GProLobbyRoomInfo gProLobbyRoomInfo) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Integer.valueOf(i2), bArr, Long.valueOf(j), Long.valueOf(j2), gProVoiceSmobaGameRoomStateInfo, gProVoiceInfo, gProPlayInfo, gProLobbyRoomInfo});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Integer.valueOf(i2), bArr, Long.valueOf(j), Long.valueOf(j2), gProVoiceSmobaGameRoomStateInfo, gProVoiceInfo, gProPlayInfo, gProLobbyRoomInfo);
             return;
         }
         this.serialVersionUID = 1L;

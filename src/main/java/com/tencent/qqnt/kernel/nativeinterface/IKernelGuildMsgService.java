@@ -11,7 +11,7 @@ public interface IKernelGuildMsgService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelGuildMsgService$CppProxy.class */
-    public static final class CppProxy implements IKernelGuildMsgService {
+    final class CppProxy implements IKernelGuildMsgService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

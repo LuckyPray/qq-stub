@@ -64,7 +64,7 @@ public final class GProPreventAddictionCheckRsp implements Serializable {
     public GProPreventAddictionCheckRsp(int i, String str, String str2, String str3, ArrayList<GProPAInstructionInfo> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, str2, str3, arrayList});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), str, str2, str3, arrayList);
             return;
         }
         this.serialVersionUID = 1L;

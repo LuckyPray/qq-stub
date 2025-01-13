@@ -36,34 +36,34 @@ public final class SmallYellowFaceInfo {
     public SmallYellowFaceInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94612, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public String getBuf() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94612, (short) 6);
-        return redirector != null ? (String) redirector.redirect((short) 6, (Object) this) : this.buf;
+        return redirector != null ? (String) redirector.redirect((short) 6, this) : this.buf;
     }
 
     public String getCompatibleText() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94612, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.compatibleText;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.compatibleText;
     }
 
     public int getIndex() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94612, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.index;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.index;
     }
 
     public String getText() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94612, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.text;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.text;
     }
 
     public void setBuf(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94612, (short) 10);
         if (redirector != null) {
-            redirector.redirect((short) 10, (Object) this, (Object) str);
+            redirector.redirect((short) 10, this, str);
         } else {
             this.buf = str;
         }
@@ -72,7 +72,7 @@ public final class SmallYellowFaceInfo {
     public void setCompatibleText(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94612, (short) 9);
         if (redirector != null) {
-            redirector.redirect((short) 9, (Object) this, (Object) str);
+            redirector.redirect((short) 9, this, str);
         } else {
             this.compatibleText = str;
         }
@@ -81,7 +81,7 @@ public final class SmallYellowFaceInfo {
     public void setIndex(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94612, (short) 7);
         if (redirector != null) {
-            redirector.redirect((short) 7, (Object) this, i2);
+            redirector.redirect((short) 7, this, i2);
         } else {
             this.index = i2;
         }
@@ -90,7 +90,7 @@ public final class SmallYellowFaceInfo {
     public void setText(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94612, (short) 8);
         if (redirector != null) {
-            redirector.redirect((short) 8, (Object) this, (Object) str);
+            redirector.redirect((short) 8, this, str);
         } else {
             this.text = str;
         }
@@ -99,7 +99,7 @@ public final class SmallYellowFaceInfo {
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94612, (short) 11);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 11, (Object) this);
+            return (String) redirector.redirect((short) 11, this);
         }
         return "SmallYellowFaceInfo{index=" + this.index + ",text=" + this.text + ",compatibleText=" + this.compatibleText + ",buf=" + this.buf + ",}";
     }

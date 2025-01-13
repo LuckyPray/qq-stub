@@ -10,7 +10,7 @@ public interface IKernelRichMediaService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelRichMediaService$CppProxy.class */
-    public static final class CppProxy implements IKernelRichMediaService {
+    final class CppProxy implements IKernelRichMediaService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

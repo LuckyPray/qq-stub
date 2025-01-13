@@ -42,7 +42,7 @@ public final class MemberAddGrayElement implements Serializable {
     public MemberAddGrayElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93431, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
         }
@@ -50,48 +50,48 @@ public final class MemberAddGrayElement implements Serializable {
 
     public GrayTipMember getOtherAdd() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93431, (short) 4);
-        return redirector != null ? (GrayTipMember) redirector.redirect((short) 4, (Object) this) : this.otherAdd;
+        return redirector != null ? (GrayTipMember) redirector.redirect((short) 4, this) : this.otherAdd;
     }
 
     public InviterAndInvited getOtherAddByOtherQRCode() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93431, (short) 5);
-        return redirector != null ? (InviterAndInvited) redirector.redirect((short) 5, (Object) this) : this.otherAddByOtherQRCode;
+        return redirector != null ? (InviterAndInvited) redirector.redirect((short) 5, this) : this.otherAddByOtherQRCode;
     }
 
     public GrayTipMember getOtherAddByYourQRCode() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93431, (short) 6);
-        return redirector != null ? (GrayTipMember) redirector.redirect((short) 6, (Object) this) : this.otherAddByYourQRCode;
+        return redirector != null ? (GrayTipMember) redirector.redirect((short) 6, this) : this.otherAddByYourQRCode;
     }
 
     public InviterAndInvited getOtherInviteOther() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93431, (short) 8);
-        return redirector != null ? (InviterAndInvited) redirector.redirect((short) 8, (Object) this) : this.otherInviteOther;
+        return redirector != null ? (InviterAndInvited) redirector.redirect((short) 8, this) : this.otherInviteOther;
     }
 
     public GrayTipMember getOtherInviteYou() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93431, (short) 9);
-        return redirector != null ? (GrayTipMember) redirector.redirect((short) 9, (Object) this) : this.otherInviteYou;
+        return redirector != null ? (GrayTipMember) redirector.redirect((short) 9, this) : this.otherInviteYou;
     }
 
     public int getShowType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93431, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.showType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.showType;
     }
 
     public GrayTipMember getYouAddByOtherQRCode() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93431, (short) 7);
-        return redirector != null ? (GrayTipMember) redirector.redirect((short) 7, (Object) this) : this.youAddByOtherQRCode;
+        return redirector != null ? (GrayTipMember) redirector.redirect((short) 7, this) : this.youAddByOtherQRCode;
     }
 
     public GrayTipMember getYouInviteOther() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93431, (short) 10);
-        return redirector != null ? (GrayTipMember) redirector.redirect((short) 10, (Object) this) : this.youInviteOther;
+        return redirector != null ? (GrayTipMember) redirector.redirect((short) 10, this) : this.youInviteOther;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93431, (short) 11);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 11, (Object) this);
+            return (String) redirector.redirect((short) 11, this);
         }
         return "MemberAddGrayElement{showType=" + this.showType + ",otherAdd=" + this.otherAdd + ",otherAddByOtherQRCode=" + this.otherAddByOtherQRCode + ",otherAddByYourQRCode=" + this.otherAddByYourQRCode + ",youAddByOtherQRCode=" + this.youAddByOtherQRCode + ",otherInviteOther=" + this.otherInviteOther + ",otherInviteYou=" + this.otherInviteYou + ",youInviteOther=" + this.youInviteOther + ",}";
     }

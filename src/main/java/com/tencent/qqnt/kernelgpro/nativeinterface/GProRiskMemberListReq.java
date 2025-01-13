@@ -89,7 +89,7 @@ public final class GProRiskMemberListReq {
     public GProRiskMemberListReq(long j, String str, String str2, byte[] bArr) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, bArr});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, str2, bArr);
             return;
         }
         this.cookie = "";

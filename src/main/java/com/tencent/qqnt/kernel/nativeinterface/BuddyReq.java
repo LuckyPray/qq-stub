@@ -56,7 +56,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public BuddyReq() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -67,118 +67,118 @@ public final class BuddyReq implements IKernelModel, Serializable {
 
     public int getCommFriendNum() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 12);
-        return redirector != null ? ((Integer) redirector.redirect((short) 12, (Object) this)).intValue() : this.commFriendNum;
+        return redirector != null ? ((Integer) redirector.redirect((short) 12, this)).intValue() : this.commFriendNum;
     }
 
     public Integer getCurFriendMax() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 13);
-        return redirector != null ? (Integer) redirector.redirect((short) 13, (Object) this) : this.curFriendMax;
+        return redirector != null ? (Integer) redirector.redirect((short) 13, this) : this.curFriendMax;
     }
 
     public String getExtWords() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 9);
-        return redirector != null ? (String) redirector.redirect((short) 9, (Object) this) : this.extWords;
+        return redirector != null ? (String) redirector.redirect((short) 9, this) : this.extWords;
     }
 
     public int getFlag() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 10);
-        return redirector != null ? ((Integer) redirector.redirect((short) 10, (Object) this)).intValue() : this.flag;
+        return redirector != null ? ((Integer) redirector.redirect((short) 10, this)).intValue() : this.flag;
     }
 
     public String getFriendAvatarUrl() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 19);
-        return redirector != null ? (String) redirector.redirect((short) 19, (Object) this) : this.friendAvatarUrl;
+        return redirector != null ? (String) redirector.redirect((short) 19, this) : this.friendAvatarUrl;
     }
 
     public String getFriendNick() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 18);
-        return redirector != null ? (String) redirector.redirect((short) 18, (Object) this) : this.friendNick;
+        return redirector != null ? (String) redirector.redirect((short) 18, this) : this.friendNick;
     }
 
     public String getFriendUid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.friendUid;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.friendUid;
     }
 
     public Long getGroupCode() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 21);
-        return redirector != null ? (Long) redirector.redirect((short) 21, (Object) this) : this.groupCode;
+        return redirector != null ? (Long) redirector.redirect((short) 21, this) : this.groupCode;
     }
 
     public boolean getIsAgreed() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 23);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 23, (Object) this)).booleanValue() : this.isAgreed;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 23, this)).booleanValue() : this.isAgreed;
     }
 
     public Boolean getIsBuddy() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 22);
-        return redirector != null ? (Boolean) redirector.redirect((short) 22, (Object) this) : this.isBuddy;
+        return redirector != null ? (Boolean) redirector.redirect((short) 22, this) : this.isBuddy;
     }
 
     public boolean getIsDecide() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 3);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 3, (Object) this)).booleanValue() : this.isDecide;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 3, this)).booleanValue() : this.isDecide;
     }
 
     public boolean getIsDoubt() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 16);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 16, (Object) this)).booleanValue() : this.isDoubt;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 16, this)).booleanValue() : this.isDoubt;
     }
 
     public boolean getIsInitiator() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 4);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 4, (Object) this)).booleanValue() : this.isInitiator;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 4, this)).booleanValue() : this.isInitiator;
     }
 
     public boolean getIsShowCard() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 14);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 14, (Object) this)).booleanValue() : this.isShowCard;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 14, this)).booleanValue() : this.isShowCard;
     }
 
     public boolean getIsUnread() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 15);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 15, (Object) this)).booleanValue() : this.isUnread;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 15, this)).booleanValue() : this.isUnread;
     }
 
     public String getNameMore() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 17);
-        return redirector != null ? (String) redirector.redirect((short) 17, (Object) this) : this.nameMore;
+        return redirector != null ? (String) redirector.redirect((short) 17, this) : this.nameMore;
     }
 
     public int getPreGroupingId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 11);
-        return redirector != null ? ((Integer) redirector.redirect((short) 11, (Object) this)).intValue() : this.preGroupingId;
+        return redirector != null ? ((Integer) redirector.redirect((short) 11, this)).intValue() : this.preGroupingId;
     }
 
     public int getRelation() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 24);
-        return redirector != null ? ((Integer) redirector.redirect((short) 24, (Object) this)).intValue() : this.relation;
+        return redirector != null ? ((Integer) redirector.redirect((short) 24, this)).intValue() : this.relation;
     }
 
     public Integer getReqSubType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 7);
-        return redirector != null ? (Integer) redirector.redirect((short) 7, (Object) this) : this.reqSubType;
+        return redirector != null ? (Integer) redirector.redirect((short) 7, this) : this.reqSubType;
     }
 
     public long getReqTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 8);
-        return redirector != null ? ((Long) redirector.redirect((short) 8, (Object) this)).longValue() : this.reqTime;
+        return redirector != null ? ((Long) redirector.redirect((short) 8, this)).longValue() : this.reqTime;
     }
 
     public int getReqType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 6);
-        return redirector != null ? ((Integer) redirector.redirect((short) 6, (Object) this)).intValue() : this.reqType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 6, this)).intValue() : this.reqType;
     }
 
     public int getSourceId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 20);
-        return redirector != null ? ((Integer) redirector.redirect((short) 20, (Object) this)).intValue() : this.sourceId;
+        return redirector != null ? ((Integer) redirector.redirect((short) 20, this)).intValue() : this.sourceId;
     }
 
     public void setCommFriendNum(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 34);
         if (redirector != null) {
-            redirector.redirect((short) 34, (Object) this, i2);
+            redirector.redirect((short) 34, this, i2);
         } else {
             this.commFriendNum = i2;
         }
@@ -187,7 +187,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setCurFriendMax(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 35);
         if (redirector != null) {
-            redirector.redirect((short) 35, (Object) this, (Object) num);
+            redirector.redirect((short) 35, this, num);
         } else {
             this.curFriendMax = num;
         }
@@ -196,7 +196,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setExtWords(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 31);
         if (redirector != null) {
-            redirector.redirect((short) 31, (Object) this, (Object) str);
+            redirector.redirect((short) 31, this, str);
         } else {
             this.extWords = str;
         }
@@ -205,7 +205,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setFlag(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 32);
         if (redirector != null) {
-            redirector.redirect((short) 32, (Object) this, i2);
+            redirector.redirect((short) 32, this, i2);
         } else {
             this.flag = i2;
         }
@@ -214,7 +214,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setFriendAvatarUrl(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 41);
         if (redirector != null) {
-            redirector.redirect((short) 41, (Object) this, (Object) str);
+            redirector.redirect((short) 41, this, str);
         } else {
             this.friendAvatarUrl = str;
         }
@@ -223,7 +223,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setFriendNick(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 40);
         if (redirector != null) {
-            redirector.redirect((short) 40, (Object) this, (Object) str);
+            redirector.redirect((short) 40, this, str);
         } else {
             this.friendNick = str;
         }
@@ -232,7 +232,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setFriendUid(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 27);
         if (redirector != null) {
-            redirector.redirect((short) 27, (Object) this, (Object) str);
+            redirector.redirect((short) 27, this, str);
         } else {
             this.friendUid = str;
         }
@@ -241,7 +241,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setGroupCode(Long l2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 43);
         if (redirector != null) {
-            redirector.redirect((short) 43, (Object) this, (Object) l2);
+            redirector.redirect((short) 43, this, l2);
         } else {
             this.groupCode = l2;
         }
@@ -250,7 +250,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setIsAgreed(boolean z) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 45);
         if (redirector != null) {
-            redirector.redirect((short) 45, (Object) this, z);
+            redirector.redirect((short) 45, this, z);
         } else {
             this.isAgreed = z;
         }
@@ -259,7 +259,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setIsBuddy(Boolean bool) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 44);
         if (redirector != null) {
-            redirector.redirect((short) 44, (Object) this, (Object) bool);
+            redirector.redirect((short) 44, this, bool);
         } else {
             this.isBuddy = bool;
         }
@@ -268,7 +268,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setIsDecide(boolean z) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 25);
         if (redirector != null) {
-            redirector.redirect((short) 25, (Object) this, z);
+            redirector.redirect((short) 25, this, z);
         } else {
             this.isDecide = z;
         }
@@ -277,7 +277,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setIsDoubt(boolean z) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 38);
         if (redirector != null) {
-            redirector.redirect((short) 38, (Object) this, z);
+            redirector.redirect((short) 38, this, z);
         } else {
             this.isDoubt = z;
         }
@@ -286,7 +286,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setIsInitiator(boolean z) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 26);
         if (redirector != null) {
-            redirector.redirect((short) 26, (Object) this, z);
+            redirector.redirect((short) 26, this, z);
         } else {
             this.isInitiator = z;
         }
@@ -295,7 +295,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setIsShowCard(boolean z) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 36);
         if (redirector != null) {
-            redirector.redirect((short) 36, (Object) this, z);
+            redirector.redirect((short) 36, this, z);
         } else {
             this.isShowCard = z;
         }
@@ -304,7 +304,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setIsUnread(boolean z) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 37);
         if (redirector != null) {
-            redirector.redirect((short) 37, (Object) this, z);
+            redirector.redirect((short) 37, this, z);
         } else {
             this.isUnread = z;
         }
@@ -313,7 +313,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setNameMore(String str) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 39);
         if (redirector != null) {
-            redirector.redirect((short) 39, (Object) this, (Object) str);
+            redirector.redirect((short) 39, this, str);
         } else {
             this.nameMore = str;
         }
@@ -322,7 +322,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setPreGroupingId(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 33);
         if (redirector != null) {
-            redirector.redirect((short) 33, (Object) this, i2);
+            redirector.redirect((short) 33, this, i2);
         } else {
             this.preGroupingId = i2;
         }
@@ -331,7 +331,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setRelation(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 46);
         if (redirector != null) {
-            redirector.redirect((short) 46, (Object) this, i2);
+            redirector.redirect((short) 46, this, i2);
         } else {
             this.relation = i2;
         }
@@ -340,7 +340,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setReqSubType(Integer num) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 29);
         if (redirector != null) {
-            redirector.redirect((short) 29, (Object) this, (Object) num);
+            redirector.redirect((short) 29, this, num);
         } else {
             this.reqSubType = num;
         }
@@ -349,7 +349,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setReqTime(long j2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 30);
         if (redirector != null) {
-            redirector.redirect((short) 30, (Object) this, j2);
+            redirector.redirect((short) 30, this, j2);
         } else {
             this.reqTime = j2;
         }
@@ -358,7 +358,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setReqType(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 28);
         if (redirector != null) {
-            redirector.redirect((short) 28, (Object) this, i2);
+            redirector.redirect((short) 28, this, i2);
         } else {
             this.reqType = i2;
         }
@@ -367,7 +367,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public void setSourceId(int i2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 42);
         if (redirector != null) {
-            redirector.redirect((short) 42, (Object) this, i2);
+            redirector.redirect((short) 42, this, i2);
         } else {
             this.sourceId = i2;
         }
@@ -376,7 +376,7 @@ public final class BuddyReq implements IKernelModel, Serializable {
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79770, (short) 47);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 47, (Object) this);
+            return (String) redirector.redirect((short) 47, this);
         }
         return "BuddyReq{isDecide=" + this.isDecide + ",isInitiator=" + this.isInitiator + ",friendUid=" + this.friendUid + ",reqType=" + this.reqType + ",reqSubType=" + this.reqSubType + ",reqTime=" + this.reqTime + ",extWords=" + this.extWords + ",flag=" + this.flag + ",preGroupingId=" + this.preGroupingId + ",commFriendNum=" + this.commFriendNum + ",curFriendMax=" + this.curFriendMax + ",isShowCard=" + this.isShowCard + ",isUnread=" + this.isUnread + ",isDoubt=" + this.isDoubt + ",nameMore=" + this.nameMore + ",friendNick=" + this.friendNick + ",friendAvatarUrl=" + this.friendAvatarUrl + ",sourceId=" + this.sourceId + ",groupCode=" + this.groupCode + ",isBuddy=" + this.isBuddy + ",isAgreed=" + this.isAgreed + ",relation=" + this.relation + ",}";
     }

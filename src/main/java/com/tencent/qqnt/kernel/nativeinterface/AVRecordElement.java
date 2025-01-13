@@ -38,7 +38,7 @@ public final class AVRecordElement {
     public AVRecordElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79196, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.text = "";
         }
@@ -46,38 +46,38 @@ public final class AVRecordElement {
 
     public Integer getExtraType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79196, (short) 8);
-        return redirector != null ? (Integer) redirector.redirect((short) 8, (Object) this) : this.extraType;
+        return redirector != null ? (Integer) redirector.redirect((short) 8, this) : this.extraType;
     }
 
     public boolean getHasRead() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79196, (short) 7);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 7, (Object) this)).booleanValue() : this.hasRead;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 7, this)).booleanValue() : this.hasRead;
     }
 
     public int getMainType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79196, (short) 6);
-        return redirector != null ? ((Integer) redirector.redirect((short) 6, (Object) this)).intValue() : this.mainType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 6, this)).intValue() : this.mainType;
     }
 
     public String getText() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79196, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.text;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.text;
     }
 
     public long getTime() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79196, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.time;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.time;
     }
 
     public int getType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79196, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.type;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.type;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79196, (short) 9);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 9, (Object) this);
+            return (String) redirector.redirect((short) 9, this);
         }
         return "AVRecordElement{type=" + this.type + ",time=" + this.time + ",text=" + this.text + ",mainType=" + this.mainType + ",hasRead=" + this.hasRead + ",extraType=" + this.extraType + ",}";
     }

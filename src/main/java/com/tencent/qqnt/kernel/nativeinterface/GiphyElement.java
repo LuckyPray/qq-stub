@@ -36,7 +36,7 @@ public final class GiphyElement {
     public GiphyElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88003, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.id = "";
         }
@@ -44,28 +44,28 @@ public final class GiphyElement {
 
     public int getHeight() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88003, (short) 6);
-        return redirector != null ? ((Integer) redirector.redirect((short) 6, (Object) this)).intValue() : this.height;
+        return redirector != null ? ((Integer) redirector.redirect((short) 6, this)).intValue() : this.height;
     }
 
     public String getId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88003, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.id;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.id;
     }
 
     public boolean getIsClip() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88003, (short) 4);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 4, (Object) this)).booleanValue() : this.isClip;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 4, this)).booleanValue() : this.isClip;
     }
 
     public int getWidth() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88003, (short) 5);
-        return redirector != null ? ((Integer) redirector.redirect((short) 5, (Object) this)).intValue() : this.width;
+        return redirector != null ? ((Integer) redirector.redirect((short) 5, this)).intValue() : this.width;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88003, (short) 7);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 7, (Object) this);
+            return (String) redirector.redirect((short) 7, this);
         }
         return "GiphyElement{id=" + this.id + ",isClip=" + this.isClip + ",width=" + this.width + ",height=" + this.height + ",}";
     }

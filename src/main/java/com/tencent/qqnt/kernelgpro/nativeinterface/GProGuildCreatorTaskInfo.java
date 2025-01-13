@@ -57,7 +57,7 @@ public final class GProGuildCreatorTaskInfo {
     public GProGuildCreatorTaskInfo(int i, boolean z, int i2, int i3, ArrayList<GProTaskInfo> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Boolean.valueOf(z), Integer.valueOf(i2), Integer.valueOf(i3), arrayList});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Boolean.valueOf(z), Integer.valueOf(i2), Integer.valueOf(i3), arrayList);
             return;
         }
         this.tasks = new ArrayList<>();

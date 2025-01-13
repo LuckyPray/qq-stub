@@ -36,7 +36,7 @@ public final class MsgEmojiLikes {
     public MsgEmojiLikes() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93602, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.emojiId = "";
         }
@@ -44,28 +44,28 @@ public final class MsgEmojiLikes {
 
     public String getEmojiId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93602, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.emojiId;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.emojiId;
     }
 
     public long getEmojiType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93602, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.emojiType;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.emojiType;
     }
 
     public boolean getIsClicked() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93602, (short) 6);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 6, (Object) this)).booleanValue() : this.isClicked;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 6, this)).booleanValue() : this.isClicked;
     }
 
     public long getLikesCnt() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93602, (short) 5);
-        return redirector != null ? ((Long) redirector.redirect((short) 5, (Object) this)).longValue() : this.likesCnt;
+        return redirector != null ? ((Long) redirector.redirect((short) 5, this)).longValue() : this.likesCnt;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93602, (short) 7);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 7, (Object) this);
+            return (String) redirector.redirect((short) 7, this);
         }
         return "MsgEmojiLikes{emojiId=" + this.emojiId + ",emojiType=" + this.emojiType + ",likesCnt=" + this.likesCnt + ",isClicked=" + this.isClicked + ",}";
     }

@@ -36,7 +36,7 @@ public final class LiveGiftElement {
     public LiveGiftElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93273, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.kStrReceiverTinyId = "";
@@ -45,28 +45,28 @@ public final class LiveGiftElement {
 
     public String getKStrGiftName() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93273, (short) 6);
-        return redirector != null ? (String) redirector.redirect((short) 6, (Object) this) : this.kStrGiftName;
+        return redirector != null ? (String) redirector.redirect((short) 6, this) : this.kStrGiftName;
     }
 
     public String getKStrReceiverTinyId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93273, (short) 3);
-        return redirector != null ? (String) redirector.redirect((short) 3, (Object) this) : this.kStrReceiverTinyId;
+        return redirector != null ? (String) redirector.redirect((short) 3, this) : this.kStrReceiverTinyId;
     }
 
     public long getKUInt64GiftId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93273, (short) 5);
-        return redirector != null ? ((Long) redirector.redirect((short) 5, (Object) this)).longValue() : this.kUInt64GiftId;
+        return redirector != null ? ((Long) redirector.redirect((short) 5, this)).longValue() : this.kUInt64GiftId;
     }
 
     public long getKUInt64GiftNum() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93273, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.kUInt64GiftNum;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.kUInt64GiftNum;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93273, (short) 7);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 7, (Object) this);
+            return (String) redirector.redirect((short) 7, this);
         }
         return "LiveGiftElement{kStrReceiverTinyId=" + this.kStrReceiverTinyId + ",kUInt64GiftNum=" + this.kUInt64GiftNum + ",kUInt64GiftId=" + this.kUInt64GiftId + ",kStrGiftName=" + this.kStrGiftName + ",}";
     }

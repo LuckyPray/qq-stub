@@ -9,9 +9,9 @@ public abstract class MessageMicro<T extends MessageMicro<T>> extends PBPrimitiv
     private int cachedSize = -1;
 
     public static final class FieldMap {
-        private Object[] defaultValues;
-        private Field[] fields;
-        private int[] tags;
+        private final Object[] defaultValues;
+        private final Field[] fields;
+        private final int[] tags;
 
         FieldMap(int[] iArr, String[] strArr, Object[] objArr, Class<?> cls) {
             this.tags = iArr;
@@ -220,7 +220,7 @@ public abstract class MessageMicro<T extends MessageMicro<T>> extends PBPrimitiv
 
     protected T readFromDirectly(CodedInputStreamMicro codedInputStreamMicro) throws IOException {
         try {
-            MessageMicro messageMicro = (MessageMicro) getClass().newInstance();
+            MessageMicro messageMicro = getClass().newInstance();
             codedInputStreamMicro.readMessage(messageMicro);
             return (T) messageMicro;
         } catch (InstantiationException e) {

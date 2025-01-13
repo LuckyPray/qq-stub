@@ -79,7 +79,7 @@ public final class GProGuildNavigationInfo {
     public GProGuildNavigationInfo(long j, String str, ArrayList<GProNavigationV2Info> arrayList, int i, long j2, int i2, String str2, String str3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, arrayList, Integer.valueOf(i), Long.valueOf(j2), Integer.valueOf(i2), str2, str3});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, arrayList, Integer.valueOf(i), Long.valueOf(j2), Integer.valueOf(i2), str2, str3);
             return;
         }
         this.iconSelectorColor = "";

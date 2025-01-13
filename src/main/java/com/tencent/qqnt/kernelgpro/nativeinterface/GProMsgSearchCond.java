@@ -56,7 +56,7 @@ public final class GProMsgSearchCond {
     public GProMsgSearchCond(ArrayList<Long> arrayList, ArrayList<Long> arrayList2, ArrayList<GProMsgTimeRange> arrayList3, ArrayList<Integer> arrayList4, GProSeqCond gProSeqCond) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, arrayList, arrayList2, arrayList3, arrayList4, gProSeqCond});
+            iPatchRedirector.redirect((short) 2, this, arrayList, arrayList2, arrayList3, arrayList4, gProSeqCond);
             return;
         }
         this.channelIds = arrayList;

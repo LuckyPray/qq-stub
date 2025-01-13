@@ -8,7 +8,7 @@ public class SimpleAccount {
     public static final String _LOGINTIME = "_loginTime";
     public static final String _UIN = "_uin";
     private static final String tag = "SimpleAccount";
-    private HashMap attributes = new HashMap();
+    private final HashMap attributes = new HashMap();
 
     public String getUin() {
         return getAttribute(_UIN, "");

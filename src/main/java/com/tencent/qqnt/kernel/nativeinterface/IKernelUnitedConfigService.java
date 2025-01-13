@@ -9,7 +9,7 @@ public interface IKernelUnitedConfigService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelUnitedConfigService$CppProxy.class */
-    public static final class CppProxy implements IKernelUnitedConfigService {
+    final class CppProxy implements IKernelUnitedConfigService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

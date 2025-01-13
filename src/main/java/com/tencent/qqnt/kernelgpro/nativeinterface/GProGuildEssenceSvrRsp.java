@@ -55,7 +55,7 @@ public final class GProGuildEssenceSvrRsp implements Serializable {
     public GProGuildEssenceSvrRsp(GProUnifiedEssenceInfo gProUnifiedEssenceInfo, int i, int i2, String str) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, gProUnifiedEssenceInfo, Integer.valueOf(i), Integer.valueOf(i2), str});
+            iPatchRedirector.redirect((short) 2, this, gProUnifiedEssenceInfo, Integer.valueOf(i), Integer.valueOf(i2), str);
             return;
         }
         this.serialVersionUID = 1L;

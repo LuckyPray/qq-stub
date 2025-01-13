@@ -58,7 +58,7 @@ public final class GProQueryRecommendGuildInfoRsp {
     public GProQueryRecommendGuildInfoRsp(GProGuildData gProGuildData, GProRecommendGuildPersonalSetting gProRecommendGuildPersonalSetting, long j, byte[] bArr, long j2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, gProGuildData, gProRecommendGuildPersonalSetting, Long.valueOf(j), bArr, Long.valueOf(j2)});
+            iPatchRedirector.redirect((short) 2, this, gProGuildData, gProRecommendGuildPersonalSetting, Long.valueOf(j), bArr, Long.valueOf(j2));
             return;
         }
         this.guildData = new GProGuildData();

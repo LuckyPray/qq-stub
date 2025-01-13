@@ -76,7 +76,7 @@ public final class GProQuickJoinItem implements Serializable {
     public GProQuickJoinItem(String str, int i, String str2, String str3, ArrayList<String> arrayList, int i2, int i3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, Integer.valueOf(i), str2, str3, arrayList, Integer.valueOf(i2), Integer.valueOf(i3)});
+            iPatchRedirector.redirect((short) 2, this, str, Integer.valueOf(i), str2, str3, arrayList, Integer.valueOf(i2), Integer.valueOf(i3));
             return;
         }
         this.serialVersionUID = 1L;

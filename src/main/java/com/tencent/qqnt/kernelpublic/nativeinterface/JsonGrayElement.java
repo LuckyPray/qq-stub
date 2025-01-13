@@ -62,7 +62,7 @@ public final class JsonGrayElement implements Serializable {
     public JsonGrayElement(long j, String str, String str2, boolean z, XmlToJsonParam xmlToJsonParam) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, Boolean.valueOf(z), xmlToJsonParam});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, str2, Boolean.valueOf(z), xmlToJsonParam);
             return;
         }
         this.serialVersionUID = 1L;

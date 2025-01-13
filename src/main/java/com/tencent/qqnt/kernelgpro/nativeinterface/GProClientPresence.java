@@ -107,7 +107,7 @@ public final class GProClientPresence implements Serializable {
     public GProClientPresence(int i, String str, String str2, String str3, String str4, long j, long j2, String str5, long j3, long j4, long j5, String str6) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, str2, str3, str4, Long.valueOf(j), Long.valueOf(j2), str5, Long.valueOf(j3), Long.valueOf(j4), Long.valueOf(j5), str6});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), str, str2, str3, str4, Long.valueOf(j), Long.valueOf(j2), str5, Long.valueOf(j3), Long.valueOf(j4), Long.valueOf(j5), str6);
             return;
         }
         this.serialVersionUID = 1L;

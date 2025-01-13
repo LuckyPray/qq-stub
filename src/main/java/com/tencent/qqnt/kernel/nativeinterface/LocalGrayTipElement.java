@@ -38,7 +38,7 @@ public final class LocalGrayTipElement implements Serializable {
     public LocalGrayTipElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93303, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -47,28 +47,28 @@ public final class LocalGrayTipElement implements Serializable {
 
     public LocalGrayTipDirect getDirect() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93303, (short) 5);
-        return redirector != null ? (LocalGrayTipDirect) redirector.redirect((short) 5, (Object) this) : this.direct;
+        return redirector != null ? (LocalGrayTipDirect) redirector.redirect((short) 5, this) : this.direct;
     }
 
     public String getExtraJson() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93303, (short) 6);
-        return redirector != null ? (String) redirector.redirect((short) 6, (Object) this) : this.extraJson;
+        return redirector != null ? (String) redirector.redirect((short) 6, this) : this.extraJson;
     }
 
     public LocalGrayTipRobot getRobot() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93303, (short) 4);
-        return redirector != null ? (LocalGrayTipRobot) redirector.redirect((short) 4, (Object) this) : this.robot;
+        return redirector != null ? (LocalGrayTipRobot) redirector.redirect((short) 4, this) : this.robot;
     }
 
     public int getType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93303, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.type;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.type;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93303, (short) 7);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 7, (Object) this);
+            return (String) redirector.redirect((short) 7, this);
         }
         return "LocalGrayTipElement{type=" + this.type + ",robot=" + this.robot + ",direct=" + this.direct + ",extraJson=" + this.extraJson + ",}";
     }

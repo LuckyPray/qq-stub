@@ -10,11 +10,11 @@ public final class CARDSETTYPE implements Serializable {
     public static final int _TYPE_SET_SINGLE = 0;
     public static final int _TYPE_SET_TAGS = 1;
     public static final int _TYPE_SET_TEMPLATE = 3;
-    private String __T;
-    private int __value;
+    private final String __T;
+    private final int __value;
 
     /* renamed from: e  reason: collision with root package name */
-    private static CARDSETTYPE[] f5191e = new CARDSETTYPE[5];
+    private static final CARDSETTYPE[] f5191e = new CARDSETTYPE[5];
     public static final CARDSETTYPE TYPE_SET_DEFAUT = new CARDSETTYPE(0, -1, "TYPE_SET_DEFAUT");
     public static final CARDSETTYPE TYPE_SET_SINGLE = new CARDSETTYPE(1, 0, "TYPE_SET_SINGLE");
     public static final CARDSETTYPE TYPE_SET_TAGS = new CARDSETTYPE(2, 1, "TYPE_SET_TAGS");

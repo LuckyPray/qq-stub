@@ -97,7 +97,7 @@ public final class GProVoiceTemplateChannel implements Serializable {
     public GProVoiceTemplateChannel(GProRecommendCoverInfo gProRecommendCoverInfo, String str, String str2, ArrayList<GProMemberInfo> arrayList, String str3, int i, String str4, String str5, int i2, int i3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, gProRecommendCoverInfo, str, str2, arrayList, str3, Integer.valueOf(i), str4, str5, Integer.valueOf(i2), Integer.valueOf(i3)});
+            iPatchRedirector.redirect((short) 2, this, gProRecommendCoverInfo, str, str2, arrayList, str3, Integer.valueOf(i), str4, str5, Integer.valueOf(i2), Integer.valueOf(i3));
             return;
         }
         this.serialVersionUID = 1L;

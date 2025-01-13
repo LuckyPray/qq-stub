@@ -70,7 +70,7 @@ public final class GProBroadcastHelperTransNotifyInfo {
     public GProBroadcastHelperTransNotifyInfo(long j, long j2, long j3, String str, String str2, long j4, int i) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), str, str2, Long.valueOf(j4), Integer.valueOf(i)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), Long.valueOf(j3), str, str2, Long.valueOf(j4), Integer.valueOf(i));
             return;
         }
         this.fileErrMsg = "";

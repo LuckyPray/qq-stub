@@ -31,14 +31,14 @@ public class ToServiceMsg implements Parcelable {
     private boolean needResp;
     private boolean quickSendEnable;
     private int quickSendStrategy;
-    private long sendTimeout;
+    private final long sendTimeout;
     private String serviceCmd;
     private String serviceName;
     private int ssoSeq;
     private long timeout;
-    private byte toVersion;
+    private final byte toVersion;
     private String uin;
-    private byte uinType;
+    private final byte uinType;
     private byte[] wupBuffer;
 
     public ToServiceMsg(String serviceName, String uin, String serviceCmd) {
@@ -63,29 +63,28 @@ public class ToServiceMsg implements Parcelable {
 
     public String toString() {
         try {
-            StringBuffer stringBuffer = new StringBuffer(256);
-            stringBuffer.append(tag);
-            stringBuffer.append(" msName:");
-            stringBuffer.append(this.msfCommand);
-            stringBuffer.append(" ssoSeq:");
-            stringBuffer.append(getRequestSsoSeq());
-            stringBuffer.append(" appId:");
-            stringBuffer.append(this.appId);
-            stringBuffer.append(" appSeq:");
-            stringBuffer.append(this.appSeq);
-            stringBuffer.append(" uin:");
-            stringBuffer.append(this.uin);
-            stringBuffer.append(" sCmd:");
-            stringBuffer.append(this.serviceCmd);
-            stringBuffer.append(" t:");
-            stringBuffer.append(this.timeout);
-            stringBuffer.append(" needResp:");
-            stringBuffer.append(this.needResp);
-            stringBuffer.append(" needQuickSend:");
-            stringBuffer.append(this.quickSendEnable);
-            stringBuffer.append(" strategy:");
-            stringBuffer.append(this.quickSendStrategy);
-            return stringBuffer.toString();
+            String stringBuffer = tag +
+                    " msName:" +
+                    this.msfCommand +
+                    " ssoSeq:" +
+                    getRequestSsoSeq() +
+                    " appId:" +
+                    this.appId +
+                    " appSeq:" +
+                    this.appSeq +
+                    " uin:" +
+                    this.uin +
+                    " sCmd:" +
+                    this.serviceCmd +
+                    " t:" +
+                    this.timeout +
+                    " needResp:" +
+                    this.needResp +
+                    " needQuickSend:" +
+                    this.quickSendEnable +
+                    " strategy:" +
+                    this.quickSendStrategy;
+            return stringBuffer;
         } catch (Throwable th) {
             th.printStackTrace();
             return "TSM toString error";
@@ -94,31 +93,30 @@ public class ToServiceMsg implements Parcelable {
 
     public String getStringForLog() {
         try {
-            StringBuffer stringBuffer = new StringBuffer(256);
-            stringBuffer.append(tag);
-            stringBuffer.append(" msName:");
-            stringBuffer.append(this.msfCommand);
-            stringBuffer.append(" ssoSeq:");
-            stringBuffer.append(getRequestSsoSeq());
-            stringBuffer.append(" appId:");
-            stringBuffer.append(this.appId);
-            stringBuffer.append(" appSeq:");
-            stringBuffer.append(this.appSeq);
-            stringBuffer.append(" sName:");
-            stringBuffer.append(this.serviceName);
-            stringBuffer.append(" uin:");
-            stringBuffer.append(MsfSdkUtils.getShortUin(this.uin));
-            stringBuffer.append(" sCmd:");
-            stringBuffer.append(this.serviceCmd);
-            stringBuffer.append(" t:");
-            stringBuffer.append(this.timeout);
-            stringBuffer.append(" needResp:");
-            stringBuffer.append(this.needResp);
-            stringBuffer.append(" needQuickSend:");
-            stringBuffer.append(this.quickSendEnable);
-            stringBuffer.append(" strategy:");
-            stringBuffer.append(this.quickSendStrategy);
-            return stringBuffer.toString();
+            String stringBuffer = tag +
+                    " msName:" +
+                    this.msfCommand +
+                    " ssoSeq:" +
+                    getRequestSsoSeq() +
+                    " appId:" +
+                    this.appId +
+                    " appSeq:" +
+                    this.appSeq +
+                    " sName:" +
+                    this.serviceName +
+                    " uin:" +
+                    MsfSdkUtils.getShortUin(this.uin) +
+                    " sCmd:" +
+                    this.serviceCmd +
+                    " t:" +
+                    this.timeout +
+                    " needResp:" +
+                    this.needResp +
+                    " needQuickSend:" +
+                    this.quickSendEnable +
+                    " strategy:" +
+                    this.quickSendStrategy;
+            return stringBuffer;
         } catch (Throwable th) {
             th.printStackTrace();
             return "TSM getString error";
@@ -127,21 +125,20 @@ public class ToServiceMsg implements Parcelable {
 
     public String getShortStringForLog() {
         try {
-            StringBuffer stringBuffer = new StringBuffer(256);
-            stringBuffer.append(tag);
-            stringBuffer.append(" ssoSeq:");
-            stringBuffer.append(getRequestSsoSeq());
-            stringBuffer.append(" sCmd:");
-            stringBuffer.append(this.serviceCmd);
-            stringBuffer.append(" appSeq:");
-            stringBuffer.append(this.appSeq);
-            stringBuffer.append(" t:");
-            stringBuffer.append(this.timeout);
-            stringBuffer.append(" needResp:");
-            stringBuffer.append(this.needResp);
-            stringBuffer.append(" needQuickSend:");
-            stringBuffer.append(this.quickSendEnable);
-            return stringBuffer.toString();
+            String stringBuffer = tag +
+                    " ssoSeq:" +
+                    getRequestSsoSeq() +
+                    " sCmd:" +
+                    this.serviceCmd +
+                    " appSeq:" +
+                    this.appSeq +
+                    " t:" +
+                    this.timeout +
+                    " needResp:" +
+                    this.needResp +
+                    " needQuickSend:" +
+                    this.quickSendEnable;
+            return stringBuffer;
         } catch (Exception e) {
             e.printStackTrace();
             return "fsm getString error";

@@ -164,7 +164,7 @@ public final class GProSearchBlackUserReq {
     public GProSearchBlackUserReq(long j, String str, int i, long j2, String str2, byte[] bArr, int i2, int i3, int i4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, Integer.valueOf(i), Long.valueOf(j2), str2, bArr, Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, Integer.valueOf(i), Long.valueOf(j2), str2, bArr, Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4));
             return;
         }
         this.keyword = "";

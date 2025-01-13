@@ -35,29 +35,29 @@ public final class FreqLimitInfo {
     public FreqLimitInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83822, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public int getIsLimited() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83822, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.isLimited;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.isLimited;
     }
 
     public int getLeftCount() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83822, (short) 4);
-        return redirector != null ? ((Integer) redirector.redirect((short) 4, (Object) this)).intValue() : this.leftCount;
+        return redirector != null ? ((Integer) redirector.redirect((short) 4, this)).intValue() : this.leftCount;
     }
 
     public long getLimitTimestamp() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83822, (short) 5);
-        return redirector != null ? ((Long) redirector.redirect((short) 5, (Object) this)).longValue() : this.limitTimestamp;
+        return redirector != null ? ((Long) redirector.redirect((short) 5, this)).longValue() : this.limitTimestamp;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83822, (short) 6);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 6, (Object) this);
+            return (String) redirector.redirect((short) 6, this);
         }
         return "FreqLimitInfo{isLimited=" + this.isLimited + ",leftCount=" + this.leftCount + ",limitTimestamp=" + this.limitTimestamp + ",}";
     }

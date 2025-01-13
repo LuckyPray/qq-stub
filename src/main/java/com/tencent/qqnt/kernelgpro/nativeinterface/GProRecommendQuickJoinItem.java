@@ -59,7 +59,7 @@ public final class GProRecommendQuickJoinItem {
     public GProRecommendQuickJoinItem(long j, long j2, String str, String str2, String str3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), str, str2, str3});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), str, str2, str3);
             return;
         }
         this.mainSource = "";

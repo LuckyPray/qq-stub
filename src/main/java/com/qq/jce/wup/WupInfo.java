@@ -42,8 +42,7 @@ public class WupInfo {
 			clientBuilt = props.getProperty("client.built");
 			clientNumber = props.getProperty("client.number");
 		} catch (Throwable t) {
-			;
-		}
+        }
 		if (clientInfo == null)
 			clientInfo = "Tencent Taf";
 		if (clientBuilt == null)
@@ -83,19 +82,18 @@ public class WupInfo {
 	}
 	
 	public static String showString() {
-		StringBuffer sb = new StringBuffer();
-		sb.append("Client version: " + getClientInfo()+"\n");
-		sb.append("Client built:   " + getClientBuilt()+"\n");
-		sb.append("Client number:  " + getClientNumber()+"\n");
-		sb.append("OS Name:        " + System.getProperty("os.name")+"\n");
-		sb.append("OS Version:     " + System.getProperty("os.version")+"\n");
-		sb.append("Architecture:   " + System.getProperty("os.arch")+"\n");
-		sb.append("JVM Version:    " + System.getProperty("java.runtime.version")+"\n");
-		sb.append("JVM Vendor:     " + System.getProperty("java.vm.vendor")+"\n");
-		return sb.toString();
+        String sb = "Client version: " + getClientInfo() + "\n" +
+                "Client built:   " + getClientBuilt() + "\n" +
+                "Client number:  " + getClientNumber() + "\n" +
+                "OS Name:        " + System.getProperty("os.name") + "\n" +
+                "OS Version:     " + System.getProperty("os.version") + "\n" +
+                "Architecture:   " + System.getProperty("os.arch") + "\n" +
+                "JVM Version:    " + System.getProperty("java.runtime.version") + "\n" +
+                "JVM Vendor:     " + System.getProperty("java.vm.vendor") + "\n";
+		return sb;
 	}
 
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		System.out.println(showString());
 		System.out.println("Client version: " + getClientInfo());
 		System.out.println("Client built:   " + getClientBuilt());

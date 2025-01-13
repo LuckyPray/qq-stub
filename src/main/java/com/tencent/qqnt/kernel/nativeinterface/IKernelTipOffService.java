@@ -9,7 +9,7 @@ public interface IKernelTipOffService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelTipOffService$CppProxy.class */
-    public static final class CppProxy implements IKernelTipOffService {
+    final class CppProxy implements IKernelTipOffService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

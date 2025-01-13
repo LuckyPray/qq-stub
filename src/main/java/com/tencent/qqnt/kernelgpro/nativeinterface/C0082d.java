@@ -20,7 +20,7 @@ public final /* synthetic */ class C0082d {
         if (iPatchRedirector == null || !iPatchRedirector.hasPatch((short) 4)) {
             return;
         }
-        iPatchRedirector.redirect((short) 4, new Object[]{iKernelGProGuildMsgService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGuildOperateCallback});
+        iPatchRedirector.redirect((short) 4, iKernelGProGuildMsgService, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), iGuildOperateCallback);
     }
 
     public static void $default$clearGuildCommonAbstractReadScene(IKernelGProGuildMsgService iKernelGProGuildMsgService, ArrayList arrayList, int i, IGuildOperateCallback iGuildOperateCallback) {

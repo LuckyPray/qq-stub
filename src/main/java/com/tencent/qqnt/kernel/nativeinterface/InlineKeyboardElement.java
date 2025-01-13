@@ -35,7 +35,7 @@ public final class InlineKeyboardElement {
     public InlineKeyboardElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93170, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.rows = new ArrayList<>();
         }
@@ -43,18 +43,18 @@ public final class InlineKeyboardElement {
 
     public long getBotAppid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93170, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.botAppid;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.botAppid;
     }
 
     public ArrayList<InlineKeyboardRow> getRows() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93170, (short) 3);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 3, (Object) this) : this.rows;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 3, this) : this.rows;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93170, (short) 5);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 5, (Object) this);
+            return (String) redirector.redirect((short) 5, this);
         }
         return "InlineKeyboardElement{rows=" + this.rows + ",botAppid=" + this.botAppid + ",}";
     }

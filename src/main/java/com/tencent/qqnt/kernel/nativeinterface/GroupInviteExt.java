@@ -37,7 +37,7 @@ public final class GroupInviteExt implements Serializable {
     public GroupInviteExt() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88386, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -47,23 +47,23 @@ public final class GroupInviteExt implements Serializable {
 
     public long getGroupCode() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88386, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.groupCode;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.groupCode;
     }
 
     public GroupInviteType getSrcType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88386, (short) 3);
-        return redirector != null ? (GroupInviteType) redirector.redirect((short) 3, (Object) this) : this.srcType;
+        return redirector != null ? (GroupInviteType) redirector.redirect((short) 3, this) : this.srcType;
     }
 
     public GroupInviteStatus getWaitStatus() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88386, (short) 5);
-        return redirector != null ? (GroupInviteStatus) redirector.redirect((short) 5, (Object) this) : this.waitStatus;
+        return redirector != null ? (GroupInviteStatus) redirector.redirect((short) 5, this) : this.waitStatus;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88386, (short) 6);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 6, (Object) this);
+            return (String) redirector.redirect((short) 6, this);
         }
         return "GroupInviteExt{srcType=" + this.srcType + ",groupCode=" + this.groupCode + ",waitStatus=" + this.waitStatus + ",}";
     }

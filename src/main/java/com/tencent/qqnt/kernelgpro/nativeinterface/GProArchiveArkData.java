@@ -53,7 +53,7 @@ public final class GProArchiveArkData {
     public GProArchiveArkData(int i, String str, String str2, GProArkArg gProArkArg) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, str2, gProArkArg});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), str, str2, gProArkArg);
             return;
         }
         this.name = "";

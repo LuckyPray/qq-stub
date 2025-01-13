@@ -71,7 +71,7 @@ public final class GProGetBlockRecGuildsRsp implements Serializable {
     public GProGetBlockRecGuildsRsp(String str, ArrayList<GProBlockInfo> arrayList, String str2, boolean z, byte[] bArr, GProGetRecommendV2Rsp gProGetRecommendV2Rsp) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, arrayList, str2, Boolean.valueOf(z), bArr, gProGetRecommendV2Rsp});
+            iPatchRedirector.redirect((short) 2, this, str, arrayList, str2, Boolean.valueOf(z), bArr, gProGetRecommendV2Rsp);
             return;
         }
         this.serialVersionUID = 1L;

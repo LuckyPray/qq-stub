@@ -34,6 +34,6 @@ public final class GProRelation {
     }
 
     public static GProRelation[] values() {
-        return (GProRelation[]) $VALUES.clone();
+        return $VALUES.clone();
     }
 }

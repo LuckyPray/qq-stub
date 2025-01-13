@@ -64,7 +64,7 @@ public final class GProRecommendChannelExtendInfo {
     public GProRecommendChannelExtendInfo(long j, String str, String str2, int i, int i2, int i3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, str2, Integer.valueOf(i), Integer.valueOf(i2), Integer.valueOf(i3));
             return;
         }
         this.channelLink = "";

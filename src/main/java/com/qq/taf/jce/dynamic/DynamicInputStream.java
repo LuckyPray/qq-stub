@@ -14,7 +14,7 @@ public final class DynamicInputStream {
 	
 	private String sServerEncoding = "GBK";
     
-	private ByteBuffer bs;
+	private final ByteBuffer bs;
 	
 	public DynamicInputStream(ByteBuffer bs) {
 		this.bs = bs;

@@ -36,7 +36,7 @@ public final class InviterAndInvited implements Serializable {
     public InviterAndInvited() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93190, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -46,18 +46,18 @@ public final class InviterAndInvited implements Serializable {
 
     public GrayTipMember getInvited() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93190, (short) 4);
-        return redirector != null ? (GrayTipMember) redirector.redirect((short) 4, (Object) this) : this.invited;
+        return redirector != null ? (GrayTipMember) redirector.redirect((short) 4, this) : this.invited;
     }
 
     public GrayTipMember getInviter() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93190, (short) 3);
-        return redirector != null ? (GrayTipMember) redirector.redirect((short) 3, (Object) this) : this.inviter;
+        return redirector != null ? (GrayTipMember) redirector.redirect((short) 3, this) : this.inviter;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93190, (short) 5);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 5, (Object) this);
+            return (String) redirector.redirect((short) 5, this);
         }
         return "InviterAndInvited{inviter=" + this.inviter + ",invited=" + this.invited + ",}";
     }
@@ -65,7 +65,7 @@ public final class InviterAndInvited implements Serializable {
     public InviterAndInvited(GrayTipMember grayTipMember, GrayTipMember grayTipMember2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93190, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, (Object) grayTipMember, (Object) grayTipMember2);
+            redirector.redirect((short) 2, this, grayTipMember, grayTipMember2);
             return;
         }
         this.serialVersionUID = 1L;

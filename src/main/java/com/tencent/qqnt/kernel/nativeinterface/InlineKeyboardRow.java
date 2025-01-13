@@ -34,7 +34,7 @@ public final class InlineKeyboardRow {
     public InlineKeyboardRow() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93173, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.buttons = new ArrayList<>();
         }
@@ -42,13 +42,13 @@ public final class InlineKeyboardRow {
 
     public ArrayList<InlineKeyboardButton> getButtons() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93173, (short) 3);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 3, (Object) this) : this.buttons;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 3, this) : this.buttons;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93173, (short) 4);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 4, (Object) this);
+            return (String) redirector.redirect((short) 4, this);
         }
         return "InlineKeyboardRow{buttons=" + this.buttons + ",}";
     }
@@ -56,7 +56,7 @@ public final class InlineKeyboardRow {
     public InlineKeyboardRow(ArrayList<InlineKeyboardButton> arrayList) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(93173, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, (Object) arrayList);
+            redirector.redirect((short) 2, this, arrayList);
             return;
         }
         this.buttons = new ArrayList<>();

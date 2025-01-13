@@ -43,7 +43,7 @@ public final class RevokeElement implements Serializable {
     public RevokeElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94329, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -54,53 +54,53 @@ public final class RevokeElement implements Serializable {
 
     public boolean getIsSelfOperate() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94329, (short) 10);
-        return redirector != null ? ((Boolean) redirector.redirect((short) 10, (Object) this)).booleanValue() : this.isSelfOperate;
+        return redirector != null ? ((Boolean) redirector.redirect((short) 10, this)).booleanValue() : this.isSelfOperate;
     }
 
     public String getOperatorMemRemark() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94329, (short) 8);
-        return redirector != null ? (String) redirector.redirect((short) 8, (Object) this) : this.operatorMemRemark;
+        return redirector != null ? (String) redirector.redirect((short) 8, this) : this.operatorMemRemark;
     }
 
     public String getOperatorNick() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94329, (short) 6);
-        return redirector != null ? (String) redirector.redirect((short) 6, (Object) this) : this.operatorNick;
+        return redirector != null ? (String) redirector.redirect((short) 6, this) : this.operatorNick;
     }
 
     public String getOperatorRemark() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94329, (short) 7);
-        return redirector != null ? (String) redirector.redirect((short) 7, (Object) this) : this.operatorRemark;
+        return redirector != null ? (String) redirector.redirect((short) 7, this) : this.operatorRemark;
     }
 
     public long getOperatorRole() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94329, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.operatorRole;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.operatorRole;
     }
 
     public long getOperatorTinyId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94329, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.operatorTinyId;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.operatorTinyId;
     }
 
     public String getOperatorUid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94329, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.operatorUid;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.operatorUid;
     }
 
     public String getOrigMsgSenderUid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94329, (short) 9);
-        return redirector != null ? (String) redirector.redirect((short) 9, (Object) this) : this.origMsgSenderUid;
+        return redirector != null ? (String) redirector.redirect((short) 9, this) : this.origMsgSenderUid;
     }
 
     public String getWording() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94329, (short) 11);
-        return redirector != null ? (String) redirector.redirect((short) 11, (Object) this) : this.wording;
+        return redirector != null ? (String) redirector.redirect((short) 11, this) : this.wording;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94329, (short) 12);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 12, (Object) this);
+            return (String) redirector.redirect((short) 12, this);
         }
         return "RevokeElement{operatorTinyId=" + this.operatorTinyId + ",operatorRole=" + this.operatorRole + ",operatorUid=" + this.operatorUid + ",operatorNick=" + this.operatorNick + ",operatorRemark=" + this.operatorRemark + ",operatorMemRemark=" + this.operatorMemRemark + ",origMsgSenderUid=" + this.origMsgSenderUid + ",isSelfOperate=" + this.isSelfOperate + ",wording=" + this.wording + ",}";
     }

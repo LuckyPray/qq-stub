@@ -37,7 +37,7 @@ public final class AioOperateGrayTipElement implements Serializable {
     public AioOperateGrayTipElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79257, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -47,23 +47,23 @@ public final class AioOperateGrayTipElement implements Serializable {
 
     public String getFromGrpCodeOfTmpChat() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79257, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.fromGrpCodeOfTmpChat;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.fromGrpCodeOfTmpChat;
     }
 
     public int getOperateType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79257, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.operateType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.operateType;
     }
 
     public String getPeerUid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79257, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.peerUid;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.peerUid;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(79257, (short) 6);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 6, (Object) this);
+            return (String) redirector.redirect((short) 6, this);
         }
         return "AioOperateGrayTipElement{operateType=" + this.operateType + ",peerUid=" + this.peerUid + ",fromGrpCodeOfTmpChat=" + this.fromGrpCodeOfTmpChat + ",}";
     }

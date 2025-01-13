@@ -137,7 +137,7 @@ public final class GProNavigationV2Info {
     public GProNavigationV2Info(long j, String str, String str2, String str3, int i, boolean z, String str4, long j2, long j3, int i2, int i3, String str5, int i4, String str6, String str7, GProNavigationItemExt gProNavigationItemExt, String str8) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, str3, Integer.valueOf(i), Boolean.valueOf(z), str4, Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i2), Integer.valueOf(i3), str5, Integer.valueOf(i4), str6, str7, gProNavigationItemExt, str8});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, str2, str3, Integer.valueOf(i), Boolean.valueOf(z), str4, Long.valueOf(j2), Long.valueOf(j3), Integer.valueOf(i2), Integer.valueOf(i3), str5, Integer.valueOf(i4), str6, str7, gProNavigationItemExt, str8);
             return;
         }
         this.iconUrl = "";

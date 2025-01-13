@@ -55,7 +55,7 @@ public final class GroupShutUpGrayElement implements Serializable {
     public GroupShutUpGrayElement(long j, long j2, GrayTipGroupMember grayTipGroupMember, GrayTipGroupMember grayTipGroupMember2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), grayTipGroupMember, grayTipGroupMember2});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), grayTipGroupMember, grayTipGroupMember2);
             return;
         }
         this.serialVersionUID = 1L;

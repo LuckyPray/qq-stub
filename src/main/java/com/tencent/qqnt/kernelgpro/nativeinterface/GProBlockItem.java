@@ -93,7 +93,7 @@ public final class GProBlockItem implements Serializable {
     public GProBlockItem(String str, int i, String str2, ArrayList<GProItemIdInfo> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, Integer.valueOf(i), str2, arrayList});
+            iPatchRedirector.redirect((short) 2, this, str, Integer.valueOf(i), str2, arrayList);
             return;
         }
         this.serialVersionUID = 1L;

@@ -153,7 +153,7 @@ public final class GProGetSubjectGuildsReq implements Serializable {
     public GProGetSubjectGuildsReq(int i, byte[] bArr, GProBottomTabSourceInfo gProBottomTabSourceInfo, String str, int i2, String str2, int i3, int i4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), bArr, gProBottomTabSourceInfo, str, Integer.valueOf(i2), str2, Integer.valueOf(i3), Integer.valueOf(i4)});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), bArr, gProBottomTabSourceInfo, str, Integer.valueOf(i2), str2, Integer.valueOf(i3), Integer.valueOf(i4));
             return;
         }
         this.serialVersionUID = 1L;

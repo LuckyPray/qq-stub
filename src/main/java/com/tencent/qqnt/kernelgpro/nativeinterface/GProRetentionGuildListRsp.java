@@ -52,7 +52,7 @@ public final class GProRetentionGuildListRsp {
     public GProRetentionGuildListRsp(ArrayList<GProRetentionChannelInfo> arrayList, int i, byte[] bArr, boolean z) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, arrayList, Integer.valueOf(i), bArr, Boolean.valueOf(z)});
+            iPatchRedirector.redirect((short) 2, this, arrayList, Integer.valueOf(i), bArr, Boolean.valueOf(z));
             return;
         }
         this.recommendChannels = new ArrayList<>();

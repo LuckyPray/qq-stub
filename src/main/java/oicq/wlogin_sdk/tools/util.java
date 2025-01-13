@@ -39,7 +39,7 @@ public class util {
     public static final int ASYN_TRANSPORT_MSF = 10;
     public static final long BUILD_TIME = 1541504115;
     public static final int D = 2;
-    private static SimpleDateFormat DAYFORMAT = null;
+    private static final SimpleDateFormat DAYFORMAT = null;
     public static final int E_A1_DECRYPT = -1014;
     public static final int E_A1_FORMAT = -1016;
     public static final int E_ADVANCE_NOTICE = 257;
@@ -72,7 +72,7 @@ public class util {
     public static final int E_TLV_VERIFY = -1005;
     public static final String FILE_DIR = "wtlogin";
     public static int GUID_DELAY_HOUR = 360;
-    private static int HONEYCOMB = 11;
+    private static final int HONEYCOMB = 11;
     public static final int I = 1;
     //    public static LogCallBack LCB = null;
     public static boolean LOGCAT_OUT = false;
@@ -82,7 +82,7 @@ public class util {
     public static final int MAX_CONTENT_SIZE = 25600;
     public static final int MAX_FILE_SIZE = 524288;
     public static int MAX_NAME_LEN = 128;
-    private static int MODE_MULTI_PROCESS = 0;
+    private static final int MODE_MULTI_PROCESS = 0;
     public static final String SDK_VERSION = "6.0.0.2342";
     public static final int SSO_VERSION = 5;
     public static final long SVN_VER = 2342;
@@ -99,7 +99,7 @@ public class util {
     static final char[] base64_encode_chars = new char[]{'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '+', '/'};
     static final char base64_pad_url = '_';
     static final short[] base64_reverse_table_url = new short[]{(short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) 62, (short) -1, (short) -1, (short) 63, (short) -1, (short) -1, (short) 52, (short) 53, (short) 54, (short) 55, (short) 56, (short) 57, (short) 58, (short) 59, (short) 60, (short) 61, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) 0, (short) 1, (short) 2, (short) 3, (short) 4, (short) 5, (short) 6, (short) 7, (short) 8, (short) 9, (short) 10, (short) 11, (short) 12, (short) 13, (short) 14, (short) 15, (short) 16, (short) 17, (short) 18, (short) 19, (short) 20, (short) 21, (short) 22, (short) 23, (short) 24, (short) 25, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) 26, (short) 27, (short) 28, (short) 29, (short) 30, (short) 31, (short) 32, (short) 33, (short) 34, (short) 35, (short) 36, (short) 37, (short) 38, (short) 39, (short) 40, (short) 41, (short) 42, (short) 43, (short) 44, (short) 45, (short) 46, (short) 47, (short) 48, (short) 49, (short) 50, (short) 51, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1, (short) -1};
-    private static boolean libwtecdh_loaded = false;
+    private static final boolean libwtecdh_loaded = false;
     public static boolean loadEncryptSo = true;
     public static String logContent = "";
 
@@ -112,19 +112,19 @@ public class util {
     }
 
     public static void int8_to_buf(byte[] bArr, int i, int i2) {
-        bArr[i + 0] = (byte) (i2 >> 0);
+        bArr[i] = (byte) (i2 >> 0);
     }
 
     public static void int16_to_buf(byte[] bArr, int i, int i2) {
         bArr[i + 1] = (byte) (i2 >> 0);
-        bArr[i + 0] = (byte) (i2 >> 8);
+        bArr[i] = (byte) (i2 >> 8);
     }
 
     public static void int32_to_buf(byte[] bArr, int i, int i2) {
         bArr[i + 3] = (byte) (i2 >> 0);
         bArr[i + 2] = (byte) (i2 >> 8);
         bArr[i + 1] = (byte) (i2 >> 16);
-        bArr[i + 0] = (byte) (i2 >> 24);
+        bArr[i] = (byte) (i2 >> 24);
     }
 
     public static void int64_to_buf(byte[] bArr, int i, long j) {
@@ -135,14 +135,14 @@ public class util {
         bArr[i + 3] = (byte) ((int) (j >> 32));
         bArr[i + 2] = (byte) ((int) (j >> 40));
         bArr[i + 1] = (byte) ((int) (j >> 48));
-        bArr[i + 0] = (byte) ((int) (j >> 56));
+        bArr[i] = (byte) ((int) (j >> 56));
     }
 
     public static void int64_to_buf32(byte[] bArr, int i, long j) {
         bArr[i + 3] = (byte) ((int) (j >> 0));
         bArr[i + 2] = (byte) ((int) (j >> 8));
         bArr[i + 1] = (byte) ((int) (j >> 16));
-        bArr[i + 0] = (byte) ((int) (j >> 24));
+        bArr[i] = (byte) ((int) (j >> 24));
     }
 
     public static int buf_to_int8(byte[] bArr, int i) {
@@ -158,7 +158,7 @@ public class util {
     }
 
     public static long buf_to_int64(byte[] bArr, int i) {
-        return (((((((0 + ((((long) bArr[i]) << 56) & -72057594037927936L)) + ((((long) bArr[i + 1]) << 48) & 71776119061217280L)) + ((((long) bArr[i + 2]) << 40) & 280375465082880L)) + ((((long) bArr[i + 3]) << 32) & 1095216660480L)) + ((((long) bArr[i + 4]) << 24) & 4278190080L)) + ((((long) bArr[i + 5]) << 16) & 16711680)) + ((((long) bArr[i + 6]) << 8) & 65280)) + ((((long) bArr[i + 7]) << 0) & 255);
+        return (((((((((((long) bArr[i]) << 56) & -72057594037927936L)) + ((((long) bArr[i + 1]) << 48) & 71776119061217280L)) + ((((long) bArr[i + 2]) << 40) & 280375465082880L)) + ((((long) bArr[i + 3]) << 32) & 1095216660480L)) + ((((long) bArr[i + 4]) << 24) & 4278190080L)) + ((((long) bArr[i + 5]) << 16) & 16711680)) + ((((long) bArr[i + 6]) << 8) & 65280)) + ((((long) bArr[i + 7]) << 0) & 255);
     }
 
     public static int get_rand_32() {
@@ -189,7 +189,7 @@ public class util {
                     return str2;
                 }
                 boolean nextBoolean = new Random().nextBoolean();
-                str = str2 + String.valueOf((char) ((nextBoolean ? 97 : 65) + Math.abs(seed[i2] % 26)));
+                str = str2 + (char) ((nextBoolean ? 97 : 65) + Math.abs(seed[i2] % 26));
                 i = i2 + 1;
             }
         } catch (Throwable th) {
@@ -245,7 +245,7 @@ public class util {
         if (bArr == null) {
             return 0;
         }
-        return (long) bArr.length;
+        return bArr.length;
     }
 
     public static byte get_char(byte b) {
@@ -370,10 +370,7 @@ public class util {
     }
 
     public static boolean is_wap_retry(Context context) {
-        if (get_net_retry_type(context) == 0) {
-            return false;
-        }
-        return true;
+        return get_net_retry_type(context) != 0;
     }
 
     public static String get_apn_string(Context context) {
@@ -843,7 +840,7 @@ public class util {
     }
 
     public static boolean shouldKick(int i) {
-        return (i == -1000 || i == 257 || i == -1026) ? false : true;
+        return i != -1000 && i != 257 && i != -1026;
     }
 
     public static long constructSalt() {

@@ -35,7 +35,7 @@ public final class FoldingInfo {
     public FoldingInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83653, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.beatType = BeatTypeEnum.values()[0];
@@ -45,23 +45,23 @@ public final class FoldingInfo {
 
     public BeatTypeEnum getBeatType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83653, (short) 3);
-        return redirector != null ? (BeatTypeEnum) redirector.redirect((short) 3, (Object) this) : this.beatType;
+        return redirector != null ? (BeatTypeEnum) redirector.redirect((short) 3, this) : this.beatType;
     }
 
     public String getGreyPrompt() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83653, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.greyPrompt;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.greyPrompt;
     }
 
     public String getToast() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83653, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.toast;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.toast;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83653, (short) 6);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 6, (Object) this);
+            return (String) redirector.redirect((short) 6, this);
         }
         return "FoldingInfo{beatType=" + this.beatType + ",greyPrompt=" + this.greyPrompt + ",toast=" + this.toast + ",}";
     }

@@ -52,7 +52,7 @@ public final class GProRoleCreateInfo {
     public GProRoleCreateInfo(String str, long j, boolean z, GProRolePermission gProRolePermission) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, Long.valueOf(j), Boolean.valueOf(z), gProRolePermission});
+            iPatchRedirector.redirect((short) 2, this, str, Long.valueOf(j), Boolean.valueOf(z), gProRolePermission);
             return;
         }
         this.name = "";

@@ -78,7 +78,7 @@ public final class GProGuildThemeInfo implements Serializable {
     public GProGuildThemeInfo(int i, ArrayList<Integer> arrayList, String str, String str2, byte[] bArr, String str3, String str4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), arrayList, str, str2, bArr, str3, str4});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), arrayList, str, str2, bArr, str3, str4);
             return;
         }
         this.serialVersionUID = 1L;

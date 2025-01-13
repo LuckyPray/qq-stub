@@ -35,34 +35,34 @@ public final class VASPersonalVipNumberInfo {
     public VASPersonalVipNumberInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95039, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public Integer getAppId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95039, (short) 3);
-        return redirector != null ? (Integer) redirector.redirect((short) 3, (Object) this) : this.appId;
+        return redirector != null ? (Integer) redirector.redirect((short) 3, this) : this.appId;
     }
 
     public Integer getItemId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95039, (short) 4);
-        return redirector != null ? (Integer) redirector.redirect((short) 4, (Object) this) : this.itemId;
+        return redirector != null ? (Integer) redirector.redirect((short) 4, this) : this.itemId;
     }
 
     public Integer getNumberIdx() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95039, (short) 6);
-        return redirector != null ? (Integer) redirector.redirect((short) 6, (Object) this) : this.numberIdx;
+        return redirector != null ? (Integer) redirector.redirect((short) 6, this) : this.numberIdx;
     }
 
     public Integer getNumberItemId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95039, (short) 5);
-        return redirector != null ? (Integer) redirector.redirect((short) 5, (Object) this) : this.numberItemId;
+        return redirector != null ? (Integer) redirector.redirect((short) 5, this) : this.numberItemId;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95039, (short) 7);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 7, (Object) this);
+            return (String) redirector.redirect((short) 7, this);
         }
         return "VASPersonalVipNumberInfo{appId=" + this.appId + ",itemId=" + this.itemId + ",numberItemId=" + this.numberItemId + ",numberIdx=" + this.numberIdx + ",}";
     }

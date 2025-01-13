@@ -49,7 +49,7 @@ public class BasicClassTypeUtil {
                 splitPoint = mapPoint;
             }
         }
-        addType(type, fullType.substring(point, fullType.length()));
+        addType(type, fullType.substring(point));
         return type;
     }
 
@@ -115,12 +115,12 @@ public class BasicClassTypeUtil {
             returnObject = createClassByName(name);
 
             if (returnObject instanceof String) {
-                if ("Array".equals((String) (returnObject))) {
+                if ("Array".equals(returnObject)) {
                     if (last == null) {
                         //只支持byte
                         returnObject = Array.newInstance(Byte.class, 0);
                     }
-                } else if ("?".equals((String) (returnObject))) {
+                } else if ("?".equals(returnObject)) {
 
                 } else {
                     if (last == null) {
@@ -287,10 +287,7 @@ public class BasicClassTypeUtil {
             return true;
         } else if (name.equals("Short")) {
             return true;
-        } else if (name.equals("Char")) {
-            return true;
-        }
-        return false;
+        } else return name.equals("Char");
     }
 
     public static String getClassTransName(String name) {

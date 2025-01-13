@@ -40,49 +40,49 @@ public final class GroupHonor {
     public GroupHonor() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88373, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public ArrayList<Integer> getHonorIds() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88373, (short) 4);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 4, (Object) this) : this.honorIds;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 4, this) : this.honorIds;
     }
 
     public Integer getLevel() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88373, (short) 5);
-        return redirector != null ? (Integer) redirector.redirect((short) 5, (Object) this) : this.level;
+        return redirector != null ? (Integer) redirector.redirect((short) 5, this) : this.level;
     }
 
     public Integer getOldLevel() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88373, (short) 6);
-        return redirector != null ? (Integer) redirector.redirect((short) 6, (Object) this) : this.oldLevel;
+        return redirector != null ? (Integer) redirector.redirect((short) 6, this) : this.oldLevel;
     }
 
     public Long getRankSeq() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88373, (short) 7);
-        return redirector != null ? (Long) redirector.redirect((short) 7, (Object) this) : this.rankSeq;
+        return redirector != null ? (Long) redirector.redirect((short) 7, this) : this.rankSeq;
     }
 
     public Integer getRichFlag() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88373, (short) 3);
-        return redirector != null ? (Integer) redirector.redirect((short) 3, (Object) this) : this.richFlag;
+        return redirector != null ? (Integer) redirector.redirect((short) 3, this) : this.richFlag;
     }
 
     public Integer getTitleId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88373, (short) 8);
-        return redirector != null ? (Integer) redirector.redirect((short) 8, (Object) this) : this.titleId;
+        return redirector != null ? (Integer) redirector.redirect((short) 8, this) : this.titleId;
     }
 
     public String getUniqueTitle() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88373, (short) 9);
-        return redirector != null ? (String) redirector.redirect((short) 9, (Object) this) : this.uniqueTitle;
+        return redirector != null ? (String) redirector.redirect((short) 9, this) : this.uniqueTitle;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88373, (short) 10);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 10, (Object) this);
+            return (String) redirector.redirect((short) 10, this);
         }
         return "GroupHonor{richFlag=" + this.richFlag + ",honorIds=" + this.honorIds + ",level=" + this.level + ",oldLevel=" + this.oldLevel + ",rankSeq=" + this.rankSeq + ",titleId=" + this.titleId + ",uniqueTitle=" + this.uniqueTitle + ",}";
     }

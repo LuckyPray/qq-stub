@@ -140,7 +140,7 @@ public final class GProGetRecommendHotReq implements Serializable {
     public GProGetRecommendHotReq(GProBottomTabSourceInfo gProBottomTabSourceInfo, byte[] bArr, int i, int i2, String str, byte[] bArr2, ArrayList<GProConditionalTag> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, gProBottomTabSourceInfo, bArr, Integer.valueOf(i), Integer.valueOf(i2), str, bArr2, arrayList});
+            iPatchRedirector.redirect((short) 2, this, gProBottomTabSourceInfo, bArr, Integer.valueOf(i), Integer.valueOf(i2), str, bArr2, arrayList);
             return;
         }
         this.serialVersionUID = 1L;

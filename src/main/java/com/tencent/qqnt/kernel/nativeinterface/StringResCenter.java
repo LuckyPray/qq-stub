@@ -8,7 +8,7 @@ public interface StringResCenter {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/StringResCenter$CppProxy.class */
-    public static final class CppProxy implements StringResCenter {
+    final class CppProxy implements StringResCenter {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

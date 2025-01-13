@@ -53,7 +53,7 @@ public final class GProRiskMemberGroupInfo {
     public GProRiskMemberGroupInfo(long j, String str, ArrayList<GProBlackUserInfo> arrayList, int i) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, arrayList, Integer.valueOf(i)});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, arrayList, Integer.valueOf(i));
             return;
         }
         this.groupName = "";

@@ -132,7 +132,7 @@ public final class FirstViewDirectMsgNotifyInfo {
     public FirstViewDirectMsgNotifyInfo(int i, long j, long j2, MsgAbstract msgAbstract, long j3, byte[] bArr, boolean z, long j4, long j5, int i2, ArrayList<Integer> arrayList, String str, String str2, String str3, String str4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), Long.valueOf(j), Long.valueOf(j2), msgAbstract, Long.valueOf(j3), bArr, Boolean.valueOf(z), Long.valueOf(j4), Long.valueOf(j5), Integer.valueOf(i2), arrayList, str, str2, str3, str4});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), Long.valueOf(j), Long.valueOf(j2), msgAbstract, Long.valueOf(j3), bArr, Boolean.valueOf(z), Long.valueOf(j4), Long.valueOf(j5), Integer.valueOf(i2), arrayList, str, str2, str3, str4);
             return;
         }
         this.msgAbstract = new MsgAbstract();

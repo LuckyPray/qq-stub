@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public interface IKernelTestPerformanceService {
 
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelTestPerformanceService$CppProxy.class */
-    public static final class CppProxy implements IKernelTestPerformanceService {
+    final class CppProxy implements IKernelTestPerformanceService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

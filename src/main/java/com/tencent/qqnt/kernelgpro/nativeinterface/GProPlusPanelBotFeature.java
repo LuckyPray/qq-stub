@@ -68,7 +68,7 @@ public final class GProPlusPanelBotFeature {
     public GProPlusPanelBotFeature(GProBotInfo gProBotInfo, GProBotFeatureInfo gProBotFeatureInfo, GProBotFeatureInfo gProBotFeatureInfo2, String str, String str2, String str3) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, gProBotInfo, gProBotFeatureInfo, gProBotFeatureInfo2, str, str2, str3});
+            iPatchRedirector.redirect((short) 2, this, gProBotInfo, gProBotFeatureInfo, gProBotFeatureInfo2, str, str2, str3);
             return;
         }
         this.botInfo = new GProBotInfo();

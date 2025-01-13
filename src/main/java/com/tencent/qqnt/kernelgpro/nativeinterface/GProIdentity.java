@@ -55,7 +55,7 @@ public final class GProIdentity implements Serializable {
     public GProIdentity(int i, String str, int i2, byte[] bArr) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, Integer.valueOf(i2), bArr});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), str, Integer.valueOf(i2), bArr);
             return;
         }
         this.serialVersionUID = 1L;

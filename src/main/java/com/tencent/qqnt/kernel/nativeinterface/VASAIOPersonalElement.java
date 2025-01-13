@@ -36,7 +36,7 @@ public final class VASAIOPersonalElement {
     public VASAIOPersonalElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94971, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.vipNumbers = new ArrayList<>();
         }
@@ -44,28 +44,28 @@ public final class VASAIOPersonalElement {
 
     public Long getTroopNameColorId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94971, (short) 3);
-        return redirector != null ? (Long) redirector.redirect((short) 3, (Object) this) : this.troopNameColorId;
+        return redirector != null ? (Long) redirector.redirect((short) 3, this) : this.troopNameColorId;
     }
 
     public Integer getVaDataChangeRand() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94971, (short) 5);
-        return redirector != null ? (Integer) redirector.redirect((short) 5, (Object) this) : this.vaDataChangeRand;
+        return redirector != null ? (Integer) redirector.redirect((short) 5, this) : this.vaDataChangeRand;
     }
 
     public VASPersonalNamePlate getVasPersonalNamePlate() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94971, (short) 6);
-        return redirector != null ? (VASPersonalNamePlate) redirector.redirect((short) 6, (Object) this) : this.vasPersonalNamePlate;
+        return redirector != null ? (VASPersonalNamePlate) redirector.redirect((short) 6, this) : this.vasPersonalNamePlate;
     }
 
     public ArrayList<VASPersonalVipNumberInfo> getVipNumbers() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94971, (short) 4);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 4, (Object) this) : this.vipNumbers;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 4, this) : this.vipNumbers;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(94971, (short) 7);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 7, (Object) this);
+            return (String) redirector.redirect((short) 7, this);
         }
         return "VASAIOPersonalElement{troopNameColorId=" + this.troopNameColorId + ",vipNumbers=" + this.vipNumbers + ",vaDataChangeRand=" + this.vaDataChangeRand + ",vasPersonalNamePlate=" + this.vasPersonalNamePlate + ",}";
     }

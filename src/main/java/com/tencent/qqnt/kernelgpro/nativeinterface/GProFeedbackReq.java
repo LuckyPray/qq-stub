@@ -106,7 +106,7 @@ public final class GProFeedbackReq {
     public GProFeedbackReq(String str, String str2, String str3, String str4, GProItemCbData gProItemCbData) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, str2, str3, str4, gProItemCbData});
+            iPatchRedirector.redirect((short) 2, this, str, str2, str3, str4, gProItemCbData);
             return;
         }
         this.scene = "";

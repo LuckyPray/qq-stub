@@ -34,24 +34,24 @@ public final class VASMsgIceBreak {
     public VASMsgIceBreak() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95006, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public Integer getIsIceBreakMsg() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95006, (short) 4);
-        return redirector != null ? (Integer) redirector.redirect((short) 4, (Object) this) : this.isIceBreakMsg;
+        return redirector != null ? (Integer) redirector.redirect((short) 4, this) : this.isIceBreakMsg;
     }
 
     public Integer getTemplateID() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95006, (short) 3);
-        return redirector != null ? (Integer) redirector.redirect((short) 3, (Object) this) : this.templateID;
+        return redirector != null ? (Integer) redirector.redirect((short) 3, this) : this.templateID;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95006, (short) 5);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 5, (Object) this);
+            return (String) redirector.redirect((short) 5, this);
         }
         return "VASMsgIceBreak{templateID=" + this.templateID + ",isIceBreakMsg=" + this.isIceBreakMsg + ",}";
     }
@@ -59,7 +59,7 @@ public final class VASMsgIceBreak {
     public VASMsgIceBreak(Integer num, Integer num2) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95006, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, (Object) num, (Object) num2);
+            redirector.redirect((short) 2, this, num, num2);
             return;
         }
         this.templateID = num;

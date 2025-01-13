@@ -52,7 +52,7 @@ public final class GProVoiceSmobaGameRoomManageSysMsg {
     public GProVoiceSmobaGameRoomManageSysMsg(GProVoiceSmobaGameBaseRoomInfo gProVoiceSmobaGameBaseRoomInfo, GProVoiceSmobaGameSmobaRoomInfo gProVoiceSmobaGameSmobaRoomInfo, GProVoiceSmobaGameRoomStateInfo gProVoiceSmobaGameRoomStateInfo, int i) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, gProVoiceSmobaGameBaseRoomInfo, gProVoiceSmobaGameSmobaRoomInfo, gProVoiceSmobaGameRoomStateInfo, Integer.valueOf(i)});
+            iPatchRedirector.redirect((short) 2, this, gProVoiceSmobaGameBaseRoomInfo, gProVoiceSmobaGameSmobaRoomInfo, gProVoiceSmobaGameRoomStateInfo, Integer.valueOf(i));
             return;
         }
         this.roomInfo = new GProVoiceSmobaGameBaseRoomInfo();

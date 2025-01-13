@@ -62,7 +62,7 @@ public final class GProRecommendV2Label implements Serializable {
     public GProRecommendV2Label(String str, GProRecommendV2Color gProRecommendV2Color, GProRecommendV2Color gProRecommendV2Color2, int i, int i2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, str, gProRecommendV2Color, gProRecommendV2Color2, Integer.valueOf(i), Integer.valueOf(i2)});
+            iPatchRedirector.redirect((short) 2, this, str, gProRecommendV2Color, gProRecommendV2Color2, Integer.valueOf(i), Integer.valueOf(i2));
             return;
         }
         this.serialVersionUID = 1L;

@@ -122,7 +122,7 @@ public final class GProGuild implements Serializable {
     public GProGuild(int i, String str, long j, GProGuildInfo gProGuildInfo, GProCmdUinInfo gProCmdUinInfo, int i2) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Integer.valueOf(i), str, Long.valueOf(j), gProGuildInfo, gProCmdUinInfo, Integer.valueOf(i2)});
+            iPatchRedirector.redirect((short) 2, this, Integer.valueOf(i), str, Long.valueOf(j), gProGuildInfo, gProCmdUinInfo, Integer.valueOf(i2));
             return;
         }
         this.serialVersionUID = 1L;

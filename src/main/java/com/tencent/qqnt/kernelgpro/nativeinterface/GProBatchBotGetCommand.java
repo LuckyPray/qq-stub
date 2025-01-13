@@ -83,7 +83,7 @@ public final class GProBatchBotGetCommand {
     public GProBatchBotGetCommand(ArrayList<Long> arrayList, ArrayList<Long> arrayList2, long j, long j2, GProBotClientInfo gProBotClientInfo, int i, int i2, long j3, long j4) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, arrayList, arrayList2, Long.valueOf(j), Long.valueOf(j2), gProBotClientInfo, Integer.valueOf(i), Integer.valueOf(i2), Long.valueOf(j3), Long.valueOf(j4)});
+            iPatchRedirector.redirect((short) 2, this, arrayList, arrayList2, Long.valueOf(j), Long.valueOf(j2), gProBotClientInfo, Integer.valueOf(i), Integer.valueOf(i2), Long.valueOf(j3), Long.valueOf(j4));
             return;
         }
         this.uins = new ArrayList<>();

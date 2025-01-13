@@ -34,7 +34,7 @@ public final class YoloGameResultElement {
     public YoloGameResultElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95199, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.userInfo = new ArrayList<>();
         }
@@ -42,13 +42,13 @@ public final class YoloGameResultElement {
 
     public ArrayList<YoloGameUserInfo> getUserInfo() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95199, (short) 3);
-        return redirector != null ? (ArrayList) redirector.redirect((short) 3, (Object) this) : this.userInfo;
+        return redirector != null ? (ArrayList) redirector.redirect((short) 3, this) : this.userInfo;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95199, (short) 4);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 4, (Object) this);
+            return (String) redirector.redirect((short) 4, this);
         }
         return "YoloGameResultElement{userInfo=" + this.userInfo + ",}";
     }
@@ -56,7 +56,7 @@ public final class YoloGameResultElement {
     public YoloGameResultElement(ArrayList<YoloGameUserInfo> arrayList) {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95199, (short) 2);
         if (redirector != null) {
-            redirector.redirect((short) 2, (Object) this, (Object) arrayList);
+            redirector.redirect((short) 2, this, arrayList);
             return;
         }
         this.userInfo = new ArrayList<>();

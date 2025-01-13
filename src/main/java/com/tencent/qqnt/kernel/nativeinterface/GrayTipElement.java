@@ -51,7 +51,7 @@ public final class GrayTipElement implements Serializable {
     public GrayTipElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
         }
@@ -59,93 +59,93 @@ public final class GrayTipElement implements Serializable {
 
     public AioOperateGrayTipElement getAioOpGrayTipElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 17);
-        return redirector != null ? (AioOperateGrayTipElement) redirector.redirect((short) 17, (Object) this) : this.aioOpGrayTipElement;
+        return redirector != null ? (AioOperateGrayTipElement) redirector.redirect((short) 17, this) : this.aioOpGrayTipElement;
     }
 
     public BlockGrayTipElement getBlockGrayTipElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 16);
-        return redirector != null ? (BlockGrayTipElement) redirector.redirect((short) 16, (Object) this) : this.blockGrayTipElement;
+        return redirector != null ? (BlockGrayTipElement) redirector.redirect((short) 16, this) : this.blockGrayTipElement;
     }
 
     public BuddyGrayElement getBuddyElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 8);
-        return redirector != null ? (BuddyGrayElement) redirector.redirect((short) 8, (Object) this) : this.buddyElement;
+        return redirector != null ? (BuddyGrayElement) redirector.redirect((short) 8, this) : this.buddyElement;
     }
 
     public BuddyReq getBuddyNotifyElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 12);
-        return redirector != null ? (BuddyReq) redirector.redirect((short) 12, (Object) this) : this.buddyNotifyElement;
+        return redirector != null ? (BuddyReq) redirector.redirect((short) 12, this) : this.buddyNotifyElement;
     }
 
     public EmojiReplyElement getEmojiReplyElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 6);
-        return redirector != null ? (EmojiReplyElement) redirector.redirect((short) 6, (Object) this) : this.emojiReplyElement;
+        return redirector != null ? (EmojiReplyElement) redirector.redirect((short) 6, this) : this.emojiReplyElement;
     }
 
     public EssenceElement getEssenceElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 10);
-        return redirector != null ? (EssenceElement) redirector.redirect((short) 10, (Object) this) : this.essenceElement;
+        return redirector != null ? (EssenceElement) redirector.redirect((short) 10, this) : this.essenceElement;
     }
 
     public FeedMsgElement getFeedMsgElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 9);
-        return redirector != null ? (FeedMsgElement) redirector.redirect((short) 9, (Object) this) : this.feedMsgElement;
+        return redirector != null ? (FeedMsgElement) redirector.redirect((short) 9, this) : this.feedMsgElement;
     }
 
     public FileReceiptElement getFileReceiptElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 14);
-        return redirector != null ? (FileReceiptElement) redirector.redirect((short) 14, (Object) this) : this.fileReceiptElement;
+        return redirector != null ? (FileReceiptElement) redirector.redirect((short) 14, this) : this.fileReceiptElement;
     }
 
     public GroupGrayElement getGroupElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 7);
-        return redirector != null ? (GroupGrayElement) redirector.redirect((short) 7, (Object) this) : this.groupElement;
+        return redirector != null ? (GroupGrayElement) redirector.redirect((short) 7, this) : this.groupElement;
     }
 
     public GroupNotifyMsg getGroupNotifyElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 11);
-        return redirector != null ? (GroupNotifyMsg) redirector.redirect((short) 11, (Object) this) : this.groupNotifyElement;
+        return redirector != null ? (GroupNotifyMsg) redirector.redirect((short) 11, this) : this.groupNotifyElement;
     }
 
     public JsonGrayElement getJsonGrayTipElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 18);
-        return redirector != null ? (JsonGrayElement) redirector.redirect((short) 18, (Object) this) : this.jsonGrayTipElement;
+        return redirector != null ? (JsonGrayElement) redirector.redirect((short) 18, this) : this.jsonGrayTipElement;
     }
 
     public LocalGrayTipElement getLocalGrayTipElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 15);
-        return redirector != null ? (LocalGrayTipElement) redirector.redirect((short) 15, (Object) this) : this.localGrayTipElement;
+        return redirector != null ? (LocalGrayTipElement) redirector.redirect((short) 15, this) : this.localGrayTipElement;
     }
 
     public ProclamationElement getProclamationElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 5);
-        return redirector != null ? (ProclamationElement) redirector.redirect((short) 5, (Object) this) : this.proclamationElement;
+        return redirector != null ? (ProclamationElement) redirector.redirect((short) 5, this) : this.proclamationElement;
     }
 
     public RevokeElement getRevokeElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 4);
-        return redirector != null ? (RevokeElement) redirector.redirect((short) 4, (Object) this) : this.revokeElement;
+        return redirector != null ? (RevokeElement) redirector.redirect((short) 4, this) : this.revokeElement;
     }
 
     public int getSubElementType() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.subElementType;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.subElementType;
     }
 
     public WalletGrayTipElement getWalletGrayTipElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 19);
-        return redirector != null ? (WalletGrayTipElement) redirector.redirect((short) 19, (Object) this) : this.walletGrayTipElement;
+        return redirector != null ? (WalletGrayTipElement) redirector.redirect((short) 19, this) : this.walletGrayTipElement;
     }
 
     public XmlElement getXmlElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 13);
-        return redirector != null ? (XmlElement) redirector.redirect((short) 13, (Object) this) : this.xmlElement;
+        return redirector != null ? (XmlElement) redirector.redirect((short) 13, this) : this.xmlElement;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(88081, (short) 20);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 20, (Object) this);
+            return (String) redirector.redirect((short) 20, this);
         }
         return "GrayTipElement{subElementType=" + this.subElementType + ",revokeElement=" + this.revokeElement + ",proclamationElement=" + this.proclamationElement + ",emojiReplyElement=" + this.emojiReplyElement + ",groupElement=" + this.groupElement + ",buddyElement=" + this.buddyElement + ",feedMsgElement=" + this.feedMsgElement + ",essenceElement=" + this.essenceElement + ",groupNotifyElement=" + this.groupNotifyElement + ",buddyNotifyElement=" + this.buddyNotifyElement + ",xmlElement=" + this.xmlElement + ",fileReceiptElement=" + this.fileReceiptElement + ",localGrayTipElement=" + this.localGrayTipElement + ",blockGrayTipElement=" + this.blockGrayTipElement + ",aioOpGrayTipElement=" + this.aioOpGrayTipElement + ",jsonGrayTipElement=" + this.jsonGrayTipElement + ",walletGrayTipElement=" + this.walletGrayTipElement + ",}";
     }

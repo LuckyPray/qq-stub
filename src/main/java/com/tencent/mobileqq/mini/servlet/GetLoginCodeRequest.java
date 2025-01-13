@@ -8,7 +8,7 @@ import NS_MINI_INTERFACE.INTERFACE$StGetCodeRsp;
 public class GetLoginCodeRequest extends ProtoBufRequest {
     public static final String CMD_STRING = "LightAppSvc.mini_program_auth.GetCode";
     public static final String TAG = "GetLoginCodeRequest";
-    private INTERFACE$StGetCodeReq req;
+    private final INTERFACE$StGetCodeReq req;
 
     public GetLoginCodeRequest(String str) {
         throw new RuntimeException("stub");

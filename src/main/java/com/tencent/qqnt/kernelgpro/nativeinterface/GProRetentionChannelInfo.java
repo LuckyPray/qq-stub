@@ -78,7 +78,7 @@ public final class GProRetentionChannelInfo implements Serializable {
     public GProRetentionChannelInfo(long j, String str, String str2, String str3, String str4, String str5, ArrayList<GProRetentionChannelLabel> arrayList) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), str, str2, str3, str4, str5, arrayList});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), str, str2, str3, str4, str5, arrayList);
             return;
         }
         this.serialVersionUID = 1L;

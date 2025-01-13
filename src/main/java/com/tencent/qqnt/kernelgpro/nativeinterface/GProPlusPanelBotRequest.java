@@ -101,7 +101,7 @@ public final class GProPlusPanelBotRequest {
     public GProPlusPanelBotRequest(long j, long j2, int i, int i2, GProBotClientInfo gProBotClientInfo) {
         IPatchRedirector iPatchRedirector = $redirector_;
         if (iPatchRedirector != null && iPatchRedirector.hasPatch((short) 2)) {
-            iPatchRedirector.redirect((short) 2, new Object[]{this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), gProBotClientInfo});
+            iPatchRedirector.redirect((short) 2, this, Long.valueOf(j), Long.valueOf(j2), Integer.valueOf(i), Integer.valueOf(i2), gProBotClientInfo);
             return;
         }
         this.clientInfo = new GProBotClientInfo();

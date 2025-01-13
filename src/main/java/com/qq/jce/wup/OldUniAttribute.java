@@ -20,7 +20,7 @@ class OldUniAttribute {
     /**
      * 存储get后的数据 避免多次解析
      */
-    private HashMap<String, Object> cachedData = new HashMap<String, Object>();
+    private final HashMap<String, Object> cachedData = new HashMap<String, Object>();
 
 
     protected String encodeName = "GBK";
@@ -333,7 +333,7 @@ class OldUniAttribute {
         HashMap<String, byte[]> h = new HashMap<String, byte[]>(1);
         h.put("", new byte[0]);
         _tempdata.put("", h);
-        _data = (HashMap<String, HashMap<String, byte[]>>) _is.readMap(_tempdata, 0, false);
+        _data = _is.readMap(_tempdata, 0, false);
     }
 
 

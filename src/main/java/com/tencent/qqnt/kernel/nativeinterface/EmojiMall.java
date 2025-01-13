@@ -34,24 +34,24 @@ public final class EmojiMall {
     public EmojiMall() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82887, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         }
     }
 
     public int getEmojiId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82887, (short) 4);
-        return redirector != null ? ((Integer) redirector.redirect((short) 4, (Object) this)).intValue() : this.emojiId;
+        return redirector != null ? ((Integer) redirector.redirect((short) 4, this)).intValue() : this.emojiId;
     }
 
     public int getPackageId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82887, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.packageId;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.packageId;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(82887, (short) 5);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 5, (Object) this);
+            return (String) redirector.redirect((short) 5, this);
         }
         return "EmojiMall{packageId=" + this.packageId + ",emojiId=" + this.emojiId + ",}";
     }

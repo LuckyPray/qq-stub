@@ -3,6 +3,7 @@ package com.tencent.mobileqq.pb;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.UnsupportedEncodingException;
+import java.nio.charset.StandardCharsets;
 
 public final class CodedOutputStreamMicro {
     public static final int DEFAULT_BUFFER_SIZE = 4096;
@@ -177,12 +178,8 @@ public final class CodedOutputStreamMicro {
     }
 
     public static int computeStringSizeNoTag(String str) {
-        try {
-            byte[] bytes = str.getBytes("UTF-8");
-            return bytes.length + computeRawVarint32Size(bytes.length);
-        } catch (UnsupportedEncodingException e) {
-            throw new RuntimeException("UTF-8 not supported.");
-        }
+        byte[] bytes = str.getBytes(StandardCharsets.UTF_8);
+        return bytes.length + computeRawVarint32Size(bytes.length);
     }
 
     public static int computeTagSize(int i) {
@@ -350,7 +347,7 @@ public final class CodedOutputStreamMicro {
         if (i >= 0) {
             writeRawVarint32(i);
         } else {
-            writeRawVarint64((long) i);
+            writeRawVarint64(i);
         }
     }
 
@@ -487,7 +484,7 @@ public final class CodedOutputStreamMicro {
     }
 
     public void writeStringNoTag(String str) throws IOException {
-        byte[] bytes = str.getBytes("UTF-8");
+        byte[] bytes = str.getBytes(StandardCharsets.UTF_8);
         writeRawVarint32(bytes.length);
         writeRawBytes(bytes);
     }

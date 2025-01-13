@@ -36,7 +36,7 @@ public final class FeedMsgElement implements Serializable {
     public FeedMsgElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83356, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.serialVersionUID = 1L;
@@ -45,18 +45,18 @@ public final class FeedMsgElement implements Serializable {
 
     public String getContent() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83356, (short) 4);
-        return redirector != null ? (String) redirector.redirect((short) 4, (Object) this) : this.content;
+        return redirector != null ? (String) redirector.redirect((short) 4, this) : this.content;
     }
 
     public long getTinyId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83356, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.tinyId;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.tinyId;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83356, (short) 5);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 5, (Object) this);
+            return (String) redirector.redirect((short) 5, this);
         }
         return "FeedMsgElement{tinyId=" + this.tinyId + ",content=" + this.content + ",}";
     }

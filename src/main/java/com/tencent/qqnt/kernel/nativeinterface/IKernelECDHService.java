@@ -8,7 +8,7 @@ public interface IKernelECDHService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelECDHService$CppProxy.class */
-    public static final class CppProxy implements IKernelECDHService {
+    final class CppProxy implements IKernelECDHService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

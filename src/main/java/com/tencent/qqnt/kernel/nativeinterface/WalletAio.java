@@ -53,7 +53,7 @@ public final class WalletAio {
     public WalletAio() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
             return;
         }
         this.title = "";
@@ -75,113 +75,113 @@ public final class WalletAio {
 
     public String getActionsPriority() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 13);
-        return redirector != null ? (String) redirector.redirect((short) 13, (Object) this) : this.actionsPriority;
+        return redirector != null ? (String) redirector.redirect((short) 13, this) : this.actionsPriority;
     }
 
     public String getAioImageLeft() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 20);
-        return redirector != null ? (String) redirector.redirect((short) 20, (Object) this) : this.aioImageLeft;
+        return redirector != null ? (String) redirector.redirect((short) 20, this) : this.aioImageLeft;
     }
 
     public String getAioImageRight() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 21);
-        return redirector != null ? (String) redirector.redirect((short) 21, (Object) this) : this.aioImageRight;
+        return redirector != null ? (String) redirector.redirect((short) 21, this) : this.aioImageRight;
     }
 
     public int getBackground() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 3);
-        return redirector != null ? ((Integer) redirector.redirect((short) 3, (Object) this)).intValue() : this.background;
+        return redirector != null ? ((Integer) redirector.redirect((short) 3, this)).intValue() : this.background;
     }
 
     public String getBlackStripe() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 9);
-        return redirector != null ? (String) redirector.redirect((short) 9, (Object) this) : this.blackStripe;
+        return redirector != null ? (String) redirector.redirect((short) 9, this) : this.blackStripe;
     }
 
     public String getCftImage() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 22);
-        return redirector != null ? (String) redirector.redirect((short) 22, (Object) this) : this.cftImage;
+        return redirector != null ? (String) redirector.redirect((short) 22, this) : this.cftImage;
     }
 
     public String getContent() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 7);
-        return redirector != null ? (String) redirector.redirect((short) 7, (Object) this) : this.content;
+        return redirector != null ? (String) redirector.redirect((short) 7, this) : this.content;
     }
 
     public int getContentBgcolor() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 19);
-        return redirector != null ? ((Integer) redirector.redirect((short) 19, (Object) this)).intValue() : this.contentBgcolor;
+        return redirector != null ? ((Integer) redirector.redirect((short) 19, this)).intValue() : this.contentBgcolor;
     }
 
     public int getContentColor() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 18);
-        return redirector != null ? ((Integer) redirector.redirect((short) 18, (Object) this)).intValue() : this.contentColor;
+        return redirector != null ? ((Integer) redirector.redirect((short) 18, this)).intValue() : this.contentColor;
     }
 
     public int getIcon() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 4);
-        return redirector != null ? ((Integer) redirector.redirect((short) 4, (Object) this)).intValue() : this.icon;
+        return redirector != null ? ((Integer) redirector.redirect((short) 4, this)).intValue() : this.icon;
     }
 
     public String getIconUrl() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 17);
-        return redirector != null ? (String) redirector.redirect((short) 17, (Object) this) : this.iconUrl;
+        return redirector != null ? (String) redirector.redirect((short) 17, this) : this.iconUrl;
     }
 
     public String getJumpUrl() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 14);
-        return redirector != null ? (String) redirector.redirect((short) 14, (Object) this) : this.jumpUrl;
+        return redirector != null ? (String) redirector.redirect((short) 14, this) : this.jumpUrl;
     }
 
     public String getLinkUrl() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 8);
-        return redirector != null ? (String) redirector.redirect((short) 8, (Object) this) : this.linkUrl;
+        return redirector != null ? (String) redirector.redirect((short) 8, this) : this.linkUrl;
     }
 
     public String getNativeAndroid() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 16);
-        return redirector != null ? (String) redirector.redirect((short) 16, (Object) this) : this.nativeAndroid;
+        return redirector != null ? (String) redirector.redirect((short) 16, this) : this.nativeAndroid;
     }
 
     public String getNativeIOS() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 15);
-        return redirector != null ? (String) redirector.redirect((short) 15, (Object) this) : this.nativeIOS;
+        return redirector != null ? (String) redirector.redirect((short) 15, this) : this.nativeIOS;
     }
 
     public String getNotice() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 10);
-        return redirector != null ? (String) redirector.redirect((short) 10, (Object) this) : this.notice;
+        return redirector != null ? (String) redirector.redirect((short) 10, this) : this.notice;
     }
 
     public byte[] getPbReserve() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 23);
-        return redirector != null ? (byte[]) redirector.redirect((short) 23, (Object) this) : this.pbReserve;
+        return redirector != null ? (byte[]) redirector.redirect((short) 23, this) : this.pbReserve;
     }
 
     public String getSubTitle() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 6);
-        return redirector != null ? (String) redirector.redirect((short) 6, (Object) this) : this.subTitle;
+        return redirector != null ? (String) redirector.redirect((short) 6, this) : this.subTitle;
     }
 
     public int getSubtitleColor() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 12);
-        return redirector != null ? ((Integer) redirector.redirect((short) 12, (Object) this)).intValue() : this.subtitleColor;
+        return redirector != null ? ((Integer) redirector.redirect((short) 12, this)).intValue() : this.subtitleColor;
     }
 
     public String getTitle() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 5);
-        return redirector != null ? (String) redirector.redirect((short) 5, (Object) this) : this.title;
+        return redirector != null ? (String) redirector.redirect((short) 5, this) : this.title;
     }
 
     public int getTitleColor() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 11);
-        return redirector != null ? ((Integer) redirector.redirect((short) 11, (Object) this)).intValue() : this.titleColor;
+        return redirector != null ? ((Integer) redirector.redirect((short) 11, this)).intValue() : this.titleColor;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95123, (short) 24);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 24, (Object) this);
+            return (String) redirector.redirect((short) 24, this);
         }
         return "WalletAio{background=" + this.background + ",icon=" + this.icon + ",title=" + this.title + ",subTitle=" + this.subTitle + ",content=" + this.content + ",linkUrl=" + this.linkUrl + ",blackStripe=" + this.blackStripe + ",notice=" + this.notice + ",titleColor=" + this.titleColor + ",subtitleColor=" + this.subtitleColor + ",actionsPriority=" + this.actionsPriority + ",jumpUrl=" + this.jumpUrl + ",nativeIOS=" + this.nativeIOS + ",nativeAndroid=" + this.nativeAndroid + ",iconUrl=" + this.iconUrl + ",contentColor=" + this.contentColor + ",contentBgcolor=" + this.contentBgcolor + ",aioImageLeft=" + this.aioImageLeft + ",aioImageRight=" + this.aioImageRight + ",cftImage=" + this.cftImage + ",pbReserve=" + this.pbReserve + ",}";
     }

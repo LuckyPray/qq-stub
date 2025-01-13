@@ -42,6 +42,6 @@ public final class MemberRole {
     }
 
     public static MemberRole[] values() {
-        return (MemberRole[]) $VALUES.clone();
+        return $VALUES.clone();
     }
 }

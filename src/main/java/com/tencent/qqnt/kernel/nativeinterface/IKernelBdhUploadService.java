@@ -8,7 +8,7 @@ public interface IKernelBdhUploadService {
 
     /* compiled from: P */
     /* loaded from: classes.jar:com/tencent/qqnt/kernel/nativeinterface/IKernelBdhUploadService$CppProxy.class */
-    public static final class CppProxy implements IKernelBdhUploadService {
+    final class CppProxy implements IKernelBdhUploadService {
         static final boolean $assertionsDisabled = false;
         private final AtomicBoolean destroyed = new AtomicBoolean(false);
         private final long nativeRef;

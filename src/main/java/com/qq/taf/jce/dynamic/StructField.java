@@ -11,7 +11,7 @@ public class StructField extends JceField {
 		}
 	};
 	
-	private JceField[]		data;
+	private final JceField[]		data;
 	
 	StructField(JceField[] data, int tag) {
 		super(tag);
@@ -30,11 +30,9 @@ public class StructField extends JceField {
 		}
 		int p = -n - 1;
 		JceField[] rs = new JceField[data.length + 1];
-		for (int i = 0; i < p; ++i)
-			rs[i] = data[i];
+        System.arraycopy(data, 0, rs, 0, p);
 		rs[p] = field;
-		for (int i = p; i < data.length; ++i) 
-			rs[i + 1] = data[i];
+        if (data.length - p >= 0) System.arraycopy(data, p, rs, p + 1, data.length - p);
 		return false;
 	}
 	

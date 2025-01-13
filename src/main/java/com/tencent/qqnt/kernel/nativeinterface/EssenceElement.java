@@ -37,7 +37,7 @@ public final class EssenceElement implements Serializable {
     public EssenceElement() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83101, (short) 1);
         if (redirector != null) {
-            redirector.redirect((short) 1, (Object) this);
+            redirector.redirect((short) 1, this);
         } else {
             this.serialVersionUID = 1L;
         }
@@ -45,23 +45,23 @@ public final class EssenceElement implements Serializable {
 
     public int getIsSetEssence() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83101, (short) 5);
-        return redirector != null ? ((Integer) redirector.redirect((short) 5, (Object) this)).intValue() : this.isSetEssence;
+        return redirector != null ? ((Integer) redirector.redirect((short) 5, this)).intValue() : this.isSetEssence;
     }
 
     public long getMsgSeq() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83101, (short) 4);
-        return redirector != null ? ((Long) redirector.redirect((short) 4, (Object) this)).longValue() : this.msgSeq;
+        return redirector != null ? ((Long) redirector.redirect((short) 4, this)).longValue() : this.msgSeq;
     }
 
     public long getTinyId() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83101, (short) 3);
-        return redirector != null ? ((Long) redirector.redirect((short) 3, (Object) this)).longValue() : this.tinyId;
+        return redirector != null ? ((Long) redirector.redirect((short) 3, this)).longValue() : this.tinyId;
     }
 
     public String toString() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(83101, (short) 6);
         if (redirector != null) {
-            return (String) redirector.redirect((short) 6, (Object) this);
+            return (String) redirector.redirect((short) 6, this);
         }
         return "EssenceElement{tinyId=" + this.tinyId + ",msgSeq=" + this.msgSeq + ",isSetEssence=" + this.isSetEssence + ",}";
     }
