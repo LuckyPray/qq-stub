@@ -39,6 +39,7 @@ public final class VASMsgNamePlate {
     Integer namePlateId;
     Integer namePlateType;
     Integer vipStarFlag;
+    public Integer aioBadgeShowSwitch;
 
     public VASMsgNamePlate() {
         IPatchRedirector redirector = PatchRedirectCenter.getRedirector(95010, (short) 1);
@@ -130,5 +131,21 @@ public final class VASMsgNamePlate {
         this.carouselNamePlateIds = arrayList;
         this.extendNamePlateId = num9;
         this.gameNamePlateId = num10;
+    }
+
+    public VASMsgNamePlate(Integer num, Integer num2, Integer num3, Integer num4, Integer num5, Integer num6, Integer num7, Integer num8, ArrayList<Integer> arrayList, Integer num9, Integer num10, Integer num11) {
+        new ArrayList();
+        this.msgVipType = num;
+        this.msgVipLevel = num2;
+        this.msgBigClubFlag = num3;
+        this.msgBigClubLevel = num4;
+        this.grayNamePlate = num5;
+        this.namePlateType = num6;
+        this.vipStarFlag = num7;
+        this.namePlateId = num8;
+        this.carouselNamePlateIds = arrayList;
+        this.extendNamePlateId = num9;
+        this.gameNamePlateId = num10;
+        this.aioBadgeShowSwitch = num11;
     }
 }
